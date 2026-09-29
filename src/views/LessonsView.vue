@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue"
-import { loadManifest } from "../services/vocabulary.ts"
-import type { CourseManifest} from "../types/vocabulary.ts"
+import { loadManifest } from "../services/vocabulary"
+import type { CourseManifest} from "../types/vocabulary"
 
 const courses = ref<CourseManifest[]>([])
 const loading = ref(true)
@@ -12,8 +12,8 @@ onMounted(async () => {
       const manifest = await loadManifest()
       courses.value = manifest.courses
     } catch (error) {
-      error.value = 'Failed to load courses'
-      console.log(error)
+        error.value = 'Failed to load courses'
+        console.error(error)
     } finally {
       loading.value = false
     }

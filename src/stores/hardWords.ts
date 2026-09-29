@@ -4,7 +4,7 @@ import { defineStore } from 'pinia'
 const STORAGE_KEY = 'english-upgrade-hard-words'
 
 interface HardWord {
-    word: Word
+    word: string
     meaning: string
     addedAt: number
 }
@@ -19,7 +19,7 @@ export const useHardWordsStore = defineStore(
         const wordIds = computed(() => {
             return new Set(
                 hardWords.value.map(
-                    item => item.wordId
+                    item => item.word
                 )
             )
         })
