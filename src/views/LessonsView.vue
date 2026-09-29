@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue"
 import { loadManifest } from "../services/vocabulary"
-import type { CourseManifest} from "../types/vocabulary"
+import type { CourseManifest} from "../types/vocabulary.ts"
 
 const courses = ref<CourseManifest[]>([])
 const loading = ref(true)
