@@ -1,0 +1,977 @@
+[
+  {
+    "word": "allocate",
+    "meaning": "اختصاص دادن؛ تخصیص دادن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "assign",
+      "distribute"
+    ],
+    "examples": [
+      [
+        "The team discussed allocate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain allocate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, allocate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "At the beginning of the quarter, the engineering manager had to allocate time between feature development, bug fixes, and infrastructure work. The team initially wanted to spend almost all of its capacity on new features because several customers were waiting for them. After reviewing recent incidents, however, the manager allocated a fixed portion of the sprint to reliability work as well. This did not make every request disappear, but it created a more realistic plan. By making the allocation visible, the team could explain why some tasks were scheduled later instead of constantly changing priorities whenever a new request arrived."
+  },
+  {
+    "word": "approximate",
+    "meaning": "تقریبی؛ حدودی",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "rough",
+      "estimated"
+    ],
+    "examples": [
+      [
+        "The team discussed approximate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain approximate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, approximate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The finance team did not yet have final numbers for the next quarter, so the manager prepared an approximate budget. The figures were based on current contracts, expected infrastructure usage, and several assumptions about sales. Nobody treated the numbers as final. They were useful because they gave the team a starting point for planning and showed where the largest costs might appear. As new information arrived, the estimates were updated. An approximate number can be valuable when a decision cannot wait for perfect information, provided that everyone understands its level of uncertainty and knows which assumptions may change later."
+  },
+  {
+    "word": "coincide",
+    "meaning": "همزمان شدن؛ مطابقت داشتن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "overlap",
+      "correspond"
+    ],
+    "examples": [
+      [
+        "The team discussed coincide before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain coincide more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, coincide can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The support manager noticed that a sudden increase in customer complaints seemed to coincide with a software deployment. That timing did not prove that the deployment had caused the problem, but it gave the engineers a useful direction for investigation. They compared logs from before and after the release and found that one configuration value had changed. A rollback reduced the errors immediately. Later testing confirmed the connection. The team recorded the incident carefully because events that coincide in time are not necessarily related. Good troubleshooting requires evidence that separates a meaningful relationship from a simple coincidence."
+  },
+  {
+    "word": "comprehensive",
+    "meaning": "جامع؛ کامل",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "thorough",
+      "complete"
+    ],
+    "examples": [
+      [
+        "The team discussed comprehensive before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain comprehensive more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, comprehensive can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "Before replacing the old authentication service, the team performed a comprehensive review of every application that depended on it. They listed API calls, scheduled jobs, administrative tools, and less obvious internal integrations. The review took several days because some dependencies were documented poorly. Once the list was complete, the migration plan became much clearer. The team could decide which applications needed changes and which could continue working without modification. A comprehensive review does not mean collecting information without purpose. It means covering the important parts of a system so that a major change is not based on an incomplete picture."
+  },
+  {
+    "word": "conceive",
+    "meaning": "تصور کردن؛ طراحی کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "imagine",
+      "formulate"
+    ],
+    "examples": [
+      [
+        "The team discussed conceive before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain conceive more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, conceive can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The original idea for the reporting feature was simple: customers would choose a date range and download a file. As the requirements grew, the team had to conceive a design that could handle large datasets without making the browser wait. They decided to generate reports in the background and notify users when files were ready. The concept changed significantly from the first version, but the underlying customer need remained the same. Good design often begins with a clear understanding of the problem and then evolves as engineers discover practical constraints. A useful solution does not have to match the first idea exactly."
+  },
+  {
+    "word": "conform",
+    "meaning": "مطابقت داشتن؛ پیروی کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "comply",
+      "adhere"
+    ],
+    "examples": [
+      [
+        "The team discussed conform before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain conform more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, conform can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The payment integration had to conform to the provider's required request format. A small difference in a field name was enough to cause validation errors, even though the rest of the payload looked correct. The developer compared the application's request with the provider's documented example and found the mismatch. After correcting it, the integration worked normally. The team then added an automated test to ensure future changes would continue to conform to the external contract. When software communicates with another system, following the agreed format is often just as important as writing correct internal logic."
+  },
+  {
+    "word": "consecutive",
+    "meaning": "متوالی؛ پشت سر هم",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "successive",
+      "continuous"
+    ],
+    "examples": [
+      [
+        "The team discussed consecutive before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain consecutive more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, consecutive can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "During a busy afternoon, the monitoring system detected three consecutive timeouts from the same internal service. The first timeout was ignored because the service recovered quickly. When the next two occurred within a short period, the alert threshold was reached. An engineer checked the dependency and found that its connection pool was nearly exhausted. The team increased the appropriate limit and monitored the service carefully afterward. The repeated failures were more informative than a single isolated error. Looking at consecutive events can reveal a pattern that is invisible when each event is considered separately."
+  },
+  {
+    "word": "contrary",
+    "meaning": "مخالف؛ برخلاف",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "opposite",
+      "adverse"
+    ],
+    "examples": [
+      [
+        "The team discussed contrary before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain contrary more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, contrary can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "Contrary to the team's initial expectation, the database optimization did not improve the slowest customer requests. The average response time became slightly better, but a smaller group of requests remained extremely slow. Further investigation showed that those requests were waiting on an external API rather than the database. The result was useful because it prevented the team from continuing to optimize the wrong component. Technical work often produces evidence that challenges an initial assumption. When the evidence points in a contrary direction, changing the investigation is usually more productive than trying to force the original explanation to fit."
+  },
+  {
+    "word": "convey",
+    "meaning": "منتقل کردن؛ رساندن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "communicate",
+      "express"
+    ],
+    "examples": [
+      [
+        "The team discussed convey before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain convey more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, convey can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The incident report needed to convey what happened without overwhelming readers with every technical detail. The engineer began with the customer impact, then described the timeline, the immediate mitigation, and the remaining follow-up work. Detailed logs were attached separately for people who needed them. This structure made the report useful to both technical and non-technical readers. Good communication is not simply about providing more information. It is about conveying the important information in a form that the intended audience can understand and act on. The same incident can require different levels of technical detail for different groups."
+  },
+  {
+    "word": "correspond",
+    "meaning": "مطابقت داشتن؛ مکاتبه کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "match",
+      "align"
+    ],
+    "examples": [
+      [
+        "The team discussed correspond before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain correspond more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, correspond can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The order shown in the customer portal did not correspond to the record displayed by the internal administration panel. Both systems used the same order ID, but one showed an outdated status. Developers compared timestamps and discovered that an event-processing job had stopped temporarily. Once the worker restarted, new orders began to correspond correctly across both interfaces. The team also added monitoring for delayed events so the problem would be visible sooner next time. When two representations of the same business object do not correspond, checking the data flow between them can be more useful than inspecting only the user interface."
+  },
+  {
+    "word": "deviate",
+    "meaning": "منحرف شدن؛ فاصله گرفتن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "diverge",
+      "depart"
+    ],
+    "examples": [
+      [
+        "The team discussed deviate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain deviate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, deviate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The deployment procedure was designed to be followed step by step, but one engineer deviated from it during an emergency. He manually changed a production setting because the automated process was temporarily unavailable. The change solved the immediate issue, but it also created uncertainty about the server's final configuration. After the incident, the team documented the manual action and added a safer recovery procedure. Deviating from a standard process is sometimes necessary, especially during an outage, but the deviation should be recorded and reviewed afterward. Otherwise, temporary fixes can quietly become permanent sources of inconsistency."
+  },
+  {
+    "word": "discrete",
+    "meaning": "جدا و مستقل",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "separate",
+      "distinct"
+    ],
+    "examples": [
+      [
+        "The team discussed discrete before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain discrete more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, discrete can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The analytics service processes events as discrete records rather than as one large stream of mutable data. Each record contains a timestamp, an event type, and the information needed for later analysis. This structure makes it easier to retry failed processing because an individual event can be handled again without rebuilding the entire dataset. The team still groups events when generating reports, but the underlying records remain separate. Designing data as discrete units can simplify processing and debugging when individual operations need to be tracked, retried, or audited independently."
+  },
+  {
+    "word": "dynamic",
+    "meaning": "پویا؛ متغیر",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "changing",
+      "fluid"
+    ],
+    "examples": [
+      [
+        "The team discussed dynamic before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain dynamic more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, dynamic can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The pricing rules were dynamic because different customers could receive different discounts depending on their contract and usage. Instead of hard-coding every possibility into the checkout controller, the developers created a small rules component that could evaluate the customer's current conditions. Product managers could then update approved rules without changing unrelated parts of the application. The system still had strict limits around what could be changed safely. Dynamic behavior does not mean uncontrolled behavior. It means the system can respond to changing inputs while keeping important boundaries and validation in place."
+  },
+  {
+    "word": "explicitly",
+    "meaning": "به‌طور صریح؛ آشکارا",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "clearly",
+      "directly"
+    ],
+    "examples": [
+      [
+        "The team discussed explicitly before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain explicitly more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, explicitly can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The API documentation explicitly stated which fields were required when creating an invoice. A developer had assumed that one of those fields was optional because older examples did not include it. The first request failed validation, and the documentation was checked again. The team realized that the newer endpoint had stricter requirements than the old version. They updated their internal examples and added a validation test. When an API contract is explicitly documented, developers should be able to rely on that information rather than guessing from incomplete examples or previous behavior."
+  },
+  {
+    "word": "facilitate",
+    "meaning": "تسهیل کردن؛ آسان‌تر کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "ease",
+      "enable"
+    ],
+    "examples": [
+      [
+        "The team discussed facilitate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain facilitate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, facilitate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The operations team introduced a small command-line tool to facilitate common deployment tasks. Previously, engineers had to remember several commands and check multiple configuration files manually. The new tool performed the routine checks first and then displayed the exact actions it was about to take. It did not remove human approval from production deployments, but it made the process more consistent and easier to review. A good internal tool does not need to automate everything. Sometimes its main value is facilitating a repetitive task so that engineers can spend their attention on decisions that actually require judgment."
+  },
+  {
+    "word": "fluctuate",
+    "meaning": "نوسان داشتن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "vary",
+      "shift"
+    ],
+    "examples": [
+      [
+        "The team discussed fluctuate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain fluctuate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, fluctuate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "Server traffic tends to fluctuate throughout the day. During quiet hours, the application may receive only a small number of requests, while a marketing campaign can produce a sudden increase within minutes. The infrastructure team therefore avoided sizing the system only for the average load. They monitored peak traffic and configured automatic scaling within reasonable limits. Capacity planning based on one fixed number would have been misleading. When an important metric fluctuates, engineers need to understand both its normal range and the conditions that cause unusual changes."
+  },
+  {
+    "word": "formulate",
+    "meaning": "صورت‌بندی کردن؛ تدوین کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "develop",
+      "frame"
+    ],
+    "examples": [
+      [
+        "The team discussed formulate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain formulate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, formulate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "After collecting feedback from customers and support agents, the product team formulated a clearer definition of the problem. Instead of saying that users wanted a “faster dashboard,” they identified three specific issues: slow initial loading, delayed data updates, and confusing filters. This formulation made the engineering work easier to estimate because each issue could be measured separately. A problem statement does not need to be complicated. It needs to describe the situation precisely enough that different people can agree on what should be improved and how progress will be recognized."
+  },
+  {
+    "word": "incentivize",
+    "meaning": "ایجاد انگیزه کردن؛ تشویق کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "encourage",
+      "motivate"
+    ],
+    "examples": [
+      [
+        "The team discussed incentivize before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain incentivize more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, incentivize can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The company wanted customers to complete their profile information, so the product team tested a small reward to incentivize completion. Users who finished the required fields received access to an additional reporting feature. The team compared completion rates before and after the change and also watched for unwanted behavior, such as people entering meaningless information just to receive the reward. The experiment produced a useful increase, but it also showed that incentives can change how people behave in unexpected ways. Any reward should therefore be measured not only by participation but also by the quality of the resulting behavior."
+  },
+  {
+    "word": "infrastructure",
+    "meaning": "زیرساخت",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "foundation",
+      "platform"
+    ],
+    "examples": [
+      [
+        "The team discussed infrastructure before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain infrastructure more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, infrastructure can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The application had grown from a small internal tool into a service used by many customers, but its infrastructure had not changed at the same pace. Several components still ran on one server, backups were mostly manual, and monitoring covered only the main application. The engineering team gradually improved the foundation by separating critical services, automating backups, and adding alerts for resource problems. Infrastructure work was not visible to most customers, yet it reduced the risk of serious outages. As a product grows, reliable infrastructure becomes part of the service itself rather than an optional technical detail."
+  },
+  {
+    "word": "integrity",
+    "meaning": "یکپارچگی؛ صحت",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "wholeness",
+      "honesty"
+    ],
+    "examples": [
+      [
+        "The team discussed integrity before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain integrity more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, integrity can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The import process needed to protect the integrity of customer records when data arrived from several external sources. A failed import could not leave half of a customer's information updated while the rest remained unchanged. The developers used transactions where appropriate and stored failed records separately for review. They also added checks for duplicate identifiers and invalid relationships. These safeguards made the process more predictable when something went wrong. Data integrity is not only about preventing obvious corruption. It is about maintaining trustworthy relationships and states even when systems experience partial failures."
+  },
+  {
+    "word": "interpret",
+    "meaning": "تفسیر کردن؛ برداشت کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "understand",
+      "explain"
+    ],
+    "examples": [
+      [
+        "The team discussed interpret before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain interpret more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, interpret can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The dashboard showed a sharp increase in failed requests, but the number alone was difficult to interpret. An engineer compared the percentage of failures with total traffic and discovered that the increase was caused mainly by a temporary spike in requests. The absolute number looked alarming, while the error rate remained within the expected range. The team added both values to the dashboard so future incidents would be easier to understand. Metrics rarely speak for themselves. Engineers need enough context to interpret a change correctly and distinguish a meaningful signal from a change caused simply by a larger volume of activity."
+  },
+  {
+    "word": "justify",
+    "meaning": "توجیه کردن؛ دلیل آوردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "defend",
+      "support"
+    ],
+    "examples": [
+      [
+        "The team discussed justify before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain justify more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, justify can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The architect proposed splitting one part of the application into a separate service, but the team asked him to justify the additional operational cost. He explained that the component had a different scaling pattern and needed an independent deployment cycle. He also described the new monitoring and deployment work that the split would introduce. After comparing both options, the team decided that the separation was useful for this particular component but unnecessary elsewhere. A technical decision becomes easier to evaluate when its benefits and costs are stated clearly rather than presented as a matter of personal preference."
+  },
+  {
+    "word": "marginal",
+    "meaning": "جزئی؛ حاشیه‌ای",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "minor",
+      "slight"
+    ],
+    "examples": [
+      [
+        "The team discussed marginal before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain marginal more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, marginal can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The first optimization produced only a marginal improvement in response time. The team reduced a few milliseconds from an operation that was already fast, but the main customer complaint remained unchanged. Instead of spending another week on similar micro-optimizations, the engineers examined the complete request path and found a much slower external call. That change produced a noticeable improvement. Small optimizations can still be worthwhile, especially in high-volume systems, but their value should be considered in context. A marginal gain in one component may not matter if another part of the workflow dominates the total time."
+  },
+  {
+    "word": "notwithstanding",
+    "meaning": "با وجود؛ علی‌رغم",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "despite",
+      "regardless"
+    ],
+    "examples": [
+      [
+        "The team discussed notwithstanding before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain notwithstanding more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, notwithstanding can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "Notwithstanding the successful test results, the team decided not to deploy the new payment service immediately. The tests covered the expected traffic and several failure scenarios, but the production environment had a few integrations that were difficult to reproduce accurately. The engineers planned a gradual rollout so they could observe real behavior with a small percentage of customers first. The decision was not a rejection of the test results. Rather, the team recognized that successful testing and production confidence are related but not identical. Good rollout plans take both available evidence and remaining uncertainty into account."
+  },
+  {
+    "word": "parameter",
+    "meaning": "پارامتر؛ معیار ورودی",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "variable",
+      "setting"
+    ],
+    "examples": [
+      [
+        "The team discussed parameter before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain parameter more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, parameter can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The image-processing service accepts several parameters that control how an uploaded picture is handled. One parameter determines the maximum output size, while another controls the quality level. During testing, the team discovered that a very high quality setting increased processing time without noticeably improving the final image for most users. They adjusted the default while keeping the parameter available for special cases. Clearly defined parameters make a system easier to configure, but too many options can make behavior difficult to understand. Each parameter should have a meaningful purpose and a documented range."
+  },
+  {
+    "word": "preliminary",
+    "meaning": "مقدماتی؛ اولیه",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "initial",
+      "provisional"
+    ],
+    "examples": [
+      [
+        "The team discussed preliminary before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain preliminary more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, preliminary can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The engineering team shared a preliminary estimate for the migration after reviewing the current database size and application dependencies. The estimate suggested that the main work could be completed during a weekend, but it was explicitly marked as provisional because several old integrations had not yet been tested. Over the next few days, the team discovered one dependency that required additional preparation. The final plan therefore became longer than the preliminary estimate. Early estimates are useful for coordination, but they should be updated when better evidence becomes available rather than treated as promises."
+  },
+  {
+    "word": "prohibit",
+    "meaning": "ممنوع کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "ban",
+      "forbid"
+    ],
+    "examples": [
+      [
+        "The team discussed prohibit before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain prohibit more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, prohibit can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The security policy prohibits storing production passwords in application source code. During a review, an engineer found an old configuration file that contained a credential from a previous environment. The credential was immediately rotated, and the file was removed from the repository history using the company's approved process. The team also added a secret-scanning check to prevent similar mistakes. A policy is more effective when technical controls support it. Simply prohibiting an unsafe practice does not guarantee that people will avoid it, especially in a large codebase with many contributors."
+  },
+  {
+    "word": "proportionate",
+    "meaning": "متناسب",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "commensurate",
+      "balanced"
+    ],
+    "examples": [
+      [
+        "The team discussed proportionate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain proportionate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, proportionate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The response to a minor incident should be proportionate to its actual impact. When a test environment became temporarily unavailable, the team restored it quickly but did not stop every production activity or start a large investigation. A separate production outage, by contrast, required a much deeper review because customers had been affected. Treating every event as equally serious can waste time and make important incidents harder to notice. A proportionate response considers the scope, duration, risk, and customer impact before deciding how much attention and effort are appropriate."
+  },
+  {
+    "word": "retrieve",
+    "meaning": "بازیابی کردن؛ دریافت کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "recover",
+      "fetch"
+    ],
+    "examples": [
+      [
+        "The team discussed retrieve before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain retrieve more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, retrieve can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The application needs to retrieve customer preferences before generating a personalized report. Because the preferences are requested frequently, the service first checks a short-lived cache and queries the database only when the information is not available there. If the database request fails, the system returns a controlled error rather than silently using incomplete data. The team also measures how often the cache is used so they can understand whether the optimization is effective. Retrieving data sounds simple, but in a production system the source, latency, failure behavior, and freshness of that data all matter."
+  },
+  {
+    "word": "substitute",
+    "meaning": "جایگزین کردن؛ جایگزین",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "replace",
+      "alternative"
+    ],
+    "examples": [
+      [
+        "The team discussed substitute before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain substitute more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, substitute can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "During testing, the team needed to simulate an unavailable external payment provider. They used a local substitute that returned realistic success, failure, and timeout responses. This allowed developers to test difficult scenarios without repeatedly contacting the real provider. The substitute was not intended to reproduce every detail of the external service; it only needed to model the behaviors relevant to the application. Using a controlled alternative made the tests faster and more predictable. A useful substitute should match the important characteristics of the original component while remaining simple enough to operate reliably in the test environment."
+  },
+  {
+    "word": "sufficient",
+    "meaning": "کافی؛ بسنده",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "adequate",
+      "enough"
+    ],
+    "examples": [
+      [
+        "The team discussed sufficient before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain sufficient more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, sufficient can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The server had sufficient memory for normal traffic, but the team noticed that large background jobs could consume much more than expected. Instead of immediately buying a larger machine, they measured actual memory usage and changed the jobs to process smaller batches. After the change, the existing server had sufficient capacity even during the busiest test. This was a useful reminder that capacity problems are not always solved by adding hardware. Sometimes the application can use existing resources more efficiently. The right question is whether available capacity is sufficient for the real workload, including reasonable peaks and failure scenarios."
+  },
+  {
+    "word": "subsequent",
+    "meaning": "بعدی؛ متعاقب",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "following",
+      "ensuing"
+    ],
+    "examples": [
+      [
+        "The team discussed subsequent before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain subsequent more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, subsequent can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The first version of the migration script failed when it encountered a malformed record. In the subsequent version, the developers added validation before processing and moved invalid records into a separate review file. This allowed the migration to continue instead of stopping completely. The team also recorded the number of rejected records so that data quality could be assessed afterward. The later version was not simply a rewrite of the original. It incorporated what the first attempt had revealed about real data. Subsequent improvements are often most valuable when they are based on evidence from actual use."
+  },
+  {
+    "word": "terminate",
+    "meaning": "خاتمه دادن؛ متوقف کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "end",
+      "stop"
+    ],
+    "examples": [
+      [
+        "The team discussed terminate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain terminate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, terminate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The scheduler can terminate a background job when it exceeds its maximum allowed execution time. This prevents a broken process from running indefinitely and consuming resources needed by other jobs. Termination alone is not enough, however. The system records why the job stopped and makes the failed work available for retry or investigation. During testing, the team intentionally created a long-running task and verified that the scheduler terminated it as expected. A controlled stop is an important part of reliable background processing, especially when individual jobs can encounter unexpected conditions."
+  },
+  {
+    "word": "underestimate",
+    "meaning": "دست‌کم گرفتن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "undervalue",
+      "misjudge"
+    ],
+    "examples": [
+      [
+        "The team discussed underestimate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain underestimate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, underestimate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The team initially underestimated the effort required to migrate the reporting system. The database conversion itself was straightforward, but the old application contained undocumented queries and exports that several departments still depended on. Once those dependencies were discovered, the migration plan became much larger. The experience changed how the team estimated similar projects. They began including time for discovery, testing, documentation, and communication rather than focusing only on the coding work. Underestimating a project does not necessarily come from poor technical ability; incomplete information at the beginning can make even experienced teams produce overly optimistic estimates."
+  },
+  {
+    "word": "utilize",
+    "meaning": "استفاده کردن؛ به کار گرفتن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "use",
+      "employ"
+    ],
+    "examples": [
+      [
+        "The team discussed utilize before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain utilize more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, utilize can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The analytics service was already collecting useful event data, but the product team was not doing much with it. They began to utilize those records to identify which parts of the onboarding process caused users to leave. The analysis revealed that a particular verification step had a much higher drop-off rate than expected. The team simplified that step and then measured the result. Collecting information has limited value if nobody uses it. Data becomes useful when a team can turn it into a practical decision, while still considering whether the information is accurate and relevant to the question being asked."
+  },
+  {
+    "word": "validate",
+    "meaning": "اعتبارسنجی کردن؛ تأیید کردن",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "verify",
+      "confirm"
+    ],
+    "examples": [
+      [
+        "The team discussed validate before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain validate more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, validate can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "Before accepting an uploaded file, the server validates its type, size, and required metadata. The application does not rely only on the file extension because a filename can be changed easily. It checks the content using the approved validation process and rejects files that do not meet the expected rules. The team also logs validation failures so repeated problems can be investigated. Validation is a basic boundary between untrusted input and application logic. It should happen close to the point where data enters the system and should reflect the actual assumptions made by the code that uses it."
+  },
+  {
+    "word": "versatile",
+    "meaning": "چندمنظوره؛ همه‌کاره",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "adaptable",
+      "flexible"
+    ],
+    "examples": [
+      [
+        "The team discussed versatile before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain versatile more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, versatile can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The engineer chose a versatile queue system because several parts of the application could benefit from the same infrastructure. One service used it for email delivery, another for image processing, and a third for scheduled reports. The team defined clear conventions for retries, failure handling, and monitoring so that each use case remained understandable. The technology was useful because it supported different workloads without requiring a completely separate platform for each one. A versatile component can reduce duplication, but flexibility should not become an excuse for using one tool everywhere when a simpler specialized solution would be more appropriate."
+  },
+  {
+    "word": "consistent",
+    "meaning": "سازگار؛ یکدست؛ ثابت",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "uniform",
+      "steady"
+    ],
+    "examples": [
+      [
+        "The team discussed consistent before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain consistent more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, consistent can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The API returned different date formats depending on which endpoint was called, which made the frontend code unnecessarily complicated. The team decided that the responses should be consistent across the service. They documented one standard format, updated the affected endpoints, and added tests for the most important responses. The change was small, but it removed several conditional branches from the client application. Consistent behavior is especially useful when many developers or services depend on the same interface. It reduces the number of assumptions people have to remember and makes future changes easier to review."
+  },
+  {
+    "word": "substantial",
+    "meaning": "قابل توجه؛ اساسی؛ زیاد",
+    "level": "504",
+    "pos": "",
+    "synonyms": [
+      "considerable",
+      "significant"
+    ],
+    "examples": [
+      [
+        "The team discussed substantial before making the final decision.",
+        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+      ],
+      [
+        "I can explain substantial more clearly when I connect it to a real situation.",
+        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+      ],
+      [
+        "In a backend project, substantial can affect how the system behaves in production.",
+        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+      ]
+    ],
+    "miniContext": "The team expected the database cleanup to produce a substantial reduction in storage usage, but the first test showed only a small difference. They investigated the result and discovered that most of the space was being consumed by a different table. Instead of continuing with the original plan, they measured the storage distribution and changed the cleanup strategy. The final operation removed a substantial amount of unnecessary data and also improved several queries. The experience showed that a large expected benefit should still be verified with measurements. Assumptions about scale can be surprisingly inaccurate when they are not supported by actual data."
+  }
+]

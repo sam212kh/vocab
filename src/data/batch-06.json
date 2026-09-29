@@ -1,0 +1,977 @@
+[
+  {
+    "word": "accurate",
+    "meaning": "دقیق",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "precise",
+      "correct"
+    ],
+    "examples": [
+      [
+        "The team discussed accurate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره accurate صحبت کرد."
+      ],
+      [
+        "I can explain accurate clearly when I connect it to a real situation.",
+        "وقتی accurate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, accurate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، accurate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **accurate**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **accurate** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "acquire",
+    "meaning": "کسب کردن؛ به دست آوردن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "obtain",
+      "gain"
+    ],
+    "examples": [
+      [
+        "The team discussed acquire before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره acquire صحبت کرد."
+      ],
+      [
+        "I can explain acquire clearly when I connect it to a real situation.",
+        "وقتی acquire را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, acquire can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، acquire می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **acquire** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **acquire** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "adequate",
+    "meaning": "کافی",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "sufficient",
+      "enough"
+    ],
+    "examples": [
+      [
+        "The team discussed adequate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره adequate صحبت کرد."
+      ],
+      [
+        "I can explain adequate clearly when I connect it to a real situation.",
+        "وقتی adequate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, adequate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، adequate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **adequate** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **adequate** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "adjust",
+    "meaning": "تنظیم کردن؛ تطبیق دادن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "modify",
+      "adapt"
+    ],
+    "examples": [
+      [
+        "The team discussed adjust before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره adjust صحبت کرد."
+      ],
+      [
+        "I can explain adjust clearly when I connect it to a real situation.",
+        "وقتی adjust را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, adjust can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، adjust می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **adjust**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **adjust** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "aggressive",
+    "meaning": "تهاجمی؛ شدید",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "forceful",
+      "intense"
+    ],
+    "examples": [
+      [
+        "The team discussed aggressive before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره aggressive صحبت کرد."
+      ],
+      [
+        "I can explain aggressive clearly when I connect it to a real situation.",
+        "وقتی aggressive را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, aggressive can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، aggressive می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **aggressive** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **aggressive** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "ambiguous",
+    "meaning": "مبهم",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "unclear",
+      "vague"
+    ],
+    "examples": [
+      [
+        "The team discussed ambiguous before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره ambiguous صحبت کرد."
+      ],
+      [
+        "I can explain ambiguous clearly when I connect it to a real situation.",
+        "وقتی ambiguous را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, ambiguous can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، ambiguous می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **ambiguous** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **ambiguous** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "anticipate",
+    "meaning": "پیش‌بینی کردن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "expect",
+      "foresee"
+    ],
+    "examples": [
+      [
+        "The team discussed anticipate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره anticipate صحبت کرد."
+      ],
+      [
+        "I can explain anticipate clearly when I connect it to a real situation.",
+        "وقتی anticipate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, anticipate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، anticipate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **anticipate**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **anticipate** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "compatible",
+    "meaning": "سازگار",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "consistent",
+      "suitable"
+    ],
+    "examples": [
+      [
+        "The team discussed compatible before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره compatible صحبت کرد."
+      ],
+      [
+        "I can explain compatible clearly when I connect it to a real situation.",
+        "وقتی compatible را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, compatible can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، compatible می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **compatible** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **compatible** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "comprehensive",
+    "meaning": "جامع",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "complete",
+      "thorough"
+    ],
+    "examples": [
+      [
+        "The team discussed comprehensive before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره comprehensive صحبت کرد."
+      ],
+      [
+        "I can explain comprehensive clearly when I connect it to a real situation.",
+        "وقتی comprehensive را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, comprehensive can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، comprehensive می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **comprehensive** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **comprehensive** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "concurrent",
+    "meaning": "همزمان",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "simultaneous",
+      "parallel"
+    ],
+    "examples": [
+      [
+        "The team discussed concurrent before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره concurrent صحبت کرد."
+      ],
+      [
+        "I can explain concurrent clearly when I connect it to a real situation.",
+        "وقتی concurrent را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, concurrent can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، concurrent می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **concurrent**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **concurrent** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "constrain",
+    "meaning": "محدود کردن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "restrict",
+      "limit"
+    ],
+    "examples": [
+      [
+        "The team discussed constrain before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره constrain صحبت کرد."
+      ],
+      [
+        "I can explain constrain clearly when I connect it to a real situation.",
+        "وقتی constrain را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, constrain can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، constrain می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **constrain** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **constrain** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "controversial",
+    "meaning": "بحث‌برانگیز",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "disputed",
+      "debatable"
+    ],
+    "examples": [
+      [
+        "The team discussed controversial before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره controversial صحبت کرد."
+      ],
+      [
+        "I can explain controversial clearly when I connect it to a real situation.",
+        "وقتی controversial را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, controversial can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، controversial می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **controversial** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **controversial** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "conventional",
+    "meaning": "مرسوم",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "traditional",
+      "standard"
+    ],
+    "examples": [
+      [
+        "The team discussed conventional before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره conventional صحبت کرد."
+      ],
+      [
+        "I can explain conventional clearly when I connect it to a real situation.",
+        "وقتی conventional را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, conventional can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، conventional می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **conventional**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **conventional** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "correspond",
+    "meaning": "مطابقت داشتن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "match",
+      "agree"
+    ],
+    "examples": [
+      [
+        "The team discussed correspond before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره correspond صحبت کرد."
+      ],
+      [
+        "I can explain correspond clearly when I connect it to a real situation.",
+        "وقتی correspond را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, correspond can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، correspond می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **correspond** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **correspond** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "derive",
+    "meaning": "به دست آوردن؛ مشتق شدن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "obtain",
+      "originate"
+    ],
+    "examples": [
+      [
+        "The team discussed derive before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره derive صحبت کرد."
+      ],
+      [
+        "I can explain derive clearly when I connect it to a real situation.",
+        "وقتی derive را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, derive can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، derive می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **derive** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **derive** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "distinct",
+    "meaning": "متمایز",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "different",
+      "separate"
+    ],
+    "examples": [
+      [
+        "The team discussed distinct before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره distinct صحبت کرد."
+      ],
+      [
+        "I can explain distinct clearly when I connect it to a real situation.",
+        "وقتی distinct را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, distinct can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، distinct می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **distinct**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **distinct** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "dominate",
+    "meaning": "مسلط بودن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "control",
+      "prevail"
+    ],
+    "examples": [
+      [
+        "The team discussed dominate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره dominate صحبت کرد."
+      ],
+      [
+        "I can explain dominate clearly when I connect it to a real situation.",
+        "وقتی dominate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, dominate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، dominate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **dominate** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **dominate** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "enhance",
+    "meaning": "بهبود بخشیدن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "improve",
+      "strengthen"
+    ],
+    "examples": [
+      [
+        "The team discussed enhance before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره enhance صحبت کرد."
+      ],
+      [
+        "I can explain enhance clearly when I connect it to a real situation.",
+        "وقتی enhance را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, enhance can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، enhance می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **enhance** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **enhance** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "explicit",
+    "meaning": "صریح",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "clear",
+      "direct"
+    ],
+    "examples": [
+      [
+        "The team discussed explicit before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره explicit صحبت کرد."
+      ],
+      [
+        "I can explain explicit clearly when I connect it to a real situation.",
+        "وقتی explicit را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, explicit can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، explicit می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **explicit**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **explicit** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "facilitate",
+    "meaning": "تسهیل کردن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "enable",
+      "ease"
+    ],
+    "examples": [
+      [
+        "The team discussed facilitate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره facilitate صحبت کرد."
+      ],
+      [
+        "I can explain facilitate clearly when I connect it to a real situation.",
+        "وقتی facilitate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, facilitate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، facilitate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **facilitate** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **facilitate** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "fluctuate",
+    "meaning": "نوسان داشتن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "vary",
+      "change"
+    ],
+    "examples": [
+      [
+        "The team discussed fluctuate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره fluctuate صحبت کرد."
+      ],
+      [
+        "I can explain fluctuate clearly when I connect it to a real situation.",
+        "وقتی fluctuate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, fluctuate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، fluctuate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **fluctuate** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **fluctuate** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "framework",
+    "meaning": "چارچوب",
+    "level": "Batch 06",
+    "pos": "noun",
+    "synonyms": [
+      "structure",
+      "system"
+    ],
+    "examples": [
+      [
+        "The team discussed framework before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره framework صحبت کرد."
+      ],
+      [
+        "I can explain framework clearly when I connect it to a real situation.",
+        "وقتی framework را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, framework can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، framework می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **framework**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **framework** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "implicit",
+    "meaning": "ضمنی",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "indirect",
+      "unstated"
+    ],
+    "examples": [
+      [
+        "The team discussed implicit before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره implicit صحبت کرد."
+      ],
+      [
+        "I can explain implicit clearly when I connect it to a real situation.",
+        "وقتی implicit را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, implicit can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، implicit می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **implicit** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **implicit** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "inhibit",
+    "meaning": "مانع شدن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "prevent",
+      "restrain"
+    ],
+    "examples": [
+      [
+        "The team discussed inhibit before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره inhibit صحبت کرد."
+      ],
+      [
+        "I can explain inhibit clearly when I connect it to a real situation.",
+        "وقتی inhibit را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, inhibit can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، inhibit می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **inhibit** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **inhibit** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "integral",
+    "meaning": "ضروری و جدایی‌ناپذیر",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "essential",
+      "fundamental"
+    ],
+    "examples": [
+      [
+        "The team discussed integral before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره integral صحبت کرد."
+      ],
+      [
+        "I can explain integral clearly when I connect it to a real situation.",
+        "وقتی integral را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, integral can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، integral می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **integral**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **integral** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "legitimate",
+    "meaning": "معتبر؛ قانونی",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "valid",
+      "lawful"
+    ],
+    "examples": [
+      [
+        "The team discussed legitimate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره legitimate صحبت کرد."
+      ],
+      [
+        "I can explain legitimate clearly when I connect it to a real situation.",
+        "وقتی legitimate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, legitimate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، legitimate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **legitimate** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **legitimate** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "nevertheless",
+    "meaning": "با این حال",
+    "level": "Batch 06",
+    "pos": "adverb",
+    "synonyms": [
+      "however",
+      "nonetheless"
+    ],
+    "examples": [
+      [
+        "The team discussed nevertheless before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره nevertheless صحبت کرد."
+      ],
+      [
+        "I can explain nevertheless clearly when I connect it to a real situation.",
+        "وقتی nevertheless را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, nevertheless can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، nevertheless می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **nevertheless** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **nevertheless** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "notwithstanding",
+    "meaning": "با وجود",
+    "level": "Batch 06",
+    "pos": "preposition",
+    "synonyms": [
+      "despite",
+      "regardless of"
+    ],
+    "examples": [
+      [
+        "The team discussed notwithstanding before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره notwithstanding صحبت کرد."
+      ],
+      [
+        "I can explain notwithstanding clearly when I connect it to a real situation.",
+        "وقتی notwithstanding را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, notwithstanding can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، notwithstanding می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **notwithstanding**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **notwithstanding** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "persistent",
+    "meaning": "مداوم؛ پایدار",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "continuous",
+      "tenacious"
+    ],
+    "examples": [
+      [
+        "The team discussed persistent before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره persistent صحبت کرد."
+      ],
+      [
+        "I can explain persistent clearly when I connect it to a real situation.",
+        "وقتی persistent را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, persistent can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، persistent می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **persistent** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **persistent** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "precise",
+    "meaning": "دقیق",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "exact",
+      "accurate"
+    ],
+    "examples": [
+      [
+        "The team discussed precise before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره precise صحبت کرد."
+      ],
+      [
+        "I can explain precise clearly when I connect it to a real situation.",
+        "وقتی precise را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, precise can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، precise می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **precise** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **precise** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "preliminary",
+    "meaning": "مقدماتی",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "initial",
+      "introductory"
+    ],
+    "examples": [
+      [
+        "The team discussed preliminary before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره preliminary صحبت کرد."
+      ],
+      [
+        "I can explain preliminary clearly when I connect it to a real situation.",
+        "وقتی preliminary را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, preliminary can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، preliminary می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **preliminary**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **preliminary** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "profound",
+    "meaning": "عمیق؛ بسیار مهم",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "deep",
+      "far-reaching"
+    ],
+    "examples": [
+      [
+        "The team discussed profound before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره profound صحبت کرد."
+      ],
+      [
+        "I can explain profound clearly when I connect it to a real situation.",
+        "وقتی profound را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, profound can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، profound می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **profound** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **profound** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "retain",
+    "meaning": "حفظ کردن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "keep",
+      "preserve"
+    ],
+    "examples": [
+      [
+        "The team discussed retain before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره retain صحبت کرد."
+      ],
+      [
+        "I can explain retain clearly when I connect it to a real situation.",
+        "وقتی retain را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, retain can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، retain می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **retain** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **retain** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "robust",
+    "meaning": "مقاوم و پایدار",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "resilient",
+      "strong"
+    ],
+    "examples": [
+      [
+        "The team discussed robust before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره robust صحبت کرد."
+      ],
+      [
+        "I can explain robust clearly when I connect it to a real situation.",
+        "وقتی robust را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, robust can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، robust می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **robust**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **robust** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "subsequent",
+    "meaning": "بعدی",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "following",
+      "later"
+    ],
+    "examples": [
+      [
+        "The team discussed subsequent before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره subsequent صحبت کرد."
+      ],
+      [
+        "I can explain subsequent clearly when I connect it to a real situation.",
+        "وقتی subsequent را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, subsequent can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، subsequent می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **subsequent** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **subsequent** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "underestimate",
+    "meaning": "دست‌کم گرفتن",
+    "level": "Batch 06",
+    "pos": "verb",
+    "synonyms": [
+      "undervalue",
+      "minimize"
+    ],
+    "examples": [
+      [
+        "The team discussed underestimate before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره underestimate صحبت کرد."
+      ],
+      [
+        "I can explain underestimate clearly when I connect it to a real situation.",
+        "وقتی underestimate را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, underestimate can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، underestimate می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **underestimate** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **underestimate** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  },
+  {
+    "word": "versatile",
+    "meaning": "چندمنظوره",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "adaptable",
+      "flexible"
+    ],
+    "examples": [
+      [
+        "The team discussed versatile before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره versatile صحبت کرد."
+      ],
+      [
+        "I can explain versatile clearly when I connect it to a real situation.",
+        "وقتی versatile را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, versatile can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، versatile می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "At work, the team faced a real situation involving **versatile**. They first looked at the facts, discussed several options, and agreed on a practical next step. One colleague explained the situation in simple language, while another used **versatile** because it described the issue more precisely. After the meeting, they recorded the decision and continued working. Later, the same term appeared in a message between teammates. Because the word was connected to a real conversation and a concrete situation, its meaning was easier to remember and use naturally."
+  },
+  {
+    "word": "temporary",
+    "meaning": "موقت",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "short-term",
+      "provisional"
+    ],
+    "examples": [
+      [
+        "The team discussed temporary before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره temporary صحبت کرد."
+      ],
+      [
+        "I can explain temporary clearly when I connect it to a real situation.",
+        "وقتی temporary را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, temporary can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، temporary می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "During a software project, a developer noticed an issue where **temporary** became important. The team checked the logs, compared different approaches, and considered what could happen after the change was deployed. The developer then used **temporary** while explaining the reasoning to a teammate. Instead of memorizing a dictionary definition, they connected the term to the actual problem they were solving. A few days later, the same vocabulary came up in an interview-style discussion, and the real project experience made the explanation much easier."
+  },
+  {
+    "word": "significant",
+    "meaning": "قابل توجه",
+    "level": "Batch 06",
+    "pos": "adjective",
+    "synonyms": [
+      "important",
+      "substantial"
+    ],
+    "examples": [
+      [
+        "The team discussed significant before deciding what to do next.",
+        "تیم قبل از تصمیم‌گیری درباره قدم بعدی، درباره significant صحبت کرد."
+      ],
+      [
+        "I can explain significant clearly when I connect it to a real situation.",
+        "وقتی significant را به یک موقعیت واقعی مرتبط کنم، می‌توانم آن را واضح توضیح دهم."
+      ],
+      [
+        "In a backend project, significant can matter when the system faces real production problems.",
+        "در یک پروژه بک‌اند، وقتی سیستم با مشکلات واقعی محیط عملیاتی روبه‌رو می‌شود، significant می‌تواند مهم باشد."
+      ]
+    ],
+    "miniContext": "Imagine explaining a technical decision to someone who has never worked on the system. You describe the problem, give a concrete example, and then introduce **significant** to name the technical idea behind it. The listener asks a question, so you explain it again with simpler words. This makes **significant** easier to understand because it is connected to a real cause, action, and result. Later, when the team reviews the system, the same term appears naturally in the discussion and is no longer an unfamiliar piece of vocabulary."
+  }
+]

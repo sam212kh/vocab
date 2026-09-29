@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "articulate",
+    "meaning": "واضح و دقیق بیان کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "express",
+        "بیان کردن"
+      ],
+      [
+        "formulate",
+        "صورت‌بندی کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "He can articulate complex ideas clearly.",
+        "او می‌تواند ایده‌های پیچیده را واضح بیان کند."
+      ],
+      [
+        "Try to articulate your reasoning.",
+        "سعی کن استدلالت را دقیق بیان کنی."
+      ],
+      [
+        "She articulated the problem very well.",
+        "او مشکل را خیلی خوب بیان کرد."
+      ]
+    ]
+  },
+  {
+    "word": "coherent",
+    "meaning": "منسجم؛ منطقی",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "logical",
+        "منطقی"
+      ],
+      [
+        "consistent",
+        "منسجم"
+      ]
+    ],
+    "examples": [
+      [
+        "Your explanation is clear and coherent.",
+        "توضیحت واضح و منسجم است."
+      ],
+      [
+        "We need a coherent strategy.",
+        "به یک استراتژی منسجم نیاز داریم."
+      ],
+      [
+        "The document presents a coherent argument.",
+        "این Document یک استدلال منسجم ارائه می‌دهد."
+      ]
+    ]
+  },
+  {
+    "word": "concise",
+    "meaning": "مختصر و دقیق",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "brief",
+        "مختصر"
+      ],
+      [
+        "succinct",
+        "موجز"
+      ]
+    ],
+    "examples": [
+      [
+        "Keep your answer concise.",
+        "پاسخت را مختصر نگه دار."
+      ],
+      [
+        "Please send me a concise summary.",
+        "لطفاً یک خلاصه مختصر برایم بفرست."
+      ],
+      [
+        "The endpoint returns a concise error message.",
+        "Endpoint یک پیام خطای مختصر برمی‌گرداند."
+      ]
+    ]
+  },
+  {
+    "word": "compelling",
+    "meaning": "قانع‌کننده؛ بسیار جذاب",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "convincing",
+        "قانع‌کننده"
+      ],
+      [
+        "persuasive",
+        "متقاعدکننده"
+      ]
+    ],
+    "examples": [
+      [
+        "That's a compelling argument.",
+        "این استدلال واقعاً قانع‌کننده است."
+      ],
+      [
+        "We need a compelling reason to change the plan.",
+        "برای تغییر برنامه به دلیل قانع‌کننده نیاز داریم."
+      ],
+      [
+        "The benchmark gives us compelling evidence.",
+        "Benchmark شواهد قانع‌کننده‌ای به ما می‌دهد."
+      ]
+    ]
+  },
+  {
+    "word": "convey",
+    "meaning": "منتقل کردن؛ رساندن مفهوم",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "communicate",
+        "منتقل کردن"
+      ],
+      [
+        "express",
+        "بیان کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "It's hard to convey tone in a text.",
+        "انتقال لحن در یک متن سخت است."
+      ],
+      [
+        "The diagram conveys the main idea clearly.",
+        "نمودار ایده اصلی را واضح منتقل می‌کند."
+      ],
+      [
+        "The response should convey enough context.",
+        "Response باید Context کافی را منتقل کند."
+      ]
+    ]
+  },
+  {
+    "word": "distinguish",
+    "meaning": "تمایز قائل شدن؛ تشخیص دادن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "differentiate",
+        "تمایز دادن"
+      ],
+      [
+        "tell apart",
+        "از هم تشخیص دادن"
+      ]
+    ],
+    "examples": [
+      [
+        "Can you distinguish the two accents?",
+        "می‌توانی این دو لهجه را از هم تشخیص دهی؟"
+      ],
+      [
+        "We need to distinguish urgent tasks from important ones.",
+        "باید Taskهای فوری را از مهم‌ها جدا کنیم."
+      ],
+      [
+        "The system must distinguish expired tokens from invalid tokens.",
+        "سیستم باید Tokenهای منقضی را از نامعتبر تشخیص دهد."
+      ]
+    ]
+  },
+  {
+    "word": "emphasize",
+    "meaning": "تأکید کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "stress",
+        "تأکید کردن"
+      ],
+      [
+        "highlight",
+        "برجسته کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "I want to emphasize one point.",
+        "می‌خواهم روی یک نکته تأکید کنم."
+      ],
+      [
+        "The manager emphasized quality.",
+        "مدیر روی کیفیت تأکید کرد."
+      ],
+      [
+        "The documentation emphasizes that the field is optional.",
+        "Documentation تأکید می‌کند که این Field اختیاری است."
+      ]
+    ]
+  },
+  {
+    "word": "facilitate",
+    "meaning": "تسهیل کردن؛ آسان‌تر کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "enable",
+        "امکان‌پذیر کردن"
+      ],
+      [
+        "simplify",
+        "ساده‌تر کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "Could you facilitate the discussion?",
+        "می‌توانی بحث را مدیریت و تسهیل کنی؟"
+      ],
+      [
+        "The new workflow facilitates collaboration.",
+        "Workflow جدید همکاری را آسان‌تر می‌کند."
+      ],
+      [
+        "Indexes facilitate faster lookups.",
+        "Indexها Lookupهای سریع‌تر را ممکن می‌کنند."
+      ]
+    ]
+  },
+  {
+    "word": "formulate",
+    "meaning": "تدوین کردن؛ صورت‌بندی کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "develop",
+        "تدوین کردن"
+      ],
+      [
+        "devise",
+        "طراحی کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "Let's formulate a plan before we start.",
+        "قبل از شروع یک برنامه تدوین کنیم."
+      ],
+      [
+        "She formulated a clear response.",
+        "او یک پاسخ واضح تدوین کرد."
+      ],
+      [
+        "We formulated the query before optimizing it.",
+        "قبل از Optimize کردن، Query را طراحی کردیم."
+      ]
+    ]
+  },
+  {
+    "word": "justify",
+    "meaning": "توجیه کردن؛ دلیل آوردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "defend",
+        "دفاع کردن"
+      ],
+      [
+        "support",
+        "پشتیبانی از یک ادعا"
+      ]
+    ],
+    "examples": [
+      [
+        "How would you justify that choice?",
+        "چطور از آن انتخاب دفاع می‌کنی؟"
+      ],
+      [
+        "We need data to justify the cost.",
+        "برای توجیه هزینه به Data نیاز داریم."
+      ],
+      [
+        "The benchmark justifies the extra index.",
+        "Benchmark وجود Index اضافه را توجیه می‌کند."
+      ]
+    ]
+  },
+  {
+    "word": "infer",
+    "meaning": "استنباط کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "deduce",
+        "استنتاج کردن"
+      ],
+      [
+        "conclude",
+        "نتیجه‌گیری کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "I inferred that he was busy.",
+        "استنباط کردم که او سرش شلوغ بوده."
+      ],
+      [
+        "From the logs, we can infer where it failed.",
+        "از Logها می‌توانیم بفهمیم کجا شکست خورده."
+      ],
+      [
+        "The model infers intent from context.",
+        "Model Intent را از Context استنباط می‌کند."
+      ]
+    ]
+  },
+  {
+    "word": "allocate",
+    "meaning": "اختصاص دادن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "assign",
+        "اختصاص دادن"
+      ],
+      [
+        "distribute",
+        "توزیع کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "We need to allocate more time.",
+        "باید زمان بیشتری اختصاص دهیم."
+      ],
+      [
+        "The budget was allocated to training.",
+        "بودجه به Training اختصاص داده شد."
+      ],
+      [
+        "Allocate enough memory for peak traffic.",
+        "برای Peak Traffic حافظه کافی اختصاص بده."
+      ]
+    ]
+  },
+  {
+    "word": "mitigate",
+    "meaning": "کاهش دادن اثر یا ریسک",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "reduce",
+        "کاهش دادن"
+      ],
+      [
+        "alleviate",
+        "کاهش دادن شدت"
+      ]
+    ],
+    "examples": [
+      [
+        "We took steps to mitigate the risk.",
+        "برای کاهش Risk اقداماتی انجام دادیم."
+      ],
+      [
+        "The policy mitigates common mistakes.",
+        "این Policy خطاهای رایج را کاهش می‌دهد."
+      ],
+      [
+        "Retries can mitigate transient failures.",
+        "Retry می‌تواند Failureهای موقت را کاهش دهد."
+      ]
+    ]
+  },
+  {
+    "word": "constraint",
+    "meaning": "محدودیت",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "restriction",
+        "محدودیت"
+      ],
+      [
+        "limitation",
+        "محدودیت"
+      ]
+    ],
+    "examples": [
+      [
+        "Time is our biggest constraint.",
+        "زمان بزرگ‌ترین محدودیت ماست."
+      ],
+      [
+        "Budget constraints changed the plan.",
+        "محدودیت‌های بودجه برنامه را تغییر داد."
+      ],
+      [
+        "The database has a storage constraint.",
+        "Database محدودیت Storage دارد."
+      ]
+    ]
+  },
+  {
+    "word": "trade-off",
+    "meaning": "بده‌بستان؛ مصالحه بین دو مزیت",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "compromise",
+        "مصالحه"
+      ],
+      [
+        "balance",
+        "تعادل"
+      ]
+    ],
+    "examples": [
+      [
+        "Every choice has a trade-off.",
+        "هر انتخابی یک Trade-off دارد."
+      ],
+      [
+        "We accepted the cost-performance trade-off.",
+        "Trade-off بین هزینه و Performance را پذیرفتیم."
+      ],
+      [
+        "Denormalization involves a consistency trade-off.",
+        "Denormalization شامل Trade-off در Consistency است."
+      ]
+    ]
+  },
+  {
+    "word": "outcome",
+    "meaning": "نتیجه؛ حاصل",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "result",
+        "نتیجه"
+      ],
+      [
+        "consequence",
+        "پیامد"
+      ]
+    ],
+    "examples": [
+      [
+        "I'm happy with the outcome.",
+        "از نتیجه راضی‌ام."
+      ],
+      [
+        "We agreed on the desired outcome.",
+        "روی نتیجه مطلوب توافق کردیم."
+      ],
+      [
+        "The deployment outcome was better than expected.",
+        "نتیجه Deployment بهتر از انتظار بود."
+      ]
+    ]
+  },
+  {
+    "word": "insight",
+    "meaning": "بینش؛ درک عمیق",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "understanding",
+        "درک"
+      ],
+      [
+        "perspective",
+        "دیدگاه"
+      ]
+    ],
+    "examples": [
+      [
+        "That gave me an interesting insight.",
+        "این موضوع بینش جالبی به من داد."
+      ],
+      [
+        "Customer feedback provided useful insights.",
+        "Feedback مشتری بینش‌های مفیدی داد."
+      ],
+      [
+        "The metrics give us insight into query behavior.",
+        "Metrics درباره رفتار Query به ما Insight می‌دهند."
+      ]
+    ]
+  },
+  {
+    "word": "rationale",
+    "meaning": "منطق یا دلیل پشت یک تصمیم",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "reasoning",
+        "استدلال"
+      ],
+      [
+        "justification",
+        "توجیه"
+      ]
+    ],
+    "examples": [
+      [
+        "What's the rationale behind that decision?",
+        "منطق پشت آن تصمیم چیست؟"
+      ],
+      [
+        "The document explains the rationale.",
+        "Document منطق تصمیم را توضیح می‌دهد."
+      ],
+      [
+        "We need a clear rationale for choosing this architecture.",
+        "برای انتخاب این Architecture به منطق روشنی نیاز داریم."
+      ]
+    ]
+  },
+  {
+    "word": "underlying",
+    "meaning": "زیربنایی؛ اصلی و پنهان",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "fundamental",
+        "بنیادی"
+      ],
+      [
+        "root",
+        "ریشه‌ای"
+      ]
+    ],
+    "examples": [
+      [
+        "There's an underlying reason for his reaction.",
+        "یک دلیل زیربنایی برای واکنش او وجود دارد."
+      ],
+      [
+        "We need to understand the underlying problem.",
+        "باید مشکل اصلی را بفهمیم."
+      ],
+      [
+        "The query hides an underlying performance issue.",
+        "Query یک مشکل زیربنایی Performance را پنهان کرده است."
+      ]
+    ]
+  },
+  {
+    "word": "substantial",
+    "meaning": "قابل توجه؛ چشمگیر",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "considerable",
+        "قابل توجه"
+      ],
+      [
+        "significant",
+        "مهم و قابل توجه"
+      ]
+    ],
+    "examples": [
+      [
+        "That's a substantial amount of money.",
+        "این مبلغ قابل توجهی است."
+      ],
+      [
+        "We made substantial progress this week.",
+        "این هفته پیشرفت چشمگیری داشتیم."
+      ],
+      [
+        "The update produced a substantial reduction in latency.",
+        "Update کاهش چشمگیری در Latency ایجاد کرد."
+      ]
+    ]
+  },
+  {
+    "word": "inevitable",
+    "meaning": "اجتناب‌ناپذیر",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "unavoidable",
+        "اجتناب‌ناپذیر"
+      ],
+      [
+        "certain",
+        "قطعی"
+      ]
+    ],
+    "examples": [
+      [
+        "Some mistakes are inevitable.",
+        "بعضی اشتباه‌ها اجتناب‌ناپذیرند."
+      ],
+      [
+        "Change is inevitable in a growing company.",
+        "تغییر در یک شرکت در حال رشد اجتناب‌ناپذیر است."
+      ],
+      [
+        "A migration becomes inevitable at a certain scale.",
+        "در یک Scale مشخص، Migration اجتناب‌ناپذیر می‌شود."
+      ]
+    ]
+  },
+  {
+    "word": "nevertheless",
+    "meaning": "با این حال؛ با وجود این",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "however",
+        "با این حال"
+      ],
+      [
+        "nonetheless",
+        "با وجود این"
+      ]
+    ],
+    "examples": [
+      [
+        "It was difficult; nevertheless, we finished.",
+        "سخت بود؛ با این حال تمامش کردیم."
+      ],
+      [
+        "The deadline was tight; nevertheless, the team delivered.",
+        "Deadline فشرده بود؛ با این حال تیم تحویل داد."
+      ],
+      [
+        "The query is complex; nevertheless, it remains maintainable.",
+        "Query پیچیده است؛ با این حال قابل نگهداری باقی می‌ماند."
+      ]
+    ]
+  },
+  {
+    "word": "consequently",
+    "meaning": "در نتیجه؛ بنابراین",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "therefore",
+        "بنابراین"
+      ],
+      [
+        "as a result",
+        "در نتیجه"
+      ]
+    ],
+    "examples": [
+      [
+        "I missed the bus; consequently, I was late.",
+        "اتوبوس را از دست دادم؛ در نتیجه دیر رسیدم."
+      ],
+      [
+        "The scope increased; consequently, the deadline moved.",
+        "Scope بیشتر شد؛ در نتیجه Deadline جابه‌جا شد."
+      ],
+      [
+        "The cache expired; consequently, traffic hit the database.",
+        "Cache منقضی شد؛ در نتیجه Traffic به Database رسید."
+      ]
+    ]
+  },
+  {
+    "word": "accordingly",
+    "meaning": "بر این اساس؛ متناسب با آن",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "therefore",
+        "بنابراین"
+      ],
+      [
+        "appropriately",
+        "به‌طور متناسب"
+      ]
+    ],
+    "examples": [
+      [
+        "The weather changed, so we dressed accordingly.",
+        "هوا تغییر کرد، پس متناسب با آن لباس پوشیدیم."
+      ],
+      [
+        "The requirements changed, and we adjusted the plan accordingly.",
+        "Requirementها تغییر کردند و برنامه را متناسب با آن اصلاح کردیم."
+      ],
+      [
+        "The client may retry, so the endpoint must behave accordingly.",
+        "Client ممکن است Retry کند، پس Endpoint باید متناسب با آن رفتار کند."
+      ]
+    ]
+  },
+  {
+    "word": "arguably",
+    "meaning": "می‌توان گفت؛ به‌نوعی قابل استدلال",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "debatably",
+        "قابل بحث"
+      ],
+      [
+        "possibly",
+        "احتمالاً"
+      ]
+    ],
+    "examples": [
+      [
+        "This is arguably the best option.",
+        "می‌توان گفت این بهترین گزینه است."
+      ],
+      [
+        "She is arguably the strongest candidate.",
+        "می‌توان گفت او قوی‌ترین Candidate است."
+      ],
+      [
+        "Caching is arguably the simplest way to reduce read load.",
+        "می‌توان گفت Caching ساده‌ترین راه کاهش Read Load است."
+      ]
+    ]
+  },
+  {
+    "word": "relatively",
+    "meaning": "نسبتاً",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "comparatively",
+        "در مقایسه"
+      ],
+      [
+        "fairly",
+        "نسبتاً"
+      ]
+    ],
+    "examples": [
+      [
+        "The apartment is relatively small.",
+        "آپارتمان نسبتاً کوچک است."
+      ],
+      [
+        "The task is relatively simple.",
+        "Task نسبتاً ساده است."
+      ],
+      [
+        "The endpoint is relatively fast under normal load.",
+        "Endpoint در Load عادی نسبتاً سریع است."
+      ]
+    ]
+  },
+  {
+    "word": "simultaneously",
+    "meaning": "همزمان",
+    "level": "Hard",
+    "pos": "adverb",
+    "synonyms": [
+      [
+        "at the same time",
+        "همزمان"
+      ],
+      [
+        "concurrently",
+        "به‌طور همزمان"
+      ]
+    ],
+    "examples": [
+      [
+        "They both spoke simultaneously.",
+        "هر دو همزمان صحبت کردند."
+      ],
+      [
+        "We launched the two features simultaneously.",
+        "دو Feature را همزمان Launch کردیم."
+      ],
+      [
+        "Multiple workers can process jobs simultaneously.",
+        "چند Worker می‌توانند Jobها را همزمان پردازش کنند."
+      ]
+    ]
+  },
+  {
+    "word": "straightforward",
+    "meaning": "ساده و سرراست",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "simple",
+        "ساده"
+      ],
+      [
+        "clear",
+        "واضح"
+      ]
+    ],
+    "examples": [
+      [
+        "The answer is straightforward.",
+        "پاسخ سرراست است."
+      ],
+      [
+        "The onboarding process is straightforward.",
+        "فرایند Onboarding ساده و سرراست است."
+      ],
+      [
+        "The fix is straightforward once we find the root cause.",
+        "وقتی Root Cause را پیدا کنیم، Fix سرراست است."
+      ]
+    ]
+  },
+  {
+    "word": "robust",
+    "meaning": "مقاوم؛ قابل اتکا",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "resilient",
+        "تاب‌آور"
+      ],
+      [
+        "reliable",
+        "قابل اعتماد"
+      ]
+    ],
+    "examples": [
+      [
+        "We need a robust solution.",
+        "به یک راه‌حل مقاوم نیاز داریم."
+      ],
+      [
+        "She built a robust process for handling complaints.",
+        "او فرایندی قابل اتکا برای رسیدگی به شکایت‌ها ساخت."
+      ],
+      [
+        "The service needs robust retry logic.",
+        "Service به منطق Retry مقاوم نیاز دارد."
+      ]
+    ]
+  },
+  {
+    "word": "scalable",
+    "meaning": "مقیاس‌پذیر",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "expandable",
+        "قابل گسترش"
+      ],
+      [
+        "elastic",
+        "قابل کشش"
+      ]
+    ],
+    "examples": [
+      [
+        "We need a scalable business model.",
+        "به مدل کسب‌وکار مقیاس‌پذیر نیاز داریم."
+      ],
+      [
+        "The architecture should be scalable.",
+        "Architecture باید مقیاس‌پذیر باشد."
+      ],
+      [
+        "A queue makes the worker system more scalable.",
+        "Queue سیستم Workerها را مقیاس‌پذیرتر می‌کند."
+      ]
+    ]
+  },
+  {
+    "word": "viable",
+    "meaning": "عملی؛ قابل اجرا و دوام",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "feasible",
+        "شدنی"
+      ],
+      [
+        "workable",
+        "قابل اجرا"
+      ]
+    ],
+    "examples": [
+      [
+        "Is that a viable option?",
+        "آیا آن گزینه عملی است؟"
+      ],
+      [
+        "We need a viable business plan.",
+        "به یک Business Plan قابل دوام نیاز داریم."
+      ],
+      [
+        "Sharding is viable once one database is no longer enough.",
+        "وقتی یک Database دیگر کافی نباشد، Sharding گزینه عملی است."
+      ]
+    ]
+  },
+  {
+    "word": "sustainable",
+    "meaning": "پایدار؛ قابل ادامه در بلندمدت",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "durable",
+        "بادوام"
+      ],
+      [
+        "long-term",
+        "بلندمدت"
+      ]
+    ],
+    "examples": [
+      [
+        "That schedule isn't sustainable.",
+        "این برنامه زمانی در بلندمدت قابل ادامه نیست."
+      ],
+      [
+        "We need a sustainable growth strategy.",
+        "به استراتژی رشد پایدار نیاز داریم."
+      ],
+      [
+        "This architecture isn't sustainable at ten times the current traffic.",
+        "این Architecture با ده برابر Traffic فعلی پایدار نیست."
+      ]
+    ]
+  },
+  {
+    "word": "transparent",
+    "meaning": "شفاف",
+    "level": "Hard",
+    "pos": "adjective",
+    "synonyms": [
+      [
+        "clear",
+        "شفاف و واضح"
+      ],
+      [
+        "open",
+        "باز و شفاف"
+      ]
+    ],
+    "examples": [
+      [
+        "Please be transparent with me.",
+        "لطفاً با من شفاف باش."
+      ],
+      [
+        "We need a transparent decision-making process.",
+        "به فرایند تصمیم‌گیری شفاف نیاز داریم."
+      ],
+      [
+        "The API should be transparent about rate limits.",
+        "API باید درباره Rate Limitها شفاف باشد."
+      ]
+    ]
+  },
+  {
+    "word": "resolve",
+    "meaning": "حل کردن؛ برطرف کردن",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "solve",
+        "حل کردن"
+      ],
+      [
+        "settle",
+        "حل‌وفصل کردن"
+      ]
+    ],
+    "examples": [
+      [
+        "We need to resolve this today.",
+        "باید امروز این را حل کنیم."
+      ],
+      [
+        "The manager resolved the disagreement.",
+        "مدیر اختلاف را حل‌وفصل کرد."
+      ],
+      [
+        "The retry mechanism resolved most transient failures.",
+        "Retry Mechanism بیشتر Failureهای موقت را حل کرد."
+      ]
+    ]
+  },
+  {
+    "word": "leverage",
+    "meaning": "به کار گرفتن؛ استفاده هوشمندانه",
+    "level": "Hard",
+    "pos": "verb",
+    "synonyms": [
+      [
+        "utilize",
+        "استفاده کردن"
+      ],
+      [
+        "exploit",
+        "بهره گرفتن از"
+      ]
+    ],
+    "examples": [
+      [
+        "We can leverage what we already have.",
+        "می‌توانیم از چیزهایی که داریم استفاده کنیم."
+      ],
+      [
+        "The team leveraged customer feedback.",
+        "تیم از Feedback مشتریان بهره گرفت."
+      ],
+      [
+        "We can leverage Redis to reduce database load.",
+        "می‌توانیم از Redis برای کاهش Database Load استفاده کنیم."
+      ]
+    ]
+  },
+  {
+    "word": "discrepancy",
+    "meaning": "مغایرت؛ اختلاف",
+    "level": "Hard",
+    "pos": "noun",
+    "synonyms": [
+      [
+        "inconsistency",
+        "ناسازگاری"
+      ],
+      [
+        "difference",
+        "تفاوت"
+      ]
+    ],
+    "examples": [
+      [
+        "I noticed a discrepancy in the bill.",
+        "یک مغایرت در صورتحساب دیدم."
+      ],
+      [
+        "We found a discrepancy between the report and dashboard.",
+        "بین Report و Dashboard یک مغایرت پیدا کردیم."
+      ],
+      [
+        "The reconciliation job detected a discrepancy between two records.",
+        "Reconciliation Job بین دو Record مغایرت پیدا کرد."
+      ]
+    ]
+  }
+]
