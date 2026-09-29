@@ -11,9 +11,9 @@ onMounted(async () => {
     try {
       const manifest = await loadManifest()
       courses.value = manifest.courses
-    } catch (error) {
+    } catch (err) {
         error.value = 'Failed to load courses'
-        console.error(error)
+        console.error(err)
     } finally {
       loading.value = false
     }
