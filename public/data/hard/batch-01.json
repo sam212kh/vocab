@@ -1,0 +1,812 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "abundant",
+    "meaning": "فراوان",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "plentiful",
+      "ample"
+    ],
+    "examples": [
+      {
+        "english": "His abundant approach helped him handle the situation calmly.",
+        "persian": "رویکرد فراوان او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A abundant attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش فراوان می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a plentiful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “abundant” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "accurate",
+    "meaning": "دقیق",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "correct",
+      "exact"
+    ],
+    "examples": [
+      {
+        "english": "His accurate approach helped him handle the situation calmly.",
+        "persian": "رویکرد دقیق او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A accurate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش دقیق می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a correct conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “accurate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "adequate",
+    "meaning": "کافی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "sufficient",
+      "acceptable"
+    ],
+    "examples": [
+      {
+        "english": "His adequate approach helped him handle the situation calmly.",
+        "persian": "رویکرد کافی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A adequate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش کافی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a sufficient conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “adequate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "admirable",
+    "meaning": "قابل تحسین",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "commendable",
+      "praiseworthy"
+    ],
+    "examples": [
+      {
+        "english": "His admirable approach helped him handle the situation calmly.",
+        "persian": "رویکرد قابل تحسین او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A admirable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قابل تحسین می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a commendable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “admirable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "apparent",
+    "meaning": "آشکار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "evident",
+      "obvious"
+    ],
+    "examples": [
+      {
+        "english": "His apparent approach helped him handle the situation calmly.",
+        "persian": "رویکرد آشکار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A apparent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش آشکار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a evident conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “apparent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "appropriate",
+    "meaning": "مناسب",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "suitable",
+      "proper"
+    ],
+    "examples": [
+      {
+        "english": "His appropriate approach helped him handle the situation calmly.",
+        "persian": "رویکرد مناسب او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A appropriate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مناسب می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a suitable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “appropriate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "assertive",
+    "meaning": "قاطع و بااعتمادبه‌نفس",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "confident",
+      "firm"
+    ],
+    "examples": [
+      {
+        "english": "His assertive approach helped him handle the situation calmly.",
+        "persian": "رویکرد قاطع و بااعتمادبه‌نفس او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A assertive attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قاطع و بااعتمادبه‌نفس می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a confident conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “assertive” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "attentive",
+    "meaning": "با دقت و توجه",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "observant",
+      "careful"
+    ],
+    "examples": [
+      {
+        "english": "His attentive approach helped him handle the situation calmly.",
+        "persian": "رویکرد با دقت و توجه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A attentive attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش با دقت و توجه می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a observant conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “attentive” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "authentic",
+    "meaning": "اصیل و واقعی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "genuine",
+      "real"
+    ],
+    "examples": [
+      {
+        "english": "His authentic approach helped him handle the situation calmly.",
+        "persian": "رویکرد اصیل و واقعی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A authentic attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش اصیل و واقعی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a genuine conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای واقعی و صادقانه رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “authentic” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "beneficial",
+    "meaning": "سودمند",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "helpful",
+      "useful"
+    ],
+    "examples": [
+      {
+        "english": "His beneficial approach helped him handle the situation calmly.",
+        "persian": "رویکرد سودمند او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A beneficial attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش سودمند می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a helpful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “beneficial” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "capable",
+    "meaning": "توانمند",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "able",
+      "competent"
+    ],
+    "examples": [
+      {
+        "english": "His capable approach helped him handle the situation calmly.",
+        "persian": "رویکرد توانمند او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A capable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش توانمند می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a able conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “capable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "cautious",
+    "meaning": "محتاط",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "careful",
+      "wary"
+    ],
+    "examples": [
+      {
+        "english": "His cautious approach helped him handle the situation calmly.",
+        "persian": "رویکرد محتاط او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A cautious attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش محتاط می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a careful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “cautious” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "competent",
+    "meaning": "شایسته و کارآمد",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "capable",
+      "qualified"
+    ],
+    "examples": [
+      {
+        "english": "His competent approach helped him handle the situation calmly.",
+        "persian": "رویکرد شایسته و کارآمد او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A competent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش شایسته و کارآمد می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a capable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای توانمند رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “competent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "considerate",
+    "meaning": "ملاحظه‌کار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "thoughtful",
+      "kind"
+    ],
+    "examples": [
+      {
+        "english": "His considerate approach helped him handle the situation calmly.",
+        "persian": "رویکرد ملاحظه‌کار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A considerate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ملاحظه‌کار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a thoughtful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای با ملاحظه و سنجیده رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “considerate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "consistent",
+    "meaning": "با ثبات و سازگار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "steady",
+      "reliable"
+    ],
+    "examples": [
+      {
+        "english": "His consistent approach helped him handle the situation calmly.",
+        "persian": "رویکرد با ثبات و سازگار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A consistent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش با ثبات و سازگار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a steady conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “consistent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "constructive",
+    "meaning": "سازنده",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "helpful",
+      "productive"
+    ],
+    "examples": [
+      {
+        "english": "His constructive approach helped him handle the situation calmly.",
+        "persian": "رویکرد سازنده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A constructive attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش سازنده می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a helpful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “constructive” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "convincing",
+    "meaning": "قانع‌کننده",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "persuasive",
+      "credible"
+    ],
+    "examples": [
+      {
+        "english": "His convincing approach helped him handle the situation calmly.",
+        "persian": "رویکرد قانع‌کننده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A convincing attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قانع‌کننده می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a persuasive conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “convincing” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "courteous",
+    "meaning": "مودب",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "polite",
+      "respectful"
+    ],
+    "examples": [
+      {
+        "english": "His courteous approach helped him handle the situation calmly.",
+        "persian": "رویکرد مودب او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A courteous attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مودب می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a polite conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “courteous” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "credible",
+    "meaning": "قابل اعتماد",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "believable",
+      "reliable"
+    ],
+    "examples": [
+      {
+        "english": "His credible approach helped him handle the situation calmly.",
+        "persian": "رویکرد قابل اعتماد او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A credible attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قابل اعتماد می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a believable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “credible” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "decisive",
+    "meaning": "قاطع",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "firm",
+      "conclusive"
+    ],
+    "examples": [
+      {
+        "english": "His decisive approach helped him handle the situation calmly.",
+        "persian": "رویکرد قاطع او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A decisive attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قاطع می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a firm conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “decisive” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "deliberate",
+    "meaning": "سنجیده و عمدی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "intentional",
+      "careful"
+    ],
+    "examples": [
+      {
+        "english": "His deliberate approach helped him handle the situation calmly.",
+        "persian": "رویکرد سنجیده و عمدی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A deliberate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش سنجیده و عمدی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a intentional conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای عمدی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “deliberate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "dependable",
+    "meaning": "قابل اتکا",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "reliable",
+      "trustworthy"
+    ],
+    "examples": [
+      {
+        "english": "His dependable approach helped him handle the situation calmly.",
+        "persian": "رویکرد قابل اتکا او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A dependable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قابل اتکا می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a reliable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “dependable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "desirable",
+    "meaning": "مطلوب",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "wanted",
+      "preferable"
+    ],
+    "examples": [
+      {
+        "english": "His desirable approach helped him handle the situation calmly.",
+        "persian": "رویکرد مطلوب او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A desirable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مطلوب می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a wanted conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “desirable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "diligent",
+    "meaning": "کوشا",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "hardworking",
+      "conscientious"
+    ],
+    "examples": [
+      {
+        "english": "His diligent approach helped him handle the situation calmly.",
+        "persian": "رویکرد کوشا او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A diligent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش کوشا می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a hardworking conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “diligent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "distinct",
+    "meaning": "متمایز",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "different",
+      "separate"
+    ],
+    "examples": [
+      {
+        "english": "His distinct approach helped him handle the situation calmly.",
+        "persian": "رویکرد متمایز او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A distinct attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش متمایز می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a different conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “distinct” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "effective",
+    "meaning": "موثر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "successful",
+      "productive"
+    ],
+    "examples": [
+      {
+        "english": "His effective approach helped him handle the situation calmly.",
+        "persian": "رویکرد موثر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A effective attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش موثر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a successful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “effective” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "efficient",
+    "meaning": "کارآمد",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "productive",
+      "competent"
+    ],
+    "examples": [
+      {
+        "english": "His efficient approach helped him handle the situation calmly.",
+        "persian": "رویکرد کارآمد او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A efficient attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش کارآمد می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a productive conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “efficient” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "eligible",
+    "meaning": "واجد شرایط",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "qualified",
+      "entitled"
+    ],
+    "examples": [
+      {
+        "english": "His eligible approach helped him handle the situation calmly.",
+        "persian": "رویکرد واجد شرایط او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A eligible attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش واجد شرایط می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a qualified conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “eligible” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "enthusiastic",
+    "meaning": "مشتاق",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "eager",
+      "keen"
+    ],
+    "examples": [
+      {
+        "english": "His enthusiastic approach helped him handle the situation calmly.",
+        "persian": "رویکرد مشتاق او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A enthusiastic attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مشتاق می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a eager conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “enthusiastic” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-01",
+    "word": "essential",
+    "meaning": "ضروری",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "necessary",
+      "vital"
+    ],
+    "examples": [
+      {
+        "english": "His essential approach helped him handle the situation calmly.",
+        "persian": "رویکرد ضروری او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A essential attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ضروری می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a necessary conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “essential” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  }
+]

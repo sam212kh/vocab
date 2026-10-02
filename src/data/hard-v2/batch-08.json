@@ -1,0 +1,812 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "temerity",
+    "meaning": "گستاخی و جسارت",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "audacity",
+      "boldness"
+    ],
+    "examples": [
+      {
+        "english": "His temerity approach helped him deal with the situation calmly.",
+        "persian": "رویکرد گستاخی و جسارت او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed temerity, but the reasons became clearer later.",
+        "persian": "این تصمیم گستاخی و جسارت به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A temerity attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش گستاخی و جسارت می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “temerity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "tenacious",
+    "meaning": "سمج و پیگیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "persistent",
+      "resolute"
+    ],
+    "examples": [
+      {
+        "english": "His tenacious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد سمج و پیگیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed tenacious, but the reasons became clearer later.",
+        "persian": "این تصمیم سمج و پیگیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A tenacious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش سمج و پیگیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “tenacious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "tirade",
+    "meaning": "سخنرانی یا حمله کلامی تند",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "diatribe",
+      "rant"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a tirade that required careful judgment.",
+        "persian": "این موقعیت به یک سخنرانی یا حمله کلامی تند تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the tirade more clearly.",
+        "persian": "توضیح او به همه کمک کرد سخنرانی یا حمله کلامی تند را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important tirade that had been overlooked.",
+        "persian": "بحث یک سخنرانی یا حمله کلامی تند مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “tirade” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "torpid",
+    "meaning": "بی‌حال و کند",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "sluggish",
+      "lethargic"
+    ],
+    "examples": [
+      {
+        "english": "His torpid approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌حال و کند او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed torpid, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌حال و کند به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A torpid attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌حال و کند می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “torpid” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "transient",
+    "meaning": "موقتی و زودگذر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "temporary",
+      "fleeting"
+    ],
+    "examples": [
+      {
+        "english": "His transient approach helped him deal with the situation calmly.",
+        "persian": "رویکرد موقتی و زودگذر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed transient, but the reasons became clearer later.",
+        "persian": "این تصمیم موقتی و زودگذر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A transient attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش موقتی و زودگذر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “transient” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "trepidation",
+    "meaning": "ترس و اضطراب",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "apprehension",
+      "fear"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a trepidation that required careful judgment.",
+        "persian": "این موقعیت به یک ترس و اضطراب تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the trepidation more clearly.",
+        "persian": "توضیح او به همه کمک کرد ترس و اضطراب را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important trepidation that had been overlooked.",
+        "persian": "بحث یک ترس و اضطراب مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “trepidation” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "truculent",
+    "meaning": "خشن و ستیزه‌جو",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "aggressive",
+      "belligerent"
+    ],
+    "examples": [
+      {
+        "english": "His truculent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد خشن و ستیزه‌جو او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed truculent, but the reasons became clearer later.",
+        "persian": "این تصمیم خشن و ستیزه‌جو به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A truculent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش خشن و ستیزه‌جو می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “truculent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "ubiquitous",
+    "meaning": "همه‌جا حاضر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "omnipresent",
+      "pervasive"
+    ],
+    "examples": [
+      {
+        "english": "His ubiquitous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد همه‌جا حاضر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed ubiquitous, but the reasons became clearer later.",
+        "persian": "این تصمیم همه‌جا حاضر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A ubiquitous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش همه‌جا حاضر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ubiquitous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "unassuming",
+    "meaning": "بی‌ادعا و متواضع",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "modest",
+      "humble"
+    ],
+    "examples": [
+      {
+        "english": "His unassuming approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌ادعا و متواضع او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed unassuming, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌ادعا و متواضع به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A unassuming attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌ادعا و متواضع می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unassuming” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "unfathomable",
+    "meaning": "درک‌ناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "incomprehensible",
+      "mysterious"
+    ],
+    "examples": [
+      {
+        "english": "His unfathomable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد درک‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed unfathomable, but the reasons became clearer later.",
+        "persian": "این تصمیم درک‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A unfathomable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش درک‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unfathomable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "unequivocal",
+    "meaning": "کاملاً صریح و بدون ابهام",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unambiguous",
+      "definite"
+    ],
+    "examples": [
+      {
+        "english": "His unequivocal approach helped him deal with the situation calmly.",
+        "persian": "رویکرد کاملاً صریح و بدون ابهام او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed unequivocal, but the reasons became clearer later.",
+        "persian": "این تصمیم کاملاً صریح و بدون ابهام به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A unequivocal attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش کاملاً صریح و بدون ابهام می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unequivocal” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "unprecedented",
+    "meaning": "بی‌سابقه",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unparalleled",
+      "novel"
+    ],
+    "examples": [
+      {
+        "english": "His unprecedented approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌سابقه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed unprecedented, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌سابقه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A unprecedented attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌سابقه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unprecedented” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "unctuous",
+    "meaning": "چاپلوسانه و بیش از حد صمیمی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "oily",
+      "ingratiating"
+    ],
+    "examples": [
+      {
+        "english": "His unctuous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد چاپلوسانه و بیش از حد صمیمی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed unctuous, but the reasons became clearer later.",
+        "persian": "این تصمیم چاپلوسانه و بیش از حد صمیمی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A unctuous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش چاپلوسانه و بیش از حد صمیمی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unctuous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "untenable",
+    "meaning": "غیرقابل دفاع یا ادامه",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "indefensible",
+      "unsustainable"
+    ],
+    "examples": [
+      {
+        "english": "His untenable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد غیرقابل دفاع یا ادامه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed untenable, but the reasons became clearer later.",
+        "persian": "این تصمیم غیرقابل دفاع یا ادامه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A untenable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش غیرقابل دفاع یا ادامه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “untenable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "usurp",
+    "meaning": "غصب کردن",
+    "level": "Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "seize",
+      "appropriate"
+    ],
+    "examples": [
+      {
+        "english": "She decided to usurp the issue before taking further action.",
+        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را غصب کردن."
+      },
+      {
+        "english": "Experienced people know how to usurp difficult situations without creating unnecessary conflict.",
+        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را غصب کردن بدون ایجاد درگیری غیرضروری."
+      },
+      {
+        "english": "He chose to usurp the matter carefully after hearing both sides.",
+        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت غصب کردن."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “usurp” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "vacillate",
+    "meaning": "مردد بودن و مدام تغییر نظر دادن",
+    "level": "Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "waver",
+      "hesitate"
+    ],
+    "examples": [
+      {
+        "english": "She decided to vacillate the issue before taking further action.",
+        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را مردد بودن و مدام تغییر نظر دادن."
+      },
+      {
+        "english": "Experienced people know how to vacillate difficult situations without creating unnecessary conflict.",
+        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را مردد بودن و مدام تغییر نظر دادن بدون ایجاد درگیری غیرضروری."
+      },
+      {
+        "english": "He chose to vacillate the matter carefully after hearing both sides.",
+        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت مردد بودن و مدام تغییر نظر دادن."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vacillate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "venerate",
+    "meaning": "با احترام بسیار ستایش کردن",
+    "level": "Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "revere",
+      "honor"
+    ],
+    "examples": [
+      {
+        "english": "She decided to venerate the issue before taking further action.",
+        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را با احترام بسیار ستایش کردن."
+      },
+      {
+        "english": "Experienced people know how to venerate difficult situations without creating unnecessary conflict.",
+        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را با احترام بسیار ستایش کردن بدون ایجاد درگیری غیرضروری."
+      },
+      {
+        "english": "He chose to venerate the matter carefully after hearing both sides.",
+        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت با احترام بسیار ستایش کردن."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “venerate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "verbose",
+    "meaning": "پرحرف و طولانی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "wordy",
+      "long-winded"
+    ],
+    "examples": [
+      {
+        "english": "His verbose approach helped him deal with the situation calmly.",
+        "persian": "رویکرد پرحرف و طولانی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed verbose, but the reasons became clearer later.",
+        "persian": "این تصمیم پرحرف و طولانی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A verbose attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش پرحرف و طولانی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “verbose” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "vicarious",
+    "meaning": "غیرمستقیم و از طریق دیگری تجربه‌شده",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "indirect",
+      "secondhand"
+    ],
+    "examples": [
+      {
+        "english": "His vicarious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد غیرمستقیم و از طریق دیگری تجربه‌شده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed vicarious, but the reasons became clearer later.",
+        "persian": "این تصمیم غیرمستقیم و از طریق دیگری تجربه‌شده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A vicarious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش غیرمستقیم و از طریق دیگری تجربه‌شده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vicarious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "vindicate",
+    "meaning": "تبرئه یا اثبات بی‌گناهی کردن",
+    "level": "Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "exonerate",
+      "clear"
+    ],
+    "examples": [
+      {
+        "english": "She decided to vindicate the issue before taking further action.",
+        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تبرئه یا اثبات بی‌گناهی کردن."
+      },
+      {
+        "english": "Experienced people know how to vindicate difficult situations without creating unnecessary conflict.",
+        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تبرئه یا اثبات بی‌گناهی کردن بدون ایجاد درگیری غیرضروری."
+      },
+      {
+        "english": "He chose to vindicate the matter carefully after hearing both sides.",
+        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تبرئه یا اثبات بی‌گناهی کردن."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vindicate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "virulent",
+    "meaning": "بسیار شدید و خصمانه",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "poisonous",
+      "hostile"
+    ],
+    "examples": [
+      {
+        "english": "His virulent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بسیار شدید و خصمانه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed virulent, but the reasons became clearer later.",
+        "persian": "این تصمیم بسیار شدید و خصمانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A virulent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بسیار شدید و خصمانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “virulent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "vitriolic",
+    "meaning": "تلخ و گزنده",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "caustic",
+      "bitter"
+    ],
+    "examples": [
+      {
+        "english": "His vitriolic approach helped him deal with the situation calmly.",
+        "persian": "رویکرد تلخ و گزنده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed vitriolic, but the reasons became clearer later.",
+        "persian": "این تصمیم تلخ و گزنده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A vitriolic attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش تلخ و گزنده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vitriolic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "vociferous",
+    "meaning": "پرسروصدا و شدید",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "loud",
+      "clamorous"
+    ],
+    "examples": [
+      {
+        "english": "His vociferous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد پرسروصدا و شدید او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed vociferous, but the reasons became clearer later.",
+        "persian": "این تصمیم پرسروصدا و شدید به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A vociferous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش پرسروصدا و شدید می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vociferous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "wanton",
+    "meaning": "بی‌مهار و بی‌دلیل",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "reckless",
+      "unrestrained"
+    ],
+    "examples": [
+      {
+        "english": "His wanton approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌مهار و بی‌دلیل او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed wanton, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌مهار و بی‌دلیل به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A wanton attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌مهار و بی‌دلیل می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wanton” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "wary",
+    "meaning": "محتاط و هوشیار",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "cautious",
+      "watchful"
+    ],
+    "examples": [
+      {
+        "english": "His wary approach helped him deal with the situation calmly.",
+        "persian": "رویکرد محتاط و هوشیار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed wary, but the reasons became clearer later.",
+        "persian": "این تصمیم محتاط و هوشیار به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A wary attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش محتاط و هوشیار می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wary” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "whimsical",
+    "meaning": "دمدمی و خیال‌پرداز",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "capricious",
+      "fanciful"
+    ],
+    "examples": [
+      {
+        "english": "His whimsical approach helped him deal with the situation calmly.",
+        "persian": "رویکرد دمدمی و خیال‌پرداز او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed whimsical, but the reasons became clearer later.",
+        "persian": "این تصمیم دمدمی و خیال‌پرداز به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A whimsical attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش دمدمی و خیال‌پرداز می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “whimsical” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "wistful",
+    "meaning": "حسرت‌آلود",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "yearning",
+      "melancholic"
+    ],
+    "examples": [
+      {
+        "english": "His wistful approach helped him deal with the situation calmly.",
+        "persian": "رویکرد حسرت‌آلود او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed wistful, but the reasons became clearer later.",
+        "persian": "این تصمیم حسرت‌آلود به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A wistful attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش حسرت‌آلود می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wistful” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "zealous",
+    "meaning": "پرانرژی و مشتاق",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "fervent",
+      "passionate"
+    ],
+    "examples": [
+      {
+        "english": "His zealous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد پرانرژی و مشتاق او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed zealous, but the reasons became clearer later.",
+        "persian": "این تصمیم پرانرژی و مشتاق به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A zealous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش پرانرژی و مشتاق می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zealous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "zealotry",
+    "meaning": "تعصب شدید",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "fanaticism",
+      "extremism"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a zealotry that required careful judgment.",
+        "persian": "این موقعیت به یک تعصب شدید تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the zealotry more clearly.",
+        "persian": "توضیح او به همه کمک کرد تعصب شدید را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important zealotry that had been overlooked.",
+        "persian": "بحث یک تعصب شدید مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zealotry” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-08",
+    "word": "zenith",
+    "meaning": "اوج",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "peak",
+      "summit"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a zenith that required careful judgment.",
+        "persian": "این موقعیت به یک اوج تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the zenith more clearly.",
+        "persian": "توضیح او به همه کمک کرد اوج را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important zenith that had been overlooked.",
+        "persian": "بحث یک اوج مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zenith” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  }
+]

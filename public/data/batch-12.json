@@ -1,0 +1,722 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "counter-offer",
+    "meaning": "پیشنهاد متقابل از طرف کارفرمای فعلی",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She received a counter-offer after announcing that she was leaving.",
+        "persian": "او پس از اعلام رفتنش یک پیشنهاد متقابل دریافت کرد."
+      },
+      {
+        "english": "The meaning of counter-offer depends on the situation.",
+        "persian": "معنی «counter-offer» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A counter-offer can appear when an employee tells a company that they intend to leave. The employer may increase the salary or improve other conditions in an attempt to keep the person. The employee then has to decide whether the new offer addresses the original reasons for considering another job. Compensation may be important, but career growth, management, workload, flexibility, and workplace culture can also influence the decision. A counter-offer therefore deserves careful consideration rather than an immediate answer."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "appraisal",
+    "meaning": "ارزیابی عملکرد کارمند",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His annual appraisal included detailed feedback about his performance.",
+        "persian": "ارزیابی سالانه او شامل بازخورد دقیق درباره عملکردش بود."
+      },
+      {
+        "english": "The meaning of appraisal depends on the situation.",
+        "persian": "معنی «appraisal» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "An appraisal is a formal review of an employee's performance. It may cover achievements, responsibilities, strengths, areas for improvement, goals, and future development. In some organizations, appraisal results influence salary increases or promotions. Employees often use these meetings to discuss expectations with their managers. A useful appraisal should provide specific and constructive feedback rather than vague comments. Clear feedback helps employees understand what is expected and gives them an opportunity to improve their performance over time."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "retain",
+    "meaning": "حفظ کردن یا نگه داشتن فرد",
+    "level": "Upper-Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The company wants to retain experienced employees.",
+        "persian": "شرکت می‌خواهد کارکنان باتجربه را حفظ کند."
+      },
+      {
+        "english": "The meaning of retain depends on the situation.",
+        "persian": "معنی «retain» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Companies often want to retain experienced employees because replacing them can require recruitment, interviews, onboarding, and training. Retention may depend on compensation, career opportunities, management, flexibility, recognition, and workplace culture. A higher salary can encourage someone to stay, but it may not solve every reason behind a decision to leave. Understanding why employees consider leaving can help a company address deeper problems instead of relying only on short-term financial incentives."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "resign",
+    "meaning": "استعفا دادن",
+    "level": "Upper-Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She decided to resign after accepting another position.",
+        "persian": "او پس از پذیرفتن موقعیت دیگری تصمیم گرفت استعفا دهد."
+      },
+      {
+        "english": "The meaning of resign depends on the situation.",
+        "persian": "معنی «resign» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "To resign means to formally leave a job by telling the employer that you are ending your employment. People may resign because they have found another opportunity, want a different career direction, or are unhappy with their current circumstances. In professional environments, employees often provide notice before their final day and help transfer their responsibilities. Resigning is different from being dismissed because the decision to leave comes from the employee rather than the employer."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "regret",
+    "meaning": "پشیمان شدن؛ پشیمانی",
+    "level": "Upper-Intermediate",
+    "pos": "verb/noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He did not regret leaving his previous job.",
+        "persian": "او از ترک شغل قبلی‌اش پشیمان نبود."
+      },
+      {
+        "english": "The meaning of regret depends on the situation.",
+        "persian": "معنی «regret» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Regret is the feeling that you wish you had made a different decision or acted differently in the past. Career decisions can sometimes lead to regret when reality does not match expectations. Someone may accept a new position and later discover that the workload, management style, or opportunities are different from what they expected. Regret does not necessarily prove that the original decision was wrong; it can simply reflect new information that became available afterward."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "bribe",
+    "meaning": "رشوه؛ چیزی برای تأثیرگذاری ناعادلانه",
+    "level": "Upper-Intermediate",
+    "pos": "noun/verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He described the payment as a bribe rather than a reward.",
+        "persian": "او آن پرداخت را بیشتر رشوه دانست تا پاداش."
+      },
+      {
+        "english": "The meaning of bribe depends on the situation.",
+        "persian": "معنی «bribe» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A bribe is something offered to influence a person's behavior or decision in an improper way. The word normally has a strong negative meaning and is associated with corruption. In informal workplace discussions, people may use it figuratively when they believe an offer is mainly designed to persuade someone to change a decision. The figurative meaning is less literal than the legal meaning, so context matters when interpreting what a speaker intends."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "underlying",
+    "meaning": "اصلی و زیربنایی، پشتِ یک وضعیت",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The salary increase did not solve the underlying problem.",
+        "persian": "افزایش حقوق مشکل اصلی را حل نکرد."
+      },
+      {
+        "english": "The meaning of underlying depends on the situation.",
+        "persian": "معنی «underlying» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Underlying describes something that exists beneath the surface and helps explain a situation. An employee may complain about salary while the underlying concern is actually limited career growth, poor management, or an unhealthy workload. Finding the underlying issue can lead to a better solution because it addresses the cause rather than only the visible symptom. The word is common in professional conversations where people need to distinguish between an immediate problem and the reason behind it."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "headache",
+    "meaning": "دردسر یا مشکل آزاردهنده",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Replacing an experienced employee can be a major headache.",
+        "persian": "جایگزین کردن یک کارمند باتجربه می‌تواند دردسر بزرگی باشد."
+      },
+      {
+        "english": "The meaning of headache depends on the situation.",
+        "persian": "معنی «headache» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Headache normally refers to physical pain, but in informal English it can also mean an annoying or difficult problem. If someone says that replacing an employee would be a headache, they mean that the process could require considerable time, effort, and money. This figurative use is common in everyday workplace conversations and social media posts. In formal writing, words such as difficulty, problem, or challenge may be more appropriate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "hike",
+    "meaning": "افزایش قابل‌توجه، مخصوصاً حقوق یا قیمت",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She received a significant salary hike this year.",
+        "persian": "او امسال افزایش قابل‌توجهی در حقوقش دریافت کرد."
+      },
+      {
+        "english": "The meaning of hike depends on the situation.",
+        "persian": "معنی «hike» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "In informal business English, hike can mean a noticeable increase in salary, prices, fees, or another amount. The phrase salary hike is common in job-related conversations. It usually suggests a meaningful increase rather than a tiny adjustment. In more formal writing, increase or raise may sound more neutral. Understanding hike is useful when reading career discussions, compensation reports, recruiter messages, and conversations about employment offers."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "candidate",
+    "meaning": "نامزد یا فرد مورد بررسی برای یک موقعیت",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The company interviewed several strong candidates.",
+        "persian": "شرکت با چند نامزد قوی مصاحبه کرد."
+      },
+      {
+        "english": "The meaning of candidate depends on the situation.",
+        "persian": "معنی «candidate» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A candidate is a person being considered for a particular opportunity, especially a job. During recruitment, a candidate may submit a resume, complete assessments, attend interviews, and discuss compensation or responsibilities. The word is broader than applicant because a candidate may already have progressed beyond the initial application stage. Candidates commonly use this word when discussing their position in a hiring process and communicating with recruiters."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "applicant",
+    "meaning": "متقاضی یک موقعیت یا فرصت",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The company received hundreds of applicants.",
+        "persian": "شرکت صدها متقاضی دریافت کرد."
+      },
+      {
+        "english": "The meaning of applicant depends on the situation.",
+        "persian": "معنی «applicant» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "An applicant is someone who formally applies for a position or opportunity. The term is especially common at the beginning of a hiring process, when companies receive resumes and application forms. Not every applicant becomes a candidate because some applications may not meet the basic requirements. Recruiters often screen applicants before selecting people for interviews. Knowing this distinction makes recruitment emails, application instructions, and job-related conversations easier to understand."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "reward",
+    "meaning": "پاداش در برابر موفقیت یا عملکرد",
+    "level": "Upper-Intermediate",
+    "pos": "noun/verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Employees expect fair rewards for their contributions.",
+        "persian": "کارمندان انتظار پاداش منصفانه برای مشارکت خود دارند."
+      },
+      {
+        "english": "The meaning of reward depends on the situation.",
+        "persian": "معنی «reward» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A reward is something given to recognize an achievement, contribution, or desirable behavior. At work, rewards can include money, promotions, benefits, recognition, or opportunities for growth. The meaning is broader than salary because salary is regular compensation, while a reward is connected to recognition or a particular outcome. Employees may consider whether rewards reflect their contribution and whether the organization's approach to recognition is consistent over time."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "compensation",
+    "meaning": "حقوق و مزایای دریافتی در برابر کار",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The role offers competitive compensation.",
+        "persian": "این موقعیت حقوق و مزایای رقابتی ارائه می‌دهد."
+      },
+      {
+        "english": "The meaning of compensation depends on the situation.",
+        "persian": "معنی «compensation» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Compensation refers to the money and benefits a person receives in exchange for their work. Depending on the context, it can include base salary, bonuses, benefits, commissions, and other forms of payment. The term is common in recruitment because it is broader and more formal than salary. Candidates may compare compensation packages rather than looking only at monthly pay. Understanding this distinction is useful when reading job offers or discussing employment terms."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "valuable",
+    "meaning": "ارزشمند و دارای اهمیت زیاد",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her experience is valuable to the organization.",
+        "persian": "تجربه او برای سازمان ارزشمند است."
+      },
+      {
+        "english": "The meaning of valuable depends on the situation.",
+        "persian": "معنی «valuable» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Valuable describes something that has significant worth or importance. In a professional context, a person can be valuable because of experience, knowledge, relationships, or the ability to solve difficult problems. The word does not necessarily refer to money. A valuable opportunity may provide learning or career growth, while valuable feedback can help someone improve. Because the word is broad, context usually explains what kind of value is being discussed."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "replacement",
+    "meaning": "فرد یا چیزی که جای دیگری را می‌گیرد",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Finding a suitable replacement may take several weeks.",
+        "persian": "پیدا کردن یک جایگزین مناسب ممکن است چند هفته طول بکشد."
+      },
+      {
+        "english": "The meaning of replacement depends on the situation.",
+        "persian": "معنی «replacement» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A replacement is a person or thing that takes the place of another. In employment, companies may need a replacement when an employee resigns or moves to another role. Replacing an experienced employee can involve recruiting, interviewing, onboarding, and training. It may also take time for the new person to understand the organization's processes. For this reason, employers sometimes try to keep experienced employees when losing them would create significant operational difficulty."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "convincing",
+    "meaning": "قانع‌کننده و باورپذیر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her explanation was convincing enough to change his mind.",
+        "persian": "توضیح او آن‌قدر قانع‌کننده بود که نظر او را تغییر داد."
+      },
+      {
+        "english": "The meaning of convincing depends on the situation.",
+        "persian": "معنی «convincing» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Something convincing makes people more likely to believe an explanation, argument, or offer. In a workplace conversation, a manager may need to give convincing reasons for a decision, while an employee may present a convincing case for a promotion or salary review. Being convincing is not simply about speaking confidently. Evidence, clear reasoning, relevant examples, and an understanding of the other person's concerns can make an argument much more persuasive."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "circumstance",
+    "meaning": "شرایطی که بر یک تصمیم یا رویداد اثر می‌گذارد",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Personal circumstances can affect a career decision.",
+        "persian": "شرایط شخصی می‌تواند بر یک تصمیم شغلی تأثیر بگذارد."
+      },
+      {
+        "english": "The meaning of circumstance depends on the situation.",
+        "persian": "معنی «circumstance» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Circumstances are the conditions surrounding an event or decision. The same choice can make sense in one set of circumstances and seem inappropriate in another. Career decisions may depend on financial needs, family responsibilities, location, workplace conditions, and future opportunities. When someone says that a decision was made under the circumstances, they mean that the available conditions influenced the choice. The word is useful when explaining why a person acted differently from what might normally be expected."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "ultimately",
+    "meaning": "در نهایت؛ سرانجام",
+    "level": "Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She ultimately decided to accept the new position.",
+        "persian": "او در نهایت تصمیم گرفت موقعیت جدید را بپذیرد."
+      },
+      {
+        "english": "The meaning of ultimately depends on the situation.",
+        "persian": "معنی «ultimately» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Ultimately is used when describing the final result of a process, discussion, or series of decisions. A person may consider several job offers, discuss them with others, and ultimately choose one. The word often signals that earlier events or considerations led to the final outcome. It is useful in professional English because many workplace decisions involve several stages and the speaker may want to distinguish the final conclusion from an earlier possibility."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "significant",
+    "meaning": "قابل‌توجه و مهم",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The company made a significant change to its compensation policy.",
+        "persian": "شرکت تغییر قابل‌توجهی در سیاست حقوق و مزایا ایجاد کرد."
+      },
+      {
+        "english": "The meaning of significant depends on the situation.",
+        "persian": "معنی «significant» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Significant describes something important or large enough to attract attention. In professional English, it is often used for changes, differences, results, risks, or amounts. A significant salary increase may affect an employee's decision, while a significant improvement may indicate that a new approach is working. The word is useful because it communicates importance without necessarily giving an exact measurement. Context determines whether significant refers mainly to size, impact, or importance."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "persuade",
+    "meaning": "قانع کردن فرد برای انجام یا پذیرش چیزی",
+    "level": "Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The manager tried to persuade him to stay.",
+        "persian": "مدیر تلاش کرد او را قانع کند که بماند."
+      },
+      {
+        "english": "The meaning of persuade depends on the situation.",
+        "persian": "معنی «persuade» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "To persuade someone means to make them more willing to accept an idea or take an action. In the workplace, managers may try to persuade employees to stay, while candidates may persuade employers that they are suitable for a position. Persuasion can involve evidence, reasoning, examples, and communication. Unlike forcing someone, persuasion leaves the person with a choice. Strong persuasion usually addresses the other person's concerns rather than simply repeating the speaker's preferred outcome."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "underestimate",
+    "meaning": "کمتر از مقدار یا اهمیت واقعی برآورد کردن",
+    "level": "Upper-Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do not underestimate the effort required to find a new job.",
+        "persian": "تلاش لازم برای پیدا کردن شغل جدید را دست‌کم نگیر."
+      },
+      {
+        "english": "The meaning of underestimate depends on the situation.",
+        "persian": "معنی «underestimate» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "To underestimate something means to judge it as smaller, less important, easier, or less difficult than it really is. Job seekers may underestimate the time required to find a suitable position, while employers may underestimate the effort required to replace an experienced employee. Underestimation can lead to unrealistic expectations and poor planning. Careful research and experience can help people make more realistic judgments before committing to an important decision."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "opportunity",
+    "meaning": "فرصت مناسب برای انجام یا به‌دست‌آوردن چیزی",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She saw the new role as a valuable opportunity.",
+        "persian": "او موقعیت جدید را یک فرصت ارزشمند دید."
+      },
+      {
+        "english": "The meaning of opportunity depends on the situation.",
+        "persian": "معنی «opportunity» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "An opportunity is a favorable situation that gives someone a chance to achieve something. A new job can provide an opportunity to learn, earn more, change direction, or work with different people. Not every opportunity is equally suitable, so people usually compare its benefits with its risks and alternatives. In professional English, opportunity is often used when discussing career development, recruitment, promotions, training, and other situations where a person may gain something valuable."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "expectation",
+    "meaning": "انتظار یا چیزی که فرد تصور می‌کند باید اتفاق بیفتد",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The offer did not match his expectations.",
+        "persian": "این پیشنهاد با انتظارات او مطابقت نداشت."
+      },
+      {
+        "english": "The meaning of expectation depends on the situation.",
+        "persian": "معنی «expectation» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "An expectation is a belief about what should happen or what someone should provide. Employees may have expectations about salary, career growth, workload, flexibility, or management. Problems can arise when expectations are not clearly communicated or when reality differs significantly from what was promised. Discussing expectations early can reduce misunderstandings. In professional conversations, the word is useful for explaining why a person is satisfied, disappointed, or considering a change."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "contribution",
+    "meaning": "مشارکت یا سهم فرد در یک نتیجه",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her contribution was recognized by the team.",
+        "persian": "مشارکت او توسط تیم مورد تقدیر قرار گرفت."
+      },
+      {
+        "english": "The meaning of contribution depends on the situation.",
+        "persian": "معنی «contribution» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A contribution is something that a person adds to a project, team, organization, or result. An employee may contribute knowledge, effort, ideas, leadership, or time. When discussing compensation or promotion, people sometimes explain their contribution by describing measurable results or responsibilities. Recognizing contributions can help employees feel valued. The word is broader than performance because it can include both direct results and less visible efforts that support other people."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "consistently",
+    "meaning": "به‌طور مداوم و پایدار",
+    "level": "Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has consistently delivered strong results.",
+        "persian": "او به‌طور مداوم نتایج خوبی ارائه داده است."
+      },
+      {
+        "english": "The meaning of consistently depends on the situation.",
+        "persian": "معنی «consistently» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Consistently means doing something in a regular, stable, or dependable way over time. An employee who consistently delivers good results performs at a reliable level rather than succeeding only occasionally. The word is useful in professional English because long-term behavior often matters more than a single achievement. Managers may use it when discussing performance, while candidates can use it to describe habits, results, or responsibilities that they have maintained throughout their careers."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "priority",
+    "meaning": "چیزی که نسبت به موارد دیگر اهمیت بیشتری دارد",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Career growth became his main priority.",
+        "persian": "رشد شغلی به اولویت اصلی او تبدیل شد."
+      },
+      {
+        "english": "The meaning of priority depends on the situation.",
+        "persian": "معنی «priority» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A priority is something that receives more attention or importance than other things. Career growth may become a priority for someone who feels that their current role no longer provides enough learning. Salary can also be a priority when financial circumstances change. Priorities are not necessarily permanent; they can change as a person's situation changes. Understanding priorities helps people compare opportunities and decide which factors matter most when making a career decision."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "situation",
+    "meaning": "وضعیت یا شرایط موجود",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He carefully evaluated the situation before responding.",
+        "persian": "او قبل از پاسخ دادن شرایط را با دقت ارزیابی کرد."
+      },
+      {
+        "english": "The meaning of situation depends on the situation.",
+        "persian": "معنی «situation» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Situation refers to the conditions that exist at a particular time. A person's career situation may include their current job, salary, responsibilities, management, location, and future prospects. Before making a major decision, it can be useful to examine the whole situation rather than focusing on one issue. The word is broad and neutral, which makes it useful in professional conversations where people want to describe circumstances without immediately judging them."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "decision",
+    "meaning": "تصمیمی که پس از بررسی گزینه‌ها گرفته می‌شود",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a difficult decision to make.",
+        "persian": "گرفتن این تصمیم دشوار بود."
+      },
+      {
+        "english": "The meaning of decision depends on the situation.",
+        "persian": "معنی «decision» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "A decision is a choice made after considering one or more possibilities. Career decisions can involve comparing salary, responsibilities, growth, location, management, and long-term opportunities. A good decision does not require certainty about the future; it requires understanding the available information and the risks involved. People may also review a decision later when new information becomes available. This is why decision-making is often described as a process rather than a single moment."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "consider",
+    "meaning": "در نظر گرفتن و با دقت بررسی کردن",
+    "level": "Upper-Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You should consider the long-term consequences.",
+        "persian": "باید پیامدهای بلندمدت را در نظر بگیری."
+      },
+      {
+        "english": "The meaning of consider depends on the situation.",
+        "persian": "معنی «consider» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "To consider something means to think about it carefully before making a decision. A candidate may consider a job offer by comparing compensation, responsibilities, growth opportunities, and workplace conditions. Employers may consider whether retaining an employee is worthwhile. The word is useful because it suggests thoughtful evaluation rather than an immediate reaction. In professional communication, phrases such as consider the options and consider the consequences are common and practical."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-14",
+    "word": "genuine",
+    "meaning": "واقعی، صادقانه و غیرجعلی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wanted a genuine conversation about her future.",
+        "persian": "او یک گفت‌وگوی صادقانه درباره آینده‌اش می‌خواست."
+      },
+      {
+        "english": "The meaning of genuine depends on the situation.",
+        "persian": "معنی «genuine» به شرایط بستگی دارد."
+      },
+      {
+        "english": "This word is useful in professional conversations.",
+        "persian": "این واژه در مکالمات حرفه‌ای کاربرد زیادی دارد."
+      }
+    ],
+    "miniContext": "Genuine describes something that is real, sincere, or not intended to deceive. In a career conversation, a person may want a genuine discussion about why they are unhappy rather than a temporary promise designed to keep them from leaving. Genuine feedback is honest and sincere, while a genuine opportunity provides what it appears to offer. The word is useful when distinguishing sincere intentions from appearances or short-term tactics."
+  }
+]

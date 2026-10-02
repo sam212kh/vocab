@@ -1,0 +1,812 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "abrupt",
+    "meaning": "ناگهانی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "sudden",
+      "unexpected"
+    ],
+    "examples": [
+      {
+        "english": "His abrupt approach helped him handle the situation calmly.",
+        "persian": "رویکرد ناگهانی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A abrupt attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ناگهانی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a sudden conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “abrupt” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "coherent",
+    "meaning": "منسجم",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "logical",
+      "consistent"
+    ],
+    "examples": [
+      {
+        "english": "His coherent approach helped him handle the situation calmly.",
+        "persian": "رویکرد منسجم او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A coherent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش منسجم می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a logical conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای منطقی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “coherent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "conspicuous",
+    "meaning": "بسیار آشکار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "noticeable",
+      "obvious"
+    ],
+    "examples": [
+      {
+        "english": "His conspicuous approach helped him handle the situation calmly.",
+        "persian": "رویکرد بسیار آشکار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A conspicuous attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش بسیار آشکار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a noticeable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “conspicuous” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "arduous",
+    "meaning": "سخت و طاقت‌فرسا",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "difficult",
+      "demanding"
+    ],
+    "examples": [
+      {
+        "english": "His arduous approach helped him handle the situation calmly.",
+        "persian": "رویکرد سخت و طاقت‌فرسا او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A arduous attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش سخت و طاقت‌فرسا می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a difficult conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای دشوار رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “arduous” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "deficient",
+    "meaning": "ناکافی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "insufficient",
+      "inadequate"
+    ],
+    "examples": [
+      {
+        "english": "His deficient approach helped him handle the situation calmly.",
+        "persian": "رویکرد ناکافی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A deficient attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ناکافی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a insufficient conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای ناکافی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “deficient” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "delicate",
+    "meaning": "ظریف و حساس",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "fragile",
+      "sensitive"
+    ],
+    "examples": [
+      {
+        "english": "His delicate approach helped him handle the situation calmly.",
+        "persian": "رویکرد ظریف و حساس او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A delicate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ظریف و حساس می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a fragile conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای شکننده رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “delicate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "detrimental",
+    "meaning": "زیان‌آور",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "harmful",
+      "damaging"
+    ],
+    "examples": [
+      {
+        "english": "His detrimental approach helped him handle the situation calmly.",
+        "persian": "رویکرد زیان‌آور او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A detrimental attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش زیان‌آور می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a harmful conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مضر رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “detrimental” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "difficult",
+    "meaning": "دشوار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "challenging",
+      "hard"
+    ],
+    "examples": [
+      {
+        "english": "His difficult approach helped him handle the situation calmly.",
+        "persian": "رویکرد دشوار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A difficult attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش دشوار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a challenging conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “difficult” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "discrete",
+    "meaning": "جدا و مجزا",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "separate",
+      "distinct"
+    ],
+    "examples": [
+      {
+        "english": "His discrete approach helped him handle the situation calmly.",
+        "persian": "رویکرد جدا و مجزا او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A discrete attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش جدا و مجزا می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a separate conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “discrete” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "durable",
+    "meaning": "بادوام",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "lasting",
+      "sturdy"
+    ],
+    "examples": [
+      {
+        "english": "His durable approach helped him handle the situation calmly.",
+        "persian": "رویکرد بادوام او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A durable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش بادوام می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a lasting conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “durable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "fragile",
+    "meaning": "شکننده",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "delicate",
+      "breakable"
+    ],
+    "examples": [
+      {
+        "english": "His fragile approach helped him handle the situation calmly.",
+        "persian": "رویکرد شکننده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A fragile attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش شکننده می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a delicate conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای ظریف و حساس رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “fragile” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "feasible",
+    "meaning": "عملی و شدنی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "practical",
+      "viable"
+    ],
+    "examples": [
+      {
+        "english": "His feasible approach helped him handle the situation calmly.",
+        "persian": "رویکرد عملی و شدنی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A feasible attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش عملی و شدنی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a practical conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای عملی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “feasible” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "formidable",
+    "meaning": "ترسناک و چالش‌برانگیز",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "daunting",
+      "intimidating"
+    ],
+    "examples": [
+      {
+        "english": "His formidable approach helped him handle the situation calmly.",
+        "persian": "رویکرد ترسناک و چالش‌برانگیز او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A formidable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ترسناک و چالش‌برانگیز می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a daunting conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “formidable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "astute",
+    "meaning": "زیرک و هوشمند",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "shrewd",
+      "perceptive"
+    ],
+    "examples": [
+      {
+        "english": "His astute approach helped him handle the situation calmly.",
+        "persian": "رویکرد زیرک و هوشمند او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A astute attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش زیرک و هوشمند می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a shrewd conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “astute” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "harmful",
+    "meaning": "مضر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "damaging",
+      "detrimental"
+    ],
+    "examples": [
+      {
+        "english": "His harmful approach helped him handle the situation calmly.",
+        "persian": "رویکرد مضر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A harmful attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مضر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a damaging conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “harmful” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "inadequate",
+    "meaning": "ناکافی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "insufficient",
+      "deficient"
+    ],
+    "examples": [
+      {
+        "english": "His inadequate approach helped him handle the situation calmly.",
+        "persian": "رویکرد ناکافی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A inadequate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ناکافی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a insufficient conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای ناکافی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “inadequate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "inconsistent",
+    "meaning": "ناسازگار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "irregular",
+      "contradictory"
+    ],
+    "examples": [
+      {
+        "english": "His inconsistent approach helped him handle the situation calmly.",
+        "persian": "رویکرد ناسازگار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A inconsistent attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ناسازگار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a irregular conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “inconsistent” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "ineffective",
+    "meaning": "بی‌اثر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "useless",
+      "unproductive"
+    ],
+    "examples": [
+      {
+        "english": "His ineffective approach helped him handle the situation calmly.",
+        "persian": "رویکرد بی‌اثر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A ineffective attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش بی‌اثر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a useless conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “ineffective” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "insufficient",
+    "meaning": "ناکافی",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "inadequate",
+      "scarce"
+    ],
+    "examples": [
+      {
+        "english": "His insufficient approach helped him handle the situation calmly.",
+        "persian": "رویکرد ناکافی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A insufficient attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ناکافی می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a inadequate conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای ناکافی رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “insufficient” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "intricate",
+    "meaning": "پیچیده و ظریف",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "complex",
+      "complicated"
+    ],
+    "examples": [
+      {
+        "english": "His intricate approach helped him handle the situation calmly.",
+        "persian": "رویکرد پیچیده و ظریف او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A intricate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش پیچیده و ظریف می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a complex conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “intricate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "moderate",
+    "meaning": "متوسط؛ معتدل",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "reasonable",
+      "temperate"
+    ],
+    "examples": [
+      {
+        "english": "His moderate approach helped him handle the situation calmly.",
+        "persian": "رویکرد متوسط؛ معتدل او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A moderate attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش متوسط؛ معتدل می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a reasonable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای منطقی و معقول رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “moderate” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "overwhelming",
+    "meaning": "بسیار شدید و طاقت‌فرسا",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "intense",
+      "overpowering"
+    ],
+    "examples": [
+      {
+        "english": "His overwhelming approach helped him handle the situation calmly.",
+        "persian": "رویکرد بسیار شدید و طاقت‌فرسا او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A overwhelming attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش بسیار شدید و طاقت‌فرسا می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a intense conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای شدید رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “overwhelming” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "plausible",
+    "meaning": "قابل قبول و باورپذیر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "believable",
+      "credible"
+    ],
+    "examples": [
+      {
+        "english": "His plausible approach helped him handle the situation calmly.",
+        "persian": "رویکرد قابل قبول و باورپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A plausible attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش قابل قبول و باورپذیر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a believable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “plausible” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "problematic",
+    "meaning": "مسئله‌دار",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "troublesome",
+      "difficult"
+    ],
+    "examples": [
+      {
+        "english": "His problematic approach helped him handle the situation calmly.",
+        "persian": "رویکرد مسئله‌دار او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A problematic attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مسئله‌دار می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a troublesome conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “problematic” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "remarkable",
+    "meaning": "چشمگیر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "notable",
+      "extraordinary"
+    ],
+    "examples": [
+      {
+        "english": "His remarkable approach helped him handle the situation calmly.",
+        "persian": "رویکرد چشمگیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A remarkable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش چشمگیر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a notable conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای قابل توجه رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “remarkable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "severe",
+    "meaning": "شدید",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "serious",
+      "intense"
+    ],
+    "examples": [
+      {
+        "english": "His severe approach helped him handle the situation calmly.",
+        "persian": "رویکرد شدید او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A severe attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش شدید می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a serious conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “severe” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "significant",
+    "meaning": "مهم و قابل توجه",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "important",
+      "considerable"
+    ],
+    "examples": [
+      {
+        "english": "His significant approach helped him handle the situation calmly.",
+        "persian": "رویکرد مهم و قابل توجه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A significant attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش مهم و قابل توجه می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a important conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “significant” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "stable",
+    "meaning": "باثبات",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "steady",
+      "secure"
+    ],
+    "examples": [
+      {
+        "english": "His stable approach helped him handle the situation calmly.",
+        "persian": "رویکرد باثبات او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A stable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش باثبات می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a steady conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “stable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "subtle",
+    "meaning": "ظریف و غیرمستقیم",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "delicate",
+      "nuanced"
+    ],
+    "examples": [
+      {
+        "english": "His subtle approach helped him handle the situation calmly.",
+        "persian": "رویکرد ظریف و غیرمستقیم او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A subtle attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش ظریف و غیرمستقیم می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a delicate conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای ظریف و حساس رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “subtle” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-07",
+    "word": "vulnerable",
+    "meaning": "آسیب‌پذیر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "exposed",
+      "defenseless"
+    ],
+    "examples": [
+      {
+        "english": "His vulnerable approach helped him handle the situation calmly.",
+        "persian": "رویکرد آسیب‌پذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "A vulnerable attitude can make a strong impression in a professional setting.",
+        "persian": "نگرش آسیب‌پذیر می‌تواند در یک محیط حرفه‌ای تاثیر خوبی ایجاد کند."
+      },
+      {
+        "english": "The team discussed the issue carefully and reached a exposed conclusion.",
+        "persian": "تیم موضوع را با دقت بررسی کرد و به نتیجه‌ای مناسب رسید."
+      }
+    ],
+    "miniContext": "In everyday and professional conversations, precise vocabulary helps people express ideas clearly. The word “vulnerable” describes an important quality, action, or situation that can appear in discussions, meetings, interviews, and written communication. Learning words like this makes it easier to explain opinions, describe experiences, and respond naturally when a conversation becomes more detailed. Instead of relying on simple repeated expressions, a stronger vocabulary gives you more accurate ways to communicate what you mean."
+  }
+]

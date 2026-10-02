@@ -1,0 +1,842 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "ownership",
+    "meaning": "مسئولیت‌پذیری و مالکیت کار",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed ownership during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «ownership» صحبت کرد."
+      },
+      {
+        "english": "Understanding ownership is useful for senior backend engineers.",
+        "persian": "درک مفهوم «ownership» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider ownership before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «ownership» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, ownership is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "accountability",
+    "meaning": "پاسخ‌گویی در قبال نتیجه",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed accountability during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «accountability» صحبت کرد."
+      },
+      {
+        "english": "Understanding accountability is useful for senior backend engineers.",
+        "persian": "درک مفهوم «accountability» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider accountability before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «accountability» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, accountability is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "collaboration",
+    "meaning": "همکاری",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed collaboration during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «collaboration» صحبت کرد."
+      },
+      {
+        "english": "Understanding collaboration is useful for senior backend engineers.",
+        "persian": "درک مفهوم «collaboration» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider collaboration before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «collaboration» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, collaboration is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "cross-functional",
+    "meaning": "بین‌تیمی / میان واحدهای مختلف",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed cross-functional during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «cross-functional» صحبت کرد."
+      },
+      {
+        "english": "Understanding cross-functional is useful for senior backend engineers.",
+        "persian": "درک مفهوم «cross-functional» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider cross-functional before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «cross-functional» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, cross-functional is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "communication",
+    "meaning": "ارتباطات",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed communication during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «communication» صحبت کرد."
+      },
+      {
+        "english": "Understanding communication is useful for senior backend engineers.",
+        "persian": "درک مفهوم «communication» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider communication before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «communication» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, communication is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "technical concept",
+    "meaning": "مفهوم فنی",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed technical concept during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «technical concept» صحبت کرد."
+      },
+      {
+        "english": "Understanding technical concept is useful for senior backend engineers.",
+        "persian": "درک مفهوم «technical concept» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider technical concept before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «technical concept» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, technical concept is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "decision",
+    "meaning": "تصمیم",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed decision during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «decision» صحبت کرد."
+      },
+      {
+        "english": "Understanding decision is useful for senior backend engineers.",
+        "persian": "درک مفهوم «decision» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider decision before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «decision» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, decision is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "requirement",
+    "meaning": "نیازمندی",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed requirement during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «requirement» صحبت کرد."
+      },
+      {
+        "english": "Understanding requirement is useful for senior backend engineers.",
+        "persian": "درک مفهوم «requirement» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider requirement before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «requirement» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, requirement is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "stakeholder management",
+    "meaning": "مدیریت ذی‌نفعان",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed stakeholder management during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «stakeholder management» صحبت کرد."
+      },
+      {
+        "english": "Understanding stakeholder management is useful for senior backend engineers.",
+        "persian": "درک مفهوم «stakeholder management» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider stakeholder management before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «stakeholder management» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, stakeholder management is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "problem solving",
+    "meaning": "حل مسئله",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed problem solving during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «problem solving» صحبت کرد."
+      },
+      {
+        "english": "Understanding problem solving is useful for senior backend engineers.",
+        "persian": "درک مفهوم «problem solving» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider problem solving before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «problem solving» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, problem solving is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "decision-making",
+    "meaning": "تصمیم‌گیری",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed decision-making during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «decision-making» صحبت کرد."
+      },
+      {
+        "english": "Understanding decision-making is useful for senior backend engineers.",
+        "persian": "درک مفهوم «decision-making» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider decision-making before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «decision-making» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, decision-making is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "decision-oriented",
+    "meaning": "متمرکز بر تصمیم",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed decision-oriented during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «decision-oriented» صحبت کرد."
+      },
+      {
+        "english": "Understanding decision-oriented is useful for senior backend engineers.",
+        "persian": "درک مفهوم «decision-oriented» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider decision-oriented before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «decision-oriented» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, decision-oriented is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "implementation",
+    "meaning": "پیاده‌سازی",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed implementation during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «implementation» صحبت کرد."
+      },
+      {
+        "english": "Understanding implementation is useful for senior backend engineers.",
+        "persian": "درک مفهوم «implementation» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider implementation before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «implementation» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, implementation is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "delivery",
+    "meaning": "تحویل کار",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed delivery during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «delivery» صحبت کرد."
+      },
+      {
+        "english": "Understanding delivery is useful for senior backend engineers.",
+        "persian": "درک مفهوم «delivery» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider delivery before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «delivery» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, delivery is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "deadline",
+    "meaning": "مهلت",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed deadline during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «deadline» صحبت کرد."
+      },
+      {
+        "english": "Understanding deadline is useful for senior backend engineers.",
+        "persian": "درک مفهوم «deadline» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider deadline before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «deadline» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, deadline is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "priority",
+    "meaning": "اولویت",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed priority during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «priority» صحبت کرد."
+      },
+      {
+        "english": "Understanding priority is useful for senior backend engineers.",
+        "persian": "درک مفهوم «priority» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider priority before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «priority» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, priority is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "challenge",
+    "meaning": "چالش",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed challenge during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «challenge» صحبت کرد."
+      },
+      {
+        "english": "Understanding challenge is useful for senior backend engineers.",
+        "persian": "درک مفهوم «challenge» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider challenge before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «challenge» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, challenge is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "incident",
+    "meaning": "رخداد عملیاتی",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed incident during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «incident» صحبت کرد."
+      },
+      {
+        "english": "Understanding incident is useful for senior backend engineers.",
+        "persian": "درک مفهوم «incident» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider incident before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «incident» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, incident is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "improvement",
+    "meaning": "بهبود",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed improvement during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «improvement» صحبت کرد."
+      },
+      {
+        "english": "Understanding improvement is useful for senior backend engineers.",
+        "persian": "درک مفهوم «improvement» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider improvement before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «improvement» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, improvement is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "experiment",
+    "meaning": "آزمایش",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed experiment during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «experiment» صحبت کرد."
+      },
+      {
+        "english": "Understanding experiment is useful for senior backend engineers.",
+        "persian": "درک مفهوم «experiment» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider experiment before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «experiment» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, experiment is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "mentoring",
+    "meaning": "منتورینگ",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed mentoring during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «mentoring» صحبت کرد."
+      },
+      {
+        "english": "Understanding mentoring is useful for senior backend engineers.",
+        "persian": "درک مفهوم «mentoring» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider mentoring before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «mentoring» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, mentoring is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "coaching",
+    "meaning": "مربی‌گری",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed coaching during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «coaching» صحبت کرد."
+      },
+      {
+        "english": "Understanding coaching is useful for senior backend engineers.",
+        "persian": "درک مفهوم «coaching» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider coaching before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «coaching» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, coaching is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "growth",
+    "meaning": "رشد",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed growth during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «growth» صحبت کرد."
+      },
+      {
+        "english": "Understanding growth is useful for senior backend engineers.",
+        "persian": "درک مفهوم «growth» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider growth before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «growth» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, growth is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "curiosity",
+    "meaning": "کنجکاوی",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed curiosity during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «curiosity» صحبت کرد."
+      },
+      {
+        "english": "Understanding curiosity is useful for senior backend engineers.",
+        "persian": "درک مفهوم «curiosity» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider curiosity before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «curiosity» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, curiosity is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "initiative",
+    "meaning": "ابتکار عمل",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed initiative during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «initiative» صحبت کرد."
+      },
+      {
+        "english": "Understanding initiative is useful for senior backend engineers.",
+        "persian": "درک مفهوم «initiative» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider initiative before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «initiative» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, initiative is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "ownership mindset",
+    "meaning": "ذهنیت مالکیت",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed ownership mindset during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «ownership mindset» صحبت کرد."
+      },
+      {
+        "english": "Understanding ownership mindset is useful for senior backend engineers.",
+        "persian": "درک مفهوم «ownership mindset» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider ownership mindset before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «ownership mindset» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, ownership mindset is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "velocity",
+    "meaning": "سرعت پیشرفت تیم",
+    "level": "Upper-Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed velocity during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «velocity» صحبت کرد."
+      },
+      {
+        "english": "Understanding velocity is useful for senior backend engineers.",
+        "persian": "درک مفهوم «velocity» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider velocity before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «velocity» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, velocity is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "lean",
+    "meaning": "چابک و کم‌هزینه از نظر فرایند",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed lean during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «lean» صحبت کرد."
+      },
+      {
+        "english": "Understanding lean is useful for senior backend engineers.",
+        "persian": "درک مفهوم «lean» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider lean before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «lean» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, lean is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "micromanagement",
+    "meaning": "مدیریت ذره‌بینی",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed micromanagement during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «micromanagement» صحبت کرد."
+      },
+      {
+        "english": "Understanding micromanagement is useful for senior backend engineers.",
+        "persian": "درک مفهوم «micromanagement» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider micromanagement before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «micromanagement» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, micromanagement is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "distributed",
+    "meaning": "توزیع‌شده",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed distributed during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «distributed» صحبت کرد."
+      },
+      {
+        "english": "Understanding distributed is useful for senior backend engineers.",
+        "persian": "درک مفهوم «distributed» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider distributed before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «distributed» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, distributed is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "remote-first",
+    "meaning": "با اولویت کار از راه دور",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed remote-first during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «remote-first» صحبت کرد."
+      },
+      {
+        "english": "Understanding remote-first is useful for senior backend engineers.",
+        "persian": "درک مفهوم «remote-first» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider remote-first before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «remote-first» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, remote-first is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "inclusive",
+    "meaning": "فراگیر",
+    "level": "Upper-Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed inclusive during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «inclusive» صحبت کرد."
+      },
+      {
+        "english": "Understanding inclusive is useful for senior backend engineers.",
+        "persian": "درک مفهوم «inclusive» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider inclusive before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «inclusive» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, inclusive is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "collaboratively",
+    "meaning": "به‌صورت مشارکتی",
+    "level": "Upper-Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed collaboratively during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «collaboratively» صحبت کرد."
+      },
+      {
+        "english": "Understanding collaboratively is useful for senior backend engineers.",
+        "persian": "درک مفهوم «collaboratively» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider collaboratively before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «collaboratively» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, collaboratively is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "effectively",
+    "meaning": "به‌صورت مؤثر",
+    "level": "Upper-Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed effectively during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «effectively» صحبت کرد."
+      },
+      {
+        "english": "Understanding effectively is useful for senior backend engineers.",
+        "persian": "درک مفهوم «effectively» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider effectively before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «effectively» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, effectively is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-13",
+    "word": "continuously",
+    "meaning": "به‌صورت پیوسته",
+    "level": "Upper-Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The team discussed continuously during the backend design review.",
+        "persian": "تیم در جلسه بررسی طراحی backend درباره «continuously» صحبت کرد."
+      },
+      {
+        "english": "Understanding continuously is useful for senior backend engineers.",
+        "persian": "درک مفهوم «continuously» برای مهندسان ارشد backend مفید است."
+      },
+      {
+        "english": "We need to consider continuously before making the final decision.",
+        "persian": "قبل از تصمیم نهایی باید «continuously» را در نظر بگیریم."
+      }
+    ],
+    "miniContext": "In a professional backend environment, continuously is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+  }
+]

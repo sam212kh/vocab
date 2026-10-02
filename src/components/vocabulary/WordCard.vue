@@ -5,7 +5,7 @@ import type { Word } from '../../types/vocabulary'
 
 import { useHardWordsStore } from '../../stores/hardWords'
 import { useWordProgressStore } from '../../stores/wordProgress'
-
+import  HardWordButton from './HardWordButton.vue'
 import SpeechButton from '../ui/SpeechButton.vue'
 import ContextText from '../context/ContextText.vue'
 
@@ -34,31 +34,6 @@ const progress = computed(() => {
     )
 })
 
-function toggleHardWord() {
-    const wasHardWord =
-        hardWordsStore.isHardWord(
-            props.word.word
-        )
-
-    hardWordsStore.toggleWord(
-        props.word.word,
-        props.word.meaning
-    )
-
-    /*
-     * Create Progress only when the word
-     * is being added to Hard Words.
-     *
-     * The word itself remains the identifier.
-     */
-    if (!wasHardWord) {
-        wordProgressStore.getProgress(
-            props.word.word,
-            props.word.courseId,
-            String(props.word.lessonId)
-        )
-    }
-}
 </script>
 
 <template>
@@ -95,29 +70,7 @@ function toggleHardWord() {
                 </div>
             </div>
 
-            <!-- Hard Word -->
-            <button
-                type="button"
-                class="shrink-0 rounded-lg px-3 py-2 text-lg transition hover:bg-gray-100"
-                :class="
-                    isHardWord
-                        ? 'text-yellow-500'
-                        : 'text-gray-400'
-                "
-                :aria-label="
-                    isHardWord
-                        ? 'Remove from Hard Words'
-                        : 'Add to Hard Words'
-                "
-                :title="
-                    isHardWord
-                        ? 'Remove from Hard Words'
-                        : 'Add to Hard Words'
-                "
-                @click="toggleHardWord"
-            >
-                {{ isHardWord ? '⭐' : '☆' }}
-            </button>
+            <HardWordButton :word-id="word.word" />
         </div>
 
         <!-- Meaning -->

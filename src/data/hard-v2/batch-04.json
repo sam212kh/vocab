@@ -1,0 +1,812 @@
+[
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "garrulous",
+    "meaning": "پرحرف",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "talkative",
+      "loquacious"
+    ],
+    "examples": [
+      {
+        "english": "His garrulous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد پرحرف او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed garrulous, but the reasons became clearer later.",
+        "persian": "این تصمیم پرحرف به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A garrulous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش پرحرف می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “garrulous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "gregarious",
+    "meaning": "اجتماعی و معاشرتی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "sociable",
+      "outgoing"
+    ],
+    "examples": [
+      {
+        "english": "His gregarious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد اجتماعی و معاشرتی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed gregarious, but the reasons became clearer later.",
+        "persian": "این تصمیم اجتماعی و معاشرتی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A gregarious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش اجتماعی و معاشرتی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “gregarious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "guile",
+    "meaning": "حیله‌گری",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "cunning",
+      "deceit"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a guile that required careful judgment.",
+        "persian": "این موقعیت به یک حیله‌گری تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the guile more clearly.",
+        "persian": "توضیح او به همه کمک کرد حیله‌گری را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important guile that had been overlooked.",
+        "persian": "بحث یک حیله‌گری مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “guile” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "hackneyed",
+    "meaning": "کلیشه‌ای و تکراری",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "clichéd",
+      "stale"
+    ],
+    "examples": [
+      {
+        "english": "His hackneyed approach helped him deal with the situation calmly.",
+        "persian": "رویکرد کلیشه‌ای و تکراری او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed hackneyed, but the reasons became clearer later.",
+        "persian": "این تصمیم کلیشه‌ای و تکراری به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A hackneyed attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش کلیشه‌ای و تکراری می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “hackneyed” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "harangue",
+    "meaning": "سخنرانی تند و طولانی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "tirade",
+      "diatribe"
+    ],
+    "examples": [
+      {
+        "english": "His harangue approach helped him deal with the situation calmly.",
+        "persian": "رویکرد سخنرانی تند و طولانی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed harangue, but the reasons became clearer later.",
+        "persian": "این تصمیم سخنرانی تند و طولانی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A harangue attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش سخنرانی تند و طولانی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “harangue” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "heedless",
+    "meaning": "بی‌ملاحظه",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "careless",
+      "inattentive"
+    ],
+    "examples": [
+      {
+        "english": "His heedless approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌ملاحظه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed heedless, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌ملاحظه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A heedless attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌ملاحظه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “heedless” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "iconoclast",
+    "meaning": "سنت‌شکن",
+    "level": "Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "nonconformist",
+      "rebel"
+    ],
+    "examples": [
+      {
+        "english": "The situation became a iconoclast that required careful judgment.",
+        "persian": "این موقعیت به یک سنت‌شکن تبدیل شد که به قضاوت دقیق نیاز داشت."
+      },
+      {
+        "english": "Her explanation helped everyone understand the iconoclast more clearly.",
+        "persian": "توضیح او به همه کمک کرد سنت‌شکن را بهتر درک کنند."
+      },
+      {
+        "english": "The discussion revealed an important iconoclast that had been overlooked.",
+        "persian": "بحث یک سنت‌شکن مهم را آشکار کرد که نادیده گرفته شده بود."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “iconoclast” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "idiosyncratic",
+    "meaning": "منحصربه‌فرد و غیرمعمول",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "peculiar",
+      "individual"
+    ],
+    "examples": [
+      {
+        "english": "His idiosyncratic approach helped him deal with the situation calmly.",
+        "persian": "رویکرد منحصربه‌فرد و غیرمعمول او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed idiosyncratic, but the reasons became clearer later.",
+        "persian": "این تصمیم منحصربه‌فرد و غیرمعمول به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A idiosyncratic attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش منحصربه‌فرد و غیرمعمول می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “idiosyncratic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "immutable",
+    "meaning": "تغییرناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unchangeable",
+      "fixed"
+    ],
+    "examples": [
+      {
+        "english": "His immutable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد تغییرناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed immutable, but the reasons became clearer later.",
+        "persian": "این تصمیم تغییرناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A immutable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش تغییرناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “immutable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "impartial",
+    "meaning": "بی‌طرف",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "neutral",
+      "unbiased"
+    ],
+    "examples": [
+      {
+        "english": "His impartial approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌طرف او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed impartial, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌طرف به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A impartial attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌طرف می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “impartial” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "impecunious",
+    "meaning": "بی‌پول",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "poor",
+      "penniless"
+    ],
+    "examples": [
+      {
+        "english": "His impecunious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌پول او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed impecunious, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌پول به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A impecunious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌پول می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “impecunious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "imperious",
+    "meaning": "خودکامه و آمرانه",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "domineering",
+      "commanding"
+    ],
+    "examples": [
+      {
+        "english": "His imperious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد خودکامه و آمرانه او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed imperious, but the reasons became clearer later.",
+        "persian": "این تصمیم خودکامه و آمرانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A imperious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش خودکامه و آمرانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “imperious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "impertinent",
+    "meaning": "گستاخ و بی‌ادب",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "insolent",
+      "rude"
+    ],
+    "examples": [
+      {
+        "english": "His impertinent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد گستاخ و بی‌ادب او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed impertinent, but the reasons became clearer later.",
+        "persian": "این تصمیم گستاخ و بی‌ادب به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A impertinent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش گستاخ و بی‌ادب می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “impertinent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "implacable",
+    "meaning": "آشتی‌ناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unyielding",
+      "relentless"
+    ],
+    "examples": [
+      {
+        "english": "His implacable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد آشتی‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed implacable, but the reasons became clearer later.",
+        "persian": "این تصمیم آشتی‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A implacable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش آشتی‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “implacable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "implicit",
+    "meaning": "ضمنی و غیرمستقیم",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unspoken",
+      "indirect"
+    ],
+    "examples": [
+      {
+        "english": "His implicit approach helped him deal with the situation calmly.",
+        "persian": "رویکرد ضمنی و غیرمستقیم او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed implicit, but the reasons became clearer later.",
+        "persian": "این تصمیم ضمنی و غیرمستقیم به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A implicit attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش ضمنی و غیرمستقیم می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “implicit” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "inadvertent",
+    "meaning": "ناخواسته و سهوی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "accidental",
+      "unintentional"
+    ],
+    "examples": [
+      {
+        "english": "His inadvertent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد ناخواسته و سهوی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed inadvertent, but the reasons became clearer later.",
+        "persian": "این تصمیم ناخواسته و سهوی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A inadvertent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش ناخواسته و سهوی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “inadvertent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "incendiary",
+    "meaning": "تحریک‌کننده و التهاب‌آفرین",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "inflammatory",
+      "provocative"
+    ],
+    "examples": [
+      {
+        "english": "His incendiary approach helped him deal with the situation calmly.",
+        "persian": "رویکرد تحریک‌کننده و التهاب‌آفرین او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed incendiary, but the reasons became clearer later.",
+        "persian": "این تصمیم تحریک‌کننده و التهاب‌آفرین به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A incendiary attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش تحریک‌کننده و التهاب‌آفرین می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “incendiary” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "incisive",
+    "meaning": "تیز و نافذ",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "sharp",
+      "penetrating"
+    ],
+    "examples": [
+      {
+        "english": "His incisive approach helped him deal with the situation calmly.",
+        "persian": "رویکرد تیز و نافذ او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed incisive, but the reasons became clearer later.",
+        "persian": "این تصمیم تیز و نافذ به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A incisive attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش تیز و نافذ می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “incisive” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "incongruous",
+    "meaning": "ناسازگار و نامتناسب",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "incompatible",
+      "inconsistent"
+    ],
+    "examples": [
+      {
+        "english": "His incongruous approach helped him deal with the situation calmly.",
+        "persian": "رویکرد ناسازگار و نامتناسب او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed incongruous, but the reasons became clearer later.",
+        "persian": "این تصمیم ناسازگار و نامتناسب به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A incongruous attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش ناسازگار و نامتناسب می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “incongruous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "indefatigable",
+    "meaning": "خستگی‌ناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "tireless",
+      "untiring"
+    ],
+    "examples": [
+      {
+        "english": "His indefatigable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد خستگی‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed indefatigable, but the reasons became clearer later.",
+        "persian": "این تصمیم خستگی‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A indefatigable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش خستگی‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “indefatigable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "indignant",
+    "meaning": "خشمگین از بی‌عدالتی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "outraged",
+      "resentful"
+    ],
+    "examples": [
+      {
+        "english": "His indignant approach helped him deal with the situation calmly.",
+        "persian": "رویکرد خشمگین از بی‌عدالتی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed indignant, but the reasons became clearer later.",
+        "persian": "این تصمیم خشمگین از بی‌عدالتی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A indignant attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش خشمگین از بی‌عدالتی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “indignant” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "indolent",
+    "meaning": "تنبل",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "lazy",
+      "sluggish"
+    ],
+    "examples": [
+      {
+        "english": "His indolent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد تنبل او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed indolent, but the reasons became clearer later.",
+        "persian": "این تصمیم تنبل به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A indolent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش تنبل می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “indolent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "ineffable",
+    "meaning": "توصیف‌ناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "indescribable",
+      "inexpressible"
+    ],
+    "examples": [
+      {
+        "english": "His ineffable approach helped him deal with the situation calmly.",
+        "persian": "رویکرد توصیف‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed ineffable, but the reasons became clearer later.",
+        "persian": "این تصمیم توصیف‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A ineffable attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش توصیف‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ineffable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "infallible",
+    "meaning": "خطاناپذیر",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "unerring",
+      "flawless"
+    ],
+    "examples": [
+      {
+        "english": "His infallible approach helped him deal with the situation calmly.",
+        "persian": "رویکرد خطاناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed infallible, but the reasons became clearer later.",
+        "persian": "این تصمیم خطاناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A infallible attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش خطاناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “infallible” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "inherent",
+    "meaning": "ذاتی",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "intrinsic",
+      "innate"
+    ],
+    "examples": [
+      {
+        "english": "His inherent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد ذاتی او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed inherent, but the reasons became clearer later.",
+        "persian": "این تصمیم ذاتی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A inherent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش ذاتی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “inherent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "inimical",
+    "meaning": "مخالف و زیان‌آور",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "hostile",
+      "adverse"
+    ],
+    "examples": [
+      {
+        "english": "His inimical approach helped him deal with the situation calmly.",
+        "persian": "رویکرد مخالف و زیان‌آور او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed inimical, but the reasons became clearer later.",
+        "persian": "این تصمیم مخالف و زیان‌آور به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A inimical attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش مخالف و زیان‌آور می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “inimical” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "insidious",
+    "meaning": "موذیانه و پنهان",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "treacherous",
+      "stealthy"
+    ],
+    "examples": [
+      {
+        "english": "His insidious approach helped him deal with the situation calmly.",
+        "persian": "رویکرد موذیانه و پنهان او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed insidious, but the reasons became clearer later.",
+        "persian": "این تصمیم موذیانه و پنهان به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A insidious attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش موذیانه و پنهان می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “insidious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "insipid",
+    "meaning": "بی‌مزه و کسل‌کننده",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "dull",
+      "bland"
+    ],
+    "examples": [
+      {
+        "english": "His insipid approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌مزه و کسل‌کننده او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed insipid, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌مزه و کسل‌کننده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A insipid attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌مزه و کسل‌کننده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “insipid” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "insolent",
+    "meaning": "گستاخ",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "impudent",
+      "disrespectful"
+    ],
+    "examples": [
+      {
+        "english": "His insolent approach helped him deal with the situation calmly.",
+        "persian": "رویکرد گستاخ او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed insolent, but the reasons became clearer later.",
+        "persian": "این تصمیم گستاخ به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A insolent attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش گستاخ می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “insolent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  },
+  {
+    "courseId": "upgrade",
+    "lessonId": "batch-04",
+    "word": "intrepid",
+    "meaning": "بی‌باک",
+    "level": "Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "fearless",
+      "bold"
+    ],
+    "examples": [
+      {
+        "english": "His intrepid approach helped him deal with the situation calmly.",
+        "persian": "رویکرد بی‌باک او کمک کرد موقعیت را با آرامش مدیریت کند."
+      },
+      {
+        "english": "The decision seemed intrepid, but the reasons became clearer later.",
+        "persian": "این تصمیم بی‌باک به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+      },
+      {
+        "english": "A intrepid attitude can strongly influence how people respond to a difficult situation.",
+        "persian": "نگرش بی‌باک می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+      }
+    ],
+    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “intrepid” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+  }
+]

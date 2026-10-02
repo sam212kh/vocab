@@ -63,6 +63,151 @@
           "title": "Batch 09",
           "file": "./batch-09.json",
           "type": "batch"
+        },
+        {
+          "id": "batch-10",
+          "title": "Batch 10",
+          "file": "./batch-10.json",
+          "type": "batch"
+        }
+        ,
+        {
+          "id": "batch-11",
+          "title": "Batch 11",
+          "file": "./batch-11.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-12",
+          "title": "Batch 12",
+          "file": "./batch-12.json",
+          "type": "batch"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "title": "English Hard",
+      "description": "Vocabulary for conversation, work, interviews and technical English.",
+      "lessons": [
+        {
+          "id": "batch-01",
+          "title": "Batch 01 — Hard",
+          "subtitle": "Hard vocabulary",
+          "file": "./hard/batch-01.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-02",
+          "title": "Batch 02 — Hard",
+          "subtitle": "Hard vocabulary",
+          "file": "./hard/batch-02.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-03",
+          "title": "Batch 03 — Advanced",
+          "subtitle": "Hard vocabulary",
+          "file": "./hard/batch-03.json.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-04",
+          "title": "Batch 04 — Advanced",
+          "subtitle": "Hard vocabulary",
+          "file": "./hard/batch-04.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-05",
+          "title": "Batch 05",
+          "file": "./hard/batch-05.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-06",
+          "title": "Batch 06",
+          "file": "./hard/batch-06.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-07",
+          "title": "Batch 07",
+          "file": "./hard/batch-07.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-08",
+          "title": "Batch 08",
+          "file": "./hard/batch-08.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-09",
+          "title": "Batch 09",
+          "file": "./hard/batch-01.json.json",
+          "type": "batch"
+        }
+      ]
+    },
+        {
+      "id": "hard-v2",
+      "title": "English Very Hard",
+      "description": "Vocabulary for conversation, work, interviews and technical English.",
+      "lessons": [
+        {
+          "id": "batch-01",
+          "title": "Batch 01",
+          "file": "./hard-v2/batch-01.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-02",
+          "title": "Batch 02",
+          "file": "./hard-v2/batch-02.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-03",
+          "title": "Batch 03",
+          "file": "./hard-v2/batch-03.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-04",
+          "title": "Batch 04",
+          "file": "./hard-v2/batch-04.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-05",
+          "title": "Batch 05",
+          "file": "./hard-v2/batch-05.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-06",
+          "title": "Batch 06",
+          "file": "./hard-v2/batch-06.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-07",
+          "title": "Batch 07",
+          "file": "./hard-v2/batch-07.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-08",
+          "title": "Batch 08",
+          "file": "./hard-v2/batch-08.json",
+          "type": "batch"
+        },
+        {
+          "id": "batch-09",
+          "title": "Batch 09",
+          "file": "./hard-v2/batch-09.json",
+          "type": "batch"
         }
       ]
     },
