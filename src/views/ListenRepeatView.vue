@@ -98,7 +98,6 @@ const playableWords = computed<Word[]>(() => {
 | Listen & Repeat
 |--------------------------------------------------------------------------
 */
-
 const {
     currentIndex,
     currentNumber,
@@ -114,6 +113,9 @@ const {
     repeatCurrent,
     reset,
 } = useListenRepeat(playableWords)
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -341,6 +343,8 @@ onMounted(async () => {
             'Failed to load courses'
     }
 })
+
+
 </script>
 
 <template>
@@ -778,7 +782,6 @@ onMounted(async () => {
                     >
                         ▶ Play
                     </button>
-
                     <!-- Stop -->
 
                     <button
