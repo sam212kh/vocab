@@ -782,6 +782,7 @@ onMounted(async () => {
                     >
                         ▶ Play
                     </button>
+
                     <!-- Stop -->
 
                     <button

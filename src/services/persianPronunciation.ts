@@ -10,104 +10,110 @@ function normalizeWord(word: string): string {
         .replace(/\s+/g, '-')
 }
 
-export function getPersianAudioUrl(word: string): string {
+export function getPersianAudioUrl(
+    word: string
+): string {
     const filename = normalizeWord(word)
+
     return `${AUDIO_BASE_PATH}/${encodeURIComponent(filename)}.mp3`
 }
 
-function getAudioElement(): HTMLAudioElement {
-    if (!currentAudio) {
-        currentAudio = new Audio()
-        currentAudio.preload = 'auto'
-        currentAudio.volume = 1
+/**
+ * Unlock browser audio during a real user interaction.
+ *
+ * This must be called directly from the Play button
+ * before any asynchronous speech starts.
+ */
+export async function unlockPersianAudio(
+    word: string
+): Promise<void> {
+    if (unlocked) {
+        return
     }
 
-    return currentAudio
-}
+    const audio = new Audio(
+        getPersianAudioUrl(word)
+    )
 
-/**
- * Unlock the SAME audio element that will later be used for playback.
- * The previous implementation unlocked one Audio instance and then
- * created a different instance for playback, which can still be blocked
- * by browser media autoplay policy after speechSynthesis awaits.
- */
-export async function unlockPersianAudio(word: string): Promise<void> {
-    const audio = getAudioElement()
-    const url = getPersianAudioUrl(word)
-
-    audio.pause()
-    audio.currentTime = 0
-    audio.src = url
-    audio.load()
+    audio.preload = 'auto'
     audio.muted = true
 
     try {
         await audio.play()
+
         audio.pause()
         audio.currentTime = 0
         audio.muted = false
+
         unlocked = true
-        console.log('[PersianAudio] Audio unlocked:', url)
+
+        console.log(
+            '[PersianAudio] Audio unlocked'
+        )
     } catch (error) {
-        audio.muted = false
-        console.error('[PersianAudio] Failed to unlock audio:', error)
+        console.error(
+            '[PersianAudio] Failed to unlock audio:',
+            error
+        )
+
         throw error
     }
 }
 
 export function stopPersianPronunciation(): void {
-    if (!currentAudio) return
+    if (!currentAudio) {
+        return
+    }
 
     currentAudio.pause()
     currentAudio.currentTime = 0
+
+    currentAudio = null
 }
 
-export function playPersianPronunciation(word: string): Promise<void> {
-    const audio = getAudioElement()
-    const url = getPersianAudioUrl(word)
+export function playPersianPronunciation(
+    word: string
+): Promise<void> {
+    stopPersianPronunciation()
 
-    audio.pause()
-    audio.currentTime = 0
-    audio.src = url
-    audio.preload = 'auto'
-    audio.muted = false
-    audio.volume = 1
-
-    console.log('[PersianAudio] Playing:', url, 'unlocked:', unlocked)
 
     return new Promise((resolve, reject) => {
-        let settled = false
+        const url = getPersianAudioUrl(word)
 
-        const cleanup = () => {
-            audio.onended = null
-            audio.onerror = null
-        }
 
-        const finish = () => {
-            if (settled) return
-            settled = true
-            cleanup()
+        const audio = new Audio(url)
+
+        currentAudio = audio
+
+        audio.preload = 'auto'
+
+        audio.onended = () => {
+            if (currentAudio === audio) {
+                currentAudio = null
+            }
+
             resolve()
         }
 
-        audio.onended = finish
         audio.onerror = () => {
-            if (settled) return
-            settled = true
-            cleanup()
-            reject(new Error(`Persian audio not found or failed: ${url}`))
+            if (currentAudio === audio) {
+                currentAudio = null
+            }
+
+            reject(
+                new Error(
+                    `Persian audio not found: ${url}`
+                )
+            )
         }
 
-        audio.play()
-            .then(() => {
-                console.log('[PersianAudio] play() success:', url)
-            })
-            .catch(error => {
-                if (settled) return
-                settled = true
-                cleanup()
-                console.error('[PersianAudio] play() failed:', error)
-                reject(error)
-            })
+        audio.play().catch(error => {
+            if (currentAudio === audio) {
+                currentAudio = null
+            }
+
+
+            reject(error)
+        })
     })
 }

@@ -162,12 +162,6 @@ const progress = computed(() => {
                             {{ example.persian }}
                         </p>
 
-                        <SpeechButton
-                            :text="
-                                example.persian
-                            "
-                            lang="fa-IR"
-                            />
                     </div>
                 </div>
             </div>
