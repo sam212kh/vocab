@@ -108,7 +108,7 @@
           "id": "batch-03",
           "title": "Batch 03 — Advanced",
           "subtitle": "Hard vocabulary",
-          "file": "./hard/batch-03.json.json",
+          "file": "./hard/batch-03.json",
           "type": "batch"
         },
         {
@@ -145,7 +145,7 @@
         {
           "id": "batch-09",
           "title": "Batch 09",
-          "file": "./hard/batch-01.json.json",
+          "file": "./hard/batch-01.json",
           "type": "batch"
         }
       ]

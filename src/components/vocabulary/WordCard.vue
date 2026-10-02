@@ -65,12 +65,11 @@ const progress = computed(() => {
                     <SpeechButton
                         :text="word.word"
                         lang="en-US"
-                        label="🔊"
                     />
                 </div>
             </div>
 
-            <HardWordButton :word-id="word.word" />
+            <HardWordButton :word-id="word.word" :meaning="word.meaning" />
         </div>
 
         <!-- Meaning -->
@@ -85,9 +84,8 @@ const progress = computed(() => {
                 </p>
 
                 <SpeechButton
-                    :text="word.meaning"
+                    :text="word.word"
                     lang="fa-IR"
-                    label="🔊"
                 />
             </div>
         </div>
@@ -152,8 +150,7 @@ const progress = computed(() => {
                                 example.english
                             "
                             lang="en-US"
-                            label="🔊"
-                        />
+                            />
                     </div>
 
                     <div
@@ -170,8 +167,7 @@ const progress = computed(() => {
                                 example.persian
                             "
                             lang="fa-IR"
-                            label="🔊"
-                        />
+                            />
                     </div>
                 </div>
             </div>

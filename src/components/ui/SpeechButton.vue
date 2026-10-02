@@ -6,7 +6,9 @@ import {
     isLanguageSupported,
 } from '../../services/speech'
 
-import AppToast from './AppToast.vue'
+import {
+    playPersianPronunciation,
+} from '../../services/persianPronunciation'
 
 const props = withDefaults(
     defineProps<{
@@ -16,40 +18,71 @@ const props = withDefaults(
     }>(),
     {
         lang: 'en-US',
-        label: '🔊',
     }
 )
 
-const toast = ref('')
+const playing = ref(false)
+const error = ref(false)
 
-function play() {
-    if (!isLanguageSupported(props.lang)) {
-        toast.value =
-            props.lang === 'fa-IR'
-                ? 'Persian voice is not available'
-                : 'English voice is not available'
-
-        setTimeout(() => {
-            toast.value = ''
-        }, 3000)
-
+async function handleClick() {
+    if (!props.text.trim()) {
         return
     }
 
-    speak(props.text, props.lang)
+    error.value = false
+    playing.value = true
+
+    try {
+        if (props.lang === 'fa-IR') {
+            await playPersianPronunciation(
+                props.text
+            )
+
+            return
+        }
+
+        if (!isLanguageSupported(props.lang)) {
+            error.value = true
+            return
+        }
+
+        speak(
+            props.text,
+            props.lang
+        )
+    } catch (err) {
+        console.error(
+            'Pronunciation error:',
+            err
+        )
+
+        error.value = true
+    } finally {
+        playing.value = false
+    }
 }
 </script>
 
 <template>
     <button
         type="button"
-        class="rounded-lg px-2 py-1 text-sm hover:bg-gray-100"
-        @click="play"
+        class="inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
+        :disabled="playing"
+        @click="handleClick"
     >
-        {{ label }}
+        <span v-if="playing">
+            🔊
+        </span>
+
+        <span v-else>
+            🔊
+        </span>
     </button>
 
-    <Teleport to="body">
-        <AppToast :message="toast" />
-    </Teleport>
+    <p
+        v-if="error"
+        class="mt-1 text-xs text-red-500"
+    >
+        Persian pronunciation audio is unavailable.
+    </p>
 </template>

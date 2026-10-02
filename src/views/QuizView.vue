@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
+import SpeechButton from "../components/ui/SpeechButton.vue";
 
 interface Question {
     word: Word
@@ -173,7 +174,10 @@ onMounted(async () => {
                 <span>Score: {{ score }}</span>
             </div>
 
-            <h2 class="mt-10 text-center text-4xl font-bold">{{ current.prompt }}</h2>
+            <h2 class="mt-10 text-center text-4xl font-bold">{{ current.prompt }} <SpeechButton
+                :text="current.prompt"
+                lang="en-US"
+            /> </h2>
             <p class="mt-2 text-center text-gray-500">Choose the correct meaning.</p>
 
             <div class="mt-8 grid gap-3">

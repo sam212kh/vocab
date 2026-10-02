@@ -639,7 +639,6 @@ onMounted(() => {
                                     currentWord.word
                                 "
                                 lang="en-US"
-                                label="🔊"
                             />
                         </div>
 
@@ -654,7 +653,6 @@ onMounted(() => {
                                 currentWord.meaning
                             "
                             lang="fa-IR"
-                            label="🔊 Persian"
                         />
                     </div>
 

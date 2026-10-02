@@ -400,7 +400,6 @@ function removeCurrentWord() {
                                 currentWord.word
                             "
                             lang="en-US"
-                            label="🔊"
                         />
                     </div>
 
@@ -415,7 +414,6 @@ function removeCurrentWord() {
                             currentWord.meaning
                         "
                         lang="fa-IR"
-                        label="🔊 Persian"
                     />
 
                     <div

@@ -4,6 +4,7 @@ import { useHardWords } from '../../composables/useHardWords'
 
 const props = defineProps<{
     wordId: string
+    meaning: string
 }>()
 
 const {
@@ -14,7 +15,10 @@ const {
 const hard = computed(() => isHardWord(props.wordId))
 
 function handleToggle() {
-    toggleHardWord(props.wordId)
+    toggleHardWord(
+        props.wordId,
+        props.meaning
+    )
 }
 </script>
 
@@ -22,11 +26,7 @@ function handleToggle() {
     <button
         type="button"
         class="shrink-0 rounded-lg px-3 py-2 text-lg transition hover:bg-gray-100"
-        :class="
-            hard
-                ? 'text-yellow-500'
-                : 'text-gray-400'
-        "
+        :class="hard ? 'text-yellow-500' : 'text-gray-400'"
         :aria-label="
             hard
                 ? 'Remove from Hard Words'
