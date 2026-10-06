@@ -35,8 +35,7 @@ function createUtterance(
         new SpeechSynthesisUtterance(text)
 
     utterance.lang = lang
-    utterance.rate =
-        lang === 'fa-IR' ? 0.9 : 0.8
+    utterance.rate = 0.8
     utterance.pitch = 1
 
     const exactVoice =
