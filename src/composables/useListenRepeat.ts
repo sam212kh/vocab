@@ -80,7 +80,7 @@ export function useListenRepeat(
                 return
             }
 
-            await delay(500)
+            await delay(800)
         }
 
         if (!isPlaying.value) {
