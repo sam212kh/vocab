@@ -36,7 +36,7 @@ function createUtterance(
 
     utterance.lang = lang
     utterance.rate =
-        lang === 'fa-IR' ? 0.6 : 0.6
+        lang === 'fa-IR' ? 0.8 : 0.8
     utterance.pitch = 2
 
     const exactVoice =
