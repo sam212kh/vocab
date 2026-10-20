@@ -2,7 +2,9 @@
 import { ref } from 'vue'
 
 import {
-    speak,
+    speakAsync,
+    getSpeechError,
+    getSpeechRate,
     isLanguageSupported,
 } from '../../services/speech'
 
@@ -46,10 +48,15 @@ async function handleClick() {
             return
         }
 
-        speak(
+        const success = await speakAsync(
             props.text,
-            props.lang
+            props.lang,
+            { rate: getSpeechRate() }
         )
+        error.value = !success
+        if (!success) {
+            console.warn('[TTS]', getSpeechError())
+        }
     } catch (err) {
         console.error(
             'Pronunciation error:',
@@ -83,6 +90,6 @@ async function handleClick() {
         v-if="error"
         class="mt-1 text-xs text-red-500"
     >
-        Persian pronunciation audio is unavailable.
+        {{ getSpeechError() || 'Pronunciation audio is unavailable.' }}
     </p>
 </template>

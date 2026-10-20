@@ -1,7 +1,15 @@
 import type { Ref } from 'vue'
 import { computed, ref } from 'vue'
-import { playPersianPronunciation } from '../services/persianPronunciation'
-import { speakAsync } from '../services/speech'
+import {
+    playPersianPronunciation,
+    stopPersianPronunciation,
+} from '../services/persianPronunciation'
+import {
+    getSpeechRate,
+    preload,
+    speakAsync,
+    stop as stopSpeech,
+} from '../services/speech'
 
 export interface ListenRepeatItem {
     word: string
@@ -58,6 +66,12 @@ export function useListenRepeat(
             return
         }
 
+        const upcoming = Array.from(
+            { length: Math.min(2, Math.max(0, words.value.length - 1)) },
+            (_, offset) => words.value[(currentIndex.value + offset + 1) % words.value.length]?.word ?? ''
+        ).filter(Boolean)
+        void preload(upcoming, { rate: getSpeechRate() })
+
         isPlaying.value = true
         repeatCount.value = 0
         playbackStep.value = 'word'
@@ -73,7 +87,8 @@ export function useListenRepeat(
 
             await speakAsync(
                 currentWord.word,
-                'en-US'
+                'en-US',
+                { rate: getSpeechRate() }
             )
 
             if (!isPlaying.value) {
@@ -109,21 +124,7 @@ export function useListenRepeat(
             return
         }
 
-        // Automatically play next word
-        if (autoNext) {
-            currentIndex.value =
-                (currentIndex.value + 1) %
-                words.value.length
-
-            repeatCount.value = 0
-
-            await playCurrentWord(true)
-
-            return
-        }
-
-        // Repeat current word only
-        isPlaying.value = false
+        if (!autoNext) isPlaying.value = false
         playbackStep.value = 'idle'
     }
 
@@ -135,7 +136,15 @@ export function useListenRepeat(
             return
         }
 
-        await playCurrentWord(true)
+        isPlaying.value = true
+        while (isPlaying.value && words.value.length) {
+            await playCurrentWord(true)
+            if (isPlaying.value) {
+                currentIndex.value =
+                    (currentIndex.value + 1) % words.value.length
+                repeatCount.value = 0
+            }
+        }
     }
 
     async function repeatCurrent() {
@@ -153,7 +162,8 @@ export function useListenRepeat(
         isPlaying.value = false
         playbackStep.value = 'idle'
 
-        window.speechSynthesis.cancel()
+        stopSpeech()
+        stopPersianPronunciation()
     }
 
     // Manual Next

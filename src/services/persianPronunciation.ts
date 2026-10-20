@@ -2,6 +2,7 @@ const AUDIO_BASE_PATH = '/audio/fa'
 
 let currentAudio: HTMLAudioElement | null = null
 let unlocked = false
+let resolveCurrentAudio: (() => void) | null = null
 
 function normalizeWord(word: string): string {
     return word
@@ -69,6 +70,8 @@ export function stopPersianPronunciation(): void {
     currentAudio.currentTime = 0
 
     currentAudio = null
+    resolveCurrentAudio?.()
+    resolveCurrentAudio = null
 }
 
 export function playPersianPronunciation(
@@ -84,12 +87,14 @@ export function playPersianPronunciation(
         const audio = new Audio(url)
 
         currentAudio = audio
+        resolveCurrentAudio = resolve
 
         audio.preload = 'auto'
 
         audio.onended = () => {
             if (currentAudio === audio) {
                 currentAudio = null
+                resolveCurrentAudio = null
             }
 
             resolve()
@@ -98,6 +103,7 @@ export function playPersianPronunciation(
         audio.onerror = () => {
             if (currentAudio === audio) {
                 currentAudio = null
+                resolveCurrentAudio = null
             }
 
             reject(
@@ -110,6 +116,7 @@ export function playPersianPronunciation(
         audio.play().catch(error => {
             if (currentAudio === audio) {
                 currentAudio = null
+                resolveCurrentAudio = null
             }
 
 

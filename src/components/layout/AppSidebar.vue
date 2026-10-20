@@ -1,9 +1,33 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
+import {
+    getSpeechProvider,
+    getSpeechRate,
+    getSpeechVoice,
+    getSpeechVoices,
+    loadSpeechVoices,
+    setSpeechProvider,
+    setSpeechRate,
+    setSpeechVoice,
+} from '../../services/speech'
+import type { SpeechRate } from '../../services/speech'
 
 const route = useRoute()
 const mobileOpen = ref(false)
+const speechProvider = ref(getSpeechProvider())
+watch(speechProvider, setSpeechProvider)
+const speechRate = ref<SpeechRate>(getSpeechRate())
+watch(speechRate, setSpeechRate)
+const speechVoice = ref(getSpeechVoice())
+const speechVoices = ref(getSpeechVoices())
+watch(speechVoice, setSpeechVoice)
+onMounted(async () => {
+    speechVoices.value = await loadSpeechVoices()
+    if (!speechVoices.value.some(voice => voice.id === speechVoice.value)) {
+        speechVoice.value = speechVoices.value[0]?.id ?? speechVoice.value
+    }
+})
 
 const menuItems = [
     { label: 'Dashboard', icon: '🏠', route: '/' },
@@ -83,6 +107,54 @@ function closeMobile() {
                     <span>{{ item.label }}</span>
                 </RouterLink>
             </nav>
+
+            <div class="mt-6 border-t pt-4">
+                <label for="speech-provider" class="mb-2 block text-xs font-medium text-gray-600">
+                    Pronunciation voice
+                </label>
+                <select
+                    id="speech-provider"
+                    v-model="speechProvider"
+                    class="w-full rounded-lg border bg-white px-3 py-2 text-sm"
+                >
+                    <option value="automatic">Automatic</option>
+                    <option value="neural">Neural Voice</option>
+                    <option value="system">System Voice</option>
+                </select>
+
+                <label for="speech-voice" class="mb-2 mt-4 block text-xs font-medium text-gray-600">
+                    Voice
+                </label>
+                <select
+                    id="speech-voice"
+                    v-model="speechVoice"
+                    class="w-full rounded-lg border bg-white px-3 py-2 text-sm"
+                >
+                    <option
+                        v-for="voice in speechVoices"
+                        :key="voice.id"
+                        :value="voice.id"
+                    >
+                        {{ voice.label }}
+                    </option>
+                </select>
+
+                <label for="speech-rate" class="mb-2 mt-4 block text-xs font-medium text-gray-600">
+                    Speech speed
+                </label>
+                <select
+                    id="speech-rate"
+                    v-model="speechRate"
+                    class="w-full rounded-lg border bg-white px-3 py-2 text-sm"
+                >
+                    <option :value="0.6">Very slow</option>
+                    <option :value="0.75">Slow</option>
+                    <option :value="0.9">Normal</option>
+                    <option :value="1">Fast</option>
+                    <option :value="1.15">Very fast</option>
+                    <option :value="1.3">Extra fast</option>
+                </select>
+            </div>
         </div>
     </aside>
 </template>
