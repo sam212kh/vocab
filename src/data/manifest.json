@@ -2535,700 +2535,1000 @@
           "title": "Unit 1: Meaning and style",
           "subtitle": "Expand Your Vocabulary — 18 words",
           "file": "./oxford/upper-advanced/unit-01.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-01.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-02",
           "title": "Unit 2: Familiar words, new meanings",
           "subtitle": "Expand Your Vocabulary — 20 words",
           "file": "./oxford/upper-advanced/unit-02.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-02.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-03",
           "title": "Unit 3: Word families",
           "subtitle": "Expand Your Vocabulary — 26 words",
           "file": "./oxford/upper-advanced/unit-03.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-03.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-04",
           "title": "Unit 4: Collocation",
           "subtitle": "Expand Your Vocabulary — 20 words",
           "file": "./oxford/upper-advanced/unit-04.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-04.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-05",
           "title": "Unit 5: Compounds",
           "subtitle": "Expand Your Vocabulary — 21 words",
           "file": "./oxford/upper-advanced/unit-05.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-05.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-06",
           "title": "Unit 6: Using a dictionary",
           "subtitle": "Expand Your Vocabulary — 6 words",
           "file": "./oxford/upper-advanced/unit-06.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-06.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-07",
           "title": "Unit 7: Describing appearance",
           "subtitle": "The Body — 23 words",
           "file": "./oxford/upper-advanced/unit-07.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-07.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-08",
           "title": "Unit 8: Body language",
           "subtitle": "The Body — 18 words",
           "file": "./oxford/upper-advanced/unit-08.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-08.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-09",
           "title": "Unit 9: Physical actions",
           "subtitle": "The Body — 18 words",
           "file": "./oxford/upper-advanced/unit-09.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-09.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-10",
           "title": "Unit 10: Physical movement",
           "subtitle": "The Body — 24 words",
           "file": "./oxford/upper-advanced/unit-10.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-10.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-11",
           "title": "Unit 11: Sight",
           "subtitle": "The Body — 24 words",
           "file": "./oxford/upper-advanced/unit-11.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-11.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-12",
           "title": "Unit 12: Sounds and hearing",
           "subtitle": "The Body — 23 words",
           "file": "./oxford/upper-advanced/unit-12.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-12.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-13",
           "title": "Unit 13: Touch",
           "subtitle": "The Body — 17 words",
           "file": "./oxford/upper-advanced/unit-13.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-13.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-14",
           "title": "Unit 14: Illness",
           "subtitle": "The Body — 21 words",
           "file": "./oxford/upper-advanced/unit-14.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-14.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-15",
           "title": "Unit 15: Injuries",
           "subtitle": "The Body — 18 words",
           "file": "./oxford/upper-advanced/unit-15.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-15.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-16",
           "title": "Unit 16: Character",
           "subtitle": "People — 19 words",
           "file": "./oxford/upper-advanced/unit-16.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-16.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-17",
           "title": "Unit 17: Assessing character",
           "subtitle": "People — 19 words",
           "file": "./oxford/upper-advanced/unit-17.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-17.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-18",
           "title": "Unit 18: Feelings",
           "subtitle": "People — 19 words",
           "file": "./oxford/upper-advanced/unit-18.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-18.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-19",
           "title": "Unit 19: Relationships",
           "subtitle": "People — 22 words",
           "file": "./oxford/upper-advanced/unit-19.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-19.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-20",
           "title": "Unit 20: Heroes and villains",
           "subtitle": "People — 19 words",
           "file": "./oxford/upper-advanced/unit-20.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-20.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-21",
           "title": "Unit 21: Behaviour",
           "subtitle": "People — 22 words",
           "file": "./oxford/upper-advanced/unit-21.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-21.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-22",
           "title": "Unit 22: Families",
           "subtitle": "People — 21 words",
           "file": "./oxford/upper-advanced/unit-22.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-22.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-23",
           "title": "Unit 23: Manners",
           "subtitle": "People — 22 words",
           "file": "./oxford/upper-advanced/unit-23.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-23.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-24",
           "title": "Unit 24: Food",
           "subtitle": "Everyday Life — 30 words",
           "file": "./oxford/upper-advanced/unit-24.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-24.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-25",
           "title": "Unit 25: Opinions about food",
           "subtitle": "Everyday Life — 21 words",
           "file": "./oxford/upper-advanced/unit-25.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-25.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-26",
           "title": "Unit 26: Cars and driving",
           "subtitle": "Everyday Life — 25 words",
           "file": "./oxford/upper-advanced/unit-26.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-26.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-27",
           "title": "Unit 27: Accidents",
           "subtitle": "Everyday Life — 21 words",
           "file": "./oxford/upper-advanced/unit-27.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-27.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-28",
           "title": "Unit 28: Weather",
           "subtitle": "Everyday Life — 23 words",
           "file": "./oxford/upper-advanced/unit-28.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-28.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-29",
           "title": "Unit 29: Clothes",
           "subtitle": "Everyday Life — 22 words",
           "file": "./oxford/upper-advanced/unit-29.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-29.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-30",
           "title": "Unit 30: At home",
           "subtitle": "Everyday Life — 23 words",
           "file": "./oxford/upper-advanced/unit-30.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-30.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-31",
           "title": "Unit 31: Sleep",
           "subtitle": "Everyday Life — 22 words",
           "file": "./oxford/upper-advanced/unit-31.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-31.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-32",
           "title": "Unit 32: Personal finance",
           "subtitle": "Everyday Life — 19 words",
           "file": "./oxford/upper-advanced/unit-32.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-32.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-33",
           "title": "Unit 33: Crime",
           "subtitle": "Everyday Life — 23 words",
           "file": "./oxford/upper-advanced/unit-33.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-33.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-34",
           "title": "Unit 34: Urban living",
           "subtitle": "Everyday Life — 24 words",
           "file": "./oxford/upper-advanced/unit-34.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-34.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-35",
           "title": "Unit 35: Rural life",
           "subtitle": "Everyday Life — 22 words",
           "file": "./oxford/upper-advanced/unit-35.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-35.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-36",
           "title": "Unit 36: Holidays",
           "subtitle": "Leisure and Lifestyle — 21 words",
           "file": "./oxford/upper-advanced/unit-36.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-36.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-37",
           "title": "Unit 37: Holiday accommodation",
           "subtitle": "Leisure and Lifestyle — 22 words",
           "file": "./oxford/upper-advanced/unit-37.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-37.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-38",
           "title": "Unit 38: Buying and renting",
           "subtitle": "Leisure and Lifestyle — 24 words",
           "file": "./oxford/upper-advanced/unit-38.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-38.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-39",
           "title": "Unit 39: Gardens and gardening",
           "subtitle": "Leisure and Lifestyle — 19 words",
           "file": "./oxford/upper-advanced/unit-39.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-39.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-40",
           "title": "Unit 40: Personal technology",
           "subtitle": "Leisure and Lifestyle — 21 words",
           "file": "./oxford/upper-advanced/unit-40.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-40.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-41",
           "title": "Unit 41: Competitive football",
           "subtitle": "Leisure and Lifestyle — 22 words",
           "file": "./oxford/upper-advanced/unit-41.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-41.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-42",
           "title": "Unit 42: Music",
           "subtitle": "Leisure and Lifestyle — 20 words",
           "file": "./oxford/upper-advanced/unit-42.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-42.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-43",
           "title": "Unit 43: Plays and films",
           "subtitle": "Leisure and Lifestyle — 22 words",
           "file": "./oxford/upper-advanced/unit-43.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-43.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-44",
           "title": "Unit 44: Socializing",
           "subtitle": "Leisure and Lifestyle — 21 words",
           "file": "./oxford/upper-advanced/unit-44.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-44.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-45",
           "title": "Unit 45: Describing change",
           "subtitle": "A Changing World — 19 words",
           "file": "./oxford/upper-advanced/unit-45.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-45.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-46",
           "title": "Unit 46: Energy conservation",
           "subtitle": "A Changing World — 15 words",
           "file": "./oxford/upper-advanced/unit-46.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-46.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-47",
           "title": "Unit 47: Wildlife under threat",
           "subtitle": "A Changing World — 22 words",
           "file": "./oxford/upper-advanced/unit-47.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-47.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-48",
           "title": "Unit 48: Medical advances",
           "subtitle": "A Changing World — 20 words",
           "file": "./oxford/upper-advanced/unit-48.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-48.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-49",
           "title": "Unit 49: Migration",
           "subtitle": "A Changing World — 19 words",
           "file": "./oxford/upper-advanced/unit-49.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-49.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-50",
           "title": "Unit 50: Politics: ideology",
           "subtitle": "A Changing World — 19 words",
           "file": "./oxford/upper-advanced/unit-50.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-50.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-51",
           "title": "Unit 51: Local government",
           "subtitle": "Institutions — 23 words",
           "file": "./oxford/upper-advanced/unit-51.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-51.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-52",
           "title": "Unit 52: Health care services",
           "subtitle": "Institutions — 21 words",
           "file": "./oxford/upper-advanced/unit-52.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-52.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-53",
           "title": "Unit 53: The police",
           "subtitle": "Institutions — 21 words",
           "file": "./oxford/upper-advanced/unit-53.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-53.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-54",
           "title": "Unit 54: Prisons",
           "subtitle": "Institutions — 19 words",
           "file": "./oxford/upper-advanced/unit-54.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-54.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-55",
           "title": "Unit 55: The armed forces",
           "subtitle": "Institutions — 19 words",
           "file": "./oxford/upper-advanced/unit-55.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-55.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-56",
           "title": "Unit 56: News headlines",
           "subtitle": "News and Current Affairs — 23 words",
           "file": "./oxford/upper-advanced/unit-56.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-56.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-57",
           "title": "Unit 57: Writing for a newspaper",
           "subtitle": "News and Current Affairs — 18 words",
           "file": "./oxford/upper-advanced/unit-57.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-57.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-58",
           "title": "Unit 58: Politics in practice",
           "subtitle": "News and Current Affairs — 22 words",
           "file": "./oxford/upper-advanced/unit-58.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-58.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-59",
           "title": "Unit 59: Protest movements",
           "subtitle": "News and Current Affairs — 20 words",
           "file": "./oxford/upper-advanced/unit-59.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-59.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-60",
           "title": "Unit 60: Disasters",
           "subtitle": "News and Current Affairs — 24 words",
           "file": "./oxford/upper-advanced/unit-60.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-60.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-61",
           "title": "Unit 61: Investigations",
           "subtitle": "News and Current Affairs — 21 words",
           "file": "./oxford/upper-advanced/unit-61.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-61.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-62",
           "title": "Unit 62: Celebrity",
           "subtitle": "News and Current Affairs — 21 words",
           "file": "./oxford/upper-advanced/unit-62.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-62.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-63",
           "title": "Unit 63: Human interest stories",
           "subtitle": "News and Current Affairs — 24 words",
           "file": "./oxford/upper-advanced/unit-63.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-63.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-64",
           "title": "Unit 64: Jobs",
           "subtitle": "Work and Business — 16 words",
           "file": "./oxford/upper-advanced/unit-64.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-64.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-65",
           "title": "Unit 65: Careers",
           "subtitle": "Work and Business — 23 words",
           "file": "./oxford/upper-advanced/unit-65.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-65.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-66",
           "title": "Unit 66: Ways of working",
           "subtitle": "Work and Business — 19 words",
           "file": "./oxford/upper-advanced/unit-66.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-66.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-67",
           "title": "Unit 67: The workplace",
           "subtitle": "Work and Business — 20 words",
           "file": "./oxford/upper-advanced/unit-67.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-67.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-68",
           "title": "Unit 68: Time management",
           "subtitle": "Work and Business — 17 words",
           "file": "./oxford/upper-advanced/unit-68.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-68.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-69",
           "title": "Unit 69: The business world",
           "subtitle": "Work and Business — 20 words",
           "file": "./oxford/upper-advanced/unit-69.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-69.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-70",
           "title": "Unit 70: A successful business",
           "subtitle": "Work and Business — 17 words",
           "file": "./oxford/upper-advanced/unit-70.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-70.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-71",
           "title": "Unit 71: Success and failure",
           "subtitle": "Concepts — 20 words",
           "file": "./oxford/upper-advanced/unit-71.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-71.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-72",
           "title": "Unit 72: Problems and solutions",
           "subtitle": "Concepts — 20 words",
           "file": "./oxford/upper-advanced/unit-72.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-72.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-73",
           "title": "Unit 73: Old and new",
           "subtitle": "Concepts — 20 words",
           "file": "./oxford/upper-advanced/unit-73.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-73.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-74",
           "title": "Unit 74: Time",
           "subtitle": "Concepts — 17 words",
           "file": "./oxford/upper-advanced/unit-74.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-74.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-75",
           "title": "Unit 75: Link words and phrases",
           "subtitle": "Written English — 17 words",
           "file": "./oxford/upper-advanced/unit-75.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-75.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-76",
           "title": "Unit 76: Academic English",
           "subtitle": "Written English — 19 words",
           "file": "./oxford/upper-advanced/unit-76.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-76.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-77",
           "title": "Unit 77: Literature",
           "subtitle": "Written English — 21 words",
           "file": "./oxford/upper-advanced/unit-77.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-77.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-78",
           "title": "Unit 78: Art",
           "subtitle": "Written English — 18 words",
           "file": "./oxford/upper-advanced/unit-78.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-78.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-79",
           "title": "Unit 79: Scientific English",
           "subtitle": "Written English — 20 words",
           "file": "./oxford/upper-advanced/unit-79.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-79.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-80",
           "title": "Unit 80: Technical English",
           "subtitle": "Written English — 17 words",
           "file": "./oxford/upper-advanced/unit-80.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-80.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-81",
           "title": "Unit 81: Everyday language",
           "subtitle": "Spoken English — 18 words",
           "file": "./oxford/upper-advanced/unit-81.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-81.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-82",
           "title": "Unit 82: Phrasal verbs",
           "subtitle": "Spoken English — 15 words",
           "file": "./oxford/upper-advanced/unit-82.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-82.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-83",
           "title": "Unit 83: Idioms (1)",
           "subtitle": "Spoken English — 20 words",
           "file": "./oxford/upper-advanced/unit-83.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-83.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-84",
           "title": "Unit 84: Idioms (2)",
           "subtitle": "Spoken English — 18 words",
           "file": "./oxford/upper-advanced/unit-84.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-84.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-85",
           "title": "Unit 85: Two-part expressions",
           "subtitle": "Spoken English — 11 words",
           "file": "./oxford/upper-advanced/unit-85.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-85.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-86",
           "title": "Unit 86: Similes",
           "subtitle": "Spoken English — 12 words",
           "file": "./oxford/upper-advanced/unit-86.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-86.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-87",
           "title": "Unit 87: Connecting speech",
           "subtitle": "Spoken English — 12 words",
           "file": "./oxford/upper-advanced/unit-87.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-87.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-88",
           "title": "Unit 88: Sayings",
           "subtitle": "Spoken English — 14 words",
           "file": "./oxford/upper-advanced/unit-88.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-88.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-89",
           "title": "Unit 89: Vague language",
           "subtitle": "Spoken English — 12 words",
           "file": "./oxford/upper-advanced/unit-89.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-89.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-90",
           "title": "Unit 90: The passive",
           "subtitle": "Aspects of Language — 11 words",
           "file": "./oxford/upper-advanced/unit-90.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-90.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-91",
           "title": "Unit 91: Prefixes",
           "subtitle": "Aspects of Language — 16 words",
           "file": "./oxford/upper-advanced/unit-91.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-91.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-92",
           "title": "Unit 92: Suffixes that form nouns",
           "subtitle": "Aspects of Language — 15 words",
           "file": "./oxford/upper-advanced/unit-92.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-92.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-93",
           "title": "Unit 93: Suffixes that form adjectives and verbs",
           "subtitle": "Aspects of Language — 20 words",
           "file": "./oxford/upper-advanced/unit-93.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-93.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-94",
           "title": "Unit 94: Verbs and nouns with the same form",
           "subtitle": "Aspects of Language — 13 words",
           "file": "./oxford/upper-advanced/unit-94.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-94.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-95",
           "title": "Unit 95: Verbs with prepositions",
           "subtitle": "Aspects of Language — 23 words",
           "file": "./oxford/upper-advanced/unit-95.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-95.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-96",
           "title": "Unit 96: Nouns with prepositions",
           "subtitle": "Aspects of Language — 10 words",
           "file": "./oxford/upper-advanced/unit-96.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-96.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-97",
           "title": "Unit 97: Adjectives with prepositions",
           "subtitle": "Aspects of Language — 12 words",
           "file": "./oxford/upper-advanced/unit-97.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-97.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-98",
           "title": "Unit 98: Prepositional phrases",
           "subtitle": "Aspects of Language — 16 words",
           "file": "./oxford/upper-advanced/unit-98.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-98.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-99",
           "title": "Unit 99: Adjectives",
           "subtitle": "Aspects of Language — 20 words",
           "file": "./oxford/upper-advanced/unit-99.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-99.jpg"
+          ]
         },
         {
           "id": "oxford-upper-advanced-100",
           "title": "Unit 100: Adverbs",
           "subtitle": "Aspects of Language — 16 words",
           "file": "./oxford/upper-advanced/unit-100.json",
-          "type": "lesson"
+          "type": "lesson",
+          "images": [
+            "/images/oxford/upper-advanced/unit-100.jpg"
+          ]
         }
       ]
     }
