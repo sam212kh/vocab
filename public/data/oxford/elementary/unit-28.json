@@ -1,0 +1,482 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "baker's",
+    "meaning": "نانوایی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought some bread at the baker's.",
+        "persian": "مقداری نان از نانوایی خریدم."
+      }
+    ],
+    "miniContext": "I bought some bread at the baker's.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "bookshop",
+    "meaning": "کتاب‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a new bookshop in town.",
+        "persian": "یک کتاب‌فروشی جدید در شهر هست."
+      }
+    ],
+    "miniContext": "There is a new bookshop in town.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "chemist's",
+    "meaning": "داروخانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to go to the chemist's for medicine.",
+        "persian": "باید برای دارو به داروخانه بروم."
+      }
+    ],
+    "miniContext": "I need to go to the chemist's for medicine.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "choice",
+    "meaning": "انتخاب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You have two choices.",
+        "persian": "تو دو انتخاب داری."
+      }
+    ],
+    "miniContext": "You have two choices.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "choose",
+    "meaning": "انتخاب کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please choose a colour you like.",
+        "persian": "لطفا یک رنگ که دوست داری انتخاب کن."
+      }
+    ],
+    "miniContext": "Please choose a colour you like.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "fruit and vegetable shop",
+    "meaning": "میوه و سبزی‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought apples at the fruit and vegetable shop.",
+        "persian": "من سیب را از میوه و سبزی‌فروشی خریدم."
+      }
+    ],
+    "miniContext": "I bought apples at the fruit and vegetable shop.",
+    "icon": "🍇"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "furniture shop",
+    "meaning": "مغازه مبلمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We bought a sofa at the furniture shop.",
+        "persian": "ما یک کاناپه از مغازه مبلمان خریدیم."
+      }
+    ],
+    "miniContext": "We bought a sofa at the furniture shop.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "gift shop",
+    "meaning": "هدیه‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We bought postcards at the gift shop.",
+        "persian": "ما کارت‌پستال‌ها را از هدیه‌فروشی خریدیم."
+      }
+    ],
+    "miniContext": "We bought postcards at the gift shop.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "medicine",
+    "meaning": "دارو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Take this medicine twice a day.",
+        "persian": "این دارو را روزی دو بار بخور."
+      }
+    ],
+    "miniContext": "Take this medicine twice a day.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "music shop",
+    "meaning": "مغازه موسیقی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He bought a guitar at the music shop.",
+        "persian": "او یک گیتار از مغازه موسیقی خرید."
+      }
+    ],
+    "miniContext": "He bought a guitar at the music shop.",
+    "icon": "🎵"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "particular",
+    "meaning": "خاص؛ به‌ویژه",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is there a particular colour you like?",
+        "persian": "آیا رنگ خاصی هست که دوست داشته باشی؟"
+      }
+    ],
+    "miniContext": "Is there a particular colour you like?",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "personal (= for one person)",
+    "meaning": "شخصی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my personal phone.",
+        "persian": "این تلفن شخصی من است."
+      }
+    ],
+    "miniContext": "This is my personal phone.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "pharmacy",
+    "meaning": "داروخانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is there a pharmacy near here?",
+        "persian": "آیا نزدیک اینجا داروخانه‌ای هست؟"
+      }
+    ],
+    "miniContext": "Is there a pharmacy near here?",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "prefer to do sth",
+    "meaning": "ترجیح دادن کاری را انجام دهد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I prefer to stay home tonight.",
+        "persian": "من ترجیح می‌دهم امشب خانه بمانم."
+      }
+    ],
+    "miniContext": "I prefer to stay home tonight.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "prefer (X to Y)",
+    "meaning": "ترجیح دادن X به Y",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I prefer tea to coffee.",
+        "persian": "من چای را به قهوه ترجیح می‌دهم."
+      }
+    ],
+    "miniContext": "I prefer tea to coffee.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "quality",
+    "meaning": "کیفیت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This shop sells good quality clothes.",
+        "persian": "این مغازه لباس‌های باکیفیت می‌فروشد."
+      }
+    ],
+    "miniContext": "This shop sells good quality clothes.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "reduce",
+    "meaning": "کاهش دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop reduced all its prices.",
+        "persian": "مغازه همه قیمت‌هایش را کاهش داد."
+      }
+    ],
+    "miniContext": "The shop reduced all its prices.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "serve",
+    "meaning": "سرو کردن، خدمت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They serve good coffee here.",
+        "persian": "اینجا قهوه خوبی سرو می‌کنند."
+      }
+    ],
+    "miniContext": "They serve good coffee here.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "service",
+    "meaning": "خدمات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The service in this restaurant is great.",
+        "persian": "خدمات این رستوران عالی است."
+      }
+    ],
+    "miniContext": "The service in this restaurant is great.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "shoe shop",
+    "meaning": "کفش‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a shoe shop near my house.",
+        "persian": "نزدیک خانه من یک کفش‌فروشی هست."
+      }
+    ],
+    "miniContext": "There is a shoe shop near my house.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "shop",
+    "meaning": "مغازه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "store"
+    ],
+    "examples": [
+      {
+        "english": "This shop sells fresh fruit.",
+        "persian": "این مغازه میوه تازه می‌فروشد."
+      }
+    ],
+    "miniContext": "This shop sells fresh fruit.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "shop online",
+    "meaning": "خرید اینترنتی کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I usually shop online for clothes.",
+        "persian": "من معمولاً برای لباس خرید اینترنتی می‌کنم."
+      }
+    ],
+    "miniContext": "I usually shop online for clothes.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "shopping centre",
+    "meaning": "مرکز خرید",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "mall"
+    ],
+    "examples": [
+      {
+        "english": "We went to the new shopping centre.",
+        "persian": "ما به مرکز خرید جدید رفتیم."
+      }
+    ],
+    "miniContext": "We went to the new shopping centre.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "supermarket",
+    "meaning": "سوپرمارکت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I buy food at the supermarket.",
+        "persian": "من از سوپرمارکت غذا می‌خرم."
+      }
+    ],
+    "miniContext": "I buy food at the supermarket.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "touch",
+    "meaning": "لمس کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please don't touch the paintings.",
+        "persian": "لطفاً نقاشی‌ها را لمس نکن."
+      }
+    ],
+    "miniContext": "Please don't touch the paintings.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "toy",
+    "meaning": "اسباب‌بازی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The child is playing with a toy.",
+        "persian": "بچه با یک اسباب‌بازی بازی می‌کند."
+      }
+    ],
+    "miniContext": "The child is playing with a toy.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "toy shop",
+    "meaning": "اسباب‌بازی‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We bought a gift at the toy shop.",
+        "persian": "ما از اسباب‌بازی‌فروشی یک هدیه خریدیم."
+      }
+    ],
+    "miniContext": "We bought a gift at the toy shop.",
+    "icon": "🏪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-28",
+    "word": "try sth on",
+    "meaning": "پوشیدن لباس برای امتحان کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I try on this shirt?",
+        "persian": "می‌توانم این پیراهن را امتحان کنم؟"
+      }
+    ],
+    "miniContext": "Can I try on this shirt?",
+    "icon": "🛍️"
+  }
+]

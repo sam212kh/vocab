@@ -1,0 +1,206 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a good/great day",
+    "meaning": "روز خوبی داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Have a good day!",
+        "persian": "روز خوبی داشته باش!"
+      }
+    ],
+    "miniContext": "Have a good day!",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a good/great time",
+    "meaning": "وقت خوبی داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had a great time at the party.",
+        "persian": "ما در مهمانی وقت خیلی خوبی داشتیم."
+      }
+    ],
+    "miniContext": "We had a great time at the party.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a good/great weekend/holiday/journey",
+    "meaning": "آخر هفته/تعطیلات/سفر خوبی داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Have a great holiday!",
+        "persian": "تعطیلات خوبی داشته باش!"
+      }
+    ],
+    "miniContext": "Have a great holiday!",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a bath",
+    "meaning": "حمام کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a bath every evening.",
+        "persian": "من هر شب حمام می‌کنم."
+      }
+    ],
+    "miniContext": "I have a bath every evening.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a break",
+    "meaning": "استراحت کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's have a break for ten minutes.",
+        "persian": "بیا ده دقیقه استراحت کنیم."
+      }
+    ],
+    "miniContext": "Let's have a break for ten minutes.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a drink/sth to eat",
+    "meaning": "چیزی خوردن یا نوشیدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Would you like to have a drink?",
+        "persian": "دوست داری چیزی بنوشی؟"
+      }
+    ],
+    "miniContext": "Would you like to have a drink?",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a look (at sth)",
+    "meaning": "نگاه کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I have a look at your photos?",
+        "persian": "می‌توانم به عکس‌هایت نگاه کنم؟"
+      }
+    ],
+    "miniContext": "Can I have a look at your photos?",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a rest",
+    "meaning": "استراحت کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You should have a rest after work.",
+        "persian": "باید بعد از کار استراحت کنی."
+      }
+    ],
+    "miniContext": "You should have a rest after work.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a run",
+    "meaning": "دویدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a run every morning.",
+        "persian": "من هر روز صبح می‌دوم."
+      }
+    ],
+    "miniContext": "I have a run every morning.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a swim",
+    "meaning": "شنا کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's have a swim in the sea.",
+        "persian": "بیا در دریا شنا کنیم."
+      }
+    ],
+    "miniContext": "Let's have a swim in the sea.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have a wash",
+    "meaning": "خود را شستن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Go and have a wash before dinner.",
+        "persian": "برو و قبل از شام خودت را بشور."
+      }
+    ],
+    "miniContext": "Go and have a wash before dinner.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-40",
+    "word": "have got",
+    "meaning": "داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've got a new phone.",
+        "persian": "من یک تلفن جدید دارم."
+      }
+    ],
+    "miniContext": "I've got a new phone.",
+    "icon": "✅"
+  }
+]

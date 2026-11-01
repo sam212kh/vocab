@@ -1,0 +1,419 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "stroll",
+    "meaning": "قدم زدن آرام",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb/noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a nice day so we decided to go for a stroll.",
+        "persian": "روز خوبی بود پس تصمیم گرفتیم قدم بزنیم."
+      }
+    ],
+    "miniContext": "It was a nice day so we decided to go for a stroll.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "wander (around/about)",
+    "meaning": "بی‌هدف راه رفتن، پرسه زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I just spent the day wandering around town.",
+        "persian": "کل روز را در شهر پرسه زدم."
+      }
+    ],
+    "miniContext": "I just spent the day wandering around town.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "hike",
+    "meaning": "پیاده‌روی طولانی در طبیعت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We were hiking in the countryside.",
+        "persian": "ما در طبیعت پیاده‌روی می‌کردیم."
+      }
+    ],
+    "miniContext": "We were hiking in the countryside, and I stumbled on a rocky bit of path.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "stumble (over/on sth)",
+    "meaning": "پایش به چیزی گیر کردن و تلوتلو خوردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "trip (over)"
+    ],
+    "examples": [
+      {
+        "english": "I stumbled on a rocky bit of path.",
+        "persian": "پایم به یک قسمت سنگلاخی مسیر گیر کرد."
+      }
+    ],
+    "miniContext": "We were hiking in the countryside, and I stumbled on a rocky bit of path.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "march",
+    "meaning": "رژه رفتن، با قدم‌های منظم راه رفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The soldiers marched along the street.",
+        "persian": "سربازان در خیابان رژه رفتند."
+      }
+    ],
+    "miniContext": "The soldiers marched along the street.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "charge",
+    "meaning": "با خشونت یا سروصدا به سمتی هجوم بردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police charged across the square towards the protesters.",
+        "persian": "پلیس به سمت معترضان در میدان هجوم برد."
+      }
+    ],
+    "miniContext": "The police charged across the square towards the protesters.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "rush",
+    "meaning": "شتاب کردن، با عجله حرکت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I rushed to catch my train.",
+        "persian": "با عجله رفتم تا به قطارم برسم."
+      }
+    ],
+    "miniContext": "I rushed to catch my train.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "chase",
+    "meaning": "دنبال کردن، تعقیب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "run after"
+    ],
+    "examples": [
+      {
+        "english": "Two policemen chased the robber across the park.",
+        "persian": "دو پلیس دزد را در پارک تعقیب کردند."
+      }
+    ],
+    "miniContext": "Two policemen chased the robber across the park.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "run flat out",
+    "meaning": "با تمام سرعت دویدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I ran flat out to get home before the others.",
+        "persian": "با تمام سرعت دویدم تا قبل از بقیه به خانه برسم."
+      }
+    ],
+    "miniContext": "I ran flat out to get home before the others.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "run off with sth",
+    "meaning": "چیزی را دزدیده و فرار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The thief ran off with my handbag.",
+        "persian": "دزد کیفم را برداشت و فرار کرد."
+      }
+    ],
+    "miniContext": "The thief ran off with my handbag.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "run sb/sth over",
+    "meaning": "با وسیله نقلیه زدن به کسی یا چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I ran over the child's toy.",
+        "persian": "با ماشین از روی اسباب‌بازی بچه رد شدم."
+      }
+    ],
+    "miniContext": "He was terribly upset when he ran over the cat.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "run away",
+    "meaning": "فرار کردن از جایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The boy threw a stone then ran away.",
+        "persian": "پسر یک سنگ پرتاب کرد و بعد فرار کرد."
+      }
+    ],
+    "miniContext": "The teenager ran away because she was unhappy living at home.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "workout",
+    "meaning": "تمرین بدنی، ورزش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I do a short workout every morning.",
+        "persian": "هر روز صبح یک تمرین کوتاه انجام می‌دهم."
+      }
+    ],
+    "miniContext": "I asked a friend to devise a workout routine for me.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "agile",
+    "meaning": "چابک، سریع و راحت در حرکت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm not as agile as I used to be.",
+        "persian": "دیگر به اندازه قبل چابک نیستم."
+      }
+    ],
+    "miniContext": "I'm not as agile as I used to be, and I was beginning to feel quite stiff early in the morning.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "stiff",
+    "meaning": "خشک و دردناک (عضلات)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I worked in the garden yesterday, so I feel a bit stiff today.",
+        "persian": "دیروز در باغچه کار کردم، برای همین امروز کمی عضلاتم خشک و دردناک است."
+      }
+    ],
+    "miniContext": "I was beginning to feel quite stiff early in the morning.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "devise",
+    "meaning": "طراحی کردن، ابداع کردن (روش یا برنامه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "think sth up"
+    ],
+    "examples": [
+      {
+        "english": "I asked a friend to devise a workout routine for me.",
+        "persian": "از یک دوست خواستم یک برنامه تمرینی برایم طراحی کند."
+      }
+    ],
+    "miniContext": "I asked a friend to devise a workout routine for me.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "warm up",
+    "meaning": "گرم کردن بدن قبل از ورزش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "First I warm up with some stretching and bending.",
+        "persian": "اول با کمی کشش و خم شدن بدنم را گرم می‌کنم."
+      }
+    ],
+    "miniContext": "First I warm up with some stretching and bending, then I go on to more demanding activities.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "bend",
+    "meaning": "خم شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's easier to touch your toes if you bend your knees.",
+        "persian": "اگر زانوهایت را خم کنی، لمس کردن انگشتان پا راحت‌تر می‌شود."
+      }
+    ],
+    "miniContext": "It's easier to touch your toes if you bend your knees.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "demanding",
+    "meaning": "طاقت‌فرسا، نیازمند تلاش زیاد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go on to more demanding activities, like press-ups.",
+        "persian": "بعد به فعالیت‌های سخت‌تر مثل شنا سوئدی می‌روم."
+      }
+    ],
+    "miniContext": "I go on to more demanding activities, like press-ups, to strengthen my muscles.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "constant",
+    "meaning": "دائمی، پیوسته",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like a constant change of activity to stay motivated.",
+        "persian": "دوست دارم فعالیتم دائم تغییر کند تا انگیزه‌ام حفظ شود."
+      }
+    ],
+    "miniContext": "I like a constant change of activity to stay motivated.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "motivated",
+    "meaning": "دارای انگیزه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like a constant change of activity to stay motivated.",
+        "persian": "دوست دارم فعالیتم دائم تغییر کند تا با انگیزه بمانم."
+      }
+    ],
+    "miniContext": "I like a constant change of activity to stay motivated.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "vital",
+    "meaning": "حیاتی، ضروری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "essential",
+      "crucial"
+    ],
+    "examples": [
+      {
+        "english": "It's also vital that you finish by warming down.",
+        "persian": "ضروری است که با سرد کردن بدن تمرین را تمام کنی."
+      }
+    ],
+    "miniContext": "It's also vital that you finish by warming down with fairly gentle activities.",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "strengthen",
+    "meaning": "تقویت کردن، قوی‌تر کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to strengthen my arms.",
+        "persian": "می‌خواهم بازوهایم را تقویت کنم."
+      }
+    ],
+    "miniContext": "I want to strengthen my arms. (= make them stronger)",
+    "icon": "🏃"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-10",
+    "word": "widen",
+    "meaning": "پهن‌تر کردن، گسترش دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They plan to widen the road.",
+        "persian": "آن‌ها قصد دارند جاده را پهن‌تر کنند."
+      }
+    ],
+    "miniContext": "They plan to widen the road. (= make it wider)",
+    "icon": "🏃"
+  }
+]

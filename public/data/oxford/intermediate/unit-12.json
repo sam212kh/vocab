@@ -1,0 +1,378 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "custom",
+    "meaning": "رسم، آیین",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a custom for people to give presents to the couple.",
+        "persian": "رسم است که مردم به زوج هدیه بدهند."
+      }
+    ],
+    "miniContext": "It's a custom for people to give presents to the couple.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "get/be engaged",
+    "meaning": "نامزد شدن/نامزد بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They got engaged last week.",
+        "persian": "آن‌ها هفته‌ی پیش نامزد شدند."
+      }
+    ],
+    "miniContext": "They got engaged last week.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "wedding",
+    "meaning": "مراسم عروسی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jake and Emma's wedding is next Saturday.",
+        "persian": "عروسی جیک و اما شنبه‌ی آینده است."
+      }
+    ],
+    "miniContext": "Jake and Emma's wedding is next Saturday.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "ceremony",
+    "meaning": "مراسم رسمی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They had a religious ceremony in a church.",
+        "persian": "آن‌ها یک مراسم مذهبی در کلیسا برگزار کردند."
+      }
+    ],
+    "miniContext": "They had a religious ceremony in a church.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "bride",
+    "meaning": "عروس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bride wore a white dress.",
+        "persian": "عروس لباس سفید پوشیده بود."
+      }
+    ],
+    "miniContext": "The bride wore a white dress.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "groom",
+    "meaning": "داماد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jake is the groom.",
+        "persian": "جیک داماد است."
+      }
+    ],
+    "miniContext": "Jake is the groom.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "(wedding) reception",
+    "meaning": "جشن عروسی (بعد از مراسم)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a big reception after the ceremony.",
+        "persian": "بعد از مراسم یک جشن بزرگ برگزار شد."
+      }
+    ],
+    "miniContext": "There was a big reception after the ceremony.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "honeymoon",
+    "meaning": "ماه عسل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They went to Italy for their honeymoon.",
+        "persian": "آن‌ها برای ماه عسل به ایتالیا رفتند."
+      }
+    ],
+    "miniContext": "They went to Italy for their honeymoon.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "make a speech",
+    "meaning": "سخنرانی کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Several people made speeches at the reception.",
+        "persian": "چند نفر در جشن سخنرانی کردند."
+      }
+    ],
+    "miniContext": "Several people made speeches at the reception.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "marriage",
+    "meaning": "ازدواج، زناشویی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Their marriage has lasted thirty years.",
+        "persian": "ازدواج آن‌ها سی سال دوام آورده است."
+      }
+    ],
+    "miniContext": "Their marriage has lasted thirty years.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "celebrate",
+    "meaning": "جشن گرفتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They celebrate their wedding anniversary every year.",
+        "persian": "آن‌ها هر سال سالگرد ازدواجشان را جشن می‌گیرند."
+      }
+    ],
+    "miniContext": "They celebrate their wedding anniversary every year.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "anniversary",
+    "meaning": "سالگرد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is their wedding anniversary.",
+        "persian": "امروز سالگرد ازدواج آن‌هاست."
+      }
+    ],
+    "miniContext": "Today is their wedding anniversary.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "separate",
+    "meaning": "جدا شدن (از هم)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "split up"
+    ],
+    "examples": [
+      {
+        "english": "My parents separated when I was a child.",
+        "persian": "والدینم وقتی بچه بودم از هم جدا شدند."
+      }
+    ],
+    "miniContext": "My parents separated when I was a child.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "statistics",
+    "meaning": "آمار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Recent statistics show that many couples get divorced.",
+        "persian": "آمار اخیر نشان می‌دهد زوج‌های زیادی طلاق می‌گیرند."
+      }
+    ],
+    "miniContext": "Recent statistics show that many couples get divorced.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "belief",
+    "meaning": "باور",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a general belief that marriage is for ever.",
+        "persian": "باور عمومی این است که ازدواج تا ابد است."
+      }
+    ],
+    "miniContext": "There is a general belief that marriage is for ever.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "live apart",
+    "meaning": "جدا از هم زندگی کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They were married for four years, but now live apart.",
+        "persian": "آن‌ها چهار سال ازدواج کرده بودند، اما حالا جدا زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "They were married for four years, but now live apart.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "vary",
+    "meaning": "متفاوت بودن، تغییر کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Reasons for divorce vary enormously.",
+        "persian": "دلایل طلاق خیلی متفاوت است."
+      }
+    ],
+    "miniContext": "Reasons for divorce vary enormously.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "pressure",
+    "meaning": "فشار روانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Money problems put pressure on their relationship.",
+        "persian": "مشکلات مالی به رابطه‌شان فشار وارد کرد."
+      }
+    ],
+    "miniContext": "Money problems put pressure on their relationship.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "lack (of sth)",
+    "meaning": "کمبود (چیزی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A lack of communication has been a big problem for them.",
+        "persian": "کمبود ارتباط برای آن‌ها مشکل بزرگی بوده است."
+      }
+    ],
+    "miniContext": "A lack of communication has been a big problem for them.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "affair",
+    "meaning": "رابطه‌ی پنهانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One partner was having an affair with another person.",
+        "persian": "یکی از طرفین با فرد دیگری رابطه‌ی پنهانی داشت."
+      }
+    ],
+    "miniContext": "One partner was having an affair with another person.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "constant",
+    "meaning": "دائمی، مداوم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Constant arguments can end a relationship.",
+        "persian": "بحث‌های مداوم می‌تواند به یک رابطه پایان دهد."
+      }
+    ],
+    "miniContext": "Constant arguments can end a relationship.",
+    "icon": "💍"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-12",
+    "word": "equality",
+    "meaning": "برابری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a lack of equality in their relationship.",
+        "persian": "در رابطه‌شان کمبود برابری وجود دارد."
+      }
+    ],
+    "miniContext": "There's a lack of equality in their relationship.",
+    "icon": "💍"
+  }
+]

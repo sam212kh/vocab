@@ -1,0 +1,325 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "ago",
+    "meaning": "پیش، قبل",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I met him two years ago.",
+        "persian": "من دو سال پیش او را ملاقات کردم."
+      }
+    ],
+    "miniContext": "I met him two years ago.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "already",
+    "meaning": "قبلا، از قبل",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has already finished her homework.",
+        "persian": "او قبلا تکالیفش را تمام کرده است."
+      }
+    ],
+    "miniContext": "She has already finished her homework.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "appointment",
+    "meaning": "قرار ملاقات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a doctor's appointment tomorrow.",
+        "persian": "من فردا یک قرار ملاقات با دکتر دارم."
+      }
+    ],
+    "miniContext": "I have a doctor's appointment tomorrow.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "for",
+    "meaning": "برای، به مدت",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I waited for an hour.",
+        "persian": "من به مدت یک ساعت منتظر ماندم."
+      }
+    ],
+    "miniContext": "I waited for an hour.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "in (ten) days",
+    "meaning": "ده روز دیگر",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The exam is in ten days.",
+        "persian": "امتحان ده روز دیگر است."
+      }
+    ],
+    "miniContext": "The exam is in ten days.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "last year/week/night, etc.",
+    "meaning": "سال/هفته/شب گذشته",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I saw her last week.",
+        "persian": "هفته گذشته او را دیدم."
+      }
+    ],
+    "miniContext": "I saw her last week.",
+    "icon": "🌙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "just",
+    "meaning": "فقط، همین الان",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I just arrived.",
+        "persian": "من همین الان رسیدم."
+      }
+    ],
+    "miniContext": "I just arrived.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "next week/Thursday/year, etc.",
+    "meaning": "هفته/پنجشنبه/سال آینده",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm going on holiday next week.",
+        "persian": "هفته آینده به تعطیلات می‌روم."
+      }
+    ],
+    "miniContext": "I'm going on holiday next week.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "night (as in \"last night\")",
+    "meaning": "شب (گذشته)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watched a movie last night.",
+        "persian": "شب گذشته یک فیلم تماشا کردم."
+      }
+    ],
+    "miniContext": "I watched a movie last night.",
+    "icon": "🌙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "recently",
+    "meaning": "اخیراً",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't seen him recently.",
+        "persian": "من اخیراً او را ندیده‌ام."
+      }
+    ],
+    "miniContext": "I haven't seen him recently.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "since",
+    "meaning": "از (زمانی که)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have lived here since 2010.",
+        "persian": "من از سال ۲۰۱۰ اینجا زندگی می‌کنم."
+      }
+    ],
+    "miniContext": "I have lived here since 2010.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "this evening/weekend/morning",
+    "meaning": "امشب، این آخر هفته، امروز صبح",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm going shopping this weekend.",
+        "persian": "من این آخر هفته به خرید می‌روم."
+      }
+    ],
+    "miniContext": "I'm going shopping this weekend.",
+    "icon": "🌆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "tomorrow morning",
+    "meaning": "فردا صبح",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll call you tomorrow morning.",
+        "persian": "فردا صبح به تو زنگ می‌زنم."
+      }
+    ],
+    "miniContext": "I'll call you tomorrow morning.",
+    "icon": "📆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "week",
+    "meaning": "هفته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I will see you next week.",
+        "persian": "هفته بعد تو را می‌بینم."
+      }
+    ],
+    "miniContext": "I will see you next week.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "weekend",
+    "meaning": "آخر هفته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What are your plans for the weekend?",
+        "persian": "برنامه‌هایت برای آخر هفته چیست؟"
+      }
+    ],
+    "miniContext": "What are your plans for the weekend?",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "while",
+    "meaning": "در حالی که",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She read a book while I cooked dinner.",
+        "persian": "او کتاب خواند درحالی که من شام می‌پختم."
+      }
+    ],
+    "miniContext": "She read a book while I cooked dinner.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "yesterday",
+    "meaning": "دیروز",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I saw her yesterday.",
+        "persian": "من دیروز او را دیدم."
+      }
+    ],
+    "miniContext": "I saw her yesterday.",
+    "icon": "📆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "yesterday evening",
+    "meaning": "عصر دیروز",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watched a film yesterday evening.",
+        "persian": "من عصر دیروز یک فیلم تماشا کردم."
+      }
+    ],
+    "miniContext": "I watched a film yesterday evening.",
+    "icon": "📆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-9",
+    "word": "yet",
+    "meaning": "هنوز",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't finished my homework yet.",
+        "persian": "من هنوز تکالیفم را تمام نکرده‌ام."
+      }
+    ],
+    "miniContext": "I haven't finished my homework yet.",
+    "icon": "⏳"
+  }
+]

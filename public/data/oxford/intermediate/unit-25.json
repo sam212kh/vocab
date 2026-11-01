@@ -1,0 +1,293 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "recipe",
+    "meaning": "دستور پخت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need a recipe to make lasagne.",
+        "persian": "برای درست کردن لازانیا به دستور پخت نیاز دارم."
+      }
+    ],
+    "miniContext": "I need a recipe to make lasagne.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "ingredient",
+    "meaning": "ماده‌ی اولیه (آشپزی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Good ingredients make all the difference.",
+        "persian": "مواد اولیه‌ی خوب همه چیز را تغییر می‌دهند."
+      }
+    ],
+    "miniContext": "Good ingredients make all the difference.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "plenty of sth",
+    "meaning": "به مقدار زیاد",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The soup needs plenty of flavour.",
+        "persian": "سوپ به طعم زیادی نیاز دارد."
+      }
+    ],
+    "miniContext": "The soup needs plenty of flavour.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "flavour",
+    "meaning": "طعم، مزه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like food with a strong flavour.",
+        "persian": "غذا با طعم قوی را دوست دارم."
+      }
+    ],
+    "miniContext": "I like food with a strong flavour.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "skill",
+    "meaning": "مهارت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need great cooking skills for that job.",
+        "persian": "برای آن شغل به مهارت‌های آشپزی عالی نیاز داری."
+      }
+    ],
+    "miniContext": "You need great cooking skills for that job.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "slice (verb)",
+    "meaning": "برش زدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Learn to slice vegetables in the proper way.",
+        "persian": "یاد بگیر سبزیجات را به روش درست برش بزنی."
+      }
+    ],
+    "miniContext": "Learn to slice vegetables in the proper way.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "invest in sth",
+    "meaning": "روی چیزی سرمایه‌گذاری کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Always invest in good quality knives.",
+        "persian": "همیشه روی چاقوهای باکیفیت سرمایه‌گذاری کن."
+      }
+    ],
+    "miniContext": "Always invest in good quality knives.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "sharp",
+    "meaning": "تیز",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "blunt (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Keep your knives sharp.",
+        "persian": "چاقوهایت را تیز نگه دار."
+      }
+    ],
+    "miniContext": "Keep your knives sharp.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "responsibility",
+    "meaning": "مسئولیت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You have a responsibility to look after people on a diet.",
+        "persian": "مسئولیت داری مراقب افرادی که رژیم دارند باشی."
+      }
+    ],
+    "miniContext": "You have a responsibility to look after people on a diet.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "diet",
+    "meaning": "رژیم غذایی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I eat a very balanced diet.",
+        "persian": "من یک رژیم غذایی خیلی متعادل دارم."
+      }
+    ],
+    "miniContext": "I eat a very balanced diet.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "stock",
+    "meaning": "آبگوشت، آب‌پز (پایه‌ی سوپ)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I made some stock with fish bones.",
+        "persian": "با استخوان ماهی کمی آبگوشت درست کردم."
+      }
+    ],
+    "miniContext": "I made some stock with fish bones.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "flour",
+    "meaning": "آرد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add the flour and cook for a minute.",
+        "persian": "آرد را اضافه کن و یک دقیقه بپز."
+      }
+    ],
+    "miniContext": "Add the flour and cook for a minute.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "boil",
+    "meaning": "جوشاندن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "First boil the potatoes in a pan.",
+        "persian": "اول سیب‌زمینی‌ها را در یک قابلمه بجوشان."
+      }
+    ],
+    "miniContext": "First boil the potatoes in a pan.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "mash",
+    "meaning": "له کردن (غذا)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mash the potatoes with butter.",
+        "persian": "سیب‌زمینی‌ها را با کره له کن."
+      }
+    ],
+    "miniContext": "Mash the potatoes with butter.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "chop",
+    "meaning": "خرد کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Chop the onion and carrot.",
+        "persian": "پیاز و هویج را خرد کن."
+      }
+    ],
+    "miniContext": "Chop the onion and carrot.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "fry",
+    "meaning": "سرخ کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Fry the meat quickly along with the vegetables.",
+        "persian": "گوشت را به سرعت همراه سبزیجات سرخ کن."
+      }
+    ],
+    "miniContext": "Fry the meat quickly along with the vegetables.",
+    "icon": "🍳"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-25",
+    "word": "bake",
+    "meaning": "پختن (در فر، بدون روغن)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Bake in a hot oven for 20 minutes.",
+        "persian": "بیست دقیقه در فر داغ بپز."
+      }
+    ],
+    "miniContext": "Bake in a hot oven for 20 minutes.",
+    "icon": "🍳"
+  }
+]

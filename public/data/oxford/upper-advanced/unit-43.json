@@ -1,0 +1,383 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "fabulous",
+    "meaning": "فوق‌العاده، عالی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "sensational",
+      "superb"
+    ],
+    "examples": [
+      {
+        "english": "The Woman in Black is a fabulous ghost story.",
+        "persian": "The Woman in Black داستان ارواح فوق‌العاده‌ای است."
+      }
+    ],
+    "miniContext": "The Woman in Black is a fabulous ghost story.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "ghost story",
+    "meaning": "داستان ارواح",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you keen on ghost stories?",
+        "persian": "آیا به داستان‌های ارواح علاقه داری؟"
+      }
+    ],
+    "miniContext": "The Woman in Black is a fabulous ghost story.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "set",
+    "meaning": "صحنه، دکور (نمایش یا فیلم)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't like the acting, but I thought the set was good.",
+        "persian": "از بازی خوشم نیامد، اما فکر کردم دکور خوب بود."
+      }
+    ],
+    "miniContext": "With just a minimal set and few sound effects, this drama will scare you to death!",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "sound effects",
+    "meaning": "جلوه‌های صوتی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There were great sound effects.",
+        "persian": "جلوه‌های صوتی عالی‌ای بود."
+      }
+    ],
+    "miniContext": "With just a minimal set and few sound effects, this drama will scare you to death!",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "scare sb to death",
+    "meaning": "خیلی ترساندن کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The play was frightening. It scared me to death.",
+        "persian": "نمایش ترسناک بود. مرا خیلی ترساند."
+      }
+    ],
+    "miniContext": "This drama will scare you to death!",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "adaptation",
+    "meaning": "اقتباس (از کتاب یا اثر دیگر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A superb adaptation of Susan Hill's classic novel.",
+        "persian": "اقتباسی فوق‌العاده از رمان کلاسیک سوزان هیل."
+      }
+    ],
+    "miniContext": "A superb adaptation of Susan Hill's classic novel.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "classic",
+    "meaning": "کلاسیک، شاهکار ماندگار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The book is a classic.",
+        "persian": "کتاب یک اثر کلاسیک است."
+      }
+    ],
+    "miniContext": "A superb adaptation of Susan Hill's classic novel.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "tension",
+    "meaning": "تنش، هیجان نگران‌کننده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The tension is maintained throughout the production.",
+        "persian": "تنش در طول کل اجرا حفظ می‌شود."
+      }
+    ],
+    "miniContext": "The tension is maintained throughout the production.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "cast",
+    "meaning": "بازیگران (یک نمایش یا فیلم)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The cast of two are sensational!",
+        "persian": "آن دو بازیگر فوق‌العاده هستند!"
+      }
+    ],
+    "miniContext": "The cast of two are sensational! The applause went on and on.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "applause",
+    "meaning": "تشویق، کف زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "clapping"
+    ],
+    "examples": [
+      {
+        "english": "The applause went on and on.",
+        "persian": "تشویق مدام ادامه داشت."
+      }
+    ],
+    "miniContext": "The applause went on and on.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "unanimous",
+    "meaning": "اتفاق‌نظر، همه موافق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The critics have been unanimous in their praise.",
+        "persian": "منتقدان در تحسینشان متفق‌القول بودند."
+      }
+    ],
+    "miniContext": "The critics have been unanimous in their praise.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "praise",
+    "meaning": "تحسین، ستایش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's had praise from almost everyone.",
+        "persian": "تقریباً از همه تحسین دریافت کرده."
+      }
+    ],
+    "miniContext": "The critics have been unanimous in their praise.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "blockbuster",
+    "meaning": "فیلم یا کتاب پرفروش و پرسروصدا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to see the latest blockbuster at the local cinema last night.",
+        "persian": "دیشب برای دیدن آخرین فیلم پرفروش به سینمای محلی رفتم."
+      }
+    ],
+    "miniContext": "I went to see the latest blockbuster at the local cinema last night.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "convinced",
+    "meaning": "متقاعدشده، مطمئن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wasn't convinced by it.",
+        "persian": "متقاعدم نکرد."
+      }
+    ],
+    "miniContext": "I wasn't convinced by it.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "expectation",
+    "meaning": "انتظار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Did the film live up to your expectations?",
+        "persian": "آیا فیلم انتظاراتت را برآورده کرد؟"
+      }
+    ],
+    "miniContext": "I had quite high expectations because the critics seem to like it.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "sequence",
+    "meaning": "دنباله، توالی صحنه‌ها",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a great action sequence in the film involving a car chase.",
+        "persian": "یک دنباله اکشن عالی توی فیلم با تعقیب‌وگریز ماشین هست."
+      }
+    ],
+    "miniContext": "I thought the action sequences were somewhat predictable.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "somewhat",
+    "meaning": "تا حدی، کمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [
+      "rather"
+    ],
+    "examples": [
+      {
+        "english": "I thought the action sequences were somewhat predictable.",
+        "persian": "فکر کردم صحنه‌های اکشن تا حدی قابل‌پیش‌بینی بودند."
+      }
+    ],
+    "miniContext": "I thought the action sequences were somewhat predictable.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "predictable",
+    "meaning": "قابل‌پیش‌بینی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I knew what was going to happen at the end. - Yes, it was very predictable.",
+        "persian": "می‌دانستم آخرش چه می‌شود. بله، خیلی قابل‌پیش‌بینی بود."
+      }
+    ],
+    "miniContext": "I thought the action sequences were somewhat predictable.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "originality",
+    "meaning": "اصالت، تازگی و خلاقیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The film needed some new and interesting ideas - it lacked originality.",
+        "persian": "فیلم به ایده‌های جدید و جالب نیاز داشت، فاقد اصالت بود."
+      }
+    ],
+    "miniContext": "It just lacked any originality.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "poor",
+    "meaning": "ضعیف، کیفیت پایین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Yes, they were poor.",
+        "persian": "بله، آن‌ها ضعیف بودند."
+      }
+    ],
+    "miniContext": "Yes, they were poor.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "aspect",
+    "meaning": "جنبه، بخش خاص",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't like that particular feature of the film - that aspect.",
+        "persian": "از آن جنبه خاص فیلم خوشم نیامد."
+      }
+    ],
+    "miniContext": "I think the worst aspect, though, was the screenplay.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-43",
+    "word": "screenplay",
+    "meaning": "فیلم‌نامه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The actors were good, but they were helped by a fabulous screenplay.",
+        "persian": "بازیگران خوب بودند، اما فیلم‌نامه فوق‌العاده‌ای هم کمکشان کرد."
+      }
+    ],
+    "miniContext": "I think the worst aspect, though, was the screenplay, which was not convincing at all.",
+    "icon": "🎭"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "grateful (to sb)",
+    "meaning": "سپاسگزار (از کسی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was grateful to Dad for his help.",
+        "persian": "از کمک پدرم سپاسگزار بودم."
+      }
+    ],
+    "miniContext": "I was grateful to Dad for his help.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "based (in/on sth)",
+    "meaning": "مستقر (در)، برگرفته (از)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I used to live in Rome, but I'm based in Paris now.",
+        "persian": "قبلا در رم زندگی می‌کردم، اما الان مستقر در پاریس هستم."
+      }
+    ],
+    "miniContext": "I used to live in Rome, but I'm based in Paris now.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "famous for sth",
+    "meaning": "مشهور به چیزی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Oxford is famous for its university.",
+        "persian": "آکسفورد به دانشگاهش مشهور است."
+      }
+    ],
+    "miniContext": "Oxford is famous for its university.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "aware of sth",
+    "meaning": "آگاه از چیزی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wasn't aware of the problem.",
+        "persian": "او از آن مشکل آگاه نبود."
+      }
+    ],
+    "miniContext": "She wasn't aware of the problem.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "tired of sth",
+    "meaning": "خسته از چیزی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm tired of working. Let's go out.",
+        "persian": "از کار کردن خسته شده‌ام. بیا بیرون برویم."
+      }
+    ],
+    "miniContext": "I'm tired of working. Let's go out.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "fed up (with sth/sb)",
+    "meaning": "کلافه، بیزار (از چیزی/کسی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm fed up with my job.",
+        "persian": "از شغلم کلافه شده‌ام."
+      }
+    ],
+    "miniContext": "I'm fed up with my job.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "prepared (for sth)",
+    "meaning": "آماده (برای چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wasn't prepared for the exam.",
+        "persian": "برای امتحان آماده نبودم."
+      }
+    ],
+    "miniContext": "I wasn't prepared for the exam.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "responsible for sth",
+    "meaning": "مسئول چیزی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is Emma still responsible for the whole department?",
+        "persian": "آیا اما هنوز مسئول کل آن بخش است؟"
+      }
+    ],
+    "miniContext": "Is Emma still responsible for the whole department?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "involved (in sth)",
+    "meaning": "درگیر، مشارکت‌کننده (در چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is Mark still involved in the company?",
+        "persian": "آیا مارک هنوز در آن شرکت مشارکت دارد؟"
+      }
+    ],
+    "miniContext": "Is Mark still involved in the company?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "proud (of sth)",
+    "meaning": "مفتخر (به چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's very proud of her son.",
+        "persian": "او خیلی به پسرش افتخار می‌کند."
+      }
+    ],
+    "miniContext": "She's very proud of her son.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-39",
+    "word": "jealous (of sb)",
+    "meaning": "حسود (به کسی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ted is jealous of anyone who gets friendly with his girlfriend.",
+        "persian": "تد به هر کسی که با دوست‌دخترش صمیمی شود حسودی می‌کند."
+      }
+    ],
+    "miniContext": "Ted is jealous of anyone who gets friendly with his girlfriend.",
+    "icon": "🔤"
+  }
+]

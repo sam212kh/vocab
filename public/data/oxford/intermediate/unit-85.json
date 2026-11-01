@@ -1,0 +1,214 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "so far",
+    "meaning": "تا به حال",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's fine so far.",
+        "persian": "تا الان خوب بوده."
+      }
+    ],
+    "miniContext": "It's fine so far.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "be about to do sth",
+    "meaning": "در آستانه‌ی انجام کاری بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We're about to see the lawyer.",
+        "persian": "داریم می‌رویم وکیل را ببینیم."
+      }
+    ],
+    "miniContext": "We're about to see the lawyer.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "make up your mind",
+    "meaning": "تصمیم گرفتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We haven't made up our minds about that yet.",
+        "persian": "هنوز درباره‌ی آن تصمیم نگرفته‌ایم."
+      }
+    ],
+    "miniContext": "We haven't made up our minds about that yet.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "do sb a favour",
+    "meaning": "لطفی به کسی کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We may have to ask my brother to do us a favour.",
+        "persian": "شاید مجبور شویم از برادرم بخواهیم لطفی به ما بکند."
+      }
+    ],
+    "miniContext": "We may have to ask my brother to do us a favour.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "straight away",
+    "meaning": "فورا",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "immediately"
+    ],
+    "examples": [
+      {
+        "english": "Are you moving in straight away?",
+        "persian": "فورا نقل مکان می‌کنی؟"
+      }
+    ],
+    "miniContext": "Are you moving in straight away?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "well done",
+    "meaning": "آفرین",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "congratulations"
+    ],
+    "examples": [
+      {
+        "english": "I've just passed my driving test. - Oh, well done!",
+        "persian": "تازه امتحان رانندگی‌ام را قبول شدم. - آفرین!"
+      }
+    ],
+    "miniContext": "I've just passed my driving test. - Oh, well done!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "it's up to you",
+    "meaning": "به خودت بستگی دارد",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What do you feel like doing? - It's up to you.",
+        "persian": "دلت می‌خواهد چه کار کنیم؟ - به خودت بستگی دارد."
+      }
+    ],
+    "miniContext": "What do you feel like doing? - It's up to you.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "no way",
+    "meaning": "اصلا، به هیچ وجه",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I borrow your car? - No way!",
+        "persian": "می‌شود ماشینت را قرض بگیرم؟ - اصلا!"
+      }
+    ],
+    "miniContext": "Can I borrow your car? - No way!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "that depends",
+    "meaning": "بستگی دارد",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "it depends"
+    ],
+    "examples": [
+      {
+        "english": "Are you going away this summer? - That depends.",
+        "persian": "این تابستان جایی می‌روی؟ - بستگی دارد."
+      }
+    ],
+    "miniContext": "Are you going away this summer? - That depends.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "help yourself",
+    "meaning": "خودت بردار، تعارف نکن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is anyone sitting here? - No, help yourself.",
+        "persian": "کسی اینجا نشسته؟ - نه، بفرما."
+      }
+    ],
+    "miniContext": "Is anyone sitting here? - No, help yourself.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "make it",
+    "meaning": "موفق به حضور شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm afraid I can't make it tonight.",
+        "persian": "متاسفانه امشب نمی‌توانم بیایم."
+      }
+    ],
+    "miniContext": "I'm afraid I can't make it tonight.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-85",
+    "word": "what a pity",
+    "meaning": "چه حیف",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "what a shame"
+    ],
+    "examples": [
+      {
+        "english": "Sam can't make it tonight. - Oh, what a pity.",
+        "persian": "سم امشب نمی‌تواند بیاید. - آه، چه حیف."
+      }
+    ],
+    "miniContext": "Sam can't make it tonight. - Oh, what a pity.",
+    "icon": "💬"
+  }
+]

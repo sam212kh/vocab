@@ -1,0 +1,365 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "full stop",
+    "meaning": "نقطه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A full stop is used at the end of a sentence.",
+        "persian": "نقطه در پایان جمله استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A full stop is used at the end of a sentence.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "comma",
+    "meaning": "ویرگول",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Use a comma to separate items in a list.",
+        "persian": "برای جدا کردن موارد یک فهرست از ویرگول استفاده کن."
+      }
+    ],
+    "miniContext": "Use a comma to separate items in a list.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "colon",
+    "meaning": "دو نقطه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A colon often introduces a list or explanation.",
+        "persian": "دو نقطه اغلب یک فهرست یا توضیح را معرفی می‌کند."
+      }
+    ],
+    "miniContext": "A colon often introduces a list or explanation.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "semicolon",
+    "meaning": "نقطه‌ویرگول",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A semicolon connects two closely related sentences.",
+        "persian": "نقطه‌ویرگول دو جمله‌ی مرتبط را به هم وصل می‌کند."
+      }
+    ],
+    "miniContext": "A semicolon connects two closely related sentences.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "apostrophe",
+    "meaning": "آپاستروف (نشانه‌ی مالکیت یا حذف حرف)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "An apostrophe shows that letters have been left out, as in don't.",
+        "persian": "آپاستروف نشان می‌دهد حروفی حذف شده‌اند، مثل don't."
+      }
+    ],
+    "miniContext": "An apostrophe shows that letters have been left out, as in don't.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "question mark",
+    "meaning": "علامت سوال",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put a question mark at the end of a question.",
+        "persian": "در پایان یک سوال علامت سوال بگذار."
+      }
+    ],
+    "miniContext": "Put a question mark at the end of a question.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "exclamation mark",
+    "meaning": "علامت تعجب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She used an exclamation mark to show surprise.",
+        "persian": "او از علامت تعجب برای نشان دادن تعجب استفاده کرد."
+      }
+    ],
+    "miniContext": "She used an exclamation mark to show surprise.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "hyphen",
+    "meaning": "خط تیره (کوتاه)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Use a hyphen to join two words together.",
+        "persian": "برای وصل کردن دو کلمه به هم از خط تیره استفاده کن."
+      }
+    ],
+    "miniContext": "Use a hyphen to join two words together.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "quotation marks",
+    "meaning": "علامت نقل‌قول",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put the exact words someone said in quotation marks.",
+        "persian": "کلمات دقیق گفته‌شده‌ی کسی را داخل علامت نقل‌قول بگذار."
+      }
+    ],
+    "miniContext": "Put the exact words someone said in quotation marks.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "abbreviation",
+    "meaning": "مخفف",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "TV is an abbreviation for television.",
+        "persian": "TV مخفف کلمه‌ی television است."
+      }
+    ],
+    "miniContext": "TV is an abbreviation for television.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "capital letter",
+    "meaning": "حرف بزرگ",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Every new sentence must begin with a capital letter.",
+        "persian": "هر جمله‌ی جدید باید با حرف بزرگ شروع شود."
+      }
+    ],
+    "miniContext": "Every new sentence must begin with a capital letter.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "pause",
+    "meaning": "مکث",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A comma in writing is like a pause in speech.",
+        "persian": "ویرگول در نوشتار مثل یک مکث در گفتار است."
+      }
+    ],
+    "miniContext": "A comma in writing is like a pause in speech.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "separate",
+    "meaning": "جدا کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Use a comma to separate words in a list.",
+        "persian": "برای جدا کردن کلمات یک فهرست از ویرگول استفاده کن."
+      }
+    ],
+    "miniContext": "Use a comma to separate words in a list.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "list",
+    "meaning": "فهرست",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wrote a shopping list before going to the store.",
+        "persian": "قبل از رفتن به فروشگاه یک فهرست خرید نوشتم."
+      }
+    ],
+    "miniContext": "I wrote a shopping list before going to the store.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "omit",
+    "meaning": "حذف کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "leave out"
+    ],
+    "examples": [
+      {
+        "english": "You can omit the comma before 'and' in a simple list.",
+        "persian": "می‌توانی ویرگول قبل از and را در یک فهرست ساده حذف کنی."
+      }
+    ],
+    "miniContext": "You can omit the comma before 'and' in a simple list.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "interrupt",
+    "meaning": "قطع کردن (صحبت)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please don't interrupt me while I'm speaking.",
+        "persian": "لطفا وقتی دارم صحبت می‌کنم حرفم را قطع نکن."
+      }
+    ],
+    "miniContext": "Please don't interrupt me while I'm speaking.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "further",
+    "meaning": "بیشتر، اضافی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have any further questions?",
+        "persian": "سوال بیشتری داری؟"
+      }
+    ],
+    "miniContext": "Do you have any further questions?",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "details",
+    "meaning": "جزئیات",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please give me more details about the job.",
+        "persian": "لطفا جزئیات بیشتری درباره‌ی شغل به من بده."
+      }
+    ],
+    "miniContext": "Please give me more details about the job.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "instead of sb/sth",
+    "meaning": "به جای کسی/چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd use this dictionary instead of the other one.",
+        "persian": "من این فرهنگ لغت را به جای آن یکی استفاده می‌کنم."
+      }
+    ],
+    "miniContext": "I'd use this dictionary instead of the other one.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "connect",
+    "meaning": "وصل کردن، مرتبط کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "join"
+    ],
+    "examples": [
+      {
+        "english": "Use 'and' or 'but' to connect two parts of a sentence.",
+        "persian": "از and یا but برای وصل کردن دو بخش جمله استفاده کن."
+      }
+    ],
+    "miniContext": "Use 'and' or 'but' to connect two parts of a sentence.",
+    "icon": "✍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-4",
+    "word": "such as",
+    "meaning": "مثل، مانند",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "like"
+    ],
+    "examples": [
+      {
+        "english": "Use adjectives such as beautiful and attractive.",
+        "persian": "از صفت‌هایی مثل beautiful و attractive استفاده کن."
+      }
+    ],
+    "miniContext": "Use adjectives such as beautiful and attractive.",
+    "icon": "✍️"
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unable (to do sth)",
+    "meaning": "قادر نبودن (به انجام کاری)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We were unable to go to the party.",
+        "persian": "ما نتوانستیم به مهمانی برویم."
+      }
+    ],
+    "miniContext": "We were unable to go to the party.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unnecessary",
+    "meaning": "غیرضروری",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was unnecessary for them to come.",
+        "persian": "آمدن آن‌ها غیرضروری بود."
+      }
+    ],
+    "miniContext": "It was unnecessary for them to come.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unfair",
+    "meaning": "ناعادلانه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was unfair giving the job to Ed.",
+        "persian": "دادن آن شغل به اد ناعادلانه بود."
+      }
+    ],
+    "miniContext": "It was unfair giving the job to Ed.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unreliable",
+    "meaning": "غیرقابل اعتماد",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "reliable (opp)"
+    ],
+    "examples": [
+      {
+        "english": "My car is unreliable in cold weather.",
+        "persian": "ماشینم در هوای سرد غیرقابل اعتماد است."
+      }
+    ],
+    "miniContext": "My car is unreliable in cold weather.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unlikely",
+    "meaning": "بعید",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "likely (opp)"
+    ],
+    "examples": [
+      {
+        "english": "He's very unlikely to invite me.",
+        "persian": "خیلی بعید است او مرا دعوت کند."
+      }
+    ],
+    "miniContext": "He's very unlikely to invite me.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unfit",
+    "meaning": "ناسالم، بدون آمادگی جسمانی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "fit (opp)"
+    ],
+    "examples": [
+      {
+        "english": "These days I'm very unfit.",
+        "persian": "این روزها آمادگی جسمانی‌ام خیلی کم است."
+      }
+    ],
+    "miniContext": "These days I'm very unfit.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unsuitable (for sb/sth)",
+    "meaning": "نامناسب (برای کسی/چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "suitable (opp)"
+    ],
+    "examples": [
+      {
+        "english": "This film is unsuitable for young children.",
+        "persian": "این فیلم برای بچه‌های کوچک نامناسب است."
+      }
+    ],
+    "miniContext": "This film is unsuitable for young children.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "unlucky",
+    "meaning": "بدشانس",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "lucky (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Friday 13th is thought to be unlucky.",
+        "persian": "جمعه‌ی سیزدهم بدشانس تلقی می‌شود."
+      }
+    ],
+    "miniContext": "Friday 13th is thought to be unlucky.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "illegal",
+    "meaning": "غیرقانونی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "legal (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Is it illegal to ride without a helmet?",
+        "persian": "آیا رانندگی بدون کلاه ایمنی غیرقانونی است؟"
+      }
+    ],
+    "miniContext": "Is it illegal to ride without a helmet?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "dishonest",
+    "meaning": "غیرصادق",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "honest (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Is it dishonest to tell your boss you're ill when you're not?",
+        "persian": "آیا دروغ گفتن درباره‌ی بیماری به رئیس غیرصادقانه است؟"
+      }
+    ],
+    "miniContext": "Is it dishonest to tell your boss you're ill when you're not?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "disorganized",
+    "meaning": "بی‌نظم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "organized (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Does it matter if a lawyer is disorganized?",
+        "persian": "آیا بی‌نظم بودن یک وکیل اهمیت دارد؟"
+      }
+    ],
+    "miniContext": "Does it matter if a lawyer is disorganized?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "disagree (with sb)",
+    "meaning": "مخالف بودن (با کسی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "agree (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Can you disagree about politics and still be friends?",
+        "persian": "می‌توانی درباره‌ی سیاست مخالف باشی و هنوز دوست بمانی؟"
+      }
+    ],
+    "miniContext": "Can you disagree about politics and still be friends?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "impolite",
+    "meaning": "بی‌ادب",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "polite (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Is it ever OK to be impolite?",
+        "persian": "آیا بی‌ادب بودن هیچ‌وقت قابل قبول است؟"
+      }
+    ],
+    "miniContext": "Is it ever OK to be impolite?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "illegible",
+    "meaning": "ناخوانا",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "legible (opp)"
+    ],
+    "examples": [
+      {
+        "english": "His handwriting is illegible.",
+        "persian": "دست‌خط او ناخواناست."
+      }
+    ],
+    "miniContext": "His handwriting is illegible.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "irregular",
+    "meaning": "نامنظم، بی‌قاعده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "regular (opp)"
+    ],
+    "examples": [
+      {
+        "english": "It's not easy to learn irregular verbs.",
+        "persian": "یادگیری فعل‌های بی‌قاعده راحت نیست."
+      }
+    ],
+    "miniContext": "It's not easy to learn irregular verbs.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-71",
+    "word": "reuse",
+    "meaning": "دوباره استفاده کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "recycle"
+    ],
+    "examples": [
+      {
+        "english": "Do you try to reuse plastic bottles?",
+        "persian": "آیا سعی می‌کنی بطری‌های پلاستیکی را دوباره استفاده کنی؟"
+      }
+    ],
+    "miniContext": "Do you try to reuse plastic bottles?",
+    "icon": "🔤"
+  }
+]

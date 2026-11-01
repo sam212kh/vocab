@@ -1,0 +1,786 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "April",
+    "meaning": "آوریل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My birthday is in April.",
+        "persian": "تولد من در آوریل است."
+      }
+    ],
+    "miniContext": "My birthday is in April.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "August",
+    "meaning": "آگوست",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go to the beach in August.",
+        "persian": "ما در آگوست به ساحل می‌رویم."
+      }
+    ],
+    "miniContext": "We go to the beach in August.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "autumn",
+    "meaning": "پاییز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Leaves fall in autumn.",
+        "persian": "برگ‌ها در پاییز می‌ریزند."
+      }
+    ],
+    "miniContext": "Leaves fall in autumn.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "birthday",
+    "meaning": "تولد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Happy birthday to you!",
+        "persian": "تولدت مبارک!"
+      }
+    ],
+    "miniContext": "Happy birthday to you!",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "capital letter",
+    "meaning": "حرف بزرگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Start the sentence with a capital letter.",
+        "persian": "جمله را با حرف بزرگ شروع کن."
+      }
+    ],
+    "miniContext": "Start the sentence with a capital letter.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Christmas Day",
+    "meaning": "روز کریسمس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We open presents on Christmas Day.",
+        "persian": "ما در روز کریسمس هدیه‌ها را باز می‌کنیم."
+      }
+    ],
+    "miniContext": "We open presents on Christmas Day.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "first",
+    "meaning": "اول",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my first day at work.",
+        "persian": "امروز اولین روز کاری من است."
+      }
+    ],
+    "miniContext": "This is my first day at work.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "fourteenth",
+    "meaning": "چهاردهم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her birthday is on the fourteenth of May.",
+        "persian": "تولد او چهاردهم مه است."
+      }
+    ],
+    "miniContext": "Her birthday is on the fourteenth of May.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "fourth",
+    "meaning": "چهارم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the fourth of June.",
+        "persian": "امروز چهارم ژوئن است."
+      }
+    ],
+    "miniContext": "Today is the fourth of June.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Friday",
+    "meaning": "جمعه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a meeting on Friday.",
+        "persian": "من جمعه یک جلسه دارم."
+      }
+    ],
+    "miniContext": "I have a meeting on Friday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "January",
+    "meaning": "ژانویه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My birthday is in January.",
+        "persian": "تولدم در ژانویه است."
+      }
+    ],
+    "miniContext": "My birthday is in January.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "June",
+    "meaning": "ژوئن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "School ends in June.",
+        "persian": "مدرسه در ژوئن تمام می‌شود."
+      }
+    ],
+    "miniContext": "School ends in June.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "March",
+    "meaning": "مارس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Spring starts in March.",
+        "persian": "بهار در مارس شروع می‌شود."
+      }
+    ],
+    "miniContext": "Spring starts in March.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "May",
+    "meaning": "می (ماه)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We'll travel in May.",
+        "persian": "ما در ماه می سفر خواهیم کرد."
+      }
+    ],
+    "miniContext": "We'll travel in May.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Monday",
+    "meaning": "دوشنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have class on Monday.",
+        "persian": "دوشنبه کلاس دارم."
+      }
+    ],
+    "miniContext": "I have class on Monday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "month",
+    "meaning": "ماه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This month is very busy.",
+        "persian": "این ماه خیلی پرمشغله است."
+      }
+    ],
+    "miniContext": "This month is very busy.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "New Year's Day",
+    "meaning": "روز سال نو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We celebrate New Year's Day with family.",
+        "persian": "ما روز سال نو را با خانواده جشن می‌گیریم."
+      }
+    ],
+    "miniContext": "We celebrate New Year's Day with family.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "nineteenth",
+    "meaning": "نوزدهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the nineteenth of May.",
+        "persian": "امروز نوزدهم می است."
+      }
+    ],
+    "miniContext": "Today is the nineteenth of May.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "ninth",
+    "meaning": "نهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His birthday is on the ninth of June.",
+        "persian": "تولدش نهم ژوئن است."
+      }
+    ],
+    "miniContext": "His birthday is on the ninth of June.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "November",
+    "meaning": "نوامبر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Winter starts in November.",
+        "persian": "زمستان در نوامبر شروع می‌شود."
+      }
+    ],
+    "miniContext": "Winter starts in November.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Saturday",
+    "meaning": "شنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go shopping on Saturday.",
+        "persian": "ما شنبه‌ها خرید می‌رویم."
+      }
+    ],
+    "miniContext": "We go shopping on Saturday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "season",
+    "meaning": "فصل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Summer is my favourite season.",
+        "persian": "تابستان فصل مورد علاقه من است."
+      }
+    ],
+    "miniContext": "Summer is my favourite season.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "second",
+    "meaning": "دوم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is the second time I have called you.",
+        "persian": "این دومین بار است که به تو زنگ می‌زنم."
+      }
+    ],
+    "miniContext": "This is the second time I have called you.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "September",
+    "meaning": "سپتامبر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "School starts in September.",
+        "persian": "مدرسه در سپتامبر شروع می‌شود."
+      }
+    ],
+    "miniContext": "School starts in September.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "seventeenth",
+    "meaning": "هفدهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the seventeenth of May.",
+        "persian": "امروز هفدهم مِی است."
+      }
+    ],
+    "miniContext": "Today is the seventeenth of May.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "seventh",
+    "meaning": "هفتم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my seventh lesson.",
+        "persian": "این هفتمین درس من است."
+      }
+    ],
+    "miniContext": "This is my seventh lesson.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "sixteenth",
+    "meaning": "شانزدهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her birthday is on the sixteenth of June.",
+        "persian": "تولد او شانزدهم ژوئن است."
+      }
+    ],
+    "miniContext": "Her birthday is on the sixteenth of June.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "sixth",
+    "meaning": "ششم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I am in the sixth grade.",
+        "persian": "من کلاس ششم هستم."
+      }
+    ],
+    "miniContext": "I am in the sixth grade.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "special",
+    "meaning": "خاص، ویژه",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is a special day for us.",
+        "persian": "امروز روز خاصی برای ماست."
+      }
+    ],
+    "miniContext": "Today is a special day for us.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "spring",
+    "meaning": "بهار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Flowers grow in spring.",
+        "persian": "گل‌ها در بهار می‌رویند."
+      }
+    ],
+    "miniContext": "Flowers grow in spring.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "summer",
+    "meaning": "تابستان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go to the beach every summer.",
+        "persian": "ما هر تابستان به ساحل می‌رویم."
+      }
+    ],
+    "miniContext": "We go to the beach every summer.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Sunday",
+    "meaning": "یکشنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We rest on Sunday.",
+        "persian": "ما یکشنبه‌ها استراحت می‌کنیم."
+      }
+    ],
+    "miniContext": "We rest on Sunday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "tenth",
+    "meaning": "دهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the tenth of March.",
+        "persian": "امروز دهم مارس است."
+      }
+    ],
+    "miniContext": "Today is the tenth of March.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "third",
+    "meaning": "سوم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is the third time I have asked.",
+        "persian": "این سومین باری است که می‌پرسم."
+      }
+    ],
+    "miniContext": "This is the third time I have asked.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "thirteenth",
+    "meaning": "سیزدهم",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the thirteenth of April.",
+        "persian": "امروز سیزدهم آوریل است."
+      }
+    ],
+    "miniContext": "Today is the thirteenth of April.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "thirtieth",
+    "meaning": "سی‌ام",
+    "level": "Elementary",
+    "pos": "number",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My birthday is the thirtieth of July.",
+        "persian": "تولدم سی‌ام ژوئیه است."
+      }
+    ],
+    "miniContext": "My birthday is the thirtieth of July.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Thursday",
+    "meaning": "پنجشنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have a meeting on Thursday.",
+        "persian": "پنجشنبه جلسه داریم."
+      }
+    ],
+    "miniContext": "We have a meeting on Thursday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "travelling",
+    "meaning": "مسافرت رفتن؛ سفر کردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "travel"
+    ],
+    "examples": [
+      {
+        "english": "I love travelling to new countries.",
+        "persian": "من عاشق سفر کردن به کشورهای جدید هستم."
+      }
+    ],
+    "miniContext": "I love travelling to new countries.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Tuesday",
+    "meaning": "سه‌شنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a meeting on Tuesday.",
+        "persian": "من سه‌شنبه یک جلسه دارم."
+      }
+    ],
+    "miniContext": "I have a meeting on Tuesday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "twelfth",
+    "meaning": "دوازدهم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the twelfth of May.",
+        "persian": "امروز دوازدهم می است."
+      }
+    ],
+    "miniContext": "Today is the twelfth of May.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "twentieth",
+    "meaning": "بیستم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her birthday is on the twentieth of June.",
+        "persian": "تولد او بیستم ژوئن است."
+      }
+    ],
+    "miniContext": "Her birthday is on the twentieth of June.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "twenty-first",
+    "meaning": "بیست و یکم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today is the twenty-first of March.",
+        "persian": "امروز بیست و یکم مارس است."
+      }
+    ],
+    "miniContext": "Today is the twenty-first of March.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "twenty-second",
+    "meaning": "بیست و دوم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The meeting is on the twenty-second of April.",
+        "persian": "جلسه بیست و دوم آوریل است."
+      }
+    ],
+    "miniContext": "The meeting is on the twenty-second of April.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "twenty-third",
+    "meaning": "بیست و سوم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My exam is on the twenty-third.",
+        "persian": "امتحان من بیست و سوم است."
+      }
+    ],
+    "miniContext": "My exam is on the twenty-third.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "Wednesday",
+    "meaning": "چهارشنبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have English class on Wednesday.",
+        "persian": "من چهارشنبه کلاس زبان انگلیسی دارم."
+      }
+    ],
+    "miniContext": "I have English class on Wednesday.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-8",
+    "word": "year",
+    "meaning": "سال",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are twelve months in a year.",
+        "persian": "در یک سال دوازده ماه وجود دارد."
+      }
+    ],
+    "miniContext": "There are twelve months in a year.",
+    "icon": "📅"
+  }
+]

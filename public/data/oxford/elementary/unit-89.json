@@ -1,0 +1,312 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "arrival",
+    "meaning": "ورود",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The arrival time is 9 p.m.",
+        "persian": "زمان ورود ساعت ۹ شب است."
+      }
+    ],
+    "miniContext": "The arrival time is 9 p.m.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "board (= get on)",
+    "meaning": "سوار شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We boarded the plane at nine.",
+        "persian": "ما ساعت نه سوار هواپیما شدیم."
+      }
+    ],
+    "miniContext": "We boarded the plane at nine.",
+    "icon": "🧑‍🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "boarding pass/card",
+    "meaning": "کارت پرواز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please show your boarding pass.",
+        "persian": "لطفا کارت پروازتان را نشان دهید."
+      }
+    ],
+    "miniContext": "Please show your boarding pass.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "check-in",
+    "meaning": "پذیرش (فرودگاه/هتل)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Check-in starts two hours before the flight.",
+        "persian": "پذیرش دو ساعت قبل از پرواز شروع می‌شود."
+      }
+    ],
+    "miniContext": "Check-in starts two hours before the flight.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "check-in desk",
+    "meaning": "باجه پذیرش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The check-in desk is next to the entrance.",
+        "persian": "باجه پذیرش کنار ورودی است."
+      }
+    ],
+    "miniContext": "The check-in desk is next to the entrance.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "flight attendant",
+    "meaning": "مهماندار پرواز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The flight attendant brought us water.",
+        "persian": "مهماندار پرواز برای ما آب آورد."
+      }
+    ],
+    "miniContext": "The flight attendant brought us water.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "gate (at an airport)",
+    "meaning": "گیت (فرودگاه)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our flight leaves from gate 12.",
+        "persian": "پرواز ما از گیت ۱۲ حرکت می‌کند."
+      }
+    ],
+    "miniContext": "Our flight leaves from gate 12.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "hand luggage",
+    "meaning": "چمدان دستی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can take hand luggage on the plane.",
+        "persian": "می‌توانید چمدان دستی را سوار هواپیما کنید."
+      }
+    ],
+    "miniContext": "You can take hand luggage on the plane.",
+    "icon": "✋"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "land (v)",
+    "meaning": "فرود آمدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The plane will land soon.",
+        "persian": "هواپیما به‌زودی فرود می‌آید."
+      }
+    ],
+    "miniContext": "The plane will land soon.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "luggage",
+    "meaning": "چمدان، بار سفر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "baggage"
+    ],
+    "examples": [
+      {
+        "english": "Put your luggage here.",
+        "persian": "چمدانت را اینجا بگذار."
+      }
+    ],
+    "miniContext": "Put your luggage here.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "machine",
+    "meaning": "دستگاه، ماشین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This machine is broken.",
+        "persian": "این دستگاه خراب است."
+      }
+    ],
+    "miniContext": "This machine is broken.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "plane",
+    "meaning": "هواپیما",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "aeroplane"
+    ],
+    "examples": [
+      {
+        "english": "Our plane leaves at noon.",
+        "persian": "هواپیمای ما ظهر پرواز می‌کند."
+      }
+    ],
+    "miniContext": "Our plane leaves at noon.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "provide",
+    "meaning": "فراهم کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The hotel provides free breakfast.",
+        "persian": "هتل صبحانه رایگان فراهم می‌کند."
+      }
+    ],
+    "miniContext": "The hotel provides free breakfast.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "reach",
+    "meaning": "رسیدن به",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We reached the hotel at midnight.",
+        "persian": "ما نیمه‌شب به هتل رسیدیم."
+      }
+    ],
+    "miniContext": "We reached the hotel at midnight.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "seat belt",
+    "meaning": "کمربند ایمنی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please put on your seat belt.",
+        "persian": "لطفاً کمربند ایمنی‌تان را ببندید."
+      }
+    ],
+    "miniContext": "Please put on your seat belt.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "security",
+    "meaning": "امنیت، بازرسی امنیتی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We waited in a long line at security.",
+        "persian": "ما در صف طولانی بازرسی امنیتی منتظر ماندیم."
+      }
+    ],
+    "miniContext": "We waited in a long line at security.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "take off (leave)",
+    "meaning": "بلند شدن (هواپیما)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The plane takes off at six o'clock.",
+        "persian": "هواپیما ساعت شش بلند می‌شود."
+      }
+    ],
+    "miniContext": "The plane takes off at six o'clock.",
+    "icon": "✈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-89",
+    "word": "ticket machine",
+    "meaning": "دستگاه بلیط‌فروشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Use the ticket machine to buy your ticket.",
+        "persian": "برای خریدن بلیط از دستگاه بلیط‌فروشی استفاده کن."
+      }
+    ],
+    "miniContext": "Use the ticket machine to buy your ticket.",
+    "icon": "🎫"
+  }
+]

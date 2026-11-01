@@ -1,0 +1,178 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "get together",
+    "meaning": "دور هم جمع شدن، ملاقات کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can we get together next week?",
+        "persian": "می‌توانیم هفته‌ی بعد دور هم جمع شویم؟"
+      }
+    ],
+    "miniContext": "Can we get together next week?",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "convenient",
+    "meaning": "مناسب، بی‌دردسر",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is Monday convenient for you?",
+        "persian": "دوشنبه برایت مناسب است؟"
+      }
+    ],
+    "miniContext": "Is Monday convenient for you?",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "can you make it?",
+    "meaning": "می‌توانی بیایی؟",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you make it on Monday morning?",
+        "persian": "می‌توانی دوشنبه صبح بیایی؟"
+      }
+    ],
+    "miniContext": "Can you make it on Monday morning?",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "available",
+    "meaning": "در دسترس، آزاد",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm not available then.",
+        "persian": "آن موقع در دسترس نیستم."
+      }
+    ],
+    "miniContext": "I'm not available then.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "how about ...?",
+    "meaning": "نظرت درباره‌ی ... چیست؟",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "what about ...?"
+    ],
+    "examples": [
+      {
+        "english": "How about Tuesday afternoon?",
+        "persian": "نظرت درباره‌ی سه‌شنبه بعدازظهر چیست؟"
+      }
+    ],
+    "miniContext": "How about Tuesday afternoon?",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "I wish I could",
+    "meaning": "ای کاش می‌توانستم",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wish I could, but I've got another meeting.",
+        "persian": "ای کاش می‌توانستم، اما جلسه‌ی دیگری دارم."
+      }
+    ],
+    "miniContext": "I wish I could, but I've got another meeting.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "be supposed to do sth",
+    "meaning": "قرار بودن کاری انجام شود",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "be meant to do sth"
+    ],
+    "examples": [
+      {
+        "english": "I'm supposed to be seeing Jo then.",
+        "persian": "قرار است آن موقع جو را ببینم."
+      }
+    ],
+    "miniContext": "I'm supposed to be seeing Jo then.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "postpone",
+    "meaning": "به تعویق انداختن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "put sth off"
+    ],
+    "examples": [
+      {
+        "english": "I think I can postpone that.",
+        "persian": "فکر کنم بتوانم آن را به تعویق بیندازم."
+      }
+    ],
+    "miniContext": "I think I can postpone that.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "confirm sth (with sb)",
+    "meaning": "تایید کردن چیزی (با کسی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll confirm it with you later.",
+        "persian": "بعدا آن را با تو تایید می‌کنم."
+      }
+    ],
+    "miniContext": "I'll confirm it with you later.",
+    "icon": "📅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-91",
+    "word": "remind sb (of sth)",
+    "meaning": "به کسی یادآوری کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please remind me if I forget.",
+        "persian": "لطفا اگر فراموش کردم به من یادآوری کن."
+      }
+    ],
+    "miniContext": "Please remind me if I forget.",
+    "icon": "📅"
+  }
+]

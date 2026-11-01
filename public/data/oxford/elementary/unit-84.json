@@ -1,0 +1,511 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "action film",
+    "meaning": "فیلم اکشن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We watched an action film last night.",
+        "persian": "ما شب گذشته یک فیلم اکشن تماشا کردیم."
+      }
+    ],
+    "miniContext": "We watched an action film last night.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "actress",
+    "meaning": "بازیگر زن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The actress won an award.",
+        "persian": "بازیگر زن یک جایزه برد."
+      }
+    ],
+    "miniContext": "The actress won an award.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "adventure film",
+    "meaning": "فیلم ماجراجویی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love watching adventure films.",
+        "persian": "من عاشق تماشای فیلم‌های ماجراجویی هستم."
+      }
+    ],
+    "miniContext": "I love watching adventure films.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "brilliant",
+    "meaning": "عالی، درخشان",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "excellent"
+    ],
+    "examples": [
+      {
+        "english": "That was a brilliant film!",
+        "persian": "آن فیلم عالی بود!"
+      }
+    ],
+    "miniContext": "That was a brilliant film!",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "cartoon",
+    "meaning": "کارتون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My son loves watching cartoons.",
+        "persian": "پسرم عاشق تماشای کارتون است."
+      }
+    ],
+    "miniContext": "My son loves watching cartoons.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "film",
+    "meaning": "فیلم",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "movie"
+    ],
+    "examples": [
+      {
+        "english": "We watched a good film last night.",
+        "persian": "ما شب گذشته یک فیلم خوب تماشا کردیم."
+      }
+    ],
+    "miniContext": "We watched a good film last night.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "hero",
+    "meaning": "قهرمان (مرد)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is the hero of the film.",
+        "persian": "او قهرمان فیلم است."
+      }
+    ],
+    "miniContext": "He is the hero of the film.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "heroine",
+    "meaning": "قهرمان (زن)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The heroine saves the city.",
+        "persian": "قهرمان زن شهر را نجات می‌دهد."
+      }
+    ],
+    "miniContext": "The heroine saves the city.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "horror film",
+    "meaning": "فیلم ترسناک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't like watching horror films.",
+        "persian": "من دوست ندارم فیلم‌های ترسناک تماشا کنم."
+      }
+    ],
+    "miniContext": "I don't like watching horror films.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "kind (as in \"What kind of...?\")",
+    "meaning": "چه نوع...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "sort",
+      "type"
+    ],
+    "examples": [
+      {
+        "english": "What kind of music do you like?",
+        "persian": "چه نوع موسیقی دوست داری؟"
+      }
+    ],
+    "miniContext": "What kind of music do you like?",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "let's",
+    "meaning": "بیا (پیشنهاد)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's go to the cinema.",
+        "persian": "بیا به سینما برویم."
+      }
+    ],
+    "miniContext": "Let's go to the cinema.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "love story",
+    "meaning": "داستان عاشقانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a sad love story.",
+        "persian": "آن یک داستان عاشقانه غمگین است."
+      }
+    ],
+    "miniContext": "It's a sad love story.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "movie",
+    "meaning": "فیلم",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "film"
+    ],
+    "examples": [
+      {
+        "english": "We watched a movie last night.",
+        "persian": "ما شب گذشته یک فیلم تماشا کردیم."
+      }
+    ],
+    "miniContext": "We watched a movie last night.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "planet",
+    "meaning": "سیاره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Earth is our planet.",
+        "persian": "زمین سیاره ما است."
+      }
+    ],
+    "miniContext": "Earth is our planet.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "pronounce",
+    "meaning": "تلفظ کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How do you pronounce this word?",
+        "persian": "این کلمه را چطور تلفظ می‌کنی؟"
+      }
+    ],
+    "miniContext": "How do you pronounce this word?",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "review",
+    "meaning": "نقد و بررسی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I read a good review of this film.",
+        "persian": "یک نقد خوب درباره این فیلم خواندم."
+      }
+    ],
+    "miniContext": "I read a good review of this film.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "scary",
+    "meaning": "ترسناک",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That was a scary movie.",
+        "persian": "آن فیلم ترسناکی بود."
+      }
+    ],
+    "miniContext": "That was a scary movie.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "science fiction",
+    "meaning": "علمی‌تخیلی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "sci-fi"
+    ],
+    "examples": [
+      {
+        "english": "I love science fiction films.",
+        "persian": "من فیلم‌های علمی‌تخیلی را دوست دارم."
+      }
+    ],
+    "miniContext": "I love science fiction films.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "sci-fi",
+    "meaning": "علمی‌تخیلی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "science fiction"
+    ],
+    "examples": [
+      {
+        "english": "He only reads sci-fi books.",
+        "persian": "او فقط کتاب‌های علمی‌تخیلی می‌خواند."
+      }
+    ],
+    "miniContext": "He only reads sci-fi books.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "sort (What sort of...?)",
+    "meaning": "نوع (چه نوع...؟)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "type",
+      "kind"
+    ],
+    "examples": [
+      {
+        "english": "What sort of music do you like?",
+        "persian": "چه نوع موسیقی دوست داری؟"
+      }
+    ],
+    "miniContext": "What sort of music do you like?",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "star (n)",
+    "meaning": "ستاره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a famous film star.",
+        "persian": "او یک ستاره مشهور سینما است."
+      }
+    ],
+    "miniContext": "He is a famous film star.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "star (v)",
+    "meaning": "بازی کردن نقش اصلی در فیلم",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She starred in a new film.",
+        "persian": "او در یک فیلم جدید نقش اصلی داشت."
+      }
+    ],
+    "miniContext": "She starred in a new film.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "story (love story)",
+    "meaning": "داستان (داستان عشقی)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This film is a love story.",
+        "persian": "این فیلم یک داستان عشقی است."
+      }
+    ],
+    "miniContext": "This film is a love story.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "thriller",
+    "meaning": "فیلم یا داستان هیجانی-معمایی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watched a good thriller last night.",
+        "persian": "دیشب یک فیلم هیجانی خوب دیدم."
+      }
+    ],
+    "miniContext": "I watched a good thriller last night.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "violent",
+    "meaning": "خشن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The film was too violent for children.",
+        "persian": "فیلم برای بچه‌ها خیلی خشن بود."
+      }
+    ],
+    "miniContext": "The film was too violent for children.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "war film",
+    "meaning": "فیلم جنگی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We watched a war film last night.",
+        "persian": "ما دیشب یک فیلم جنگی تماشا کردیم."
+      }
+    ],
+    "miniContext": "We watched a war film last night.",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "What kind/sort/type of...?",
+    "meaning": "چه نوع...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What kind of music do you like?",
+        "persian": "چه نوع موسیقی‌ای دوست داری؟"
+      }
+    ],
+    "miniContext": "What kind of music do you like?",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "What's on?",
+    "meaning": "چی پخش می‌شود؟ (فیلم/تلویزیون)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's on TV tonight?",
+        "persian": "امشب چه برنامه‌ای در تلویزیون پخش می‌شود؟"
+      }
+    ],
+    "miniContext": "What's on TV tonight?",
+    "icon": "🎬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-84",
+    "word": "Where's it on?",
+    "meaning": "کجا پخش می‌شود (فیلم)؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Where's it on? I want to watch that film.",
+        "persian": "کجا پخش می‌شود؟ می‌خواهم آن فیلم را ببینم."
+      }
+    ],
+    "miniContext": "Where's it on? I want to watch that film.",
+    "icon": "🎬"
+  }
+]

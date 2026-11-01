@@ -1,0 +1,671 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "always",
+    "meaning": "همیشه",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She always drinks tea in the morning.",
+        "persian": "او همیشه صبح‌ها چای می‌نوشد."
+      }
+    ],
+    "miniContext": "She always drinks tea in the morning.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "arrive (at a place)",
+    "meaning": "رسیدن (به مکانی)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We arrived at the station at noon.",
+        "persian": "ما ظهر به ایستگاه رسیدیم."
+      }
+    ],
+    "miniContext": "We arrived at the station at noon.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "breakfast",
+    "meaning": "صبحانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I eat breakfast at seven.",
+        "persian": "من ساعت هفت صبحانه می‌خورم."
+      }
+    ],
+    "miniContext": "I eat breakfast at seven.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "finish",
+    "meaning": "تمام کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "end"
+    ],
+    "examples": [
+      {
+        "english": "I finish work at five.",
+        "persian": "من ساعت پنج کارم را تمام می‌کنم."
+      }
+    ],
+    "miniContext": "I finish work at five.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "game (play a game)",
+    "meaning": "بازی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's play a game.",
+        "persian": "بیا یک بازی بکنیم."
+      }
+    ],
+    "miniContext": "Let's play a game.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "get (= arrive at/in somewhere)",
+    "meaning": "رسیدن (به جایی)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What time do you get home?",
+        "persian": "ساعت چند به خانه می‌رسی؟"
+      }
+    ],
+    "miniContext": "What time do you get home?",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "get dressed",
+    "meaning": "لباس پوشیدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She got dressed quickly.",
+        "persian": "او سریع لباس پوشید."
+      }
+    ],
+    "miniContext": "She got dressed quickly.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "get to work",
+    "meaning": "به سر کار رسیدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I get to work at eight every day.",
+        "persian": "من هر روز ساعت هشت به سر کار می‌رسم."
+      }
+    ],
+    "miniContext": "I get to work at eight every day.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "get up",
+    "meaning": "از خواب بیدار شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I get up at seven every morning.",
+        "persian": "من هر روز صبح ساعت هفت بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I get up at seven every morning.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "go for (a walk/swim)",
+    "meaning": "رفتن برای پیاده‌روی/شنا",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's go for a walk.",
+        "persian": "بیا برای پیاده‌روی برویم."
+      }
+    ],
+    "miniContext": "Let's go for a walk.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "go home",
+    "meaning": "به خانه رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to go home now.",
+        "persian": "من می‌خواهم الان به خانه بروم."
+      }
+    ],
+    "miniContext": "I want to go home now.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "go out",
+    "meaning": "بیرون رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you want to go out tonight?",
+        "persian": "می‌خواهی امشب بیرون بروی؟"
+      }
+    ],
+    "miniContext": "Do you want to go out tonight?",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "go shopping",
+    "meaning": "خرید رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go shopping every Saturday.",
+        "persian": "ما هر شنبه خرید می‌رویم."
+      }
+    ],
+    "miniContext": "We go shopping every Saturday.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "go to bed",
+    "meaning": "به رختخواب رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go to bed at ten.",
+        "persian": "من ساعت ده به رختخواب می‌روم."
+      }
+    ],
+    "miniContext": "I go to bed at ten.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "have a shower",
+    "meaning": "دوش گرفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a shower every morning.",
+        "persian": "من هر روز صبح دوش می‌گیرم."
+      }
+    ],
+    "miniContext": "I have a shower every morning.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "have breakfast",
+    "meaning": "صبحانه خوردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have breakfast at seven.",
+        "persian": "ما ساعت هفت صبحانه می‌خوریم."
+      }
+    ],
+    "miniContext": "We have breakfast at seven.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "have dinner",
+    "meaning": "شام خوردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have dinner at eight.",
+        "persian": "ما ساعت هشت شام می‌خوریم."
+      }
+    ],
+    "miniContext": "We have dinner at eight.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "have lunch",
+    "meaning": "ناهار خوردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's have lunch together.",
+        "persian": "بیا با هم ناهار بخوریم."
+      }
+    ],
+    "miniContext": "Let's have lunch together.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "immediately",
+    "meaning": "فورا، بلافاصله",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Call me immediately if there's a problem.",
+        "persian": "اگر مشکلی بود فورا به من زنگ بزن."
+      }
+    ],
+    "miniContext": "Call me immediately if there's a problem.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "late (adv, adj)",
+    "meaning": "دیر",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He arrived late.",
+        "persian": "او دیر رسید."
+      }
+    ],
+    "miniContext": "He arrived late.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "leave home",
+    "meaning": "خانه را ترک کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I leave home at eight every day.",
+        "persian": "من هر روز ساعت هشت خانه را ترک می‌کنم."
+      }
+    ],
+    "miniContext": "I leave home at eight every day.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "lunch (as in \"have lunch\")",
+    "meaning": "ناهار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have lunch at noon.",
+        "persian": "ما ظهر ناهار می‌خوریم."
+      }
+    ],
+    "miniContext": "We have lunch at noon.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "never",
+    "meaning": "هرگز",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I never eat meat.",
+        "persian": "من هرگز گوشت نمی‌خورم."
+      }
+    ],
+    "miniContext": "I never eat meat.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "normally",
+    "meaning": "معمولا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "usually"
+    ],
+    "examples": [
+      {
+        "english": "I normally get up at seven.",
+        "persian": "من معمولا ساعت هفت بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I normally get up at seven.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "often",
+    "meaning": "اغلب؛ معمولاً",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "usually"
+    ],
+    "examples": [
+      {
+        "english": "I often go to the gym after work.",
+        "persian": "من اغلب بعد از کار به باشگاه می‌روم."
+      }
+    ],
+    "miniContext": "I often go to the gym after work.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "once",
+    "meaning": "یک بار",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go swimming once a week.",
+        "persian": "من هفته‌ای یک بار شنا می‌روم."
+      }
+    ],
+    "miniContext": "I go swimming once a week.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "play (a game)",
+    "meaning": "بازی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The children play football every day.",
+        "persian": "بچه‌ها هر روز فوتبال بازی می‌کنند."
+      }
+    ],
+    "miniContext": "The children play football every day.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "routine",
+    "meaning": "برنامه روزانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a simple morning routine.",
+        "persian": "من یک برنامه روزانه صبحگاهی ساده دارم."
+      }
+    ],
+    "miniContext": "I have a simple morning routine.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "shopping",
+    "meaning": "خرید",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I do the shopping every Saturday.",
+        "persian": "من هر شنبه خرید می‌کنم."
+      }
+    ],
+    "miniContext": "I do the shopping every Saturday.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "shower (in a bathroom)",
+    "meaning": "دوش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a shower every morning.",
+        "persian": "من هر روز صبح دوش می‌گیرم."
+      }
+    ],
+    "miniContext": "I have a shower every morning.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "sleep (v)",
+    "meaning": "خوابیدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sleep eight hours every night.",
+        "persian": "من هر شب هشت ساعت می‌خوابم."
+      }
+    ],
+    "miniContext": "I sleep eight hours every night.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "sometimes",
+    "meaning": "گاهی اوقات",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sometimes go for a walk after dinner.",
+        "persian": "من گاهی اوقات بعد از شام قدم می‌زنم."
+      }
+    ],
+    "miniContext": "I sometimes go for a walk after dinner.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "stay in",
+    "meaning": "در خانه ماندن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We stayed in and watched TV.",
+        "persian": "ما در خانه ماندیم و تلویزیون تماشا کردیم."
+      }
+    ],
+    "miniContext": "We stayed in and watched TV.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "swim (n)",
+    "meaning": "شنا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's go for a swim.",
+        "persian": "بیا برویم شنا کنیم."
+      }
+    ],
+    "miniContext": "Let's go for a swim.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "tennis",
+    "meaning": "تنیس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We play tennis on Saturdays.",
+        "persian": "ما شنبه‌ها تنیس بازی می‌کنیم."
+      }
+    ],
+    "miniContext": "We play tennis on Saturdays.",
+    "icon": "🎾"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "twice",
+    "meaning": "دو بار",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go swimming twice a week.",
+        "persian": "من هفته‌ای دو بار شنا می‌روم."
+      }
+    ],
+    "miniContext": "I go swimming twice a week.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "usually",
+    "meaning": "معمولاً",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I usually wake up at seven.",
+        "persian": "من معمولاً ساعت هفت بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I usually wake up at seven.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "wake up",
+    "meaning": "از خواب بیدار شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wake up early every morning.",
+        "persian": "من هر روز صبح زود بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I wake up early every morning.",
+    "icon": "🔁"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-23",
+    "word": "weekday",
+    "meaning": "روز هفته (کاری)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I get up early on weekdays.",
+        "persian": "من روزهای هفته زود بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I get up early on weekdays.",
+    "icon": "🔁"
+  }
+]

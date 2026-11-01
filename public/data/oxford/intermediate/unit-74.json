@@ -1,0 +1,191 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "legally",
+    "meaning": "طبق قانون",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Children are legally required to attend school up to 16.",
+        "persian": "بچه‌ها طبق قانون موظف به حضور در مدرسه تا سن ۱۶ سالگی هستند."
+      }
+    ],
+    "miniContext": "Children are legally required to attend school up to 16.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "require",
+    "meaning": "نیاز داشتن، الزام کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You are required to attend school.",
+        "persian": "تو موظف به حضور در مدرسه هستی."
+      }
+    ],
+    "miniContext": "You are required to attend school.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "attend (school)",
+    "meaning": "در مدرسه حضور داشتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Attendance at school is required up to age 16.",
+        "persian": "حضور در مدرسه تا سن ۱۶ سالگی الزامی است."
+      }
+    ],
+    "miniContext": "Attendance at school is required up to age 16.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "state school",
+    "meaning": "مدرسه‌ی دولتی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "private school (opp)"
+    ],
+    "examples": [
+      {
+        "english": "It was a state school, not a private school.",
+        "persian": "آن یک مدرسه‌ی دولتی بود، نه خصوصی."
+      }
+    ],
+    "miniContext": "It was a state school, not a private school.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "deputy",
+    "meaning": "معاون",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The head teacher normally has a deputy.",
+        "persian": "مدیر معمولا یک معاون دارد."
+      }
+    ],
+    "miniContext": "The head teacher normally has a deputy.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "break (school)",
+    "meaning": "زنگ تفریح",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are shorter breaks in the morning and afternoon.",
+        "persian": "زنگ‌های تفریح کوتاه‌تری صبح و عصر وجود دارد."
+      }
+    ],
+    "miniContext": "There are shorter breaks in the morning and afternoon.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "set homework",
+    "meaning": "تکلیف دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Teachers also set the students homework.",
+        "persian": "معلم‌ها همچنین به دانش‌آموزان تکلیف می‌دهند."
+      }
+    ],
+    "miniContext": "Teachers also set the students homework.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "candidate (exam)",
+    "meaning": "داوطلب (امتحان)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't communicate with other candidates.",
+        "persian": "با سایر داوطلبان ارتباط برقرار نکن."
+      }
+    ],
+    "miniContext": "Don't communicate with other candidates.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "cheat",
+    "meaning": "تقلب کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You could be asked to leave for cheating.",
+        "persian": "ممکن است به خاطر تقلب از تو بخواهند بروی."
+      }
+    ],
+    "miniContext": "You could be asked to leave for cheating.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "essential",
+    "meaning": "ضروری",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Planning is essential if you are writing essays.",
+        "persian": "برنامه‌ریزی برای نوشتن انشا ضروری است."
+      }
+    ],
+    "miniContext": "Planning is essential if you are writing essays.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-74",
+    "word": "relief",
+    "meaning": "آسودگی خاطر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It will be a relief when the exam is all over.",
+        "persian": "وقتی امتحان تمام شود آسودگی خاطر خواهد بود."
+      }
+    ],
+    "miniContext": "It will be a relief when the exam is all over.",
+    "icon": "🏫"
+  }
+]

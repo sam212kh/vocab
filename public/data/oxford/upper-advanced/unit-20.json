@@ -1,0 +1,333 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "heroine",
+    "meaning": "قهرمان زن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My heroine is my aunt Georgia, who worked with homeless teenagers.",
+        "persian": "قهرمان من عمه‌ام جورجیاست که با نوجوانان بی‌خانمان کار می‌کرد."
+      }
+    ],
+    "miniContext": "My heroine is my aunt Georgia, who worked with homeless teenagers.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "spiritual",
+    "meaning": "معنوی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was deeply spiritual.",
+        "persian": "او عمیقاً معنوی بود."
+      }
+    ],
+    "miniContext": "She was deeply spiritual, and I admire her courage and dignity.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "courage",
+    "meaning": "شجاعت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "bravery"
+    ],
+    "examples": [
+      {
+        "english": "I admire her courage and dignity.",
+        "persian": "شجاعت و وقار او را تحسین می‌کنم."
+      }
+    ],
+    "miniContext": "I admire her courage and dignity.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "dignity",
+    "meaning": "وقار، متانت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I admire her courage and dignity.",
+        "persian": "شجاعت و وقار او را تحسین می‌کنم."
+      }
+    ],
+    "miniContext": "I admire her courage and dignity.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "inspire",
+    "meaning": "الهام بخشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "More than anyone, she has inspired me to dedicate my life to looking after people.",
+        "persian": "بیش از هر کسی، او به من الهام داد که زندگی‌ام را وقف مراقبت از مردم کنم."
+      }
+    ],
+    "miniContext": "More than anyone, she has inspired me to dedicate my life to looking after people.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "dedicate yourself/sth to (doing) sth",
+    "meaning": "وقف کردن (زندگی یا زمان به چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has inspired me to dedicate my life to looking after people.",
+        "persian": "او به من الهام داد که زندگی‌ام را وقف مراقبت از مردم کنم."
+      }
+    ],
+    "miniContext": "She has inspired me to dedicate my life to looking after people.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "look up to sb",
+    "meaning": "به کسی احترام گذاشتن و او را الگو دانستن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really looked up to my grandfather.",
+        "persian": "من واقعاً به پدربزرگم احترام زیادی می‌گذاشتم."
+      }
+    ],
+    "miniContext": "I really looked up to my grandfather.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "captain",
+    "meaning": "ناخدا، فرمانده کشتی یا هواپیما",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was a lifeboat captain for 20 years.",
+        "persian": "او ۲۰ سال ناخدای قایق نجات بود."
+      }
+    ],
+    "miniContext": "He was a lifeboat captain for 20 years, and showed remarkable bravery on many occasions.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "villain",
+    "meaning": "آدم بد، شرور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is there anyone you despise and would consider a villain?",
+        "persian": "آیا کسی هست که از او متنفر باشی و او را شرور بدانی؟"
+      }
+    ],
+    "miniContext": "A villain: a person who is morally bad or responsible for causing trouble or harm.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "rebel",
+    "meaning": "یاغی، کسی که مخالف مقامات است",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Pop stars often start off as rebels with strong moral principles.",
+        "persian": "خواننده‌های پاپ اغلب در ابتدا یاغیانی با اصول اخلاقی قوی هستند."
+      }
+    ],
+    "miniContext": "Pop stars often start off as rebels with strong moral principles.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "fame",
+    "meaning": "شهرت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When they achieve fame and become rich, their values can change completely.",
+        "persian": "وقتی به شهرت می‌رسند و ثروتمند می‌شوند، ارزش‌هایشان می‌تواند کاملاً تغییر کند."
+      }
+    ],
+    "miniContext": "When they achieve fame and become rich, their values can change completely.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "loathe",
+    "meaning": "بسیار متنفر بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "detest"
+    ],
+    "examples": [
+      {
+        "english": "I loathe that.",
+        "persian": "از آن متنفرم."
+      }
+    ],
+    "miniContext": "But when they achieve fame and become rich, their values can change completely. I loathe that.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "approve (of sb/sth)",
+    "meaning": "موافق بودن، تایید کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't approve of drivers who lose their temper with other road users.",
+        "persian": "با رانندگانی که با سایر رانندگان عصبانی می‌شوند موافق نیستم."
+      }
+    ],
+    "miniContext": "I don't approve of drivers who lose their temper with other road users.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "lose your temper",
+    "meaning": "عصبانی شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't approve of drivers who lose their temper with other road users.",
+        "persian": "با رانندگانی که با سایر رانندگان عصبانی می‌شوند موافق نیستم."
+      }
+    ],
+    "miniContext": "I don't approve of drivers who lose their temper with other road users.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "bully",
+    "meaning": "قلدر، زورگو؛ قلدری کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb/noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A few boys bullied me at school, and since then I've always despised bullies.",
+        "persian": "چند پسر در مدرسه مرا اذیت می‌کردند و از آن زمان همیشه از قلدرها متنفر بوده‌ام."
+      }
+    ],
+    "miniContext": "A few boys bullied me at school, and since then I've always despised bullies.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "despise",
+    "meaning": "تحقیر کردن، از کسی متنفر بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've always despised bullies.",
+        "persian": "همیشه از قلدرها متنفر بوده‌ام."
+      }
+    ],
+    "miniContext": "A few boys bullied me at school, and since then I've always despised bullies.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "can't bear sth",
+    "meaning": "تحمل نکردن چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "can't stand"
+    ],
+    "examples": [
+      {
+        "english": "I can't bear all the rich, greedy people who seem to run the country.",
+        "persian": "تحمل همه آن آدم‌های ثروتمند و حریص که انگار کشور را اداره می‌کنند ندارم."
+      }
+    ],
+    "miniContext": "I can't bear all the rich, greedy people who seem to run the country.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "greedy",
+    "meaning": "حریص، طمع‌کار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you think rich people are greedy and just want more and more?",
+        "persian": "فکر می‌کنی آدم‌های ثروتمند حریص هستند و فقط بیشتر می‌خواهند؟"
+      }
+    ],
+    "miniContext": "I can't bear all the rich, greedy people who seem to run the country.",
+    "icon": "🦸"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-20",
+    "word": "misery",
+    "meaning": "بدبختی، رنج شدید",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "distress"
+    ],
+    "examples": [
+      {
+        "english": "They are responsible for such misery.",
+        "persian": "آن‌ها مسئول چنین رنج و بدبختی‌ای هستند."
+      }
+    ],
+    "miniContext": "They are responsible for such misery.",
+    "icon": "🦸"
+  }
+]

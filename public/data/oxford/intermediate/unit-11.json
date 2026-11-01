@@ -1,0 +1,376 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "nickname",
+    "meaning": "لقب، اسم مستعار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her nickname was MM.",
+        "persian": "لقب او ام‌ام بود."
+      }
+    ],
+    "miniContext": "Her nickname was MM.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "only child",
+    "meaning": "تک‌فرزند",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was an only child from a single-parent family.",
+        "persian": "او تک‌فرزند یک خانواده‌ی تک‌والد بود."
+      }
+    ],
+    "miniContext": "She was an only child from a single-parent family.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "single parent",
+    "meaning": "والد مجرد، تک‌والد",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My mother is a single parent.",
+        "persian": "مادرم تک‌والد است."
+      }
+    ],
+    "miniContext": "My mother is a single parent.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "childhood",
+    "meaning": "دوران کودکی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She had an unhappy childhood.",
+        "persian": "او دوران کودکی ناخوشایندی داشت."
+      }
+    ],
+    "miniContext": "She had an unhappy childhood.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "foster parent",
+    "meaning": "والد رضاعی، سرپرست موقت",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She spent much of her childhood with foster parents.",
+        "persian": "او بیشتر دوران کودکی‌اش را با والدین رضاعی گذراند."
+      }
+    ],
+    "miniContext": "She spent much of her childhood with foster parents.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "adopt a child",
+    "meaning": "فرزندخواندگی کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One couple wanted to adopt her, but it wasn't possible.",
+        "persian": "یک زوج می‌خواستند او را به فرزندی بگیرند، اما ممکن نشد."
+      }
+    ],
+    "miniContext": "One couple wanted to adopt her, but it wasn't possible.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "married",
+    "meaning": "متاهل",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She got married at the age of 16.",
+        "persian": "او در سن شانزده سالگی ازدواج کرد."
+      }
+    ],
+    "miniContext": "She got married at the age of 16.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "complicated",
+    "meaning": "پیچیده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She had a complicated love life.",
+        "persian": "او زندگی عاشقانه‌ی پیچیده‌ای داشت."
+      }
+    ],
+    "miniContext": "She had a complicated love life.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "divorced",
+    "meaning": "طلاق‌گرفته",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She got divorced three times.",
+        "persian": "او سه بار طلاق گرفت."
+      }
+    ],
+    "miniContext": "She got divorced three times.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "according to sb/sth",
+    "meaning": "به گفته‌ی کسی/چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "According to Hollywood sources, she had many romantic relationships.",
+        "persian": "به گفته‌ی منابع هالیوودی، او روابط عاشقانه‌ی زیادی داشت."
+      }
+    ],
+    "miniContext": "According to Hollywood sources, she had many romantic relationships.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "source",
+    "meaning": "منبع",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The news came from a reliable source.",
+        "persian": "خبر از یک منبع قابل اعتماد آمد."
+      }
+    ],
+    "miniContext": "The news came from a reliable source.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "romantic",
+    "meaning": "عاشقانه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She had romantic relationships with several famous people.",
+        "persian": "او روابط عاشقانه‌ای با چند فرد مشهور داشت."
+      }
+    ],
+    "miniContext": "She had romantic relationships with several famous people.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "twin",
+    "meaning": "دوقلو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My twin sister gave birth to identical twin boys.",
+        "persian": "خواهر دوقلویم دو پسر دوقلوی همسان به دنیا آورد."
+      }
+    ],
+    "miniContext": "My twin sister gave birth to identical twin boys.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "identical",
+    "meaning": "کاملا مشابه، یکسان",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My identical twin sister looks exactly like me.",
+        "persian": "خواهر دوقلوی یکسانم دقیقا شبیه من است."
+      }
+    ],
+    "miniContext": "My identical twin sister looks exactly like me.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "coincidence",
+    "meaning": "تصادف، اتفاق جالب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is that just a coincidence?",
+        "persian": "آیا این فقط یک تصادف است؟"
+      }
+    ],
+    "miniContext": "Is that just a coincidence?",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "brother-in-law",
+    "meaning": "باجناق، شوهرخواهر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother-in-law has two siblings.",
+        "persian": "باجناقم دو خواهر و برادر دارد."
+      }
+    ],
+    "miniContext": "My brother-in-law has two siblings.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "sibling",
+    "meaning": "خواهر یا برادر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother-in-law has two siblings, both sisters.",
+        "persian": "باجناقم دو خواهر و برادر دارد که هر دو خواهر هستند."
+      }
+    ],
+    "miniContext": "My brother-in-law has two siblings, both sisters.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "previous",
+    "meaning": "قبلی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Previous generations of their families came from Poland.",
+        "persian": "نسل‌های قبلی خانواده‌شان از لهستان آمده بودند."
+      }
+    ],
+    "miniContext": "Previous generations of their families came from Poland.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "generation",
+    "meaning": "نسل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Three generations of my family have lived in the same house.",
+        "persian": "سه نسل از خانواده‌ام در همان خانه زندگی کرده‌اند."
+      }
+    ],
+    "miniContext": "Three generations of my family have lived in the same house.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "originally",
+    "meaning": "در ابتدا، اصالتا",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Their families originally came from the same city.",
+        "persian": "خانواده‌هایشان در اصل از همان شهر بودند."
+      }
+    ],
+    "miniContext": "Their families originally came from the same city.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "be related (to sb)",
+    "meaning": "فامیل بودن (با کسی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you related to anyone who lives abroad?",
+        "persian": "آیا با کسی که خارج زندگی می‌کند فامیل هستی؟"
+      }
+    ],
+    "miniContext": "Are you related to anyone who lives abroad?",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-11",
+    "word": "give birth",
+    "meaning": "زایمان کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister gave birth to a baby boy yesterday.",
+        "persian": "خواهرم دیروز یک پسر به دنیا آورد."
+      }
+    ],
+    "miniContext": "My sister gave birth to a baby boy yesterday.",
+    "icon": "👪"
+  }
+]

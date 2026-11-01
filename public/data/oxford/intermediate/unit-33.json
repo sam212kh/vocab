@@ -1,0 +1,263 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "service (bus/train)",
+    "meaning": "سرویس (اتوبوس/قطار)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bus company provides a very good service.",
+        "persian": "شرکت اتوبوسرانی سرویس خیلی خوبی ارائه می‌دهد."
+      }
+    ],
+    "miniContext": "The bus company provides a very good service.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "destination",
+    "meaning": "مقصد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A direct train only stops at your destination.",
+        "persian": "قطار مستقیم فقط در مقصد توقف می‌کند."
+      }
+    ],
+    "miniContext": "A direct train only stops at your destination.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "traffic jam",
+    "meaning": "ترافیک",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a long traffic jam on the motorway.",
+        "persian": "در بزرگراه یک ترافیک طولانی بود."
+      }
+    ],
+    "miniContext": "There was a long traffic jam on the motorway.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "in time",
+    "meaning": "به موقع",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We didn't get to the station in time to catch the train.",
+        "persian": "به موقع به ایستگاه نرسیدیم تا قطار را بگیریم."
+      }
+    ],
+    "miniContext": "We didn't get to the station in time to catch the train.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "change trains/buses",
+    "meaning": "تعویض قطار/اتوبوس کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You have to change trains twice on this trip.",
+        "persian": "در این سفر باید دو بار قطار عوض کنی."
+      }
+    ],
+    "miniContext": "You have to change trains twice on this trip.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "catch (a train/bus)",
+    "meaning": "رسیدن به (قطار/اتوبوس) و سوار شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "miss (opp)"
+    ],
+    "examples": [
+      {
+        "english": "If you arrive in time, you will catch the train.",
+        "persian": "اگر به موقع برسی، قطار را می‌گیری."
+      }
+    ],
+    "miniContext": "If you arrive in time, you will catch the train.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "break down",
+    "meaning": "خراب شدن (ماشین یا قطار)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The train broke down on the way.",
+        "persian": "قطار در راه خراب شد."
+      }
+    ],
+    "miniContext": "The train broke down on the way.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "hold sb up",
+    "meaning": "معطل کردن کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "delay"
+    ],
+    "examples": [
+      {
+        "english": "Sorry, I was held up.",
+        "persian": "ببخشید، معطل شدم."
+      }
+    ],
+    "miniContext": "Sorry, I was held up.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "due",
+    "meaning": "موعد مقرر، انتظار می‌رود",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My train was due at 9.42.",
+        "persian": "قطارم قرار بود ساعت نه و چهل‌ودو دقیقه برسد."
+      }
+    ],
+    "miniContext": "My train was due at 9.42.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "get in (train/plane)",
+    "meaning": "رسیدن (قطار یا هواپیما)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "arrive"
+    ],
+    "examples": [
+      {
+        "english": "What time does your train get in?",
+        "persian": "قطارت چه ساعتی می‌رسد؟"
+      }
+    ],
+    "miniContext": "What time does your train get in?",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "commute",
+    "meaning": "رفت‌وآمد روزانه به محل کار",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I commute to the city every day.",
+        "persian": "من هر روز برای کار به شهر رفت‌وآمد می‌کنم."
+      }
+    ],
+    "miniContext": "I commute to the city every day.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "cancel",
+    "meaning": "لغو کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My train is often cancelled without warning.",
+        "persian": "قطارم اغلب بدون اطلاع قبلی لغو می‌شود."
+      }
+    ],
+    "miniContext": "My train is often cancelled without warning.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "connection",
+    "meaning": "ارتباط (قطار بعدی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I missed my connection to Brussels.",
+        "persian": "به قطار بعدی‌ام به بروکسل نرسیدم."
+      }
+    ],
+    "miniContext": "I missed my connection to Brussels.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "be meant to (do sth)",
+    "meaning": "قرار بودن (کاری انجام شود)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister was meant to pick me up, but she forgot.",
+        "persian": "قرار بود خواهرم بیاید دنبالم، اما فراموش کرد."
+      }
+    ],
+    "miniContext": "My sister was meant to pick me up, but she forgot.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-33",
+    "word": "pick sb up",
+    "meaning": "دنبال کسی رفتن (با ماشین)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My father has gone to pick up his brother.",
+        "persian": "پدرم رفته دنبال برادرش."
+      }
+    ],
+    "miniContext": "My father has gone to pick up his brother.",
+    "icon": "🚆"
+  }
+]

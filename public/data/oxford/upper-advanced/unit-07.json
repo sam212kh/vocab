@@ -1,0 +1,402 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "cute",
+    "meaning": "بامزه و جذاب (معمولاً برای بچه‌ها)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My little niece Keira is so cute.",
+        "persian": "خواهرزاده کوچولویم کیرا خیلی بامزه است."
+      }
+    ],
+    "miniContext": "My little niece Keira is so cute. She's got chubby cheeks and huge brown eyes.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "chubby",
+    "meaning": "کمی چاق (به شکل جذاب، معمولا بچه‌ها)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's got chubby cheeks and huge brown eyes.",
+        "persian": "او گونه‌های تپل و چشمان قهوه‌ای بزرگی دارد."
+      }
+    ],
+    "miniContext": "She's got chubby cheeks and huge brown eyes.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "skinny",
+    "meaning": "خیلی لاغر (عامیانه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "slim",
+      "slender"
+    ],
+    "examples": [
+      {
+        "english": "My sister Jessica is a bit skinny and wears a lot of make-up.",
+        "persian": "خواهرم جسیکا کمی لاغر است و آرایش زیادی می‌کند."
+      }
+    ],
+    "miniContext": "My sister Jessica is a bit skinny and wears a lot of make-up.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "make-up",
+    "meaning": "آرایش، لوازم آرایشی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister wears a lot of make-up.",
+        "persian": "خواهرم آرایش زیادی می‌کند."
+      }
+    ],
+    "miniContext": "My sister Jessica is a bit skinny and wears a lot of make-up.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "gorgeous",
+    "meaning": "بسیار زیبا و جذاب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "stunning"
+    ],
+    "examples": [
+      {
+        "english": "Sophie is gorgeous, with a great figure.",
+        "persian": "سوفی بسیار زیباست و اندام خوبی دارد."
+      }
+    ],
+    "miniContext": "Sophie is gorgeous, with a great figure, and always looks very glamorous.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "figure",
+    "meaning": "اندام، فیگور بدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sophie has a great figure.",
+        "persian": "سوفی اندام خوبی دارد."
+      }
+    ],
+    "miniContext": "Sophie is gorgeous, with a great figure.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "glamorous",
+    "meaning": "پرزرق‌وبرق، جذاب و شیک",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sophie always looks very glamorous.",
+        "persian": "سوفی همیشه خیلی شیک و پرزرق‌وبرق به نظر می‌رسد."
+      }
+    ],
+    "miniContext": "Sophie always looks very glamorous.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "bald",
+    "meaning": "کچل، طاس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One of my neighbours is bald, overweight and has a hideous tattoo.",
+        "persian": "یکی از همسایه‌هایم کچل و چاق است و یک خالکوبی زشت دارد."
+      }
+    ],
+    "miniContext": "One of my neighbours is bald, overweight and has a hideous tattoo.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "overweight",
+    "meaning": "دارای اضافه‌وزن، چاق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One of my neighbours is bald, overweight and has a hideous tattoo.",
+        "persian": "یکی از همسایه‌هایم کچل و چاق است و یک خالکوبی زشت دارد."
+      }
+    ],
+    "miniContext": "One of my neighbours is bald, overweight and has a hideous tattoo.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "hideous",
+    "meaning": "بسیار زشت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has a hideous tattoo.",
+        "persian": "او یک خالکوبی بسیار زشت دارد."
+      }
+    ],
+    "miniContext": "One of my neighbours is bald, overweight and has a hideous tattoo.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "be getting on for sth",
+    "meaning": "نزدیک به سن یا عدد خاصی بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My gran's getting on for 85 and has quite a few wrinkles now.",
+        "persian": "مادربزرگم نزدیک ۸۵ سال دارد و الان چین‌وچروک زیادی دارد."
+      }
+    ],
+    "miniContext": "My gran's getting on for 85 and has quite a few wrinkles now.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "wrinkles",
+    "meaning": "چین‌وچروک پوست",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My gran has quite a few wrinkles now.",
+        "persian": "مادربزرگم الان چین‌وچروک زیادی دارد."
+      }
+    ],
+    "miniContext": "My gran's getting on for 85 and has quite a few wrinkles now.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "key to sth",
+    "meaning": "کلید، راز موفقیت در چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The key to dressing for your body shape is to enhance your best features.",
+        "persian": "کلید لباس پوشیدن متناسب با فرم بدن، برجسته کردن بهترین ویژگی‌هاست."
+      }
+    ],
+    "miniContext": "The key to dressing for your body shape is to enhance your best features and cleverly conceal the not so good ones.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "enhance",
+    "meaning": "افزایش دادن، بهبود بخشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Enhance your best features.",
+        "persian": "بهترین ویژگی‌هایت را برجسته کن."
+      }
+    ],
+    "miniContext": "The key to dressing for your body shape is to enhance your best features.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "feature",
+    "meaning": "ویژگی ظاهری (صورت یا بدن)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The right clothes can show off your best features.",
+        "persian": "لباس مناسب می‌تواند بهترین ویژگی‌های ظاهری تو را نشان دهد."
+      }
+    ],
+    "miniContext": "The right clothes can show off your best features, e.g. long legs or a slim waist.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "conceal",
+    "meaning": "مخفی کردن (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "hide"
+    ],
+    "examples": [
+      {
+        "english": "Cleverly conceal the not so good features.",
+        "persian": "ویژگی‌های کمتر خوب را به‌هوشمندانه پنهان کن."
+      }
+    ],
+    "miniContext": "The key is to enhance your best features and cleverly conceal the not so good ones.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "guidelines",
+    "meaning": "راهنمایی‌ها، نکات کاربردی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Here are a few guidelines.",
+        "persian": "چند راهنمایی در ادامه آمده است."
+      }
+    ],
+    "miniContext": "Here are a few guidelines on how to dress for your shape.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "vertical",
+    "meaning": "عمودی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wearing vertical stripes will create the illusion of being slimmer.",
+        "persian": "پوشیدن راه‌راه عمودی توهم لاغرتر بودن ایجاد می‌کند."
+      }
+    ],
+    "miniContext": "Wearing dark colours or vertical stripes will create the illusion of being slimmer.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "create an illusion (of sth)",
+    "meaning": "توهم یا ظاهری غیرواقعی ایجاد کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Vertical stripes will create the illusion of being slimmer.",
+        "persian": "راه‌راه عمودی توهم لاغرتر بودن ایجاد می‌کند."
+      }
+    ],
+    "miniContext": "Wearing dark colours or vertical stripes will create the illusion of being slimmer.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "flattering",
+    "meaning": "جذاب‌کننده (برای ظاهر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "High heels are flattering because they exaggerate the length of their legs.",
+        "persian": "کفش‌های پاشنه‌بلند جذابیت ایجاد می‌کنند چون پاها را بلندتر نشان می‌دهند."
+      }
+    ],
+    "miniContext": "For women, high heels are flattering because they exaggerate the length of their legs.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "exaggerate",
+    "meaning": "اغراق کردن، بزرگ‌تر از واقعیت نشان دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "High heels exaggerate the length of their legs.",
+        "persian": "کفش‌های پاشنه‌بلند طول پاها را بزرگ‌تر نشان می‌دهند."
+      }
+    ],
+    "miniContext": "High heels are flattering because they exaggerate the length of their legs.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "broad",
+    "meaning": "پهن، عریض",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "wide"
+    ],
+    "examples": [
+      {
+        "english": "If you are pear-shaped, with narrow shoulders and broad hips...",
+        "persian": "اگر هیکل گلابی‌شکل داری، با شانه‌های باریک و باسن پهن..."
+      }
+    ],
+    "miniContext": "If you are pear-shaped (with narrow shoulders and broad hips), jeans that sit below the waist are flattering.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-7",
+    "word": "draw (sb's) attention to sth",
+    "meaning": "توجه کسی را به چیزی جلب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jeans that sit below the waist draw attention to the waistline.",
+        "persian": "شلوارهایی که پایین کمر قرار می‌گیرند توجه را به خط کمر جلب می‌کنند."
+      }
+    ],
+    "miniContext": "Jeans that sit below the waist are flattering, as they draw attention to the waistline.",
+    "icon": "👓"
+  }
+]

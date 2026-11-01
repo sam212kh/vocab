@@ -1,0 +1,365 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "stunning",
+    "meaning": "خیره‌کننده، فوق‌العاده زیبا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Prague is a stunning city.",
+        "persian": "پراگ شهری خیره‌کننده است."
+      }
+    ],
+    "miniContext": "Prague is a stunning city.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "thriving",
+    "meaning": "رو به رشد و موفق، پررونق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "flourishing"
+    ],
+    "examples": [
+      {
+        "english": "This thriving capital of the Czech Republic makes a romantic city-break destination.",
+        "persian": "این پایتخت پررونق چک، مقصدی رمانتیک برای سفرهای کوتاه است."
+      }
+    ],
+    "miniContext": "This thriving capital of the Czech Republic makes a romantic and vibrant city-break destination.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "vibrant",
+    "meaning": "پرانرژی، سرزنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Lisbon is a modern, flourishing, vibrant European capital.",
+        "persian": "لیسبون پایتختی مدرن، پررونق و پرانرژی اروپایی است."
+      }
+    ],
+    "miniContext": "This thriving capital makes a romantic and vibrant city-break destination.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "delight",
+    "meaning": "لذت، سرور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A stroll through Prague's streets is a delight.",
+        "persian": "قدم زدن در خیابان‌های پراگ لذت‌بخش است."
+      }
+    ],
+    "miniContext": "A stroll through Prague's streets is a delight.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "remarkably",
+    "meaning": "به‌طرز شگفت‌انگیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Its architecture is remarkably diverse.",
+        "persian": "معماری آن به‌طرز شگفت‌انگیزی متنوع است."
+      }
+    ],
+    "miniContext": "Its architecture is remarkably diverse.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "diverse",
+    "meaning": "متنوع، گوناگون",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My son's interests are very diverse.",
+        "persian": "علایق پسرم خیلی متنوع هستند."
+      }
+    ],
+    "miniContext": "Its architecture is remarkably diverse.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "undergo",
+    "meaning": "متحمل شدن، تحت فرآیندی قرار گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Charles Bridge and the Astronomical Clock have both undergone restoration.",
+        "persian": "پل چارلز و ساعت نجومی هر دو تحت بازسازی قرار گرفته‌اند."
+      }
+    ],
+    "miniContext": "Charles Bridge and the Astronomical Clock have both undergone restoration.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "restoration",
+    "meaning": "بازسازی، مرمت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The old buildings in the centre need to be restored.",
+        "persian": "ساختمان‌های قدیمی مرکز شهر نیاز به مرمت دارند."
+      }
+    ],
+    "miniContext": "Charles Bridge and the Astronomical Clock have both undergone restoration.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "unwind",
+    "meaning": "ریلکس کردن، آرام شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "take it easy"
+    ],
+    "examples": [
+      {
+        "english": "The resorts on the Algarve are a great place to relax and unwind.",
+        "persian": "استراحتگاه‌های آلگارو جای خوبی برای استراحت و ریلکس کردن هستند."
+      }
+    ],
+    "miniContext": "Unwind on the Algarve.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "resort",
+    "meaning": "استراحتگاه، مقصد توریستی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The resorts on the Algarve, with their golden sandy beaches, are a great place to relax.",
+        "persian": "استراحتگاه‌های آلگارو با ساحل‌های شنی طلایی‌شان جای خوبی برای استراحت هستند."
+      }
+    ],
+    "miniContext": "The resorts on the Algarve, with their golden sandy beaches, are a great place to relax.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "laze around/about",
+    "meaning": "بی‌خیال استراحت کردن، تنبلی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Laze around on the golden sandy beaches.",
+        "persian": "روی ساحل‌های شنی طلایی بی‌خیال استراحت کن."
+      }
+    ],
+    "miniContext": "Laze around on the golden sandy beaches.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "wander around/round",
+    "meaning": "بی‌هدف قدم زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Just wander round Albufeira's old town, which still retains its wonderful charm.",
+        "persian": "فقط در شهر قدیم آلبوفیرا قدم بزن که هنوز جذابیت فوق‌العاده‌اش را حفظ کرده."
+      }
+    ],
+    "miniContext": "Just wander round Albufeira's old town.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "retain",
+    "meaning": "حفظ کردن (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The old town still retains its wonderful charm.",
+        "persian": "شهر قدیم هنوز جذابیت فوق‌العاده‌اش را حفظ کرده."
+      }
+    ],
+    "miniContext": "Albufeira's old town, which still retains its wonderful charm.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "charm",
+    "meaning": "جذابیت، دلربایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The old town still retains its wonderful charm.",
+        "persian": "شهر قدیم هنوز جذابیت فوق‌العاده‌اش را حفظ کرده."
+      }
+    ],
+    "miniContext": "Albufeira's old town, which still retains its wonderful charm.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "off the beaten track",
+    "meaning": "دورافتاده، دور از شلوغی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "remote"
+    ],
+    "examples": [
+      {
+        "english": "The villa was really off the beaten track.",
+        "persian": "ویلا واقعاً دورافتاده بود."
+      }
+    ],
+    "miniContext": "Off the beaten track on the Great Wall of China.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "trek",
+    "meaning": "پیاده‌روی طولانی و سخت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our China trek offers a unique experience for the adventurous traveller.",
+        "persian": "پیاده‌روی ما در چین تجربه‌ای منحصربه‌فرد برای مسافر ماجراجو ارائه می‌دهد."
+      }
+    ],
+    "miniContext": "Our China trek offers a unique experience for the adventurous traveller.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "unique",
+    "meaning": "بی‌نظیر، منحصربه‌فرد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That particular building is unique.",
+        "persian": "آن ساختمان خاص بی‌نظیر است."
+      }
+    ],
+    "miniContext": "Our China trek offers a unique experience for the adventurous traveller.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "adventurous",
+    "meaning": "ماجراجو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you want a holiday with adventure?",
+        "persian": "آیا تعطیلات پر ماجراجویی می‌خواهی؟"
+      }
+    ],
+    "miniContext": "A unique experience for the adventurous traveller.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "get away from it all",
+    "meaning": "فرار از دغدغه‌های روزمره",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who wants to get away from it all?",
+        "persian": "چه کسی می‌خواهد از دغدغه‌های روزمره فرار کند؟"
+      }
+    ],
+    "miniContext": "Who wants to get away from it all?",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "remote",
+    "meaning": "دورافتاده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You will have the rare opportunity to camp in a remote part of rural China.",
+        "persian": "فرصت نادری خواهی داشت که در بخشی دورافتاده از چین روستایی چادر بزنی."
+      }
+    ],
+    "miniContext": "You will have the rare opportunity to camp in a remote part of rural China.",
+    "icon": "🏖️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-36",
+    "word": "unspoilt",
+    "meaning": "دست‌نخورده، طبیعی باقی‌مانده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Experience local life in its most unspoilt state.",
+        "persian": "زندگی محلی را در دست‌نخورده‌ترین حالتش تجربه کن."
+      }
+    ],
+    "miniContext": "Experience local life in its most unspoilt state.",
+    "icon": "🏖️"
+  }
+]

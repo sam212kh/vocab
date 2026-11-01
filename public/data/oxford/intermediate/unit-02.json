@@ -1,0 +1,401 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "keen",
+    "meaning": "مشتاق، علاقه‌مند",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's very keen to learn English.",
+        "persian": "او خیلی مشتاق یادگیری انگلیسی است."
+      }
+    ],
+    "miniContext": "She's very keen to learn English.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "motivated",
+    "meaning": "با انگیزه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was very motivated when I started learning English.",
+        "persian": "وقتی شروع به یادگیری انگلیسی کردم خیلی با انگیزه بودم."
+      }
+    ],
+    "miniContext": "I was very motivated when I started learning English.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "find it difficult (to do sth)",
+    "meaning": "برایش سخت بودن (انجام کاری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I find it difficult to pronounce some words.",
+        "persian": "تلفظ بعضی کلمات برایم سخت است."
+      }
+    ],
+    "miniContext": "I find it difficult to pronounce some words.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "after a while",
+    "meaning": "بعد از مدتی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "After a while my pronunciation got better.",
+        "persian": "بعد از مدتی تلفظم بهتر شد."
+      }
+    ],
+    "miniContext": "After a while my pronunciation got better.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "get better",
+    "meaning": "بهتر شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "improve"
+    ],
+    "examples": [
+      {
+        "english": "My English is getting better every day.",
+        "persian": "انگلیسی من هر روز بهتر می‌شود."
+      }
+    ],
+    "miniContext": "My English is getting better every day.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "express",
+    "meaning": "بیان کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can express my ideas quite well now.",
+        "persian": "الان می‌توانم ایده‌هایم را خیلی خوب بیان کنم."
+      }
+    ],
+    "miniContext": "I can express my ideas quite well now.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "effectively",
+    "meaning": "به طور موثر",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She communicated effectively in the meeting.",
+        "persian": "او در جلسه به طور موثر ارتباط برقرار کرد."
+      }
+    ],
+    "miniContext": "She communicated effectively in the meeting.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "obvious",
+    "meaning": "واضح، آشکار",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "clear"
+    ],
+    "examples": [
+      {
+        "english": "It was obvious that he was improving.",
+        "persian": "واضح بود که او در حال پیشرفت است."
+      }
+    ],
+    "miniContext": "It was obvious that he was improving.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "encouraging",
+    "meaning": "دلگرم‌کننده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My teacher's comments were very encouraging.",
+        "persian": "نظرات معلمم خیلی دلگرم‌کننده بود."
+      }
+    ],
+    "miniContext": "My teacher's comments were very encouraging.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "slow down",
+    "meaning": "کند شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My progress slowed down at the intermediate level.",
+        "persian": "پیشرفتم در سطح متوسط کند شد."
+      }
+    ],
+    "miniContext": "My progress slowed down at the intermediate level.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "be aware of sth",
+    "meaning": "از چیزی آگاه بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm more aware of my mistakes now.",
+        "persian": "الان بیشتر از اشتباهاتم آگاهم."
+      }
+    ],
+    "miniContext": "I'm more aware of my mistakes now.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "frustrating",
+    "meaning": "ناامیدکننده، آزاردهنده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's frustrating when I can't remember a word.",
+        "persian": "وقتی نمی‌توانم کلمه‌ای را به یاد بیاورم آزاردهنده است."
+      }
+    ],
+    "miniContext": "It's frustrating when I can't remember a word.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "goal",
+    "meaning": "هدف",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "aim"
+    ],
+    "examples": [
+      {
+        "english": "My goal is to speak fluent English.",
+        "persian": "هدفم صحبت کردن روان انگلیسی است."
+      }
+    ],
+    "miniContext": "My goal is to speak fluent English.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "native speaker",
+    "meaning": "گویشور بومی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's a native speaker of English.",
+        "persian": "او گویشور بومی انگلیسی است."
+      }
+    ],
+    "miniContext": "She's a native speaker of English.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "expand",
+    "meaning": "گسترش دادن، بزرگ‌تر شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to expand my vocabulary.",
+        "persian": "باید واژگانم را گسترش دهم."
+      }
+    ],
+    "miniContext": "I need to expand my vocabulary.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "a wide range of sth",
+    "meaning": "طیف وسیعی از چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a wide range of courses available.",
+        "persian": "طیف وسیعی از دوره‌ها موجود است."
+      }
+    ],
+    "miniContext": "There's a wide range of courses available.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "complex",
+    "meaning": "پیچیده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to express more complex ideas.",
+        "persian": "می‌خواهم ایده‌های پیچیده‌تری بیان کنم."
+      }
+    ],
+    "miniContext": "I want to express more complex ideas.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "fluent",
+    "meaning": "روان، مسلط",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd like to be more fluent when I'm speaking.",
+        "persian": "دوست دارم وقتی صحبت می‌کنم روان‌تر باشم."
+      }
+    ],
+    "miniContext": "I'd like to be more fluent when I'm speaking.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "in detail",
+    "meaning": "با جزئیات",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He described the plan in detail.",
+        "persian": "او برنامه را با جزئیات توضیح داد."
+      }
+    ],
+    "miniContext": "He described the plan in detail.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "suitable",
+    "meaning": "مناسب",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to use language that is suitable for the situation.",
+        "persian": "باید از زبانی استفاده کنم که مناسب موقعیت باشد."
+      }
+    ],
+    "miniContext": "I need to use language that is suitable for the situation.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "achieve",
+    "meaning": "به دست آوردن، محقق کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She achieved all her learning goals.",
+        "persian": "او به تمام اهداف یادگیری‌اش رسید."
+      }
+    ],
+    "miniContext": "She achieved all her learning goals.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "be to do with sth/sb",
+    "meaning": "مربوط بودن به چیزی/کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This text is to do with my job.",
+        "persian": "این متن مربوط به شغل من است."
+      }
+    ],
+    "miniContext": "This text is to do with my job.",
+    "icon": "🎯"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-2",
+    "word": "contain",
+    "meaning": "شامل بودن، در برداشتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "include"
+    ],
+    "examples": [
+      {
+        "english": "The box contains a lot of useful information.",
+        "persian": "جعبه اطلاعات مفید زیادی را در بر دارد."
+      }
+    ],
+    "miniContext": "The box contains a lot of useful information.",
+    "icon": "🎯"
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "tendency",
+    "meaning": "گرایش، تمایل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a tendency among some women to believe that however hard you try, you end up like your mother.",
+        "persian": "بین بعضی زنان این گرایش هست که فکر کنند هرچقدر هم تلاش کنی، آخرش شبیه مادرت می‌شوی."
+      }
+    ],
+    "miniContext": "There is a tendency among some women to believe that however hard you try, you end up like your mother.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "however",
+    "meaning": "هرچقدر (پیش از صفت یا قید)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "However hard I work, I still can't seem to understand this subject.",
+        "persian": "هرچقدر هم سخت کار کنم، باز هم انگار نمی‌توانم این درس را بفهمم."
+      }
+    ],
+    "miniContext": "However hard you try, you end up like your mother.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "it's hard to say",
+    "meaning": "نظر دادن سخت است",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's hard to say whether it will work.",
+        "persian": "نظر دادن سخت است که آیا این کار می‌کند یا نه."
+      }
+    ],
+    "miniContext": "It's hard to say if that's the case with me.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "the case",
+    "meaning": "وضعیت واقعی، حقیقت ماجرا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm not sure if that's the case with him.",
+        "persian": "مطمئن نیستم که این وضعیت درباره او هم صادق باشد."
+      }
+    ],
+    "miniContext": "It's hard to say if that's the case with me.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "pass away",
+    "meaning": "فوت کردن (اصطلاح محترمانه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her mother passed away last year.",
+        "persian": "مادرش سال گذشته فوت کرد."
+      }
+    ],
+    "miniContext": "My mother passed away when I was only nine.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "widower",
+    "meaning": "مرد بیوه (که همسرش فوت کرده)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My father was left a widower.",
+        "persian": "پدرم بیوه ماند."
+      }
+    ],
+    "miniContext": "My father was left a widower. He did remarry several years later.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "bring sb up",
+    "meaning": "بزرگ کردن، تربیت کردن کودک",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [
+      "raise"
+    ],
+    "examples": [
+      {
+        "english": "I was brought up by my father and stepmother.",
+        "persian": "پدر و نامادری‌ام مرا بزرگ کردند."
+      }
+    ],
+    "miniContext": "I was brought up by my father and stepmother.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "stepmother",
+    "meaning": "نامادری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was brought up by my father and stepmother.",
+        "persian": "پدر و نامادری‌ام مرا بزرگ کردند."
+      }
+    ],
+    "miniContext": "I was brought up by my father and stepmother.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "presence",
+    "meaning": "حضور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I know the presence of a new woman in the family can be difficult.",
+        "persian": "می‌دانم حضور زن جدیدی در خانواده می‌تواند سخت باشد."
+      }
+    ],
+    "miniContext": "I know the presence of a new woman in the family can be difficult, but we have always had a really positive relationship.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "alike",
+    "meaning": "شبیه به هم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are not alike in looks or character.",
+        "persian": "ما نه در چهره و نه در شخصیت شبیه هم نیستیم."
+      }
+    ],
+    "miniContext": "We are not alike in looks or character.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "pick sth up",
+    "meaning": "ناخواسته یاد گرفتن (عادت یا مهارت)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother picked up playing guitar just from watching other guitarists.",
+        "persian": "برادرم فقط از دیدن گیتاریست‌های دیگر گیتار زدن را یاد گرفت."
+      }
+    ],
+    "miniContext": "I think I've picked up one or two of her good habits.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "personally",
+    "meaning": "شخصاً، به‌طور شخصی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I always remember to write personally to thank people for presents.",
+        "persian": "همیشه یادم است که شخصاً برای تشکر از هدایا نامه بنویسم."
+      }
+    ],
+    "miniContext": "I always remember to write personally to thank people for birthday or Christmas presents.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "resemble",
+    "meaning": "شباهت داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was starting to resemble my mother a bit more.",
+        "persian": "داشتم کمی بیشتر شبیه مادرم می‌شدم."
+      }
+    ],
+    "miniContext": "By my teens, my father told me that I was starting to resemble my mother a bit more.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "characteristic",
+    "meaning": "ویژگی، خصوصیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It seems I have got one or two of her characteristics.",
+        "persian": "به نظر می‌رسد یکی دو تا از ویژگی‌های او را دارم."
+      }
+    ],
+    "miniContext": "It seems I have got one or two of her characteristics.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "take criticism",
+    "meaning": "انتقاد را پذیرفتن یا تحمل کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Like me, she didn't take criticism very well.",
+        "persian": "مثل من، او هم انتقاد را خوب تحمل نمی‌کرد."
+      }
+    ],
+    "miniContext": "Like me, she didn't take criticism very well.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "apparent",
+    "meaning": "آشکار، واضح",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "obvious"
+    ],
+    "examples": [
+      {
+        "english": "It's now increasingly apparent that I take after my father more.",
+        "persian": "حالا به‌طور فزاینده‌ای آشکار است که بیشتر به پدرم رفته‌ام."
+      }
+    ],
+    "miniContext": "I think it's now increasingly apparent that I take after my father more in character and behaviour.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "take after sb",
+    "meaning": "از نظر ظاهر یا رفتار به یکی از اعضای خانواده رفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I take after my father more in character and behaviour.",
+        "persian": "از نظر شخصیت و رفتار بیشتر به پدرم رفته‌ام."
+      }
+    ],
+    "miniContext": "I think it's now increasingly apparent that I take after my father more in character and behaviour.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "sibling",
+    "meaning": "خواهر یا برادر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has three siblings.",
+        "persian": "او سه خواهر و برادر دارد."
+      }
+    ],
+    "miniContext": "It seems to be the opposite with my two siblings, both sisters.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "remind sb of sb/sth",
+    "meaning": "یادآور کسی یا چیزی بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My dad says they remind him much more of my mother.",
+        "persian": "بابام می‌گوید که آن‌ها خیلی بیشتر او را یاد مادرم می‌اندازند."
+      }
+    ],
+    "miniContext": "My dad says that they remind him much more of my mother.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "resemblance",
+    "meaning": "شباهت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you see them together, it's apparent that they are twins; there's a strong resemblance.",
+        "persian": "اگر آن‌ها را کنار هم ببینی، واضح است که دوقلو هستند؛ شباهت زیادی دارند."
+      }
+    ],
+    "miniContext": "There's a strong resemblance between the two sisters. People often say they are alike.",
+    "icon": "👪"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-22",
+    "word": "follow in sb's footsteps",
+    "meaning": "رد پای کسی را دنبال کردن (شغل یا سبک زندگی مشابه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Will Joasia be a doctor like her dad? - Yes, she's following in his footsteps.",
+        "persian": "آیا یواسیا هم مثل پدرش دکتر می‌شود؟ بله، دارد رد پای او را دنبال می‌کند."
+      }
+    ],
+    "miniContext": "I believe she's following in his footsteps.",
+    "icon": "👪"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "furious",
+    "meaning": "خیلی عصبانی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Dad was absolutely furious when I took his car.",
+        "persian": "وقتی ماشینش را برداشتم بابا خیلی عصبانی شد."
+      }
+    ],
+    "miniContext": "Dad was absolutely furious when I took his car.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "brilliant",
+    "meaning": "فوق‌العاده، عالی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Marcel had a brilliant game.",
+        "persian": "مارسل بازی فوق‌العاده‌ای داشت."
+      }
+    ],
+    "miniContext": "Marcel had a brilliant game.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "terrified",
+    "meaning": "خیلی ترسیده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was absolutely terrified at sea.",
+        "persian": "در دریا خیلی ترسیده بودم."
+      }
+    ],
+    "miniContext": "I was absolutely terrified at sea.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "enormous",
+    "meaning": "عظیم، بسیار بزرگ",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was amazed at the enormous size of the statue.",
+        "persian": "از اندازه‌ی عظیم مجسمه شگفت‌زده شدم."
+      }
+    ],
+    "miniContext": "I was amazed at the enormous size of the statue.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "dreadful",
+    "meaning": "افتضاح، وحشتناک",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I thought the film was absolutely dreadful.",
+        "persian": "فکر کردم فیلم کاملا افتضاح بود."
+      }
+    ],
+    "miniContext": "I thought the film was absolutely dreadful.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "vital",
+    "meaning": "حیاتی، ضروری",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "essential"
+    ],
+    "examples": [
+      {
+        "english": "It's absolutely vital that you buy a good dictionary.",
+        "persian": "کاملا ضروری است که یک فرهنگ لغت خوب بخری."
+      }
+    ],
+    "miniContext": "It's absolutely vital that you buy a good dictionary.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "tiny",
+    "meaning": "بسیار کوچک، ریز",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The flat was absolutely tiny.",
+        "persian": "آن آپارتمان کاملا بسیار کوچک بود."
+      }
+    ],
+    "miniContext": "The flat was absolutely tiny.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "exhausted",
+    "meaning": "خیلی خسته",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was absolutely exhausted after the long walk.",
+        "persian": "بعد از آن پیاده‌روی طولانی کاملا خسته بودم."
+      }
+    ],
+    "miniContext": "I was absolutely exhausted after the long walk.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "amazed",
+    "meaning": "شگفت‌زده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "astonished"
+    ],
+    "examples": [
+      {
+        "english": "I was amazed at the quality of the dancing.",
+        "persian": "از کیفیت رقص شگفت‌زده شدم."
+      }
+    ],
+    "miniContext": "I was amazed at the quality of the dancing.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "confusing",
+    "meaning": "گیج‌کننده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The train timetable was confusing.",
+        "persian": "جدول زمانی قطار گیج‌کننده بود."
+      }
+    ],
+    "miniContext": "The train timetable was confusing.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "disappointing",
+    "meaning": "ناامیدکننده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The hotel didn't have a restaurant, which was disappointing.",
+        "persian": "هتل رستوران نداشت که این ناامیدکننده بود."
+      }
+    ],
+    "miniContext": "The hotel didn't have a restaurant, which was disappointing.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "embarrassing",
+    "meaning": "خجالت‌آور",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a bit embarrassing when I forgot his name.",
+        "persian": "وقتی اسمش را فراموش کردم کمی خجالت‌آور بود."
+      }
+    ],
+    "miniContext": "It was a bit embarrassing when I forgot his name.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "fascinating",
+    "meaning": "بسیار جذاب و جالب",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I thought China was a fascinating place to visit.",
+        "persian": "فکر کردم چین مکان بسیار جذابی برای دیدن بود."
+      }
+    ],
+    "miniContext": "I thought China was a fascinating place to visit.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "frightening",
+    "meaning": "ترسناک",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a bit frightening when the window got broken.",
+        "persian": "وقتی پنجره شکست کمی ترسناک بود."
+      }
+    ],
+    "miniContext": "It was a bit frightening when the window got broken.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-19",
+    "word": "relaxing",
+    "meaning": "آرامش‌بخش",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I felt very relaxed on holiday; it was so relaxing.",
+        "persian": "در تعطیلات خیلی احساس آرامش کردم؛ خیلی آرامش‌بخش بود."
+      }
+    ],
+    "miniContext": "I felt very relaxed on holiday; it was so relaxing.",
+    "icon": "🔤"
+  }
+]

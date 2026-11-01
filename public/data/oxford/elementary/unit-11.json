@@ -1,0 +1,482 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "attractive",
+    "meaning": "جذاب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is a very attractive woman.",
+        "persian": "او یک زن بسیار جذاب است."
+      }
+    ],
+    "miniContext": "She is a very attractive woman.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "average",
+    "meaning": "متوسط",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "normal"
+    ],
+    "examples": [
+      {
+        "english": "He is of average height.",
+        "persian": "او قد متوسطی دارد."
+      }
+    ],
+    "miniContext": "He is of average height.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "beard",
+    "meaning": "ریش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My grandfather has a long beard.",
+        "persian": "پدربزرگ من ریش بلندی دارد."
+      }
+    ],
+    "miniContext": "My grandfather has a long beard.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "beautiful",
+    "meaning": "زیبا",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "pretty"
+    ],
+    "examples": [
+      {
+        "english": "The garden looks beautiful in spring.",
+        "persian": "باغ در بهار زیبا به نظر می‌رسد."
+      }
+    ],
+    "miniContext": "The garden looks beautiful in spring.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "blonde",
+    "meaning": "بلوند، موطلایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister has blonde hair.",
+        "persian": "خواهرم موهای بلوند دارد."
+      }
+    ],
+    "miniContext": "My sister has blonde hair.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "good-looking",
+    "meaning": "خوش‌تیپ، خوش‌قیافه",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her brother is very good-looking.",
+        "persian": "برادرش خیلی خوش‌تیپ است."
+      }
+    ],
+    "miniContext": "Her brother is very good-looking.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "grey",
+    "meaning": "خاکستری",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His hair is turning grey.",
+        "persian": "موهایش خاکستری می‌شود."
+      }
+    ],
+    "miniContext": "His hair is turning grey.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "handsome",
+    "meaning": "خوش‌تیپ (مرد)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a handsome young man.",
+        "persian": "او یک مرد جوان خوش‌تیپ است."
+      }
+    ],
+    "miniContext": "He is a handsome young man.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "height",
+    "meaning": "قد، ارتفاع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your height?",
+        "persian": "قد شما چقدر است؟"
+      }
+    ],
+    "miniContext": "What is your height?",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "how tall",
+    "meaning": "چقدر قد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How tall are you?",
+        "persian": "قدت چقدر است؟"
+      }
+    ],
+    "miniContext": "How tall are you?",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "long (= not short)",
+    "meaning": "بلند، طولانی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has long hair.",
+        "persian": "او مو بلند دارد."
+      }
+    ],
+    "miniContext": "She has long hair.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "lose weight",
+    "meaning": "وزن کم کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to lose weight.",
+        "persian": "می‌خواهم وزن کم کنم."
+      }
+    ],
+    "miniContext": "I want to lose weight.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "lovely",
+    "meaning": "زیبا، دوست‌داشتنی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What a lovely day!",
+        "persian": "چه روز زیبایی!"
+      }
+    ],
+    "miniContext": "What a lovely day!",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "middle-aged",
+    "meaning": "میانسال",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a middle-aged man.",
+        "persian": "او یک مرد میانسال است."
+      }
+    ],
+    "miniContext": "He is a middle-aged man.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "overweight",
+    "meaning": "اضافه وزن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The doctor said he is overweight.",
+        "persian": "دکتر گفت او اضافه وزن دارد."
+      }
+    ],
+    "miniContext": "The doctor said he is overweight.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "pretty (= attractive)",
+    "meaning": "زیبا",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a pretty smile.",
+        "persian": "او لبخند زیبایی دارد."
+      }
+    ],
+    "miniContext": "She has a pretty smile.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "quite",
+    "meaning": "نسبتاً",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The test was quite easy.",
+        "persian": "امتحان نسبتاً آسان بود."
+      }
+    ],
+    "miniContext": "The test was quite easy.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "short (not tall)",
+    "meaning": "کوتاه (قد کوتاه)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother is short, like our mother.",
+        "persian": "برادرم مثل مادرمان کوتاه قد است."
+      }
+    ],
+    "miniContext": "My brother is short, like our mother.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "short (not long)",
+    "meaning": "کوتاه (طول کوتاه)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has short hair.",
+        "persian": "او موهای کوتاهی دارد."
+      }
+    ],
+    "miniContext": "She has short hair.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "slim",
+    "meaning": "لاغر و متناسب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister is tall and slim.",
+        "persian": "خواهرم قد بلند و لاغر است."
+      }
+    ],
+    "miniContext": "My sister is tall and slim.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "smile",
+    "meaning": "لبخند، لبخند زدن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a lovely smile.",
+        "persian": "او لبخند دوست‌داشتنی‌ای دارد."
+      }
+    ],
+    "miniContext": "She has a lovely smile.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "straight",
+    "meaning": "صاف",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has long, straight hair.",
+        "persian": "او موهای بلند و صاف دارد."
+      }
+    ],
+    "miniContext": "She has long, straight hair.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "tall",
+    "meaning": "بلند قد",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother is very tall.",
+        "persian": "برادرم خیلی قد بلند است."
+      }
+    ],
+    "miniContext": "My brother is very tall.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "teenage",
+    "meaning": "نوجوان (صفت)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a teenage daughter.",
+        "persian": "او یک دختر نوجوان دارد."
+      }
+    ],
+    "miniContext": "She has a teenage daughter.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "teenager",
+    "meaning": "نوجوان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My son is a teenager now.",
+        "persian": "پسرم الان نوجوان است."
+      }
+    ],
+    "miniContext": "My son is a teenager now.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "thin",
+    "meaning": "لاغر",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is tall and thin.",
+        "persian": "او قد بلند و لاغر است."
+      }
+    ],
+    "miniContext": "He is tall and thin.",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "weigh",
+    "meaning": "وزن کردن (داشتن)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How much do you weigh?",
+        "persian": "وزن تو چقدر است؟"
+      }
+    ],
+    "miniContext": "How much do you weigh?",
+    "icon": "🧑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-11",
+    "word": "weight",
+    "meaning": "وزن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He wants to lose weight.",
+        "persian": "او می‌خواهد وزن کم کند."
+      }
+    ],
+    "miniContext": "He wants to lose weight.",
+    "icon": "🧑"
+  }
+]

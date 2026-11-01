@@ -1,0 +1,208 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "build",
+    "meaning": "ساختن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They are building a new school.",
+        "persian": "آن‌ها یک مدرسه جدید می‌سازند."
+      }
+    ],
+    "miniContext": "They are building a new school.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "cause",
+    "meaning": "علت، باعث شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Heavy rain caused the flood.",
+        "persian": "باران شدید باعث سیل شد."
+      }
+    ],
+    "miniContext": "Heavy rain caused the flood.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "gas",
+    "meaning": "گاز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We cook with gas at home.",
+        "persian": "ما در خانه با گاز غذا می‌پزیم."
+      }
+    ],
+    "miniContext": "We cook with gas at home.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "government",
+    "meaning": "دولت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The government built a new hospital.",
+        "persian": "دولت یک بیمارستان جدید ساخت."
+      }
+    ],
+    "miniContext": "The government built a new hospital.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "increase (n, v)",
+    "meaning": "افزایش، افزایش دادن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "rise"
+    ],
+    "examples": [
+      {
+        "english": "Prices increase every year.",
+        "persian": "قیمت‌ها هر سال افزایش می‌یابد."
+      }
+    ],
+    "miniContext": "Prices increase every year.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "land (n)",
+    "meaning": "زمین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They own a lot of land.",
+        "persian": "آنها زمین زیادی دارند."
+      }
+    ],
+    "miniContext": "They own a lot of land.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "like (= similar to)",
+    "meaning": "شبیه",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She looks like her mother.",
+        "persian": "او شبیه مادرش است."
+      }
+    ],
+    "miniContext": "She looks like her mother.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "petrol",
+    "meaning": "بنزین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to buy some petrol.",
+        "persian": "باید کمی بنزین بخریم."
+      }
+    ],
+    "miniContext": "We need to buy some petrol.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "pollution",
+    "meaning": "آلودگی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Air pollution is a big problem in cities.",
+        "persian": "آلودگی هوا مشکل بزرگی در شهرها است."
+      }
+    ],
+    "miniContext": "Air pollution is a big problem in cities.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "recycle",
+    "meaning": "بازیافت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We recycle paper and plastic.",
+        "persian": "ما کاغذ و پلاستیک را بازیافت می‌کنیم."
+      }
+    ],
+    "miniContext": "We recycle paper and plastic.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "source",
+    "meaning": "منبع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sun is a source of energy.",
+        "persian": "خورشید یک منبع انرژی است."
+      }
+    ],
+    "miniContext": "The sun is a source of energy.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-34",
+    "word": "use",
+    "meaning": "استفاده کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I use your phone?",
+        "persian": "می‌توانم از تلفن تو استفاده کنم؟"
+      }
+    ],
+    "miniContext": "Can I use your phone?",
+    "icon": "🌍"
+  }
+]

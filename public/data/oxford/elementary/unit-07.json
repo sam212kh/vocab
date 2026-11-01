@@ -1,0 +1,367 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "accept",
+    "meaning": "پذیرفتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "agree to"
+    ],
+    "examples": [
+      {
+        "english": "I accept your invitation.",
+        "persian": "من دعوت تو را می‌پذیرم."
+      }
+    ],
+    "miniContext": "I accept your invitation.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "in the afternoon",
+    "meaning": "در بعدازظهر",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I usually study in the afternoon.",
+        "persian": "من معمولا بعدازظهر مطالعه می‌کنم."
+      }
+    ],
+    "miniContext": "I usually study in the afternoon.",
+    "icon": "🌇"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "a.m.",
+    "meaning": "صبح (قبل از ظهر)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The train leaves at 7 a.m.",
+        "persian": "قطار ساعت ۷ صبح حرکت می‌کند."
+      }
+    ],
+    "miniContext": "The train leaves at 7 a.m.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "at midnight",
+    "meaning": "در نیمه‌شب",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We arrived home at midnight.",
+        "persian": "ما نیمه‌شب به خانه رسیدیم."
+      }
+    ],
+    "miniContext": "We arrived home at midnight.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "at night",
+    "meaning": "در شب",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like reading at night.",
+        "persian": "من شب‌ها دوست دارم کتاب بخوانم."
+      }
+    ],
+    "miniContext": "I like reading at night.",
+    "icon": "🌙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "fill in (a form)",
+    "meaning": "فرم را پر کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please fill in this form.",
+        "persian": "لطفاً این فرم را پر کنید."
+      }
+    ],
+    "miniContext": "Please fill in this form.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "half past (one, etc.)",
+    "meaning": "و نیم (ساعت)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's half past one.",
+        "persian": "ساعت یک و نیم است."
+      }
+    ],
+    "miniContext": "It's half past one.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "just before/after",
+    "meaning": "کمی قبل/بعد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I arrived just before six.",
+        "persian": "کمی قبل از شش رسیدم."
+      }
+    ],
+    "miniContext": "I arrived just before six.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "midday",
+    "meaning": "ظهر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "noon"
+    ],
+    "examples": [
+      {
+        "english": "We'll meet at midday.",
+        "persian": "ما ظهر همدیگر را می‌بینیم."
+      }
+    ],
+    "miniContext": "We'll meet at midday.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "midnight",
+    "meaning": "نیمه‌شب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The party ends at midnight.",
+        "persian": "مهمانی نیمه‌شب تمام می‌شود."
+      }
+    ],
+    "miniContext": "The party ends at midnight.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "minutes past/to",
+    "meaning": "دقیقه مانده/گذشته از ساعت",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's ten minutes past six.",
+        "persian": "ساعت شش و ده دقیقه است."
+      }
+    ],
+    "miniContext": "It's ten minutes past six.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "morning (as in \"in the morning\")",
+    "meaning": "صبح",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I study in the morning.",
+        "persian": "من صبح مطالعه می‌کنم."
+      }
+    ],
+    "miniContext": "I study in the morning.",
+    "icon": "🌅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "nearly",
+    "meaning": "تقریبا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "almost"
+    ],
+    "examples": [
+      {
+        "english": "It's nearly six o'clock.",
+        "persian": "تقریبا ساعت شش است."
+      }
+    ],
+    "miniContext": "It's nearly six o'clock.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "night (as in \"at night\")",
+    "meaning": "شب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sleep at night.",
+        "persian": "من شب‌ها می‌خوابم."
+      }
+    ],
+    "miniContext": "I sleep at night.",
+    "icon": "🌙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "noon",
+    "meaning": "ظهر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "midday"
+    ],
+    "examples": [
+      {
+        "english": "We'll meet at noon.",
+        "persian": "ما ظهر همدیگر را می‌بینیم."
+      }
+    ],
+    "miniContext": "We'll meet at noon.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "o'clock",
+    "meaning": "(دقیقاً) فلان ساعت",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's six o'clock.",
+        "persian": "ساعت شش است."
+      }
+    ],
+    "miniContext": "It's six o'clock.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "past (half past)",
+    "meaning": "و نیم (در بیان ساعت)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's half past three.",
+        "persian": "ساعت سه و نیم است."
+      }
+    ],
+    "miniContext": "It's half past three.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "p.m.",
+    "meaning": "بعدازظهر",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop closes at 6 p.m.",
+        "persian": "مغازه ساعت شش بعدازظهر بسته می‌شود."
+      }
+    ],
+    "miniContext": "The shop closes at 6 p.m.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "quarter (to/past)",
+    "meaning": "ربع (ساعت)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a quarter past five.",
+        "persian": "ساعت پنج و ربع است."
+      }
+    ],
+    "miniContext": "It's a quarter past five.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "What time is it?",
+    "meaning": "ساعت چند است؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Excuse me, what time is it?",
+        "persian": "ببخشید، ساعت چند است؟"
+      }
+    ],
+    "miniContext": "Excuse me, what time is it?",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-7",
+    "word": "What's the time?",
+    "meaning": "ساعت چند است؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the time now?",
+        "persian": "الان ساعت چند است؟"
+      }
+    ],
+    "miniContext": "What's the time now?",
+    "icon": "🕐"
+  }
+]

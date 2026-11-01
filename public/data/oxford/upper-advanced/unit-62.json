@@ -1,0 +1,361 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "deserve sth",
+    "meaning": "سزاوار بودن، شایسته‌ی چیزی بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Celebrities deserve privacy.",
+        "persian": "افراد مشهور سزاوار حریم خصوصی هستند."
+      }
+    ],
+    "miniContext": "Celebrities deserve privacy.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "privacy",
+    "meaning": "حریم خصوصی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A survey was conducted on privacy and the media.",
+        "persian": "نظرسنجی‌ای درباره‌ی حریم خصوصی و رسانه انجام شد."
+      }
+    ],
+    "miniContext": "A survey was conducted on privacy and the media.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "conduct sth",
+    "meaning": "انجام دادن (بررسی/نظرسنجی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "carry out"
+    ],
+    "examples": [
+      {
+        "english": "A survey conducted on privacy and the media has revealed interesting findings.",
+        "persian": "نظرسنجی‌ای که درباره‌ی حریم خصوصی و رسانه انجام شد، یافته‌های جالبی را آشکار کرد."
+      }
+    ],
+    "miniContext": "A survey conducted on privacy and the media has revealed interesting findings.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "reveal sth",
+    "meaning": "آشکار کردن، فاش کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The survey has revealed that most people think there should be little coverage of celebrities' private lives.",
+        "persian": "نظرسنجی نشان داده است که بیشتر مردم فکر می‌کنند باید پوشش خبری کمی از زندگی خصوصی افراد مشهور باشد."
+      }
+    ],
+    "miniContext": "The survey has revealed that most people think there should be little coverage of celebrities' private lives.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "coverage",
+    "meaning": "پوشش خبری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There should be little or no coverage of the private lives of celebrities.",
+        "persian": "باید پوشش خبری کمی یا هیچ درباره‌ی زندگی خصوصی افراد مشهور وجود داشته باشد."
+      }
+    ],
+    "miniContext": "There should be little or no coverage of the private lives of celebrities.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "contrast (with sth)",
+    "meaning": "تضاد داشتن (با چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This contrasts strongly with the huge success of celebrity magazines.",
+        "persian": "این امر در تضاد شدید با موفقیت بزرگ مجلات مشاهیر است."
+      }
+    ],
+    "miniContext": "This contrasts strongly with the huge success of celebrity magazines.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "in the public eye",
+    "meaning": "شناخته‌شده برای عموم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Celebrity magazines go into great detail about the lives of people in the public eye.",
+        "persian": "مجلات مشاهیر با جزئیات زیادی به زندگی افراد شناخته‌شده می‌پردازند."
+      }
+    ],
+    "miniContext": "Celebrity magazines go into great detail about the lives of people in the public eye.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "emerge",
+    "meaning": "آشکار شدن، مشخص شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It also emerged from the findings that people did not want politicians' private lives exposed.",
+        "persian": "از یافته‌ها همچنین مشخص شد که مردم نمی‌خواهند زندگی خصوصی سیاستمداران فاش شود."
+      }
+    ],
+    "miniContext": "It also emerged from the findings that people did not want politicians' private lives exposed.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "findings",
+    "meaning": "یافته‌ها",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It emerged from the findings that people did not want politicians' private lives exposed.",
+        "persian": "از یافته‌ها مشخص شد که مردم نمی‌خواهند زندگی خصوصی سیاستمداران فاش شود."
+      }
+    ],
+    "miniContext": "It emerged from the findings that people did not want politicians' private lives exposed.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "expose sth",
+    "meaning": "فاش کردن، برملا کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People did not want politicians to have their private lives exposed.",
+        "persian": "مردم نمی‌خواستند زندگی خصوصی سیاستمداران فاش شود."
+      }
+    ],
+    "miniContext": "People did not want politicians to have their private lives exposed.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "tabloid",
+    "meaning": "روزنامه‌ی زرد (عامه‌پسند)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Certain tabloids were thought to be particularly guilty of prying into the lives of famous people.",
+        "persian": "برخی روزنامه‌های زرد را به‌ویژه مقصر فضولی در زندگی افراد مشهور می‌دانستند."
+      }
+    ],
+    "miniContext": "Certain tabloids were thought to be particularly guilty of prying into the lives of famous people.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "pry (into sth)",
+    "meaning": "فضولی کردن (در زندگی خصوصی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Certain tabloids were particularly guilty of prying into the lives of famous people.",
+        "persian": "برخی روزنامه‌های زرد به‌ویژه مقصر فضولی در زندگی افراد مشهور بودند."
+      }
+    ],
+    "miniContext": "Certain tabloids were particularly guilty of prying into the lives of famous people.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "allegedly",
+    "meaning": "به گفته‌ی برخی، ادعاً",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rocky allegedly back in rehab.",
+        "persian": "گفته می‌شود راکی دوباره به مرکز ترک اعتیاد بازگشته است."
+      }
+    ],
+    "miniContext": "Rocky allegedly back in rehab.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "rehab",
+    "meaning": "مرکز ترک اعتیاد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rocky allegedly back in rehab.",
+        "persian": "گفته می‌شود راکی دوباره به مرکز ترک اعتیاد بازگشته است."
+      }
+    ],
+    "miniContext": "Rocky allegedly back in rehab.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "rock sb/sth",
+    "meaning": "شدیداً شوکه کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Football club rocked by scandal.",
+        "persian": "باشگاه فوتبال با رسوایی شوکه شد."
+      }
+    ],
+    "miniContext": "Football club rocked by scandal.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "scandal",
+    "meaning": "رسوایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Football club rocked by scandal.",
+        "persian": "باشگاه فوتبال با رسوایی شوکه شد."
+      }
+    ],
+    "miniContext": "Football club rocked by scandal.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "rumour",
+    "meaning": "شایعه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rumours of custody battle over baby Sahara.",
+        "persian": "شایعاتی درباره‌ی نبرد حضانت بر سر نوزاد سارا."
+      }
+    ],
+    "miniContext": "Rumours of custody battle over baby Sahara.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "custody",
+    "meaning": "حضانت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rumours of custody battle over baby Sahara.",
+        "persian": "شایعاتی درباره‌ی نبرد حضانت بر سر نوزاد سارا."
+      }
+    ],
+    "miniContext": "Rumours of custody battle over baby Sahara.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "fellow (celebs)",
+    "meaning": "هم‌قطار، همتا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Fellow celebs rally to Tom's defence.",
+        "persian": "همتایان مشهورش به دفاع از تام برمی‌خیزند."
+      }
+    ],
+    "miniContext": "Fellow celebs rally to Tom's defence.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "rally to sb's defence",
+    "meaning": "برای دفاع از کسی گرد هم آمدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Fellow celebs rally to Tom's defence.",
+        "persian": "همتایان مشهورش به دفاع از تام برمی‌خیزند."
+      }
+    ],
+    "miniContext": "Fellow celebs rally to Tom's defence.",
+    "icon": "🌟"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-62",
+    "word": "fortune",
+    "meaning": "ثروت کلان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Famous celeb loses a fortune!",
+        "persian": "فرد مشهور ثروت کلانی را از دست می‌دهد!"
+      }
+    ],
+    "miniContext": "Famous celeb loses a fortune!",
+    "icon": "🌟"
+  }
+]

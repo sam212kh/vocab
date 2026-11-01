@@ -1,0 +1,277 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "hammer",
+    "meaning": "چکش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use a hammer to bang a nail into the wall.",
+        "persian": "از چکش برای کوبیدن میخ به دیوار استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use a hammer to bang a nail into the wall.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "drill",
+    "meaning": "دریل، مته برقی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use a drill to make a hole.",
+        "persian": "از دریل برای سوراخ کردن استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use a drill to make a hole.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "needle",
+    "meaning": "سوزن",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use a needle when you're sewing.",
+        "persian": "موقع خیاطی از سوزن استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use a needle when you're sewing.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "scissors",
+    "meaning": "قیچی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Cut the fabric with scissors.",
+        "persian": "پارچه را با قیچی ببر."
+      }
+    ],
+    "miniContext": "Cut the fabric with scissors.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "string",
+    "meaning": "نخ، ریسمان",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use string to tie things together.",
+        "persian": "از نخ برای بستن چیزها به هم استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use string to tie things together.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "rope",
+    "meaning": "طناب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We used a piece of rope to tie the boat to the harbour wall.",
+        "persian": "از یک تکه طناب برای بستن قایق به دیوار بندرگاه استفاده کردیم."
+      }
+    ],
+    "miniContext": "We used a piece of rope to tie the boat to the harbour wall.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "tape",
+    "meaning": "چسب‌نواری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use tape to stick things together.",
+        "persian": "از چسب‌نواری برای چسباندن چیزها به هم استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use tape to stick things together.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "glue",
+    "meaning": "چسب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She stuck the parcel together with glue.",
+        "persian": "او بسته را با چسب به هم چسباند."
+      }
+    ],
+    "miniContext": "She stuck the parcel together with glue.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "mess",
+    "meaning": "آشفتگی، بی‌نظمی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The flat is such a mess.",
+        "persian": "آپارتمان خیلی به‌هم‌ریخته است."
+      }
+    ],
+    "miniContext": "The flat is such a mess.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "mud",
+    "meaning": "گل، لجن",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's mud on the floor.",
+        "persian": "روی زمین گل است."
+      }
+    ],
+    "miniContext": "There's mud on the floor.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "dust",
+    "meaning": "گرد و غبار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The cupboards are covered in dust.",
+        "persian": "کمدها پر از گرد و غبار هستند."
+      }
+    ],
+    "miniContext": "The cupboards are covered in dust.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "decorate",
+    "meaning": "تزیین کردن، رنگ‌آمیزی کردن (خانه)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to decorate the hall and stairs.",
+        "persian": "باید راهرو و پله‌ها را رنگ‌آمیزی کنیم."
+      }
+    ],
+    "miniContext": "We need to decorate the hall and stairs.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "tidy sth up",
+    "meaning": "مرتب کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to tidy up before guests arrive.",
+        "persian": "قبل از آمدن مهمان‌ها باید مرتب کنیم."
+      }
+    ],
+    "miniContext": "We need to tidy up before guests arrive.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "wipe",
+    "meaning": "پاک کردن (با دستمال)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wipe the furniture with a damp cloth.",
+        "persian": "اثاثیه را با یک پارچه‌ی مرطوب پاک کن."
+      }
+    ],
+    "miniContext": "Wipe the furniture with a damp cloth.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "get rid of sth",
+    "meaning": "خلاص شدن از چیزی، دور انداختن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We never watch the TV, so let's get rid of it.",
+        "persian": "ما هیچوقت تلویزیون نگاه نمی‌کنیم، پس بیا از شرش خلاص شویم."
+      }
+    ],
+    "miniContext": "We never watch the TV, so let's get rid of it.",
+    "icon": "🧹"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-42",
+    "word": "mend",
+    "meaning": "تعمیر کردن (معمولا لباس)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "repair",
+      "fix"
+    ],
+    "examples": [
+      {
+        "english": "My shoes need mending.",
+        "persian": "کفش‌هایم نیاز به تعمیر دارند."
+      }
+    ],
+    "miniContext": "My shoes need mending.",
+    "icon": "🧹"
+  }
+]

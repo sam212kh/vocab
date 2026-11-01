@@ -1,0 +1,308 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "short (of sth)",
+    "meaning": "کمبود چیزی داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We're short of milk, so he went to get some.",
+        "persian": "شیرمان کم است، برای همین او رفت تا کمی بخرد."
+      }
+    ],
+    "miniContext": "We're short of milk, so he went to get some.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "go off (to do sth)",
+    "meaning": "جایی رفتن (برای انجام کاری)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He went off to get some milk.",
+        "persian": "رفت تا کمی شیر بخرد."
+      }
+    ],
+    "miniContext": "He went off to get some milk.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "any minute (now)",
+    "meaning": "خیلی زود، هر لحظه ممکن است",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He'll be back any minute.",
+        "persian": "هر لحظه ممکن است برگردد."
+      }
+    ],
+    "miniContext": "He'll be back any minute.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "give sb a lift",
+    "meaning": "کسی را با ماشین رساندن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you give us all a lift?",
+        "persian": "می‌تونی همه‌مونو برسونی؟"
+      }
+    ],
+    "miniContext": "Can you give us all a lift?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "stick",
+    "meaning": "جایی گذاشتن، قرار دادن (غیررسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can stick your stuff in the boot.",
+        "persian": "می‌تونی وسایلت رو تو صندوق عقب بذاری."
+      }
+    ],
+    "miniContext": "You can stick your stuff in the boot.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "I bet (that)...",
+    "meaning": "شرط می‌بندم که... (مطمئنم)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bet Elsa will be exhausted after yesterday.",
+        "persian": "شرط می‌بندم السا بعد از دیروز خسته خواهد بود."
+      }
+    ],
+    "miniContext": "I bet Elsa will be exhausted after yesterday.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "it's not like sb",
+    "meaning": "این رفتار شبیه کسی نیست، غیرمعمول است",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's not like her to walk six miles.",
+        "persian": "اصلا به او نمی‌خورد که شش مایل پیاده‌روی کند."
+      }
+    ],
+    "miniContext": "It's not like her to walk six miles.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "no doubt",
+    "meaning": "بدون شک، احتمالا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "No doubt she'll tell us what made her decide.",
+        "persian": "بدون شک به ما می‌گوید چه چیزی باعث تصمیمش شد."
+      }
+    ],
+    "miniContext": "No doubt she'll tell us what made her decide.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "be up to sb",
+    "meaning": "به تصمیم کسی بستگی داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's up to her really, isn't it?",
+        "persian": "واقعا به تصمیم خودش بستگی داره، نه؟"
+      }
+    ],
+    "miniContext": "It's up to her really, isn't it?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "whether (or not)",
+    "meaning": "اینکه آیا... یا نه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't know whether or not she has any plans.",
+        "persian": "نمی‌دونم آیا او برنامه‌ای داره یا نه."
+      }
+    ],
+    "miniContext": "I don't know whether or not she has any plans.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "make it (be present)",
+    "meaning": "موفق به حضور شدن، رسیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's not going to make it, is he?",
+        "persian": "او نمی‌تونه برسه، نه؟"
+      }
+    ],
+    "miniContext": "He's not going to make it, is he?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "disaster",
+    "meaning": "فاجعه کامل (غیررسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The concert was an absolute disaster without him.",
+        "persian": "کنسرت بدون او یک فاجعه‌ی کامل بود."
+      }
+    ],
+    "miniContext": "The concert was an absolute disaster without him.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "turn up",
+    "meaning": "سروکله‌اش پیدا شدن، آمدن (غیرمنتظره)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't worry. He'll turn up - he needs the money.",
+        "persian": "نگران نباش. پیداش می‌شه - به پول نیاز داره."
+      }
+    ],
+    "miniContext": "Don't worry. He'll turn up - he needs the money.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "reckon",
+    "meaning": "فکر کردن، نظر داشتن (غیررسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you reckon we'll still get tickets?",
+        "persian": "فکر می‌کنی هنوز می‌تونیم بلیت بگیریم؟"
+      }
+    ],
+    "miniContext": "Do you reckon we'll still get tickets?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "be bound to do/be sth",
+    "meaning": "حتما اتفاق خواهد افتاد، قطعی بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We're bound to - there's still three weeks to go.",
+        "persian": "حتما می‌گیریم - هنوز سه هفته مونده."
+      }
+    ],
+    "miniContext": "We're bound to - there's still three weeks to go.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "to go",
+    "meaning": "باقی‌مانده، تا پایان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's still three weeks to go.",
+        "persian": "هنوز سه هفته باقی مونده."
+      }
+    ],
+    "miniContext": "There's still three weeks to go.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "make a mess of sth",
+    "meaning": "خراب کردن، نابود کردن کاری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bet Kian makes a mess of organizing this festival.",
+        "persian": "شرط می‌بندم کیان برگزاری این جشنواره رو خراب می‌کنه."
+      }
+    ],
+    "miniContext": "I bet Kian makes a mess of organizing this festival.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-81",
+    "word": "you never know",
+    "meaning": "هیچ‌وقت نمی‌شه مطمئن بود (ممکنه اتفاق خوبی بیفته)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "True, but you never know, he may surprise us.",
+        "persian": "درسته، ولی هیچ‌وقت معلوم نیست، ممکنه غافلگیرمون کنه."
+      }
+    ],
+    "miniContext": "True, but you never know, he may surprise us.",
+    "icon": "💬"
+  }
+]

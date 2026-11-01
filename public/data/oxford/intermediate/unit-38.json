@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "in a hurry",
+    "meaning": "عجله داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Martin was in a hurry, so he couldn't stop for lunch.",
+        "persian": "مارتین عجله داشت، پس نتوانست برای ناهار بایستد."
+      }
+    ],
+    "miniContext": "Martin was in a hurry, so he couldn't stop for lunch.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "on time",
+    "meaning": "سر وقت، به موقع",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The students are usually here on time.",
+        "persian": "دانش‌آموزها معمولا سر وقت اینجا هستند."
+      }
+    ],
+    "miniContext": "The students are usually here on time.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "in time (for sth)",
+    "meaning": "به موقع رسیدن (برای کاری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll be in time to walk to the church.",
+        "persian": "به موقع می‌رسم که تا کلیسا پیاده بروم."
+      }
+    ],
+    "miniContext": "I'll be in time to walk to the church.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "for long",
+    "meaning": "برای مدت طولانی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Seb won't be out for long.",
+        "persian": "سب برای مدت طولانی بیرون نمی‌ماند."
+      }
+    ],
+    "miniContext": "Seb won't be out for long.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "by the time",
+    "meaning": "تا زمانی که، وقتی که",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "By the time I got there, the shop was closed.",
+        "persian": "تا وقتی که من رسیدم، مغازه بسته بود."
+      }
+    ],
+    "miniContext": "By the time I got there, the shop was closed.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "for a while",
+    "meaning": "برای مدتی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He went to the beach, so he'll be gone for a while.",
+        "persian": "او رفت ساحل، پس برای مدتی نیست."
+      }
+    ],
+    "miniContext": "He went to the beach, so he'll be gone for a while.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "for ages",
+    "meaning": "برای مدت خیلی طولانی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't seen my next-door neighbour for ages.",
+        "persian": "خیلی وقت است همسایه‌ام را ندیده‌ام."
+      }
+    ],
+    "miniContext": "I haven't seen my next-door neighbour for ages.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "at the time",
+    "meaning": "در آن زمان",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jo told me she was getting married. At the time I was very surprised.",
+        "persian": "جو به من گفت که دارد ازدواج می‌کند. در آن زمان خیلی تعجب کردم."
+      }
+    ],
+    "miniContext": "Jo told me she was getting married. At the time I was very surprised.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "in the meantime",
+    "meaning": "در این فاصله",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "meanwhile"
+    ],
+    "examples": [
+      {
+        "english": "They can't move in yet. In the meantime, they'll live with Jo's parents.",
+        "persian": "هنوز نمی‌توانند نقل مکان کنند. در این فاصله با والدین جو زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "They can't move in yet. In the meantime, they'll live with Jo's parents.",
+    "icon": "🕐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-38",
+    "word": "at last",
+    "meaning": "بالاخره، سرانجام",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We spent all day looking, then at last we found it.",
+        "persian": "تمام روز را به دنبالش گشتیم، بالاخره پیدایش کردیم."
+      }
+    ],
+    "miniContext": "We spent all day looking, then at last we found it.",
+    "icon": "🕐"
+  }
+]

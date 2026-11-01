@@ -1,0 +1,244 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "report (a crime)",
+    "meaning": "گزارش دادن (جرم)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A crime is usually reported by the victim.",
+        "persian": "معمولا جرم توسط قربانی گزارش داده می‌شود."
+      }
+    ],
+    "miniContext": "A crime is usually reported by the victim.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "victim",
+    "meaning": "قربانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The victim told the police what happened.",
+        "persian": "قربانی به پلیس گفت چه اتفاقی افتاد."
+      }
+    ],
+    "miniContext": "The victim told the police what happened.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "investigate",
+    "meaning": "تحقیق کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police investigate the crime.",
+        "persian": "پلیس جرم را تحقیق می‌کند."
+      }
+    ],
+    "miniContext": "The police investigate the crime.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "witness",
+    "meaning": "شاهد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Witnesses told the police what they saw.",
+        "persian": "شاهدان آنچه را دیدند به پلیس گفتند."
+      }
+    ],
+    "miniContext": "Witnesses told the police what they saw.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "take place",
+    "meaning": "رخ دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "happen"
+    ],
+    "examples": [
+      {
+        "english": "They took photos where the crime took place.",
+        "persian": "در محلی که جرم رخ داد عکس گرفتند."
+      }
+    ],
+    "miniContext": "They took photos where the crime took place.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "responsible (for sth)",
+    "meaning": "مسئول (چیزی)، مقصر",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They caught the person responsible for the crime.",
+        "persian": "آن‌ها فرد مسئول جرم را دستگیر کردند."
+      }
+    ],
+    "miniContext": "They caught the person responsible for the crime.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "arrest",
+    "meaning": "دستگیر کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police arrested him immediately.",
+        "persian": "پلیس فورا او را دستگیر کرد."
+      }
+    ],
+    "miniContext": "The police arrested him immediately.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "charge (sb with sth)",
+    "meaning": "متهم کردن (کسی به چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Two men were charged with robbery.",
+        "persian": "دو مرد به سرقت متهم شدند."
+      }
+    ],
+    "miniContext": "Two men were charged with robbery.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "court",
+    "meaning": "دادگاه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She will appear in court on Monday.",
+        "persian": "او دوشنبه در دادگاه حاضر خواهد شد."
+      }
+    ],
+    "miniContext": "She will appear in court on Monday.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "evidence",
+    "meaning": "مدرک، شواهد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police carried out a detailed investigation to find evidence.",
+        "persian": "پلیس برای یافتن مدرک یک تحقیق دقیق انجام داد."
+      }
+    ],
+    "miniContext": "The police carried out a detailed investigation to find evidence.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "trial",
+    "meaning": "محاکمه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A man was being tried for the crime.",
+        "persian": "یک مرد برای آن جرم محاکمه می‌شد."
+      }
+    ],
+    "miniContext": "A man was being tried for the crime.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "innocent",
+    "meaning": "بی‌گناه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "guilty (opp)"
+    ],
+    "examples": [
+      {
+        "english": "The trial decides whether someone is innocent or guilty.",
+        "persian": "محاکمه مشخص می‌کند فرد بی‌گناه است یا گناهکار."
+      }
+    ],
+    "miniContext": "The trial decides whether someone is innocent or guilty.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "punishment",
+    "meaning": "مجازات",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The judge decides the correct punishment for the crime.",
+        "persian": "قاضی مجازات مناسب برای جرم را تعیین می‌کند."
+      }
+    ],
+    "miniContext": "The judge decides the correct punishment for the crime.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-49",
+    "word": "jury",
+    "meaning": "هیئت منصفه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The jury decided that the person was guilty.",
+        "persian": "هیئت منصفه تصمیم گرفت که آن فرد گناهکار است."
+      }
+    ],
+    "miniContext": "The jury decided that the person was guilty.",
+    "icon": "⚖️"
+  }
+]

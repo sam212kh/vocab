@@ -1,0 +1,193 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "candy",
+    "meaning": "آب‌نبات (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "sweets (British)"
+    ],
+    "examples": [
+      {
+        "english": "Have a candy. - No, thanks, I don't like sweet things.",
+        "persian": "یک آب‌نبات بردار. - نه ممنون، شیرینی دوست ندارم."
+      }
+    ],
+    "miniContext": "Have a candy. - No, thanks, I don't like sweet things.",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "cell phone",
+    "meaning": "تلفن همراه (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "mobile phone (British)"
+    ],
+    "examples": [
+      {
+        "english": "What's your cell phone number?",
+        "persian": "شماره‌ی موبایلت چیست؟"
+      }
+    ],
+    "miniContext": "What's your cell phone number?",
+    "icon": "📱"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "elevator",
+    "meaning": "آسانسور (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "lift (British)"
+    ],
+    "examples": [
+      {
+        "english": "Let's take the elevator.",
+        "persian": "بیا با آسانسور برویم."
+      }
+    ],
+    "miniContext": "Let's take the elevator.",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "truck",
+    "meaning": "کامیون (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "lorry (British)"
+    ],
+    "examples": [
+      {
+        "english": "He drives a big truck.",
+        "persian": "او یک کامیون بزرگ می‌راند."
+      }
+    ],
+    "miniContext": "He drives a big truck.",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "gasoline",
+    "meaning": "بنزین (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "petrol (British)"
+    ],
+    "examples": [
+      {
+        "english": "We need more gasoline.",
+        "persian": "به بنزین بیشتری نیاز داریم."
+      }
+    ],
+    "miniContext": "We need more gasoline.",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "vacation",
+    "meaning": "تعطیلات (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "holiday (British)"
+    ],
+    "examples": [
+      {
+        "english": "Where did you go for your last vacation?",
+        "persian": "آخرین تعطیلاتت را کجا رفتی؟"
+      }
+    ],
+    "miniContext": "Where did you go for your last vacation?",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "sidewalk",
+    "meaning": "پیاده‌رو (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "pavement (British)"
+    ],
+    "examples": [
+      {
+        "english": "We can't use the sidewalk here.",
+        "persian": "اینجا نمی‌توانیم از پیاده‌رو استفاده کنیم."
+      }
+    ],
+    "miniContext": "We can't use the sidewalk here.",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "subway",
+    "meaning": "مترو (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "underground (British)"
+    ],
+    "examples": [
+      {
+        "english": "How often do you use the subway?",
+        "persian": "چند وقت یک‌بار از مترو استفاده می‌کنی؟"
+      }
+    ],
+    "miniContext": "How often do you use the subway?",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "movie theater",
+    "meaning": "سینما (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "cinema (British)"
+    ],
+    "examples": [
+      {
+        "english": "How far is your nearest movie theater?",
+        "persian": "نزدیک‌ترین سینما چقدر از تو دور است؟"
+      }
+    ],
+    "miniContext": "How far is your nearest movie theater?",
+    "icon": "🇺🇸"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-100",
+    "word": "attorney",
+    "meaning": "وکیل (آمریکایی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "lawyer",
+      "barrister (British)"
+    ],
+    "examples": [
+      {
+        "english": "Have you ever needed to use an attorney?",
+        "persian": "تا به حال به وکیل نیاز پیدا کرده‌ای؟"
+      }
+    ],
+    "miniContext": "Have you ever needed to use an attorney?",
+    "icon": "🇺🇸"
+  }
+]

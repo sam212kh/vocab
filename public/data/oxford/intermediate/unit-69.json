@@ -1,0 +1,227 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "data",
+    "meaning": "داده",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's information which is stored on your computer.",
+        "persian": "این اطلاعاتی است که روی کامپیوترت ذخیره می‌شود."
+      }
+    ],
+    "miniContext": "It's information which is stored on your computer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "search engine",
+    "meaning": "موتور جستجو",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The most popular search engine is Google.",
+        "persian": "محبوب‌ترین موتور جستجو گوگل است."
+      }
+    ],
+    "miniContext": "The most popular search engine is Google.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "network",
+    "meaning": "شبکه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A network is a set of connected computers.",
+        "persian": "شبکه مجموعه‌ای از کامپیوترهای به‌هم‌متصل است."
+      }
+    ],
+    "miniContext": "A network is a set of connected computers.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "username",
+    "meaning": "نام کاربری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's your username on Instagram?",
+        "persian": "نام کاربری‌ات در اینستاگرام چیست؟"
+      }
+    ],
+    "miniContext": "What's your username on Instagram?",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "log in / log out",
+    "meaning": "وارد شدن / خارج شدن (حساب کاربری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Always log out when you finish using banking websites.",
+        "persian": "همیشه بعد از استفاده از سایت‌های بانکی خارج شو."
+      }
+    ],
+    "miniContext": "Always log out when you finish using banking websites.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "software",
+    "meaning": "نرم‌افزار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Software is the programs used to operate a computer.",
+        "persian": "نرم‌افزار همان برنامه‌هایی است که برای اجرای کامپیوتر استفاده می‌شوند."
+      }
+    ],
+    "miniContext": "Software is the programs used to operate a computer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "app",
+    "meaning": "اپلیکیشن",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Which app do you use most on your phone?",
+        "persian": "کدام اپلیکیشن را بیشتر روی گوشی‌ات استفاده می‌کنی؟"
+      }
+    ],
+    "miniContext": "Which app do you use most on your phone?",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "freeze (screen)",
+    "meaning": "یخ زدن (صفحه)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My computer screen often freezes.",
+        "persian": "صفحه‌ی کامپیوترم اغلب یخ می‌زند."
+      }
+    ],
+    "miniContext": "My computer screen often freezes.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "connect (to sth)",
+    "meaning": "وصل کردن (به چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It wasn't connected to the power supply.",
+        "persian": "به منبع برق وصل نبود."
+      }
+    ],
+    "miniContext": "It wasn't connected to the power supply.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "charge (a battery)",
+    "meaning": "شارژ کردن (باتری)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to charge my phone.",
+        "persian": "باید گوشی‌ام را شارژ کنم."
+      }
+    ],
+    "miniContext": "I need to charge my phone.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "download",
+    "meaning": "دانلود کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "upload (opp)"
+    ],
+    "examples": [
+      {
+        "english": "I had to download some software.",
+        "persian": "مجبور شدم مقداری نرم‌افزار دانلود کنم."
+      }
+    ],
+    "miniContext": "I had to download some software.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "delete",
+    "meaning": "حذف کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "remove"
+    ],
+    "examples": [
+      {
+        "english": "I made a mistake and deleted a file.",
+        "persian": "اشتباهی کردم و یک فایل را حذف کردم."
+      }
+    ],
+    "miniContext": "I made a mistake and deleted a file.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-69",
+    "word": "update (verb)",
+    "meaning": "به‌روزرسانی کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You might need to update the app.",
+        "persian": "شاید لازم باشد اپلیکیشن را به‌روزرسانی کنی."
+      }
+    ],
+    "miniContext": "You might need to update the app.",
+    "icon": "🌐"
+  }
+]

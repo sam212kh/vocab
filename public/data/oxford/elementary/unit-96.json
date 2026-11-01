@@ -1,0 +1,189 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "a good chance",
+    "meaning": "شانس خوب",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a good chance it will rain tomorrow.",
+        "persian": "شانس خوبی هست که فردا باران بیاید."
+      }
+    ],
+    "miniContext": "There's a good chance it will rain tomorrow.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "good chance",
+    "meaning": "احتمال خوب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a good chance it will rain.",
+        "persian": "احتمال خوبی هست که باران بیاید."
+      }
+    ],
+    "miniContext": "There's a good chance it will rain.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "hope (I hope so/I hope not)",
+    "meaning": "امیدوار بودن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Will it rain?\" \"I hope not.\"",
+        "persian": "«باران می‌آید؟» «امیدوارم نیاید.»"
+      }
+    ],
+    "miniContext": "\"Will it rain?\" \"I hope not.\"",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "I don't think so",
+    "meaning": "فکر نمی‌کنم",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Will he come?\" \"I don't think so.\"",
+        "persian": "«او خواهد آمد؟» «فکر نمی‌کنم.»"
+      }
+    ],
+    "miniContext": "\"Will he come?\" \"I don't think so.\"",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "I think so",
+    "meaning": "فکر می‌کنم همین‌طور باشد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Is she at home?\" \"I think so.\"",
+        "persian": "«او خانه است؟» «فکر می‌کنم.»"
+      }
+    ],
+    "miniContext": "\"Is she at home?\" \"I think so.\"",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "likely (to)",
+    "meaning": "احتمالا، ممکن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's likely to rain today.",
+        "persian": "امروز احتمالا باران می‌آید."
+      }
+    ],
+    "miniContext": "It's likely to rain today.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "may",
+    "meaning": "ممکن است",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It may rain tomorrow.",
+        "persian": "ممکن است فردا باران بیاید."
+      }
+    ],
+    "miniContext": "It may rain tomorrow.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "possibility",
+    "meaning": "امکان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a possibility of rain tomorrow.",
+        "persian": "امکان بارش باران فردا هست."
+      }
+    ],
+    "miniContext": "There is a possibility of rain tomorrow.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "probably",
+    "meaning": "احتمالاً",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It will probably rain tomorrow.",
+        "persian": "احتمالاً فردا باران می‌آید."
+      }
+    ],
+    "miniContext": "It will probably rain tomorrow.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "think (I think so)",
+    "meaning": "گمان کنم همین‌طور باشد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Will it rain today? I think so.",
+        "persian": "امروز باران می‌آید؟ فکر کنم بله."
+      }
+    ],
+    "miniContext": "Will it rain today? I think so.",
+    "icon": "🤔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-96",
+    "word": "wedding",
+    "meaning": "عروسی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We went to my cousin's wedding.",
+        "persian": "ما به عروسی پسرعمویم رفتیم."
+      }
+    ],
+    "miniContext": "We went to my cousin's wedding.",
+    "icon": "🤔"
+  }
+]

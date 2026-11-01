@@ -1,0 +1,361 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "bank account",
+    "meaning": "حساب بانکی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I opened a new bank account.",
+        "persian": "من یک حساب بانکی جدید باز کردم."
+      }
+    ],
+    "miniContext": "I opened a new bank account.",
+    "icon": "🏦"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "bill",
+    "meaning": "صورت‌حساب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can we have the bill, please?",
+        "persian": "می‌شود صورت‌حساب را بیاورید؟"
+      }
+    ],
+    "miniContext": "Can we have the bill, please?",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "buy",
+    "meaning": "خریدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "purchase"
+    ],
+    "examples": [
+      {
+        "english": "I want to buy a new phone.",
+        "persian": "می‌خواهم یک گوشی جدید بخرم."
+      }
+    ],
+    "miniContext": "I want to buy a new phone.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "cash",
+    "meaning": "پول نقد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't have any cash with me.",
+        "persian": "هیچ پول نقدی همراهم ندارم."
+      }
+    ],
+    "miniContext": "I don't have any cash with me.",
+    "icon": "💵"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "free",
+    "meaning": "آزاد، رایگان",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The tickets are free for children.",
+        "persian": "بلیت‌ها برای بچه‌ها رایگان است."
+      }
+    ],
+    "miniContext": "The tickets are free for children.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "note (= money)",
+    "meaning": "اسکناس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He paid with a ten-dollar note.",
+        "persian": "او با یک اسکناس ده دلاری پرداخت کرد."
+      }
+    ],
+    "miniContext": "He paid with a ten-dollar note.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "off",
+    "meaning": "تخفیف / کم شده",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "These shoes are 50% off today.",
+        "persian": "این کفش‌ها امروز پنجاه درصد تخفیف دارند."
+      }
+    ],
+    "miniContext": "These shoes are 50% off today.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "online",
+    "meaning": "آنلاین؛ برخط",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I buy my clothes online.",
+        "persian": "من لباس‌هایم را آنلاین می‌خرم."
+      }
+    ],
+    "miniContext": "I buy my clothes online.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "pay",
+    "meaning": "پرداخت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How would you like to pay?",
+        "persian": "چطور می‌خواهید پرداخت کنید؟"
+      }
+    ],
+    "miniContext": "How would you like to pay?",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "per cent",
+    "meaning": "درصد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Fifty per cent of the students are here.",
+        "persian": "پنجاه درصد دانش‌آموزان اینجا هستند."
+      }
+    ],
+    "miniContext": "Fifty per cent of the students are here.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "pound",
+    "meaning": "پوند (واحد پول)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It costs ten pounds.",
+        "persian": "قیمتش ده پوند است."
+      }
+    ],
+    "miniContext": "It costs ten pounds.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "price",
+    "meaning": "قیمت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the price of this bag?",
+        "persian": "قیمت این کیف چقدر است؟"
+      }
+    ],
+    "miniContext": "What's the price of this bag?",
+    "icon": "💲"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "prize",
+    "meaning": "جایزه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She won the first prize.",
+        "persian": "او جایزه اول را برد."
+      }
+    ],
+    "miniContext": "She won the first prize.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "product",
+    "meaning": "محصول",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a new product in the shop.",
+        "persian": "این یک محصول جدید در مغازه است."
+      }
+    ],
+    "miniContext": "This is a new product in the shop.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "purse",
+    "meaning": "کیف پول",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She lost her purse in the park.",
+        "persian": "او کیف پولش را در پارک گم کرد."
+      }
+    ],
+    "miniContext": "She lost her purse in the park.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "sale(s)",
+    "meaning": "حراج؛ فروش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a big sale in that shop.",
+        "persian": "در آن مغازه یک حراج بزرگ هست."
+      }
+    ],
+    "miniContext": "There is a big sale in that shop.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "save (money)",
+    "meaning": "پس‌انداز کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm trying to save money this month.",
+        "persian": "این ماه سعی می‌کنم پول پس‌انداز کنم."
+      }
+    ],
+    "miniContext": "I'm trying to save money this month.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "sell",
+    "meaning": "فروختن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop sells fresh bread every day.",
+        "persian": "این مغازه هر روز نان تازه می‌فروشد."
+      }
+    ],
+    "miniContext": "The shop sells fresh bread every day.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "total",
+    "meaning": "کل، جمع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The total was fifty dollars.",
+        "persian": "جمع کل پنجاه دلار شد."
+      }
+    ],
+    "miniContext": "The total was fifty dollars.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "wallet",
+    "meaning": "کیف پول",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I lost my wallet yesterday.",
+        "persian": "دیروز کیف پولم را گم کردم."
+      }
+    ],
+    "miniContext": "I lost my wallet yesterday.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-27",
+    "word": "win",
+    "meaning": "بردن (در بازی/مسابقه)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our team won the match.",
+        "persian": "تیم ما مسابقه را برد."
+      }
+    ],
+    "miniContext": "Our team won the match.",
+    "icon": "💰"
+  }
+]

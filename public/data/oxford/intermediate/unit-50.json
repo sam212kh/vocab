@@ -1,0 +1,257 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "suffer from sth",
+    "meaning": "رنج بردن از چیزی (بیماری)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Fewer children now suffer from these diseases.",
+        "persian": "تعداد کمتری از بچه‌ها الان از این بیماری‌ها رنج می‌برند."
+      }
+    ],
+    "miniContext": "Fewer children now suffer from these diseases.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "asthma",
+    "meaning": "آسم",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The number of young people with asthma has increased.",
+        "persian": "تعداد جوانانی که آسم دارند افزایش یافته است."
+      }
+    ],
+    "miniContext": "The number of young people with asthma has increased.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "breathing difficulty",
+    "meaning": "مشکل تنفسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Doctors believe breathing difficulties are often caused by allergies.",
+        "persian": "پزشکان معتقدند مشکلات تنفسی اغلب ناشی از آلرژی‌ها است."
+      }
+    ],
+    "miniContext": "Doctors believe breathing difficulties are often caused by allergies.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "allergy (to sth)",
+    "meaning": "آلرژی (به چیزی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's got allergies to shellfish and nuts.",
+        "persian": "او به صدف‌دریایی و آجیل آلرژی دارد."
+      }
+    ],
+    "miniContext": "She's got allergies to shellfish and nuts.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "mental illness",
+    "meaning": "بیماری روانی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There has been an increase in mental health issues among the young.",
+        "persian": "افزایشی در مشکلات سلامت روان در میان جوانان بوده است."
+      }
+    ],
+    "miniContext": "There has been an increase in mental health issues among the young.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "issue",
+    "meaning": "مسئله",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Care for older people is a major issue.",
+        "persian": "مراقبت از سالمندان یک مسئله‌ی مهم است."
+      }
+    ],
+    "miniContext": "Care for older people is a major issue.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "treat (an illness)",
+    "meaning": "درمان کردن (بیماری)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Doctors treat many diseases with a variety of drugs.",
+        "persian": "پزشکان بسیاری از بیماری‌ها را با انواع داروها درمان می‌کنند."
+      }
+    ],
+    "miniContext": "Doctors treat many diseases with a variety of drugs.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "ageing",
+    "meaning": "پیر شدن، سالمند شدن",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "An ageing population creates social and economic problems.",
+        "persian": "یک جمعیت رو به سالمندی مشکلات اجتماعی و اقتصادی ایجاد می‌کند."
+      }
+    ],
+    "miniContext": "An ageing population creates social and economic problems.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "economic",
+    "meaning": "اقتصادی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our country has some serious economic problems.",
+        "persian": "کشورمان چند مشکل اقتصادی جدی دارد."
+      }
+    ],
+    "miniContext": "Our country has some serious economic problems.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "limit (verb)",
+    "meaning": "محدود کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have to limit how much we spend.",
+        "persian": "باید میزان خرجمان را محدود کنیم."
+      }
+    ],
+    "miniContext": "We have to limit how much we spend.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "care for sb",
+    "meaning": "مراقبت کردن از کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who cares for the elderly?",
+        "persian": "چه کسی از سالمندان مراقبت می‌کند؟"
+      }
+    ],
+    "miniContext": "Who cares for the elderly?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "the elderly",
+    "meaning": "سالمندان",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The government must help the elderly.",
+        "persian": "دولت باید به سالمندان کمک کند."
+      }
+    ],
+    "miniContext": "The government must help the elderly.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "save (money)",
+    "meaning": "پس‌انداز کردن (پول)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People should save more money for their old age.",
+        "persian": "مردم باید برای دوران پیری‌شان پول بیشتری پس‌انداز کنند."
+      }
+    ],
+    "miniContext": "People should save more money for their old age.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "tax",
+    "meaning": "مالیات",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Working people may have to pay higher taxes.",
+        "persian": "ممکن است افراد شاغل مجبور شوند مالیات بالاتری بپردازند."
+      }
+    ],
+    "miniContext": "Working people may have to pay higher taxes.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-50",
+    "word": "fit (healthy)",
+    "meaning": "سالم و قوی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Try to stay fit for as long as possible.",
+        "persian": "سعی کن تا جای ممکن سالم و قوی بمانی."
+      }
+    ],
+    "miniContext": "Try to stay fit for as long as possible.",
+    "icon": "🏥"
+  }
+]

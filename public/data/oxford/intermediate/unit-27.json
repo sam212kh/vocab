@@ -1,0 +1,267 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "cap",
+    "meaning": "کلاه لبه‌دار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's wearing a cap.",
+        "persian": "او کلاه لبه‌دار پوشیده است."
+      }
+    ],
+    "miniContext": "He's wearing a cap.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "patterned",
+    "meaning": "طرح‌دار",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "plain (opp)"
+    ],
+    "examples": [
+      {
+        "english": "She's got a patterned top on.",
+        "persian": "او یک تاپ طرح‌دار پوشیده است."
+      }
+    ],
+    "miniContext": "She's got a patterned top on.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "woollen",
+    "meaning": "پشمی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's wearing a woollen jacket.",
+        "persian": "او یک ژاکت پشمی پوشیده است."
+      }
+    ],
+    "miniContext": "He's wearing a woollen jacket.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "denim",
+    "meaning": "جین، دنیم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's wearing a denim skirt.",
+        "persian": "او یک دامن جین پوشیده است."
+      }
+    ],
+    "miniContext": "She's wearing a denim skirt.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "earrings",
+    "meaning": "گوشواره",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sarah's got earrings on.",
+        "persian": "سارا گوشواره به گوش دارد."
+      }
+    ],
+    "miniContext": "Sarah's got earrings on.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "striped",
+    "meaning": "راه‌راه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's wearing a striped cotton blouse.",
+        "persian": "او یک بلوز پنبه‌ای راه‌راه پوشیده است."
+      }
+    ],
+    "miniContext": "She's wearing a striped cotton blouse.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "necklace",
+    "meaning": "گردنبند",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sarah's wearing a necklace.",
+        "persian": "سارا گردنبند به گردن دارد."
+      }
+    ],
+    "miniContext": "Sarah's wearing a necklace.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "plain",
+    "meaning": "ساده، بدون طرح",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "patterned (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Logan's wearing a plain shirt.",
+        "persian": "لوگان یک پیراهن ساده پوشیده است."
+      }
+    ],
+    "miniContext": "Logan's wearing a plain shirt.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "raincoat",
+    "meaning": "بارانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If it's wet outside, you'll need your raincoat.",
+        "persian": "اگر بیرون خیس است، به بارانی‌ات نیاز داری."
+      }
+    ],
+    "miniContext": "If it's wet outside, you'll need your raincoat.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "gloves",
+    "meaning": "دستکش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Logan's got gloves on.",
+        "persian": "لوگان دستکش دست دارد."
+      }
+    ],
+    "miniContext": "Logan's got gloves on.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "tight",
+    "meaning": "تنگ، چسبان",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "baggy (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Do you prefer tight or baggy jeans?",
+        "persian": "شلوار جین تنگ را ترجیح می‌دهی یا گشاد؟"
+      }
+    ],
+    "miniContext": "Do you prefer tight or baggy jeans?",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "have sth on",
+    "meaning": "پوشیدن (چیزی به تن داشتن)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Gabby has got a cap on.",
+        "persian": "گبی یک کلاه به سر دارد."
+      }
+    ],
+    "miniContext": "Gabby has got a cap on.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "be dressed (in sth)",
+    "meaning": "لباس پوشیده بودن (با رنگ یا نوع خاص)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sarah's dressed in brown.",
+        "persian": "سارا لباس قهوه‌ای پوشیده است."
+      }
+    ],
+    "miniContext": "Sarah's dressed in brown.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "get dressed",
+    "meaning": "لباس پوشیدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "get undressed (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Sarah got dressed quickly this morning.",
+        "persian": "سارا امروز صبح سریع لباس پوشید."
+      }
+    ],
+    "miniContext": "Sarah got dressed quickly this morning.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-27",
+    "word": "do sth up",
+    "meaning": "بستن (دکمه یا زیپ لباس)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "undo (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Sarah did her blouse up.",
+        "persian": "سارا دکمه‌های بلوزش را بست."
+      }
+    ],
+    "miniContext": "Sarah did her blouse up.",
+    "icon": "👕"
+  }
+]

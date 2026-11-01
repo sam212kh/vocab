@@ -1,0 +1,395 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "socket",
+    "meaning": "پریز برق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can only use three-pin plugs in this socket.",
+        "persian": "فقط می‌توانم دوشاخه سه‌پین در این پریز استفاده کنم."
+      }
+    ],
+    "miniContext": "Socket",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "plug",
+    "meaning": "دوشاخه برق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can only use three-pin plugs in this socket.",
+        "persian": "فقط می‌توانم دوشاخه سه‌پین در این پریز استفاده کنم."
+      }
+    ],
+    "miniContext": "Plug",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "stool",
+    "meaning": "چهارپایه، صندلی بدون پشتی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't got any chairs in the kitchen, but you can sit on this stool.",
+        "persian": "هیچ صندلی در آشپزخانه ندارم، ولی می‌توانی روی این چهارپایه بنشینی."
+      }
+    ],
+    "miniContext": "Stool",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "doormat",
+    "meaning": "پادری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Could you wipe your feet on the doormat when you come in?",
+        "persian": "می‌شود موقع ورود پاهایت را روی پادری پاک کنی؟"
+      }
+    ],
+    "miniContext": "(Door)mat",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "hoover / vacuum cleaner",
+    "meaning": "جاروبرقی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Could you hoover the living room? There's some stuff on the carpet.",
+        "persian": "می‌شود اتاق نشیمن را جارو برقی بزنی؟ چیزهایی روی فرش ریخته."
+      }
+    ],
+    "miniContext": "Hoover / vacuum cleaner",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "ironing board",
+    "meaning": "میز اتو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The ironing board is in the cupboard.",
+        "persian": "میز اتو داخل کمد است."
+      }
+    ],
+    "miniContext": "Ironing board",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "(dust)bin",
+    "meaning": "سطل زباله",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Would you take that rubbish out and put it in the bin?",
+        "persian": "می‌شود آن آشغال را ببری و توی سطل بیندازی؟"
+      }
+    ],
+    "miniContext": "Would you take that rubbish out and put it in the bin?",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "smoke alarm",
+    "meaning": "هشداردهنده دود",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have a smoke alarm in the kitchen.",
+        "persian": "در آشپزخانه هشداردهنده دود داریم."
+      }
+    ],
+    "miniContext": "Smoke alarm",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "radiator",
+    "meaning": "رادیاتور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The central heating is working, but one radiator isn't enough for a big room.",
+        "persian": "بخاری مرکزی کار می‌کند، اما یک رادیاتور برای اتاق بزرگ کافی نیست."
+      }
+    ],
+    "miniContext": "Radiator (part of a central heating system)",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "broom",
+    "meaning": "جارو (دستی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Have you got a broom? I need to sweep the kitchen floor.",
+        "persian": "جارو داری؟ باید کف آشپزخانه را جارو بزنم."
+      }
+    ],
+    "miniContext": "Broom",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "chest of drawers",
+    "meaning": "کمد کشودار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to buy a new chest of drawers.",
+        "persian": "باید یک کمد کشودار جدید بخرم."
+      }
+    ],
+    "miniContext": "Chest of drawers",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "drawers",
+    "meaning": "کشوها",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to buy a new chest of drawers.",
+        "persian": "باید یک کمد کشودار جدید بخرم."
+      }
+    ],
+    "miniContext": "Drawers",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "doorbell",
+    "meaning": "زنگ در",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you need one hand to use a doorbell?",
+        "persian": "برای استفاده از زنگ در فقط یک دست لازم است؟"
+      }
+    ],
+    "miniContext": "Doorbell",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "bunk beds",
+    "meaning": "تخت دوطبقه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister and I slept in bunk beds when we were little. I always wanted the top one.",
+        "persian": "من و خواهرم وقتی کوچک بودیم روی تخت دوطبقه می‌خوابیدیم. همیشه طبقه بالا را می‌خواستم."
+      }
+    ],
+    "miniContext": "My sister and I slept in bunk beds when we were little.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "bookcase",
+    "meaning": "قفسه کتاب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bookcase is full of novels.",
+        "persian": "قفسه کتاب پر از رمان است."
+      }
+    ],
+    "miniContext": "Bookcase",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "letter box",
+    "meaning": "جعبه نامه، شکاف نامه در درب ورودی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had to fit a new letter box because ours was too small.",
+        "persian": "مجبور شدم یک جعبه نامه جدید نصب کنم چون مال ما خیلی کوچک بود."
+      }
+    ],
+    "miniContext": "I had to fit a new letter box because ours was too small.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "greasy",
+    "meaning": "چرب و روغنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Clean the inside of the oven - it's very greasy.",
+        "persian": "داخل فر را تمیز کن، خیلی چرب است."
+      }
+    ],
+    "miniContext": "Clean the inside of the oven - it's very greasy.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "dozen",
+    "meaning": "دوجین، دوازده‌تا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Six won't be enough. Could you get me a dozen bottles of fizzy water?",
+        "persian": "شش تا کافی نیست. می‌شود یک دوجین بطری آب‌گازدار برایم بخری؟"
+      }
+    ],
+    "miniContext": "Order a dozen bottles of wine for Jacinta's party.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "get hold of sth",
+    "meaning": "پیدا کردن، به دست آوردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to get hold of some wood to make a small gate for the front garden.",
+        "persian": "می‌خواهم مقداری چوب پیدا کنم تا یک دروازه کوچک برای حیاط جلویی بسازم."
+      }
+    ],
+    "miniContext": "Get hold of a plumber's number to fix the dripping tap.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "plumber",
+    "meaning": "لوله‌کش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The tap in the sink keeps dripping. I must ring the plumber.",
+        "persian": "شیر آب دستشویی چکه می‌کند. باید به لوله‌کش زنگ بزنم."
+      }
+    ],
+    "miniContext": "Get hold of a plumber's number to fix the dripping tap in the loo.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "spare",
+    "meaning": "اضافه، یدکی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Get new blinds for the spare bedroom.",
+        "persian": "برای اتاق خواب اضافه، پرده کرکره جدید بخر."
+      }
+    ],
+    "miniContext": "Get new blinds for the spare bedroom.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "estimate",
+    "meaning": "برآورد هزینه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Get a rough estimate for painting the outside of the house.",
+        "persian": "برای رنگ کردن بیرون خانه یک برآورد تقریبی بگیر."
+      }
+    ],
+    "miniContext": "Get a rough estimate for painting the outside of the house.",
+    "icon": "🏠"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-30",
+    "word": "outside",
+    "meaning": "بیرون، نمای خارجی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "exterior"
+    ],
+    "examples": [
+      {
+        "english": "The outside of the house needs painting.",
+        "persian": "بیرون خانه نیاز به رنگ دارد."
+      }
+    ],
+    "miniContext": "Get a rough estimate for painting the outside of the house.",
+    "icon": "🏠"
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "convert (sth into sth)",
+    "meaning": "تبدیل کردن (یک چیز به چیز دیگر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Friends of mine converted an old barn.",
+        "persian": "دوستانم یک انبار قدیمی را تبدیل کردند."
+      }
+    ],
+    "miniContext": "Friends of mine converted an old barn.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "formerly",
+    "meaning": "پیش‌تر، در گذشته",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It had formerly been used for domestic animals.",
+        "persian": "پیش‌تر برای حیوانات اهلی استفاده می‌شد."
+      }
+    ],
+    "miniContext": "It had formerly been used for domestic animals.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "domestic (animal)",
+    "meaning": "اهلی، خانگی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It had formerly been used for domestic animals.",
+        "persian": "پیش‌تر برای حیوانات اهلی استفاده می‌شد."
+      }
+    ],
+    "miniContext": "It had formerly been used for domestic animals.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "next to nothing",
+    "meaning": "تقریبا رایگان، پول بسیار کم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They bought it for next to nothing.",
+        "persian": "آن را تقریبا مفت خریدند."
+      }
+    ],
+    "miniContext": "They bought it for next to nothing.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "fortunate",
+    "meaning": "خوش‌شانس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They were fortunate that parts of it were well-preserved.",
+        "persian": "خوش‌شانس بودند که بخش‌هایی از آن خوب حفظ شده بود."
+      }
+    ],
+    "miniContext": "They were fortunate that parts of it were well-preserved.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "preserve",
+    "meaning": "حفظ کردن، سالم نگه داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Parts of it were still quite well-preserved.",
+        "persian": "بخش‌هایی از آن هنوز کاملا سالم مانده بود."
+      }
+    ],
+    "miniContext": "Parts of it were still quite well-preserved.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "estimate",
+    "meaning": "تخمین زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They estimated they could convert the barn for about £200,000.",
+        "persian": "تخمین زدند تبدیل انبار حدود ۲۰۰ هزار پوند هزینه دارد."
+      }
+    ],
+    "miniContext": "They estimated they could convert the barn for about £200,000.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "modify",
+    "meaning": "کمی تغییر دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The council made them modify their building plans.",
+        "persian": "شهرداری آن‌ها را مجبور کرد نقشه‌های ساختمان را کمی تغییر دهند."
+      }
+    ],
+    "miniContext": "The council made them modify their building plans.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "turn out (to be sth)",
+    "meaning": "در نهایت چیزی از آب درآمدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The original estimate turned out to be a bit optimistic.",
+        "persian": "تخمین اولیه در نهایت کمی خوش‌بینانه بود."
+      }
+    ],
+    "miniContext": "The original estimate turned out to be a bit optimistic.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "magnificent",
+    "meaning": "بسیار باشکوه و تاثیرگذار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "splendid"
+    ],
+    "examples": [
+      {
+        "english": "They now have a magnificent contemporary home.",
+        "persian": "الان یک خانه‌ی مدرن باشکوه دارند."
+      }
+    ],
+    "miniContext": "They now have a magnificent contemporary home.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "contemporary",
+    "meaning": "معاصر، مدرن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They now have a magnificent contemporary home.",
+        "persian": "الان یک خانه‌ی مدرن باشکوه دارند."
+      }
+    ],
+    "miniContext": "They now have a magnificent contemporary home.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "device",
+    "meaning": "دستگاه، وسیله",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is an innovative anti-snore device.",
+        "persian": "این یک دستگاه نوآورانه‌ی ضدخروپف است."
+      }
+    ],
+    "miniContext": "This is an innovative anti-snore device.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "up to date",
+    "meaning": "به‌روز، جدیدترین اطلاعات را داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The guidebook is up to date.",
+        "persian": "این کتابچه‌ی راهنما به‌روز است."
+      }
+    ],
+    "miniContext": "The guidebook is up to date.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "genuine",
+    "meaning": "واقعی، اصل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "authentic"
+    ],
+    "examples": [
+      {
+        "english": "This is a genuine antique grandfather clock.",
+        "persian": "این یک ساعت دیواری عتیقه‌ی اصل است."
+      }
+    ],
+    "miniContext": "This is a genuine antique grandfather clock.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "antique",
+    "meaning": "عتیقه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a genuine antique grandfather clock.",
+        "persian": "این یک ساعت دیواری عتیقه‌ی اصل است."
+      }
+    ],
+    "miniContext": "This is a genuine antique grandfather clock.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "ancient",
+    "meaning": "باستانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A reproduction of an Ancient Egyptian statue.",
+        "persian": "یک تکرار از یک مجسمه‌ی مصر باستان."
+      }
+    ],
+    "miniContext": "A reproduction of an Ancient Egyptian statue.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "reproduction",
+    "meaning": "کپی از یک اثر قدیمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A reproduction of an Ancient Egyptian statue.",
+        "persian": "یک تکرار از یک مجسمه‌ی مصر باستان."
+      }
+    ],
+    "miniContext": "A reproduction of an Ancient Egyptian statue.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "reconditioned",
+    "meaning": "تعمیر و بازسازی‌شده (دستگاه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A fully reconditioned exercise bike.",
+        "persian": "یک دوچرخه‌ی ثابت کاملا بازسازی‌شده."
+      }
+    ],
+    "miniContext": "A fully reconditioned exercise bike.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "second-hand",
+    "meaning": "دست دوم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Second-hand but good as new.",
+        "persian": "دست دوم ولی مثل نو."
+      }
+    ],
+    "miniContext": "Second-hand but good as new.",
+    "icon": "🆕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-73",
+    "word": "brand new",
+    "meaning": "کاملا نو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My car is brand new.",
+        "persian": "ماشین من کاملا نو است."
+      }
+    ],
+    "miniContext": "My car is brand new.",
+    "icon": "🆕"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "bomb",
+    "meaning": "بمب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bomb exploded in the city centre.",
+        "persian": "بمب در مرکز شهر منفجر شد."
+      }
+    ],
+    "miniContext": "The bomb exploded in the city centre.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "explode",
+    "meaning": "منفجر شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "go off"
+    ],
+    "examples": [
+      {
+        "english": "The bomb exploded, killing ten people.",
+        "persian": "بمب منفجر شد و ده نفر را کشت."
+      }
+    ],
+    "miniContext": "The bomb exploded, killing ten people.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "injure",
+    "meaning": "مجروح کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The explosion injured many more.",
+        "persian": "انفجار افراد بیشتری را مجروح کرد."
+      }
+    ],
+    "miniContext": "The explosion injured many more.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "fight",
+    "meaning": "جنگیدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Soldiers fought a terrible gun battle.",
+        "persian": "سربازان یک نبرد مسلحانه‌ی وحشتناک جنگیدند."
+      }
+    ],
+    "miniContext": "Soldiers fought a terrible gun battle.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "battle",
+    "meaning": "نبرد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The battle lasted several days.",
+        "persian": "نبرد چند روز طول کشید."
+      }
+    ],
+    "miniContext": "The battle lasted several days.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "fire (at sb/sth)",
+    "meaning": "شلیک کردن (به کسی/چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They were firing for two hours at enemy fighters.",
+        "persian": "آن‌ها دو ساعت به سمت جنگنده‌های دشمن شلیک می‌کردند."
+      }
+    ],
+    "miniContext": "They were firing for two hours at enemy fighters.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "enemy",
+    "meaning": "دشمن",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The army is now in control of the enemy's area.",
+        "persian": "ارتش الان منطقه‌ی دشمن را تحت کنترل دارد."
+      }
+    ],
+    "miniContext": "The army is now in control of the enemy's area.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "escape",
+    "meaning": "فرار کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "get away"
+    ],
+    "examples": [
+      {
+        "english": "The enemy leader managed to escape.",
+        "persian": "رهبر دشمن موفق شد فرار کند."
+      }
+    ],
+    "miniContext": "The enemy leader managed to escape.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "weapon",
+    "meaning": "سلاح",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Soldiers handed in their weapons.",
+        "persian": "سربازان سلاح‌هایشان را تحویل دادند."
+      }
+    ],
+    "miniContext": "Soldiers handed in their weapons.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "army",
+    "meaning": "ارتش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The army is now in control of the situation.",
+        "persian": "ارتش الان اوضاع را تحت کنترل دارد."
+      }
+    ],
+    "miniContext": "The army is now in control of the situation.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "be at war",
+    "meaning": "در حال جنگ بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The region has been at war for several years.",
+        "persian": "آن منطقه چند سال است در حال جنگ است."
+      }
+    ],
+    "miniContext": "The region has been at war for several years.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "hold talks",
+    "meaning": "مذاکره برگزار کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The countries have been holding talks for over a year.",
+        "persian": "کشورها بیش از یک سال است مذاکره برگزار می‌کنند."
+      }
+    ],
+    "miniContext": "The countries have been holding talks for over a year.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "reach an agreement",
+    "meaning": "به توافق رسیدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The two sides want to reach an agreement.",
+        "persian": "دو طرف می‌خواهند به توافق برسند."
+      }
+    ],
+    "miniContext": "The two sides want to reach an agreement.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "reject",
+    "meaning": "رد کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The first attempt at peace was rejected within days.",
+        "persian": "اولین تلاش برای صلح ظرف چند روز رد شد."
+      }
+    ],
+    "miniContext": "The first attempt at peace was rejected within days.",
+    "icon": "⚔️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-52",
+    "word": "determined",
+    "meaning": "مصمم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Both sides are more determined to achieve a lasting peace.",
+        "persian": "هر دو طرف مصمم‌تر هستند که به صلح پایداری برسند."
+      }
+    ],
+    "miniContext": "Both sides are more determined to achieve a lasting peace.",
+    "icon": "⚔️"
+  }
+]

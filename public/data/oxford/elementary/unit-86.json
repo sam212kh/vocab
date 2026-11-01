@@ -1,0 +1,318 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "achieve",
+    "meaning": "به دست آوردن، موفق شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "accomplish"
+    ],
+    "examples": [
+      {
+        "english": "He worked hard to achieve his goal.",
+        "persian": "او برای رسیدن به هدفش سخت کار کرد."
+      }
+    ],
+    "miniContext": "He worked hard to achieve his goal.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "author",
+    "meaning": "نویسنده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "writer"
+    ],
+    "examples": [
+      {
+        "english": "Who is the author of this book?",
+        "persian": "نویسنده این کتاب کیست؟"
+      }
+    ],
+    "miniContext": "Who is the author of this book?",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "break a rule",
+    "meaning": "قانون را شکستن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can't break the rules at school.",
+        "persian": "نمی‌توانی در مدرسه قوانین را زیر پا بگذاری."
+      }
+    ],
+    "miniContext": "You can't break the rules at school.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "main character",
+    "meaning": "شخصیت اصلی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The main character in the book is a young girl.",
+        "persian": "شخصیت اصلی کتاب یک دختر جوان است."
+      }
+    ],
+    "miniContext": "The main character in the book is a young girl.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "the past",
+    "meaning": "گذشته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We learned about the past.",
+        "persian": "ما درباره گذشته یاد گرفتیم."
+      }
+    ],
+    "miniContext": "We learned about the past.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "trouble",
+    "meaning": "دردسر، مشکل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "problem"
+    ],
+    "examples": [
+      {
+        "english": "He is in trouble.",
+        "persian": "او در دردسر است."
+      }
+    ],
+    "miniContext": "He is in trouble.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "including",
+    "meaning": "از جمله",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Everyone came, including John.",
+        "persian": "همه آمدند، از جمله جان."
+      }
+    ],
+    "miniContext": "Everyone came, including John.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "mainly",
+    "meaning": "اصولا، عمدتا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "mostly"
+    ],
+    "examples": [
+      {
+        "english": "The book is mainly about history.",
+        "persian": "کتاب عمدتا درباره تاریخ است."
+      }
+    ],
+    "miniContext": "The book is mainly about history.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "mostly",
+    "meaning": "عمدتا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The book is mostly about animals.",
+        "persian": "کتاب عمدتا درباره حیوانات است."
+      }
+    ],
+    "miniContext": "The book is mostly about animals.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "non-fiction",
+    "meaning": "غیرداستانی (کتاب)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I prefer non-fiction books.",
+        "persian": "من کتاب‌های غیرداستانی را ترجیح می‌دهم."
+      }
+    ],
+    "miniContext": "I prefer non-fiction books.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "novel",
+    "meaning": "رمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is reading a new novel.",
+        "persian": "او یک رمان جدید می‌خواند."
+      }
+    ],
+    "miniContext": "She is reading a new novel.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "publish",
+    "meaning": "منتشر کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She published her first book last year.",
+        "persian": "او سال گذشته اولین کتابش را منتشر کرد."
+      }
+    ],
+    "miniContext": "She published her first book last year.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "realize",
+    "meaning": "متوجه شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I realized my mistake too late.",
+        "persian": "من اشتباهم را خیلی دیر متوجه شدم."
+      }
+    ],
+    "miniContext": "I realized my mistake too late.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "rule",
+    "meaning": "قانون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We must follow the school rules.",
+        "persian": "ما باید از قوانین مدرسه پیروی کنیم."
+      }
+    ],
+    "miniContext": "We must follow the school rules.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "series (on TV, etc.)",
+    "meaning": "مجموعه (تلویزیونی)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm watching a new series on TV.",
+        "persian": "من یک مجموعه تلویزیونی جدید تماشا می‌کنم."
+      }
+    ],
+    "miniContext": "I'm watching a new series on TV.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "try",
+    "meaning": "تلاش کردن؛ امتحان کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "attempt"
+    ],
+    "examples": [
+      {
+        "english": "I will try to finish my homework.",
+        "persian": "من تلاش می‌کنم تکالیفم را تمام کنم."
+      }
+    ],
+    "miniContext": "I will try to finish my homework.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "variety",
+    "meaning": "تنوع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop sells a variety of fruit.",
+        "persian": "این مغازه انواع میوه می‌فروشد."
+      }
+    ],
+    "miniContext": "The shop sells a variety of fruit.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-86",
+    "word": "writer",
+    "meaning": "نویسنده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a famous writer.",
+        "persian": "او یک نویسنده معروف است."
+      }
+    ],
+    "miniContext": "He is a famous writer.",
+    "icon": "📖"
+  }
+]

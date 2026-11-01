@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "bus stop",
+    "meaning": "ایستگاه اتوبوس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bus stop is just around the corner.",
+        "persian": "ایستگاه اتوبوس همین نزدیکی است."
+      }
+    ],
+    "miniContext": "The bus stop is just around the corner.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "go",
+    "meaning": "رفتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go to school by bus.",
+        "persian": "من با اتوبوس به مدرسه می‌روم."
+      }
+    ],
+    "miniContext": "I go to school by bus.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "last (stop)",
+    "meaning": "آخرین",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "final"
+    ],
+    "examples": [
+      {
+        "english": "This is the last stop.",
+        "persian": "این آخرین ایستگاه است."
+      }
+    ],
+    "miniContext": "This is the last stop.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "next (stop)",
+    "meaning": "بعدی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Get off at the next stop.",
+        "persian": "در ایستگاه بعدی پیاده شو."
+      }
+    ],
+    "miniContext": "Get off at the next stop.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "outside (= in front of sth)",
+    "meaning": "جلوی؛ بیرون از",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wait for me outside the shop.",
+        "persian": "جلوی مغازه منتظرم بمان."
+      }
+    ],
+    "miniContext": "Wait for me outside the shop.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "route",
+    "meaning": "مسیر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the best route to the airport?",
+        "persian": "بهترین مسیر به فرودگاه چیست؟"
+      }
+    ],
+    "miniContext": "What's the best route to the airport?",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "run (= travel)",
+    "meaning": "حرکت کردن (قطار و غیره)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The buses run every ten minutes.",
+        "persian": "اتوبوس‌ها هر ده دقیقه یک‌بار حرکت می‌کنند."
+      }
+    ],
+    "miniContext": "The buses run every ten minutes.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "stop (n)",
+    "meaning": "ایستگاه، توقف",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my bus stop.",
+        "persian": "این ایستگاه اتوبوس من است."
+      }
+    ],
+    "miniContext": "This is my bus stop.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "take (how long does it take?)",
+    "meaning": "چقدر طول می‌کشد؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How long does it take to get there?",
+        "persian": "رسیدن به آنجا چقدر طول می‌کشد؟"
+      }
+    ],
+    "miniContext": "How long does it take to get there?",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-52",
+    "word": "timetable",
+    "meaning": "برنامه زمانی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Check the bus timetable before you go.",
+        "persian": "قبل از رفتن برنامه زمانی اتوبوس را چک کن."
+      }
+    ],
+    "miniContext": "Check the bus timetable before you go.",
+    "icon": "🚌"
+  }
+]

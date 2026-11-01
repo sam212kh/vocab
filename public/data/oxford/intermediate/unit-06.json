@@ -1,0 +1,399 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "male",
+    "meaning": "مذکر، مرد",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is that dog male or female?",
+        "persian": "آن سگ نر است یا ماده؟"
+      }
+    ],
+    "miniContext": "Is that dog male or female?",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "female",
+    "meaning": "مونث، زن",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most of the staff here are female.",
+        "persian": "بیشتر کارکنان اینجا زن هستند."
+      }
+    ],
+    "miniContext": "Most of the staff here are female.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "appearance",
+    "meaning": "ظاهر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her appearance hasn't changed much.",
+        "persian": "ظاهر او زیاد تغییر نکرده است."
+      }
+    ],
+    "miniContext": "Her appearance hasn't changed much.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "broad shoulders",
+    "meaning": "شانه‌های پهن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's got broad shoulders.",
+        "persian": "او شانه‌های پهنی دارد."
+      }
+    ],
+    "miniContext": "He's got broad shoulders.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "bald",
+    "meaning": "طاس",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's bald, with broad shoulders and tattoos.",
+        "persian": "او طاس است، با شانه‌های پهن و خالکوبی."
+      }
+    ],
+    "miniContext": "He's bald, with broad shoulders and tattoos.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "wavy hair",
+    "meaning": "موی مواج",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jed's got wavy hair.",
+        "persian": "جد موی مواج دارد."
+      }
+    ],
+    "miniContext": "Jed's got wavy hair.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "dark skin",
+    "meaning": "پوست تیره",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's got dark skin and a moustache.",
+        "persian": "او پوست تیره و سبیل دارد."
+      }
+    ],
+    "miniContext": "He's got dark skin and a moustache.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "moustache",
+    "meaning": "سبیل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's got a beard with a moustache.",
+        "persian": "او ریش دارد با سبیل."
+      }
+    ],
+    "miniContext": "He's got a beard with a moustache.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "curly hair",
+    "meaning": "موی فرفری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sam's got curly hair.",
+        "persian": "سم موی فرفری دارد."
+      }
+    ],
+    "miniContext": "Sam's got curly hair.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "in good shape",
+    "meaning": "در وضعیت جسمی خوب",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sam is in good shape.",
+        "persian": "سم در وضعیت جسمی خوبی است."
+      }
+    ],
+    "miniContext": "Sam is in good shape.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "(sun)tan",
+    "meaning": "برنزه شدن (از آفتاب)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He always has a great tan in summer.",
+        "persian": "او همیشه تابستان‌ها خیلی برنزه است."
+      }
+    ],
+    "miniContext": "He always has a great tan in summer.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "fair hair",
+    "meaning": "موی بور",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brad's got fair hair and a beard.",
+        "persian": "بِرَد موی بور و ریش دارد."
+      }
+    ],
+    "miniContext": "Brad's got fair hair and a beard.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "beard",
+    "meaning": "ریش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brad's got fair hair and a beard with a moustache.",
+        "persian": "برد موی بور و ریشی با سبیل دارد."
+      }
+    ],
+    "miniContext": "Brad's got fair hair and a beard with a moustache.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "medium build",
+    "meaning": "هیکل متوسط",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's medium build.",
+        "persian": "او هیکل متوسطی دارد."
+      }
+    ],
+    "miniContext": "He's medium build.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "unattractive",
+    "meaning": "نچندان جذاب، زشت",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "ugly"
+    ],
+    "examples": [
+      {
+        "english": "It's not polite to say somebody is ugly; it's better to say unattractive.",
+        "persian": "گفتن اینکه کسی زشت است مودبانه نیست؛ بهتر است بگوییم نچندان جذاب."
+      }
+    ],
+    "miniContext": "It's not polite to say somebody is ugly; it's better to say unattractive.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "be pregnant",
+    "meaning": "باردار بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "be expecting a baby"
+    ],
+    "examples": [
+      {
+        "english": "She was pregnant; in fact, she was expecting me.",
+        "persian": "او باردار بود؛ در واقع در انتظار من بود."
+      }
+    ],
+    "miniContext": "She was pregnant; in fact, she was expecting me.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "medium height",
+    "meaning": "قد متوسط",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's medium height, with long wavy hair.",
+        "persian": "او قد متوسطی دارد، با موی مواج بلند."
+      }
+    ],
+    "miniContext": "She's medium height, with long wavy hair.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "smooth",
+    "meaning": "صاف، نرم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has lovely smooth skin.",
+        "persian": "او پوستی زیبا و صاف دارد."
+      }
+    ],
+    "miniContext": "She has lovely smooth skin.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "figure",
+    "meaning": "اندام",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She still has a good figure.",
+        "persian": "او هنوز اندام خوبی دارد."
+      }
+    ],
+    "miniContext": "She still has a good figure.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "hairstyle",
+    "meaning": "مدل مو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's always changing her hairstyle.",
+        "persian": "او همیشه مدل مویش را عوض می‌کند."
+      }
+    ],
+    "miniContext": "She's always changing her hairstyle.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "neat",
+    "meaning": "مرتب، منظم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "tidy"
+    ],
+    "examples": [
+      {
+        "english": "Her hair is short and very neat.",
+        "persian": "موی او کوتاه و خیلی مرتب است."
+      }
+    ],
+    "miniContext": "Her hair is short and very neat.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "contact lenses",
+    "meaning": "لنز تماسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Does she wear contact lenses?",
+        "persian": "آیا او لنز تماسی می‌گذارد؟"
+      }
+    ],
+    "miniContext": "Does she wear contact lenses?",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-6",
+    "word": "tell",
+    "meaning": "تشخیص دادن، فهمیدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You certainly can't tell that she's nearly 60.",
+        "persian": "واقعا نمی‌شود تشخیص داد که او نزدیک به شصت سال دارد."
+      }
+    ],
+    "miniContext": "You certainly can't tell that she's nearly 60.",
+    "icon": "👓"
+  }
+]

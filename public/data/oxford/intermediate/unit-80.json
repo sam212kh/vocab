@@ -1,0 +1,212 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "capital (money)",
+    "meaning": "سرمایه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to raise capital for the new project.",
+        "persian": "باید برای پروژه‌ی جدید سرمایه جمع کنیم."
+      }
+    ],
+    "miniContext": "We need to raise capital for the new project.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "invest",
+    "meaning": "سرمایه‌گذاری کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I would like to invest more money in wind energy.",
+        "persian": "دوست دارم پول بیشتری در انرژی باد سرمایه‌گذاری کنم."
+      }
+    ],
+    "miniContext": "I would like to invest more money in wind energy.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "turnover",
+    "meaning": "گردش مالی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The company has an annual turnover of $20m.",
+        "persian": "شرکت گردش مالی سالانه‌ی بیست میلیون دلاری دارد."
+      }
+    ],
+    "miniContext": "The company has an annual turnover of $20m.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "inflation",
+    "meaning": "تورم",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Inflation is now 3%.",
+        "persian": "تورم الان سه درصد است."
+      }
+    ],
+    "miniContext": "Inflation is now 3%.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "profit",
+    "meaning": "سود",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "loss (opp)"
+    ],
+    "examples": [
+      {
+        "english": "The company made a pre-tax profit of $2m.",
+        "persian": "شرکت دو میلیون دلار سود قبل از مالیات داشت."
+      }
+    ],
+    "miniContext": "The company made a pre-tax profit of $2m.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "interest rate",
+    "meaning": "نرخ بهره",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The interest rate is 5%.",
+        "persian": "نرخ بهره پنج درصد است."
+      }
+    ],
+    "miniContext": "The interest rate is 5%.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "currency",
+    "meaning": "ارز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We trade in foreign currencies.",
+        "persian": "ما با ارزهای خارجی تجارت می‌کنیم."
+      }
+    ],
+    "miniContext": "We trade in foreign currencies.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "production",
+    "meaning": "تولید",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Production needs to increase to make a profit.",
+        "persian": "برای کسب سود، تولید باید افزایش یابد."
+      }
+    ],
+    "miniContext": "Production needs to increase to make a profit.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "rise (noun, trend)",
+    "meaning": "افزایش (روند)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "fall (opp)"
+    ],
+    "examples": [
+      {
+        "english": "There has been a steady rise in sales.",
+        "persian": "افزایش پیوسته‌ای در فروش بوده است."
+      }
+    ],
+    "miniContext": "There has been a steady rise in sales.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "remain stable",
+    "meaning": "ثابت ماندن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "stay the same"
+    ],
+    "examples": [
+      {
+        "english": "Prices have remained stable.",
+        "persian": "قیمت‌ها ثابت مانده‌اند."
+      }
+    ],
+    "miniContext": "Prices have remained stable.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "reach a peak",
+    "meaning": "به اوج رسیدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sales reached a peak in 2007.",
+        "persian": "فروش در سال ۲۰۰۷ به اوج رسید."
+      }
+    ],
+    "miniContext": "Sales reached a peak in 2007.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-80",
+    "word": "fluctuate",
+    "meaning": "نوسان داشتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mobile phone sales have fluctuated all year.",
+        "persian": "فروش موبایل تمام سال در نوسان بوده است."
+      }
+    ],
+    "miniContext": "Mobile phone sales have fluctuated all year.",
+    "icon": "💰"
+  }
+]

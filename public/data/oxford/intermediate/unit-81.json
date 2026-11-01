@@ -1,0 +1,206 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "set sth up",
+    "meaning": "راه‌اندازی کردن (کسب‌وکار)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you set up a business, you are taking a big risk.",
+        "persian": "اگر یک کسب‌وکار راه‌اندازی کنی، ریسک بزرگی می‌کنی."
+      }
+    ],
+    "miniContext": "If you set up a business, you are taking a big risk.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "fail (business)",
+    "meaning": "شکست خوردن (کسب‌وکار)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "20% of new businesses fail within twelve months.",
+        "persian": "بیست درصد کسب‌وکارهای جدید ظرف دوازده ماه شکست می‌خورند."
+      }
+    ],
+    "miniContext": "20% of new businesses fail within twelve months.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "percentage",
+    "meaning": "درصد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What percentage passed the exam?",
+        "persian": "چند درصد در امتحان قبول شدند؟"
+      }
+    ],
+    "miniContext": "What percentage passed the exam?",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "market research",
+    "meaning": "تحقیقات بازار",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The business has poor market research.",
+        "persian": "آن کسب‌وکار تحقیقات بازار ضعیفی دارد."
+      }
+    ],
+    "miniContext": "The business has poor market research.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "competitor",
+    "meaning": "رقیب (کسب‌وکار)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They don't have a good knowledge of their competitors.",
+        "persian": "آن‌ها شناخت خوبی از رقبایشان ندارند."
+      }
+    ],
+    "miniContext": "They don't have a good knowledge of their competitors.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "supplier",
+    "meaning": "تامین‌کننده",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are their main supplier.",
+        "persian": "ما تامین‌کننده‌ی اصلی آن‌ها هستیم."
+      }
+    ],
+    "miniContext": "We are their main supplier.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "stock (goods)",
+    "meaning": "موجودی کالا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The business has poor management of its stock.",
+        "persian": "کسب‌وکار مدیریت موجودی کالای ضعیفی دارد."
+      }
+    ],
+    "miniContext": "The business has poor management of its stock.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "run (a business)",
+    "meaning": "اداره کردن (کسب‌وکار)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The wrong people are running the business.",
+        "persian": "افراد اشتباهی کسب‌وکار را اداره می‌کنند."
+      }
+    ],
+    "miniContext": "The wrong people are running the business.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "client",
+    "meaning": "مشتری (خدمات حرفه‌ای)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most of their clients are in finance.",
+        "persian": "بیشتر مشتریان آن‌ها در حوزه‌ی مالی هستند."
+      }
+    ],
+    "miniContext": "Most of their clients are in finance.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "growth",
+    "meaning": "رشد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They've had good growth in the last five years.",
+        "persian": "در پنج سال اخیر رشد خوبی داشته‌اند."
+      }
+    ],
+    "miniContext": "They've had good growth in the last five years.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "reputation",
+    "meaning": "شهرت، اعتبار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The brand develops a reputation.",
+        "persian": "برند اعتباری کسب می‌کند."
+      }
+    ],
+    "miniContext": "The brand develops a reputation.",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-81",
+    "word": "takeover",
+    "meaning": "تصاحب (کسب‌وکار دیگر)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Growth may result in takeovers of competitors.",
+        "persian": "رشد ممکن است به تصاحب رقبا منجر شود."
+      }
+    ],
+    "miniContext": "Growth may result in takeovers of competitors.",
+    "icon": "🏢"
+  }
+]

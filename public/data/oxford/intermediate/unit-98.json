@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "Yours faithfully",
+    "meaning": "با احترام (پایان نامه‌ی رسمی بدون نام گیرنده)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Dear Sir or Madam ... Yours faithfully.",
+        "persian": "آقا یا خانم محترم ... با احترام."
+      }
+    ],
+    "miniContext": "Dear Sir or Madam ... Yours faithfully.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "Yours sincerely",
+    "meaning": "با احترام (پایان نامه‌ی رسمی با نام گیرنده)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Dear Mr Ellison ... Yours sincerely.",
+        "persian": "آقای الیسون عزیز ... با احترام."
+      }
+    ],
+    "miniContext": "Dear Mr Ellison ... Yours sincerely.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "confirm (a booking)",
+    "meaning": "تایید کردن (رزرو)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Thank you for confirming our holiday booking.",
+        "persian": "بابت تایید رزرو تعطیلات‌مان متشکرم."
+      }
+    ],
+    "miniContext": "Thank you for confirming our holiday booking.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "booking",
+    "meaning": "رزرو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Thank you for your email confirming our booking.",
+        "persian": "بابت ایمیل تاییدیه‌ی رزروتان متشکرم."
+      }
+    ],
+    "miniContext": "Thank you for your email confirming our booking.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "transfer (money)",
+    "meaning": "انتقال دادن (پول)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have transferred £320 into your account.",
+        "persian": "سیصد و بیست پوند به حسابتان منتقل کرده‌ام."
+      }
+    ],
+    "miniContext": "I have transferred £320 into your account.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "account (bank)",
+    "meaning": "حساب بانکی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have transferred money into your account.",
+        "persian": "پول را به حسابتان منتقل کرده‌ام."
+      }
+    ],
+    "miniContext": "I have transferred money into your account.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "balance (money owed)",
+    "meaning": "مانده‌حساب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I will pay the balance by 20 May.",
+        "persian": "مانده‌حساب را تا بیستم می پرداخت خواهم کرد."
+      }
+    ],
+    "miniContext": "I will pay the balance by 20 May.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "I would be grateful if you could ...",
+    "meaning": "ممنون می‌شوم اگر بتوانید ...",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I would be grateful if you could send more information.",
+        "persian": "ممنون می‌شوم اگر بتوانید اطلاعات بیشتری بفرستید."
+      }
+    ],
+    "miniContext": "I would be grateful if you could send more information.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "in particular",
+    "meaning": "به‌ویژه، مخصوصا",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "especially"
+    ],
+    "examples": [
+      {
+        "english": "In particular, it would be useful to know about restaurants.",
+        "persian": "به‌ویژه، دانستن درباره‌ی رستوران‌ها مفید خواهد بود."
+      }
+    ],
+    "miniContext": "In particular, it would be useful to know about restaurants.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-98",
+    "word": "I look forward to hearing from you",
+    "meaning": "منتظر پاسخ شما هستم",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I look forward to hearing from you.",
+        "persian": "منتظر پاسخ شما هستم."
+      }
+    ],
+    "miniContext": "I look forward to hearing from you.",
+    "icon": "✉️"
+  }
+]

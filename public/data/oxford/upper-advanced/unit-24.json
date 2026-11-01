@@ -1,0 +1,512 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "avocado",
+    "meaning": "آووکادو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love avocado on toast.",
+        "persian": "عاشق آووکادو روی نان تست هستم."
+      }
+    ],
+    "miniContext": "Can you add to the list six more types of fruit, six vegetables, another nut, another herb, another dried fruit and another spice?",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "mango",
+    "meaning": "انبه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mango is a sweet tropical fruit.",
+        "persian": "انبه میوه‌ای گرمسیری و شیرین است."
+      }
+    ],
+    "miniContext": "Mango",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "watermelon",
+    "meaning": "هندوانه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We ate watermelon on the beach.",
+        "persian": "روی ساحل هندوانه خوردیم."
+      }
+    ],
+    "miniContext": "Watermelon",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "grapefruit",
+    "meaning": "گریپ‌فروت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Grapefruit can taste quite bitter.",
+        "persian": "گریپ‌فروت می‌تواند طعم نسبتاً تلخی داشته باشد."
+      }
+    ],
+    "miniContext": "Grapefruit",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "apricot",
+    "meaning": "زردآلو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Apricots have a stone in the middle.",
+        "persian": "زردآلوها در وسط هسته دارند."
+      }
+    ],
+    "miniContext": "Apricots",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "raspberry",
+    "meaning": "تمشک",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Raspberries are great in desserts.",
+        "persian": "تمشک در دسرها خیلی خوب است."
+      }
+    ],
+    "miniContext": "Raspberries",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "raisins",
+    "meaning": "کشمش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Raisins are a type of dried fruit.",
+        "persian": "کشمش نوعی میوه خشک است."
+      }
+    ],
+    "miniContext": "Raisins are a type of dried fruit.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "aubergine",
+    "meaning": "بادمجان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Aubergine is a type of vegetable.",
+        "persian": "بادمجان نوعی سبزی است."
+      }
+    ],
+    "miniContext": "Aubergines",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "celery",
+    "meaning": "کرفس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Celery is a type of vegetable.",
+        "persian": "کرفس نوعی سبزی است."
+      }
+    ],
+    "miniContext": "Celery is a type of vegetable.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "asparagus",
+    "meaning": "مارچوبه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Asparagus can be eaten cooked or raw.",
+        "persian": "مارچوبه را می‌توان پخته یا خام خورد."
+      }
+    ],
+    "miniContext": "Asparagus",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "courgette",
+    "meaning": "کدو سبز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Courgettes grow well in summer.",
+        "persian": "کدوسبزها در تابستان خوب رشد می‌کنند."
+      }
+    ],
+    "miniContext": "Courgettes",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "beetroot",
+    "meaning": "چغندر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Beetroot has a deep red colour.",
+        "persian": "چغندر رنگ قرمز پررنگی دارد."
+      }
+    ],
+    "miniContext": "Beetroot",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "spinach",
+    "meaning": "اسفناج",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Spinach is very healthy.",
+        "persian": "اسفناج خیلی سالم است."
+      }
+    ],
+    "miniContext": "Spinach",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "broccoli",
+    "meaning": "بروکلی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Broccoli can be eaten cooked or raw.",
+        "persian": "بروکلی را می‌توان پخته یا خام خورد."
+      }
+    ],
+    "miniContext": "Broccoli",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "almonds",
+    "meaning": "بادام",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are nuts and lentils healthy or unhealthy? - Almonds are a type of nut, and they're healthy.",
+        "persian": "آیا آجیل و عدس سالم هستند یا ناسالم؟ بادام نوعی آجیل است و سالم است."
+      }
+    ],
+    "miniContext": "Almonds (a type of nut)",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "basil",
+    "meaning": "ریحان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Basil is a type of herb.",
+        "persian": "ریحان نوعی سبزی معطر است."
+      }
+    ],
+    "miniContext": "Basil (a type of herb)",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "lentils",
+    "meaning": "عدس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Lentils are a type of pulse.",
+        "persian": "عدس نوعی حبوبات است."
+      }
+    ],
+    "miniContext": "Lentils (a type of pulse)",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "ginger",
+    "meaning": "زنجبیل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Why do you normally add ginger to food?",
+        "persian": "معمولاً چرا زنجبیل به غذا اضافه می‌کنید؟"
+      }
+    ],
+    "miniContext": "Ginger (a type of spice)",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "deep-fat fryer",
+    "meaning": "سرخ‌کن عمیق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A deep-fat fryer is used to deep-fry fish, potatoes, etc.",
+        "persian": "سرخ‌کن عمیق برای سرخ کردن کامل ماهی، سیب‌زمینی و غیره استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A deep-fat fryer is used to deep-fry fish, potatoes, etc.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "casserole",
+    "meaning": "دیس خورشت‌پز، قابلمه کم‌جوش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A casserole is used to braise or stew meat and vegetables.",
+        "persian": "دیس خورشت‌پز برای آرام‌پز کردن گوشت و سبزیجات استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A casserole is used to braise/stew meat and vegetables.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "food processor",
+    "meaning": "غذاساز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A food processor is used to chop, slice and mix food.",
+        "persian": "غذاساز برای خرد کردن، برش زدن و مخلوط کردن غذا استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A food processor is used to chop, slice, mix meat, vegetables, etc.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "whisk",
+    "meaning": "همزن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A whisk is used to beat eggs and cream.",
+        "persian": "همزن برای به‌هم زدن تخم‌مرغ و خامه استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A whisk is used to beat eggs, cream.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "colander",
+    "meaning": "آبکش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A colander is used to drain vegetables and pasta.",
+        "persian": "آبکش برای آبگیری سبزیجات و ماکارونی استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A colander is used to drain vegetables, pasta, etc. that have been washed or cooked in water.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "grater",
+    "meaning": "رنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A grater is used to grate cheese.",
+        "persian": "رنده برای رنده کردن پنیر استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A grater is used to grate cheese, e.g. parmesan.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "peeler",
+    "meaning": "پوست‌کن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A peeler is used to peel vegetables and fruit.",
+        "persian": "پوست‌کن برای پوست کندن سبزیجات و میوه استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A peeler is used to peel vegetables, fruit.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "lemon-squeezer",
+    "meaning": "آب‌لیمو‌گیر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A lemon-squeezer is used to squeeze lemons, oranges and limes.",
+        "persian": "آب‌لیمو‌گیر برای فشردن لیمو، پرتقال و لیمو ترش استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A lemon-squeezer is used to squeeze lemons, oranges, limes.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "corkscrew",
+    "meaning": "درپیچ‌باز‌کن شراب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A corkscrew is used to open wine bottles.",
+        "persian": "درپیچ‌باز‌کن برای باز کردن بطری شراب استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A corkscrew is used to open wine bottles.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "kitchen scales",
+    "meaning": "ترازوی آشپزخانه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Kitchen scales are used to weigh all types of food.",
+        "persian": "ترازوی آشپزخانه برای وزن کردن انواع غذا استفاده می‌شود."
+      }
+    ],
+    "miniContext": "Kitchen scales are used to weigh all types of food.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "carving knife",
+    "meaning": "چاقوی برش گوشت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A carving knife is used to carve meat.",
+        "persian": "چاقوی برش گوشت برای بریدن گوشت استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A carving knife is used to carve usually meat.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-24",
+    "word": "frying pan",
+    "meaning": "ماهیتابه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A frying pan is used to fry meat, fish and vegetables.",
+        "persian": "ماهیتابه برای سرخ کردن گوشت، ماهی و سبزیجات استفاده می‌شود."
+      }
+    ],
+    "miniContext": "A frying pan is used to fry meat, fish, vegetables.",
+    "icon": "🍽️"
+  }
+]

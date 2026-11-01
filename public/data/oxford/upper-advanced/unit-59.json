@@ -1,0 +1,344 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "rebellion",
+    "meaning": "شورش، سرپیچی از قدرت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Extinction Rebellion protest blocks the Strand.",
+        "persian": "تجمع اعتراضی «شورش انقراض» خیابان استرند را مسدود کرد."
+      }
+    ],
+    "miniContext": "Extinction Rebellion protest blocks the Strand.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "protest",
+    "meaning": "اعتراض",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A protest is the expression of strong disagreement with sth.",
+        "persian": "اعتراض یعنی ابراز مخالفت شدید با چیزی."
+      }
+    ],
+    "miniContext": "A protest is the expression of strong disagreement with sth.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "demonstration",
+    "meaning": "تظاهرات",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The group staged another demonstration outside the Royal Courts of Justice.",
+        "persian": "آن گروه تظاهرات دیگری بیرون دادگاه‌های سلطنتی برگزار کرد."
+      }
+    ],
+    "miniContext": "The group staged another demonstration outside the Royal Courts of Justice.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "in connection with sth/sb",
+    "meaning": "در ارتباط با چیزی/کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police charged 53 people in connection with the climate change protests.",
+        "persian": "پلیس ۵۳ نفر را در ارتباط با اعتراضات تغییر اقلیم متهم کرد."
+      }
+    ],
+    "miniContext": "The police charged 53 people in connection with the climate change protests.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "stage (sth)",
+    "meaning": "برگزار کردن، ترتیب دادن (رویدادی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The group staged another demonstration yesterday.",
+        "persian": "آن گروه دیروز تظاهرات دیگری برگزار کرد."
+      }
+    ],
+    "miniContext": "The group staged another demonstration yesterday.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "erect (sth)",
+    "meaning": "برپا کردن، نصب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They effectively blocked the area by erecting barriers.",
+        "persian": "آن‌ها با برپا کردن موانع، منطقه را به‌طور مؤثر مسدود کردند."
+      }
+    ],
+    "miniContext": "They effectively blocked the area by erecting barriers.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "barrier",
+    "meaning": "مانع، سد راه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The protesters pulled down the barriers that the police had put across the road.",
+        "persian": "معترضان موانعی را که پلیس در عرض جاده گذاشته بود، پایین کشیدند."
+      }
+    ],
+    "miniContext": "The protesters pulled down the barriers that the police had put across the road.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "entire",
+    "meaning": "کل، تمام",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They effectively blocked the entire area for almost eight hours.",
+        "persian": "آن‌ها تقریباً هشت ساعت تمام منطقه را مسدود کردند."
+      }
+    ],
+    "miniContext": "They effectively blocked the entire area for almost eight hours.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "uphold sth",
+    "meaning": "حفظ کردن، پایبند ماندن به (قانون/حق)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police have a duty to uphold the rule of law.",
+        "persian": "پلیس وظیفه دارد حاکمیت قانون را حفظ کند."
+      }
+    ],
+    "miniContext": "The police have a duty to uphold the rule of law.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "tolerate sth",
+    "meaning": "تحمل کردن، بردباری نشان دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "put up with sth"
+    ],
+    "examples": [
+      {
+        "english": "The police cannot tolerate significant disruption to communities.",
+        "persian": "پلیس نمی‌تواند اختلال قابل‌توجه در زندگی مردم را تحمل کند."
+      }
+    ],
+    "miniContext": "The police cannot tolerate significant disruption to communities.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "disruption",
+    "meaning": "اختلال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police cannot tolerate significant disruption to communities across the capital.",
+        "persian": "پلیس نمی‌تواند اختلال قابل‌توجه در جوامع سراسر پایتخت را تحمل کند."
+      }
+    ],
+    "miniContext": "The police cannot tolerate significant disruption to communities across the capital.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "call on sb to do sth",
+    "meaning": "از کسی خواستن کاری انجام دهد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The group has called on activists to participate in a summer of civil disobedience.",
+        "persian": "آن گروه از فعالان خواسته تا در تابستانی از نافرمانی مدنی شرکت کنند."
+      }
+    ],
+    "miniContext": "The group has called on activists to participate in a summer of civil disobedience.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "activist",
+    "meaning": "فعال (سیاسی/اجتماعی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The group has called on activists to participate in creative acts of civil disobedience.",
+        "persian": "آن گروه از فعالان خواسته در اقدامات خلاقانه‌ی نافرمانی مدنی شرکت کنند."
+      }
+    ],
+    "miniContext": "The group has called on activists to participate in creative acts of civil disobedience.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "civil disobedience",
+    "meaning": "نافرمانی مدنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They hope a summer of civil disobedience will force government into taking action.",
+        "persian": "آن‌ها امیدوارند تابستانی از نافرمانی مدنی دولت را مجبور به اقدام کند."
+      }
+    ],
+    "miniContext": "They hope a summer of civil disobedience will force government into taking action.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "movement",
+    "meaning": "جنبش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Extinction Rebellion is a political movement with a mission to avert climate catastrophe.",
+        "persian": "«شورش انقراض» جنبشی سیاسی با مأموریت جلوگیری از فاجعه‌ی اقلیمی است."
+      }
+    ],
+    "miniContext": "Extinction Rebellion is a political movement with a mission to avert climate catastrophe.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "mission",
+    "meaning": "مأموریت، رسالت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It is a political movement with a mission to avert climate catastrophe.",
+        "persian": "این جنبشی سیاسی با مأموریت جلوگیری از فاجعه‌ی اقلیمی است."
+      }
+    ],
+    "miniContext": "It is a political movement with a mission to avert climate catastrophe.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "avert sth",
+    "meaning": "جلوگیری کردن از (اتفاقی بد)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Its mission is to avert climate catastrophe.",
+        "persian": "رسالت آن جلوگیری از فاجعه‌ی اقلیمی است."
+      }
+    ],
+    "miniContext": "Its mission is to avert climate catastrophe.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "minimize sth",
+    "meaning": "به حداقل رساندن چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They want to minimize the risk of ecological collapse.",
+        "persian": "آن‌ها می‌خواهند خطر فروپاشی زیست‌محیطی را به حداقل برسانند."
+      }
+    ],
+    "miniContext": "They want to minimize the risk of ecological collapse.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "resistance",
+    "meaning": "مقاومت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They aim to do this through non-violent resistance.",
+        "persian": "آن‌ها قصد دارند این کار را از طریق مقاومت غیرخشونت‌آمیز انجام دهند."
+      }
+    ],
+    "miniContext": "They aim to do this through non-violent resistance.",
+    "icon": "📢"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-59",
+    "word": "occupy sth",
+    "meaning": "اشغال کردن، تصرف کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They occupied much of the Strand for almost eight hours.",
+        "persian": "آن‌ها تقریباً هشت ساعت بخش بزرگی از خیابان استرند را اشغال کردند."
+      }
+    ],
+    "miniContext": "They occupied much of the Strand for almost eight hours.",
+    "icon": "📢"
+  }
+]

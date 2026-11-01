@@ -1,0 +1,276 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "bacon",
+    "meaning": "بیکن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had eggs and bacon for breakfast.",
+        "persian": "ما برای صبحانه تخم‌مرغ و بیکن خوردیم."
+      }
+    ],
+    "miniContext": "We had eggs and bacon for breakfast.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "beef",
+    "meaning": "گوشت گاو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had beef for dinner.",
+        "persian": "ما برای شام گوشت گاو خوردیم."
+      }
+    ],
+    "miniContext": "We had beef for dinner.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "chicken",
+    "meaning": "مرغ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had chicken and rice for dinner.",
+        "persian": "ما برای شام مرغ و برنج خوردیم."
+      }
+    ],
+    "miniContext": "We had chicken and rice for dinner.",
+    "icon": "🍗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "fish",
+    "meaning": "ماهی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We eat fish every Friday.",
+        "persian": "ما هر جمعه ماهی می‌خوریم."
+      }
+    ],
+    "miniContext": "We eat fish every Friday.",
+    "icon": "🐟"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "ham",
+    "meaning": "ژامبون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd like a ham sandwich, please.",
+        "persian": "من یک ساندویچ ژامبون می‌خواهم، لطفاً."
+      }
+    ],
+    "miniContext": "I'd like a ham sandwich, please.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "lamb",
+    "meaning": "گوشت بره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had lamb for dinner.",
+        "persian": "ما شام گوشت بره خوردیم."
+      }
+    ],
+    "miniContext": "We had lamb for dinner.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "meat",
+    "meaning": "گوشت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She doesn't eat meat.",
+        "persian": "او گوشت نمی‌خورد."
+      }
+    ],
+    "miniContext": "She doesn't eat meat.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "pork",
+    "meaning": "گوشت خوک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They don't eat pork.",
+        "persian": "آن‌ها گوشت خوک نمی‌خورند."
+      }
+    ],
+    "miniContext": "They don't eat pork.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "prawn",
+    "meaning": "میگو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd like the prawn salad, please.",
+        "persian": "سالاد میگو می‌خواهم، لطفاً."
+      }
+    ],
+    "miniContext": "I'd like the prawn salad, please.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "salmon",
+    "meaning": "ماهی سالمون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had salmon for dinner.",
+        "persian": "برای شام ماهی سالمون خوردیم."
+      }
+    ],
+    "miniContext": "We had salmon for dinner.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "sausage",
+    "meaning": "سوسیس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had eggs and sausages for breakfast.",
+        "persian": "صبحانه تخم‌مرغ و سوسیس خوردیم."
+      }
+    ],
+    "miniContext": "We had eggs and sausages for breakfast.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "seafood",
+    "meaning": "غذای دریایی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love eating seafood at the restaurant.",
+        "persian": "من عاشق خوردن غذای دریایی در رستوران هستم."
+      }
+    ],
+    "miniContext": "I love eating seafood at the restaurant.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "squid",
+    "meaning": "ماهی مرکب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We ate squid at the seafood restaurant.",
+        "persian": "ما در رستوران غذای دریایی ماهی مرکب خوردیم."
+      }
+    ],
+    "miniContext": "We ate squid at the seafood restaurant.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "tuna",
+    "meaning": "ماهی تن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had tuna sandwiches for lunch.",
+        "persian": "ما برای ناهار ساندویچ تن خوردیم."
+      }
+    ],
+    "miniContext": "We had tuna sandwiches for lunch.",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "type",
+    "meaning": "نوع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "kind"
+    ],
+    "examples": [
+      {
+        "english": "What type of music do you like?",
+        "persian": "چه نوع موسیقی‌ای دوست داری؟"
+      }
+    ],
+    "miniContext": "What type of music do you like?",
+    "icon": "🍖"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-47",
+    "word": "vegetarian",
+    "meaning": "گیاهخوار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister is a vegetarian.",
+        "persian": "خواهرم گیاهخوار است."
+      }
+    ],
+    "miniContext": "My sister is a vegetarian.",
+    "icon": "🍖"
+  }
+]

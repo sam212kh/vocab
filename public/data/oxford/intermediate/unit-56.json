@@ -1,0 +1,240 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "attempt to do sth",
+    "meaning": "تلاش کردن (برای انجام کاری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He attempted to climb the north side of the mountain.",
+        "persian": "او تلاش کرد از سمت شمالی کوه بالا برود."
+      }
+    ],
+    "miniContext": "He attempted to climb the north side of the mountain.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "afford to do sth",
+    "meaning": "توانایی مالی انجام کاری را داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They can't afford to buy a new car.",
+        "persian": "آن‌ها نمی‌توانند هزینه‌ی خرید ماشین جدید را بدهند."
+      }
+    ],
+    "miniContext": "They can't afford to buy a new car.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "tend to do sth",
+    "meaning": "تمایل داشتن به انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I tend to relax in the evenings and watch TV.",
+        "persian": "معمولا عصرها استراحت می‌کنم و تلویزیون می‌بینم."
+      }
+    ],
+    "miniContext": "I tend to relax in the evenings and watch TV.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "pretend to do sth",
+    "meaning": "تظاهر کردن (به انجام کاری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She pretended to feel happy, but I knew she wasn't.",
+        "persian": "او تظاهر کرد خوشحال است، اما می‌دانستم نیست."
+      }
+    ],
+    "miniContext": "She pretended to feel happy, but I knew she wasn't.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "refuse to do sth",
+    "meaning": "از انجام کاری امتناع کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mark refused to help me with the luggage.",
+        "persian": "مارک از کمک کردن به من با چمدان‌ها امتناع کرد."
+      }
+    ],
+    "miniContext": "Mark refused to help me with the luggage.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "take up doing sth",
+    "meaning": "شروع کردن (سرگرمی یا کار جدید)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I took up swimming to get fit.",
+        "persian": "برای سلامتی شنا را شروع کردم."
+      }
+    ],
+    "miniContext": "I took up swimming to get fit.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "give up doing sth",
+    "meaning": "ترک کردن، دست کشیدن از",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I gave up smoking ten years ago.",
+        "persian": "ده سال پیش سیگار را ترک کردم."
+      }
+    ],
+    "miniContext": "I gave up smoking ten years ago.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "avoid doing sth",
+    "meaning": "از انجام کاری اجتناب کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I avoid going to the dentist if possible.",
+        "persian": "تا جای ممکن از رفتن به دندان‌پزشکی اجتناب می‌کنم."
+      }
+    ],
+    "miniContext": "I avoid going to the dentist if possible.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "risk doing sth",
+    "meaning": "ریسک انجام کاری را کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't want to risk losing any money.",
+        "persian": "نمی‌خواهم ریسک از دست دادن پول را بکنم."
+      }
+    ],
+    "miniContext": "I don't want to risk losing any money.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "consider doing sth",
+    "meaning": "فکر کردن درباره‌ی انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We considered moving house, but decided to stay.",
+        "persian": "به فکر نقل مکان افتادیم، اما تصمیم گرفتیم بمانیم."
+      }
+    ],
+    "miniContext": "We considered moving house, but decided to stay.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "not mind doing sth",
+    "meaning": "اشکالی نداشتن (انجام کاری) برای کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sara doesn't mind sitting in front of a computer all day.",
+        "persian": "سارا اشکالی ندارد تمام روز پشت کامپیوتر بنشیند."
+      }
+    ],
+    "miniContext": "Sara doesn't mind sitting in front of a computer all day.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "imagine doing sth",
+    "meaning": "تصور کردن انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can't imagine spending every day in an office.",
+        "persian": "نمی‌توانم تصور کنم هر روز را در دفتر کار بگذرانم."
+      }
+    ],
+    "miniContext": "I can't imagine spending every day in an office.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "admit doing sth",
+    "meaning": "اعتراف کردن به انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The boy admitted stealing the money.",
+        "persian": "آن پسر اعتراف کرد پول را دزدیده است."
+      }
+    ],
+    "miniContext": "The boy admitted stealing the money.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-56",
+    "word": "fancy doing sth",
+    "meaning": "دلش خواستن انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you fancy going out this evening?",
+        "persian": "دلت می‌خواهد امشب بیرون بروی؟"
+      }
+    ],
+    "miniContext": "Do you fancy going out this evening?",
+    "icon": "🔤"
+  }
+]

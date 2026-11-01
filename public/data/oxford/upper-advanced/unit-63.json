@@ -1,0 +1,417 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "stuck (in sth)",
+    "meaning": "گیر کرده، قادر به حرکت نبودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The pencil was stuck in her brain for 55 years.",
+        "persian": "مداد ۵۵ سال در مغز او گیر کرده بود."
+      }
+    ],
+    "miniContext": "The pencil was stuck in her brain for 55 years.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "directly",
+    "meaning": "مستقیماً، به‌طور مستقیم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It went directly through her cheek.",
+        "persian": "آن مستقیماً از گونه‌اش عبور کرد."
+      }
+    ],
+    "miniContext": "It went directly through her cheek.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "ever since",
+    "meaning": "از آن زمان تا به حال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ever since, she had had to endure severe pain.",
+        "persian": "از آن زمان تا به حال مجبور بود درد شدیدی را تحمل کند."
+      }
+    ],
+    "miniContext": "Ever since, she had had to endure severe pain.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "endure",
+    "meaning": "تحمل کردن (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "bear",
+      "put up with"
+    ],
+    "examples": [
+      {
+        "english": "She had to endure severe pain for years.",
+        "persian": "او سال‌ها مجبور بود درد شدیدی را تحمل کند."
+      }
+    ],
+    "miniContext": "She had to endure severe pain for years.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "severe",
+    "meaning": "شدید، وخیم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The pain can be quite severe.",
+        "persian": "درد می‌تواند کاملا شدید باشد."
+      }
+    ],
+    "miniContext": "The pain can be quite severe.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "inch",
+    "meaning": "اینچ (واحد طول برابر ۲.۵۴ سانتی‌متر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The pencil was three inches long.",
+        "persian": "مداد سه اینچ طول داشت."
+      }
+    ],
+    "miniContext": "The pencil was three inches long.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "delicate",
+    "meaning": "ظریف، نیازمند دقت زیاد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a very delicate operation.",
+        "persian": "یک عمل جراحی بسیار ظریف بود."
+      }
+    ],
+    "miniContext": "It was a very delicate operation.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "tip (of sth)",
+    "meaning": "نوک (چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Only the tip of the pencil remained.",
+        "persian": "فقط نوک مداد باقی مانده بود."
+      }
+    ],
+    "miniContext": "Only the tip of the pencil remained.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "make a speedy/rapid recovery",
+    "meaning": "سریع بهبود یافتن (پس از بیماری)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The woman is said to be making a speedy recovery.",
+        "persian": "گفته می‌شود آن زن به‌سرعت در حال بهبودی است."
+      }
+    ],
+    "miniContext": "The woman is said to be making a speedy recovery.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "mysteriously",
+    "meaning": "به‌طور مرموز و غیرقابل توضیح",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mysteriously, the remaining tip caused no problems at all.",
+        "persian": "به‌طور مرموزی، نوک باقی‌مانده هیچ مشکلی ایجاد نکرد."
+      }
+    ],
+    "miniContext": "Mysteriously, the remaining tip caused no problems at all.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "remaining",
+    "meaning": "باقی‌مانده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The remaining tip of the pencil caused no problems.",
+        "persian": "نوک باقی‌مانده‌ی مداد هیچ مشکلی ایجاد نکرد."
+      }
+    ],
+    "miniContext": "The remaining tip of the pencil caused no problems.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "tale",
+    "meaning": "داستان، حکایت هیجان‌انگیز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He told a dramatic tale of survival.",
+        "persian": "او داستانی هیجان‌انگیز از زنده‌ماندن تعریف کرد."
+      }
+    ],
+    "miniContext": "He told a dramatic tale of survival.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "upper",
+    "meaning": "بالایی، فوقانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He sat on the upper branches of a tree.",
+        "persian": "او روی شاخه‌های بالایی یک درخت نشست."
+      }
+    ],
+    "miniContext": "He sat on the upper branches of a tree.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "swamp",
+    "meaning": "باتلاق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He sat above a swamp full of crocodiles.",
+        "persian": "او بالای باتلاقی پر از تمساح نشسته بود."
+      }
+    ],
+    "miniContext": "He sat above a swamp full of crocodiles.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "deadly",
+    "meaning": "مرگبار، کشنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The swamp was full of deadly crocodiles.",
+        "persian": "باتلاق پر از تمساح‌های مرگبار بود."
+      }
+    ],
+    "miniContext": "The swamp was full of deadly crocodiles.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "accidentally",
+    "meaning": "به‌طور تصادفی، ناخواسته",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His horse accidentally stumbled and he fell off.",
+        "persian": "اسبش ناخواسته تلو خورد و او افتاد."
+      }
+    ],
+    "miniContext": "His horse accidentally stumbled and he fell off.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "stumble",
+    "meaning": "تلو خوردن، پایش گیر کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "trip"
+    ],
+    "examples": [
+      {
+        "english": "His horse stumbled and he fell off.",
+        "persian": "اسبش تلو خورد و او افتاد."
+      }
+    ],
+    "miniContext": "His horse stumbled and he fell off.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "panic",
+    "meaning": "دستپاچه شدن، وحشت‌زده شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The horse panicked and galloped off.",
+        "persian": "اسب وحشت‌زده شد و چهارنعل دور شد."
+      }
+    ],
+    "miniContext": "The horse panicked and galloped off.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "gallop",
+    "meaning": "چهارنعل رفتن (اسب)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The horse galloped off, leaving him stranded.",
+        "persian": "اسب چهارنعل رفت و او را سرگردان رها کرد."
+      }
+    ],
+    "miniContext": "The horse galloped off, leaving him stranded.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "be stranded",
+    "meaning": "گیر افتادن، بدون راه فرار ماندن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The horse ran off, leaving him stranded.",
+        "persian": "اسب فرار کرد و او را گیرافتاده رها کرد."
+      }
+    ],
+    "miniContext": "The horse ran off, leaving him stranded.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "stay put",
+    "meaning": "همان‌جا ماندن، جابه‌جا نشدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He could either stay put or try to climb down.",
+        "persian": "او یا می‌توانست همان‌جا بماند یا سعی کند پایین بیاید."
+      }
+    ],
+    "miniContext": "He could either stay put or try to climb down.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "take a chance (on sth)",
+    "meaning": "ریسک کردن، خطر چیزی را به جان خریدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He decided to take a chance on climbing down.",
+        "persian": "او تصمیم گرفت ریسک پایین آمدن را بپذیرد."
+      }
+    ],
+    "miniContext": "He decided to take a chance on climbing down.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "starve",
+    "meaning": "از گرسنگی رنج بردن یا مردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "After a week, and nearly starving, he was rescued.",
+        "persian": "بعد از یک هفته، در حالی که تقریبا از گرسنگی در حال مرگ بود، نجات یافت."
+      }
+    ],
+    "miniContext": "After a week, and nearly starving, he was rescued.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-63",
+    "word": "spot",
+    "meaning": "متوجه شدن، دیدن (معمولا غیرمنتظره)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "notice"
+    ],
+    "examples": [
+      {
+        "english": "He was spotted by helicopters and rescued.",
+        "persian": "هلیکوپترها او را دیدند و نجاتش دادند."
+      }
+    ],
+    "miniContext": "He was spotted by helicopters and rescued.",
+    "icon": "📰"
+  }
+]

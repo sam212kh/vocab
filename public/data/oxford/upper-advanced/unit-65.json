@@ -1,0 +1,400 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "sector",
+    "meaning": "بخش (اقتصادی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He works in the private sector.",
+        "persian": "او در بخش خصوصی کار می‌کند."
+      }
+    ],
+    "miniContext": "He works in the private sector.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "register (with sth)",
+    "meaning": "نام‌نویسی کردن، ثبت‌نام کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Register by email now to apply for jobs.",
+        "persian": "همین حالا از طریق ایمیل ثبت‌نام کنید تا برای شغل‌ها درخواست دهید."
+      }
+    ],
+    "miniContext": "Register by email now to apply for jobs.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "qualifications",
+    "meaning": "مدارک تحصیلی و حرفه‌ای",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Select the sectors in which you have qualifications.",
+        "persian": "بخش‌هایی که مدرک داری را انتخاب کن."
+      }
+    ],
+    "miniContext": "Select the sectors in which you have qualifications.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "retail",
+    "meaning": "خرده‌فروشی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has experience in retail.",
+        "persian": "او در زمینه‌ی خرده‌فروشی تجربه دارد."
+      }
+    ],
+    "miniContext": "She has experience in retail.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "administration",
+    "meaning": "امور اداری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He works in administration.",
+        "persian": "او در بخش اداری کار می‌کند."
+      }
+    ],
+    "miniContext": "He works in administration.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "manufacturing",
+    "meaning": "تولید (صنعتی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He started his career in manufacturing.",
+        "persian": "او کار خود را در صنعت تولید شروع کرد."
+      }
+    ],
+    "miniContext": "He started his career in manufacturing.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "market research",
+    "meaning": "تحقیقات بازار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I try to discover what customers want through market research.",
+        "persian": "من از طریق تحقیقات بازار سعی می‌کنم بفهمم مشتری‌ها چه می‌خواهند."
+      }
+    ],
+    "miniContext": "I try to discover what customers want through market research.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "human resources",
+    "meaning": "منابع انسانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I look for the best way to use people in human resources.",
+        "persian": "من در منابع انسانی به دنبال بهترین راه استفاده از نیروی انسانی هستم."
+      }
+    ],
+    "miniContext": "I look for the best way to use people in human resources.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "finance",
+    "meaning": "مالی، امور مالی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I control the money in our firm's finance department.",
+        "persian": "من در بخش مالی شرکت، پول را کنترل می‌کنم."
+      }
+    ],
+    "miniContext": "I control the money in our firm's finance department.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "recruitment",
+    "meaning": "استخدام، جذب نیرو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I help to find jobs for people in recruitment.",
+        "persian": "من در بخش استخدام به مردم کمک می‌کنم شغل پیدا کنند."
+      }
+    ],
+    "miniContext": "I help to find jobs for people in recruitment.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "insurance",
+    "meaning": "بیمه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sell policies to people as protection against illness - insurance.",
+        "persian": "من بیمه می‌فروشم تا مردم در برابر بیماری محافظت شوند."
+      }
+    ],
+    "miniContext": "I sell insurance policies to people.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "prospects",
+    "meaning": "چشم‌انداز موفقیت، آینده‌ی شغلی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I got a challenging job with good prospects.",
+        "persian": "شغل چالش‌برانگیزی با آینده‌ی خوب گرفتم."
+      }
+    ],
+    "miniContext": "I got a challenging job with good prospects.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "challenging",
+    "meaning": "چالش‌برانگیز اما جذاب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I got a challenging job with good prospects.",
+        "persian": "شغل چالش‌برانگیزی با آینده‌ی خوب گرفتم."
+      }
+    ],
+    "miniContext": "I got a challenging job with good prospects.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "reward",
+    "meaning": "پاداش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As a reward, I was promoted.",
+        "persian": "به‌عنوان پاداش، ترفیع گرفتم."
+      }
+    ],
+    "miniContext": "As a reward, I was promoted.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "promote",
+    "meaning": "ترفیع دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I worked hard and was promoted.",
+        "persian": "سخت کار کردم و ترفیع گرفتم."
+      }
+    ],
+    "miniContext": "I worked hard and was promoted.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "transfer sb/sth",
+    "meaning": "منتقل کردن (کسی/چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was promoted and transferred to a different department.",
+        "persian": "ترفیع گرفتم و به بخش دیگری منتقل شدم."
+      }
+    ],
+    "miniContext": "I was promoted and transferred to a different department.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "department",
+    "meaning": "بخش، دپارتمان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was transferred to a different department.",
+        "persian": "به بخش دیگری منتقل شدم."
+      }
+    ],
+    "miniContext": "I was transferred to a different department.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "hand in your notice",
+    "meaning": "استعفا دادن (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "resign"
+    ],
+    "examples": [
+      {
+        "english": "Another colleague handed in his notice.",
+        "persian": "همکار دیگری استعفا داد."
+      }
+    ],
+    "miniContext": "Another colleague handed in his notice.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "make sb redundant",
+    "meaning": "اخراج کردن به‌دلیل کاهش نیرو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ten people were made redundant.",
+        "persian": "ده نفر به‌دلیل کاهش نیرو اخراج شدند."
+      }
+    ],
+    "miniContext": "Ten people were made redundant.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "out of work",
+    "meaning": "بیکار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "unemployed"
+    ],
+    "examples": [
+      {
+        "english": "I didn't want to be out of work.",
+        "persian": "نمی‌خواستم بیکار بمانم."
+      }
+    ],
+    "miniContext": "I didn't want to be out of work.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "elsewhere",
+    "meaning": "جای دیگر",
+    "pos": "adverb",
+    "level": "Upper-Intermediate/Advanced",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I decided to look elsewhere.",
+        "persian": "تصمیم گرفتم جای دیگری بگردم."
+      }
+    ],
+    "miniContext": "I decided to look elsewhere.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "appoint",
+    "meaning": "منصوب کردن، به کار گماردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was appointed assistant director.",
+        "persian": "به‌عنوان دستیار مدیر منصوب شدم."
+      }
+    ],
+    "miniContext": "I was appointed assistant director.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-65",
+    "word": "sack sb",
+    "meaning": "اخراج کردن (غیررسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "fire",
+      "dismiss"
+    ],
+    "examples": [
+      {
+        "english": "He was sacked for being rude.",
+        "persian": "به‌دلیل بی‌ادبی اخراج شد."
+      }
+    ],
+    "miniContext": "He was sacked for being rude.",
+    "icon": "💼"
+  }
+]

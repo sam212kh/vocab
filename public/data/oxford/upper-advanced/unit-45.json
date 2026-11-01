@@ -1,0 +1,329 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "adapt (to sth)",
+    "meaning": "سازگار شدن، خود را وفق دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "adjust (to sth)"
+    ],
+    "examples": [
+      {
+        "english": "I find it difficult to adapt to so much new technology.",
+        "persian": "سازگار شدن با این حجم از فناوری جدید برایم سخت است."
+      }
+    ],
+    "miniContext": "I find it difficult to adapt to so much new technology.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "alter",
+    "meaning": "تغییر دادن (جزئی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We've altered our plans: we're now arriving at 6.00, not 7.00.",
+        "persian": "برنامه‌مان را تغییر دادیم: الان ساعت ۶ می‌رسیم، نه ۷."
+      }
+    ],
+    "miniContext": "We've altered our plans: we're now arriving at 6.00, not 7.00.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "amend",
+    "meaning": "اصلاح کردن (سند یا متن)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Civil servants are now amending the document.",
+        "persian": "کارمندان دولت الان در حال اصلاح سند هستند."
+      }
+    ],
+    "miniContext": "Civil servants are now amending the document.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "evolve",
+    "meaning": "به‌تدریج تکامل یافتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Democracy has evolved over hundreds of years.",
+        "persian": "دموکراسی طی صدها سال تکامل یافته است."
+      }
+    ],
+    "miniContext": "Democracy has evolved over hundreds of years.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "reform",
+    "meaning": "اصلاح کردن (سیستم، قانون)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are new proposals to reform the prison system.",
+        "persian": "پیشنهادهای جدیدی برای اصلاح نظام زندان‌ها وجود دارد."
+      }
+    ],
+    "miniContext": "There are new proposals to reform the prison system.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "restore",
+    "meaning": "بازگرداندن به حالت اولیه، مرمت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some people want to restore the monarchy in certain countries.",
+        "persian": "بعضی می‌خواهند سلطنت را در برخی کشورها بازگردانند."
+      }
+    ],
+    "miniContext": "Some people want to restore the monarchy in certain countries.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "reverse",
+    "meaning": "برعکس کردن (تصمیم)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They were going to let him go, but they reversed their decision.",
+        "persian": "می‌خواستند او را آزاد کنند، اما تصمیمشان را برعکس کردند."
+      }
+    ],
+    "miniContext": "They were going to let him go, but they reversed their decision.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "transform",
+    "meaning": "کاملاً دگرگون کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Computers have transformed our lives.",
+        "persian": "کامپیوترها زندگی ما را کاملاً دگرگون کرده‌اند."
+      }
+    ],
+    "miniContext": "Computers have transformed our lives.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "transition",
+    "meaning": "گذار، دوره تغییر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a big transition from school to full-time work.",
+        "persian": "گذار از مدرسه به کار تمام‌وقت، تغییر بزرگی است."
+      }
+    ],
+    "miniContext": "It's a big transition from school to full-time work.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "resist",
+    "meaning": "مقاومت کردن، نپذیرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most employees resist change that is enforced and imposed upon them.",
+        "persian": "بیشتر کارمندان در برابر تغییری که به زور اعمال می‌شود مقاومت می‌کنند."
+      }
+    ],
+    "miniContext": "Most employees resist change that is enforced and imposed upon them.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "enforce",
+    "meaning": "اجرا کردن و واداشتن به پیروی (قانون)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They have the power to make people obey the law - enforce it.",
+        "persian": "آن‌ها قدرت واداشتن مردم به پیروی از قانون را دارند، اجرای آن."
+      }
+    ],
+    "miniContext": "Most employees resist change that is enforced and imposed upon them.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "impose sth (on/upon sb)",
+    "meaning": "تحمیل کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They've imposed change.",
+        "persian": "آن‌ها تغییر را تحمیل کرده‌اند."
+      }
+    ],
+    "miniContext": "Most employees resist change that is enforced and imposed upon them.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "pursue",
+    "meaning": "دنبال کردن، پیگیری کردن (هدف یا سیاست)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As a company we believe in pursuing reform, not revolution.",
+        "persian": "ما به عنوان یک شرکت، معتقدیم که باید اصلاحات را پیگیری کنیم، نه انقلاب را."
+      }
+    ],
+    "miniContext": "If a company wants to pursue a policy that aims to bring about sweeping, or even subtle changes.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "bring sth about",
+    "meaning": "باعث اتفاق افتادن چیزی شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The new measures will bring about further changes.",
+        "persian": "اقدامات جدید باعث تغییرات بیشتری خواهند شد."
+      }
+    ],
+    "miniContext": "If a company wants to pursue a policy that aims to bring about sweeping, or even subtle changes.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "subtle",
+    "meaning": "ظریف، نامحسوس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's only a subtle difference but we believe it will have an effect.",
+        "persian": "فقط یک تفاوت ظریف است اما معتقدیم تاثیرگذار خواهد بود."
+      }
+    ],
+    "miniContext": "Even subtle changes.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "facilitate",
+    "meaning": "آسان‌تر کردن، تسهیل کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has tried to make discussions easier between staff and management - facilitate.",
+        "persian": "او سعی کرده بحث میان کارکنان و مدیریت را تسهیل کند."
+      }
+    ],
+    "miniContext": "Managers need to remember that their role is to facilitate change and not impose it.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "ongoing",
+    "meaning": "در حال انجام، مستمر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I believe there is a continuing investigation into the disappearance of the funds - an ongoing investigation.",
+        "persian": "معتقدم تحقیقاتی مستمر درباره ناپدید شدن وجوه در جریان است."
+      }
+    ],
+    "miniContext": "This requires an ongoing consultation process with the staff.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "consultation",
+    "meaning": "مشورت، فرآیند رایزنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have been involved in an ongoing process of consultation for about two months.",
+        "persian": "حدود دو ماه است که درگیر یک فرآیند مستمر رایزنی هستیم."
+      }
+    ],
+    "miniContext": "This requires an ongoing consultation process with the staff.",
+    "icon": "🔄"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-45",
+    "word": "implement",
+    "meaning": "اجرایی کردن، عملی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "put sth into practice"
+    ],
+    "examples": [
+      {
+        "english": "Suggesting change is one thing but putting it into practice is more difficult - implementing it.",
+        "persian": "پیشنهاد تغییر یک چیز است اما اجرایی کردنش سخت‌تر است."
+      }
+    ],
+    "miniContext": "So that any changes have their support before they are implemented.",
+    "icon": "🔄"
+  }
+]

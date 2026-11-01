@@ -1,0 +1,208 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "higher education",
+    "meaning": "آموزش عالی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He went on to higher education.",
+        "persian": "او به آموزش عالی ادامه داد."
+      }
+    ],
+    "miniContext": "He went on to higher education.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "undergraduate",
+    "meaning": "دانشجوی مقطع کارشناسی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Undergraduates usually do a three-year course.",
+        "persian": "دانشجویان کارشناسی معمولا یک دوره‌ی سه ساله می‌گذرانند."
+      }
+    ],
+    "miniContext": "Undergraduates usually do a three-year course.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "graduate (noun)",
+    "meaning": "فارغ‌التحصیل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's an Oxford graduate.",
+        "persian": "او فارغ‌التحصیل آکسفورد است."
+      }
+    ],
+    "miniContext": "She's an Oxford graduate.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "tutor",
+    "meaning": "استاد راهنما",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can ask your tutor for advice.",
+        "persian": "می‌توانی از استاد راهنمایت مشاوره بخواهی."
+      }
+    ],
+    "miniContext": "You can ask your tutor for advice.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "lecture",
+    "meaning": "سخنرانی دانشگاهی، کلاس درس عمومی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to an interesting lecture on Italian politics.",
+        "persian": "به یک سخنرانی جالب درباره‌ی سیاست ایتالیا رفتم."
+      }
+    ],
+    "miniContext": "I went to an interesting lecture on Italian politics.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "take notes",
+    "meaning": "یادداشت‌برداری کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I always take notes during lectures.",
+        "persian": "همیشه در طول سخنرانی‌ها یادداشت‌برداری می‌کنم."
+      }
+    ],
+    "miniContext": "I always take notes during lectures.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "seminar",
+    "meaning": "سمینار (کلاس بحث گروهی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you going to the seminar this morning?",
+        "persian": "امروز صبح به سمینار می‌روی؟"
+      }
+    ],
+    "miniContext": "Are you going to the seminar this morning?",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "laboratory",
+    "meaning": "آزمایشگاه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "lab"
+    ],
+    "examples": [
+      {
+        "english": "We spent a lot of time in the lab.",
+        "persian": "زمان زیادی را در آزمایشگاه گذراندیم."
+      }
+    ],
+    "miniContext": "We spent a lot of time in the lab.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "campus",
+    "meaning": "پردیس دانشگاه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I lived on campus during my first year.",
+        "persian": "سال اول در پردیس دانشگاه زندگی می‌کردم."
+      }
+    ],
+    "miniContext": "I lived on campus during my first year.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "write a thesis",
+    "meaning": "پایان‌نامه نوشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm writing a thesis on artificial intelligence.",
+        "persian": "دارم روی پایان‌نامه‌ام درباره‌ی هوش مصنوعی کار می‌کنم."
+      }
+    ],
+    "miniContext": "I'm writing a thesis on artificial intelligence.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "do research",
+    "meaning": "پژوهش کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's doing research for a PhD.",
+        "persian": "او برای دکترا پژوهش می‌کند."
+      }
+    ],
+    "miniContext": "He's doing research for a PhD.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-75",
+    "word": "conference",
+    "meaning": "کنفرانس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm going to attend a conference on climate change.",
+        "persian": "می‌خواهم در یک کنفرانس درباره‌ی تغییر اقلیم شرکت کنم."
+      }
+    ],
+    "miniContext": "I'm going to attend a conference on climate change.",
+    "icon": "🎓"
+  }
+]

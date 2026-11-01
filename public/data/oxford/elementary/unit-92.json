@@ -1,0 +1,223 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "how often",
+    "meaning": "هر چند وقت یک‌بار",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How often do you go to the gym?",
+        "persian": "هر چند وقت یک‌بار به باشگاه می‌روی؟"
+      }
+    ],
+    "miniContext": "How often do you go to the gym?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "idea",
+    "meaning": "ایده، فکر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a good idea for the party.",
+        "persian": "من یک ایده خوب برای مهمانی دارم."
+      }
+    ],
+    "miniContext": "I have a good idea for the party.",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "mine",
+    "meaning": "مال من",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This book is mine.",
+        "persian": "این کتاب مال من است."
+      }
+    ],
+    "miniContext": "This book is mine.",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "what",
+    "meaning": "چه؛ چی",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your name?",
+        "persian": "اسم تو چیست؟"
+      }
+    ],
+    "miniContext": "What is your name?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "What time/when...?",
+    "meaning": "چه زمانی/کی...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What time does the film start?",
+        "persian": "فیلم چه زمانی شروع می‌شود؟"
+      }
+    ],
+    "miniContext": "What time does the film start?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "when",
+    "meaning": "چه زمانی؛ وقتی که",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When do you go to work?",
+        "persian": "چه زمانی به سر کار می‌روی؟"
+      }
+    ],
+    "miniContext": "When do you go to work?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "Where's the nearest...?",
+    "meaning": "نزدیک‌ترین ... کجاست؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Where's the nearest bank?",
+        "persian": "نزدیک‌ترین بانک کجاست؟"
+      }
+    ],
+    "miniContext": "Where's the nearest bank?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "which",
+    "meaning": "کدام",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Which colour do you like?",
+        "persian": "کدام رنگ را دوست داری؟"
+      }
+    ],
+    "miniContext": "Which colour do you like?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "who",
+    "meaning": "چه کسی",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who is that man?",
+        "persian": "آن مرد چه کسی است؟"
+      }
+    ],
+    "miniContext": "Who is that man?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "whose",
+    "meaning": "متعلق به چه کسی",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Whose bag is this?",
+        "persian": "این کیف متعلق به چه کسی است؟"
+      }
+    ],
+    "miniContext": "Whose bag is this?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "why",
+    "meaning": "چرا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Why are you late?",
+        "persian": "چرا دیر کردی؟"
+      }
+    ],
+    "miniContext": "Why are you late?",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "worth doing",
+    "meaning": "ارزش انجام دادن داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This museum is worth visiting.",
+        "persian": "این موزه ارزش بازدید کردن دارد."
+      }
+    ],
+    "miniContext": "This museum is worth visiting.",
+    "icon": "❓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-92",
+    "word": "yeah",
+    "meaning": "آره",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Yeah, I agree with you.",
+        "persian": "آره، با تو موافقم."
+      }
+    ],
+    "miniContext": "Yeah, I agree with you.",
+    "icon": "❓"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "armchair",
+    "meaning": "مبل راحتی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Grandpa likes to sit in his armchair.",
+        "persian": "پدربزرگ دوست دارد روی مبل راحتی‌اش بنشیند."
+      }
+    ],
+    "miniContext": "Grandpa likes to sit in his armchair.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "carpet",
+    "meaning": "فرش، موکت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a red carpet in the living room.",
+        "persian": "یک فرش قرمز در اتاق نشیمن هست."
+      }
+    ],
+    "miniContext": "There is a red carpet in the living room.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "fire",
+    "meaning": "آتش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They sat around the fire.",
+        "persian": "آنها اطراف آتش نشستند."
+      }
+    ],
+    "miniContext": "They sat around the fire.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "floor",
+    "meaning": "کف، طبقه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a toy on the floor.",
+        "persian": "یک اسباب‌بازی روی کف اتاق است."
+      }
+    ],
+    "miniContext": "There is a toy on the floor.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "light (n)",
+    "meaning": "نور، چراغ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Turn off the light.",
+        "persian": "چراغ را خاموش کن."
+      }
+    ],
+    "miniContext": "Turn off the light.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "shelf",
+    "meaning": "قفسه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The books are on the top shelf.",
+        "persian": "کتاب‌ها روی قفسه بالایی هستند."
+      }
+    ],
+    "miniContext": "The books are on the top shelf.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "sofa",
+    "meaning": "مبل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's sit on the sofa.",
+        "persian": "بیا روی مبل بنشینیم."
+      }
+    ],
+    "miniContext": "Let's sit on the sofa.",
+    "icon": "🛋️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "television",
+    "meaning": "تلویزیون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "TV"
+    ],
+    "examples": [
+      {
+        "english": "We watch television in the evening.",
+        "persian": "ما شب‌ها تلویزیون تماشا می‌کنیم."
+      }
+    ],
+    "miniContext": "We watch television in the evening.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-61",
+    "word": "window",
+    "meaning": "پنجره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please open the window.",
+        "persian": "لطفاً پنجره را باز کن."
+      }
+    ],
+    "miniContext": "Please open the window.",
+    "icon": "🛋️"
+  }
+]

@@ -1,0 +1,335 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "arrogant",
+    "meaning": "متکبر، مغرور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Joel seemed rather arrogant and immature.",
+        "persian": "جوئل نسبتاً متکبر و نابالغ به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "Joel seemed rather arrogant and immature. He started badly by saying some idiotic things about the company.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "immature",
+    "meaning": "نابالغ، بچگانه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She seems like she's just out of school. She's too immature for our company.",
+        "persian": "به نظر می‌رسد تازه از مدرسه بیرون آمده. برای شرکت ما خیلی نابالغ است."
+      }
+    ],
+    "miniContext": "Joel seemed rather arrogant and immature.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "idiotic",
+    "meaning": "احمقانه، بسیار نادرست",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "ridiculous"
+    ],
+    "examples": [
+      {
+        "english": "He started badly by saying some idiotic things about the company.",
+        "persian": "با گفتن چند حرف احمقانه درباره شرکت، شروع بدی داشت."
+      }
+    ],
+    "miniContext": "He started badly by saying some idiotic things about the company, showing that he wasn't at all knowledgeable about it.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "knowledgeable",
+    "meaning": "آگاه، مطلع",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "well informed"
+    ],
+    "examples": [
+      {
+        "english": "Is Mr Morris knowledgeable about the business? - Yes, he's very knowledgeable.",
+        "persian": "آیا آقای موریس درباره کسب‌وکار آگاه است؟ بله، خیلی آگاه است."
+      }
+    ],
+    "miniContext": "He showed that he wasn't at all knowledgeable about the company.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "struggle (to do sth)",
+    "meaning": "سخت تلاش کردن، با مشکل مواجه شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He struggled to answer the most basic questions.",
+        "persian": "برای جواب دادن به ساده‌ترین سوالات هم مشکل داشت."
+      }
+    ],
+    "miniContext": "He struggled to answer the most basic questions.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "capable",
+    "meaning": "توانا، لایق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I felt she was a very capable person, mature and motivated.",
+        "persian": "احساس کردم او فرد بسیار توانایی است، بالغ و با انگیزه."
+      }
+    ],
+    "miniContext": "I felt she was a very capable person, mature and motivated.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "motivated",
+    "meaning": "باانگیزه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I felt she was a very capable person, mature and motivated.",
+        "persian": "احساس کردم او فرد بسیار توانایی است، بالغ و با انگیزه."
+      }
+    ],
+    "miniContext": "I felt she was a very capable person, mature and motivated.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "timid",
+    "meaning": "خجالتی، کمرو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "shy"
+    ],
+    "examples": [
+      {
+        "english": "At first he came across as timid and lacking in confidence.",
+        "persian": "در ابتدا خجالتی و کم‌اعتمادبه‌نفس به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "At first he came across as timid and lacking in confidence.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "be lacking in sth",
+    "meaning": "فاقد چیزی بودن، کمبود داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "lack sth"
+    ],
+    "examples": [
+      {
+        "english": "He came across as timid and lacking in confidence.",
+        "persian": "خجالتی و کم‌اعتمادبه‌نفس به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "At first he came across as timid and lacking in confidence.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "charming",
+    "meaning": "جذاب و دلنشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As he relaxed, I could see he was actually quite charming.",
+        "persian": "وقتی آرام شد، دیدم که واقعا خیلی دلنشین است."
+      }
+    ],
+    "miniContext": "As he relaxed, I could see he was actually quite charming.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "conscientious",
+    "meaning": "وظیفه‌شناس، دقیق و مسئول",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He seemed conscientious and efficient.",
+        "persian": "او وظیفه‌شناس و کارآمد به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "He seemed conscientious and efficient, and I think he would take the job seriously.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "efficient",
+    "meaning": "کارآمد، بهره‌ور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He seemed conscientious and efficient.",
+        "persian": "او وظیفه‌شناس و کارآمد به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "He seemed conscientious and efficient, and I think he would take the job seriously.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "take sth/sb seriously",
+    "meaning": "جدی گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think he would take the job seriously.",
+        "persian": "فکر می‌کنم او این شغل را جدی می‌گیرد."
+      }
+    ],
+    "miniContext": "I think he would take the job seriously.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "take to sb/sth",
+    "meaning": "از کسی یا چیزی خوشش آمدن (در برخورد اول)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really took to Jacinta immediately.",
+        "persian": "از همان اول خیلی از خاسینتا خوشم آمد."
+      }
+    ],
+    "miniContext": "I really took to Jacinta immediately.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "straightforward",
+    "meaning": "صادق و رک، بدون پیچیدگی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I feel she struck me as a confident, straightforward candidate.",
+        "persian": "احساس کردم او داوطلبی بااعتمادبه‌نفس و رک بود."
+      }
+    ],
+    "miniContext": "She struck me as a confident, straightforward candidate and I feel she has great potential.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "potential",
+    "meaning": "استعداد، توانایی بالقوه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think Ariana has qualities that can be developed - she has great potential.",
+        "persian": "فکر می‌کنم آریانا ویژگی‌هایی دارد که می‌تواند رشد کند، استعداد زیادی دارد."
+      }
+    ],
+    "miniContext": "She struck me as a confident, straightforward candidate and I feel she has great potential.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "make sth of sb",
+    "meaning": "درک کردن شخصیت کسی، تصور کردن درباره کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't know what to make of her at first.",
+        "persian": "اولش نمی‌دانستم چه برداشتی از او داشته باشم."
+      }
+    ],
+    "miniContext": "I didn't know what to make of her at first, but as the interview progressed, I felt she was a very capable person.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "come across (as sth)",
+    "meaning": "تأثیری خاص گذاشتن، به نظر رسیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "come over (as sth)"
+    ],
+    "examples": [
+      {
+        "english": "At first he came across as timid and lacking in confidence.",
+        "persian": "در ابتدا خجالتی و کم‌اعتمادبه‌نفس به نظر می‌رسید."
+      }
+    ],
+    "miniContext": "At first he came across as timid and lacking in confidence.",
+    "icon": "🧐"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-17",
+    "word": "strike sb as sth",
+    "meaning": "برداشت یا تاثیر خاصی روی کسی گذاشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She struck me as a confident, straightforward candidate.",
+        "persian": "او به نظرم داوطلبی بااعتمادبه‌نفس و رک آمد."
+      }
+    ],
+    "miniContext": "She struck me as a confident, straightforward candidate and I feel she has great potential.",
+    "icon": "🧐"
+  }
+]

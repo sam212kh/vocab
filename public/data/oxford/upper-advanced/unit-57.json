@@ -1,0 +1,308 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "publication",
+    "meaning": "نشریه؛ انتشار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Consider the type of publication you are writing for.",
+        "persian": "نوع نشریه‌ای را که برای آن می‌نویسی در نظر بگیر."
+      }
+    ],
+    "miniContext": "Consider the type of publication you are writing for.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "blank",
+    "meaning": "خالی، سفید (بدون نوشته)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When you look at your blank screen, imagine your reader.",
+        "persian": "وقتی به صفحه‌ی خالی نگاه می‌کنی، خواننده‌ات را تصور کن."
+      }
+    ],
+    "miniContext": "When you look at your blank screen, imagine your reader.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "specialist (publication)",
+    "meaning": "تخصصی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If it is a specialist publication, you can assume a greater knowledge on the part of the reader.",
+        "persian": "اگر نشریه‌ای تخصصی باشد، می‌توان دانش بیشتری از سوی خواننده را مفروض گرفت."
+      }
+    ],
+    "miniContext": "If it is a specialist publication, you can assume a greater knowledge on the part of the reader.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "assume",
+    "meaning": "فرض کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can assume a greater knowledge on the part of the reader.",
+        "persian": "می‌توان دانش بیشتری از سوی خواننده را مفروض گرفت."
+      }
+    ],
+    "miniContext": "You can assume a greater knowledge on the part of the reader.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "on the part of sb",
+    "meaning": "از سوی کسی، از جانب کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can assume a greater knowledge on the part of the reader.",
+        "persian": "می‌توان دانش بیشتری از جانب خواننده را مفروض گرفت."
+      }
+    ],
+    "miniContext": "You can assume a greater knowledge on the part of the reader.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "precious commodity",
+    "meaning": "دارایی ارزشمند، منبع باارزش",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Space is the most precious commodity in a print newspaper.",
+        "persian": "فضا باارزش‌ترین منبع در یک روزنامه‌ی چاپی است."
+      }
+    ],
+    "miniContext": "Space is the most precious commodity in a print newspaper.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "take up sth",
+    "meaning": "اشغال کردن (فضا/زمان)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Long sentences take up space.",
+        "persian": "جملات طولانی فضا را اشغال می‌کنند."
+      }
+    ],
+    "miniContext": "Long sentences take up space.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "mass-market",
+    "meaning": "عامه‌پسند، برای مخاطب گسترده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Avoid difficult words, especially in mass-market publications.",
+        "persian": "از کلمات دشوار، به‌ویژه در نشریات عامه‌پسند، پرهیز کن."
+      }
+    ],
+    "miniContext": "Avoid difficult words, especially in mass-market publications.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "talk down to sb",
+    "meaning": "با لحن تحقیرآمیز با کسی حرف زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't talk down to your readers.",
+        "persian": "با خوانندگانت با لحن تحقیرآمیز صحبت نکن."
+      }
+    ],
+    "miniContext": "Don't talk down to your readers.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "opening",
+    "meaning": "آغاز، بخش آغازین متن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Your opening has to engage the reader instantly.",
+        "persian": "بخش آغازین متنت باید بلافاصله خواننده را درگیر کند."
+      }
+    ],
+    "miniContext": "Your opening has to engage the reader instantly.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "instantly",
+    "meaning": "بی‌درنگ، فوراً",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Your opening has to engage the reader instantly.",
+        "persian": "بخش آغازین متنت باید بی‌درنگ خواننده را درگیر کند."
+      }
+    ],
+    "miniContext": "Your opening has to engage the reader instantly.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "grab sb's attention",
+    "meaning": "توجه کسی را جلب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A good introduction will grab the reader's attention.",
+        "persian": "یک مقدمه‌ی خوب توجه خواننده را جلب می‌کند."
+      }
+    ],
+    "miniContext": "A good introduction will grab the reader's attention.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "set the tone",
+    "meaning": "لحن کلی متن را تعیین کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This sets the tone for the rest of the piece.",
+        "persian": "این بخش لحن کلی بقیه‌ی متن را تعیین می‌کند."
+      }
+    ],
+    "miniContext": "This sets the tone for the rest of the piece.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "quote",
+    "meaning": "نقل‌قول",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Quotes are good - they add colour and personal experience.",
+        "persian": "نقل‌قول‌ها خوب هستند؛ به متن رنگ‌وبو و تجربه‌ی شخصی می‌افزایند."
+      }
+    ],
+    "miniContext": "Quotes are good - they add colour and personal experience.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "cite",
+    "meaning": "نقل کردن، به نقل از کسی گفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you are citing from specific sources, keep it short.",
+        "persian": "اگر از منابع مشخصی نقل‌قول می‌کنی، آن را کوتاه نگه دار."
+      }
+    ],
+    "miniContext": "If you are citing from specific sources, keep it short.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "otherwise",
+    "meaning": "در غیر این صورت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Keep quotes short, otherwise the story will lose pace.",
+        "persian": "نقل‌قول‌ها را کوتاه نگه دار، در غیر این صورت داستان شتاب خود را از دست می‌دهد."
+      }
+    ],
+    "miniContext": "Keep quotes short, otherwise the story will lose pace.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "pace",
+    "meaning": "سرعت، شتاب روایت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Long quotes can make the story lose pace and direction.",
+        "persian": "نقل‌قول‌های طولانی می‌توانند شتاب و جهت داستان را از بین ببرند."
+      }
+    ],
+    "miniContext": "Long quotes can make the story lose pace and direction.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-57",
+    "word": "precision",
+    "meaning": "دقت، صراحت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sometimes a quote has to be there to provide precision.",
+        "persian": "گاهی نقل‌قول باید باشد تا دقت لازم را فراهم کند."
+      }
+    ],
+    "miniContext": "Sometimes a quote has to be there to provide precision.",
+    "icon": "📰"
+  }
+]

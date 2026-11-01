@@ -1,0 +1,206 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "address book",
+    "meaning": "دفترچه آدرس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I keep his number in my address book.",
+        "persian": "شماره او را در دفترچه آدرسم نگه می‌دارم."
+      }
+    ],
+    "miniContext": "I keep his number in my address book.",
+    "icon": "📘"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "birthday card",
+    "meaning": "کارت تولد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sent her a birthday card.",
+        "persian": "من برای او یک کارت تولد فرستادم."
+      }
+    ],
+    "miniContext": "I sent her a birthday card.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "car park",
+    "meaning": "پارکینگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The car park is behind the shop.",
+        "persian": "پارکینگ پشت مغازه است."
+      }
+    ],
+    "miniContext": "The car park is behind the shop.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "full stop",
+    "meaning": "نقطه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put a full stop at the end of the sentence.",
+        "persian": "در پایان جمله یک نقطه بگذار."
+      }
+    ],
+    "miniContext": "Put a full stop at the end of the sentence.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "high street",
+    "meaning": "خیابان اصلی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shops are on the high street.",
+        "persian": "مغازه‌ها در خیابان اصلی هستند."
+      }
+    ],
+    "miniContext": "The shops are on the high street.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "identity card",
+    "meaning": "کارت شناسایی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need an identity card to vote.",
+        "persian": "برای رای دادن به کارت شناسایی نیاز دارید."
+      }
+    ],
+    "miniContext": "You need an identity card to vote.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "past tense",
+    "meaning": "زمان گذشته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Went\" is the past tense of \"go\".",
+        "persian": "«went» زمان گذشتهٔ «go» است."
+      }
+    ],
+    "miniContext": "\"Went\" is the past tense of \"go\".",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "phrasal verb",
+    "meaning": "فعل عبارتی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Look after\" is a phrasal verb.",
+        "persian": "«look after» یک فعل عبارتی است."
+      }
+    ],
+    "miniContext": "\"Look after\" is a phrasal verb.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "question mark",
+    "meaning": "علامت سؤال",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put a question mark at the end.",
+        "persian": "در آخر یک علامت سؤال بگذار."
+      }
+    ],
+    "miniContext": "Put a question mark at the end.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "sports centre",
+    "meaning": "مجموعه ورزشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a new sports centre in our town.",
+        "persian": "در شهر ما یک مجموعه ورزشی جدید هست."
+      }
+    ],
+    "miniContext": "There is a new sports centre in our town.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "swimming pool",
+    "meaning": "استخر شنا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The hotel has a swimming pool.",
+        "persian": "هتل یک استخر شنا دارد."
+      }
+    ],
+    "miniContext": "The hotel has a swimming pool.",
+    "icon": "🏊"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-79",
+    "word": "town centre",
+    "meaning": "مرکز شهر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shops are in the town centre.",
+        "persian": "مغازه‌ها در مرکز شهر هستند."
+      }
+    ],
+    "miniContext": "The shops are in the town centre.",
+    "icon": "🏘️"
+  }
+]

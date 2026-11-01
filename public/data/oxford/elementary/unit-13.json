@@ -1,0 +1,446 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "abroad",
+    "meaning": "خارج از کشور",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "overseas"
+    ],
+    "examples": [
+      {
+        "english": "My sister lives abroad.",
+        "persian": "خواهر من در خارج از کشور زندگی می‌کند."
+      }
+    ],
+    "miniContext": "My sister lives abroad.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "address",
+    "meaning": "آدرس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your home address?",
+        "persian": "آدرس خانه‌ات چیست؟"
+      }
+    ],
+    "miniContext": "What is your home address?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "be from",
+    "meaning": "اهل جایی بودن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Where are you from?",
+        "persian": "تو اهل کجا هستی؟"
+      }
+    ],
+    "miniContext": "Where are you from?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "first name",
+    "meaning": "نام کوچک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your first name?",
+        "persian": "نام کوچک شما چیست؟"
+      }
+    ],
+    "miniContext": "What is your first name?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "from (be from)",
+    "meaning": "اهل (جایی بودن)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Where are you from?",
+        "persian": "تو اهل کجایی؟"
+      }
+    ],
+    "miniContext": "Where are you from?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "great",
+    "meaning": "عالی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That's a great idea!",
+        "persian": "این یک ایده عالی است!"
+      }
+    ],
+    "miniContext": "That's a great idea!",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "how long",
+    "meaning": "چه مدت",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How long have you lived here?",
+        "persian": "چه مدت است اینجا زندگی می‌کنی؟"
+      }
+    ],
+    "miniContext": "How long have you lived here?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "how old",
+    "meaning": "چند ساله",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How old are you?",
+        "persian": "چند سالته؟"
+      }
+    ],
+    "miniContext": "How old are you?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "improve",
+    "meaning": "بهبود یافتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Your English has improved a lot.",
+        "persian": "انگلیسی تو خیلی بهبود یافته است."
+      }
+    ],
+    "miniContext": "Your English has improved a lot.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "improvement",
+    "meaning": "بهبود",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There has been a big improvement in her work.",
+        "persian": "در کار او بهبود زیادی رخ داده است."
+      }
+    ],
+    "miniContext": "There has been a big improvement in her work.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "information",
+    "meaning": "اطلاعات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need more information.",
+        "persian": "من به اطلاعات بیشتری نیاز دارم."
+      }
+    ],
+    "miniContext": "I need more information.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "job",
+    "meaning": "شغل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a good job.",
+        "persian": "او شغل خوبی دارد."
+      }
+    ],
+    "miniContext": "She has a good job.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "level",
+    "meaning": "سطح",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My English level is good.",
+        "persian": "سطح انگلیسی من خوب است."
+      }
+    ],
+    "miniContext": "My English level is good.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "married",
+    "meaning": "متاهل",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They got married last year.",
+        "persian": "آنها سال گذشته ازدواج کردند."
+      }
+    ],
+    "miniContext": "They got married last year.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "perfect",
+    "meaning": "عالی؛ بی‌نقص",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a perfect day for a walk.",
+        "persian": "امروز روز عالی برای پیاده‌روی است."
+      }
+    ],
+    "miniContext": "This is a perfect day for a walk.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "personal (information)",
+    "meaning": "شخصی (اطلاعات)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please write your personal information here.",
+        "persian": "لطفاً اطلاعات شخصی خود را اینجا بنویس."
+      }
+    ],
+    "miniContext": "Please write your personal information here.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "plan (to do) sth",
+    "meaning": "قصد داشتن (کاری را انجام دهد)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I plan to study abroad.",
+        "persian": "من قصد دارم در خارج از کشور تحصیل کنم."
+      }
+    ],
+    "miniContext": "I plan to study abroad.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "postcode",
+    "meaning": "کد پستی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's your postcode?",
+        "persian": "کد پستی‌ات چیست؟"
+      }
+    ],
+    "miniContext": "What's your postcode?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "progress",
+    "meaning": "پیشرفت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You are making good progress.",
+        "persian": "تو پیشرفت خوبی داری."
+      }
+    ],
+    "miniContext": "You are making good progress.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "reception",
+    "meaning": "پذیرش (هتل)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please leave your key at reception.",
+        "persian": "لطفاً کلیدتان را در پذیرش بگذارید."
+      }
+    ],
+    "miniContext": "Please leave your key at reception.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "receptionist",
+    "meaning": "مسئول پذیرش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The receptionist gave us the room key.",
+        "persian": "مسئول پذیرش کلید اتاق را به ما داد."
+      }
+    ],
+    "miniContext": "The receptionist gave us the room key.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "single (not married)",
+    "meaning": "مجرد",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother is still single.",
+        "persian": "برادرم هنوز مجرد است."
+      }
+    ],
+    "miniContext": "My brother is still single.",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "surname",
+    "meaning": "نام خانوادگی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your surname?",
+        "persian": "نام خانوادگی‌ات چیست؟"
+      }
+    ],
+    "miniContext": "What is your surname?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "What do you do?",
+    "meaning": "شغلت چیست؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What do you do for a living?",
+        "persian": "شغل تو چیست؟"
+      }
+    ],
+    "miniContext": "What do you do for a living?",
+    "icon": "🪪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "What's your job?",
+    "meaning": "شغلت چیست؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's your job exactly?",
+        "persian": "دقیقاً شغلت چیست؟"
+      }
+    ],
+    "miniContext": "What's your job exactly?",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-13",
+    "word": "whereabouts",
+    "meaning": "حدوداً کجا؛ محل تقریبی",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Whereabouts do you live?",
+        "persian": "حدوداً کجا زندگی می‌کنی؟"
+      }
+    ],
+    "miniContext": "Whereabouts do you live?",
+    "icon": "🪪"
+  }
+]

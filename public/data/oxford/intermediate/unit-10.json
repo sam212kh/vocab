@@ -1,0 +1,346 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "friendship",
+    "meaning": "دوستی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Friendship is just as important as family.",
+        "persian": "دوستی به اندازه‌ی خانواده مهم است."
+      }
+    ],
+    "miniContext": "Friendship is just as important as family.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "get on (well) with sb",
+    "meaning": "رابطه‌ی خوبی داشتن با کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I used to get on well with my cousin.",
+        "persian": "قبلا با پسرعمویم رابطه‌ی خوبی داشتم."
+      }
+    ],
+    "miniContext": "I used to get on well with my cousin.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "trust sb",
+    "meaning": "به کسی اعتماد کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really trust Marcel - I can tell him anything.",
+        "persian": "من واقعا به مارسل اعتماد دارم - می‌توانم هر چیزی را به او بگویم."
+      }
+    ],
+    "miniContext": "I really trust Marcel - I can tell him anything.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "have sth in common",
+    "meaning": "وجه اشتراک داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We don't really have anything in common any longer.",
+        "persian": "ما دیگر واقعا هیچ وجه اشتراکی نداریم."
+      }
+    ],
+    "miniContext": "We don't really have anything in common any longer.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "keep/be in touch (with sb)",
+    "meaning": "در ارتباط بودن (با کسی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I manage to keep in touch with most of my old friends.",
+        "persian": "موفق می‌شوم با بیشتر دوستان قدیمی‌ام در ارتباط بمانم."
+      }
+    ],
+    "miniContext": "I manage to keep in touch with most of my old friends.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "sense of humour",
+    "meaning": "حس شوخ‌طبعی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Both brothers have a great sense of humour.",
+        "persian": "هر دو برادر حس شوخ‌طبعی فوق‌العاده‌ای دارند."
+      }
+    ],
+    "miniContext": "Both brothers have a great sense of humour.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "attitude",
+    "meaning": "نگرش، طرز فکر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think that's the right attitude to work.",
+        "persian": "فکر می‌کنم این نگرش درستی نسبت به کار است."
+      }
+    ],
+    "miniContext": "I think that's the right attitude to work.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "rely on sb",
+    "meaning": "روی کسی حساب کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can depend on my brother to help if you need it.",
+        "persian": "می‌توانی روی برادرم حساب کنی که کمک کند."
+      }
+    ],
+    "miniContext": "You can depend on my brother to help if you need it.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "tell the truth",
+    "meaning": "راست گفتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He always tells the truth.",
+        "persian": "او همیشه راست می‌گوید."
+      }
+    ],
+    "miniContext": "He always tells the truth.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "honest",
+    "meaning": "صادق",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't trust him; he isn't very honest.",
+        "persian": "به او اعتماد ندارم؛ خیلی صادق نیست."
+      }
+    ],
+    "miniContext": "I don't trust him; he isn't very honest.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "get to know sb",
+    "meaning": "با کسی آشنا شدن، او را شناختن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We got to know each other at university.",
+        "persian": "ما در دانشگاه با هم آشنا شدیم."
+      }
+    ],
+    "miniContext": "We got to know each other at university.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "one another",
+    "meaning": "یکدیگر",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "each other"
+    ],
+    "examples": [
+      {
+        "english": "How long have you known one another?",
+        "persian": "چقدر است که همدیگر را می‌شناسید؟"
+      }
+    ],
+    "miniContext": "How long have you known one another?",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "get together",
+    "meaning": "دور هم جمع شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They got together for a weekend break.",
+        "persian": "آن‌ها برای یک تعطیلات آخر هفته دور هم جمع شدند."
+      }
+    ],
+    "miniContext": "They got together for a weekend break.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "go wrong",
+    "meaning": "خراب شدن (اوضاع)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Things soon went wrong between them.",
+        "persian": "به زودی اوضاع بین آن‌ها خراب شد."
+      }
+    ],
+    "miniContext": "Things soon went wrong between them.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "no longer",
+    "meaning": "دیگر نه",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "not any longer"
+    ],
+    "examples": [
+      {
+        "english": "Jack no longer gets on with Dan.",
+        "persian": "جک دیگر با دَن رابطه‌ی خوبی ندارد."
+      }
+    ],
+    "miniContext": "Jack no longer gets on with Dan.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "realize",
+    "meaning": "متوجه شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He realized they had nothing in common.",
+        "persian": "او متوجه شد که هیچ وجه اشتراکی ندارند."
+      }
+    ],
+    "miniContext": "He realized they had nothing in common.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "break up (with sb)",
+    "meaning": "به هم زدن رابطه (با کسی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Harry broke up with Amy last year.",
+        "persian": "هری سال پیش رابطه‌اش را با امی به هم زد."
+      }
+    ],
+    "miniContext": "Harry broke up with Amy last year.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "go out with sb",
+    "meaning": "با کسی دوست بودن (رابطه‌ی عاشقانه)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He used to go out with Amy.",
+        "persian": "او قبلا با امی دوست بود."
+      }
+    ],
+    "miniContext": "He used to go out with Amy.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "fancy sb",
+    "meaning": "از کسی خوشش آمدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Amy fancies Dan now.",
+        "persian": "امی حالا از دن خوشش می‌آید."
+      }
+    ],
+    "miniContext": "Amy fancies Dan now.",
+    "icon": "🤝"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-10",
+    "word": "in a (serious) relationship",
+    "meaning": "در یک رابطه‌ی (جدی) بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's in a serious relationship with Sophie.",
+        "persian": "او با سوفی رابطه‌ی جدی دارد."
+      }
+    ],
+    "miniContext": "He's in a serious relationship with Sophie.",
+    "icon": "🤝"
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "make an effort (to do sth)",
+    "meaning": "تلاش کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The headteacher has to make an effort to set an example.",
+        "persian": "مدیر مدرسه باید تلاش کند تا الگو باشد."
+      }
+    ],
+    "miniContext": "The headteacher obviously has to make an effort to set an example to their staff and students.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "set an example (to sb)",
+    "meaning": "الگو بودن، سرمشق شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The headteacher has to set a good example to their staff and students.",
+        "persian": "مدیر مدرسه باید برای کارکنان و دانش‌آموزانش الگوی خوبی باشد."
+      }
+    ],
+    "miniContext": "It is their job to set a good example to their staff and students.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "treat sb with respect",
+    "meaning": "با احترام با کسی رفتار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It is their job to treat everyone with respect.",
+        "persian": "وظیفه آن‌ها این است که با همه با احترام رفتار کنند."
+      }
+    ],
+    "miniContext": "It is their job to treat everyone with respect.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "take responsibility (for sth/sb)",
+    "meaning": "مسئولیت چیزی را بر عهده گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It is their job to take responsibility for important decisions.",
+        "persian": "وظیفه آن‌ها این است که مسئولیت تصمیمات مهم را بر عهده بگیرند."
+      }
+    ],
+    "miniContext": "It is their job to take responsibility for important decisions that the school makes.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "get the credit (for sth)",
+    "meaning": "تحسین و اعتبار کاری را گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If things go well, the headteacher gets the credit.",
+        "persian": "اگر همه چیز خوب پیش برود، مدیر مدرسه اعتبارش را می‌گیرد."
+      }
+    ],
+    "miniContext": "If things go well, the headteacher gets the credit; if they don't, he or she has to take the blame.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "take the blame (for sth)",
+    "meaning": "مسئولیت اشتباه یا شکست را پذیرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He or she has to be prepared to take the blame.",
+        "persian": "او باید آماده باشد که تقصیر را بپذیرد."
+      }
+    ],
+    "miniContext": "If things don't go well, he or she has to be prepared to take the blame.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "spread a rumour",
+    "meaning": "شایعه پراکندن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Carrie had been spreading a rumour that Sean and Sophie were going to have a baby.",
+        "persian": "کری داشت این شایعه را پخش می‌کرد که شان و سوفی قرار است بچه‌دار شوند."
+      }
+    ],
+    "miniContext": "Carrie had been spreading a rumour that Sean and Sophie were going to have a baby.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "keep sth a secret",
+    "meaning": "چیزی را مخفی نگه داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She told everyone else to keep it a secret.",
+        "persian": "او به بقیه گفت که آن را مخفی نگه دارند."
+      }
+    ],
+    "miniContext": "She told everyone else to keep it a secret.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "break the news",
+    "meaning": "اولین کسی بودن که خبری را اعلام می‌کند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sean finally broke the news that they were going to get a cat.",
+        "persian": "شان بالاخره خبر داد که آن‌ها قرار است یک گربه بگیرند."
+      }
+    ],
+    "miniContext": "It was quite a shock when Sean finally broke the news that they were going to get a cat.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "roar with laughter",
+    "meaning": "از ته دل، بلند خندیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We all roared with laughter - everyone except Carrie.",
+        "persian": "همه از ته دل خندیدیم، به جز کری."
+      }
+    ],
+    "miniContext": "We all roared with laughter - everyone except Carrie.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "pass the buck",
+    "meaning": "مسئولیت را به گردن دیگری انداختن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My boss never accepts responsibility; he always passes the buck.",
+        "persian": "رئیسم هیچ‌وقت مسئولیت را قبول نمی‌کند، همیشه تقصیر را گردن دیگران می‌اندازد."
+      }
+    ],
+    "miniContext": "My boss never accepts responsibility for things. He always passes the buck.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "detailed description",
+    "meaning": "توصیف دقیق و کامل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I gave them a detailed description of the burglary.",
+        "persian": "توصیف کاملی از سرقت به آن‌ها دادم."
+      }
+    ],
+    "miniContext": "I gave them a detailed description of the burglary.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "strong accent",
+    "meaning": "لهجه غلیظ و واضح",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He speaks with a strong accent.",
+        "persian": "او با لهجه غلیظی صحبت می‌کند."
+      }
+    ],
+    "miniContext": "He speaks with a strong accent.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "main concern",
+    "meaning": "نگرانی اصلی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "principal concern"
+    ],
+    "examples": [
+      {
+        "english": "Our main concern for the party is the weather.",
+        "persian": "نگرانی اصلی ما برای مهمانی، هواست."
+      }
+    ],
+    "miniContext": "Our main concern for the party is the weather.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "typical example",
+    "meaning": "نمونه بارز و معمولی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a typical example of his stupidity.",
+        "persian": "این نمونه بارزی از حماقت او بود."
+      }
+    ],
+    "miniContext": "It was a typical example of his stupidity.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "utter chaos",
+    "meaning": "هرج و مرج کامل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The house was utter chaos when I got home.",
+        "persian": "وقتی به خانه رسیدم همه چیز بهم‌ریخته بود."
+      }
+    ],
+    "miniContext": "The house was utter chaos when I got home.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "narrow escape",
+    "meaning": "فرار به‌موقع از خطر، جان سالم به در بردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The children had a narrow escape.",
+        "persian": "بچه‌ها به‌سختی از خطر جان سالم به در بردند."
+      }
+    ],
+    "miniContext": "The children had a narrow escape.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "familiar face",
+    "meaning": "چهره آشنا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Nice to see a familiar face at the party.",
+        "persian": "خوب است یک چهره آشنا در مهمانی ببینیم."
+      }
+    ],
+    "miniContext": "Nice to see a familiar face at the party.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "vast majority",
+    "meaning": "اکثریت قریب‌به‌اتفاق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The vast majority of students passed.",
+        "persian": "اکثریت قریب‌به‌اتفاق دانش‌آموزان قبول شدند."
+      }
+    ],
+    "miniContext": "The vast majority of students passed.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-4",
+    "word": "the complete opposite",
+    "meaning": "درست نقطه مقابل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "the exact opposite"
+    ],
+    "examples": [
+      {
+        "english": "I thought he'd be tall but he was the complete opposite.",
+        "persian": "فکر می‌کردم قدبلند باشد اما درست برعکسش بود."
+      }
+    ],
+    "miniContext": "I thought he'd be tall but he was the complete opposite.",
+    "icon": "🔤"
+  }
+]

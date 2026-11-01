@@ -1,0 +1,346 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "I'm afraid I can't",
+    "meaning": "متاسفانه نمی‌توانم",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm afraid I can't come to the party.",
+        "persian": "متاسفانه نمی‌توانم به مهمانی بیایم."
+      }
+    ],
+    "miniContext": "I'm afraid I can't come to the party.",
+    "icon": "😨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "go out for sth",
+    "meaning": "برای چیزی بیرون رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's go out for dinner.",
+        "persian": "بیا برای شام بیرون برویم."
+      }
+    ],
+    "miniContext": "Let's go out for dinner.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "I'd love to",
+    "meaning": "خیلی دوست دارم (پذیرفتن دعوت)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Do you want to come?\" \"I'd love to.\"",
+        "persian": "«می‌خواهی بیایی؟» «خیلی دوست دارم.»"
+      }
+    ],
+    "miniContext": "\"Do you want to come?\" \"I'd love to.\"",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "I'm not sure",
+    "meaning": "مطمئن نیستم",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm not sure what time it starts.",
+        "persian": "مطمئن نیستم که چه ساعتی شروع می‌شود."
+      }
+    ],
+    "miniContext": "I'm not sure what time it starts.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "I'm sorry but ...",
+    "meaning": "متاسفم اما ...",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm sorry but I can't stay.",
+        "persian": "متاسفم اما نمی‌توانم بمانم."
+      }
+    ],
+    "miniContext": "I'm sorry but I can't stay.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "that's a great idea",
+    "meaning": "این ایده عالیه",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Let's go to the beach.\" \"That's a great idea!\"",
+        "persian": "«بیا به ساحل برویم.» «این ایده عالیه!»"
+      }
+    ],
+    "miniContext": "\"Let's go to the beach.\" \"That's a great idea!\"",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "invitation",
+    "meaning": "دعوت‌نامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I received an invitation to the party.",
+        "persian": "من یک دعوت‌نامه برای مهمانی گرفتم."
+      }
+    ],
+    "miniContext": "I received an invitation to the party.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "invite",
+    "meaning": "دعوت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I invited my friends to dinner.",
+        "persian": "دوستانم را برای شام دعوت کردم."
+      }
+    ],
+    "miniContext": "I invited my friends to dinner.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "make a mistake",
+    "meaning": "اشتباه کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Everyone makes mistakes.",
+        "persian": "همه اشتباه می‌کنند."
+      }
+    ],
+    "miniContext": "Everyone makes mistakes.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "maybe",
+    "meaning": "شاید",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "perhaps"
+    ],
+    "examples": [
+      {
+        "english": "Maybe we can go tomorrow.",
+        "persian": "شاید بتوانیم فردا برویم."
+      }
+    ],
+    "miniContext": "Maybe we can go tomorrow.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "party",
+    "meaning": "مهمانی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had a birthday party last night.",
+        "persian": "ما شب گذشته یک مهمانی تولد داشتیم."
+      }
+    ],
+    "miniContext": "We had a birthday party last night.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "perhaps",
+    "meaning": "شاید",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "maybe"
+    ],
+    "examples": [
+      {
+        "english": "Perhaps we can go tomorrow.",
+        "persian": "شاید بتوانیم فردا برویم."
+      }
+    ],
+    "miniContext": "Perhaps we can go tomorrow.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "Shall we ...?",
+    "meaning": "پیشنهاد دادن: ...برویم؟/میل داری؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Shall we go to the cinema tonight?",
+        "persian": "امشب برویم سینما؟"
+      }
+    ],
+    "miniContext": "Shall we go to the cinema tonight?",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "sound (that sounds lovely)",
+    "meaning": "به نظر رسیدن (عالی به نظر رسیدن)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That sounds lovely, let's go!",
+        "persian": "عالی به نظر می‌رسد، بیا برویم!"
+      }
+    ],
+    "miniContext": "That sounds lovely, let's go!",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "suggest",
+    "meaning": "پیشنهاد دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I suggest we go by train.",
+        "persian": "من پیشنهاد می‌دهم با قطار برویم."
+      }
+    ],
+    "miniContext": "I suggest we go by train.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "suggestion",
+    "meaning": "پیشنهاد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That's a good suggestion.",
+        "persian": "این پیشنهاد خوبی است."
+      }
+    ],
+    "miniContext": "That's a good suggestion.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "that would be lovely",
+    "meaning": "عالی می‌شود",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Would you like some tea? That would be lovely.",
+        "persian": "چای میل داری؟ عالی می‌شود."
+      }
+    ],
+    "miniContext": "Would you like some tea? That would be lovely.",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "want",
+    "meaning": "خواستن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you want to come with us?",
+        "persian": "آیا می‌خواهی با ما بیایی؟"
+      }
+    ],
+    "miniContext": "Do you want to come with us?",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "What about...?",
+    "meaning": "در مورد ...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What about going to the cinema?",
+        "persian": "نظرت در مورد رفتن به سینما چیست؟"
+      }
+    ],
+    "miniContext": "What about going to the cinema?",
+    "icon": "📩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-94",
+    "word": "Would you like to...?",
+    "meaning": "آیا می‌خواهی...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Would you like to come to my party?",
+        "persian": "آیا می‌خواهی به مهمانی من بیایی؟"
+      }
+    ],
+    "miniContext": "Would you like to come to my party?",
+    "icon": "📩"
+  }
+]

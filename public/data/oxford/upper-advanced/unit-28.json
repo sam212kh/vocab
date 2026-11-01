@@ -1,0 +1,397 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "to say the least",
+    "meaning": "حداقل که بگوییم، کم‌تر از واقعیت نگفته باشیم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "English weather is unreliable, to say the least.",
+        "persian": "آب‌وهوای انگلیس حداقل که بگوییم غیرقابل‌اعتماد است."
+      }
+    ],
+    "miniContext": "English weather is unreliable, to say the least.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "bitterly cold",
+    "meaning": "بسیار و سوزناک سرد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We can have winters that are bitterly cold.",
+        "persian": "می‌توانیم زمستان‌هایی داشته باشیم که به‌شدت سرد هستند."
+      }
+    ],
+    "miniContext": "We can have winters that are bitterly cold or extremely mild.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "mild",
+    "meaning": "ملایم، نسبتاً گرم (برای فصل سرد)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We can have winters that are extremely mild.",
+        "persian": "می‌توانیم زمستان‌هایی داشته باشیم که فوق‌العاده ملایم هستند."
+      }
+    ],
+    "miniContext": "We can have winters that are bitterly cold or extremely mild.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "spell",
+    "meaning": "دوره کوتاه (آب‌وهوا)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had a short spell of cold weather last week.",
+        "persian": "هفته گذشته یک دوره کوتاه هوای سرد داشتیم."
+      }
+    ],
+    "miniContext": "Summers with long spells of hot weather when it can get very humid.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "humid",
+    "meaning": "مرطوب و گرم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It can get very humid.",
+        "persian": "می‌تواند خیلی مرطوب شود."
+      }
+    ],
+    "miniContext": "Summers with long spells of hot weather when it can get very humid.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "dull",
+    "meaning": "ابری و کسل‌کننده (هوا)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today was cloudy and dull.",
+        "persian": "امروز ابری و کسل‌کننده بود."
+      }
+    ],
+    "miniContext": "Ones that stay generally cloudy and dull.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "chilly",
+    "meaning": "خنک، سرماخور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Almost any day outside of summer can be mild or chilly.",
+        "persian": "تقریباً هر روزی خارج از تابستان می‌تواند ملایم یا خنک باشد."
+      }
+    ],
+    "miniContext": "Almost any day outside of summer can be mild or chilly.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "torrential rain",
+    "meaning": "باران سیل‌آسا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "a downpour"
+    ],
+    "examples": [
+      {
+        "english": "We had very heavy rain this morning.",
+        "persian": "امروز صبح باران سیل‌آسایی داشتیم."
+      }
+    ],
+    "miniContext": "Equally possible are torrential rain, thick fog, flashes of lightning, scattered showers and the odd rainbow.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "thick fog",
+    "meaning": "مه غلیظ",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "dense fog"
+    ],
+    "examples": [
+      {
+        "english": "I drove through some very thick fog.",
+        "persian": "از میان مه خیلی غلیظی رانندگی کردم."
+      }
+    ],
+    "miniContext": "Equally possible are torrential rain, thick fog, flashes of lightning.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "flash",
+    "meaning": "درخشش ناگهانی (برق، رعدوبرق)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had several flashes of lightning.",
+        "persian": "چند درخشش رعدوبرق دیدیم."
+      }
+    ],
+    "miniContext": "Equally possible are torrential rain, thick fog, flashes of lightning, scattered showers.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "scattered showers",
+    "meaning": "رگبارهای پراکنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Scattered showers are expected later.",
+        "persian": "بعداً رگبارهای پراکنده پیش‌بینی می‌شود."
+      }
+    ],
+    "miniContext": "Equally possible are torrential rain, thick fog, flashes of lightning, scattered showers and the odd rainbow.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "odd",
+    "meaning": "گاه‌به‌گاه، نامنظم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We get the occasional odd shower.",
+        "persian": "گاهی رگبار نامنظمی داریم."
+      }
+    ],
+    "miniContext": "Equally possible are torrential rain, thick fog, flashes of lightning, scattered showers and the odd rainbow.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "weather forecast",
+    "meaning": "پیش‌بینی هوا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Many people in this country listen to the weather forecast very closely.",
+        "persian": "خیلی از مردم این کشور خیلی دقیق به پیش‌بینی هوا گوش می‌دهند."
+      }
+    ],
+    "miniContext": "Many people in this country listen to the weather forecast very closely.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "significant",
+    "meaning": "چشمگیر، قابل‌توجه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It can have a significant impact on people's lives.",
+        "persian": "می‌تواند تاثیر چشمگیری بر زندگی مردم بگذارد."
+      }
+    ],
+    "miniContext": "It can have a significant impact on people's lives.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "dependent (on sth/sb)",
+    "meaning": "وابسته، نیازمند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Farmers are obviously dependent on weather conditions for the success of their crops.",
+        "persian": "کشاورزان آشکارا برای موفقیت محصولاتشان به شرایط آب‌وهوایی وابسته‌اند."
+      }
+    ],
+    "miniContext": "Farmers in this country are dependent on rain for their crops to grow and flourish.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "heatwave",
+    "meaning": "موج گرما",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A heatwave can eventually lead to water shortages and drought.",
+        "persian": "موج گرما در نهایت می‌تواند به کمبود آب و خشکسالی منجر شود."
+      }
+    ],
+    "miniContext": "A heatwave can eventually lead to water shortages and drought.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "shortage",
+    "meaning": "کمبود",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A heatwave can eventually lead to water shortages.",
+        "persian": "موج گرما در نهایت می‌تواند به کمبود آب منجر شود."
+      }
+    ],
+    "miniContext": "A heatwave can eventually lead to water shortages and drought.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "drought",
+    "meaning": "خشکسالی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It will be a second year of drought, and that means serious water shortages.",
+        "persian": "دومین سال خشکسالی خواهد بود و این یعنی کمبود جدی آب."
+      }
+    ],
+    "miniContext": "A heatwave can eventually lead to water shortages and drought.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "blizzard",
+    "meaning": "کولاک برف",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When there is heavy snow and blizzards, traffic comes to a standstill.",
+        "persian": "وقتی برف سنگین و کولاک باشد، ترافیک کاملاً متوقف می‌شود."
+      }
+    ],
+    "miniContext": "When there is heavy snow and blizzards, traffic comes to a standstill.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "come to a standstill",
+    "meaning": "کاملاً متوقف شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Traffic came to a standstill on the A4 this morning.",
+        "persian": "امروز صبح ترافیک در جاده A4 کاملاً متوقف شد."
+      }
+    ],
+    "miniContext": "Traffic comes to a standstill, and this causes widespread disruption on the roads.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "widespread",
+    "meaning": "گسترده، فراگیر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was widespread disruption on many of the minor roads.",
+        "persian": "در بسیاری از جاده‌های فرعی اختلال گسترده‌ای ایجاد شد."
+      }
+    ],
+    "miniContext": "This causes widespread disruption on the roads.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "disruption",
+    "meaning": "اختلال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This causes widespread disruption on the roads.",
+        "persian": "این باعث اختلال گسترده در جاده‌ها می‌شود."
+      }
+    ],
+    "miniContext": "This causes widespread disruption on the roads.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-28",
+    "word": "gale",
+    "meaning": "طوفان باد شدید",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had 65 mph gales today, and this has caused extensive damage to a number of houses.",
+        "persian": "امروز طوفان بادی با سرعت ۶۵ مایل داشتیم و این به چند خانه خسارت زیادی زد."
+      }
+    ],
+    "miniContext": "Gales cause damage to people's property, and this may be widespread.",
+    "icon": "⛅"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "camping",
+    "meaning": "کمپینگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We went camping by the lake.",
+        "persian": "ما کنار دریاچه کمپینگ رفتیم."
+      }
+    ],
+    "miniContext": "We went camping by the lake.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "flying",
+    "meaning": "پرواز کردن (هوانوردی)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Flying makes him nervous.",
+        "persian": "پرواز کردن او را عصبی می‌کند."
+      }
+    ],
+    "miniContext": "Flying makes him nervous.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "painting",
+    "meaning": "نقاشی (تابلو)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This painting is very old.",
+        "persian": "این نقاشی خیلی قدیمی است."
+      }
+    ],
+    "miniContext": "This painting is very old.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "sightseeing",
+    "meaning": "گردش و دیدن جاهای دیدنی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We went sightseeing in the old city.",
+        "persian": "ما در شهر قدیمی به گردش رفتیم."
+      }
+    ],
+    "miniContext": "We went sightseeing in the old city.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "smoking",
+    "meaning": "سیگار کشیدن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Smoking is bad for your health.",
+        "persian": "سیگار کشیدن برای سلامتی مضر است."
+      }
+    ],
+    "miniContext": "Smoking is bad for your health.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "spelling",
+    "meaning": "املا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My spelling is not very good.",
+        "persian": "املای من خیلی خوب نیست."
+      }
+    ],
+    "miniContext": "My spelling is not very good.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "teaching",
+    "meaning": "تدریس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Teaching is a difficult job.",
+        "persian": "تدریس کار سختی است."
+      }
+    ],
+    "miniContext": "Teaching is a difficult job.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "understanding",
+    "meaning": "درک؛ فهم",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a good understanding of maths.",
+        "persian": "او درک خوبی از ریاضی دارد."
+      }
+    ],
+    "miniContext": "She has a good understanding of maths.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "working",
+    "meaning": "کار کردن؛ در حال کار",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I am working on a new project.",
+        "persian": "من روی یک پروژه جدید کار می‌کنم."
+      }
+    ],
+    "miniContext": "I am working on a new project.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-77",
+    "word": "writing",
+    "meaning": "نوشتن؛ نوشتار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her writing is very clear.",
+        "persian": "نوشتار او بسیار واضح است."
+      }
+    ],
+    "miniContext": "Her writing is very clear.",
+    "icon": "🔤"
+  }
+]

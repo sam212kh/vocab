@@ -1,0 +1,280 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "election",
+    "meaning": "انتخابات",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Elections must be held every five years.",
+        "persian": "باید هر پنج سال یک بار انتخابات برگزار شود."
+      }
+    ],
+    "miniContext": "Elections must be held every five years.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "hold an election",
+    "meaning": "برگزار کردن انتخابات",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How often does your country hold elections?",
+        "persian": "کشورت هر چند وقت یک بار انتخابات برگزار می‌کند؟"
+      }
+    ],
+    "miniContext": "How often does your country hold elections?",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "vote (for sb/sth)",
+    "meaning": "رای دادن (به کسی/چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who did you vote for in the last election?",
+        "persian": "در انتخابات آخر به چه کسی رای دادی؟"
+      }
+    ],
+    "miniContext": "Who did you vote for in the last election?",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "represent",
+    "meaning": "نمایندگی کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Politicians represent the people who elect them.",
+        "persian": "سیاستمداران نماینده‌ی مردمی هستند که آن‌ها را انتخاب می‌کنند."
+      }
+    ],
+    "miniContext": "Politicians represent the people who elect them.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "in power",
+    "meaning": "در قدرت، حاکم",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The Labour Party was in power from 1997 to 2010.",
+        "persian": "حزب کارگر از ۱۹۹۷ تا ۲۰۱۰ در قدرت بود."
+      }
+    ],
+    "miniContext": "The Labour Party was in power from 1997 to 2010.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "Member of Parliament",
+    "meaning": "نماینده‌ی پارلمان",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "MP"
+    ],
+    "examples": [
+      {
+        "english": "My uncle was elected as an MP a few years ago.",
+        "persian": "عمویم چند سال پیش به عنوان نماینده‌ی پارلمان انتخاب شد."
+      }
+    ],
+    "miniContext": "My uncle was elected as an MP a few years ago.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "parliament",
+    "meaning": "پارلمان",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Parliament has 650 MPs.",
+        "persian": "پارلمان ۶۵۰ نماینده دارد."
+      }
+    ],
+    "miniContext": "Parliament has 650 MPs.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "majority",
+    "meaning": "اکثریت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "minority (opp)"
+    ],
+    "examples": [
+      {
+        "english": "The party with the majority of MPs forms the government.",
+        "persian": "حزبی که اکثریت نمایندگان را دارد دولت را تشکیل می‌دهد."
+      }
+    ],
+    "miniContext": "The party with the majority of MPs forms the government.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "government",
+    "meaning": "دولت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The government is preparing for the next election.",
+        "persian": "دولت دارد برای انتخابات بعدی آماده می‌شود."
+      }
+    ],
+    "miniContext": "The government is preparing for the next election.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "prime minister",
+    "meaning": "نخست‌وزیر",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The leader of the party becomes prime minister.",
+        "persian": "رهبر حزب نخست‌وزیر می‌شود."
+      }
+    ],
+    "miniContext": "The leader of the party becomes prime minister.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "policy",
+    "meaning": "سیاست، خط‌مشی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The party has agreed a new policy on house building.",
+        "persian": "حزب یک سیاست جدید درباره‌ی ساخت مسکن توافق کرده است."
+      }
+    ],
+    "miniContext": "The party has agreed a new policy on house building.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "announce",
+    "meaning": "اعلام کردن (رسمی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The minister is due to announce a new transport policy.",
+        "persian": "وزیر قرار است یک سیاست جدید حمل‌ونقل را اعلام کند."
+      }
+    ],
+    "miniContext": "The minister is due to announce a new transport policy.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "persuade sb (to do sth)",
+    "meaning": "متقاعد کردن کسی (به انجام کاری)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The prime minister has to persuade many MPs to agree.",
+        "persian": "نخست‌وزیر باید بسیاری از نمایندگان را برای موافقت متقاعد کند."
+      }
+    ],
+    "miniContext": "The prime minister has to persuade many MPs to agree.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "objective",
+    "meaning": "هدف",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "aim"
+    ],
+    "examples": [
+      {
+        "english": "One of its objectives is to protect immigrant workers.",
+        "persian": "یکی از اهداف آن حمایت از کارگران مهاجر است."
+      }
+    ],
+    "miniContext": "One of its objectives is to protect immigrant workers.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "law",
+    "meaning": "قانون",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The new law gives workers more protection.",
+        "persian": "قانون جدید محافظت بیشتری به کارگران می‌دهد."
+      }
+    ],
+    "miniContext": "The new law gives workers more protection.",
+    "icon": "🏛️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-51",
+    "word": "immigrant",
+    "meaning": "مهاجر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The number of immigrants coming to this country has fallen.",
+        "persian": "تعداد مهاجرانی که به این کشور می‌آیند کاهش یافته است."
+      }
+    ],
+    "miniContext": "The number of immigrants coming to this country has fallen.",
+    "icon": "🏛️"
+  }
+]

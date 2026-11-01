@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "at all",
+    "meaning": "اصلا",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't like this film at all.",
+        "persian": "من این فیلم را اصلا دوست ندارم."
+      }
+    ],
+    "miniContext": "I don't like this film at all.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "boring",
+    "meaning": "خسته‌کننده",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This film is really boring.",
+        "persian": "این فیلم واقعا خسته‌کننده است."
+      }
+    ],
+    "miniContext": "This film is really boring.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "hate",
+    "meaning": "نفرت داشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hate getting up early.",
+        "persian": "من از بیدار شدن زود نفرت دارم."
+      }
+    ],
+    "miniContext": "I hate getting up early.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "jazz",
+    "meaning": "موسیقی جاز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He listens to jazz.",
+        "persian": "او به موسیقی جاز گوش می‌دهد."
+      }
+    ],
+    "miniContext": "He listens to jazz.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "interesting",
+    "meaning": "جالب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That is an interesting book.",
+        "persian": "آن یک کتاب جالب است."
+      }
+    ],
+    "miniContext": "That is an interesting book.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "like (v)",
+    "meaning": "دوست داشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like chocolate.",
+        "persian": "من شکلات دوست دارم."
+      }
+    ],
+    "miniContext": "I like chocolate.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "love (v)",
+    "meaning": "عاشق بودن، خیلی دوست داشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love this song.",
+        "persian": "من این آهنگ را خیلی دوست دارم."
+      }
+    ],
+    "miniContext": "I love this song.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "mind (as in \"I don't mind\")",
+    "meaning": "برایم مهم نیست",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't mind waiting.",
+        "persian": "برایم مهم نیست که صبر کنم."
+      }
+    ],
+    "miniContext": "I don't mind waiting.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "new",
+    "meaning": "جدید",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought a new phone.",
+        "persian": "یک گوشی جدید خریدم."
+      }
+    ],
+    "miniContext": "I bought a new phone.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-80",
+    "word": "wonderful",
+    "meaning": "عالی؛ شگفت‌انگیز",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "great"
+    ],
+    "examples": [
+      {
+        "english": "We had a wonderful holiday.",
+        "persian": "ما تعطیلات فوق‌العاده‌ای داشتیم."
+      }
+    ],
+    "miniContext": "We had a wonderful holiday.",
+    "icon": "❤️"
+  }
+]

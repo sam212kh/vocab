@@ -1,0 +1,365 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "and so on",
+    "meaning": "و غیره",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "etc."
+    ],
+    "examples": [
+      {
+        "english": "We need apples, bananas, oranges, and so on.",
+        "persian": "ما به سیب، موز، پرتقال و غیره نیاز داریم."
+      }
+    ],
+    "miniContext": "We need apples, bananas, oranges, and so on.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "be the same as sth",
+    "meaning": "مثل چیزی بودن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My bag is the same as yours.",
+        "persian": "کیف من مثل کیف توست."
+      }
+    ],
+    "miniContext": "My bag is the same as yours.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "for example",
+    "meaning": "برای مثال",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like fruit, for example apples.",
+        "persian": "من میوه دوست دارم، برای مثال سیب."
+      }
+    ],
+    "miniContext": "I like fruit, for example apples.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "formal",
+    "meaning": "رسمی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need formal clothes for the interview.",
+        "persian": "برای مصاحبه به لباس رسمی نیاز داری."
+      }
+    ],
+    "miniContext": "You need formal clothes for the interview.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "informal",
+    "meaning": "غیررسمی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is an informal letter.",
+        "persian": "این یک نامه غیررسمی است."
+      }
+    ],
+    "miniContext": "This is an informal letter.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "missing",
+    "meaning": "گم‌شده",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My phone is missing.",
+        "persian": "گوشی‌ام گم شده است."
+      }
+    ],
+    "miniContext": "My phone is missing.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "mistake (as in \"make a mistake\")",
+    "meaning": "اشتباه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I made a mistake in my homework.",
+        "persian": "من در تکالیفم اشتباهی کردم."
+      }
+    ],
+    "miniContext": "I made a mistake in my homework.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "opposite",
+    "meaning": "مخالف؛ روبه‌رو",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bank is opposite the school.",
+        "persian": "بانک روبه‌روی مدرسه است."
+      }
+    ],
+    "miniContext": "The bank is opposite the school.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "pill",
+    "meaning": "قرص (دارو)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Take this pill after dinner.",
+        "persian": "این قرص را بعد از شام بخور."
+      }
+    ],
+    "miniContext": "Take this pill after dinner.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "right (= correct)",
+    "meaning": "درست",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "correct"
+    ],
+    "examples": [
+      {
+        "english": "That's the right answer.",
+        "persian": "آن پاسخ درست است."
+      }
+    ],
+    "miniContext": "That's the right answer.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "same (the same)",
+    "meaning": "همان؛ یکسان",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are wearing the same shoes.",
+        "persian": "ما کفش‌های یکسانی پوشیده‌ایم."
+      }
+    ],
+    "miniContext": "We are wearing the same shoes.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "short form",
+    "meaning": "شکل کوتاه، مخفف",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "'Don't' is the short form of 'do not'.",
+        "persian": "'Don't' شکل کوتاه 'do not' است."
+      }
+    ],
+    "miniContext": "'Don't' is the short form of 'do not'.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "symbol",
+    "meaning": "علامت، نماد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This symbol means 'danger'.",
+        "persian": "این علامت به معنی 'خطر' است."
+      }
+    ],
+    "miniContext": "This symbol means 'danger'.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "synonym",
+    "meaning": "هم‌معنی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "'Big' is a synonym for 'large'.",
+        "persian": "'Big' هم‌معنی با 'large' است."
+      }
+    ],
+    "miniContext": "'Big' is a synonym for 'large'.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "table (diagram)",
+    "meaning": "جدول",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Look at the table on page ten.",
+        "persian": "به جدول صفحه ده نگاه کن."
+      }
+    ],
+    "miniContext": "Look at the table on page ten.",
+    "icon": "🪑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "test (v)",
+    "meaning": "امتحان کردن، تست کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The teacher will test us tomorrow.",
+        "persian": "معلم فردا ما را امتحان می‌کند."
+      }
+    ],
+    "miniContext": "The teacher will test us tomorrow.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "the same",
+    "meaning": "یکسان، همان",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "These two words mean the same thing.",
+        "persian": "این دو کلمه یک معنی دارند."
+      }
+    ],
+    "miniContext": "These two words mean the same thing.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "tick",
+    "meaning": "علامت تیک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put a tick next to the correct answer.",
+        "persian": "کنار جواب درست یک تیک بگذار."
+      }
+    ],
+    "miniContext": "Put a tick next to the correct answer.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "true",
+    "meaning": "درست؛ صحیح",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "correct"
+    ],
+    "examples": [
+      {
+        "english": "Is this story true?",
+        "persian": "آیا این داستان درست است؟"
+      }
+    ],
+    "miniContext": "Is this story true?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "underline",
+    "meaning": "زیر چیزی خط کشیدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Underline the new words.",
+        "persian": "زیر کلمات جدید خط بکش."
+      }
+    ],
+    "miniContext": "Underline the new words.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-3",
+    "word": "wrong",
+    "meaning": "اشتباه؛ نادرست",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That answer is wrong.",
+        "persian": "آن جواب اشتباه است."
+      }
+    ],
+    "miniContext": "That answer is wrong.",
+    "icon": "🏫"
+  }
+]

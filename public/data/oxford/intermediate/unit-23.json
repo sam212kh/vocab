@@ -1,0 +1,291 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "grapes",
+    "meaning": "انگور",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like grapes and eat them a lot in summer.",
+        "persian": "من انگور دوست دارم و تابستان‌ها زیاد می‌خورم."
+      }
+    ],
+    "miniContext": "I like grapes and eat them a lot in summer.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "pineapple",
+    "meaning": "آناناس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She cut the pineapple into small pieces.",
+        "persian": "او آناناس را به تکه‌های کوچک برید."
+      }
+    ],
+    "miniContext": "She cut the pineapple into small pieces.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "mango",
+    "meaning": "انبه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mango is my favourite fruit.",
+        "persian": "انبه میوه‌ی مورد علاقه‌ی من است."
+      }
+    ],
+    "miniContext": "Mango is my favourite fruit.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "cherries",
+    "meaning": "گیلاس، آلبالو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We bought a bunch of cherries.",
+        "persian": "ما یک دسته گیلاس خریدیم."
+      }
+    ],
+    "miniContext": "We bought a bunch of cherries.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "watermelon",
+    "meaning": "هندوانه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Watermelon is perfect for hot summer days.",
+        "persian": "هندوانه برای روزهای گرم تابستان عالی است."
+      }
+    ],
+    "miniContext": "Watermelon is perfect for hot summer days.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "pear",
+    "meaning": "گلابی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I ate a pear for breakfast.",
+        "persian": "صبحانه یک گلابی خوردم."
+      }
+    ],
+    "miniContext": "I ate a pear for breakfast.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "cabbage",
+    "meaning": "کلم",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She made a salad with cabbage.",
+        "persian": "او با کلم یک سالاد درست کرد."
+      }
+    ],
+    "miniContext": "She made a salad with cabbage.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "sweetcorn",
+    "meaning": "ذرت شیرین",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We added sweetcorn to the salad.",
+        "persian": "به سالاد ذرت شیرین اضافه کردیم."
+      }
+    ],
+    "miniContext": "We added sweetcorn to the salad.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "lettuce",
+    "meaning": "کاهو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put some lettuce in the sandwich.",
+        "persian": "کمی کاهو در ساندویچ بگذار."
+      }
+    ],
+    "miniContext": "Put some lettuce in the sandwich.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "garlic",
+    "meaning": "سیر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add two cloves of garlic to the sauce.",
+        "persian": "دو حبه سیر به سس اضافه کن."
+      }
+    ],
+    "miniContext": "Add two cloves of garlic to the sauce.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "courgette",
+    "meaning": "کدوی سبز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I fried some courgette for dinner.",
+        "persian": "برای شام کمی کدوی سبز سرخ کردم."
+      }
+    ],
+    "miniContext": "I fried some courgette for dinner.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "cucumber",
+    "meaning": "خیار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She sliced the cucumber for the salad.",
+        "persian": "او خیار را برای سالاد برش زد."
+      }
+    ],
+    "miniContext": "She sliced the cucumber for the salad.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "mint",
+    "meaning": "نعنا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mint and parsley are herbs.",
+        "persian": "نعنا و جعفری سبزی معطر (herb) هستند."
+      }
+    ],
+    "miniContext": "Mint and parsley are herbs.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "green beans",
+    "meaning": "لوبیا سبز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had green beans with the chicken.",
+        "persian": "با مرغ لوبیا سبز خوردیم."
+      }
+    ],
+    "miniContext": "We had green beans with the chicken.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "red pepper",
+    "meaning": "فلفل دلمه‌ای قرمز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add a chopped red pepper to the stir-fry.",
+        "persian": "یک فلفل دلمه‌ای قرمز خرد شده به سرخ‌کردنی اضافه کن."
+      }
+    ],
+    "miniContext": "Add a chopped red pepper to the stir-fry.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "broccoli",
+    "meaning": "کلم بروکلی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Broccoli is very good for your health.",
+        "persian": "بروکلی برای سلامتی خیلی خوب است."
+      }
+    ],
+    "miniContext": "Broccoli is very good for your health.",
+    "icon": "🥕"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-23",
+    "word": "parsley",
+    "meaning": "جعفری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sprinkle some parsley on top.",
+        "persian": "کمی جعفری روی غذا بپاش."
+      }
+    ],
+    "miniContext": "Sprinkle some parsley on top.",
+    "icon": "🥕"
+  }
+]

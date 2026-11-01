@@ -1,0 +1,276 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "goods",
+    "meaning": "کالا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop sells a wide range of goods.",
+        "persian": "آن مغازه طیف وسیعی از کالاها را می‌فروشد."
+      }
+    ],
+    "miniContext": "The shop sells a wide range of goods.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "reduce (price)",
+    "meaning": "کاهش دادن (قیمت)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They reduced the price of the shoes.",
+        "persian": "آن‌ها قیمت کفش‌ها را کاهش دادند."
+      }
+    ],
+    "miniContext": "They reduced the price of the shoes.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "discount",
+    "meaning": "تخفیف",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I asked for a discount.",
+        "persian": "درخواست تخفیف کردم."
+      }
+    ],
+    "miniContext": "I asked for a discount.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "charge (sb for sth)",
+    "meaning": "پول گرفتن (از کسی برای چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They charged me for the petrol.",
+        "persian": "آن‌ها بابت بنزین از من پول گرفتند."
+      }
+    ],
+    "miniContext": "They charged me for the petrol.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "used",
+    "meaning": "دست‌دوم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "second-hand"
+    ],
+    "examples": [
+      {
+        "english": "I bought a second-hand car.",
+        "persian": "من یک ماشین دست‌دوم خریدم."
+      }
+    ],
+    "miniContext": "I bought a second-hand car.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "place an order",
+    "meaning": "سفارش دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We placed an order for a new car.",
+        "persian": "ما سفارش یک ماشین جدید دادیم."
+      }
+    ],
+    "miniContext": "We placed an order for a new car.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "worth",
+    "meaning": "ارزش داشتن",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the car worth?",
+        "persian": "آن ماشین چقدر ارزش دارد؟"
+      }
+    ],
+    "miniContext": "What's the car worth?",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "complaint",
+    "meaning": "شکایت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had to make a complaint about a kitchen gadget.",
+        "persian": "باید درباره‌ی یک وسیله‌ی آشپزخانه شکایت می‌کردم."
+      }
+    ],
+    "miniContext": "I had to make a complaint about a kitchen gadget.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "gadget",
+    "meaning": "وسیله‌ی کوچک کاربردی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This gadget doesn't work very well.",
+        "persian": "این وسیله خوب کار نمی‌کند."
+      }
+    ],
+    "miniContext": "This gadget doesn't work very well.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "refund",
+    "meaning": "استرداد وجه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I asked for a refund.",
+        "persian": "درخواست استرداد وجه کردم."
+      }
+    ],
+    "miniContext": "I asked for a refund.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "receipt",
+    "meaning": "رسید",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't got a receipt.",
+        "persian": "رسید ندارم."
+      }
+    ],
+    "miniContext": "I haven't got a receipt.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "exchange sth (for sth)",
+    "meaning": "عوض کردن چیزی (با چیز دیگر)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They exchanged the jeans for a bigger size.",
+        "persian": "آن‌ها شلوار جین را با یک سایز بزرگ‌تر عوض کردند."
+      }
+    ],
+    "miniContext": "They exchanged the jeans for a bigger size.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "set (of sth)",
+    "meaning": "دست، مجموعه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I ordered a set of glasses online.",
+        "persian": "آنلاین یک دست لیوان سفارش دادم."
+      }
+    ],
+    "miniContext": "I ordered a set of glasses online.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "package",
+    "meaning": "بسته، پاکت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When the package was delivered, two glasses were broken.",
+        "persian": "وقتی بسته رسید، دو تا لیوان شکسته بودند."
+      }
+    ],
+    "miniContext": "When the package was delivered, two glasses were broken.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "deliver",
+    "meaning": "تحویل دادن، ارسال کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The postman delivered the parcel this morning.",
+        "persian": "امروز صبح پستچی بسته را تحویل داد."
+      }
+    ],
+    "miniContext": "The postman delivered the parcel this morning.",
+    "icon": "🛍️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-26",
+    "word": "take sth back",
+    "meaning": "پس بردن به مغازه",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm going to take these shoes back to the shop.",
+        "persian": "می‌خواهم این کفش‌ها را به مغازه پس ببرم."
+      }
+    ],
+    "miniContext": "I'm going to take these shoes back to the shop.",
+    "icon": "🛍️"
+  }
+]

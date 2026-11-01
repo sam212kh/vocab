@@ -1,0 +1,177 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "as a result",
+    "meaning": "در نتیجه",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I overslept, and as a result I had to take a taxi.",
+        "persian": "خواب ماندم و در نتیجه مجبور شدم تاکسی بگیرم."
+      }
+    ],
+    "miniContext": "I overslept, and as a result I had to take a taxi.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "due to sth",
+    "meaning": "به دلیل چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "All the trains were delayed due to the snow.",
+        "persian": "تمام قطارها به دلیل برف تاخیر داشتند."
+      }
+    ],
+    "miniContext": "All the trains were delayed due to the snow.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "plus",
+    "meaning": "علاوه بر این",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was crowded, plus I had to stand all the way.",
+        "persian": "شلوغ بود، علاوه بر این مجبور شدم کل مسیر را بایستم."
+      }
+    ],
+    "miniContext": "It was crowded, plus I had to stand all the way.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "not only ... but also",
+    "meaning": "نه تنها ... بلکه همچنین",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The train was not only late but also very crowded.",
+        "persian": "قطار نه تنها دیر رسید بلکه خیلی هم شلوغ بود."
+      }
+    ],
+    "miniContext": "The train was not only late but also very crowded.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "in addition (to sth/sb)",
+    "meaning": "علاوه بر این",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In addition, I had to stand all the way.",
+        "persian": "علاوه بر این، مجبور شدم کل مسیر را بایستم."
+      }
+    ],
+    "miniContext": "In addition, I had to stand all the way.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "as a consequence (of sth)",
+    "meaning": "در نتیجه‌ی (چیزی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As a consequence, I've spent the whole day in hospital.",
+        "persian": "در نتیجه، تمام روز را در بیمارستان گذراندم."
+      }
+    ],
+    "miniContext": "As a consequence, I've spent the whole day in hospital.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "although",
+    "meaning": "اگرچه",
+    "level": "Intermediate",
+    "pos": "conjunction",
+    "synonyms": [
+      "though",
+      "even though"
+    ],
+    "examples": [
+      {
+        "english": "We got a ticket, although it wasn't easy.",
+        "persian": "بلیت گرفتیم، اگرچه آسان نبود."
+      }
+    ],
+    "miniContext": "We got a ticket, although it wasn't easy.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "despite / in spite of",
+    "meaning": "با وجود، علی‌رغم",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to work despite feeling very unwell.",
+        "persian": "با وجود احساس ناخوشی، سر کار رفتم."
+      }
+    ],
+    "miniContext": "I went to work despite feeling very unwell.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "on the one hand ... but on the other (hand)",
+    "meaning": "از طرفی ... اما از طرف دیگر",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "On the one hand, the job is well paid, but on the other, it's boring.",
+        "persian": "از طرفی، شغل حقوق خوبی دارد، اما از طرف دیگر کسل‌کننده است."
+      }
+    ],
+    "miniContext": "On the one hand, the job is well paid, but on the other, it's boring.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-73",
+    "word": "however",
+    "meaning": "با این حال",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "all the same"
+    ],
+    "examples": [
+      {
+        "english": "He didn't work hard. However, he still passed.",
+        "persian": "او سخت کار نکرد. با این حال، قبول شد."
+      }
+    ],
+    "miniContext": "He didn't work hard. However, he still passed.",
+    "icon": "🔗"
+  }
+]

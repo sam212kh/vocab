@@ -1,0 +1,329 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "apply for sth",
+    "meaning": "درخواست دادن برای چیزی",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She applied for a new job.",
+        "persian": "او برای یک شغل جدید درخواست داد."
+      }
+    ],
+    "miniContext": "She applied for a new job.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "ask sb for sth",
+    "meaning": "از کسی چیزی خواستن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I asked my friend for help.",
+        "persian": "من از دوستم کمک خواستم."
+      }
+    ],
+    "miniContext": "I asked my friend for help.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "base sth on sth",
+    "meaning": "چیزی را بر اساس چیز دیگری بنا کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The film is based on a true story.",
+        "persian": "این فیلم بر اساس یک داستان واقعی ساخته شده است."
+      }
+    ],
+    "miniContext": "The film is based on a true story.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "bored with sth",
+    "meaning": "خسته از چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is bored with her job.",
+        "persian": "او از شغلش خسته شده است."
+      }
+    ],
+    "miniContext": "She is bored with her job.",
+    "icon": "😑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "care about sb/sth",
+    "meaning": "اهمیت دادن به کسی/چیزی",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really care about my family.",
+        "persian": "من واقعا به خانواده‌ام اهمیت می‌دهم."
+      }
+    ],
+    "miniContext": "I really care about my family.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "gift",
+    "meaning": "هدیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "present"
+    ],
+    "examples": [
+      {
+        "english": "She gave me a nice gift.",
+        "persian": "او به من یک هدیه خوب داد."
+      }
+    ],
+    "miniContext": "She gave me a nice gift.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "good at sth",
+    "meaning": "در چیزی خوب بودن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is very good at maths.",
+        "persian": "او در ریاضی خیلی خوب است."
+      }
+    ],
+    "miniContext": "He is very good at maths.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "hear about sth",
+    "meaning": "درباره چیزی شنیدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Did you hear about the new shop?",
+        "persian": "درباره مغازه جدید شنیدی؟"
+      }
+    ],
+    "miniContext": "Did you hear about the new shop?",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "interested (in sth)",
+    "meaning": "علاقه‌مند (به چیزی)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm interested in music.",
+        "persian": "من به موسیقی علاقه‌مندم."
+      }
+    ],
+    "miniContext": "I'm interested in music.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "listen",
+    "meaning": "گوش دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Listen to the music.",
+        "persian": "به موسیقی گوش بده."
+      }
+    ],
+    "miniContext": "Listen to the music.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "live with sb",
+    "meaning": "با کسی زندگی کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I live with my parents.",
+        "persian": "من با والدینم زندگی می‌کنم."
+      }
+    ],
+    "miniContext": "I live with my parents.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "look at sb/sth",
+    "meaning": "نگاه کردن به",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Look at the beautiful sky.",
+        "persian": "به آسمان زیبا نگاه کن."
+      }
+    ],
+    "miniContext": "Look at the beautiful sky.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "notice (v)",
+    "meaning": "متوجه شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Did you notice her new haircut?",
+        "persian": "متوجه مدل موی جدیدش شدی؟"
+      }
+    ],
+    "miniContext": "Did you notice her new haircut?",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "pay for sth",
+    "meaning": "پول چیزی را پرداختن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll pay for the tickets.",
+        "persian": "من پول بلیت‌ها را پرداخت می‌کنم."
+      }
+    ],
+    "miniContext": "I'll pay for the tickets.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "present",
+    "meaning": "هدیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "gift"
+    ],
+    "examples": [
+      {
+        "english": "I bought a present for my mother.",
+        "persian": "برای مادرم یک هدیه خریدم."
+      }
+    ],
+    "miniContext": "I bought a present for my mother.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "spend money (on sth)",
+    "meaning": "خرج کردن پول (برای چیزی)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I spend a lot of money on books.",
+        "persian": "من پول زیادی برای کتاب خرج می‌کنم."
+      }
+    ],
+    "miniContext": "I spend a lot of money on books.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "thank sb (for sth)",
+    "meaning": "تشکر کردن از کسی (برای چیزی)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to thank you for your help.",
+        "persian": "می‌خواهم از تو برای کمکت تشکر کنم."
+      }
+    ],
+    "miniContext": "I want to thank you for your help.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "think about/of sth",
+    "meaning": "به چیزی فکر کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm thinking about my next holiday.",
+        "persian": "دارم به تعطیلات بعدی‌ام فکر می‌کنم."
+      }
+    ],
+    "miniContext": "I'm thinking about my next holiday.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-22",
+    "word": "wait for sth",
+    "meaning": "منتظر چیزی ماندن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I am waiting for the bus.",
+        "persian": "من منتظر اتوبوس هستم."
+      }
+    ],
+    "miniContext": "I am waiting for the bus.",
+    "icon": "🧭"
+  }
+]

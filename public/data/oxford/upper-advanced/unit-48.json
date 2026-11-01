@@ -1,0 +1,344 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "revolutionary",
+    "meaning": "انقلابی، بسیار دگرگون‌کننده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A revolutionary era in medical advances.",
+        "persian": "دوره‌ای انقلابی در پیشرفت‌های پزشکی."
+      }
+    ],
+    "miniContext": "A revolutionary era in medical advances.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "advance (in sth)",
+    "meaning": "پیشرفت (علمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are prizes for the most important technological advances.",
+        "persian": "برای مهم‌ترین پیشرفت‌های فناورانه جوایزی هست."
+      }
+    ],
+    "miniContext": "A revolutionary era in medical advances.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "radical",
+    "meaning": "بنیادین، ریشه‌ای",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In recent decades, we have seen radical changes in conventional medicine.",
+        "persian": "در دهه‌های اخیر، تغییرات بنیادینی در پزشکی مرسوم دیده‌ایم."
+      }
+    ],
+    "miniContext": "In recent decades, we have seen radical changes in conventional medicine.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "conventional",
+    "meaning": "مرسوم، معمول",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is conventional medicine new and different? - No.",
+        "persian": "آیا پزشکی مرسوم جدید و متفاوت است؟ نه."
+      }
+    ],
+    "miniContext": "In recent decades, we have seen radical changes in conventional medicine.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "diagnostic",
+    "meaning": "تشخیصی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Diagnostic tools were restricted to basic X-ray machines.",
+        "persian": "ابزارهای تشخیصی محدود به دستگاه‌های ساده اشعه ایکس بودند."
+      }
+    ],
+    "miniContext": "Diagnostic tools were restricted to basic X-ray machines.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "restrict",
+    "meaning": "محدود کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In some areas, lung cancer treatment is restricted to non-smoking patients only.",
+        "persian": "در بعضی مناطق، درمان سرطان ریه فقط به بیماران غیرسیگاری محدود است."
+      }
+    ],
+    "miniContext": "Diagnostic tools were restricted to basic X-ray machines.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "infectious",
+    "meaning": "مسری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If a disease is infectious, can you catch it? - Yes.",
+        "persian": "اگر بیماری مسری باشد، می‌توان آن را گرفت؟ بله."
+      }
+    ],
+    "miniContext": "Children suffered from infectious diseases, for which there was no effective cure.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "cure",
+    "meaning": "درمان قطعی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are some treatments available, but sadly no effective cure.",
+        "persian": "چند درمان موجود است، اما متاسفانه درمان قطعی موثری وجود ندارد."
+      }
+    ],
+    "miniContext": "Children suffered from infectious diseases, for which there was no effective cure.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "vaccine",
+    "meaning": "واکسن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The government has a policy to vaccinate the elderly against flu.",
+        "persian": "دولت سیاستی برای واکسینه کردن سالمندان علیه آنفولانزا دارد."
+      }
+    ],
+    "miniContext": "Now vaccines have eradicated some of these illnesses and diseases.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "eradicate",
+    "meaning": "کاملاً ریشه‌کن کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "wipe sth out"
+    ],
+    "examples": [
+      {
+        "english": "Polio has been almost completely eradicated.",
+        "persian": "فلج اطفال تقریباً به‌طور کامل ریشه‌کن شده است."
+      }
+    ],
+    "miniContext": "Now vaccines have eradicated some of these illnesses and diseases.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "be confined to bed",
+    "meaning": "مجبور به ماندن در تخت بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was confined to bed for ages. Fortunately he's now recovering.",
+        "persian": "او مدت‌ها مجبور به ماندن در تخت بود. خوشبختانه الان در حال بهبودی است."
+      }
+    ],
+    "miniContext": "In the past, if you had a major operation, you would be confined to bed for weeks.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "procedure",
+    "meaning": "روش درمانی، اقدام پزشکی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My aunt is having a revolutionary new procedure for her damaged hip.",
+        "persian": "عمه‌ام روش درمانی جدید و انقلابی‌ای برای لگن آسیب‌دیده‌اش انجام می‌دهد."
+      }
+    ],
+    "miniContext": "Today, many operations use procedures requiring day surgery only.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "rate",
+    "meaning": "نرخ، میزان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wanted to know the current survival rate for breast cancer.",
+        "persian": "می‌خواستم نرخ بقای فعلی برای سرطان سینه را بدانم."
+      }
+    ],
+    "miniContext": "In the past, the mortality rate for patients with organ failure could be 100%.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "organ",
+    "meaning": "عضو بدن (مثل قلب، کلیه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His life was saved thanks to an organ transplant.",
+        "persian": "زندگی او به لطف پیوند عضو نجات یافت."
+      }
+    ],
+    "miniContext": "The mortality rate for patients with organ failure, such as heart, lung or kidney failure, could be 100%.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "transplant",
+    "meaning": "پیوند عضو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Today, transplants enable many patients to resume a normal life.",
+        "persian": "امروزه پیوندهای عضو به بسیاری از بیماران امکان بازگشت به زندگی عادی را می‌دهند."
+      }
+    ],
+    "miniContext": "Today, transplants enable many patients to resume a normal life.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "enable sb/sth to do sth",
+    "meaning": "ممکن ساختن انجام کاری برای کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think it enables him to breathe more easily.",
+        "persian": "فکر می‌کنم کمک می‌کند تا راحت‌تر نفس بکشد."
+      }
+    ],
+    "miniContext": "Today, transplants enable many patients to resume a normal life.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "resume",
+    "meaning": "از سر گرفتن، ادامه دادن بعد از وقفه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If it succeeds, she'll be able to walk again and resume a normal life.",
+        "persian": "اگر موفق شود، دوباره می‌تواند راه برود و به زندگی عادی بازگردد."
+      }
+    ],
+    "miniContext": "Today, transplants enable many patients to resume a normal life.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "vitamin",
+    "meaning": "ویتامین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Does it matter if your diet doesn't contain any vitamins?",
+        "persian": "آیا اهمیت دارد اگر رژیم غذایی‌ات ویتامین نداشته باشد؟"
+      }
+    ],
+    "miniContext": "Vitamins and minerals are necessary for good health.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "mineral",
+    "meaning": "مواد معدنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some foods contain a lot of vitamins and minerals.",
+        "persian": "بعضی غذاها ویتامین و مواد معدنی زیادی دارند."
+      }
+    ],
+    "miniContext": "Vitamins and minerals are necessary for good health.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-48",
+    "word": "supplement",
+    "meaning": "مکمل غذایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Doctors recommend supplements for some people if they lack certain things in their diet.",
+        "persian": "پزشکان برای برخی افراد که کمبود چیزهای خاصی در رژیم غذایی‌شان دارند، مکمل توصیه می‌کنند."
+      }
+    ],
+    "miniContext": "There are more supplements on the market now for people who do not get enough of certain vitamins or minerals.",
+    "icon": "🏥"
+  }
+]
