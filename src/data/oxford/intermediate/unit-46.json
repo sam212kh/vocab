@@ -1,0 +1,261 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "leisure",
+    "meaning": "اوقات فراغت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The painting shows a scene of leisure.",
+        "persian": "نقاشی صحنه‌ای از اوقات فراغت را نشان می‌دهد."
+      }
+    ],
+    "miniContext": "The painting shows a scene of leisure.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "industry",
+    "meaning": "صنعت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In the distance you can see the factory and the industry of the suburb.",
+        "persian": "در دوردست می‌توان کارخانه و صنعت آن حومه‌شهر را دید."
+      }
+    ],
+    "miniContext": "In the distance you can see the factory and the industry of the suburb.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "foreground",
+    "meaning": "پیش‌زمینه (تصویر)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "background (opp)"
+    ],
+    "examples": [
+      {
+        "english": "We see a group of workmen in the foreground.",
+        "persian": "در پیش‌زمینه گروهی از کارگران را می‌بینیم."
+      }
+    ],
+    "miniContext": "We see a group of workmen in the foreground.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "have a day off",
+    "meaning": "یک روز مرخصی داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're having an enjoyable afternoon on their day off.",
+        "persian": "آن‌ها در روز مرخصی‌شان یک بعدازظهر لذت‌بخش دارند."
+      }
+    ],
+    "miniContext": "They're having an enjoyable afternoon on their day off.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "bank (of a river)",
+    "meaning": "ساحل رودخانه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're sitting on the bank of the river.",
+        "persian": "آن‌ها روی ساحل رودخانه نشسته‌اند."
+      }
+    ],
+    "miniContext": "They're sitting on the bank of the river.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "in the distance",
+    "meaning": "در دوردست",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can just see the factory in the distance.",
+        "persian": "می‌توان کارخانه را فقط در دوردست دید."
+      }
+    ],
+    "miniContext": "You can just see the factory in the distance.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "ignore",
+    "meaning": "نادیده گرفتن، توجه نکردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Everyone is ignoring each other in the painting.",
+        "persian": "همه در آن نقاشی به هم بی‌توجه‌اند."
+      }
+    ],
+    "miniContext": "Everyone is ignoring each other in the painting.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "sense (verb)",
+    "meaning": "احساس کردن (چیزی که مستقیم دیده نمی‌شود)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We can sense the heat of the summer's day.",
+        "persian": "می‌توانیم گرمای روز تابستانی را احساس کنیم."
+      }
+    ],
+    "miniContext": "We can sense the heat of the summer's day.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "bright",
+    "meaning": "روشن، پرنور",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "dark (opp)"
+    ],
+    "examples": [
+      {
+        "english": "The colours in the painting are bright.",
+        "persian": "رنگ‌های نقاشی روشن هستند."
+      }
+    ],
+    "miniContext": "The colours in the painting are bright.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "impression",
+    "meaning": "تاثیر، برداشت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The general impression is one of peaceful relaxation.",
+        "persian": "برداشت کلی حس آرامش و استراحت است."
+      }
+    ],
+    "miniContext": "The general impression is one of peaceful relaxation.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "silent",
+    "meaning": "ساکت، بی‌صدا",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The scene feels almost silent.",
+        "persian": "صحنه تقریبا ساکت به نظر می‌رسد."
+      }
+    ],
+    "miniContext": "The scene feels almost silent.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "peaceful",
+    "meaning": "آرام",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a peaceful scene by the river.",
+        "persian": "صحنه‌ی آرامی کنار رودخانه است."
+      }
+    ],
+    "miniContext": "It's a peaceful scene by the river.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "ordinary",
+    "meaning": "معمولی، عادی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ordinary people were not shown in art before this.",
+        "persian": "قبل از این، مردم عادی در هنر نشان داده نمی‌شدند."
+      }
+    ],
+    "miniContext": "Ordinary people were not shown in art before this.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "shocking",
+    "meaning": "تکان‌دهنده",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This painting was very original and quite shocking.",
+        "persian": "این نقاشی خیلی بدیع و تا حدی تکان‌دهنده بود."
+      }
+    ],
+    "miniContext": "This painting was very original and quite shocking.",
+    "icon": "🖼️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-46",
+    "word": "studio (artist's)",
+    "meaning": "استودیوی هنرمند",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was painted outside, not in a studio.",
+        "persian": "بیرون کشیده شده، نه در استودیو."
+      }
+    ],
+    "miniContext": "It was painted outside, not in a studio.",
+    "icon": "🖼️"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "flee (from) sth/sb",
+    "meaning": "فرار کردن (از چیزی/کسی)، گریختن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "escape"
+    ],
+    "examples": [
+      {
+        "english": "Thousands of people are fleeing the bombing in the city.",
+        "persian": "هزاران نفر در حال فرار از بمباران شهر هستند."
+      }
+    ],
+    "miniContext": "Thousands of people are fleeing the bombing in the city.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "refugee",
+    "meaning": "پناهنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Many refugees have crossed the border to escape the war.",
+        "persian": "بسیاری از پناهندگان برای فرار از جنگ از مرز عبور کرده‌اند."
+      }
+    ],
+    "miniContext": "Many refugees have crossed the border to escape the war.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "refuge",
+    "meaning": "پناهگاه، پناه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "shelter"
+    ],
+    "examples": [
+      {
+        "english": "The men had to take refuge in the French embassy.",
+        "persian": "آن مردان مجبور شدند در سفارت فرانسه پناه بگیرند."
+      }
+    ],
+    "miniContext": "The men had to take refuge in the French embassy.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "asylum",
+    "meaning": "پناهندگی سیاسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The numbers seeking asylum have increased recently.",
+        "persian": "تعداد کسانی که درخواست پناهندگی می‌کنند اخیراً افزایش یافته است."
+      }
+    ],
+    "miniContext": "The numbers seeking asylum have increased recently.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "ethnic",
+    "meaning": "قومی، نژادی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "An ethnic community kept many of its old traditions alive.",
+        "persian": "یک جامعه‌ی قومی بسیاری از سنت‌های قدیمی خود را زنده نگه داشت."
+      }
+    ],
+    "miniContext": "An ethnic community kept many of its old traditions alive.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "minority",
+    "meaning": "اقلیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ethnic minorities make up 10% of the town's population.",
+        "persian": "اقلیت‌های قومی ۱۰ درصد از جمعیت شهر را تشکیل می‌دهند."
+      }
+    ],
+    "miniContext": "Ethnic minorities make up 10% of the town's population.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "racial",
+    "meaning": "نژادی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There has been a lot of racial tension between different ethnic groups.",
+        "persian": "بین گروه‌های قومی مختلف تنش نژادی زیادی وجود داشته است."
+      }
+    ],
+    "miniContext": "There has been a lot of racial tension between different ethnic groups.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "discrimination",
+    "meaning": "تبعیض",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was a victim of racial discrimination at work.",
+        "persian": "او قربانی تبعیض نژادی در محل کار شد."
+      }
+    ],
+    "miniContext": "She was a victim of racial discrimination at work.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "prejudice (against sb/sth)",
+    "meaning": "تعصب، پیش‌داوری (علیه کسی/چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Their decision was based on prejudice and a complete lack of understanding.",
+        "persian": "تصمیم آن‌ها بر پایه‌ی تعصب و نبودِ کامل درک بود."
+      }
+    ],
+    "miniContext": "Their decision was based on prejudice and a complete lack of understanding.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "native",
+    "meaning": "بومی، زادگاهی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Moving away from my native country was a huge culture shock.",
+        "persian": "دور شدن از کشور زادگاهم شوک فرهنگی بزرگی بود."
+      }
+    ],
+    "miniContext": "Moving away from my native country was a huge culture shock.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "culture shock",
+    "meaning": "شوک فرهنگی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Culture shock is the confusion and anxiety you feel when you first live in another country.",
+        "persian": "شوک فرهنگی سردرگمی و اضطرابی است که هنگام زندگی اولیه در کشوری دیگر حس می‌کنید."
+      }
+    ],
+    "miniContext": "Culture shock is the confusion and anxiety you feel when you first live in another country.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "hostility (to/towards sb)",
+    "meaning": "خصومت (نسبت به کسی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People have never been hostile towards me — quite the opposite.",
+        "persian": "مردم هرگز نسبت به من خصومتی نشان نداده‌اند، کاملاً برعکس."
+      }
+    ],
+    "miniContext": "People have never been hostile towards me — quite the opposite.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "faith",
+    "meaning": "ایمان، باور مذهبی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People have accepted me for what I am, including my religious faith.",
+        "persian": "مردم مرا همان‌طور که هستم پذیرفته‌اند، از جمله ایمان مذهبی‌ام."
+      }
+    ],
+    "miniContext": "People have accepted me for what I am, including my religious faith.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "stereotype",
+    "meaning": "کلیشه، تصویر قالبی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They've seen beyond the stereotype and got to know who I really am.",
+        "persian": "آن‌ها فراتر از کلیشه را دیدند و فهمیدند من واقعاً چه کسی هستم."
+      }
+    ],
+    "miniContext": "They've seen beyond the stereotype and got to know who I really am.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "integration",
+    "meaning": "ادغام، یکپارچگی (در جامعه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I recognize the need for integration in order to live in peace with my neighbours.",
+        "persian": "من نیاز به ادغام در جامعه را برای زندگی مسالمت‌آمیز با همسایگانم درک می‌کنم."
+      }
+    ],
+    "miniContext": "I recognize the need for integration in order to live in peace with my neighbours.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "live in peace (with sb)",
+    "meaning": "در صلح زندگی کردن (با کسی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People here just want to live in peace with each other.",
+        "persian": "مردم اینجا فقط می‌خواهند با هم در صلح زندگی کنند."
+      }
+    ],
+    "miniContext": "People here just want to live in peace with each other.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "nostalgia",
+    "meaning": "دلتنگی، حس نوستالژی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I still have feelings of nostalgia for my country of origin.",
+        "persian": "هنوز هم دلتنگی نسبت به کشور اصلی‌ام را احساس می‌کنم."
+      }
+    ],
+    "miniContext": "I still have feelings of nostalgia for my country of origin.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "country of origin",
+    "meaning": "کشور اصلی، کشور مبدأ",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A person's country of origin is where they were born.",
+        "persian": "کشور مبدأ فردی همان جایی است که او در آن به دنیا آمده است."
+      }
+    ],
+    "miniContext": "A person's country of origin is where they were born.",
+    "icon": "🌍"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-49",
+    "word": "desire",
+    "meaning": "آرزو، خواسته‌ی شدید",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have no desire to go back.",
+        "persian": "هیچ تمایلی به بازگشت ندارم."
+      }
+    ],
+    "miniContext": "I have no desire to go back.",
+    "icon": "🌍"
+  }
+]

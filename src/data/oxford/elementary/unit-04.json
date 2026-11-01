@@ -1,0 +1,276 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "called",
+    "meaning": "به نام",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "named"
+    ],
+    "examples": [
+      {
+        "english": "I have a dog called Max.",
+        "persian": "من یک سگ به نام مکس دارم."
+      }
+    ],
+    "miniContext": "I have a dog called Max.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "help (v)",
+    "meaning": "کمک کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you help me with this bag?",
+        "persian": "می‌توانی با این کیف به من کمک کنی؟"
+      }
+    ],
+    "miniContext": "Can you help me with this bag?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "know",
+    "meaning": "دانستن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I know the answer.",
+        "persian": "من جواب را می‌دانم."
+      }
+    ],
+    "miniContext": "I know the answer.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "keep a record of sth",
+    "meaning": "سابقه چیزی را نگه داشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I keep a record of my spending.",
+        "persian": "من سابقه هزینه‌هایم را نگه می‌دارم."
+      }
+    ],
+    "miniContext": "I keep a record of my spending.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "mean",
+    "meaning": "معنی دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What does this word mean?",
+        "persian": "این کلمه چه معنی می‌دهد؟"
+      }
+    ],
+    "miniContext": "What does this word mean?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "meaning",
+    "meaning": "معنی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't know the meaning of this word.",
+        "persian": "من معنی این کلمه را نمی‌دانم."
+      }
+    ],
+    "miniContext": "I don't know the meaning of this word.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "not sure",
+    "meaning": "مطمئن نیستم",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm not sure about the answer.",
+        "persian": "من درباره جواب مطمئن نیستم."
+      }
+    ],
+    "miniContext": "I'm not sure about the answer.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "out loud",
+    "meaning": "با صدای بلند",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please read the sentence out loud.",
+        "persian": "لطفاً جمله را با صدای بلند بخوان."
+      }
+    ],
+    "miniContext": "Please read the sentence out loud.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "pronunciation",
+    "meaning": "تلفظ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her pronunciation is very clear.",
+        "persian": "تلفظ او خیلی واضح است."
+      }
+    ],
+    "miniContext": "Her pronunciation is very clear.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "record (n)",
+    "meaning": "رکورد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She broke the world record.",
+        "persian": "او رکورد جهانی را شکست."
+      }
+    ],
+    "miniContext": "She broke the world record.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "remember",
+    "meaning": "به‌خاطر آوردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you remember my name?",
+        "persian": "اسم من را به‌خاطر می‌آوری؟"
+      }
+    ],
+    "miniContext": "Do you remember my name?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "situation",
+    "meaning": "وضعیت، موقعیت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a difficult situation.",
+        "persian": "این یک وضعیت سخت است."
+      }
+    ],
+    "miniContext": "This is a difficult situation.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "spell",
+    "meaning": "هجی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you spell your name, please?",
+        "persian": "می‌توانی اسمت را هجی کنی، لطفاً؟"
+      }
+    ],
+    "miniContext": "Can you spell your name, please?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "sure (certain)",
+    "meaning": "مطمئن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you sure about the time?",
+        "persian": "از زمانش مطمئنی؟"
+      }
+    ],
+    "miniContext": "Are you sure about the time?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "thing",
+    "meaning": "چیز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is that thing on the table?",
+        "persian": "آن چیز روی میز چیست؟"
+      }
+    ],
+    "miniContext": "What is that thing on the table?",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-4",
+    "word": "write sth down",
+    "meaning": "چیزی را نوشتن (یادداشت کردن)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Write down the new words.",
+        "persian": "کلمات جدید را یادداشت کن."
+      }
+    ],
+    "miniContext": "Write down the new words.",
+    "icon": "🏫"
+  }
+]

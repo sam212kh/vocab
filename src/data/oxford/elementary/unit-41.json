@@ -1,0 +1,155 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "housework",
+    "meaning": "کارهای خانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I do housework every Saturday.",
+        "persian": "من هر شنبه کارهای خانه را انجام می‌دهم."
+      }
+    ],
+    "miniContext": "I do housework every Saturday.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make (= produce/create)",
+    "meaning": "ساختن، تولید کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She makes cakes.",
+        "persian": "او کیک می‌سازد."
+      }
+    ],
+    "miniContext": "She makes cakes.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make a decision",
+    "meaning": "تصمیم گرفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to make a decision.",
+        "persian": "باید یک تصمیم بگیریم."
+      }
+    ],
+    "miniContext": "We need to make a decision.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make a noise",
+    "meaning": "سر و صدا کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't make a noise, the baby is sleeping.",
+        "persian": "سر و صدا نکن، بچه خوابیده است."
+      }
+    ],
+    "miniContext": "Don't make a noise, the baby is sleeping.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make money",
+    "meaning": "پول درآوردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He makes a lot of money.",
+        "persian": "او پول زیادی درمی‌آورد."
+      }
+    ],
+    "miniContext": "He makes a lot of money.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make sense",
+    "meaning": "معنا داشتن، منطقی بودن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This sentence doesn't make sense.",
+        "persian": "این جمله معنا ندارد."
+      }
+    ],
+    "miniContext": "This sentence doesn't make sense.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make sure",
+    "meaning": "مطمئن شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Make sure you lock the door.",
+        "persian": "مطمئن شو در را قفل کرده‌ای."
+      }
+    ],
+    "miniContext": "Make sure you lock the door.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make the bed",
+    "meaning": "تخت را مرتب کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I make my bed every morning.",
+        "persian": "من هر صبح تختم را مرتب می‌کنم."
+      }
+    ],
+    "miniContext": "I make my bed every morning.",
+    "icon": "🛠️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-41",
+    "word": "make sth up",
+    "meaning": "از خود درآوردن، ساختن (داستان)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He made up a story.",
+        "persian": "او یک داستان از خودش درآورد."
+      }
+    ],
+    "miniContext": "He made up a story.",
+    "icon": "🛠️"
+  }
+]

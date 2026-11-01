@@ -1,0 +1,354 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "crawl",
+    "meaning": "خیلی آهسته حرکت کردن (وسیله نقلیه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As I crawled along the motorway, I was having second thoughts about staying with Marcus.",
+        "persian": "همان‌طور که در بزرگراه خیلی آهسته می‌رفتم، درباره ماندن پیش مارکوس تردید کرده بودم."
+      }
+    ],
+    "miniContext": "As I crawled along the motorway, I was having second thoughts about staying with Marcus.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "have second thoughts (about sth)",
+    "meaning": "دودل شدن، تردید کردن درباره تصمیمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was having second thoughts about staying with Marcus.",
+        "persian": "درباره ماندن پیش مارکوس تردید کرده بودم."
+      }
+    ],
+    "miniContext": "I was having second thoughts about staying with Marcus.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "be in two minds about sth",
+    "meaning": "مردد بودن درباره تصمیمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd been in two minds about going in the first place.",
+        "persian": "از همان اول هم مردد بودم که بروم یا نه."
+      }
+    ],
+    "miniContext": "I'd been in two minds about going in the first place.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "sweet (of sb)",
+    "meaning": "محبت‌آمیز، مهربان (از کسی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "kind"
+    ],
+    "examples": [
+      {
+        "english": "It was sweet of him to invite me.",
+        "persian": "خیلی لطف کرد که مرا دعوت کرد."
+      }
+    ],
+    "miniContext": "It was sweet of him to invite me.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "be tied up",
+    "meaning": "سرش شلوغ بودن، گرفتار بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "be busy"
+    ],
+    "examples": [
+      {
+        "english": "I wasn't tied up, so I said 'yes'.",
+        "persian": "گرفتار نبودم، پس گفتم «بله»."
+      }
+    ],
+    "miniContext": "I wasn't tied up, so I said 'yes'.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "strike sb (that...)",
+    "meaning": "ناگهان به ذهن کسی رسیدن (فکر یا ایده)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Now it struck me that perhaps he wanted to go out with me!",
+        "persian": "ناگهان به ذهنم رسید که شاید او می‌خواهد با من رابطه داشته باشد!"
+      }
+    ],
+    "miniContext": "Now it struck me that perhaps he wanted to go out with me!",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "thick",
+    "meaning": "کودن، نفهم (عامیانه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "stupid"
+    ],
+    "examples": [
+      {
+        "english": "How could I be so thick?",
+        "persian": "چطور می‌توانستم این‌قدر کودن باشم؟"
+      }
+    ],
+    "miniContext": "How could I be so thick?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "be the last thing on sb's mind",
+    "meaning": "آخرین چیزی بودن که کسی به آن فکر می‌کند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A romantic relationship was the last thing on my mind.",
+        "persian": "رابطه عاشقانه آخرین چیزی بود که به ذهنم می‌رسید."
+      }
+    ],
+    "miniContext": "A romantic relationship was the last thing on my mind.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "get out of sth",
+    "meaning": "از زیر کاری در رفتن، اجتناب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [
+      "avoid"
+    ],
+    "examples": [
+      {
+        "english": "How can I get out of this, I wondered?",
+        "persian": "با خودم فکر کردم چطور می‌توانم از زیر این قضیه در بروم؟"
+      }
+    ],
+    "miniContext": "How can I get out of this, I wondered?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "you're not gonna believe this",
+    "meaning": "باورت نمی‌شود (برای معرفی خبر غیرمنتظره)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Listen, you're not gonna believe this, but ...",
+        "persian": "گوش کن، باورت نمی‌شود، اما ..."
+      }
+    ],
+    "miniContext": "Listen, you're not gonna believe this, but ...",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "get sb/sth to do sth",
+    "meaning": "وادار کردن یا متقاعد کردن کسی به انجام کاری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "persuade"
+    ],
+    "examples": [
+      {
+        "english": "I couldn't get him to leave the house.",
+        "persian": "نتوانستم وادارش کنم از خانه بیرون برود."
+      }
+    ],
+    "miniContext": "I couldn't get him to leave the house. I finally got the car to start.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "see what/how (sth happens)",
+    "meaning": "فهمیدن با نگاه کردن، پرسیدن یا صبر کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll see what Rob says. Let's see what happens.",
+        "persian": "می‌بینم راب چه می‌گوید. بگذار ببینیم چه می‌شود."
+      }
+    ],
+    "miniContext": "We may be able to help. I'll see what Rob says.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "keep (= remain fresh)",
+    "meaning": "تازه ماندن (غذا)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We must eat the grapes - they won't keep.",
+        "persian": "باید انگورها را بخوریم، تازه نمی‌مانند."
+      }
+    ],
+    "miniContext": "We must eat the grapes - they won't keep.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "put (= express in words)",
+    "meaning": "بیان کردن، گفتن به شکلی خاص",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think he put it very well in his essay.",
+        "persian": "فکر می‌کنم او آن را در مقاله‌اش خیلی خوب بیان کرد."
+      }
+    ],
+    "miniContext": "I think he put it very well in his essay.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "push sb/yourself",
+    "meaning": "کسی را به تلاش بیشتر وادار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some parents push their kids really hard.",
+        "persian": "بعضی والدین بچه‌هایشان را خیلی تحت فشار می‌گذارند."
+      }
+    ],
+    "miniContext": "Some parents push their kids really hard.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "leave sth to/with sb",
+    "meaning": "کاری را به کسی سپردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to book a table. I'll leave that to you.",
+        "persian": "باید یک میز رزرو کنیم. آن را به تو می‌سپارم."
+      }
+    ],
+    "miniContext": "We need to book a table. I'll leave that to you.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "make sth sth",
+    "meaning": "چیزی را عدد یا زمانی خاص تخمین زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My watch says 10.20. What time do you make it?",
+        "persian": "ساعت من 10:20 است. تو چند می‌گویی؟"
+      }
+    ],
+    "miniContext": "He bought ten more; I make that 25 now.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "bring sb/sth + adverb/preposition",
+    "meaning": "باعث رسیدن کسی یا چیزی به وضعیتی خاص شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was the war that brought him to power.",
+        "persian": "جنگ بود که او را به قدرت رساند."
+      }
+    ],
+    "miniContext": "What brings you here? - I've got a meeting.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "come with/in sth",
+    "meaning": "با ویژگی خاصی عرضه شدن یا فروخته شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm sure the radio comes with batteries.",
+        "persian": "مطمئنم رادیو با باتری عرضه می‌شود."
+      }
+    ],
+    "miniContext": "The chairs come in four different colours.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-2",
+    "word": "do (for sb/sth)",
+    "meaning": "کافی یا مناسب بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "be enough"
+    ],
+    "examples": [
+      {
+        "english": "I peeled six potatoes. Will that do?",
+        "persian": "شش سیب‌زمینی پوست کندم. کافی است؟"
+      }
+    ],
+    "miniContext": "Will these shoes do for the wedding?",
+    "icon": "🔤"
+  }
+]

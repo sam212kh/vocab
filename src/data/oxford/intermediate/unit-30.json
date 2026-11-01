@@ -1,0 +1,263 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "go into hospital",
+    "meaning": "بستری شدن در بیمارستان",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have to go into hospital tomorrow.",
+        "persian": "باید فردا در بیمارستان بستری شوم."
+      }
+    ],
+    "miniContext": "I have to go into hospital tomorrow.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "unwell",
+    "meaning": "ناخوش، بیمار",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "ill"
+    ],
+    "examples": [
+      {
+        "english": "You go to your doctor feeling very unwell.",
+        "persian": "با احساس ناخوشی زیاد پیش دکترت می‌روی."
+      }
+    ],
+    "miniContext": "You go to your doctor feeling very unwell.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "examine",
+    "meaning": "معاینه کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The doctor examined me carefully.",
+        "persian": "دکتر مرا با دقت معاینه کرد."
+      }
+    ],
+    "miniContext": "The doctor examined me carefully.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "arrange",
+    "meaning": "ترتیب دادن، برنامه‌ریزی کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She arranged for me to see a consultant.",
+        "persian": "او ترتیبی داد که من پزشک متخصص را ببینم."
+      }
+    ],
+    "miniContext": "She arranged for me to see a consultant.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "consultant",
+    "meaning": "پزشک متخصص",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to see a consultant about my eye.",
+        "persian": "برای چشمم پیش پزشک متخصص رفتم."
+      }
+    ],
+    "miniContext": "I went to see a consultant about my eye.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "test",
+    "meaning": "آزمایش (پزشکی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The nurses may take blood samples for tests.",
+        "persian": "ممکن است پرستاران برای آزمایش نمونه خون بگیرند."
+      }
+    ],
+    "miniContext": "The nurses may take blood samples for tests.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "sample",
+    "meaning": "نمونه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The nurse took a blood sample.",
+        "persian": "پرستار یک نمونه خون گرفت."
+      }
+    ],
+    "miniContext": "The nurse took a blood sample.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "treat",
+    "meaning": "درمان کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The consultant decides how to treat you.",
+        "persian": "پزشک متخصص تصمیم می‌گیرد چطور تو را درمان کند."
+      }
+    ],
+    "miniContext": "The consultant decides how to treat you.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "operation",
+    "meaning": "عمل جراحی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to have an operation on my eye.",
+        "persian": "باید روی چشمم عمل جراحی انجام شود."
+      }
+    ],
+    "miniContext": "I need to have an operation on my eye.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "emergency",
+    "meaning": "اورژانس، وضعیت اضطراری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You may have an operation immediately if it is an emergency.",
+        "persian": "اگر وضعیت اضطراری باشد ممکن است فورا عمل شوی."
+      }
+    ],
+    "miniContext": "You may have an operation immediately if it is an emergency.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "benefit",
+    "meaning": "فایده",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The consultant explains the benefits and risks.",
+        "persian": "پزشک متخصص فایده‌ها و خطرات را توضیح می‌دهد."
+      }
+    ],
+    "miniContext": "The consultant explains the benefits and risks.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "risk",
+    "meaning": "خطر، ریسک",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are there any risks with the treatment?",
+        "persian": "آیا این درمان خطری دارد؟"
+      }
+    ],
+    "miniContext": "Are there any risks with the treatment?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "care for sb",
+    "meaning": "مراقبت کردن از کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "take care of sb"
+    ],
+    "examples": [
+      {
+        "english": "My sister is going to take care of me at home.",
+        "persian": "خواهرم قرار است در خانه از من مراقبت کند."
+      }
+    ],
+    "miniContext": "My sister is going to take care of me at home.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "recover (from sth)",
+    "meaning": "بهبود یافتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "get over sth"
+    ],
+    "examples": [
+      {
+        "english": "It took a week to recover from the operation.",
+        "persian": "یک هفته طول کشید تا از آن عمل بهبود یابم."
+      }
+    ],
+    "miniContext": "It took a week to recover from the operation.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-30",
+    "word": "successful",
+    "meaning": "موفقیت‌آمیز",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The operation was very successful.",
+        "persian": "آن عمل خیلی موفقیت‌آمیز بود."
+      }
+    ],
+    "miniContext": "The operation was very successful.",
+    "icon": "🏥"
+  }
+]

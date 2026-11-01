@@ -1,0 +1,210 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "appreciate",
+    "meaning": "قدردانی کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really appreciate it when taxi drivers help with luggage.",
+        "persian": "واقعا قدردانم وقتی راننده تاکسی‌ها با چمدان کمک می‌کنند."
+      }
+    ],
+    "miniContext": "I really appreciate it when taxi drivers help with luggage.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "pleasure",
+    "meaning": "لذت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It gives me such pleasure when I find a parking space.",
+        "persian": "وقتی جای پارک پیدا می‌کنم خیلی لذت می‌برم."
+      }
+    ],
+    "miniContext": "It gives me such pleasure when I find a parking space.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "lift sb's spirits",
+    "meaning": "روحیه‌ی کسی را بالا بردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sight of my dog running lifts my spirits.",
+        "persian": "دیدن سگم که می‌دود روحیه‌ام را بالا می‌برد."
+      }
+    ],
+    "miniContext": "The sight of my dog running lifts my spirits.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "ideal",
+    "meaning": "ایده‌آل",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "perfect"
+    ],
+    "examples": [
+      {
+        "english": "The skiing conditions were ideal.",
+        "persian": "شرایط اسکی ایده‌آل بود."
+      }
+    ],
+    "miniContext": "The skiing conditions were ideal.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "highlight (noun)",
+    "meaning": "بهترین/جالب‌ترین بخش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That's often the highlight of my day.",
+        "persian": "این اغلب بهترین بخش روزم است."
+      }
+    ],
+    "miniContext": "That's often the highlight of my day.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "fancy (adjective)",
+    "meaning": "تشریفاتی، پرزرق‌وبرق",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "simple (opp)"
+    ],
+    "examples": [
+      {
+        "english": "My mother's cooking is simple: nothing fancy.",
+        "persian": "غذای مادرم ساده است: هیچ چیز پرزرق‌وبرقی ندارد."
+      }
+    ],
+    "miniContext": "My mother's cooking is simple: nothing fancy.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "fed up (with sth/sb)",
+    "meaning": "کلافه (از چیزی/کسی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm so fed up with the guy next door.",
+        "persian": "خیلی از همسایه‌ی کناری کلافه‌ام."
+      }
+    ],
+    "miniContext": "I'm so fed up with the guy next door.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "annoy",
+    "meaning": "آزار دادن، کلافه کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His loud music really annoys me.",
+        "persian": "موسیقی بلندش واقعا آزارم می‌دهد."
+      }
+    ],
+    "miniContext": "His loud music really annoys me.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "get on sb's nerves",
+    "meaning": "روی اعصاب کسی رفتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That must really get on your nerves.",
+        "persian": "حتما خیلی روی اعصابت می‌رود."
+      }
+    ],
+    "miniContext": "That must really get on your nerves.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "habit",
+    "meaning": "عادت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's got another annoying habit.",
+        "persian": "او یک عادت آزاردهنده‌ی دیگر هم دارد."
+      }
+    ],
+    "miniContext": "He's got another annoying habit.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "can't be bothered (to do sth)",
+    "meaning": "حوصله‌ی انجام کاری را نداشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He can't be bothered to do anything about it.",
+        "persian": "حوصله‌ی هیچ اقدامی درباره‌ی آن را ندارد."
+      }
+    ],
+    "miniContext": "He can't be bothered to do anything about it.",
+    "icon": "😠"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-90",
+    "word": "have a word with sb",
+    "meaning": "صحبت کوتاهی با کسی داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you want me to have a word with him?",
+        "persian": "می‌خواهی با او یک صحبت کوتاه داشته باشم؟"
+      }
+    ],
+    "miniContext": "Do you want me to have a word with him?",
+    "icon": "😠"
+  }
+]

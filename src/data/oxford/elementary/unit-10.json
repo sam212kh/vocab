@@ -1,0 +1,495 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "ankle",
+    "meaning": "قوزک پا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hurt my ankle while running.",
+        "persian": "هنگام دویدن قوزک پایم آسیب دید."
+      }
+    ],
+    "miniContext": "I hurt my ankle while running.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "arm",
+    "meaning": "بازو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She broke her arm last week.",
+        "persian": "بازوی او هفته پیش شکست."
+      }
+    ],
+    "miniContext": "She broke her arm last week.",
+    "icon": "💪"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "back",
+    "meaning": "پشت (بدن)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My back hurts after the long drive.",
+        "persian": "بعد از رانندگی طولانی پشتم درد می‌کند."
+      }
+    ],
+    "miniContext": "My back hurts after the long drive.",
+    "icon": "🔙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "blood",
+    "meaning": "خون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The doctor checked his blood.",
+        "persian": "دکتر خون او را بررسی کرد."
+      }
+    ],
+    "miniContext": "The doctor checked his blood.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "body",
+    "meaning": "بدن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Exercise is good for your body.",
+        "persian": "ورزش برای بدنت خوب است."
+      }
+    ],
+    "miniContext": "Exercise is good for your body.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "bone",
+    "meaning": "استخوان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The dog is eating a bone.",
+        "persian": "سگ یک استخوان می‌خورد."
+      }
+    ],
+    "miniContext": "The dog is eating a bone.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "bottom",
+    "meaning": "پایین، ته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The key is at the bottom of the bag.",
+        "persian": "کلید در ته کیف است."
+      }
+    ],
+    "miniContext": "The key is at the bottom of the bag.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "brain",
+    "meaning": "مغز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The brain controls the whole body.",
+        "persian": "مغز کنترل کل بدن را انجام می‌دهد."
+      }
+    ],
+    "miniContext": "The brain controls the whole body.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "chest",
+    "meaning": "قفسه سینه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has pain in his chest.",
+        "persian": "او درد در قفسه سینه‌اش دارد."
+      }
+    ],
+    "miniContext": "He has pain in his chest.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "chin",
+    "meaning": "چانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has a small scar on his chin.",
+        "persian": "او یک جای زخم کوچک روی چانه‌اش دارد."
+      }
+    ],
+    "miniContext": "He has a small scar on his chin.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "finger",
+    "meaning": "انگشت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She hurt her finger.",
+        "persian": "او انگشتش را آسیب زد."
+      }
+    ],
+    "miniContext": "She hurt her finger.",
+    "icon": "👆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "foot (pl feet)",
+    "meaning": "پا، کف پا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My foot hurts.",
+        "persian": "پایم درد می‌کند."
+      }
+    ],
+    "miniContext": "My foot hurts.",
+    "icon": "🦶"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "hair",
+    "meaning": "مو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has long black hair.",
+        "persian": "او موهای سیاه بلندی دارد."
+      }
+    ],
+    "miniContext": "She has long black hair.",
+    "icon": "💇"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "hand",
+    "meaning": "دست",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Hold my hand, please.",
+        "persian": "لطفاً دستم را بگیر."
+      }
+    ],
+    "miniContext": "Hold my hand, please.",
+    "icon": "✋"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "head",
+    "meaning": "سر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My head hurts.",
+        "persian": "سرم درد می‌کند."
+      }
+    ],
+    "miniContext": "My head hurts.",
+    "icon": "🗣️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "heart",
+    "meaning": "قلب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her heart was beating fast.",
+        "persian": "قلبش سریع می‌تپید."
+      }
+    ],
+    "miniContext": "Her heart was beating fast.",
+    "icon": "❤️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "knee",
+    "meaning": "زانو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hurt my knee.",
+        "persian": "زانویم را آسیب زدم."
+      }
+    ],
+    "miniContext": "I hurt my knee.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "inside",
+    "meaning": "داخل",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The keys are inside the bag.",
+        "persian": "کلیدها داخل کیف هستند."
+      }
+    ],
+    "miniContext": "The keys are inside the bag.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "leg",
+    "meaning": "پا (ساق)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He broke his leg.",
+        "persian": "پایش را شکست."
+      }
+    ],
+    "miniContext": "He broke his leg.",
+    "icon": "🦵"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "mouth",
+    "meaning": "دهان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Open your mouth.",
+        "persian": "دهانت را باز کن."
+      }
+    ],
+    "miniContext": "Open your mouth.",
+    "icon": "👄"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "neck",
+    "meaning": "گردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wore a necklace around her neck.",
+        "persian": "او یک گردنبند به گردنش آویخته بود."
+      }
+    ],
+    "miniContext": "She wore a necklace around her neck.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "nose",
+    "meaning": "بینی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My nose is cold.",
+        "persian": "بینی‌ام سرد است."
+      }
+    ],
+    "miniContext": "My nose is cold.",
+    "icon": "👃"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "shoulder",
+    "meaning": "شانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My shoulder hurts a little.",
+        "persian": "شانه‌ام کمی درد می‌کند."
+      }
+    ],
+    "miniContext": "My shoulder hurts a little.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "skin",
+    "meaning": "پوست",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her skin is very soft.",
+        "persian": "پوست او خیلی نرم است."
+      }
+    ],
+    "miniContext": "Her skin is very soft.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "stomach",
+    "meaning": "شکم، معده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My stomach hurts a little.",
+        "persian": "شکمم کمی درد می‌کند."
+      }
+    ],
+    "miniContext": "My stomach hurts a little.",
+    "icon": "🫃"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "teeth",
+    "meaning": "دندان‌ها",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brush your teeth every morning.",
+        "persian": "هر روز صبح دندان‌هایت را مسواک بزن."
+      }
+    ],
+    "miniContext": "Brush your teeth every morning.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "toe",
+    "meaning": "انگشت پا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hurt my toe this morning.",
+        "persian": "امروز صبح انگشت پایم را زدم."
+      }
+    ],
+    "miniContext": "I hurt my toe this morning.",
+    "icon": "🧍"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "tooth",
+    "meaning": "دندان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a broken tooth.",
+        "persian": "یکی از دندان‌هایم شکسته است."
+      }
+    ],
+    "miniContext": "I have a broken tooth.",
+    "icon": "🦷"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-10",
+    "word": "waist",
+    "meaning": "کمر (قسمت بدن)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wore a belt around her waist.",
+        "persian": "او کمربندی به کمرش بسته بود."
+      }
+    ],
+    "miniContext": "She wore a belt around her waist.",
+    "icon": "🧍"
+  }
+]

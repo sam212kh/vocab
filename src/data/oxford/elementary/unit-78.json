@@ -1,0 +1,346 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "arrange",
+    "meaning": "ترتیب دادن، برنامه‌ریزی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "organize"
+    ],
+    "examples": [
+      {
+        "english": "We arranged to meet at six o'clock.",
+        "persian": "ما ترتیب دادیم که ساعت شش ملاقات کنیم."
+      }
+    ],
+    "miniContext": "We arranged to meet at six o'clock.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "arrangement",
+    "meaning": "ترتیب، برنامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "plan"
+    ],
+    "examples": [
+      {
+        "english": "We made an arrangement to travel together.",
+        "persian": "ما یک برنامه برای سفر کردن با هم ترتیب دادیم."
+      }
+    ],
+    "miniContext": "We made an arrangement to travel together.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "celebrate",
+    "meaning": "جشن گرفتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We celebrated her birthday at home.",
+        "persian": "ما تولد او را در خانه جشن گرفتیم."
+      }
+    ],
+    "miniContext": "We celebrated her birthday at home.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "celebration",
+    "meaning": "جشن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The wedding celebration was beautiful.",
+        "persian": "جشن عروسی زیبا بود."
+      }
+    ],
+    "miniContext": "The wedding celebration was beautiful.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "have an argument",
+    "meaning": "بحث و جدل کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They had an argument about money.",
+        "persian": "آنها درباره پول بحث و جدل کردند."
+      }
+    ],
+    "miniContext": "They had an argument about money.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "have a thought",
+    "meaning": "فکری به ذهن رسیدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had a thought about the plan.",
+        "persian": "فکری درباره برنامه به ذهنم رسید."
+      }
+    ],
+    "miniContext": "I had a thought about the plan.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "invention",
+    "meaning": "اختراع",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The computer is a great invention.",
+        "persian": "کامپیوتر یک اختراع بزرگ است."
+      }
+    ],
+    "miniContext": "The computer is a great invention.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "make a choice",
+    "meaning": "انتخاب کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You have to make a choice.",
+        "persian": "باید یک انتخاب بکنی."
+      }
+    ],
+    "miniContext": "You have to make a choice.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "make a complaint",
+    "meaning": "شکایت کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She made a complaint to the manager.",
+        "persian": "او به مدیر شکایت کرد."
+      }
+    ],
+    "miniContext": "She made a complaint to the manager.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "make a discovery",
+    "meaning": "کشف کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Scientists made a new discovery.",
+        "persian": "دانشمندان یک کشف جدید کردند."
+      }
+    ],
+    "miniContext": "Scientists made a new discovery.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "make an arrangement",
+    "meaning": "ترتیب دادن، برنامه‌ریزی کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's make an arrangement to meet.",
+        "persian": "بیا برای دیدار برنامه‌ریزی کنیم."
+      }
+    ],
+    "miniContext": "Let's make an arrangement to meet.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "movement",
+    "meaning": "حرکت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The movement of the train was smooth.",
+        "persian": "حرکت قطار نرم بود."
+      }
+    ],
+    "miniContext": "The movement of the train was smooth.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "organization",
+    "meaning": "سازمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She works for a big organization.",
+        "persian": "او برای یک سازمان بزرگ کار می‌کند."
+      }
+    ],
+    "miniContext": "She works for a big organization.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "predict",
+    "meaning": "پیش‌بینی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Nobody can predict the weather exactly.",
+        "persian": "هیچ‌کس نمی‌تواند آب‌وهوا را دقیقاً پیش‌بینی کند."
+      }
+    ],
+    "miniContext": "Nobody can predict the weather exactly.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "prediction",
+    "meaning": "پیش‌بینی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's your prediction for the game?",
+        "persian": "پیش‌بینی تو برای این بازی چیست؟"
+      }
+    ],
+    "miniContext": "What's your prediction for the game?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "solution",
+    "meaning": "راه‌حل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We found a solution to the problem.",
+        "persian": "ما یک راه‌حل برای مشکل پیدا کردیم."
+      }
+    ],
+    "miniContext": "We found a solution to the problem.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "solve",
+    "meaning": "حل کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you solve this problem?",
+        "persian": "می‌توانی این مشکل را حل کنی؟"
+      }
+    ],
+    "miniContext": "Can you solve this problem?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "succeed",
+    "meaning": "موفق شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She worked hard and succeeded.",
+        "persian": "او سخت کار کرد و موفق شد."
+      }
+    ],
+    "miniContext": "She worked hard and succeeded.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "success",
+    "meaning": "موفقیت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The party was a big success.",
+        "persian": "آن مهمانی موفقیت بزرگی بود."
+      }
+    ],
+    "miniContext": "The party was a big success.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-78",
+    "word": "thought(s)",
+    "meaning": "فکر، اندیشه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What are your thoughts about this plan?",
+        "persian": "درباره این برنامه چه فکری داری؟"
+      }
+    ],
+    "miniContext": "What are your thoughts about this plan?",
+    "icon": "🔤"
+  }
+]

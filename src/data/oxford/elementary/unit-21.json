@@ -1,0 +1,344 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at first",
+    "meaning": "در ابتدا",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "At first, I didn't understand the lesson.",
+        "persian": "در ابتدا، من درس را نفهمیدم."
+      }
+    ],
+    "miniContext": "At first, I didn't understand the lesson.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at school",
+    "meaning": "در مدرسه",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My children are at school now.",
+        "persian": "بچه‌های من الان در مدرسه هستند."
+      }
+    ],
+    "miniContext": "My children are at school now.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the back of sth",
+    "meaning": "در پشت چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She sat at the back of the classroom.",
+        "persian": "او در پشت کلاس نشست."
+      }
+    ],
+    "miniContext": "She sat at the back of the classroom.",
+    "icon": "🔙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the beginning/start of sth",
+    "meaning": "در ابتدای چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "At the start of the film, there is a song.",
+        "persian": "در ابتدای فیلم، یک آهنگ هست."
+      }
+    ],
+    "miniContext": "At the start of the film, there is a song.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the bottom of sth",
+    "meaning": "در پایین چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Write your name at the bottom of the page.",
+        "persian": "اسمت را در پایین صفحه بنویس."
+      }
+    ],
+    "miniContext": "Write your name at the bottom of the page.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the end of sth",
+    "meaning": "در پایان چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "At the end of the story, the dog comes home.",
+        "persian": "در پایان داستان، سگ به خانه برمی‌گردد."
+      }
+    ],
+    "miniContext": "At the end of the story, the dog comes home.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the front of sth",
+    "meaning": "در جلوی چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The teacher stood at the front of the class.",
+        "persian": "معلم در جلوی کلاس ایستاد."
+      }
+    ],
+    "miniContext": "The teacher stood at the front of the class.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the same time",
+    "meaning": "در همان زمان",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They arrived at the same time.",
+        "persian": "آن‌ها در همان زمان رسیدند."
+      }
+    ],
+    "miniContext": "They arrived at the same time.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the time",
+    "meaning": "در آن زمان",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was very young at the time.",
+        "persian": "من در آن زمان خیلی کوچک بودم."
+      }
+    ],
+    "miniContext": "I was very young at the time.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at the top of sth",
+    "meaning": "در بالای چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a flag at the top of the mountain.",
+        "persian": "یک پرچم در بالای کوه هست."
+      }
+    ],
+    "miniContext": "There is a flag at the top of the mountain.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "at university",
+    "meaning": "در دانشگاه",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother is studying law at university.",
+        "persian": "برادرم در دانشگاه حقوق می‌خواند."
+      }
+    ],
+    "miniContext": "My brother is studying law at university.",
+    "icon": "🎓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "by the end of sth",
+    "meaning": "تا پایان چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Finish the report by the end of the week.",
+        "persian": "گزارش را تا پایان هفته تمام کن."
+      }
+    ],
+    "miniContext": "Finish the report by the end of the week.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "front (at the front of)",
+    "meaning": "جلو، جلوی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She sat at the front of the class.",
+        "persian": "او جلوی کلاس نشست."
+      }
+    ],
+    "miniContext": "She sat at the front of the class.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "in fact",
+    "meaning": "در واقع",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In fact, I agree with you.",
+        "persian": "در واقع، من با تو موافقم."
+      }
+    ],
+    "miniContext": "In fact, I agree with you.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "in hospital",
+    "meaning": "در بیمارستان",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My uncle is in hospital.",
+        "persian": "عمویم در بیمارستان است."
+      }
+    ],
+    "miniContext": "My uncle is in hospital.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "prison",
+    "meaning": "زندان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was sent to prison.",
+        "persian": "او به زندان فرستاده شد."
+      }
+    ],
+    "miniContext": "He was sent to prison.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "the back of sth",
+    "meaning": "پشت چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sit at the back of the room.",
+        "persian": "در پشت اتاق بنشین."
+      }
+    ],
+    "miniContext": "Sit at the back of the room.",
+    "icon": "🔙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "the end",
+    "meaning": "پایان، انتها",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "ending"
+    ],
+    "examples": [
+      {
+        "english": "Wait at the end of the street.",
+        "persian": "در انتهای خیابان صبر کن."
+      }
+    ],
+    "miniContext": "Wait at the end of the street.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "the middle of sth",
+    "meaning": "وسط چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put it in the middle of the table.",
+        "persian": "آن را وسط میز بگذار."
+      }
+    ],
+    "miniContext": "Put it in the middle of the table.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-21",
+    "word": "time (on time)",
+    "meaning": "به‌موقع",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The train arrived on time.",
+        "persian": "قطار به‌موقع رسید."
+      }
+    ],
+    "miniContext": "The train arrived on time.",
+    "icon": "🧭"
+  }
+]

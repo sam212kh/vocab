@@ -1,0 +1,176 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "anyway",
+    "meaning": "به هر حال",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Anyway, let's talk about something else.",
+        "persian": "به هر حال، بیا درباره چیز دیگری صحبت کنیم."
+      }
+    ],
+    "miniContext": "Anyway, let's talk about something else.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "go away",
+    "meaning": "دور شدن، رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "leave"
+    ],
+    "examples": [
+      {
+        "english": "The cat ran away when I opened the door.",
+        "persian": "گربه وقتی در را باز کردم فرار کرد."
+      }
+    ],
+    "miniContext": "The cat ran away when I opened the door.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "carry on (with sth)",
+    "meaning": "ادامه دادن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "continue"
+    ],
+    "examples": [
+      {
+        "english": "Please carry on with your work.",
+        "persian": "لطفا به کارت ادامه بده."
+      }
+    ],
+    "miniContext": "Please carry on with your work.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "give sth up",
+    "meaning": "چیزی را ترک کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He gave up smoking last year.",
+        "persian": "او سال گذشته سیگار را ترک کرد."
+      }
+    ],
+    "miniContext": "He gave up smoking last year.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "go back",
+    "meaning": "برگشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to go back home now.",
+        "persian": "می‌خواهم الان به خانه برگردم."
+      }
+    ],
+    "miniContext": "I want to go back home now.",
+    "icon": "🔙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "go down (= decrease)",
+    "meaning": "کم شدن، پایین آمدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Prices went down last month.",
+        "persian": "قیمت‌ها ماه گذشته پایین آمدند."
+      }
+    ],
+    "miniContext": "Prices went down last month.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "go up (= increase)",
+    "meaning": "افزایش یافتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Prices went up again this year.",
+        "persian": "قیمت‌ها امسال دوباره افزایش یافتند."
+      }
+    ],
+    "miniContext": "Prices went up again this year.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "grow up",
+    "meaning": "بزرگ شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She grew up in a small village.",
+        "persian": "او در یک روستای کوچک بزرگ شد."
+      }
+    ],
+    "miniContext": "She grew up in a small village.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "look sth up",
+    "meaning": "جستجو کردن (مثلا در دیکشنری)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Look up the word in the dictionary.",
+        "persian": "کلمه را در دیکشنری جستجو کن."
+      }
+    ],
+    "miniContext": "Look up the word in the dictionary.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-99",
+    "word": "welcome",
+    "meaning": "خوش‌آمدگویی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Welcome to our home!",
+        "persian": "به خانه ما خوش آمدید!"
+      }
+    ],
+    "miniContext": "Welcome to our home!",
+    "icon": "🔗"
+  }
+]

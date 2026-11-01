@@ -1,0 +1,208 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "angrily",
+    "meaning": "با عصبانیت",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He shouted angrily at the driver.",
+        "persian": "او با عصبانیت سر راننده فریاد زد."
+      }
+    ],
+    "miniContext": "He shouted angrily at the driver.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "badly",
+    "meaning": "به طور بد",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He played badly in the match.",
+        "persian": "او در مسابقه بد بازی کرد."
+      }
+    ],
+    "miniContext": "He played badly in the match.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "carefully",
+    "meaning": "با دقت",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She read the letter carefully.",
+        "persian": "او نامه را با دقت خواند."
+      }
+    ],
+    "miniContext": "She read the letter carefully.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "happily",
+    "meaning": "با خوشحالی",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The children played happily in the park.",
+        "persian": "بچه‌ها با خوشحالی در پارک بازی کردند."
+      }
+    ],
+    "miniContext": "The children played happily in the park.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "hard (= difficult)",
+    "meaning": "سخت",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "difficult"
+    ],
+    "examples": [
+      {
+        "english": "This exercise is quite hard.",
+        "persian": "این تمرین کاملاً سخت است."
+      }
+    ],
+    "miniContext": "This exercise is quite hard.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "hard (= a lot)",
+    "meaning": "سخت، زیاد",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He works very hard every day.",
+        "persian": "او هر روز خیلی سخت کار می‌کند."
+      }
+    ],
+    "miniContext": "He works very hard every day.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "loudly",
+    "meaning": "با صدای بلند",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He spoke loudly.",
+        "persian": "او با صدای بلند صحبت کرد."
+      }
+    ],
+    "miniContext": "He spoke loudly.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "manner",
+    "meaning": "رفتار، شیوه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She spoke in a friendly manner.",
+        "persian": "او به شیوه دوستانه‌ای صحبت کرد."
+      }
+    ],
+    "miniContext": "She spoke in a friendly manner.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "quietly",
+    "meaning": "به‌آرامی",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She closed the door quietly.",
+        "persian": "او در را به‌آرامی بست."
+      }
+    ],
+    "miniContext": "She closed the door quietly.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "sadly",
+    "meaning": "متأسفانه",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sadly, we missed the train.",
+        "persian": "متأسفانه قطار را از دست دادیم."
+      }
+    ],
+    "miniContext": "Sadly, we missed the train.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "slowly",
+    "meaning": "به آرامی، آهسته",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please speak more slowly.",
+        "persian": "لطفاً آهسته‌تر صحبت کن."
+      }
+    ],
+    "miniContext": "Please speak more slowly.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-65",
+    "word": "well",
+    "meaning": "خوب",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks English well.",
+        "persian": "او انگلیسی را خوب صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks English well.",
+    "icon": "🔤"
+  }
+]

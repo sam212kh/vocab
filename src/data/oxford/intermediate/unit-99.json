@@ -1,0 +1,182 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "CV",
+    "meaning": "رزومه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you apply for a job, send in a CV.",
+        "persian": "اگر برای شغلی درخواست می‌دهی، رزومه بفرست."
+      }
+    ],
+    "miniContext": "If you apply for a job, send in a CV.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "DIY",
+    "meaning": "کارهای تعمیراتی خانه توسط خود فرد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you any good at DIY?",
+        "persian": "در کارهای تعمیراتی خانه خوب هستی؟"
+      }
+    ],
+    "miniContext": "Are you any good at DIY?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "ID",
+    "meaning": "کارت شناسایی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You may have to show your ID to the police.",
+        "persian": "ممکن است مجبور شوی کارت شناسایی‌ات را به پلیس نشان بدهی."
+      }
+    ],
+    "miniContext": "You may have to show your ID to the police.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "asap",
+    "meaning": "هر چه زودتر",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "as soon as possible"
+    ],
+    "examples": [
+      {
+        "english": "I need the information asap.",
+        "persian": "اطلاعات را هر چه زودتر لازم دارم."
+      }
+    ],
+    "miniContext": "I need the information asap.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "PIN",
+    "meaning": "رمز کارت بانکی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You'll need your PIN.",
+        "persian": "به رمز کارتت نیاز خواهی داشت."
+      }
+    ],
+    "miniContext": "You'll need your PIN.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "VIP",
+    "meaning": "شخصیت خیلی مهم",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We're expecting a visit from a VIP.",
+        "persian": "منتظر بازدید یک شخصیت خیلی مهم هستیم."
+      }
+    ],
+    "miniContext": "We're expecting a visit from a VIP.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "fridge",
+    "meaning": "یخچال",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "refrigerator"
+    ],
+    "examples": [
+      {
+        "english": "Put it in the fridge.",
+        "persian": "آن را در یخچال بگذار."
+      }
+    ],
+    "miniContext": "Put it in the fridge.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "gym",
+    "meaning": "باشگاه ورزشی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "gymnasium"
+    ],
+    "examples": [
+      {
+        "english": "He goes to the gym almost every day.",
+        "persian": "او تقریبا هر روز به باشگاه می‌رود."
+      }
+    ],
+    "miniContext": "He goes to the gym almost every day.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "uni",
+    "meaning": "دانشگاه (غیررسمی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "university"
+    ],
+    "examples": [
+      {
+        "english": "She's going to uni next year.",
+        "persian": "او سال بعد به دانشگاه می‌رود."
+      }
+    ],
+    "miniContext": "She's going to uni next year.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-99",
+    "word": "pub",
+    "meaning": "میخانه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "public house"
+    ],
+    "examples": [
+      {
+        "english": "Do you fancy a drink at the pub tonight?",
+        "persian": "دلت می‌خواهد امشب در میخانه نوشیدنی بخوریم؟"
+      }
+    ],
+    "miniContext": "Do you fancy a drink at the pub tonight?",
+    "icon": "🔤"
+  }
+]

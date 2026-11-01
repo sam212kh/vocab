@@ -1,0 +1,376 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "league",
+    "meaning": "لیگ",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are 20 teams in the Premier League.",
+        "persian": "۲۰ تیم در لیگ برتر هستند."
+      }
+    ],
+    "miniContext": "There are 20 teams in the Premier League.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "climax",
+    "meaning": "اوج، نقطه هیجان‌انگیز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "As the championship reaches its climax, Manchester City and Liverpool are still challenging for the title.",
+        "persian": "با نزدیک شدن قهرمانی به اوج خود، منچستر سیتی و لیورپول همچنان برای قهرمانی رقابت می‌کنند."
+      }
+    ],
+    "miniContext": "As the championship reaches its climax.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "title",
+    "meaning": "عنوان قهرمانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Chelsea have now won three premiership titles in recent years.",
+        "persian": "چلسی در سال‌های اخیر سه عنوان قهرمانی لیگ برتر برده است."
+      }
+    ],
+    "miniContext": "Manchester City and Liverpool are still challenging for the title.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "opponent",
+    "meaning": "حریف",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Man City's next opponents are Fulham, at home.",
+        "persian": "حریف بعدی منچستر سیتی، فولام است، در خانه."
+      }
+    ],
+    "miniContext": "Man City's next opponents are Fulham, at home.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "at home",
+    "meaning": "در زمین خودی (ورزش)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are at home this week to Spurs.",
+        "persian": "این هفته در زمین خودمان با اسپرز بازی داریم."
+      }
+    ],
+    "miniContext": "Man City's next opponents are Fulham, at home, which looks to be a relatively easy game.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "relatively",
+    "meaning": "نسبتاً",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Last week's game was relatively easy, but the next match will be much tougher.",
+        "persian": "بازی هفته گذشته نسبتاً آسان بود، اما بازی بعدی خیلی سخت‌تر خواهد بود."
+      }
+    ],
+    "miniContext": "It looks to be a relatively easy game.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "tough",
+    "meaning": "سخت، دشوار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Liverpool, however, face much tougher opposition.",
+        "persian": "اما لیورپول با حریف خیلی سخت‌تری مواجه است."
+      }
+    ],
+    "miniContext": "Liverpool, however, face much tougher opposition, away at Arsenal.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "opposition",
+    "meaning": "حریف، تیم مقابل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are no weak teams in the League, so you should never underestimate the opposition.",
+        "persian": "در این لیگ هیچ تیم ضعیفی وجود ندارد، پس هیچ‌وقت نباید حریف را دست‌کم گرفت."
+      }
+    ],
+    "miniContext": "Liverpool, however, face much tougher opposition, away at Arsenal.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "underestimate",
+    "meaning": "دست کم گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The manager is not underestimating the difficulty of the task.",
+        "persian": "مربی سختی این کار را دست‌کم نمی‌گیرد."
+      }
+    ],
+    "miniContext": "The manager is not underestimating the difficulty of the task.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "contender",
+    "meaning": "رقیب جدی، کاندیدای برد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Arsenal are a quality side and still contenders for a place in the top four.",
+        "persian": "آرسنال تیم باکیفیتی است و همچنان کاندیدای جدی جایگاه در چهار تیم برتر است."
+      }
+    ],
+    "miniContext": "Arsenal are a quality side and still contenders for a place in the top four.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "priority",
+    "meaning": "اولویت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "After his injury, Brown's top priority now is to get back to full fitness.",
+        "persian": "بعد از مصدومیتش، اولویت اول براون الان رسیدن به آمادگی کامل است."
+      }
+    ],
+    "miniContext": "Our priority is just that one game, and not to think about the championship title.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "consistency",
+    "meaning": "ثبات، پایداری عملکرد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We lack a bit of consistency and the manager is under pressure.",
+        "persian": "ما کمی فاقد ثبات هستیم و مربی تحت فشار است."
+      }
+    ],
+    "miniContext": "We lack a bit of consistency and the manager is under pressure.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "under pressure",
+    "meaning": "تحت فشار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I know the team is under pressure, but they have to sort out their problems.",
+        "persian": "می‌دانم تیم تحت فشار است، اما باید مشکلاتشان را حل کنند."
+      }
+    ],
+    "miniContext": "We lack a bit of consistency and the manager is under pressure.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "qualify (for sth)",
+    "meaning": "صلاحیت پیدا کردن، شرایط لازم را داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If we win on Saturday, we will qualify for the next round in the competition.",
+        "persian": "اگر شنبه ببریم، به دور بعدی مسابقات راه پیدا می‌کنیم."
+      }
+    ],
+    "miniContext": "I still think we have a real chance of being in the top four and qualifying for the Champions League.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "transform",
+    "meaning": "کاملاً تغییر دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The new manager has transformed our season.",
+        "persian": "مربی جدید فصل ما را کاملاً متحول کرده است."
+      }
+    ],
+    "miniContext": "The new manager has transformed our season.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "boost",
+    "meaning": "چیزی که کمک یا دلگرمی می‌دهد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Getting players back from injury has been a real boost.",
+        "persian": "برگشت بازیکنان از مصدومیت کمک بزرگی بوده است."
+      }
+    ],
+    "miniContext": "Getting players back from injury has been a real boost.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "dominate",
+    "meaning": "تسلط داشتن، برتری داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have a habit of dominating the opposition.",
+        "persian": "عادت داریم بر حریف تسلط داشته باشیم."
+      }
+    ],
+    "miniContext": "We have a habit of dominating the opposition, then we throw it away at the end.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "throw sth away",
+    "meaning": "هدر دادن فرصت یا برتری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We just throw away games that we really should win easily.",
+        "persian": "بازی‌هایی که باید راحت می‌بردیم را هدر می‌دهیم."
+      }
+    ],
+    "miniContext": "We have a habit of dominating the opposition, then we throw it away at the end.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "defeat",
+    "meaning": "شکست",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Last week's defeat was a bad one, but I still think we stand a chance of getting into the top four.",
+        "persian": "شکست هفته پیش بد بود، اما همچنان فکر می‌کنم شانس رسیدن به چهار تیم برتر را داریم."
+      }
+    ],
+    "miniContext": "Last week's defeat was a bad one.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "sort sth out",
+    "meaning": "حل کردن مشکل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We've sorted out one or two problems off the pitch.",
+        "persian": "یکی دو مشکل را خارج از زمین حل کرده‌ایم."
+      }
+    ],
+    "miniContext": "We've sorted out one or two problems off the pitch.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "pitch",
+    "meaning": "زمین ورزشی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The pitch is in bad condition because of the heavy rain.",
+        "persian": "زمین به خاطر باران شدید وضعیت بدی دارد."
+      }
+    ],
+    "miniContext": "We've sorted out one or two problems off the pitch.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-41",
+    "word": "in a row",
+    "meaning": "پشت سر هم، متوالی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One more victory and it will be three wins in a row.",
+        "persian": "یک برد دیگر و سه برد متوالی خواهد شد."
+      }
+    ],
+    "miniContext": "After three defeats in a row, there may only be an outside chance of making the top four.",
+    "icon": "⚽"
+  }
+]

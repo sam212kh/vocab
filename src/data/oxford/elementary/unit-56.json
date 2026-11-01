@@ -1,0 +1,344 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "art gallery",
+    "meaning": "گالری هنری",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited an art gallery in the city centre.",
+        "persian": "ما از یک گالری هنری در مرکز شهر دیدن کردیم."
+      }
+    ],
+    "miniContext": "We visited an art gallery in the city centre.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "bridge",
+    "meaning": "پل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is an old bridge over the river.",
+        "persian": "یک پل قدیمی روی رودخانه هست."
+      }
+    ],
+    "miniContext": "There is an old bridge over the river.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "building",
+    "meaning": "ساختمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That building is very tall.",
+        "persian": "آن ساختمان خیلی بلند است."
+      }
+    ],
+    "miniContext": "That building is very tall.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "castle",
+    "meaning": "قلعه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited an old castle on holiday.",
+        "persian": "ما در تعطیلات از یک قلعه قدیمی دیدن کردیم."
+      }
+    ],
+    "miniContext": "We visited an old castle on holiday.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "church",
+    "meaning": "کلیسا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is an old church in the village.",
+        "persian": "یک کلیسای قدیمی در روستا هست."
+      }
+    ],
+    "miniContext": "There is an old church in the village.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "library",
+    "meaning": "کتابخانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I borrowed a book from the library.",
+        "persian": "کتابی از کتابخانه قرض گرفتم."
+      }
+    ],
+    "miniContext": "I borrowed a book from the library.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "market",
+    "meaning": "بازار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We buy vegetables at the market.",
+        "persian": "ما سبزیجات را از بازار می‌خریم."
+      }
+    ],
+    "miniContext": "We buy vegetables at the market.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "museum",
+    "meaning": "موزه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited a history museum.",
+        "persian": "ما از یک موزه تاریخی دیدن کردیم."
+      }
+    ],
+    "miniContext": "We visited a history museum.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "noise",
+    "meaning": "سر و صدا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's that noise?",
+        "persian": "آن سر و صدا چیست؟"
+      }
+    ],
+    "miniContext": "What's that noise?",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "noisy",
+    "meaning": "پرسر و صدا",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The street is very noisy.",
+        "persian": "خیابان بسیار پرسر و صدا است."
+      }
+    ],
+    "miniContext": "The street is very noisy.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "opinion",
+    "meaning": "نظر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your opinion about this?",
+        "persian": "نظر تو درباره این چیست؟"
+      }
+    ],
+    "miniContext": "What is your opinion about this?",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "palace",
+    "meaning": "کاخ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited an old palace in the city.",
+        "persian": "ما از یک کاخ قدیمی در شهر دیدن کردیم."
+      }
+    ],
+    "miniContext": "We visited an old palace in the city.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "park (noun)",
+    "meaning": "پارک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We walked in the park.",
+        "persian": "ما در پارک راه رفتیم."
+      }
+    ],
+    "miniContext": "We walked in the park.",
+    "icon": "🌳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "place",
+    "meaning": "مکان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a nice place to live.",
+        "persian": "اینجا مکان خوبی برای زندگی است."
+      }
+    ],
+    "miniContext": "This is a nice place to live.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "post office",
+    "meaning": "پست‌خانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Where is the nearest post office?",
+        "persian": "نزدیک‌ترین پست‌خانه کجاست؟"
+      }
+    ],
+    "miniContext": "Where is the nearest post office?",
+    "icon": "🏢"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "quiet (= not noisy)",
+    "meaning": "بی‌صدا؛ آرام",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a quiet street.",
+        "persian": "این خیابان آرامی است."
+      }
+    ],
+    "miniContext": "This is a quiet street.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "square (in a town)",
+    "meaning": "میدان شهر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We met in the town square.",
+        "persian": "ما در میدان شهر همدیگر را دیدیم."
+      }
+    ],
+    "miniContext": "We met in the town square.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "there's lots/a lot/nothing to do",
+    "meaning": "کارهای زیادی یا هیچ کاری برای انجام هست",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's nothing to do in this small town.",
+        "persian": "در این شهر کوچک هیچ کاری برای انجام نیست."
+      }
+    ],
+    "miniContext": "There's nothing to do in this small town.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "tower",
+    "meaning": "برج",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited the old tower in the city.",
+        "persian": "ما از برج قدیمی شهر دیدن کردیم."
+      }
+    ],
+    "miniContext": "We visited the old tower in the city.",
+    "icon": "🏙️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-56",
+    "word": "view",
+    "meaning": "نظر؛ دیدگاه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "opinion"
+    ],
+    "examples": [
+      {
+        "english": "What is your view on this problem?",
+        "persian": "نظر تو در مورد این مشکل چیست؟"
+      }
+    ],
+    "miniContext": "What is your view on this problem?",
+    "icon": "🏙️"
+  }
+]

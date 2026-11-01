@@ -1,0 +1,393 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "accessory",
+    "meaning": "زینت‌آلات، وسیله جانبی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She bought a new accessory for her phone.",
+        "persian": "او یک وسیله جانبی جدید برای گوشی‌اش خرید."
+      }
+    ],
+    "miniContext": "She bought a new accessory for her phone.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "belt",
+    "meaning": "کمربند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He wears a brown belt.",
+        "persian": "او یک کمربند قهوه‌ای می‌پوشد."
+      }
+    ],
+    "miniContext": "He wears a brown belt.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "boots",
+    "meaning": "چکمه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need new boots for winter.",
+        "persian": "برای زمستان به چکمه جدید نیاز دارم."
+      }
+    ],
+    "miniContext": "I need new boots for winter.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "glasses",
+    "meaning": "عینک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He wears glasses to read.",
+        "persian": "او برای مطالعه عینک می‌زند."
+      }
+    ],
+    "miniContext": "He wears glasses to read.",
+    "icon": "👓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "gloves",
+    "meaning": "دستکش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wear your gloves, it's cold outside.",
+        "persian": "دستکش‌هایت را بپوش، بیرون سرد است."
+      }
+    ],
+    "miniContext": "Wear your gloves, it's cold outside.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "gold",
+    "meaning": "طلا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wore a gold necklace.",
+        "persian": "او یک گردنبند طلا پوشید."
+      }
+    ],
+    "miniContext": "She wore a gold necklace.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "handbag",
+    "meaning": "کیف دستی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She left her phone in her handbag.",
+        "persian": "او تلفنش را در کیف دستی‌اش جا گذاشت."
+      }
+    ],
+    "miniContext": "She left her phone in her handbag.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "hat",
+    "meaning": "کلاه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He wore a hat in the sun.",
+        "persian": "او زیر آفتاب کلاه پوشید."
+      }
+    ],
+    "miniContext": "He wore a hat in the sun.",
+    "icon": "🎩"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "jewellery",
+    "meaning": "جواهرات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wears a lot of jewellery.",
+        "persian": "او جواهرات زیادی می‌پوشد."
+      }
+    ],
+    "miniContext": "She wears a lot of jewellery.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "leather",
+    "meaning": "چرم",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a leather bag.",
+        "persian": "او یک کیف چرمی دارد."
+      }
+    ],
+    "miniContext": "She has a leather bag.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "necklace",
+    "meaning": "گردنبند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She gave me a gold necklace.",
+        "persian": "او یک گردنبند طلا به من داد."
+      }
+    ],
+    "miniContext": "She gave me a gold necklace.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "pair",
+    "meaning": "جفت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought a pair of shoes.",
+        "persian": "یک جفت کفش خریدم."
+      }
+    ],
+    "miniContext": "I bought a pair of shoes.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "plastic",
+    "meaning": "پلاستیک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This bottle is made of plastic.",
+        "persian": "این بطری از پلاستیک ساخته شده است."
+      }
+    ],
+    "miniContext": "This bottle is made of plastic.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "ring (n, = jewellery)",
+    "meaning": "حلقه (انگشتر)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is wearing a gold ring.",
+        "persian": "او یک حلقه طلا پوشیده است."
+      }
+    ],
+    "miniContext": "She is wearing a gold ring.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "scarf",
+    "meaning": "شال‌گردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wear a scarf, it's cold outside.",
+        "persian": "یک شال‌گردن بپوش، بیرون سرد است."
+      }
+    ],
+    "miniContext": "Wear a scarf, it's cold outside.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "shoe",
+    "meaning": "کفش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought new shoes yesterday.",
+        "persian": "من دیروز کفش جدید خریدم."
+      }
+    ],
+    "miniContext": "I bought new shoes yesterday.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "silver",
+    "meaning": "نقره، نقره‌ای",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a silver necklace.",
+        "persian": "او یک گردنبند نقره‌ای دارد."
+      }
+    ],
+    "miniContext": "She has a silver necklace.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "socks",
+    "meaning": "جوراب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My feet are cold; I need socks.",
+        "persian": "پاهایم سرد است؛ به جوراب نیاز دارم."
+      }
+    ],
+    "miniContext": "My feet are cold; I need socks.",
+    "icon": "🧦"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "sunglasses",
+    "meaning": "عینک آفتابی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is wearing sunglasses today.",
+        "persian": "او امروز عینک آفتابی زده است."
+      }
+    ],
+    "miniContext": "She is wearing sunglasses today.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "tights",
+    "meaning": "جوراب‌شلواری",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is wearing black tights.",
+        "persian": "او جوراب‌شلواری سیاه پوشیده است."
+      }
+    ],
+    "miniContext": "She is wearing black tights.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "trainers",
+    "meaning": "کفش ورزشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wear trainers when I run.",
+        "persian": "وقتی می‌دوم کفش ورزشی می‌پوشم."
+      }
+    ],
+    "miniContext": "I wear trainers when I run.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "umbrella",
+    "meaning": "چتر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Take an umbrella, it's raining.",
+        "persian": "یک چتر بردار، باران می‌آید."
+      }
+    ],
+    "miniContext": "Take an umbrella, it's raining.",
+    "icon": "👜"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-25",
+    "word": "watch",
+    "meaning": "ساعت مچی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is wearing a new watch.",
+        "persian": "او یک ساعت مچی جدید پوشیده است."
+      }
+    ],
+    "miniContext": "He is wearing a new watch.",
+    "icon": "⌚"
+  }
+]

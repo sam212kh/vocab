@@ -1,0 +1,331 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "extrovert",
+    "meaning": "برون‌گرا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun/adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My friends describe me as a real extrovert.",
+        "persian": "دوستانم مرا یک برون‌گرای واقعی توصیف می‌کنند."
+      }
+    ],
+    "miniContext": "My friends describe me as a real extrovert.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "enthusiastic",
+    "meaning": "پرشور، مشتاق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm an enthusiastic, talkative sort of person.",
+        "persian": "من آدم پرشور و پرحرفی هستم."
+      }
+    ],
+    "miniContext": "I'm an enthusiastic, talkative sort of person, but at the same time I love to hear other people's opinions.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "talkative",
+    "meaning": "پرحرف، اهل صحبت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ruby loves to chat - she never stops. Yes, she's very talkative.",
+        "persian": "روبی عاشق صحبت کردن است، هیچ‌وقت ساکت نمی‌شود. بله، خیلی پرحرف است."
+      }
+    ],
+    "miniContext": "I'm an enthusiastic, talkative sort of person.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "decisive",
+    "meaning": "قاطع، سریع در تصمیم‌گیری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm also quite decisive and feel able to assert myself.",
+        "persian": "من همچنین نسبتاً قاطع هستم و احساس می‌کنم می‌توانم خودم را ابراز کنم."
+      }
+    ],
+    "miniContext": "I'm also quite decisive and feel able to assert myself in different social situations.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "assert yourself",
+    "meaning": "با اعتمادبه‌نفس نظر خود را بیان کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I feel able to assert myself in different social situations.",
+        "persian": "احساس می‌کنم می‌توانم در موقعیت‌های اجتماعی مختلف خودم را ابراز کنم."
+      }
+    ],
+    "miniContext": "I feel able to assert myself in different social situations.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "attitude (to/towards sth/sb)",
+    "meaning": "نگرش، طرز فکر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a very positive attitude to life.",
+        "persian": "من نگرش بسیار مثبتی به زندگی دارم."
+      }
+    ],
+    "miniContext": "I have a very positive attitude to life, and I'm truly passionate about health and fitness.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "passionate (about sth)",
+    "meaning": "پرشور، علاقه‌مند شدید",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm truly passionate about health and fitness.",
+        "persian": "من واقعاً به سلامتی و تناسب اندام علاقه شدید دارم."
+      }
+    ],
+    "miniContext": "I'm truly passionate about health and fitness.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "lively",
+    "meaning": "پرانرژی، سرزنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Helene has a lively personality and everyone likes her.",
+        "persian": "هلن شخصیت سرزنده‌ای دارد و همه او را دوست دارند."
+      }
+    ],
+    "miniContext": "My sister describes me as a lively and dynamic person.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "dynamic",
+    "meaning": "پویا، پرانرژی و با شخصیت قوی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister describes me as a lively and dynamic person.",
+        "persian": "خواهرم مرا فردی سرزنده و پویا توصیف می‌کند."
+      }
+    ],
+    "miniContext": "My sister describes me as a lively and dynamic person.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "considerate",
+    "meaning": "باملاحظه، رعایت‌کننده احساسات دیگران",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "thoughtful"
+    ],
+    "examples": [
+      {
+        "english": "I'm attracted to men who are considerate and sensible.",
+        "persian": "من جذب مردانی می‌شوم که باملاحظه و منطقی هستند."
+      }
+    ],
+    "miniContext": "I'm attracted to men who are considerate and sensible.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "sensible",
+    "meaning": "منطقی، عاقلانه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think you can trust Jamelia's judgement; she's very sensible.",
+        "persian": "فکر می‌کنم می‌توانی به قضاوت جمیلیا اعتماد کنی، او خیلی منطقی است."
+      }
+    ],
+    "miniContext": "I'm attracted to men who are considerate and sensible.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "affection",
+    "meaning": "محبت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They should be happy to show affection too.",
+        "persian": "باید حاضر باشند محبت هم نشان دهند."
+      }
+    ],
+    "miniContext": "They should be happy to show affection too.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "sincere",
+    "meaning": "صادق، بی‌ریا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "genuine"
+    ],
+    "examples": [
+      {
+        "english": "I'm looking for a normal guy who is sincere.",
+        "persian": "دنبال یک پسر عادی هستم که صادق باشد."
+      }
+    ],
+    "miniContext": "Just a normal guy who is sincere and is looking for a genuine relationship.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "genuine",
+    "meaning": "واقعی، اصیل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "sincere"
+    ],
+    "examples": [
+      {
+        "english": "I'm looking for a genuine relationship.",
+        "persian": "دنبال یک رابطه واقعی هستم."
+      }
+    ],
+    "miniContext": "Just a normal guy who is sincere and is looking for a genuine relationship.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "show off",
+    "meaning": "خودنمایی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't like people who show off or boast about things.",
+        "persian": "از آدم‌هایی که خودنمایی می‌کنند یا به خودشان می‌بالند خوشم نمی‌آید."
+      }
+    ],
+    "miniContext": "Angela arrived in an expensive outfit, covered in jewellery. I think she was showing off.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "boast",
+    "meaning": "فخرفروشی کردن، لاف زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some people boast about their expensive holidays. It gets on my nerves.",
+        "persian": "بعضی‌ها درباره تعطیلات گران‌قیمتشان فخرفروشی می‌کنند. اعصابم را خرد می‌کند."
+      }
+    ],
+    "miniContext": "I don't like people who show off or boast about things.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "integrity",
+    "meaning": "درستکاری، صداقت و اصول اخلاقی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In my country, most politicians have integrity and can be trusted.",
+        "persian": "در کشور من، بیشتر سیاستمداران درستکار هستند و می‌شود به آن‌ها اعتماد کرد."
+      }
+    ],
+    "miniContext": "I'm interested in someone with integrity who is decent and has ethical values.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "decent",
+    "meaning": "شرافتمند، خوب و منصف",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's a decent guy.",
+        "persian": "او پسر شرافتمندی است."
+      }
+    ],
+    "miniContext": "I'm interested in someone with integrity who is decent and has ethical values.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-16",
+    "word": "ethical",
+    "meaning": "اخلاقی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The decision is completely ethical.",
+        "persian": "این تصمیم کاملاً اخلاقی است."
+      }
+    ],
+    "miniContext": "I'm interested in someone with integrity who is decent and has ethical values.",
+    "icon": "😊"
+  }
+]

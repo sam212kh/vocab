@@ -1,0 +1,178 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "have to do sth",
+    "meaning": "مجبور بودن به انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had to wear a uniform.",
+        "persian": "مجبور بودیم یونیفرم بپوشیم."
+      }
+    ],
+    "miniContext": "We had to wear a uniform.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "allow sb to do sth",
+    "meaning": "به کسی اجازه دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We weren't allowed to talk to them.",
+        "persian": "اجازه نداشتیم با آن‌ها صحبت کنیم."
+      }
+    ],
+    "miniContext": "We weren't allowed to talk to them.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "obey",
+    "meaning": "اطاعت کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "disobey (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Nobody obeyed that rule.",
+        "persian": "هیچکس از آن قانون اطاعت نکرد."
+      }
+    ],
+    "miniContext": "Nobody obeyed that rule.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "ban",
+    "meaning": "ممنوع کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Smoking was banned everywhere.",
+        "persian": "سیگار کشیدن همه‌جا ممنوع بود."
+      }
+    ],
+    "miniContext": "Smoking was banned everywhere.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "force sb to do sth",
+    "meaning": "کسی را مجبور کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "make sb do sth"
+    ],
+    "examples": [
+      {
+        "english": "We were forced to stay after school.",
+        "persian": "مجبور می‌شدیم بعد از مدرسه بمانیم."
+      }
+    ],
+    "miniContext": "We were forced to stay after school.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "punishment",
+    "meaning": "تنبیه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The punishments were terrible.",
+        "persian": "تنبیه‌ها وحشتناک بودند."
+      }
+    ],
+    "miniContext": "The punishments were terrible.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "behave",
+    "meaning": "رفتار کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was behaving badly in class.",
+        "persian": "در کلاس بد رفتار می‌کردم."
+      }
+    ],
+    "miniContext": "I was behaving badly in class.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "ought to do sth",
+    "meaning": "باید کاری انجام شود",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "should do sth"
+    ],
+    "examples": [
+      {
+        "english": "I knew I ought to apologize.",
+        "persian": "می‌دانستم باید عذرخواهی می‌کردم."
+      }
+    ],
+    "miniContext": "I knew I ought to apologize.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "authority",
+    "meaning": "اختیار، قدرت فرماندهی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've had a problem with people in positions of authority since then.",
+        "persian": "از آن موقع با افرادی که قدرت فرماندهی دارند مشکل داشته‌ام."
+      }
+    ],
+    "miniContext": "I've had a problem with people in positions of authority since then.",
+    "icon": "✅"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-95",
+    "word": "obligation",
+    "meaning": "تعهد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Teachers have an obligation to protect children.",
+        "persian": "معلم‌ها تعهد دارند از کودکان محافظت کنند."
+      }
+    ],
+    "miniContext": "Teachers have an obligation to protect children.",
+    "icon": "✅"
+  }
+]

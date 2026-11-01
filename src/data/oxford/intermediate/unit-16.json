@@ -1,0 +1,274 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "climate change",
+    "meaning": "تغییر اقلیم",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Scientists believe pollution is causing climate change.",
+        "persian": "دانشمندان معتقدند آلودگی باعث تغییر اقلیم می‌شود."
+      }
+    ],
+    "miniContext": "Scientists believe pollution is causing climate change.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "global",
+    "meaning": "جهانی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Global warming affects the whole world.",
+        "persian": "گرمایش جهانی روی کل جهان تاثیر می‌گذارد."
+      }
+    ],
+    "miniContext": "Global warming affects the whole world.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "gradual",
+    "meaning": "تدریجی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Global warming is a gradual increase in temperature.",
+        "persian": "گرمایش جهانی یک افزایش تدریجی در دما است."
+      }
+    ],
+    "miniContext": "Global warming is a gradual increase in temperature.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "the atmosphere",
+    "meaning": "جو زمین",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Harmful gases are increasing in the atmosphere.",
+        "persian": "گازهای مضر در جو زمین در حال افزایش هستند."
+      }
+    ],
+    "miniContext": "Harmful gases are increasing in the atmosphere.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "harmful",
+    "meaning": "مضر، زیان‌آور",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are harmful gases in the atmosphere.",
+        "persian": "گازهای مضری در جو وجود دارد."
+      }
+    ],
+    "miniContext": "There are harmful gases in the atmosphere.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "pollution",
+    "meaning": "آلودگی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Pollution has a very harmful effect on the environment.",
+        "persian": "آلودگی تاثیر بسیار مضری روی محیط زیست دارد."
+      }
+    ],
+    "miniContext": "Pollution has a very harmful effect on the environment.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "the environment",
+    "meaning": "محیط زیست",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to protect the environment.",
+        "persian": "باید از محیط زیست محافظت کنیم."
+      }
+    ],
+    "miniContext": "We need to protect the environment.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "melt",
+    "meaning": "ذوب شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The ice at the poles is gradually melting.",
+        "persian": "یخ‌های قطبین به تدریج در حال ذوب شدن هستند."
+      }
+    ],
+    "miniContext": "The ice at the poles is gradually melting.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "rise",
+    "meaning": "افزایش یافتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sea levels could rise by almost a metre.",
+        "persian": "سطح دریاها ممکن است تقریبا یک متر افزایش یابد."
+      }
+    ],
+    "miniContext": "Sea levels could rise by almost a metre.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "unpredictable",
+    "meaning": "غیرقابل پیش‌بینی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The weather is becoming more unpredictable.",
+        "persian": "هوا در حال غیرقابل پیش‌بینی‌تر شدن است."
+      }
+    ],
+    "miniContext": "The weather is becoming more unpredictable.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "heatwave",
+    "meaning": "موج گرما",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had a long heatwave in the summer.",
+        "persian": "ما تابستان یک موج گرمای طولانی داشتیم."
+      }
+    ],
+    "miniContext": "We had a long heatwave in the summer.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "disappear",
+    "meaning": "ناپدید شدن، از بین رفتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The rainforest is gradually disappearing.",
+        "persian": "جنگل بارانی به تدریج در حال از بین رفتن است."
+      }
+    ],
+    "miniContext": "The rainforest is gradually disappearing.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "famine",
+    "meaning": "قحطی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a real danger of famine in this part of Africa.",
+        "persian": "خطر واقعی قحطی در این بخش از آفریقا وجود دارد."
+      }
+    ],
+    "miniContext": "There is a real danger of famine in this part of Africa.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "disease",
+    "meaning": "بیماری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Doctors fear the disease could spread to Europe.",
+        "persian": "پزشکان نگرانند بیماری به اروپا گسترش یابد."
+      }
+    ],
+    "miniContext": "Doctors fear the disease could spread to Europe.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "spread",
+    "meaning": "گسترش یافتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Certain diseases spread very quickly.",
+        "persian": "برخی بیماری‌ها خیلی سریع گسترش می‌یابند."
+      }
+    ],
+    "miniContext": "Certain diseases spread very quickly.",
+    "icon": "🌡️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-16",
+    "word": "grain",
+    "meaning": "غله",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There will only be small quantities of grain to feed people.",
+        "persian": "فقط مقدار کمی غله برای تغذیه‌ی مردم باقی می‌ماند."
+      }
+    ],
+    "miniContext": "There will only be small quantities of grain to feed people.",
+    "icon": "🌡️"
+  }
+]

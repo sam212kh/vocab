@@ -1,0 +1,155 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "bag",
+    "meaning": "کیف، ساک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I put my books in my bag.",
+        "persian": "کتاب‌هایم را در کیفم گذاشتم."
+      }
+    ],
+    "miniContext": "I put my books in my bag.",
+    "icon": "🎒"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "board",
+    "meaning": "تخته",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The teacher wrote on the board.",
+        "persian": "معلم روی تخته نوشت."
+      }
+    ],
+    "miniContext": "The teacher wrote on the board.",
+    "icon": "🧑‍🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "CD",
+    "meaning": "سی‌دی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I bought a new CD yesterday.",
+        "persian": "من دیروز یک سی‌دی جدید خریدم."
+      }
+    ],
+    "miniContext": "I bought a new CD yesterday.",
+    "icon": "💿"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "chair",
+    "meaning": "صندلی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please sit on this chair.",
+        "persian": "لطفا روی این صندلی بنشین."
+      }
+    ],
+    "miniContext": "Please sit on this chair.",
+    "icon": "🪑"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "notebook",
+    "meaning": "دفترچه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I write in my notebook every day.",
+        "persian": "من هر روز در دفترچه‌ام می‌نویسم."
+      }
+    ],
+    "miniContext": "I write in my notebook every day.",
+    "icon": "📓"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "notice (n)",
+    "meaning": "اعلامیه، اطلاعیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a notice on the board.",
+        "persian": "یک اطلاعیه روی تابلو هست."
+      }
+    ],
+    "miniContext": "There is a notice on the board.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "noticeboard",
+    "meaning": "تابلوی اعلانات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The schedule is on the noticeboard.",
+        "persian": "برنامه روی تابلوی اعلانات است."
+      }
+    ],
+    "miniContext": "The schedule is on the noticeboard.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "oh!",
+    "meaning": "اوه! (تعجب)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Oh! I forgot my keys.",
+        "persian": "اوه! کلیدهایم را فراموش کردم."
+      }
+    ],
+    "miniContext": "Oh! I forgot my keys.",
+    "icon": "🏫"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-1",
+    "word": "table (furniture)",
+    "meaning": "میز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The books are on the table.",
+        "persian": "کتاب‌ها روی میز هستند."
+      }
+    ],
+    "miniContext": "The books are on the table.",
+    "icon": "🪑"
+  }
+]

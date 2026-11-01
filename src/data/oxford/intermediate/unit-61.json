@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "amateur",
+    "meaning": "آماتور، غیرحرفه‌ای",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "professional (opp)"
+    ],
+    "examples": [
+      {
+        "english": "A friend of mine runs an amateur drama group.",
+        "persian": "یکی از دوستانم یک گروه نمایش آماتور را اداره می‌کند."
+      }
+    ],
+    "miniContext": "A friend of mine runs an amateur drama group.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "drama",
+    "meaning": "نمایش، درام",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They put on three or four plays a year.",
+        "persian": "آن‌ها سالی سه یا چهار نمایش روی صحنه می‌برند."
+      }
+    ],
+    "miniContext": "They put on three or four plays a year.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "put sth on (a play)",
+    "meaning": "روی صحنه بردن (نمایش)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They put on three or four plays a year.",
+        "persian": "آن‌ها سالی سه یا چهار نمایش را روی صحنه می‌برند."
+      }
+    ],
+    "miniContext": "They put on three or four plays a year.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "play (noun)",
+    "meaning": "نمایشنامه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I once played a servant in a comedy.",
+        "persian": "یک بار نقش یک خدمتکار را در یک کمدی بازی کردم."
+      }
+    ],
+    "miniContext": "I once played a servant in a comedy.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "local",
+    "meaning": "محلی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They perform in a small local theatre.",
+        "persian": "آن‌ها در یک تئاتر کوچک محلی اجرا می‌کنند."
+      }
+    ],
+    "miniContext": "They perform in a small local theatre.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "theatre",
+    "meaning": "تئاتر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to the theatre to see Hamlet.",
+        "persian": "برای دیدن هملت به تئاتر رفتم."
+      }
+    ],
+    "miniContext": "I went to the theatre to see Hamlet.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "leading role",
+    "meaning": "نقش اصلی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sam sometimes takes a leading role.",
+        "persian": "سام گاهی نقش اصلی را بازی می‌کند."
+      }
+    ],
+    "miniContext": "Sam sometimes takes a leading role.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "acting",
+    "meaning": "بازیگری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't do much acting myself.",
+        "persian": "خودم زیاد بازیگری نمی‌کنم."
+      }
+    ],
+    "miniContext": "I don't do much acting myself.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "costume",
+    "meaning": "لباس نمایش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I help with costume and stage design.",
+        "persian": "به طراحی لباس و صحنه کمک می‌کنم."
+      }
+    ],
+    "miniContext": "I help with costume and stage design.",
+    "icon": "🎭"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-61",
+    "word": "stage",
+    "meaning": "صحنه‌ی تئاتر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The actors stand on the stage.",
+        "persian": "بازیگران روی صحنه می‌ایستند."
+      }
+    ],
+    "miniContext": "The actors stand on the stage.",
+    "icon": "🎭"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "character",
+    "meaning": "شخصیت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "personality"
+    ],
+    "examples": [
+      {
+        "english": "What's your character like?",
+        "persian": "شخصیت تو چطور است؟"
+      }
+    ],
+    "miniContext": "What's your character like?",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "ambitious",
+    "meaning": "جاه‌طلب، بلندپرواز",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's very ambitious and wants to be successful.",
+        "persian": "او خیلی جاه‌طلب است و می‌خواهد موفق شود."
+      }
+    ],
+    "miniContext": "She's very ambitious and wants to be successful.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "outgoing",
+    "meaning": "خوش‌برخورد، اجتماعی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's outgoing and loves meeting new people.",
+        "persian": "او اجتماعی است و عاشق آشنایی با افراد جدید است."
+      }
+    ],
+    "miniContext": "He's outgoing and loves meeting new people.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "generous",
+    "meaning": "سخاوتمند",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's very generous with her money.",
+        "persian": "او با پولش خیلی سخاوتمند است."
+      }
+    ],
+    "miniContext": "She's very generous with her money.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "confident",
+    "meaning": "با اعتماد به نفس",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's confident about his own ability.",
+        "persian": "او به توانایی‌های خودش اعتماد دارد."
+      }
+    ],
+    "miniContext": "He's confident about his own ability.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "patient",
+    "meaning": "صبور",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You have to be patient with young children.",
+        "persian": "باید با بچه‌های کوچک صبور بود."
+      }
+    ],
+    "miniContext": "You have to be patient with young children.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "practical",
+    "meaning": "عملی، کاربردی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's practical and good at dealing with problems.",
+        "persian": "او عملی است و خوب مشکلات را حل می‌کند."
+      }
+    ],
+    "miniContext": "She's practical and good at dealing with problems.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "organized",
+    "meaning": "منظم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's very organized and plans everything carefully.",
+        "persian": "او خیلی منظم است و همه چیز را با دقت برنامه‌ریزی می‌کند."
+      }
+    ],
+    "miniContext": "He's very organized and plans everything carefully.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "hard-working",
+    "meaning": "سخت‌کوش",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My colleagues are all very hard-working.",
+        "persian": "همکارانم همگی خیلی سخت‌کوش هستند."
+      }
+    ],
+    "miniContext": "My colleagues are all very hard-working.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "sensible",
+    "meaning": "منطقی، عاقل",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's sensible to save some money every month.",
+        "persian": "عاقلانه است که هر ماه مقداری پول پس‌انداز کنی."
+      }
+    ],
+    "miniContext": "It's sensible to save some money every month.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "shy",
+    "meaning": "خجالتی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's quite shy and doesn't talk to strangers easily.",
+        "persian": "او نسبتا خجالتی است و راحت با غریبه‌ها صحبت نمی‌کند."
+      }
+    ],
+    "miniContext": "She's quite shy and doesn't talk to strangers easily.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "dull",
+    "meaning": "کسل‌کننده، بی‌روح",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The meeting was a bit dull.",
+        "persian": "جلسه کمی کسل‌کننده بود."
+      }
+    ],
+    "miniContext": "The meeting was a bit dull.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "cheerful",
+    "meaning": "سرحال، بشاش",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's always cheerful in the morning.",
+        "persian": "او همیشه صبح‌ها سرحال است."
+      }
+    ],
+    "miniContext": "She's always cheerful in the morning.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "easy-going",
+    "meaning": "خونگرم و بی‌دغدغه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother is very easy-going and never worries.",
+        "persian": "برادرم خیلی خونگرم است و هیچوقت نگران نمی‌شود."
+      }
+    ],
+    "miniContext": "My brother is very easy-going and never worries.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "energetic",
+    "meaning": "پرانرژی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's very energetic and has lots of energy.",
+        "persian": "او خیلی پرانرژی است و انرژی زیادی دارد."
+      }
+    ],
+    "miniContext": "She's very energetic and has lots of energy.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "responsible",
+    "meaning": "مسئولیت‌پذیر",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's responsible and always keeps his promises.",
+        "persian": "او مسئولیت‌پذیر است و همیشه به قولش عمل می‌کند."
+      }
+    ],
+    "miniContext": "He's responsible and always keeps his promises.",
+    "icon": "😊"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-7",
+    "word": "see sb as sth",
+    "meaning": "کسی را به شکلی تصور کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I see myself as practical and hard-working.",
+        "persian": "من خودم را فردی عملی و سخت‌کوش می‌بینم."
+      }
+    ],
+    "miniContext": "I see myself as practical and hard-working.",
+    "icon": "😊"
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "the (armed) forces",
+    "meaning": "نیروهای مسلح",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you join the armed forces, you serve your country.",
+        "persian": "اگر به نیروهای مسلح بپیوندی، به کشورت خدمت می‌کنی."
+      }
+    ],
+    "miniContext": "If you join the armed forces, you serve your country.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "serve",
+    "meaning": "خدمت کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You will be serving your country.",
+        "persian": "داری به کشورت خدمت می‌کنی."
+      }
+    ],
+    "miniContext": "You will be serving your country.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "career structure",
+    "meaning": "ساختار شغلی و مسیر پیشرفت",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The forces provide a good career structure.",
+        "persian": "نیروهای مسلح ساختار شغلی خوبی ارائه می‌دهند."
+      }
+    ],
+    "miniContext": "The forces provide a good career structure.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "advanced",
+    "meaning": "پیشرفته",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They receive advanced technical training.",
+        "persian": "آن‌ها آموزش فنی پیشرفته دریافت می‌کنند."
+      }
+    ],
+    "miniContext": "They receive advanced technical training.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "technical",
+    "meaning": "فنی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They receive advanced technical training.",
+        "persian": "آن‌ها آموزش فنی پیشرفته دریافت می‌کنند."
+      }
+    ],
+    "miniContext": "They receive advanced technical training.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "field (area of work)",
+    "meaning": "حوزه، زمینه‌ی کاری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I worked in the field of training and communication.",
+        "persian": "در حوزه‌ی آموزش و ارتباطات کار کردم."
+      }
+    ],
+    "miniContext": "I worked in the field of training and communication.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "qualification",
+    "meaning": "مدرک تحصیلی یا حرفه‌ای",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You'll have better qualifications than before.",
+        "persian": "مدارک بهتری نسبت به قبل خواهی داشت."
+      }
+    ],
+    "miniContext": "You'll have better qualifications than before.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "occupation",
+    "meaning": "شغل، حرفه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's not an occupation with a real career structure.",
+        "persian": "این شغلی با ساختار پیشرفت واقعی نیست."
+      }
+    ],
+    "miniContext": "It's not an occupation with a real career structure.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "manage to do sth",
+    "meaning": "موفق شدن به انجام کاری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I finally managed to get a job.",
+        "persian": "بالاخره موفق شدم شغلی پیدا کنم."
+      }
+    ],
+    "miniContext": "I finally managed to get a job.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "promote (sb)",
+    "meaning": "ترفیع دادن (کسی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Within two years I was promoted.",
+        "persian": "ظرف دو سال ترفیع گرفتم."
+      }
+    ],
+    "miniContext": "Within two years I was promoted.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "diploma",
+    "meaning": "دیپلم، گواهینامه‌ی تحصیلی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I did a two-year diploma in mechanical engineering.",
+        "persian": "یک دیپلم دو ساله در مهندسی مکانیک گرفتم."
+      }
+    ],
+    "miniContext": "I did a two-year diploma in mechanical engineering.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "CV",
+    "meaning": "رزومه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This was good for my CV.",
+        "persian": "این برای رزومه‌ام خوب بود."
+      }
+    ],
+    "miniContext": "This was good for my CV.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "appoint",
+    "meaning": "منصوب کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was appointed assistant manager.",
+        "persian": "من به عنوان معاون مدیر منصوب شدم."
+      }
+    ],
+    "miniContext": "I was appointed assistant manager.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "remain",
+    "meaning": "باقی ماندن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I remained there for the rest of my working life.",
+        "persian": "برای بقیه‌ی زندگی کاری‌ام همان‌جا ماندم."
+      }
+    ],
+    "miniContext": "I remained there for the rest of my working life.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "retire",
+    "meaning": "بازنشسته شدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I retired last year.",
+        "persian": "سال گذشته بازنشسته شدم."
+      }
+    ],
+    "miniContext": "I retired last year.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-78",
+    "word": "unemployment",
+    "meaning": "بیکاری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a time of high unemployment.",
+        "persian": "آن زمانی بود که بیکاری زیاد بود."
+      }
+    ],
+    "miniContext": "It was a time of high unemployment.",
+    "icon": "💼"
+  }
+]

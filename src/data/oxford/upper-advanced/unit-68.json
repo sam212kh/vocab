@@ -1,0 +1,297 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "note sth down",
+    "meaning": "یادداشت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [
+      "make a note of"
+    ],
+    "examples": [
+      {
+        "english": "Do you note down jobs you have to do on a daily basis?",
+        "persian": "آیا کارهایی که باید انجام دهی را روزانه یادداشت می‌کنی؟"
+      }
+    ],
+    "miniContext": "Do you note down jobs you have to do on a daily basis?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "basis",
+    "meaning": "اساس، شیوه‌ی انجام کار (روزانه/هفتگی و...)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I check emails on a daily basis.",
+        "persian": "من روزانه ایمیل‌هایم را چک می‌کنم."
+      }
+    ],
+    "miniContext": "I check emails on a daily basis.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "reminder",
+    "meaning": "یادآور",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you put up reminders in the office about these aims?",
+        "persian": "آیا یادآورهایی درباره‌ی این اهداف در دفتر نصب می‌کنی؟"
+      }
+    ],
+    "miniContext": "Do you put up reminders in the office about these aims?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "prioritize",
+    "meaning": "اولویت‌بندی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you prioritize the tasks you have to accomplish?",
+        "persian": "آیا کارهایی که باید انجام دهی را اولویت‌بندی می‌کنی؟"
+      }
+    ],
+    "miniContext": "Do you prioritize the tasks you have to accomplish?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "accomplish",
+    "meaning": "به انجام رساندن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "achieve"
+    ],
+    "examples": [
+      {
+        "english": "We've accomplished a great deal this month.",
+        "persian": "این ماه کارهای زیادی را به انجام رساندیم."
+      }
+    ],
+    "miniContext": "We've accomplished a great deal this month.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "stick to sth",
+    "meaning": "پایبند ماندن به چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you stick to your priorities, no matter what happens?",
+        "persian": "آیا مهم نیست چه اتفاقی بیفتد، به اولویت‌هایت پایبند می‌مانی؟"
+      }
+    ],
+    "miniContext": "Do you stick to your priorities, no matter what happens?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "anticipate",
+    "meaning": "پیش‌بینی کردن و آماده شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you try to anticipate so you can organize tasks better?",
+        "persian": "آیا سعی می‌کنی پیش‌بینی کنی تا کارها را بهتر سازمان‌دهی کنی؟"
+      }
+    ],
+    "miniContext": "Do you try to anticipate so you can organize tasks better?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "delegate sth (to sb)",
+    "meaning": "محول کردن کار به دیگری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you delegate tasks and responsibilities as far as possible?",
+        "persian": "آیا تا جای ممکن کارها و مسئولیت‌ها را به دیگران محول می‌کنی؟"
+      }
+    ],
+    "miniContext": "Do you delegate tasks and responsibilities as far as possible?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "deadline",
+    "meaning": "مهلت نهایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you set deadlines for tasks and stick to them?",
+        "persian": "آیا برای کارها مهلت تعیین می‌کنی و به آن پایبند می‌مانی؟"
+      }
+    ],
+    "miniContext": "Do you set deadlines for tasks and stick to them?",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "interrupt",
+    "meaning": "قطع کردن، مزاحم شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you are constantly interrupted by the need to read emails...",
+        "persian": "اگر دائماً توسط نیاز به خواندن ایمیل مزاحم کارت بشوی..."
+      }
+    ],
+    "miniContext": "If you are constantly interrupted by the need to read emails...",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "nerves are on edge",
+    "meaning": "اعصاب خرد بودن، بسیار مضطرب بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Your nerves are on edge.",
+        "persian": "اعصابت خرد است."
+      }
+    ],
+    "miniContext": "Your nerves are on edge.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "be overwhelmed (by sth)",
+    "meaning": "غرق شدن در حجم کار، درمانده شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Workers say they are increasingly overwhelmed by emails.",
+        "persian": "کارمندان می‌گویند بیشتر و بیشتر در ایمیل‌ها غرق می‌شوند."
+      }
+    ],
+    "miniContext": "Workers say they are increasingly overwhelmed by emails.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "stressed out",
+    "meaning": "بسیار استرس‌زده و خسته (غیررسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They are stressed out by the pressure to respond promptly.",
+        "persian": "آن‌ها از فشار پاسخ سریع دادن بسیار استرس‌زده‌اند."
+      }
+    ],
+    "miniContext": "They are stressed out by the pressure to respond promptly.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "promptly",
+    "meaning": "سریع، بدون تاخیر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They feel pressure to respond promptly.",
+        "persian": "آن‌ها احساس فشار می‌کنند که سریع پاسخ دهند."
+      }
+    ],
+    "miniContext": "They feel pressure to respond promptly.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "frustrated",
+    "meaning": "ناکام، کلافه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This leaves them both frustrated and not very productive.",
+        "persian": "این آن‌ها را هم ناکام و هم کم‌بازده می‌کند."
+      }
+    ],
+    "miniContext": "This leaves them both frustrated and not very productive.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "be/get out of control",
+    "meaning": "از کنترل خارج شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Email is getting out of control.",
+        "persian": "ایمیل دارد از کنترل خارج می‌شود."
+      }
+    ],
+    "miniContext": "Email is getting out of control.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-68",
+    "word": "set sth aside",
+    "meaning": "کنار گذاشتن (زمان یا پول) برای استفاده‌ی بعدی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [
+      "put aside"
+    ],
+    "examples": [
+      {
+        "english": "Set aside two or three specific email reading times each day.",
+        "persian": "هر روز دو یا سه زمان مشخص برای خواندن ایمیل کنار بگذار."
+      }
+    ],
+    "miniContext": "Set aside two or three specific email reading times each day.",
+    "icon": "⏰"
+  }
+]

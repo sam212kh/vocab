@@ -1,0 +1,242 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "tip",
+    "meaning": "نکته، توصیه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was given some tips on motorway driving.",
+        "persian": "چند نکته درباره‌ی رانندگی در بزرگراه به من دادند."
+      }
+    ],
+    "miniContext": "I was given some tips on motorway driving.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "be prepared for sth",
+    "meaning": "آماده بودن برای چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Always be prepared for bad road conditions.",
+        "persian": "همیشه برای شرایط بد جاده آماده باش."
+      }
+    ],
+    "miniContext": "Always be prepared for bad road conditions.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "concentrate (on sth)",
+    "meaning": "تمرکز کردن (روی چیزی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She doesn't concentrate when she's driving.",
+        "persian": "او وقتی رانندگی می‌کند تمرکز نمی‌کند."
+      }
+    ],
+    "miniContext": "She doesn't concentrate when she's driving.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "alcohol",
+    "meaning": "الکل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's bad to drink alcohol before driving.",
+        "persian": "نوشیدن الکل قبل از رانندگی بد است."
+      }
+    ],
+    "miniContext": "It's bad to drink alcohol before driving.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "risk doing sth",
+    "meaning": "ریسک انجام کاری را کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You risk falling asleep if you drive when tired.",
+        "persian": "اگر خسته رانندگی کنی ریسک به خواب رفتن را داری."
+      }
+    ],
+    "miniContext": "You risk falling asleep if you drive when tired.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "fall asleep",
+    "meaning": "خوابش بردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The driver fell asleep for a few seconds.",
+        "persian": "راننده چند ثانیه خوابش برد."
+      }
+    ],
+    "miniContext": "The driver fell asleep for a few seconds.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "speed limit",
+    "meaning": "محدودیت سرعت",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He always keeps to the speed limit.",
+        "persian": "او همیشه محدودیت سرعت را رعایت می‌کند."
+      }
+    ],
+    "miniContext": "He always keeps to the speed limit.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "fail (a test)",
+    "meaning": "رد شدن (در امتحان)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [
+      "pass (opp)"
+    ],
+    "examples": [
+      {
+        "english": "I failed my driving test the first time.",
+        "persian": "اولین بار امتحان رانندگی‌ام را رد شدم."
+      }
+    ],
+    "miniContext": "I failed my driving test the first time.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "signal",
+    "meaning": "راهنما زدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't signal when I was turning left.",
+        "persian": "وقتی می‌پیچیدم چپ راهنما نزدم."
+      }
+    ],
+    "miniContext": "I didn't signal when I was turning left.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "speeding",
+    "meaning": "رانندگی با سرعت غیرمجاز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A police officer stopped me for speeding.",
+        "persian": "یک پلیس به خاطر سرعت غیرمجاز جلوی مرا گرفت."
+      }
+    ],
+    "miniContext": "A police officer stopped me for speeding.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "driving licence",
+    "meaning": "گواهینامه‌ی رانندگی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I finally got my driving licence.",
+        "persian": "بالاخره گواهینامه‌ام را گرفتم."
+      }
+    ],
+    "miniContext": "I finally got my driving licence.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "insurance",
+    "meaning": "بیمه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had to pay £350 on my insurance to get my car fixed.",
+        "persian": "باید سیصد و پنجاه پوند بابت بیمه برای تعمیر ماشینم پرداخت می‌کردم."
+      }
+    ],
+    "miniContext": "I had to pay £350 on my insurance to get my car fixed.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "fine (noun)",
+    "meaning": "جریمه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I got a fine for driving through the red light.",
+        "persian": "به خاطر رد شدن از چراغ قرمز جریمه شدم."
+      }
+    ],
+    "miniContext": "I got a fine for driving through the red light.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-32",
+    "word": "end up (doing sth)",
+    "meaning": "در نهایت به جایی رسیدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I ended up getting a fine.",
+        "persian": "در نهایت جریمه شدم."
+      }
+    ],
+    "miniContext": "I ended up getting a fine.",
+    "icon": "🚗"
+  }
+]

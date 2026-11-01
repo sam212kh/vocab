@@ -1,0 +1,376 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "plain",
+    "meaning": "ساده، بدون طرح",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I don't like bright patterns, so I usually wear plain shirts.",
+        "persian": "طرح‌های روشن را دوست ندارم، پس معمولاً پیراهن ساده می‌پوشم."
+      }
+    ],
+    "miniContext": "Plain top (without a pattern)",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "waistcoat",
+    "meaning": "جلیقه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I really like men in three-piece suits, with trousers, jacket and waistcoat.",
+        "persian": "خیلی دوست دارم مردها کت‌وشلوار سه‌تکه با جلیقه بپوشند."
+      }
+    ],
+    "miniContext": "Waistcoat",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "check/checked",
+    "meaning": "چهارخانه (طرح پارچه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister has a glamorous, tight-fitting black and white checked skirt.",
+        "persian": "خواهرم یک دامن چهارخانه مشکی و سفید تنگ و شیک دارد."
+      }
+    ],
+    "miniContext": "Check/checked skirt",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "suede",
+    "meaning": "چرم جیر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have any clothes in suede or silk?",
+        "persian": "آیا لباسی از جنس جیر یا ابریشم داری؟"
+      }
+    ],
+    "miniContext": "Suede shoes",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "cap",
+    "meaning": "کلاه لبه‌دار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Since my dad went bald, he has started wearing a cap to keep his head warm.",
+        "persian": "از وقتی بابام کچل شد، شروع کرده به زدن کلاه برای گرم نگه داشتن سرش."
+      }
+    ],
+    "miniContext": "Cap",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "strap",
+    "meaning": "بند (کیف، لباس)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've got a grey backpack with adjustable shoulder straps.",
+        "persian": "یک کوله‌پشتی خاکستری با بندهای قابل‌تنظیم دارم."
+      }
+    ],
+    "miniContext": "Strap",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "short-sleeved",
+    "meaning": "آستین‌کوتاه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most men only wear short-sleeved shirts in the summer.",
+        "persian": "بیشتر مردها فقط تابستان‌ها پیراهن آستین‌کوتاه می‌پوشند."
+      }
+    ],
+    "miniContext": "Short-sleeved shirt",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "sleeveless",
+    "meaning": "بدون آستین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "V-neck(ed) sleeveless jumper.",
+        "persian": "بافت یقه‌هفت بدون آستین."
+      }
+    ],
+    "miniContext": "V-neck(ed) sleeveless jumper",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "sandals",
+    "meaning": "صندل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you often wear sandals in the summer?",
+        "persian": "تابستان‌ها معمولاً صندل می‌پوشی؟"
+      }
+    ],
+    "miniContext": "Sandals",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "tight-fitting",
+    "meaning": "تنگ، چسبان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've got one really tight-fitting dress, but usually I prefer loose-fitting clothes.",
+        "persian": "یک لباس خیلی تنگ دارم، اما معمولاً لباس‌های گشاد را ترجیح می‌دهم."
+      }
+    ],
+    "miniContext": "Tight-fitting skirt (OPP loose-fitting)",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "bracelet",
+    "meaning": "دستبند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's wearing a silver bracelet.",
+        "persian": "او یک دستبند نقره‌ای پوشیده."
+      }
+    ],
+    "miniContext": "Bracelet",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "high-heeled",
+    "meaning": "پاشنه‌بلند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister wears flat shoes most of the time but high-heeled shoes for special occasions.",
+        "persian": "خواهرم بیشتر وقت‌ها کفش تخت می‌پوشد اما برای مناسبت‌های خاص کفش پاشنه‌بلند می‌پوشد."
+      }
+    ],
+    "miniContext": "High-heeled shoes",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "stag party",
+    "meaning": "جشن مجردی داماد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "For my brother's stag party, we all had to march round town wearing kilts.",
+        "persian": "برای جشن مجردی برادرم، همه مجبور شدیم با دامن اسکاتلندی دور شهر رژه برویم."
+      }
+    ],
+    "miniContext": "For my brother's stag party, we all had to march round town wearing kilts.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "fancy dress",
+    "meaning": "لباس فانتزی (برای مهمانی تم‌دار)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "At a recent fancy-dress party, my husband went as a woman cleaner.",
+        "persian": "در یک مهمانی فانتزی اخیر، شوهرم با لباس زن نظافتچی رفت."
+      }
+    ],
+    "miniContext": "At a recent fancy-dress party, my husband went as a woman cleaner wearing a wig and apron.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "wig",
+    "meaning": "کلاه‌گیس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My husband went as a woman cleaner wearing a wig and apron.",
+        "persian": "شوهرم با کلاه‌گیس و پیش‌بند به عنوان زن نظافتچی رفت."
+      }
+    ],
+    "miniContext": "My husband went as a woman cleaner wearing a wig and apron.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "dress up",
+    "meaning": "لباس رسمی و شیک پوشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like to dress up for weddings and wear something elegant.",
+        "persian": "دوست دارم برای عروسی‌ها شیک بپوشم و چیزی خاص بپوشم."
+      }
+    ],
+    "miniContext": "I like to dress up for weddings and wear something elegant.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "elegant",
+    "meaning": "شیک، باسلیقه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like to dress up for weddings and wear something elegant.",
+        "persian": "دوست دارم برای عروسی‌ها شیک بپوشم و چیزی خاص بپوشم."
+      }
+    ],
+    "miniContext": "I like to dress up for weddings and wear something elegant.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "glamorous",
+    "meaning": "پرزرق‌وبرق، جذاب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can be standing around in a glamorous outfit, shivering at the same time.",
+        "persian": "ممکن است با لباس پرزرق‌وبرق ایستاده باشی و در همان حال از سرما بلرزی."
+      }
+    ],
+    "miniContext": "You can be standing around in a glamorous outfit, shivering at the same time.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "outfit",
+    "meaning": "ست لباس برای یک مناسبت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When you buy clothes, do you often buy complete outfits?",
+        "persian": "وقتی لباس می‌خری، معمولاً ست کامل می‌خری؟"
+      }
+    ],
+    "miniContext": "You can be standing around in a glamorous outfit, shivering at the same time.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "shiver",
+    "meaning": "لرزیدن (از سرما یا ترس)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You might do this if you are very cold.",
+        "persian": "اگر خیلی سردت باشد ممکن است این کار را بکنی."
+      }
+    ],
+    "miniContext": "You can be standing around in a glamorous outfit, shivering at the same time.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "casual",
+    "meaning": "غیررسمی، راحت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In my house, barbecues are very casual affairs.",
+        "persian": "تو خونه ما، باربیکیوها خیلی غیررسمی هستند."
+      }
+    ],
+    "miniContext": "In my house, barbecues are very casual affairs: T-shirt, shorts and flip-flops.",
+    "icon": "👕"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-29",
+    "word": "affair",
+    "meaning": "رویداد، موقعیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In my house, barbecues are very casual affairs.",
+        "persian": "تو خونه ما، باربیکیوها رویدادهای خیلی غیررسمی‌ای هستند."
+      }
+    ],
+    "miniContext": "In my house, barbecues are very casual affairs: T-shirt, shorts and flip-flops.",
+    "icon": "👕"
+  }
+]

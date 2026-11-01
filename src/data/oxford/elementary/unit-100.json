@@ -1,0 +1,380 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "right away",
+    "meaning": "فورا",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "immediately"
+    ],
+    "examples": [
+      {
+        "english": "Please come here right away.",
+        "persian": "لطفا فورا بیا اینجا."
+      }
+    ],
+    "miniContext": "Please come here right away.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "get back (= return)",
+    "meaning": "برگشتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We got back from holiday yesterday.",
+        "persian": "ما دیروز از تعطیلات برگشتیم."
+      }
+    ],
+    "miniContext": "We got back from holiday yesterday.",
+    "icon": "🔙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "get changed",
+    "meaning": "لباس عوض کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to get changed before the party.",
+        "persian": "باید قبل از مهمانی لباسم را عوض کنم."
+      }
+    ],
+    "miniContext": "I need to get changed before the party.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "get in (= arrive)",
+    "meaning": "رسیدن، وارد شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What time does the train get in?",
+        "persian": "قطار چه ساعتی می‌رسد؟"
+      }
+    ],
+    "miniContext": "What time does the train get in?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "get out (of sth)",
+    "meaning": "خارج شدن (از جایی)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He got out of the car quickly.",
+        "persian": "او سریع از ماشین بیرون آمد."
+      }
+    ],
+    "miniContext": "He got out of the car quickly.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "get to sleep",
+    "meaning": "خوابش بردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I couldn't get to sleep last night.",
+        "persian": "من شب گذشته خوابم نبرد."
+      }
+    ],
+    "miniContext": "I couldn't get to sleep last night.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "go and get",
+    "meaning": "رفتن و آوردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Go and get your coat, it's cold.",
+        "persian": "برو و کتت را بیاور، سرد است."
+      }
+    ],
+    "miniContext": "Go and get your coat, it's cold.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "Guess what?",
+    "meaning": "می‌دونی چی شده؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Guess what? I passed my exam!",
+        "persian": "می‌دونی چی شده؟ من امتحانم را قبول شدم!"
+      }
+    ],
+    "miniContext": "Guess what? I passed my exam!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "I guess so",
+    "meaning": "فکر کنم همین‌طور باشد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Is it true?\" \"I guess so.\"",
+        "persian": "«این درست است؟» «فکر کنم همین‌طور باشد.»"
+      }
+    ],
+    "miniContext": "\"Is it true?\" \"I guess so.\"",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "hurry up",
+    "meaning": "عجله کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Hurry up, we're late!",
+        "persian": "عجله کن، دیر شده!"
+      }
+    ],
+    "miniContext": "Hurry up, we're late!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "I suppose so",
+    "meaning": "گمان کنم همین‌طور باشد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Is that okay?\" \"I suppose so.\"",
+        "persian": "«این خوبه؟» «گمان کنم همین‌طور باشد.»"
+      }
+    ],
+    "miniContext": "\"Is that okay?\" \"I suppose so.\"",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "let sb know",
+    "meaning": "به کسی خبر دادن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please let me know when you arrive.",
+        "persian": "لطفا وقتی رسیدی به من خبر بده."
+      }
+    ],
+    "miniContext": "Please let me know when you arrive.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "nothing else",
+    "meaning": "چیز دیگری نیست",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Nothing else to say.",
+        "persian": "چیز دیگری برای گفتن نیست."
+      }
+    ],
+    "miniContext": "Nothing else to say.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "now (as in \"right now\")",
+    "meaning": "الان",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to go now.",
+        "persian": "باید الان بروم."
+      }
+    ],
+    "miniContext": "I need to go now.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "rest (the rest)",
+    "meaning": "بقیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll eat the rest of the cake tomorrow.",
+        "persian": "بقیه کیک را فردا می‌خورم."
+      }
+    ],
+    "miniContext": "I'll eat the rest of the cake tomorrow.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "right now / right away",
+    "meaning": "همین الان",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "immediately"
+    ],
+    "examples": [
+      {
+        "english": "Come here right now!",
+        "persian": "همین الان بیا اینجا!"
+      }
+    ],
+    "miniContext": "Come here right now!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "somewhere else",
+    "meaning": "جای دیگر",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This cafe is full, let's go somewhere else.",
+        "persian": "این کافه پر است، بیا جای دیگری برویم."
+      }
+    ],
+    "miniContext": "This cafe is full, let's go somewhere else.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "suppose (I suppose so)",
+    "meaning": "گمان کردن (گمان کنم همین‌طور باشد)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you like it? I suppose so.",
+        "persian": "آیا آن را دوست داری؟ گمان کنم بله."
+      }
+    ],
+    "miniContext": "Do you like it? I suppose so.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "take care of sb/sth",
+    "meaning": "مراقبت کردن از کسی/چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She takes care of her little brother.",
+        "persian": "او از برادر کوچکش مراقبت می‌کند."
+      }
+    ],
+    "miniContext": "She takes care of her little brother.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "the rest",
+    "meaning": "باقی، بقیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll eat the rest of the cake tomorrow.",
+        "persian": "بقیه کیک را فردا می‌خورم."
+      }
+    ],
+    "miniContext": "I'll eat the rest of the cake tomorrow.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "Well done!",
+    "meaning": "آفرین!",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Well done on passing your exam!",
+        "persian": "آفرین که در امتحانت قبول شدی!"
+      }
+    ],
+    "miniContext": "Well done on passing your exam!",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-100",
+    "word": "Wow!",
+    "meaning": "وای!",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wow! This is amazing!",
+        "persian": "وای! این شگفت‌انگیز است!"
+      }
+    ],
+    "miniContext": "Wow! This is amazing!",
+    "icon": "💬"
+  }
+]

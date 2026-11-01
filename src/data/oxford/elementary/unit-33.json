@@ -1,0 +1,157 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "anywhere",
+    "meaning": "هرجا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can't find my keys anywhere.",
+        "persian": "من کلیدهایم را هیچ‌جا پیدا نمی‌کنم."
+      }
+    ],
+    "miniContext": "I can't find my keys anywhere.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "forest",
+    "meaning": "جنگل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We walked through the forest.",
+        "persian": "ما در جنگل قدم زدیم."
+      }
+    ],
+    "miniContext": "We walked through the forest.",
+    "icon": "🌲"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "human",
+    "meaning": "انسانی، انسان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Humans need water to live.",
+        "persian": "انسان‌ها برای زندگی به آب نیاز دارند."
+      }
+    ],
+    "miniContext": "Humans need water to live.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "island",
+    "meaning": "جزیره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They live on a small island.",
+        "persian": "آنها در یک جزیره کوچک زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "They live on a small island.",
+    "icon": "🏝️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "nowhere",
+    "meaning": "هیچ جا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is nowhere to park here.",
+        "persian": "اینجا هیچ جایی برای پارک کردن نیست."
+      }
+    ],
+    "miniContext": "There is nowhere to park here.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "region",
+    "meaning": "منطقه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "area"
+    ],
+    "examples": [
+      {
+        "english": "This region is famous for its fruit.",
+        "persian": "این منطقه به میوه‌هایش معروف است."
+      }
+    ],
+    "miniContext": "This region is famous for its fruit.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "rock (= stone)",
+    "meaning": "سنگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There were big rocks near the sea.",
+        "persian": "کنار دریا سنگ‌های بزرگی بود."
+      }
+    ],
+    "miniContext": "There were big rocks near the sea.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "somewhere",
+    "meaning": "جایی",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let's go somewhere warm this winter.",
+        "persian": "بیا این زمستان به یک جای گرم برویم."
+      }
+    ],
+    "miniContext": "Let's go somewhere warm this winter.",
+    "icon": "🗺️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-33",
+    "word": "world",
+    "meaning": "جهان؛ دنیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has travelled all over the world.",
+        "persian": "او به سراسر جهان سفر کرده است."
+      }
+    ],
+    "miniContext": "She has travelled all over the world.",
+    "icon": "🗺️"
+  }
+]

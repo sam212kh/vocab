@@ -1,0 +1,384 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "exhausted",
+    "meaning": "خسته و بی‌رمق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "worn out"
+    ],
+    "examples": [
+      {
+        "english": "You might be exhausted after a busy day.",
+        "persian": "ممکن است بعد از یک روز پرمشغله خسته و بی‌رمق باشی."
+      }
+    ],
+    "miniContext": "You might be exhausted after a busy day, perhaps feel sleepy, start yawning and decide it's time for bed.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "sleepy",
+    "meaning": "خواب‌آلود",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You might feel sleepy and start yawning.",
+        "persian": "ممکن است خواب‌آلود شوی و شروع به خمیازه کشیدن کنی."
+      }
+    ],
+    "miniContext": "Perhaps feel sleepy and start yawning and decide it's time for bed.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "fall asleep",
+    "meaning": "به خواب رفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "go to sleep"
+    ],
+    "examples": [
+      {
+        "english": "When you get into bed, you might fall asleep soon, if you're lucky.",
+        "persian": "وقتی به رختخواب می‌روی، اگر شانس بیاوری، زود به خواب می‌روی."
+      }
+    ],
+    "miniContext": "Soon, if you're lucky, you will fall asleep.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "nightmare",
+    "meaning": "کابوس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When you're asleep, you have dreams and possibly nightmares.",
+        "persian": "وقتی خوابی، خواب می‌بینی و احتمالاً کابوس هم می‌بینی."
+      }
+    ],
+    "miniContext": "When you're asleep, you have dreams and possibly nightmares.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "snore",
+    "meaning": "خروپف کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some people snore.",
+        "persian": "بعضی افراد خروپف می‌کنند."
+      }
+    ],
+    "miniContext": "Some people snore. At this point they're fast asleep.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "fast asleep",
+    "meaning": "در خواب عمیق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "in a deep sleep"
+    ],
+    "examples": [
+      {
+        "english": "At this point they're fast asleep.",
+        "persian": "در این لحظه آن‌ها در خواب عمیق هستند."
+      }
+    ],
+    "miniContext": "Some people snore. At this point they're fast asleep.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "go off",
+    "meaning": "به صدا در آمدن (زنگ ساعت)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "7.00am. The alarm goes off.",
+        "persian": "ساعت ۷ صبح. زنگ ساعت به صدا در می‌آید."
+      }
+    ],
+    "miniContext": "7.00am. The alarm goes off. It might wake you up, or you might be wide awake already.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "oversleep",
+    "meaning": "بیشتر از حد لازم خوابیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People without an alarm might oversleep.",
+        "persian": "افرادی که ساعت زنگ‌دار ندارند ممکن است بیشتر از حد لازم بخوابند."
+      }
+    ],
+    "miniContext": "People without an alarm might oversleep, others might decide to have a lie-in.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "have a lie-in",
+    "meaning": "دیرتر از معمول از رختخواب بلند شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you often have a lie-in at the weekend?",
+        "persian": "آیا آخر هفته‌ها معمولاً دیرتر از رختخواب بلند می‌شوی؟"
+      }
+    ],
+    "miniContext": "Others might decide to have a lie-in.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "sleep like a log",
+    "meaning": "خیلی خوب و عمیق خوابیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sleep like a log wherever I am.",
+        "persian": "هر جا که باشم خیلی خوب و عمیق می‌خوابم."
+      }
+    ],
+    "miniContext": "I sleep like a log wherever I am.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "disturb",
+    "meaning": "مزاحم شدن، به‌هم زدن (خواب)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If I eat late, it disturbs my sleep.",
+        "persian": "اگر دیر غذا بخورم، خوابم به‌هم می‌خورد."
+      }
+    ],
+    "miniContext": "If I eat late, it disturbs my sleep and I often have a restless night.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "restless night",
+    "meaning": "شب بی‌قرار و بدخواب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had too much to eat and drink last night, and I had a very restless night.",
+        "persian": "دیشب زیاد خوردم و نوشیدم و شب خیلی بی‌قراری داشتم."
+      }
+    ],
+    "miniContext": "If I eat late, it disturbs my sleep and I often have a restless night.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "restrict",
+    "meaning": "محدود کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I work late and get up early so that restricts my sleep to about five hours.",
+        "persian": "دیر کار می‌کنم و زود بیدار می‌شوم، پس خوابم به حدود پنج ساعت محدود می‌شود."
+      }
+    ],
+    "miniContext": "I work late and get up early so that restricts my sleep to about five hours.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "irritable",
+    "meaning": "زودعصبانی، بدخلق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Lack of sleep makes me really irritable.",
+        "persian": "کمبود خواب مرا خیلی بدخلق می‌کند."
+      }
+    ],
+    "miniContext": "Lack of sleep makes me really irritable.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "as long as",
+    "meaning": "به شرط اینکه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "conjunction",
+    "synonyms": [
+      "provided that"
+    ],
+    "examples": [
+      {
+        "english": "I sleep well as long as I establish a good routine and stick to it.",
+        "persian": "تا زمانی که یک روتین خوب داشته باشم و بهش پایبند بمانم، خوب می‌خوابم."
+      }
+    ],
+    "miniContext": "I sleep well as long as I establish a good routine and stick to it.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "establish",
+    "meaning": "برقرار کردن، ایجاد کردن (روال)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most experts say that you need to establish a bedtime routine to sleep well.",
+        "persian": "بیشتر کارشناسان می‌گویند برای خواب خوب باید روال خواب مشخصی ایجاد کنی."
+      }
+    ],
+    "miniContext": "I sleep well as long as I establish a good routine and stick to it.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "stick to sth",
+    "meaning": "پایبند ماندن به چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Have a routine and stick to it.",
+        "persian": "یک روال داشته باش و بهش پایبند بمان."
+      }
+    ],
+    "miniContext": "I sleep well as long as I establish a good routine and stick to it.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "sensitive (to sth)",
+    "meaning": "حساس (نسبت به چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm sensitive to light and need to sleep in total darkness.",
+        "persian": "نسبت به نور حساسم و باید در تاریکی کامل بخوابم."
+      }
+    ],
+    "miniContext": "I'm sensitive to light and need to sleep in total darkness.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "darkness",
+    "meaning": "تاریکی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to sleep in total darkness.",
+        "persian": "باید در تاریکی کامل بخوابم."
+      }
+    ],
+    "miniContext": "I'm sensitive to light and need to sleep in total darkness.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "insomnia",
+    "meaning": "بی‌خوابی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I suffer from insomnia, so I never get much sleep.",
+        "persian": "از بی‌خوابی رنج می‌برم، پس هیچ‌وقت زیاد نمی‌خوابم."
+      }
+    ],
+    "miniContext": "I suffer from insomnia, so I never get much sleep.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "have a nap",
+    "meaning": "چرت زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "During the day, I often have a nap.",
+        "persian": "در طول روز معمولاً چرت می‌زنم."
+      }
+    ],
+    "miniContext": "During the day, I often have a nap.",
+    "icon": "😴"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-31",
+    "word": "on my mind",
+    "meaning": "ذهنم درگیر آن است",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When there are things on my mind - like exams - I sleep badly.",
+        "persian": "وقتی ذهنم درگیر چیزهایی مثل امتحانات باشد، بد می‌خوابم."
+      }
+    ],
+    "miniContext": "When there are things on my mind - like exams - I sleep badly.",
+    "icon": "😴"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "clear",
+    "meaning": "پاک‌سازی کردن، از بین بردن (جنگل)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've seen widespread deforestation - many forests cleared.",
+        "persian": "جنگل‌زدایی گسترده دیده‌ام، جنگل‌های زیادی پاک‌سازی شده‌اند."
+      }
+    ],
+    "miniContext": "With the ongoing clearing of forests (also called deforestation).",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "habitat",
+    "meaning": "زیستگاه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's better to see animals in their natural habitat.",
+        "persian": "بهتر است حیوانات را در زیستگاه طبیعی‌شان دید."
+      }
+    ],
+    "miniContext": "Many animals are losing their natural habitat and starting to decline in numbers.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "decline",
+    "meaning": "کاهش یافتن، رو به زوال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb/noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The tiger population is in decline.",
+        "persian": "جمعیت ببرها رو به کاهش است."
+      }
+    ],
+    "miniContext": "Many animals are losing their natural habitat and starting to decline in numbers.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "region",
+    "meaning": "منطقه، ناحیه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're a lot worse in some regions.",
+        "persian": "در بعضی مناطق خیلی بدتر هستند."
+      }
+    ],
+    "miniContext": "In some regions, conservation groups point out that some animals are already dying out.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "conservation",
+    "meaning": "حفاظت از طبیعت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What can people do to help with conservation?",
+        "persian": "مردم برای کمک به حفاظت از طبیعت چه کاری می‌توانند بکنند؟"
+      }
+    ],
+    "miniContext": "Conservation groups point out that some animals are already dying out.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "point sth out",
+    "meaning": "اشاره کردن، یادآوری کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Conservation groups point out that some animals are already dying out.",
+        "persian": "گروه‌های حفاظت از محیط‌زیست اشاره می‌کنند که برخی حیوانات در حال انقراض هستند."
+      }
+    ],
+    "miniContext": "Conservation groups point out that some animals are already dying out.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "die out",
+    "meaning": "منقرض شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Has the dodo died out? - Yes, it's extinct.",
+        "persian": "آیا دودو منقرض شده؟ بله، منقرض شده است."
+      }
+    ],
+    "miniContext": "Some animals are already dying out and are in danger of extinction.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "instance (of sth)",
+    "meaning": "نمونه، مورد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "for instance"
+    ],
+    "examples": [
+      {
+        "english": "Which animals in particular are endangered? - Well, the snow leopard, for instance.",
+        "persian": "کدام حیوانات به‌خصوص در خطرند؟ خب، پلنگ برفی مثلاً."
+      }
+    ],
+    "miniContext": "One instance of this is the African elephant.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "consider sb/sth to be sth",
+    "meaning": "کسی یا چیزی را به‌شکلی خاص در نظر گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The African elephant is now considered to be an endangered species.",
+        "persian": "فیل آفریقایی اکنون یک گونه در معرض خطر در نظر گرفته می‌شود."
+      }
+    ],
+    "miniContext": "The African elephant, which is now considered to be an endangered species.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "endangered",
+    "meaning": "در معرض خطر انقراض",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Many birds are also declining in numbers, and if we're not careful some of our birds could die out altogether.",
+        "persian": "پرندگان زیادی هم در حال کاهش هستند و اگر مراقب نباشیم ممکن است برخی از پرندگانمان کاملاً منقرض شوند."
+      }
+    ],
+    "miniContext": "The African elephant, which is now considered to be an endangered species.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "species",
+    "meaning": "گونه (جانوری)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This species of butterfly is endangered.",
+        "persian": "این گونه پروانه در معرض خطر است."
+      }
+    ],
+    "miniContext": "The African elephant, which is now considered to be an endangered species.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "pose",
+    "meaning": "ایجاد کردن (خطر یا مشکل)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This poses a threat to both humans and wildlife.",
+        "persian": "این برای انسان و حیات وحش خطری ایجاد می‌کند."
+      }
+    ],
+    "miniContext": "Poaching poses the greatest threat to this species.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "poaching",
+    "meaning": "شکار غیرقانونی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was sent to prison for illegal hunting - poaching.",
+        "persian": "او به خاطر شکار غیرقانونی به زندان افتاد."
+      }
+    ],
+    "miniContext": "Poaching poses the greatest threat to this species.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "sought after",
+    "meaning": "پرتقاضا، مورد خواست بسیاری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rhino horn is sought after for decorative purposes.",
+        "persian": "شاخ کرگدن برای مصارف تزئینی پرتقاضا است."
+      }
+    ],
+    "miniContext": "Rhino horn, which is sought after for decorative purposes and used in some forms of medicine.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "decorative",
+    "meaning": "تزئینی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Rhino horn and elephant tusk have a decorative use.",
+        "persian": "شاخ کرگدن و عاج فیل کاربرد تزئینی دارند."
+      }
+    ],
+    "miniContext": "Rhino horn, which is sought after for decorative purposes.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "civil war",
+    "meaning": "جنگ داخلی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Opposing groups have been fighting a civil war for years.",
+        "persian": "گروه‌های مخالف سال‌هاست در جنگ داخلی هستند."
+      }
+    ],
+    "miniContext": "Civil war has led to a serious decline in rhino populations.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "divert sth/sb (from sth, to sth)",
+    "meaning": "منحرف کردن، تغییر مسیر دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can we divert the money from there to here?",
+        "persian": "می‌توانیم پول را از آنجا به اینجا منحرف کنیم؟"
+      }
+    ],
+    "miniContext": "War diverts funds from conservation.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "likelihood",
+    "meaning": "احتمال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "probability"
+    ],
+    "examples": [
+      {
+        "english": "There is little probability of things improving soon - likelihood.",
+        "persian": "احتمال کمی برای بهبود اوضاع به‌زودی وجود دارد."
+      }
+    ],
+    "miniContext": "The high levels of poverty in affected areas increase the likelihood that people will end up poaching.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "end up (doing sth)",
+    "meaning": "سرانجام در وضعیت یا موقعیتی قرار گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We could end up in a difficult situation.",
+        "persian": "ممکن است در وضعیت سختی قرار بگیریم."
+      }
+    ],
+    "miniContext": "Increase the likelihood that people will end up poaching.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "wipe sth out",
+    "meaning": "کاملاً نابود کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This disease could wipe out the whole breed.",
+        "persian": "این بیماری می‌تواند کل نژاد را نابود کند."
+      }
+    ],
+    "miniContext": "Deforestation has wiped out a great deal of rhino territory.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "territory",
+    "meaning": "قلمرو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You should avoid going into the lions' territory.",
+        "persian": "باید از ورود به قلمرو شیرها اجتناب کنی."
+      }
+    ],
+    "miniContext": "Deforestation has wiped out a great deal of rhino territory.",
+    "icon": "🐾"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-47",
+    "word": "breed",
+    "meaning": "جفت‌گیری و تولیدمثل کردن (حیوانات)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some species find it difficult to breed.",
+        "persian": "برخی گونه‌ها در تولیدمثل مشکل دارند."
+      }
+    ],
+    "miniContext": "A serious drop in the numbers of rhinos that are breeding.",
+    "icon": "🐾"
+  }
+]

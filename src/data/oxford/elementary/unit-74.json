@@ -1,0 +1,297 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "@",
+    "meaning": "علامت @ (ات)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My email address has an @ symbol.",
+        "persian": "آدرس ایمیل من یک علامت @ دارد."
+      }
+    ],
+    "miniContext": "My email address has an @ symbol.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "blog",
+    "meaning": "بلاگ، وبلاگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She writes a blog about cooking.",
+        "persian": "او یک بلاگ درباره آشپزی می‌نویسد."
+      }
+    ],
+    "miniContext": "She writes a blog about cooking.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "check",
+    "meaning": "بررسی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please check your email every day.",
+        "persian": "لطفا هر روز ایمیلت را بررسی کن."
+      }
+    ],
+    "miniContext": "Please check your email every day.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "get lost",
+    "meaning": "گم شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We got lost in the city centre.",
+        "persian": "ما در مرکز شهر گم شدیم."
+      }
+    ],
+    "miniContext": "We got lost in the city centre.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "how do you say...?",
+    "meaning": "چطور ... را می‌گویید؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How do you say this word in English?",
+        "persian": "این کلمه را به انگلیسی چطور می‌گویید؟"
+      }
+    ],
+    "miniContext": "How do you say this word in English?",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "internet",
+    "meaning": "اینترنت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I use the internet every day.",
+        "persian": "من هر روز از اینترنت استفاده می‌کنم."
+      }
+    ],
+    "miniContext": "I use the internet every day.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "letter",
+    "meaning": "نامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wrote a letter to my friend.",
+        "persian": "من به دوستم نامه نوشتم."
+      }
+    ],
+    "miniContext": "I wrote a letter to my friend.",
+    "icon": "✉️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "link",
+    "meaning": "لینک، پیوند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Click on the link.",
+        "persian": "روی لینک کلیک کن."
+      }
+    ],
+    "miniContext": "Click on the link.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "lost (as in \"get lost\"; \"be lost\")",
+    "meaning": "گمشده، گم شدن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We got lost in the city.",
+        "persian": "ما در شهر گم شدیم."
+      }
+    ],
+    "miniContext": "We got lost in the city.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "message (n)",
+    "meaning": "پیام",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I sent her a message.",
+        "persian": "من به او یک پیام فرستادم."
+      }
+    ],
+    "miniContext": "I sent her a message.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "password",
+    "meaning": "رمز عبور",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I forgot my password.",
+        "persian": "رمز عبورم را فراموش کردم."
+      }
+    ],
+    "miniContext": "I forgot my password.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "receive",
+    "meaning": "دریافت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "get"
+    ],
+    "examples": [
+      {
+        "english": "I received your email yesterday.",
+        "persian": "ایمیلت را دیروز دریافت کردم."
+      }
+    ],
+    "miniContext": "I received your email yesterday.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "recognize",
+    "meaning": "شناختن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't recognize you at first.",
+        "persian": "اول نشناختم تو را."
+      }
+    ],
+    "miniContext": "I didn't recognize you at first.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "search (for sth)",
+    "meaning": "جستجو کردن (مثلاً در اینترنت)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "look up"
+    ],
+    "examples": [
+      {
+        "english": "I searched for the answer on a computer.",
+        "persian": "من جواب را در کامپیوتر جستجو کردم."
+      }
+    ],
+    "miniContext": "I searched for the answer on a computer.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "site (website)",
+    "meaning": "وب‌سایت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "website"
+    ],
+    "examples": [
+      {
+        "english": "I found this recipe on a cooking site.",
+        "persian": "من این دستور غذا را در یک وب‌سایت آشپزی پیدا کردم."
+      }
+    ],
+    "miniContext": "I found this recipe on a cooking site.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "video",
+    "meaning": "ویدیو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watched a funny video online.",
+        "persian": "من یک ویدیوی خنده‌دار آنلاین تماشا کردم."
+      }
+    ],
+    "miniContext": "I watched a funny video online.",
+    "icon": "📧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-74",
+    "word": "website",
+    "meaning": "وب‌سایت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I found this recipe on a website.",
+        "persian": "این دستور پخت را در یک وب‌سایت پیدا کردم."
+      }
+    ],
+    "miniContext": "I found this recipe on a website.",
+    "icon": "📧"
+  }
+]

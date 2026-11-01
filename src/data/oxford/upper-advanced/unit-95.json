@@ -1,0 +1,395 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "cater for sth/sb",
+    "meaning": "غذا و نوشیدنی فراهم کردن (برای مراسم)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The restaurant can cater for 100 people.",
+        "persian": "این رستوران می‌تواند برای ۱۰۰ نفر غذا تهیه کند."
+      }
+    ],
+    "miniContext": "Cater for sth/sb means to provide food and drinks for a social event.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "compensate sb (for sth)",
+    "meaning": "جبران کردن (خسارت یا ضرر کسی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "make up for sth"
+    ],
+    "examples": [
+      {
+        "english": "The company agreed to compensate him for his loss.",
+        "persian": "شرکت موافقت کرد خسارتش را جبران کند."
+      }
+    ],
+    "miniContext": "Compensate sb for sth means to provide sth good to balance or reduce the bad effects of damage, loss, etc.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "substitute (sth) (for sth/sb)",
+    "meaning": "جایگزین کردن (چیزی به‌جای چیز دیگر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can substitute water for milk in this recipe.",
+        "persian": "در این دستور پخت می‌توانی آب را جایگزین شیر کنی."
+      }
+    ],
+    "miniContext": "Substitute sth for sth/sb means to use sth/sb instead of sth/sb else.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "differ (from sth/sb)",
+    "meaning": "فرق داشتن با",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My opinion differs from his.",
+        "persian": "نظر من با نظر او فرق دارد."
+      }
+    ],
+    "miniContext": "Differ from sth/sb means to be different from sth/sb.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "distinguish sth (from sth)",
+    "meaning": "تشخیص دادن تفاوت بین دو چیز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can't distinguish one twin from the other.",
+        "persian": "نمی‌توانم این دو دوقلو را از هم تشخیص دهم."
+      }
+    ],
+    "miniContext": "Distinguish sth from sth means to recognize the difference between two people or things.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "distract sb (from sth)",
+    "meaning": "حواس کسی را پرت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She distracted me from working.",
+        "persian": "او حواسم را از کار کردن پرت کرد."
+      }
+    ],
+    "miniContext": "Distract sb from sth means to take sb's attention away from what they are trying to do.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "exclude sth (from sth)",
+    "meaning": "حذف کردن، کنار گذاشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I want to exclude fat from my diet.",
+        "persian": "می‌خواهم چربی را از رژیم غذایی‌ام حذف کنم."
+      }
+    ],
+    "miniContext": "Exclude sth from sth means to deliberately not include sth in what you are doing.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "congratulate sb (on sth)",
+    "meaning": "تبریک گفتن به کسی (برای چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I congratulated him on his result.",
+        "persian": "بابت نتیجه‌اش به او تبریک گفتم."
+      }
+    ],
+    "miniContext": "Congratulate sb on sth means to tell sb you are pleased about their success.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "embark on sth",
+    "meaning": "شروع کردن (کاری جدید یا دشوار)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She's about to embark on a new career.",
+        "persian": "او در آستانه‌ی شروع یک شغل جدید است."
+      }
+    ],
+    "miniContext": "Embark on sth means to start to do sth new or difficult.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "insist (on sth / doing sth)",
+    "meaning": "اصرار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She insisted on going with me.",
+        "persian": "او اصرار داشت با من بیاید."
+      }
+    ],
+    "miniContext": "Insist on sth means to demand that sth happens or that sb does something.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "accuse sb (of sth)",
+    "meaning": "متهم کردن کسی (به چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They accused him of lying.",
+        "persian": "او را متهم به دروغگویی کردند."
+      }
+    ],
+    "miniContext": "Accuse sb of sth means to say that sb has done sth wrong or is guilty of sth.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "deprive sb/sth (of sth)",
+    "meaning": "محروم کردن از",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They deprived the animals of food for days.",
+        "persian": "چند روز حیوانات را از غذا محروم کردند."
+      }
+    ],
+    "miniContext": "Deprive sb/sth of sth means to prevent sb from having or doing sth, especially sth important.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "dispose of sth",
+    "meaning": "دور انداختن، خلاص شدن از چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We need to dispose of this old furniture.",
+        "persian": "باید از شر این مبلمان قدیمی خلاص شویم."
+      }
+    ],
+    "miniContext": "Dispose of sth means to get rid of sth that you do not want or cannot keep.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "adhere to sth",
+    "meaning": "پایبند بودن به (قانون، قاعده)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We must adhere to the rules.",
+        "persian": "باید به قوانین پایبند باشیم."
+      }
+    ],
+    "miniContext": "Adhere to sth means to behave according to a particular law, rule, set of instructions, etc.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "cling (on) to sth/sb",
+    "meaning": "محکم چسبیدن به",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had to cling to the side of the boat.",
+        "persian": "مجبور شدم محکم به کنار قایق بچسبم."
+      }
+    ],
+    "miniContext": "Cling to sth/sb means to hold on tightly to sth/sb.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "devote sth to sth",
+    "meaning": "اختصاص دادن (وقت یا توجه) به چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I devote an hour a day to work.",
+        "persian": "روزی یک ساعت را به کار اختصاص می‌دهم."
+      }
+    ],
+    "miniContext": "Devote sth to sth means to give an amount of time, attention, etc. to sth.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "surrender (to sb)",
+    "meaning": "تسلیم شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The soldiers finally surrendered to the enemy.",
+        "persian": "سربازان بالاخره تسلیم دشمن شدند."
+      }
+    ],
+    "miniContext": "Surrender means to admit you have been defeated and want to stop fighting.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "confer (with sb) (on/about sth)",
+    "meaning": "مشورت کردن با کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We'll confer with the minister about postponing the meeting.",
+        "persian": "درباره‌ی به‌تعویق‌انداختن جلسه با وزیر مشورت خواهیم کرد."
+      }
+    ],
+    "miniContext": "Confer with sb means to discuss sth with sb in order to exchange opinions or get advice.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "coincide (with sth)",
+    "meaning": "هم‌زمان بودن با",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The meeting coincides with the holiday.",
+        "persian": "جلسه با تعطیلات هم‌زمان است."
+      }
+    ],
+    "miniContext": "Coincide with sth means (of two or more events) to take place at the same time.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "correspond (with sth)",
+    "meaning": "مطابقت داشتن با، همخوانی داشتن با",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My account of the incident doesn't correspond with hers.",
+        "persian": "روایت من از این ماجرا با روایت او همخوانی ندارد."
+      }
+    ],
+    "miniContext": "Correspond with sth means to be the same as or match sth.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "interact (with sb)",
+    "meaning": "تعامل داشتن با کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Children need to interact with other children.",
+        "persian": "بچه‌ها باید با بچه‌های دیگر تعامل داشته باشند."
+      }
+    ],
+    "miniContext": "Interact with sb means to communicate with sb, especially when you are with them.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "proceed (with sth)",
+    "meaning": "ادامه دادن (کاری که شروع شده)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We decided to proceed with the plan.",
+        "persian": "تصمیم گرفتیم با طرح ادامه دهیم."
+      }
+    ],
+    "miniContext": "Proceed with sth means to continue doing sth that has already started.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-95",
+    "word": "reconcile sth (with sth)",
+    "meaning": "آشتی دادن، سازگار کردن (دو چیز متضاد)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was hard to reconcile his career ambitions with the needs of his children.",
+        "persian": "سازگار کردن جاه‌طلبی‌های شغلی او با نیازهای فرزندانش سخت بود."
+      }
+    ],
+    "miniContext": "Reconcile sth with sth means to find an acceptable way of dealing with two or more ideas, needs, etc. that seem to be opposed to each other.",
+    "icon": "🔤"
+  }
+]

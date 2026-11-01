@@ -1,0 +1,1107 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Africa",
+    "meaning": "آفریقا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Egypt is a country in Africa.",
+        "persian": "مصر کشوری در آفریقا است."
+      }
+    ],
+    "miniContext": "Egypt is a country in Africa.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "American",
+    "meaning": "آمریکایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has an American friend.",
+        "persian": "او یک دوست آمریکایی دارد."
+      }
+    ],
+    "miniContext": "She has an American friend.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Arabic",
+    "meaning": "عربی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She can speak Arabic very well.",
+        "persian": "او می‌تواند عربی را خیلی خوب صحبت کند."
+      }
+    ],
+    "miniContext": "She can speak Arabic very well.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Argentina",
+    "meaning": "آرژانتین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Argentina is a country in South America.",
+        "persian": "آرژانتین کشوری در آمریکای جنوبی است."
+      }
+    ],
+    "miniContext": "Argentina is a country in South America.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Argentinian",
+    "meaning": "آرژانتینی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has an Argentinian passport.",
+        "persian": "او یک پاسپورت آرژانتینی دارد."
+      }
+    ],
+    "miniContext": "He has an Argentinian passport.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Asia",
+    "meaning": "آسیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "China is the biggest country in Asia.",
+        "persian": "چین بزرگترین کشور در آسیا است."
+      }
+    ],
+    "miniContext": "China is the biggest country in Asia.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Australia",
+    "meaning": "استرالیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Kangaroos live in Australia.",
+        "persian": "کانگوروها در استرالیا زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "Kangaroos live in Australia.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Australian",
+    "meaning": "استرالیایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has an Australian accent.",
+        "persian": "او یک لهجه استرالیایی دارد."
+      }
+    ],
+    "miniContext": "She has an Australian accent.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Brazil",
+    "meaning": "برزیل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brazil is famous for football.",
+        "persian": "برزیل به فوتبال معروف است."
+      }
+    ],
+    "miniContext": "Brazil is famous for football.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Brazilian",
+    "meaning": "برزیلی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a Brazilian friend.",
+        "persian": "او یک دوست برزیلی دارد."
+      }
+    ],
+    "miniContext": "She has a Brazilian friend.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Britain",
+    "meaning": "بریتانیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "London is the capital of Britain.",
+        "persian": "لندن پایتخت بریتانیا است."
+      }
+    ],
+    "miniContext": "London is the capital of Britain.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Canada",
+    "meaning": "کانادا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Canada is a very large country.",
+        "persian": "کانادا کشوری بسیار بزرگ است."
+      }
+    ],
+    "miniContext": "Canada is a very large country.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Canadian",
+    "meaning": "کانادایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My teacher is Canadian.",
+        "persian": "معلم من کانادایی است."
+      }
+    ],
+    "miniContext": "My teacher is Canadian.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Central America",
+    "meaning": "آمریکای مرکزی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Guatemala is in Central America.",
+        "persian": "گواتمالا در آمریکای مرکزی است."
+      }
+    ],
+    "miniContext": "Guatemala is in Central America.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "China",
+    "meaning": "چین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "China has a very long history.",
+        "persian": "چین تاریخ بسیار طولانی دارد."
+      }
+    ],
+    "miniContext": "China has a very long history.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Chinese",
+    "meaning": "چینی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We ate at a Chinese restaurant.",
+        "persian": "ما در یک رستوران چینی غذا خوردیم."
+      }
+    ],
+    "miniContext": "We ate at a Chinese restaurant.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "France",
+    "meaning": "فرانسه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are going to France this summer.",
+        "persian": "ما این تابستان به فرانسه می‌رویم."
+      }
+    ],
+    "miniContext": "We are going to France this summer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "French",
+    "meaning": "فرانسوی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is learning French.",
+        "persian": "او فرانسوی یاد می‌گیرد."
+      }
+    ],
+    "miniContext": "She is learning French.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "German",
+    "meaning": "آلمانی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He speaks German very well.",
+        "persian": "او آلمانی را خیلی خوب صحبت می‌کند."
+      }
+    ],
+    "miniContext": "He speaks German very well.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Germany",
+    "meaning": "آلمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was born in Germany.",
+        "persian": "او در آلمان متولد شد."
+      }
+    ],
+    "miniContext": "She was born in Germany.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Great Britain",
+    "meaning": "بریتانیای بزرگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Great Britain has many old castles.",
+        "persian": "بریتانیای بزرگ قلعه‌های قدیمی زیادی دارد."
+      }
+    ],
+    "miniContext": "Great Britain has many old castles.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Greece",
+    "meaning": "یونان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We spent our holiday in Greece.",
+        "persian": "ما تعطیلاتمان را در یونان گذراندیم."
+      }
+    ],
+    "miniContext": "We spent our holiday in Greece.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Greek",
+    "meaning": "یونانی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is learning Greek.",
+        "persian": "او یونانی یاد می‌گیرد."
+      }
+    ],
+    "miniContext": "She is learning Greek.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Hindi",
+    "meaning": "هندی (زبان)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Hindi at home.",
+        "persian": "او در خانه هندی صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Hindi at home.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Hungarian",
+    "meaning": "مجارستانی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is Hungarian.",
+        "persian": "او مجارستانی است."
+      }
+    ],
+    "miniContext": "She is Hungarian.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Hungary",
+    "meaning": "مجارستان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Budapest is the capital of Hungary.",
+        "persian": "بوداپست پایتخت مجارستان است."
+      }
+    ],
+    "miniContext": "Budapest is the capital of Hungary.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Ireland",
+    "meaning": "ایرلند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She lives in Ireland.",
+        "persian": "او در ایرلند زندگی می‌کند."
+      }
+    ],
+    "miniContext": "She lives in Ireland.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Italian",
+    "meaning": "ایتالیایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Italian.",
+        "persian": "او ایتالیایی صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Italian.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Italy",
+    "meaning": "ایتالیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visited Italy last year.",
+        "persian": "ما سال گذشته ایتالیا را دیدیم."
+      }
+    ],
+    "miniContext": "We visited Italy last year.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Korean",
+    "meaning": "کره‌ای",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is learning Korean.",
+        "persian": "او کره‌ای یاد می‌گیرد."
+      }
+    ],
+    "miniContext": "He is learning Korean.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "India",
+    "meaning": "هند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was born in India.",
+        "persian": "او در هند متولد شد."
+      }
+    ],
+    "miniContext": "He was born in India.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Indian",
+    "meaning": "هندی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She loves Indian food.",
+        "persian": "او غذای هندی را دوست دارد."
+      }
+    ],
+    "miniContext": "She loves Indian food.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Japan",
+    "meaning": "ژاپن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They traveled to Japan.",
+        "persian": "آنها به ژاپن سفر کردند."
+      }
+    ],
+    "miniContext": "They traveled to Japan.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Japanese",
+    "meaning": "ژاپنی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Japanese.",
+        "persian": "او ژاپنی صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Japanese.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "language",
+    "meaning": "زبان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "English is an easy language.",
+        "persian": "انگلیسی زبان آسانی است."
+      }
+    ],
+    "miniContext": "English is an easy language.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Latin America",
+    "meaning": "آمریکای لاتین",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He traveled around Latin America.",
+        "persian": "او در آمریکای لاتین سفر کرد."
+      }
+    ],
+    "miniContext": "He traveled around Latin America.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Mexican",
+    "meaning": "مکزیکی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We ate at a Mexican restaurant.",
+        "persian": "ما در یک رستوران مکزیکی غذا خوردیم."
+      }
+    ],
+    "miniContext": "We ate at a Mexican restaurant.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Mexico",
+    "meaning": "مکزیک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She went to Mexico last summer.",
+        "persian": "او تابستان گذشته به مکزیک رفت."
+      }
+    ],
+    "miniContext": "She went to Mexico last summer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Middle East",
+    "meaning": "خاورمیانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They live in the Middle East.",
+        "persian": "آنها در خاورمیانه زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "They live in the Middle East.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "nationality",
+    "meaning": "ملیت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is your nationality?",
+        "persian": "ملیت تو چیست؟"
+      }
+    ],
+    "miniContext": "What is your nationality?",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "North America",
+    "meaning": "آمریکای شمالی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Canada is in North America.",
+        "persian": "کانادا در آمریکای شمالی است."
+      }
+    ],
+    "miniContext": "Canada is in North America.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Northern Ireland",
+    "meaning": "ایرلند شمالی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was born in Northern Ireland.",
+        "persian": "او در ایرلند شمالی متولد شد."
+      }
+    ],
+    "miniContext": "She was born in Northern Ireland.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Poland",
+    "meaning": "لهستان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She was born in Poland.",
+        "persian": "او در لهستان به دنیا آمد."
+      }
+    ],
+    "miniContext": "She was born in Poland.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Polish",
+    "meaning": "لهستانی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Polish and English.",
+        "persian": "او لهستانی و انگلیسی صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Polish and English.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Portugal",
+    "meaning": "پرتغال (کشور)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We went to Portugal last summer.",
+        "persian": "ما تابستان گذشته به پرتغال رفتیم."
+      }
+    ],
+    "miniContext": "We went to Portugal last summer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Portuguese",
+    "meaning": "پرتغالی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is learning Portuguese.",
+        "persian": "او در حال یادگیری پرتغالی است."
+      }
+    ],
+    "miniContext": "He is learning Portuguese.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Russia",
+    "meaning": "روسیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Russia is a very large country.",
+        "persian": "روسیه کشوری بسیار بزرگ است."
+      }
+    ],
+    "miniContext": "Russia is a very large country.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Russian",
+    "meaning": "روسی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is learning Russian.",
+        "persian": "او در حال یادگیری روسی است."
+      }
+    ],
+    "miniContext": "She is learning Russian.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Saudi Arabia",
+    "meaning": "عربستان سعودی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My friend lives in Saudi Arabia.",
+        "persian": "دوست من در عربستان سعودی زندگی می‌کند."
+      }
+    ],
+    "miniContext": "My friend lives in Saudi Arabia.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Saudi",
+    "meaning": "سعودی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has a Saudi passport.",
+        "persian": "او یک گذرنامه سعودی دارد."
+      }
+    ],
+    "miniContext": "He has a Saudi passport.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Scotland",
+    "meaning": "اسکاتلند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Edinburgh is the capital of Scotland.",
+        "persian": "ادینبورگ پایتخت اسکاتلند است."
+      }
+    ],
+    "miniContext": "Edinburgh is the capital of Scotland.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "South America",
+    "meaning": "آمریکای جنوبی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brazil is a country in South America.",
+        "persian": "برزیل کشوری در آمریکای جنوبی است."
+      }
+    ],
+    "miniContext": "Brazil is a country in South America.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "South Korea",
+    "meaning": "کره جنوبی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My friend is from South Korea.",
+        "persian": "دوستم از کره جنوبی است."
+      }
+    ],
+    "miniContext": "My friend is from South Korea.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Spain",
+    "meaning": "اسپانیا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are going to Spain this summer.",
+        "persian": "ما این تابستان به اسپانیا می‌رویم."
+      }
+    ],
+    "miniContext": "We are going to Spain this summer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Spanish",
+    "meaning": "اسپانیایی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Spanish very well.",
+        "persian": "او اسپانیایی را خیلی خوب صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Spanish very well.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Swiss",
+    "meaning": "سوئیسی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love Swiss chocolate.",
+        "persian": "من شکلات سوئیسی را دوست دارم."
+      }
+    ],
+    "miniContext": "I love Swiss chocolate.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Switzerland",
+    "meaning": "سوئیس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Switzerland has beautiful mountains.",
+        "persian": "سوئیس کوه‌های زیبایی دارد."
+      }
+    ],
+    "miniContext": "Switzerland has beautiful mountains.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Thai",
+    "meaning": "تایلندی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I love Thai food.",
+        "persian": "من غذای تایلندی را دوست دارم."
+      }
+    ],
+    "miniContext": "I love Thai food.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Thailand",
+    "meaning": "تایلند",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We went to Thailand last year.",
+        "persian": "ما سال گذشته به تایلند رفتیم."
+      }
+    ],
+    "miniContext": "We went to Thailand last year.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Turkey",
+    "meaning": "ترکیه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My family went to Turkey last summer.",
+        "persian": "خانواده‌ام تابستان گذشته به ترکیه رفتند."
+      }
+    ],
+    "miniContext": "My family went to Turkey last summer.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Turkish",
+    "meaning": "ترکی؛ اهل ترکیه",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She speaks Turkish very well.",
+        "persian": "او ترکی را خیلی خوب صحبت می‌کند."
+      }
+    ],
+    "miniContext": "She speaks Turkish very well.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "UK",
+    "meaning": "بریتانیا (پادشاهی متحد)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She lives in the UK.",
+        "persian": "او در بریتانیا زندگی می‌کند."
+      }
+    ],
+    "miniContext": "She lives in the UK.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "United Kingdom",
+    "meaning": "پادشاهی متحد (بریتانیا)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The United Kingdom includes England, Scotland and Wales.",
+        "persian": "پادشاهی متحد شامل انگلستان، اسکاتلند و ولز است."
+      }
+    ],
+    "miniContext": "The United Kingdom includes England, Scotland and Wales.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "United States (of America)",
+    "meaning": "ایالات متحده آمریکا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He moved to the United States last year.",
+        "persian": "او سال گذشته به ایالات متحده نقل مکان کرد."
+      }
+    ],
+    "miniContext": "He moved to the United States last year.",
+    "icon": "🌐"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-35",
+    "word": "Wales",
+    "meaning": "ولز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My cousin lives in Wales.",
+        "persian": "پسرعموی من در ولز زندگی می‌کند."
+      }
+    ],
+    "miniContext": "My cousin lives in Wales.",
+    "icon": "🌐"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "freelance",
+    "meaning": "آزاد کار کردن، فریلنس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was a freelance designer for 10 years.",
+        "persian": "ده سال به‌صورت فریلنس طراح بودم."
+      }
+    ],
+    "miniContext": "I was a freelance designer for 10 years.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "accountable to sb",
+    "meaning": "پاسخگو بودن در برابر کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You are not accountable to anyone but yourself.",
+        "persian": "تو فقط به خودت پاسخگویی، نه به کسی دیگر."
+      }
+    ],
+    "miniContext": "You are not accountable to anyone but yourself.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "insight into sth",
+    "meaning": "درک عمیق و روشن از چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Working for several employers gives you insight into different companies.",
+        "persian": "کار کردن برای چند کارفرما درک عمیقی از شرکت‌های مختلف به تو می‌دهد."
+      }
+    ],
+    "miniContext": "Working for several employers gives you insight into different companies.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "be better off",
+    "meaning": "وضع مالی بهتری داشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You may be better off working freelance.",
+        "persian": "ممکن است با فریلنس‌کاری وضع مالی بهتری داشته باشی."
+      }
+    ],
+    "miniContext": "You may be better off working freelance.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "solely",
+    "meaning": "فقط، منحصراً",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You don't have to rely solely on one company.",
+        "persian": "مجبور نیستی فقط به یک شرکت متکی باشی."
+      }
+    ],
+    "miniContext": "You don't have to rely solely on one company.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "balance A and B",
+    "meaning": "بین دو چیز تعادل برقرار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Working from home makes it easier to balance work and family.",
+        "persian": "کار از خانه تعادل بین کار و خانواده را آسان‌تر می‌کند."
+      }
+    ],
+    "miniContext": "Working from home makes it easier to balance work and family.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "guarantee",
+    "meaning": "تضمین کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You don't have a guaranteed income.",
+        "persian": "درآمد تضمین‌شده‌ای نداری."
+      }
+    ],
+    "miniContext": "You don't have a guaranteed income.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "encounter",
+    "meaning": "با چیزی مواجه شدن (معمولا ناخوشایند)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You will encounter quiet periods and loneliness.",
+        "persian": "با دوره‌های کم‌کاری و تنهایی مواجه خواهی شد."
+      }
+    ],
+    "miniContext": "You will encounter quiet periods and loneliness.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "get in the way (of sth)",
+    "meaning": "مانع چیزی شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Work can get in the way of your home life.",
+        "persian": "کار می‌تواند مانع زندگی خانوادگی‌ات شود."
+      }
+    ],
+    "miniContext": "Work can get in the way of your home life.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "a degree of sth",
+    "meaning": "مقدار یا سطح مشخصی از چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "extent"
+    ],
+    "examples": [
+      {
+        "english": "Cooking requires a degree of skill.",
+        "persian": "آشپزی به مقداری مهارت نیاز دارد."
+      }
+    ],
+    "miniContext": "Cooking requires a degree of skill.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "foster",
+    "meaning": "تقویت کردن، رشد دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "encourage",
+      "promote"
+    ],
+    "examples": [
+      {
+        "english": "A common goal fosters team spirit.",
+        "persian": "هدف مشترک روحیه‌ی تیمی را تقویت می‌کند."
+      }
+    ],
+    "miniContext": "A common goal fosters team spirit.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "team spirit",
+    "meaning": "روحیه‌ی تیمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A common goal fosters team spirit.",
+        "persian": "هدف مشترک روحیه‌ی تیمی را تقویت می‌کند."
+      }
+    ],
+    "miniContext": "A common goal fosters team spirit.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "mutual",
+    "meaning": "متقابل، دوجانبه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mutual feedback is fulfilling.",
+        "persian": "بازخورد متقابل رضایت‌بخش است."
+      }
+    ],
+    "miniContext": "Mutual feedback is fulfilling.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "fulfilling",
+    "meaning": "رضایت‌بخش، معنادار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "rewarding"
+    ],
+    "examples": [
+      {
+        "english": "Collaboration and mutual feedback are fulfilling.",
+        "persian": "همکاری و بازخورد متقابل رضایت‌بخش هستند."
+      }
+    ],
+    "miniContext": "Collaboration and mutual feedback are fulfilling.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "diverse",
+    "meaning": "متنوع، گوناگون",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Bringing together diverse skills is more productive.",
+        "persian": "گردآوردن مهارت‌های متنوع بهره‌وری بیشتری دارد."
+      }
+    ],
+    "miniContext": "Bringing together diverse skills is more productive.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "fit in (with sb/sth)",
+    "meaning": "سازگار شدن، جا افتادن در گروه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If someone doesn't fit in, that can be disruptive.",
+        "persian": "اگر کسی جا نیفتد، می‌تواند برای تیم مخرب باشد."
+      }
+    ],
+    "miniContext": "If someone doesn't fit in, that can be disruptive.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "suppress",
+    "meaning": "سرکوب کردن، مانع رشد شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Teams can suppress individual enterprise and initiative.",
+        "persian": "تیم‌ها می‌توانند خلاقیت و ابتکار فردی را سرکوب کنند."
+      }
+    ],
+    "miniContext": "Teams can suppress individual enterprise and initiative.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "initiative",
+    "meaning": "ابتکار عمل، توانایی تصمیم‌گیری مستقل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Teams can suppress individual enterprise and initiative.",
+        "persian": "تیم‌ها می‌توانند خلاقیت و ابتکار فردی را سرکوب کنند."
+      }
+    ],
+    "miniContext": "Use your initiative to solve the problem.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-66",
+    "word": "get away with sth",
+    "meaning": "از زیر کاری در رفتن، بدون تنبیه فرار کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Individuals can sometimes get away with being lazy.",
+        "persian": "بعضی افراد گاهی می‌توانند از زیر کار تنبلی در بروند."
+      }
+    ],
+    "miniContext": "Individuals can sometimes get away with being lazy.",
+    "icon": "💼"
+  }
+]

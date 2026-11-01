@@ -1,0 +1,298 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "time flies",
+    "meaning": "زمان خیلی سریع می‌گذرد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Time flies when you get older.",
+        "persian": "وقتی پیرتر می‌شوی زمان خیلی سریع می‌گذرد."
+      }
+    ],
+    "miniContext": "Time flies when you get older.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "from time to time",
+    "meaning": "گاه‌گاهی، نه به‌طور منظم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "now and again"
+    ],
+    "examples": [
+      {
+        "english": "I get depressed from time to time.",
+        "persian": "گاه‌گاهی دچار افسردگی می‌شوم."
+      }
+    ],
+    "miniContext": "I get depressed from time to time.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "it's about time (that)",
+    "meaning": "دیگر وقتش رسیده که...",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's about time I started a pension.",
+        "persian": "دیگر وقتش رسیده که برای بازنشستگی پس‌انداز کنم."
+      }
+    ],
+    "miniContext": "It's about time I started a pension.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "at one time",
+    "meaning": "زمانی، در گذشته (ولی الان نه)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "At one time I wanted to be a journalist.",
+        "persian": "زمانی می‌خواستم روزنامه‌نگار شوم."
+      }
+    ],
+    "miniContext": "At one time I wanted to be a journalist.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "do sth at the last minute",
+    "meaning": "کاری را در آخرین لحظه انجام دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I do everything at the last minute.",
+        "persian": "من همه چیز را در آخرین لحظه انجام می‌دهم."
+      }
+    ],
+    "miniContext": "I do everything at the last minute.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "in retrospect",
+    "meaning": "با نگاه به گذشته، حالا که فکر می‌کنم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "looking back"
+    ],
+    "examples": [
+      {
+        "english": "In retrospect, I wish I'd gone to university.",
+        "persian": "حالا که فکر می‌کنم، کاش به دانشگاه رفته بودم."
+      }
+    ],
+    "miniContext": "In retrospect, I wish I'd gone to university.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "for the time being",
+    "meaning": "فعلا، برای مدت کوتاهی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "For the time being, I'm happy where I am.",
+        "persian": "فعلا از جایی که هستم راضی‌ام."
+      }
+    ],
+    "miniContext": "For the time being, I'm happy where I am.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "punctuality",
+    "meaning": "وقت‌شناسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think punctuality is a great virtue.",
+        "persian": "فکر می‌کنم وقت‌شناسی یک فضیلت بزرگ است."
+      }
+    ],
+    "miniContext": "I think punctuality is a great virtue.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "with hindsight",
+    "meaning": "با نگاه به گذشته (پس از وقوع اتفاق)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "With hindsight, I should've worked harder.",
+        "persian": "حالا که به گذشته نگاه می‌کنم، باید بیشتر کار می‌کردم."
+      }
+    ],
+    "miniContext": "With hindsight, I should've worked harder.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "vivid",
+    "meaning": "زنده و روشن (خاطره)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some people have very vivid memories of their childhood.",
+        "persian": "بعضی افراد خاطرات بسیار زنده‌ای از کودکی خود دارند."
+      }
+    ],
+    "miniContext": "Some people have very vivid memories of their childhood.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "recall",
+    "meaning": "به‌یاد آوردن (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They can recall events in extraordinary detail.",
+        "persian": "می‌توانند رویدادها را با جزئیات شگفت‌انگیزی به‌یاد بیاورند."
+      }
+    ],
+    "miniContext": "They can recall events in extraordinary detail.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "unforgettable",
+    "meaning": "فراموش‌نشدنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a few unforgettable memories.",
+        "persian": "چند خاطره‌ی فراموش‌نشدنی دارم."
+      }
+    ],
+    "miniContext": "I have a few unforgettable memories.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "slip (over/on sth)",
+    "meaning": "سر خوردن و افتادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I slipped and fell off a wall.",
+        "persian": "سر خوردم و از روی دیوار افتادم."
+      }
+    ],
+    "miniContext": "I slipped and fell off a wall.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "land",
+    "meaning": "فرود آمدن (پس از افتادن)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I landed on a four-inch nail.",
+        "persian": "روی یک میخ چهار اینچی فرود آمدم."
+      }
+    ],
+    "miniContext": "I landed on a four-inch nail.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "broadly speaking",
+    "meaning": "به‌طور کلی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "generally speaking",
+      "on the whole"
+    ],
+    "examples": [
+      {
+        "english": "Broadly speaking, I don't have many vivid memories.",
+        "persian": "به‌طور کلی، خاطرات زنده‌ی زیادی ندارم."
+      }
+    ],
+    "miniContext": "Broadly speaking, I don't have many vivid memories.",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "look back (on sth)",
+    "meaning": "به گذشته نگاه کردن، یادآوری کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When I look back on that period of my life...",
+        "persian": "وقتی به آن دوره از زندگی‌ام نگاه می‌کنم..."
+      }
+    ],
+    "miniContext": "When I look back on that period of my life...",
+    "icon": "⏳"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-74",
+    "word": "vague",
+    "meaning": "نامشخص، مبهم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most of my memories are quite vague.",
+        "persian": "بیشتر خاطراتم کاملا مبهم هستند."
+      }
+    ],
+    "miniContext": "Most of my memories are quite vague.",
+    "icon": "⏳"
+  }
+]

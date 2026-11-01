@@ -1,0 +1,334 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "ecstatic",
+    "meaning": "بسیار خوشحال و هیجان‌زده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "delighted",
+      "over the moon"
+    ],
+    "examples": [
+      {
+        "english": "I was ecstatic about getting the new job.",
+        "persian": "از گرفتن شغل جدید بی‌نهایت خوشحال بودم."
+      }
+    ],
+    "miniContext": "I was ecstatic about getting the new job.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "thrilled",
+    "meaning": "بسیار هیجان‌زده و خوشحال",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Lou was thrilled to win the competition.",
+        "persian": "لو از بردن مسابقه بسیار هیجان‌زده بود."
+      }
+    ],
+    "miniContext": "Lou was thrilled to win the competition.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "joy",
+    "meaning": "شادی، لذت زیاد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's always a joy to see the children.",
+        "persian": "دیدن بچه‌ها همیشه لذت‌بخش است."
+      }
+    ],
+    "miniContext": "It's always a joy to see the children.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "astonished",
+    "meaning": "بسیار شگفت‌زده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "astounded"
+    ],
+    "examples": [
+      {
+        "english": "I was astonished when they gave me the prize.",
+        "persian": "وقتی جایزه را به من دادند بسیار شگفت‌زده شدم."
+      }
+    ],
+    "miniContext": "I was astonished when they gave me the prize.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "shocked",
+    "meaning": "شوکه، تکان‌خورده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was shocked to hear she was so ill.",
+        "persian": "از شنیدن اینکه او این‌قدر بیمار است شوکه شدم."
+      }
+    ],
+    "miniContext": "I was shocked to hear she was so ill.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "devastated",
+    "meaning": "بسیار ناراحت و داغون",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "heartbroken"
+    ],
+    "examples": [
+      {
+        "english": "I was devastated when she left me.",
+        "persian": "وقتی او مرا ترک کرد، کاملاً داغون شدم."
+      }
+    ],
+    "miniContext": "I was devastated when she left me.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "desperate",
+    "meaning": "ناامید و حاضر به هر کاری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Alone, without food or money, Janie was desperate.",
+        "persian": "تنها و بدون غذا یا پول، جینی ناامید و درمانده بود."
+      }
+    ],
+    "miniContext": "Alone, without food or money, Janie was desperate.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "ashamed",
+    "meaning": "شرمنده، خجالت‌زده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He stole the money, but felt very ashamed of himself afterwards.",
+        "persian": "او پول را دزدید، اما بعد از آن خیلی از خودش شرمنده شد."
+      }
+    ],
+    "miniContext": "He stole the money, but felt very ashamed of himself afterwards.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "disgusted",
+    "meaning": "منزجر، بسیار ناراحت از چیز ناخوشایند",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We were disgusted by the way the children were treated.",
+        "persian": "از طرز رفتاری که با بچه‌ها می‌شد منزجر بودیم."
+      }
+    ],
+    "miniContext": "We were disgusted by the way the children were treated. It was awful.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "bottle sth up",
+    "meaning": "سرکوب کردن احساسات، نگفتن آنچه حس می‌کنی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Are you the kind of person who bottles up your emotions?",
+        "persian": "آیا تو جزو آدم‌هایی هستی که احساساتشان را سرکوب می‌کنند؟"
+      }
+    ],
+    "miniContext": "Are you the kind of person who bottles up your emotions?",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "handle",
+    "meaning": "مدیریت کردن، کنار آمدن با",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you find it difficult to handle intense feelings?",
+        "persian": "آیا برایت سخت است با احساسات شدید کنار بیایی؟"
+      }
+    ],
+    "miniContext": "Do you find it difficult to handle intense feelings?",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "intense",
+    "meaning": "شدید، قوی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you find it difficult to handle intense feelings?",
+        "persian": "آیا برایت سخت است با احساسات شدید کنار بیایی؟"
+      }
+    ],
+    "miniContext": "Do you find it difficult to handle intense feelings?",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "suppress",
+    "meaning": "سرکوب کردن (احساس)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Psychologists say that suppressing your emotions over a long period is often ineffective.",
+        "persian": "روان‌شناسان می‌گویند سرکوب کردن احساسات در طولانی‌مدت معمولاً بی‌اثر است."
+      }
+    ],
+    "miniContext": "Psychologists say that suppressing your emotions over a long period of time is often ineffective.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "reveal",
+    "meaning": "آشکار کردن، فاش کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "disclose"
+    ],
+    "examples": [
+      {
+        "english": "If you reveal too much about yourself, you could make yourself rather vulnerable.",
+        "persian": "اگر خیلی درباره خودت فاش کنی، ممکن است آسیب‌پذیر شوی."
+      }
+    ],
+    "miniContext": "Do you feel that if you reveal too much about yourself, you could make yourself rather vulnerable?",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "vulnerable",
+    "meaning": "آسیب‌پذیر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Revealing too much about yourself could make yourself rather vulnerable.",
+        "persian": "فاش کردن زیاد درباره خودت می‌تواند تو را آسیب‌پذیر کند."
+      }
+    ],
+    "miniContext": "If you reveal too much about yourself, you could make yourself rather vulnerable.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "worsen",
+    "meaning": "بدتر شدن یا کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Suppressing your emotions can worsen the situation.",
+        "persian": "سرکوب احساسات می‌تواند وضعیت را بدتر کند."
+      }
+    ],
+    "miniContext": "Suppressing your emotions over a long period of time can worsen the situation.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "severe",
+    "meaning": "شدید، وخیم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Donna has been suffering from a very severe depression.",
+        "persian": "دانا از افسردگی بسیار شدیدی رنج می‌برد."
+      }
+    ],
+    "miniContext": "It can even lead to severe anxiety and depression at a later stage.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "anxiety",
+    "meaning": "اضطراب، نگرانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Last year I suffered from a period of anxiety.",
+        "persian": "سال گذشته یک دوره اضطراب را تجربه کردم."
+      }
+    ],
+    "miniContext": "It can even lead to severe anxiety and depression at a later stage.",
+    "icon": "💓"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-18",
+    "word": "depression",
+    "meaning": "افسردگی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It can even lead to severe anxiety and depression at a later stage.",
+        "persian": "حتی می‌تواند در مراحل بعدی به اضطراب و افسردگی شدید منجر شود."
+      }
+    ],
+    "miniContext": "It can even lead to severe anxiety and depression at a later stage.",
+    "icon": "💓"
+  }
+]

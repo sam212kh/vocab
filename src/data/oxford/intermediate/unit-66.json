@@ -1,0 +1,261 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "figure (number)",
+    "meaning": "رقم، عدد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The latest figures show over 60% exercise.",
+        "persian": "آخرین ارقام نشان می‌دهد بیش از ۶۰٪ ورزش می‌کنند."
+      }
+    ],
+    "miniContext": "The latest figures show over 60% exercise.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "race",
+    "meaning": "مسابقه‌ی دو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The first games had one race of about 192 metres.",
+        "persian": "اولین بازی‌ها فقط یک مسابقه‌ی دوی حدود صد و نود و دو متر داشت."
+      }
+    ],
+    "miniContext": "The first games had one race of about 192 metres.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "take part (in sth)",
+    "meaning": "شرکت کردن (در چیزی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "participate"
+    ],
+    "examples": [
+      {
+        "english": "241 competitors took part in nine sports.",
+        "persian": "دویست و چهل‌ویک رقیب در نه رشته شرکت کردند."
+      }
+    ],
+    "miniContext": "241 competitors took part in nine sports.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "record (sport)",
+    "meaning": "رکورد",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She holds the record for the most Olympic medals.",
+        "persian": "او رکورد بیشترین مدال المپیک را دارد."
+      }
+    ],
+    "miniContext": "She holds the record for the most Olympic medals.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "medal",
+    "meaning": "مدال",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She won a silver medal.",
+        "persian": "او یک مدال نقره برد."
+      }
+    ],
+    "miniContext": "She won a silver medal.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "coach (verb)",
+    "meaning": "مربیگری کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She later coached the national team.",
+        "persian": "او بعدها تیم ملی را مربیگری کرد."
+      }
+    ],
+    "miniContext": "She later coached the national team.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "professional",
+    "meaning": "حرفه‌ای",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "amateur (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Professionals are not allowed to compete in Olympic boxing.",
+        "persian": "حرفه‌ای‌ها اجازه‌ی شرکت در بوکس المپیک را ندارند."
+      }
+    ],
+    "miniContext": "Professionals are not allowed to compete in Olympic boxing.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "competitor",
+    "meaning": "رقیب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are about 3,000 competitors in the modern Olympics.",
+        "persian": "در المپیک مدرن حدود سه هزار رقیب وجود دارد."
+      }
+    ],
+    "miniContext": "There are about 3,000 competitors in the modern Olympics.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "championship",
+    "meaning": "قهرمانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He won a medal at the European Championships.",
+        "persian": "او در مسابقات قهرمانی اروپا مدال برد."
+      }
+    ],
+    "miniContext": "He won a medal at the European Championships.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "tournament",
+    "meaning": "تورنمنت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a tennis tournament.",
+        "persian": "این یک تورنمنت تنیس است."
+      }
+    ],
+    "miniContext": "It's a tennis tournament.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "hold (an event)",
+    "meaning": "برگزار کردن (رویداد)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The World Cup is held every four years.",
+        "persian": "جام جهانی هر چهار سال یک‌بار برگزار می‌شود."
+      }
+    ],
+    "miniContext": "The World Cup is held every four years.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "qualify",
+    "meaning": "صلاحیت یافتن، راه یافتن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Countries have to qualify before the final tournament.",
+        "persian": "کشورها باید قبل از تورنمنت نهایی صلاحیت کسب کنند."
+      }
+    ],
+    "miniContext": "Countries have to qualify before the final tournament.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "host nation",
+    "meaning": "کشور میزبان",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Every country has to qualify, except for the host nation.",
+        "persian": "هر کشوری باید صلاحیت کسب کند، به جز کشور میزبان."
+      }
+    ],
+    "miniContext": "Every country has to qualify, except for the host nation.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "final (noun)",
+    "meaning": "فینال",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Germany won the final in 2014.",
+        "persian": "آلمان در سال ۲۰۱۴ فینال را برد."
+      }
+    ],
+    "miniContext": "Germany won the final in 2014.",
+    "icon": "🏟️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-66",
+    "word": "current (champions)",
+    "meaning": "فعلی (قهرمانان)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The current champions are France.",
+        "persian": "قهرمانان فعلی فرانسه هستند."
+      }
+    ],
+    "miniContext": "The current champions are France.",
+    "icon": "🏟️"
+  }
+]

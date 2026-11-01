@@ -1,0 +1,361 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "hay fever",
+    "meaning": "تب یونجه (آلرژی فصلی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I get a bit of hay fever every summer, but it's only a minor problem.",
+        "persian": "هر تابستان کمی تب یونجه می‌گیرم، اما مشکل جدی‌ای نیست."
+      }
+    ],
+    "miniContext": "Hay fever: an illness affecting the eyes, nose and throat, caused by breathing in pollen.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "pollen",
+    "meaning": "گرده گل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Hay fever is caused by breathing in pollen.",
+        "persian": "تب یونجه ناشی از استنشاق گرده گل است."
+      }
+    ],
+    "miniContext": "Hay fever: an illness affecting the eyes, nose and throat, caused by breathing in pollen.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "rash",
+    "meaning": "جوش و قرمزی پوستی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm allergic to prawns. I get a rash on my face if I eat just one.",
+        "persian": "به میگو حساسیت دارم. اگر فقط یکی بخورم روی صورتم جوش می‌زند."
+      }
+    ],
+    "miniContext": "A rash: an area of red spots commonly caused by an illness or an allergy.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "allergy",
+    "meaning": "آلرژی، حساسیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A friend of mine has a very serious allergy. If he eats peanuts, he has a bad reaction.",
+        "persian": "یکی از دوستانم آلرژی خیلی شدیدی دارد. اگر بادام‌زمینی بخورد واکنش بدی نشان می‌دهد."
+      }
+    ],
+    "miniContext": "An allergy: a condition that makes you ill when you eat, touch or breathe certain things.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "asthma",
+    "meaning": "آسم",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Asthma: a condition that gives people breathing difficulties.",
+        "persian": "آسم: بیماری‌ای که باعث مشکلات تنفسی می‌شود."
+      }
+    ],
+    "miniContext": "Asthma: a condition that gives people breathing difficulties.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "diabetes",
+    "meaning": "دیابت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The inability to control the level of sugar in the blood is diabetes, which is very serious.",
+        "persian": "ناتوانی در کنترل قند خون، دیابت نام دارد که بیماری جدی‌ای است."
+      }
+    ],
+    "miniContext": "Diabetes: a disease caused by an inability to control the level of sugar in the blood.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "cancer",
+    "meaning": "سرطان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's clear that smoking increases your risk of lung cancer, which is potentially fatal.",
+        "persian": "واضح است که سیگار کشیدن خطر سرطان ریه را که می‌تواند کشنده باشد افزایش می‌دهد."
+      }
+    ],
+    "miniContext": "Cancer: a very serious illness in which a lump grows in the body.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "heart attack",
+    "meaning": "سکته قلبی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you are seriously overweight, you are more at risk from a heart attack.",
+        "persian": "اگر اضافه‌وزن جدی داشته باشی، بیشتر در معرض خطر سکته قلبی هستی."
+      }
+    ],
+    "miniContext": "A heart attack: a sudden, serious illness when the heart stops working correctly.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "lump",
+    "meaning": "توده، غده زیر پوست",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Cancer is a very serious illness in which a lump grows in the body.",
+        "persian": "سرطان بیماری جدی‌ای است که در آن یک توده در بدن رشد می‌کند."
+      }
+    ],
+    "miniContext": "Cancer: a very serious illness in which a lump grows in the body.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "dissolve (in sth)",
+    "meaning": "حل شدن (در مایع)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "These tablets must be dissolved in water.",
+        "persian": "این قرص‌ها باید در آب حل شوند."
+      }
+    ],
+    "miniContext": "These tablets must be dissolved in water.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "short-term",
+    "meaning": "کوتاه‌مدت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "For short-term use only.",
+        "persian": "فقط برای مصرف کوتاه‌مدت."
+      }
+    ],
+    "miniContext": "For short-term use only.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "dose",
+    "meaning": "دوز، مقدار مصرف دارو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "dosage"
+    ],
+    "examples": [
+      {
+        "english": "Do not exceed the stated dose.",
+        "persian": "از دوز ذکرشده بیشتر مصرف نکن."
+      }
+    ],
+    "miniContext": "Do not exceed the stated dose.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "enclosed",
+    "meaning": "پیوست‌شده، همراه بسته",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please read the enclosed leaflet before taking these tablets.",
+        "persian": "لطفاً قبل از مصرف این قرص‌ها، بروشور پیوست را بخوانید."
+      }
+    ],
+    "miniContext": "Please read the enclosed leaflet before taking these tablets.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "leaflet",
+    "meaning": "بروشور، دفترچه راهنما",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Read the enclosed leaflet.",
+        "persian": "بروشور پیوست را بخوان."
+      }
+    ],
+    "miniContext": "Please read the enclosed leaflet before taking these tablets.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "side effect",
+    "meaning": "عوارض جانبی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Possible side effects may include stomach disorders.",
+        "persian": "عوارض جانبی احتمالی شامل مشکلات معده می‌شود."
+      }
+    ],
+    "miniContext": "Possible side effects may include stomach disorders.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "disorder",
+    "meaning": "اختلال، ناراحتی عضوی از بدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's got a stomach disorder.",
+        "persian": "او یک اختلال معده دارد."
+      }
+    ],
+    "miniContext": "Possible side effects may include stomach disorders.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "discard",
+    "meaning": "دور ریختن، کنار گذاشتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Discard any remaining solution 60 days after opening the bottle.",
+        "persian": "هر مقدار محلول باقی‌مانده را ۶۰ روز پس از باز کردن بطری دور بریز."
+      }
+    ],
+    "miniContext": "Discard any remaining solution 60 days after opening the bottle.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "persist",
+    "meaning": "ادامه داشتن (معمولا چیز ناخوشایند)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If symptoms persist, consult your doctor.",
+        "persian": "اگر علائم ادامه پیدا کرد، با پزشکتان مشورت کنید."
+      }
+    ],
+    "miniContext": "If symptoms persist, consult your doctor.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "consult",
+    "meaning": "مشورت کردن، مراجعه کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've had a persistent cough for weeks now; the doctor thinks I should consult a specialist.",
+        "persian": "چند هفته‌ای است سرفه مداوم دارم؛ دکتر فکر می‌کند باید به متخصص مراجعه کنم."
+      }
+    ],
+    "miniContext": "If symptoms persist, consult your doctor.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "expiry date",
+    "meaning": "تاریخ انقضا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do not use after the expiry date.",
+        "persian": "بعد از تاریخ انقضا استفاده نکنید."
+      }
+    ],
+    "miniContext": "Do not use after the expiry date.",
+    "icon": "🤒"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-14",
+    "word": "exceed",
+    "meaning": "بیشتر شدن، فراتر رفتن از حد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a powerful drug so I mustn't exceed the stated dose.",
+        "persian": "این دارو قوی است پس نباید از دوز ذکرشده تجاوز کنم."
+      }
+    ],
+    "miniContext": "Do not exceed the stated dose.",
+    "icon": "🤒"
+  }
+]

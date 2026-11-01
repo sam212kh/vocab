@@ -1,0 +1,191 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "crash helmet",
+    "meaning": "کلاه ایمنی (موتورسواری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Motor racing drivers wear a crash helmet.",
+        "persian": "رانندگان مسابقات موتوری کلاه ایمنی می‌پوشند."
+      }
+    ],
+    "miniContext": "Motor racing drivers wear a crash helmet.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "racket",
+    "meaning": "راکت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Tennis players hit the ball with a racket.",
+        "persian": "بازیکنان تنیس توپ را با راکت می‌زنند."
+      }
+    ],
+    "miniContext": "Tennis players hit the ball with a racket.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "referee",
+    "meaning": "داور",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Referees blow a whistle.",
+        "persian": "داوران سوت می‌زنند."
+      }
+    ],
+    "miniContext": "Referees blow a whistle.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "whistle",
+    "meaning": "سوت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The referee blew his whistle for the end of the game.",
+        "persian": "داور برای پایان بازی سوت زد."
+      }
+    ],
+    "miniContext": "The referee blew his whistle for the end of the game.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "bat",
+    "meaning": "چوب بیسبال",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You use a bat when you're playing baseball.",
+        "persian": "در بیسبال از چوب استفاده می‌کنی."
+      }
+    ],
+    "miniContext": "You use a bat when you're playing baseball.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "goalkeeper",
+    "meaning": "دروازه‌بان",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Goalkeepers try to stop the ball going into the net.",
+        "persian": "دروازه‌بان‌ها سعی می‌کنند مانع ورود توپ به دروازه شوند."
+      }
+    ],
+    "miniContext": "Goalkeepers try to stop the ball going into the net.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "supporter",
+    "meaning": "هوادار",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "fan"
+    ],
+    "examples": [
+      {
+        "english": "Supporters shout a lot during the match.",
+        "persian": "هواداران در طول بازی خیلی داد می‌زنند."
+      }
+    ],
+    "miniContext": "Supporters shout a lot during the match.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "stadium",
+    "meaning": "استادیوم",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The stadium holds 98,800 spectators.",
+        "persian": "استادیوم ظرفیت نود و هشت هزار و هشتصد تماشاگر را دارد."
+      }
+    ],
+    "miniContext": "The stadium holds 98,800 spectators.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "spectator",
+    "meaning": "تماشاگر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The stadium holds 98,800 spectators.",
+        "persian": "استادیوم ظرفیت نود و هشت هزار و هشتصد تماشاگر را دارد."
+      }
+    ],
+    "miniContext": "The stadium holds 98,800 spectators.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "court (sports)",
+    "meaning": "زمین بازی (تنیس و غیره)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Matches can be played indoors on this court.",
+        "persian": "بازی‌ها می‌توانند در این زمین سرپوشیده برگزار شوند."
+      }
+    ],
+    "miniContext": "Matches can be played indoors on this court.",
+    "icon": "⚽"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-67",
+    "word": "worldwide",
+    "meaning": "در سراسر جهان",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The Centre Court at Wimbledon is famous worldwide.",
+        "persian": "زمین مرکزی ویمبلدون در سراسر جهان مشهور است."
+      }
+    ],
+    "miniContext": "The Centre Court at Wimbledon is famous worldwide.",
+    "icon": "⚽"
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "stylish",
+    "meaning": "شیک",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Every stylish woman should have a capsule wardrobe.",
+        "persian": "هر زن شیکی باید یک کمد لباس اساسی داشته باشد."
+      }
+    ],
+    "miniContext": "Every stylish woman should have a capsule wardrobe.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "essential",
+    "meaning": "ضروری",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is an essential item.",
+        "persian": "این یک وسیله‌ی ضروری است."
+      }
+    ],
+    "miniContext": "This is an essential item.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "occasion",
+    "meaning": "مناسبت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need a new outfit for this occasion.",
+        "persian": "برای این مناسبت به لباس جدیدی نیاز دارم."
+      }
+    ],
+    "miniContext": "I need a new outfit for this occasion.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "element",
+    "meaning": "عنصر، بخش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What are the main elements of a capsule wardrobe?",
+        "persian": "عناصر اصلی یک کمد لباس اساسی چیست؟"
+      }
+    ],
+    "miniContext": "What are the main elements of a capsule wardrobe?",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "suit (verb)",
+    "meaning": "به کسی آمدن (لباس)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "That colour really suits you.",
+        "persian": "آن رنگ واقعا به تو می‌آید."
+      }
+    ],
+    "miniContext": "That colour really suits you.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "brand",
+    "meaning": "برند",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Buy good quality brands whenever you can.",
+        "persian": "هر وقت می‌توانی برندهای باکیفیت بخر."
+      }
+    ],
+    "miniContext": "Buy good quality brands whenever you can.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "smart",
+    "meaning": "شیک و مرتب",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "These colours look smart and are easy to match.",
+        "persian": "این رنگ‌ها شیک به نظر می‌رسند و ست کردنشان راحت است."
+      }
+    ],
+    "miniContext": "These colours look smart and are easy to match.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "match (verb)",
+    "meaning": "ست شدن، هماهنگ بودن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her bag matches her shoes.",
+        "persian": "کیف او با کفش‌هایش ست است."
+      }
+    ],
+    "miniContext": "Her bag matches her shoes.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "outfit",
+    "meaning": "سرتاسر لباس، ست لباس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need a new outfit for work.",
+        "persian": "به یک ست لباس جدید برای کار نیاز دارم."
+      }
+    ],
+    "miniContext": "I need a new outfit for work.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "in fashion",
+    "meaning": "مد روز",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "out of fashion (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Long skirts are in fashion now.",
+        "persian": "دامن‌های بلند الان مد روز هستند."
+      }
+    ],
+    "miniContext": "Long skirts are in fashion now.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "poor quality",
+    "meaning": "کیفیت پایین",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "high/good quality (opp)"
+    ],
+    "examples": [
+      {
+        "english": "I don't understand why people buy such poor quality clothes.",
+        "persian": "نمی‌فهمم چرا مردم لباس با کیفیت این‌قدر پایین می‌خرند."
+      }
+    ],
+    "miniContext": "I don't understand why people buy such poor quality clothes.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "trade",
+    "meaning": "تجارت، صنعت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hate the fashion trade.",
+        "persian": "من از صنعت مد متنفرم."
+      }
+    ],
+    "miniContext": "I hate the fashion trade.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "profit",
+    "meaning": "سود",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They don't make any profit on a £5 dress.",
+        "persian": "آن‌ها از یک لباس پنج‌پوندی هیچ سودی نمی‌برند."
+      }
+    ],
+    "miniContext": "They don't make any profit on a £5 dress.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "aim to do sth",
+    "meaning": "قصد انجام کاری را داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're aiming to attract more consumers.",
+        "persian": "آن‌ها قصد دارند مصرف‌کنندگان بیشتری را جذب کنند."
+      }
+    ],
+    "miniContext": "They're aiming to attract more consumers.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "attract",
+    "meaning": "جذب کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're aiming to attract more consumers to their website.",
+        "persian": "آن‌ها می‌خواهند مصرف‌کنندگان بیشتری را به سایتشان جذب کنند."
+      }
+    ],
+    "miniContext": "They're aiming to attract more consumers to their website.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "consumer",
+    "meaning": "مصرف‌کننده",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Consumers are spending less on clothes now.",
+        "persian": "مصرف‌کنندگان الان کمتر روی لباس خرج می‌کنند."
+      }
+    ],
+    "miniContext": "Consumers are spending less on clothes now.",
+    "icon": "👗"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "a waste of money",
+    "meaning": "اتلاف پول",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Designer labels are a waste of money.",
+        "persian": "برندهای طراح اتلاف پول هستند."
+      }
+    ],
+    "miniContext": "Designer labels are a waste of money.",
+    "icon": "💰"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-28",
+    "word": "casual",
+    "meaning": "غیررسمی، راحتی",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I only buy casual clothes.",
+        "persian": "من فقط لباس‌های غیررسمی می‌خرم."
+      }
+    ],
+    "miniContext": "I only buy casual clothes.",
+    "icon": "👗"
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "definition",
+    "meaning": "تعریف",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The dictionary gives a clear definition of the word.",
+        "persian": "فرهنگ لغت تعریف واضحی از آن کلمه ارائه می‌دهد."
+      }
+    ],
+    "miniContext": "The dictionary gives a clear definition of the word.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "provide",
+    "meaning": "فراهم کردن، ارائه دادن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The dictionary provides examples to show how a word is used.",
+        "persian": "فرهنگ لغت مثال‌هایی برای نشان دادن کاربرد کلمه ارائه می‌دهد."
+      }
+    ],
+    "miniContext": "The dictionary provides examples to show how a word is used.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "avoid doing sth",
+    "meaning": "از انجام کاری پرهیز کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Try to avoid making mistakes in your essay.",
+        "persian": "سعی کن از اشتباه کردن در انشایت پرهیز کنی."
+      }
+    ],
+    "miniContext": "Try to avoid making mistakes in your essay.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "idiom",
+    "meaning": "اصطلاح",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "'You can't win' is a common idiom.",
+        "persian": "«You can't win» یک اصطلاح رایج است."
+      }
+    ],
+    "miniContext": "'You can't win' is a common idiom.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "entry",
+    "meaning": "مدخل (در فرهنگ لغت)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are three dictionary entries on this page.",
+        "persian": "در این صفحه سه مدخل فرهنگ لغت وجود دارد."
+      }
+    ],
+    "miniContext": "There are three dictionary entries on this page.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "symbol",
+    "meaning": "نماد، نشانه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Phonetic symbols help with pronunciation.",
+        "persian": "نمادهای آوایی به تلفظ کمک می‌کنند."
+      }
+    ],
+    "miniContext": "Phonetic symbols help with pronunciation.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "syllable",
+    "meaning": "هجا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The word 'prefer' has two syllables.",
+        "persian": "کلمه‌ی prefer دو هجا دارد."
+      }
+    ],
+    "miniContext": "The word 'prefer' has two syllables.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "related (to sth)",
+    "meaning": "مرتبط (با چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A dictionary can teach you related words.",
+        "persian": "فرهنگ لغت می‌تواند کلمات مرتبط را هم به تو یاد بدهد."
+      }
+    ],
+    "miniContext": "A dictionary can teach you related words.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "build sth",
+    "meaning": "گسترش دادن، ساختن (واژگان)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Reading helps you build your vocabulary.",
+        "persian": "مطالعه به گسترش واژگانت کمک می‌کند."
+      }
+    ],
+    "miniContext": "Reading helps you build your vocabulary.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "style",
+    "meaning": "سبک (نوشتاری یا گفتاری)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The dictionary tells you if a word is formal or informal in style.",
+        "persian": "فرهنگ لغت به تو می‌گوید سبک یک کلمه رسمی است یا غیررسمی."
+      }
+    ],
+    "miniContext": "The dictionary tells you if a word is formal or informal in style.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "for instance",
+    "meaning": "برای مثال",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "for example"
+    ],
+    "examples": [
+      {
+        "english": "You can use a dictionary for instance to check pronunciation.",
+        "persian": "می‌توانی برای مثال از فرهنگ لغت برای چک کردن تلفظ استفاده کنی."
+      }
+    ],
+    "miniContext": "You can use a dictionary for instance to check pronunciation.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "slang",
+    "meaning": "زبان عامیانه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "'Guy' is an informal word, almost slang.",
+        "persian": "کلمه‌ی guy یک کلمه‌ی غیررسمی و نزدیک به زبان عامیانه است."
+      }
+    ],
+    "miniContext": "'Guy' is an informal word, almost slang.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "stress",
+    "meaning": "تکیه (روی هجا)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The stress is on the first syllable.",
+        "persian": "تکیه روی هجای اول است."
+      }
+    ],
+    "miniContext": "The stress is on the first syllable.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "emphasize",
+    "meaning": "تاکید کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't emphasize every word in a sentence.",
+        "persian": "روی هر کلمه‌ی جمله تاکید نکن."
+      }
+    ],
+    "miniContext": "Don't emphasize every word in a sentence.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "fault",
+    "meaning": "تقصیر، عیب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It wasn't my fault; the other driver pulled out in front of me.",
+        "persian": "تقصیر من نبود؛ راننده‌ی دیگر جلوی من پیچید."
+      }
+    ],
+    "miniContext": "It wasn't my fault; the other driver pulled out in front of me.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "error",
+    "meaning": "خطا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "mistake"
+    ],
+    "examples": [
+      {
+        "english": "A spelling error can confuse the reader.",
+        "persian": "یک خطای املایی می‌تواند خواننده را گیج کند."
+      }
+    ],
+    "miniContext": "A spelling error can confuse the reader.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-3",
+    "word": "by mistake",
+    "meaning": "اشتباهی، سهوا",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He shot the wrong man by mistake.",
+        "persian": "او اشتباهی به فرد اشتباهی شلیک کرد."
+      }
+    ],
+    "miniContext": "He shot the wrong man by mistake.",
+    "icon": "📖"
+  }
+]

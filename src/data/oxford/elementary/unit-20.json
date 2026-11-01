@@ -1,0 +1,193 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "above",
+    "meaning": "بالای",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [
+      "over"
+    ],
+    "examples": [
+      {
+        "english": "The lamp is above the table.",
+        "persian": "چراغ بالای میز است."
+      }
+    ],
+    "miniContext": "The lamp is above the table.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "at (a place)",
+    "meaning": "در (مکان)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She is at the bus stop.",
+        "persian": "او در ایستگاه اتوبوس است."
+      }
+    ],
+    "miniContext": "She is at the bus stop.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "behind",
+    "meaning": "پشت",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The cat is hiding behind the sofa.",
+        "persian": "گربه پشت مبل پنهان شده است."
+      }
+    ],
+    "miniContext": "The cat is hiding behind the sofa.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "below",
+    "meaning": "پایین‌تر از",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [
+      "under"
+    ],
+    "examples": [
+      {
+        "english": "The temperature is below zero.",
+        "persian": "دما پایین‌تر از صفر است."
+      }
+    ],
+    "miniContext": "The temperature is below zero.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "between",
+    "meaning": "بین",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop is between the bank and the café.",
+        "persian": "مغازه بین بانک و کافه است."
+      }
+    ],
+    "miniContext": "The shop is between the bank and the café.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "in (a place)",
+    "meaning": "در، داخل یک مکان",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The keys are in the kitchen.",
+        "persian": "کلیدها در آشپزخانه هستند."
+      }
+    ],
+    "miniContext": "The keys are in the kitchen.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "in (something with walls or sides)",
+    "meaning": "داخل چیزی با دیوار یا لبه",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is some water in the bottle.",
+        "persian": "مقداری آب داخل بطری است."
+      }
+    ],
+    "miniContext": "There is some water in the bottle.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "in (a big area)",
+    "meaning": "در یک منطقه بزرگ",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They live in the countryside.",
+        "persian": "آنها در روستا زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "They live in the countryside.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "in front of sth",
+    "meaning": "جلوی چیزی",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The car is in front of the house.",
+        "persian": "ماشین جلوی خانه است."
+      }
+    ],
+    "miniContext": "The car is in front of the house.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "near",
+    "meaning": "نزدیک",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The shop is near my house.",
+        "persian": "مغازه نزدیک خانه من است."
+      }
+    ],
+    "miniContext": "The shop is near my house.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-20",
+    "word": "next to",
+    "meaning": "کنار",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bank is next to the shop.",
+        "persian": "بانک کنار مغازه است."
+      }
+    ],
+    "miniContext": "The bank is next to the shop.",
+    "icon": "🧭"
+  }
+]

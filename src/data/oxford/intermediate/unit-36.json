@@ -1,0 +1,427 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "concentrate on sth",
+    "meaning": "روی چیزی تمرکز کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Let me concentrate on this book.",
+        "persian": "بگذار روی این کتاب تمرکز کنم."
+      }
+    ],
+    "miniContext": "Let me concentrate on this book.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "depend on sb/sth",
+    "meaning": "به کسی/چیزی وابسته بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Martha still depends on her parents a lot.",
+        "persian": "مارتا هنوز خیلی به والدینش وابسته است."
+      }
+    ],
+    "miniContext": "Martha still depends on her parents a lot.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "rely on sb/sth",
+    "meaning": "روی کسی/چیزی حساب کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can rely on him for help.",
+        "persian": "می‌توانی روی کمک او حساب کنی."
+      }
+    ],
+    "miniContext": "You can rely on him for help.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "believe in sth",
+    "meaning": "به چیزی اعتقاد داشتن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you believe in ghosts?",
+        "persian": "به ارواح اعتقاد داری؟"
+      }
+    ],
+    "miniContext": "Do you believe in ghosts?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "succeed in (doing) sth",
+    "meaning": "در کاری موفق شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He succeeded in passing all his exams.",
+        "persian": "او در قبولی تمام امتحاناتش موفق شد."
+      }
+    ],
+    "miniContext": "He succeeded in passing all his exams.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "participate in sth",
+    "meaning": "در چیزی مشارکت کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I didn't want to participate in the discussion.",
+        "persian": "نمی‌خواستم در آن بحث مشارکت کنم."
+      }
+    ],
+    "miniContext": "I didn't want to participate in the discussion.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "apologize for sth",
+    "meaning": "بابت چیزی عذرخواهی کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I apologized for being late.",
+        "persian": "بابت دیر آمدنم عذرخواهی کردم."
+      }
+    ],
+    "miniContext": "I apologized for being late.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "apply for sth",
+    "meaning": "برای چیزی درخواست دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm going to apply for that job.",
+        "persian": "می‌خواهم برای آن شغل درخواست بدهم."
+      }
+    ],
+    "miniContext": "I'm going to apply for that job.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "vote for sb",
+    "meaning": "به کسی رای دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who did you vote for in the last election?",
+        "persian": "در انتخابات آخر به چه کسی رای دادی؟"
+      }
+    ],
+    "miniContext": "Who did you vote for in the last election?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "suffer from sth",
+    "meaning": "از چیزی رنج بردن (بیماری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Both my brothers suffer from migraines.",
+        "persian": "هر دو برادرم از میگرن رنج می‌برند."
+      }
+    ],
+    "miniContext": "Both my brothers suffer from migraines.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "benefit from sth",
+    "meaning": "از چیزی سود بردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who will benefit from the changes in the law?",
+        "persian": "چه کسی از این تغییرات قانونی سود خواهد برد؟"
+      }
+    ],
+    "miniContext": "Who will benefit from the changes in the law?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "prevent sb from (doing) sth",
+    "meaning": "مانع کسی شدن (از انجام کاری)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He locked the door, and that prevented us from leaving.",
+        "persian": "او در را قفل کرد و این مانع رفتن ما شد."
+      }
+    ],
+    "miniContext": "He locked the door, and that prevented us from leaving.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "care about sth/sb",
+    "meaning": "به چیزی/کسی اهمیت دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He doesn't care about other people.",
+        "persian": "او به دیگران اهمیت نمی‌دهد."
+      }
+    ],
+    "miniContext": "He doesn't care about other people.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "complain about sth",
+    "meaning": "درباره‌ی چیزی شکایت کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had to complain about the food.",
+        "persian": "مجبور شدیم درباره‌ی غذا شکایت کنیم."
+      }
+    ],
+    "miniContext": "We had to complain about the food.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "dream about sth/sb",
+    "meaning": "درباره‌ی چیزی/کسی خواب دیدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I often dream about my dog.",
+        "persian": "اغلب خواب سگم را می‌بینم."
+      }
+    ],
+    "miniContext": "I often dream about my dog.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "worry about sth",
+    "meaning": "نگران چیزی بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ava is worried about her brother.",
+        "persian": "آوا نگران برادرش است."
+      }
+    ],
+    "miniContext": "Ava is worried about her brother.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "belong to sb",
+    "meaning": "متعلق به کسی بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Does this book belong to anyone?",
+        "persian": "این کتاب متعلق به کسی هست؟"
+      }
+    ],
+    "miniContext": "Does this book belong to anyone?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "listen to sth/sb",
+    "meaning": "به چیزی/کسی گوش دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you ever listen to the radio?",
+        "persian": "اصلا به رادیو گوش می‌دهی؟"
+      }
+    ],
+    "miniContext": "Do you ever listen to the radio?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "refer to sb/sth",
+    "meaning": "به کسی/چیزی اشاره کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was referring to his old science teacher.",
+        "persian": "او داشت به معلم علوم قدیمش اشاره می‌کرد."
+      }
+    ],
+    "miniContext": "He was referring to his old science teacher.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "smell of sth",
+    "meaning": "بوی چیزی دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This soap smells of honey.",
+        "persian": "این صابون بوی عسل می‌دهد."
+      }
+    ],
+    "miniContext": "This soap smells of honey.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "consist of sth",
+    "meaning": "از چیزی تشکیل شدن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The book consists of three sections.",
+        "persian": "کتاب از سه بخش تشکیل شده است."
+      }
+    ],
+    "miniContext": "The book consists of three sections.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "taste of sth",
+    "meaning": "طعم چیزی را دادن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This soup tastes of cheese.",
+        "persian": "این سوپ طعم پنیر می‌دهد."
+      }
+    ],
+    "miniContext": "This soup tastes of cheese.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "compare sb/sth with sb/sth",
+    "meaning": "کسی/چیزی را با کسی/چیزی مقایسه کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can't compare dogs with cats.",
+        "persian": "نمی‌توان سگ‌ها را با گربه‌ها مقایسه کرد."
+      }
+    ],
+    "miniContext": "You can't compare dogs with cats.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "agree with sb",
+    "meaning": "با کسی موافق بودن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Does the group always agree with you?",
+        "persian": "آیا گروه همیشه با تو موافق است؟"
+      }
+    ],
+    "miniContext": "Does the group always agree with you?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-36",
+    "word": "argue with sb",
+    "meaning": "با کسی بحث و جدل کردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I argued with my brother.",
+        "persian": "با برادرم بحث و جدل کردم."
+      }
+    ],
+    "miniContext": "I argued with my brother.",
+    "icon": "🔤"
+  }
+]

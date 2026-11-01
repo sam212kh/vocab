@@ -1,0 +1,176 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "alternative (to sth)",
+    "meaning": "گزینه‌ی جایگزین",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is there an alternative to prison for less serious crime?",
+        "persian": "آیا برای جرم‌های کم‌اهمیت‌تر گزینه‌ی جایگزین به جای زندان وجود دارد؟"
+      }
+    ],
+    "miniContext": "Is there an alternative to prison for less serious crime?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "experience of sth",
+    "meaning": "تجربه‌ی چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have experience of working abroad?",
+        "persian": "آیا تجربه‌ی کار کردن در خارج از کشور داری؟"
+      }
+    ],
+    "miniContext": "Do you have experience of working abroad?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "rise in sth",
+    "meaning": "افزایش در چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "fall in sth (opp)"
+    ],
+    "examples": [
+      {
+        "english": "What do you think about the rise in the number of women in politics?",
+        "persian": "درباره‌ی افزایش تعداد زنان در سیاست چه فکر می‌کنی؟"
+      }
+    ],
+    "miniContext": "What do you think about the rise in the number of women in politics?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "advantage of sth",
+    "meaning": "مزیت چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "disadvantage (opp)"
+    ],
+    "examples": [
+      {
+        "english": "What are the advantages of living in a big city?",
+        "persian": "مزیت‌های زندگی در یک شهر بزرگ چیست؟"
+      }
+    ],
+    "miniContext": "What are the advantages of living in a big city?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "respect for sb/sth",
+    "meaning": "احترام به کسی/چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Young people should have more respect for older people.",
+        "persian": "جوانان باید احترام بیشتری برای افراد مسن‌تر قائل باشند."
+      }
+    ],
+    "miniContext": "Young people should have more respect for older people.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "need for sth",
+    "meaning": "نیاز به چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is there a need for more and better roads?",
+        "persian": "آیا نیاز به جاده‌های بیشتر و بهتری هست؟"
+      }
+    ],
+    "miniContext": "Is there a need for more and better roads?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "connection between A and B",
+    "meaning": "ارتباط بین الف و ب",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is the connection between drugs and crime?",
+        "persian": "ارتباط بین مواد مخدر و جرم چیست؟"
+      }
+    ],
+    "miniContext": "What is the connection between drugs and crime?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "cause of sth",
+    "meaning": "علت چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What is the main cause of poverty in our society?",
+        "persian": "علت اصلی فقر در جامعه‌ی ما چیست؟"
+      }
+    ],
+    "miniContext": "What is the main cause of poverty in our society?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "poverty",
+    "meaning": "فقر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A lot of people are living in poverty.",
+        "persian": "افراد زیادی در فقر زندگی می‌کنند."
+      }
+    ],
+    "miniContext": "A lot of people are living in poverty.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-37",
+    "word": "doubt about sth",
+    "meaning": "تردید درباره‌ی چیزی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have any doubts about the safety of the food?",
+        "persian": "آیا درباره‌ی ایمنی غذا تردیدی داری؟"
+      }
+    ],
+    "miniContext": "Do you have any doubts about the safety of the food?",
+    "icon": "🔤"
+  }
+]

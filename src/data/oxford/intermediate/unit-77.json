@@ -1,0 +1,195 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "hairdresser",
+    "meaning": "آرایشگر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I asked the hairdresser not to cut too much off.",
+        "persian": "از آرایشگر خواستم زیاد مو کوتاه نکند."
+      }
+    ],
+    "miniContext": "I asked the hairdresser not to cut too much off.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "mechanic",
+    "meaning": "مکانیک",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The mechanic had a look at the car.",
+        "persian": "مکانیک نگاهی به ماشین انداخت."
+      }
+    ],
+    "miniContext": "The mechanic had a look at the car.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "photographer",
+    "meaning": "عکاس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've always been interested in photography.",
+        "persian": "من همیشه به عکاسی علاقه داشته‌ام."
+      }
+    ],
+    "miniContext": "I've always been interested in photography.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "chemist",
+    "meaning": "داروساز",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "pharmacist"
+    ],
+    "examples": [
+      {
+        "english": "I asked the chemist to recommend something.",
+        "persian": "از داروساز خواستم چیزی پیشنهاد بدهد."
+      }
+    ],
+    "miniContext": "I asked the chemist to recommend something.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "travel agent",
+    "meaning": "مشاور گردشگری",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The travel agent talked to us about holidays.",
+        "persian": "مشاور گردشگری درباره‌ی تعطیلات با ما صحبت کرد."
+      }
+    ],
+    "miniContext": "The travel agent talked to us about holidays.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "estate agent",
+    "meaning": "مشاور املاک",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The estate agent showed us several flats.",
+        "persian": "مشاور املاک چند آپارتمان به ما نشان داد."
+      }
+    ],
+    "miniContext": "The estate agent showed us several flats.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "importer",
+    "meaning": "واردکننده",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "exporter (opp)"
+    ],
+    "examples": [
+      {
+        "english": "I've been an exporter for years.",
+        "persian": "من سال‌هاست صادرکننده هستم."
+      }
+    ],
+    "miniContext": "I've been an exporter for years.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "duty",
+    "meaning": "وظیفه‌ی شغلی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "One of my main duties is to greet customers.",
+        "persian": "یکی از وظایف اصلی‌ام خوشامدگویی به مشتریان است."
+      }
+    ],
+    "miniContext": "One of my main duties is to greet customers.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "in charge (of sth/sb)",
+    "meaning": "مسئول (چیزی/کسی)",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "responsible for"
+    ],
+    "examples": [
+      {
+        "english": "I'm in charge of customer bookings.",
+        "persian": "من مسئول رزروهای مشتریان هستم."
+      }
+    ],
+    "miniContext": "I'm in charge of customer bookings.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "booking",
+    "meaning": "رزرو",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I deal with customer bookings on the phone.",
+        "persian": "من رزروهای مشتریان را از طریق تلفن انجام می‌دهم."
+      }
+    ],
+    "miniContext": "I deal with customer bookings on the phone.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-77",
+    "word": "hire",
+    "meaning": "اجاره کردن (کوتاه‌مدت)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Organizations sometimes want to hire our pool.",
+        "persian": "گاهی سازمان‌ها می‌خواهند استخرمان را اجاره کنند."
+      }
+    ],
+    "miniContext": "Organizations sometimes want to hire our pool.",
+    "icon": "💼"
+  }
+]

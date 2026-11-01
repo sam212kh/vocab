@@ -1,0 +1,242 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "claim",
+    "meaning": "ادعا کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Robert Peary claimed he was the first to reach the North Pole.",
+        "persian": "رابرت پیری ادعا کرد اولین نفری بود که به قطب شمال رسید."
+      }
+    ],
+    "miniContext": "Robert Peary claimed he was the first to reach the North Pole.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "challenge (verb)",
+    "meaning": "زیر سوال بردن، به چالش کشیدن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Later, that claim was challenged.",
+        "persian": "بعدا آن ادعا به چالش کشیده شد."
+      }
+    ],
+    "miniContext": "Later, that claim was challenged.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "lead (an expedition)",
+    "meaning": "رهبری کردن (یک اکسپدیشن)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Amundsen led the first expedition to reach the South Pole.",
+        "persian": "آموندسن اولین اکسپدیشن به قطب جنوب را رهبری کرد."
+      }
+    ],
+    "miniContext": "Amundsen led the first expedition to reach the South Pole.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "expedition",
+    "meaning": "اکسپدیشن، سفر اکتشافی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They went on an expedition to the South Pole.",
+        "persian": "آن‌ها به یک اکسپدیشن به قطب جنوب رفتند."
+      }
+    ],
+    "miniContext": "They went on an expedition to the South Pole.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "develop (a theory)",
+    "meaning": "توسعه دادن (یک نظریه)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Einstein developed his theory over a decade.",
+        "persian": "اینشتین نظریه‌اش را طی یک دهه توسعه داد."
+      }
+    ],
+    "miniContext": "Einstein developed his theory over a decade.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "decade",
+    "meaning": "دهه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He developed the theory over a decade.",
+        "persian": "او نظریه را طی یک دهه توسعه داد."
+      }
+    ],
+    "miniContext": "He developed the theory over a decade.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "gain independence",
+    "meaning": "استقلال به دست آوردن",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "become independent"
+    ],
+    "examples": [
+      {
+        "english": "India gained independence in 1947.",
+        "persian": "هند در سال ۱۹۴۷ استقلال به دست آورد."
+      }
+    ],
+    "miniContext": "India gained independence in 1947.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "discover",
+    "meaning": "کشف کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Alexander Fleming discovered penicillin.",
+        "persian": "الکساندر فلمینگ پنی‌سیلین را کشف کرد."
+      }
+    ],
+    "miniContext": "Alexander Fleming discovered penicillin.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "invent",
+    "meaning": "اختراع کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Charles Babbage invented the first mechanical computer.",
+        "persian": "چارلز بابیج اولین رایانه‌ی مکانیکی را اختراع کرد."
+      }
+    ],
+    "miniContext": "Charles Babbage invented the first mechanical computer.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "available",
+    "meaning": "در دسترس",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The World Wide Web became available to the public in 1991.",
+        "persian": "وب جهانی در سال ۱۹۹۱ در دسترس عموم قرار گرفت."
+      }
+    ],
+    "miniContext": "The World Wide Web became available to the public in 1991.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "release (sb)",
+    "meaning": "آزاد کردن (کسی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Nelson Mandela was released from prison in 1990.",
+        "persian": "نلسون ماندلا در سال ۱۹۹۰ از زندان آزاد شد."
+      }
+    ],
+    "miniContext": "Nelson Mandela was released from prison in 1990.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "republic",
+    "meaning": "جمهوری",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Turkey became a republic in 1923.",
+        "persian": "ترکیه در سال ۱۹۲۳ جمهوری شد."
+      }
+    ],
+    "miniContext": "Turkey became a republic in 1923.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "president",
+    "meaning": "رئیس‌جمهور",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mandela later became president of South Africa.",
+        "persian": "ماندلا بعدها رئیس‌جمهور آفریقای جنوبی شد."
+      }
+    ],
+    "miniContext": "Mandela later became president of South Africa.",
+    "icon": "📜"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-53",
+    "word": "nuclear",
+    "meaning": "هسته‌ای",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was an explosion at the Chernobyl nuclear power station.",
+        "persian": "انفجاری در نیروگاه هسته‌ای چرنوبیل رخ داد."
+      }
+    ],
+    "miniContext": "There was an explosion at the Chernobyl nuclear power station.",
+    "icon": "📜"
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "identical",
+    "meaning": "کاملا یکسان",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Boss and Sam are almost identical.",
+        "persian": "باس و سم تقریبا کاملا یکسان هستند."
+      }
+    ],
+    "miniContext": "Boss and Sam are almost identical.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "except (for)",
+    "meaning": "به جز",
+    "level": "Intermediate",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're similar, except for their colour.",
+        "persian": "آن‌ها شبیه هم هستند، به جز رنگشان."
+      }
+    ],
+    "miniContext": "They're similar, except for their colour.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "similar (to sb/sth)",
+    "meaning": "شبیه (به کسی/چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Jake and Boss are similar.",
+        "persian": "جیک و باس شبیه هم هستند."
+      }
+    ],
+    "miniContext": "Jake and Boss are similar.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "unlike",
+    "meaning": "برخلاف",
+    "level": "Intermediate",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Unlike Boss, Jake has small ears.",
+        "persian": "برخلاف باس، جیک گوش‌های کوچکی دارد."
+      }
+    ],
+    "miniContext": "Unlike Boss, Jake has small ears.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "alike",
+    "meaning": "شبیه هم",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In character, none of them are alike.",
+        "persian": "از نظر شخصیت، هیچکدام شبیه هم نیستند."
+      }
+    ],
+    "miniContext": "In character, none of them are alike.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "completely different",
+    "meaning": "کاملا متفاوت",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He's completely different from the other two.",
+        "persian": "او کاملا با آن دو تای دیگر متفاوت است."
+      }
+    ],
+    "miniContext": "He's completely different from the other two.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "apart from sth/sb",
+    "meaning": "به جز چیزی/کسی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "except for"
+    ],
+    "examples": [
+      {
+        "english": "He'll eat anything, apart from the fact that all Labradors will.",
+        "persian": "او هر چیزی می‌خورد، غیر از این واقعیت که همه‌ی لابرادورها همینطورند."
+      }
+    ],
+    "miniContext": "He'll eat anything, apart from the fact that all Labradors will.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "the main difference",
+    "meaning": "تفاوت اصلی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The main difference is that Boss is quieter.",
+        "persian": "تفاوت اصلی این است که باس آرام‌تر است."
+      }
+    ],
+    "miniContext": "The main difference is that Boss is quieter.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "compared with/to sth",
+    "meaning": "در مقایسه با چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Compared with Jake, Sam is very lazy.",
+        "persian": "در مقایسه با جیک، سم خیلی تنبل است."
+      }
+    ],
+    "miniContext": "Compared with Jake, Sam is very lazy.",
+    "icon": "⚖️"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-89",
+    "word": "in comparison with sth",
+    "meaning": "در مقایسه با چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In comparison with dogs, cats are more independent.",
+        "persian": "در مقایسه با سگ‌ها، گربه‌ها مستقل‌تر هستند."
+      }
+    ],
+    "miniContext": "In comparison with dogs, cats are more independent.",
+    "icon": "⚖️"
+  }
+]

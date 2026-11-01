@@ -1,0 +1,225 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at (a time)",
+    "meaning": "در (زمان)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The film starts at eight o'clock.",
+        "persian": "فیلم ساعت هشت شروع می‌شود."
+      }
+    ],
+    "miniContext": "The film starts at eight o'clock.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at breakfast, etc.",
+    "meaning": "هنگام صبحانه و غیره",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We talked about the trip at breakfast.",
+        "persian": "ما هنگام صبحانه درباره سفر صحبت کردیم."
+      }
+    ],
+    "miniContext": "We talked about the trip at breakfast.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at Christmas",
+    "meaning": "در کریسمس",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We visit our grandparents at Christmas.",
+        "persian": "ما در کریسمس به دیدن پدربزرگ و مادربزرگ می‌رویم."
+      }
+    ],
+    "miniContext": "We visit our grandparents at Christmas.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at New Year",
+    "meaning": "در سال نو",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We make plans at New Year.",
+        "persian": "ما در سال نو برنامه‌ریزی می‌کنیم."
+      }
+    ],
+    "miniContext": "We make plans at New Year.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at the moment",
+    "meaning": "در حال حاضر",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "now"
+    ],
+    "examples": [
+      {
+        "english": "I'm busy at the moment.",
+        "persian": "من در حال حاضر مشغول هستم."
+      }
+    ],
+    "miniContext": "I'm busy at the moment.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "at the weekend",
+    "meaning": "در آخر هفته",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go swimming at the weekend.",
+        "persian": "ما در آخر هفته شنا می‌رویم."
+      }
+    ],
+    "miniContext": "We go swimming at the weekend.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "century",
+    "meaning": "قرن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This castle is from the twelfth century.",
+        "persian": "این قلعه از قرن دوازدهم است."
+      }
+    ],
+    "miniContext": "This castle is from the twelfth century.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "in 2020, etc.",
+    "meaning": "در سال ۲۰۲۰ و غیره",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was born in 2020.",
+        "persian": "من در سال ۲۰۲۰ به دنیا آمدم."
+      }
+    ],
+    "miniContext": "I was born in 2020.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "in January, etc.",
+    "meaning": "در ماه ژانویه و غیره",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My birthday is in January.",
+        "persian": "تولدم در ماه ژانویه است."
+      }
+    ],
+    "miniContext": "My birthday is in January.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "the morning, etc.",
+    "meaning": "صبح و غیره",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I get up early in the morning.",
+        "persian": "من صبح زود بیدار می‌شوم."
+      }
+    ],
+    "miniContext": "I get up early in the morning.",
+    "icon": "🌅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "(the) spring, etc.",
+    "meaning": "بهار و غیره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Flowers grow in spring.",
+        "persian": "گل‌ها در بهار می‌رویند."
+      }
+    ],
+    "miniContext": "Flowers grow in spring.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "moment (as in \"at the moment\")",
+    "meaning": "لحظه، در حال حاضر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm busy at the moment.",
+        "persian": "من در حال حاضر مشغول هستم."
+      }
+    ],
+    "miniContext": "I'm busy at the moment.",
+    "icon": "🧭"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-18",
+    "word": "on",
+    "meaning": "روی؛ در (حرف اضافه زمان و مکان)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My birthday is on 1st January.",
+        "persian": "تولد من در اول ژانویه است."
+      }
+    ],
+    "miniContext": "My birthday is on 1st January.",
+    "icon": "🧭"
+  }
+]

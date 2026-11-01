@@ -1,0 +1,259 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "fishing",
+    "meaning": "ماهیگیری",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My father loves fishing.",
+        "persian": "پدرم عاشق ماهیگیری است."
+      }
+    ],
+    "miniContext": "My father loves fishing.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "gardening",
+    "meaning": "باغبانی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My grandmother enjoys gardening.",
+        "persian": "مادربزرگم از باغبانی لذت می‌برد."
+      }
+    ],
+    "miniContext": "My grandmother enjoys gardening.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "go camping",
+    "meaning": "به کمپ رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go camping every August.",
+        "persian": "ما هر آگوست به کمپ می‌رویم."
+      }
+    ],
+    "miniContext": "We go camping every August.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "go fishing",
+    "meaning": "به ماهیگیری رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother goes fishing every weekend.",
+        "persian": "برادرم هر آخر هفته به ماهیگیری می‌رود."
+      }
+    ],
+    "miniContext": "My brother goes fishing every weekend.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "go out (with sb)",
+    "meaning": "با کسی بیرون رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She goes out with her friends a lot.",
+        "persian": "او زیاد با دوستانش بیرون می‌رود."
+      }
+    ],
+    "miniContext": "She goes out with her friends a lot.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "golf",
+    "meaning": "گلف",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My father plays golf on Sundays.",
+        "persian": "پدرم یکشنبه‌ها گلف بازی می‌کند."
+      }
+    ],
+    "miniContext": "My father plays golf on Sundays.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "guitar",
+    "meaning": "گیتار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She plays the guitar very well.",
+        "persian": "او گیتار را خیلی خوب می‌زند."
+      }
+    ],
+    "miniContext": "She plays the guitar very well.",
+    "icon": "🎸"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "gym",
+    "meaning": "باشگاه ورزشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I go to the gym three times a week.",
+        "persian": "من هفته‌ای سه بار به باشگاه ورزشی می‌روم."
+      }
+    ],
+    "miniContext": "I go to the gym three times a week.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "hobby",
+    "meaning": "سرگرمی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Painting is my favourite hobby.",
+        "persian": "نقاشی سرگرمی مورد علاقه من است."
+      }
+    ],
+    "miniContext": "Painting is my favourite hobby.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "play (an instrument)",
+    "meaning": "نواختن (ساز)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She plays the guitar very well.",
+        "persian": "او خیلی خوب گیتار می‌نوازد."
+      }
+    ],
+    "miniContext": "She plays the guitar very well.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "repair",
+    "meaning": "تعمیر کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "fix"
+    ],
+    "examples": [
+      {
+        "english": "He repaired my bike yesterday.",
+        "persian": "او دیروز دوچرخه‌ام را تعمیر کرد."
+      }
+    ],
+    "miniContext": "He repaired my bike yesterday.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "rock music",
+    "meaning": "موسیقی راک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My brother loves rock music.",
+        "persian": "برادرم موسیقی راک را دوست دارد."
+      }
+    ],
+    "miniContext": "My brother loves rock music.",
+    "icon": "🎵"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "singer",
+    "meaning": "خواننده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a famous singer.",
+        "persian": "او یک خواننده مشهور است."
+      }
+    ],
+    "miniContext": "He is a famous singer.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "song",
+    "meaning": "آهنگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my favourite song.",
+        "persian": "این آهنگ مورد علاقه من است."
+      }
+    ],
+    "miniContext": "This is my favourite song.",
+    "icon": "⏰"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-81",
+    "word": "various",
+    "meaning": "گوناگون؛ مختلف",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We discussed various topics.",
+        "persian": "ما در مورد موضوعات مختلف بحث کردیم."
+      }
+    ],
+    "miniContext": "We discussed various topics.",
+    "icon": "⏰"
+  }
+]

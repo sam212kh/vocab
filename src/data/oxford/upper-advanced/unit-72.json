@@ -1,0 +1,348 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "urgent",
+    "meaning": "فوری، نیازمند توجه فوری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is it an urgent problem?",
+        "persian": "آیا این مشکل فوری است؟"
+      }
+    ],
+    "miniContext": "Is it an urgent problem?",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "insoluble",
+    "meaning": "غیرقابل حل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Funding has become an insoluble problem.",
+        "persian": "تامین بودجه به یک مشکل غیرقابل حل تبدیل شده است."
+      }
+    ],
+    "miniContext": "Funding has become an insoluble problem.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "arise",
+    "meaning": "پدید آمدن، شروع به وجود داشتن (مشکل)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How did the problem first arise?",
+        "persian": "این مشکل چطور اول بار پدید آمد؟"
+      }
+    ],
+    "miniContext": "How did the problem first arise?",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "raise (a problem)",
+    "meaning": "مطرح کردن (یک مشکل)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I raised it at the last meeting.",
+        "persian": "آن را در آخرین جلسه مطرح کردم."
+      }
+    ],
+    "miniContext": "I raised it at the last meeting.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "address (a problem)",
+    "meaning": "به مشکلی پرداختن، شروع به حل کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He'll have to address it soon.",
+        "persian": "باید به‌زودی به آن بپردازد."
+      }
+    ],
+    "miniContext": "He'll have to address it soon.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "confront",
+    "meaning": "با مشکل روبه‌رو شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "face (up to) sth"
+    ],
+    "examples": [
+      {
+        "english": "If you confront a problem, you deal with it.",
+        "persian": "اگر با مشکلی روبه‌رو شوی، با آن کنار می‌آیی."
+      }
+    ],
+    "miniContext": "If you confront a problem, you deal with it.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "tackle (a problem)",
+    "meaning": "برای حل مشکل تلاش جدی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They're working hard to tackle it.",
+        "persian": "آن‌ها سخت تلاش می‌کنند تا با آن مقابله کنند."
+      }
+    ],
+    "miniContext": "They're working hard to tackle it.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "resolve",
+    "meaning": "حل کردن، راه‌حل پیدا کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "solve"
+    ],
+    "examples": [
+      {
+        "english": "Have they resolved the problem?",
+        "persian": "آیا مشکل را حل کرده‌اند؟"
+      }
+    ],
+    "miniContext": "Have they resolved the problem?",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "exaggerate",
+    "meaning": "بزرگ‌نمایی کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We mustn't exaggerate the problem.",
+        "persian": "نباید مشکل را بزرگ‌نمایی کنیم."
+      }
+    ],
+    "miniContext": "We mustn't exaggerate the problem.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "escalate",
+    "meaning": "تشدید شدن، بدتر و بزرگ‌تر شدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "grow"
+    ],
+    "examples": [
+      {
+        "english": "It could escalate if we don't deal with it now.",
+        "persian": "اگر الان به آن رسیدگی نکنیم، ممکن است تشدید شود."
+      }
+    ],
+    "miniContext": "It could escalate if we don't deal with it now.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "multiply",
+    "meaning": "به‌شدت افزایش یافتن در تعداد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our problems have multiplied since last year.",
+        "persian": "مشکلات ما از سال گذشته چند برابر شده است."
+      }
+    ],
+    "miniContext": "Our problems have multiplied since last year.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "damaging",
+    "meaning": "آسیب‌رسان، مضر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This can be very damaging for their self-esteem.",
+        "persian": "این می‌تواند برای عزت‌نفسشان بسیار آسیب‌رسان باشد."
+      }
+    ],
+    "miniContext": "This can be very damaging for their self-esteem.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "self-esteem",
+    "meaning": "عزت‌نفس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This can be very damaging for their self-esteem.",
+        "persian": "این می‌تواند برای عزت‌نفسشان بسیار آسیب‌رسان باشد."
+      }
+    ],
+    "miniContext": "This can be very damaging for their self-esteem.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "play sth down",
+    "meaning": "کم‌اهمیت نشان دادن چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't play down these worries.",
+        "persian": "این نگرانی‌ها را کم‌اهمیت نشان نده."
+      }
+    ],
+    "miniContext": "Don't play down these worries.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "insignificant",
+    "meaning": "بی‌اهمیت، ناچیز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't play them down even if they seem insignificant.",
+        "persian": "حتی اگر ناچیز به نظر برسند کم‌اهمیتشان نشان نده."
+      }
+    ],
+    "miniContext": "Don't play them down even if they seem insignificant.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "get sb down",
+    "meaning": "غمگین یا افسرده کردن کسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some teenagers let failure get them down.",
+        "persian": "بعضی نوجوانان می‌گذارند شکست آن‌ها را افسرده کند."
+      }
+    ],
+    "miniContext": "Some teenagers let failure get them down.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "keep things in perspective",
+    "meaning": "چیزها را بدون اغراق در ذهن سنجیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Help your teen to keep things in perspective.",
+        "persian": "به نوجوانت کمک کن چیزها را بدون اغراق بسنجد."
+      }
+    ],
+    "miniContext": "Help your teen to keep things in perspective.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "setback",
+    "meaning": "مانع، عقب‌افتادگی در پیشرفت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Everyone has setbacks in life.",
+        "persian": "همه در زندگی با موانعی روبه‌رو می‌شوند."
+      }
+    ],
+    "miniContext": "Everyone has setbacks in life.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "reassure",
+    "meaning": "دلداری دادن، خیال کسی را راحت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Reassure them that you're behind them 100%.",
+        "persian": "به آن‌ها اطمینان بده که صد در صد پشتیبانشان هستی."
+      }
+    ],
+    "miniContext": "Reassure them that you're behind them 100%.",
+    "icon": "🧩"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-72",
+    "word": "articulate",
+    "meaning": "افکار خود را شفاف بیان کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some teenagers find it difficult to articulate how they feel.",
+        "persian": "بعضی نوجوانان بیان احساسشان را سخت می‌دانند."
+      }
+    ],
+    "miniContext": "Some teenagers find it difficult to articulate how they feel.",
+    "icon": "🧩"
+  }
+]

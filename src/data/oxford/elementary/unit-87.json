@@ -1,0 +1,312 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "a night",
+    "meaning": "در هر شب (قیمت)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "per night"
+    ],
+    "examples": [
+      {
+        "english": "The hotel room costs $90 a night.",
+        "persian": "اتاق هتل هر شب ۹۰ دلار قیمت دارد."
+      }
+    ],
+    "miniContext": "The hotel room costs $90 a night.",
+    "icon": "🌙"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "accommodation",
+    "meaning": "محل اقامت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "lodging"
+    ],
+    "examples": [
+      {
+        "english": "We need to find accommodation for the trip.",
+        "persian": "باید برای سفر محل اقامت پیدا کنیم."
+      }
+    ],
+    "miniContext": "We need to find accommodation for the trip.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "I'm afraid (not)",
+    "meaning": "متاسفانه (نه)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm afraid we don't have any rooms left.",
+        "persian": "متاسفانه دیگر اتاقی نداریم."
+      }
+    ],
+    "miniContext": "I'm afraid we don't have any rooms left.",
+    "icon": "😨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "available",
+    "meaning": "موجود، در دسترس",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The room is available for one night.",
+        "persian": "این اتاق برای یک شب موجود است."
+      }
+    ],
+    "miniContext": "The room is available for one night.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "flight",
+    "meaning": "پرواز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Our flight leaves at 9am.",
+        "persian": "پرواز ما ساعت ۹ صبح است."
+      }
+    ],
+    "miniContext": "Our flight leaves at 9am.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "fly (v)",
+    "meaning": "پرواز کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We will fly to Spain next week.",
+        "persian": "ما هفته آینده به اسپانیا پرواز می‌کنیم."
+      }
+    ],
+    "miniContext": "We will fly to Spain next week.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "foreign",
+    "meaning": "خارجی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She can speak three foreign languages.",
+        "persian": "او می‌تواند به سه زبان خارجی صحبت کند."
+      }
+    ],
+    "miniContext": "She can speak three foreign languages.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "go on holiday",
+    "meaning": "به تعطیلات رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We go on holiday every summer.",
+        "persian": "ما هر تابستان به تعطیلات می‌رویم."
+      }
+    ],
+    "miniContext": "We go on holiday every summer.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "holiday",
+    "meaning": "تعطیلات",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are going on holiday next week.",
+        "persian": "ما هفته آینده به تعطیلات می‌رویم."
+      }
+    ],
+    "miniContext": "We are going on holiday next week.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "include",
+    "meaning": "شامل شدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The price includes breakfast.",
+        "persian": "قیمت شامل صبحانه است."
+      }
+    ],
+    "miniContext": "The price includes breakfast.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "it doesn't matter",
+    "meaning": "مهم نیست، اشکالی ندارد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It doesn't matter if we're late.",
+        "persian": "اشکالی ندارد اگر دیر کنیم."
+      }
+    ],
+    "miniContext": "It doesn't matter if we're late.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "included",
+    "meaning": "شامل، جزء آن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Tax is included in the price.",
+        "persian": "مالیات در قیمت شامل است."
+      }
+    ],
+    "miniContext": "Tax is included in the price.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "might",
+    "meaning": "ممکن است",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We might go to the beach.",
+        "persian": "ممکن است به ساحل برویم."
+      }
+    ],
+    "miniContext": "We might go to the beach.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "Oh dear!",
+    "meaning": "وای! (تعجب یا ناراحتی)",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Oh dear! We missed the flight.",
+        "persian": "وای! پرواز را از دست دادیم."
+      }
+    ],
+    "miniContext": "Oh dear! We missed the flight.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "pack",
+    "meaning": "بستن چمدان؛ بسته‌بندی کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to pack my bag for the trip.",
+        "persian": "باید برای سفر چمدانم را ببندم."
+      }
+    ],
+    "miniContext": "I need to pack my bag for the trip.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "passport",
+    "meaning": "گذرنامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't forget your passport.",
+        "persian": "گذرنامه‌ات را فراموش نکن."
+      }
+    ],
+    "miniContext": "Don't forget your passport.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "single room",
+    "meaning": "اتاق یک‌نفره",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I booked a single room at the hotel.",
+        "persian": "من یک اتاق یک‌نفره در هتل رزرو کردم."
+      }
+    ],
+    "miniContext": "I booked a single room at the hotel.",
+    "icon": "🧳"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-87",
+    "word": "tent",
+    "meaning": "چادر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We slept in a tent on holiday.",
+        "persian": "ما در تعطیلات در یک چادر خوابیدیم."
+      }
+    ],
+    "miniContext": "We slept in a tent on holiday.",
+    "icon": "🧳"
+  }
+]

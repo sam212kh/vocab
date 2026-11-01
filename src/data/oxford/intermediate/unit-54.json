@@ -1,0 +1,259 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "fear",
+    "meaning": "ترس",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some older people have a fear of going out at night.",
+        "persian": "برخی افراد مسن از بیرون رفتن در شب می‌ترسند."
+      }
+    ],
+    "miniContext": "Some older people have a fear of going out at night.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "violence",
+    "meaning": "خشونت",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The number of reported violent crimes has increased.",
+        "persian": "تعداد جرایم خشونت‌آمیز گزارش‌شده افزایش یافته است."
+      }
+    ],
+    "miniContext": "The number of reported violent crimes has increased.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "drunk",
+    "meaning": "مست",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are more young people who are drunk at night.",
+        "persian": "جوانان بیشتری شب‌ها مست هستند."
+      }
+    ],
+    "miniContext": "There are more young people who are drunk at night.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "frighten",
+    "meaning": "ترساندن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The news frightened many older people.",
+        "persian": "آن خبر بسیاری از افراد مسن را ترساند."
+      }
+    ],
+    "miniContext": "The news frightened many older people.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "willing (to do sth)",
+    "meaning": "مایل، راضی (به انجام کاری)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "unwilling (opp)"
+    ],
+    "examples": [
+      {
+        "english": "Victims seem more willing to report crime.",
+        "persian": "به نظر می‌رسد قربانیان تمایل بیشتری به گزارش جرم دارند."
+      }
+    ],
+    "miniContext": "Victims seem more willing to report crime.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "account for sth",
+    "meaning": "توضیح دادن، توجیه کردن چیزی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This may account for the increase.",
+        "persian": "این ممکن است توجیه‌کننده‌ی آن افزایش باشد."
+      }
+    ],
+    "miniContext": "This may account for the increase.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "trend",
+    "meaning": "روند، گرایش",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a growing trend for young people to drink less.",
+        "persian": "روند رو به رشدی برای نوشیدن کمتر در میان جوانان وجود دارد."
+      }
+    ],
+    "miniContext": "There is a growing trend for young people to drink less.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "consume",
+    "meaning": "مصرف کردن",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Young people consume less alcohol now.",
+        "persian": "جوانان الان الکل کمتری مصرف می‌کنند."
+      }
+    ],
+    "miniContext": "Young people consume less alcohol now.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "factor",
+    "meaning": "عامل",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's probably a combination of factors.",
+        "persian": "این احتمالا ترکیبی از عوامل مختلف است."
+      }
+    ],
+    "miniContext": "It's probably a combination of factors.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "charity",
+    "meaning": "خیریه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are more than 600 registered cancer charities.",
+        "persian": "بیش از ۶۰۰ خیریه‌ی ثبت‌شده‌ی سرطان وجود دارد."
+      }
+    ],
+    "miniContext": "There are more than 600 registered cancer charities.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "homeless",
+    "meaning": "بی‌خانمان",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are charities for homeless people in London.",
+        "persian": "خیریه‌هایی برای افراد بی‌خانمان در لندن وجود دارد."
+      }
+    ],
+    "miniContext": "There are charities for homeless people in London.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "donation",
+    "meaning": "کمک مالی، اهدا",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Charities depend on donations to raise money.",
+        "persian": "خیریه‌ها برای جمع‌آوری پول به کمک‌های مالی وابسته‌اند."
+      }
+    ],
+    "miniContext": "Charities depend on donations to raise money.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "volunteer",
+    "meaning": "داوطلب",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Many volunteers are retired people.",
+        "persian": "بسیاری از داوطلبان افراد بازنشسته هستند."
+      }
+    ],
+    "miniContext": "Many volunteers are retired people.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "passion (for sth)",
+    "meaning": "اشتیاق شدید (به چیزی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has always had a passion for animals.",
+        "persian": "او همیشه اشتیاق شدیدی به حیوانات داشته است."
+      }
+    ],
+    "miniContext": "She has always had a passion for animals.",
+    "icon": "🧑‍🤝‍🧑"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-54",
+    "word": "compete (with sb)",
+    "meaning": "رقابت کردن (با کسی)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Charities are competing with each other for money.",
+        "persian": "خیریه‌ها برای پول با یکدیگر رقابت می‌کنند."
+      }
+    ],
+    "miniContext": "Charities are competing with each other for money.",
+    "icon": "🧑‍🤝‍🧑"
+  }
+]

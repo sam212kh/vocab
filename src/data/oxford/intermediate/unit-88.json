@@ -1,0 +1,146 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "pessimistic (about sth)",
+    "meaning": "بدبین (نسبت به چیزی)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "optimistic (opp)"
+    ],
+    "examples": [
+      {
+        "english": "She's very pessimistic about the weather.",
+        "persian": "او خیلی نسبت به آب‌وهوا بدبین است."
+      }
+    ],
+    "miniContext": "She's very pessimistic about the weather.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "definitely",
+    "meaning": "قطعا",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'll definitely see him on Saturday.",
+        "persian": "قطعا شنبه او را می‌بینم."
+      }
+    ],
+    "miniContext": "I'll definitely see him on Saturday.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "likely (to do sth)",
+    "meaning": "محتمل (انجام کاری)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "unlikely (opp)"
+    ],
+    "examples": [
+      {
+        "english": "She's very likely to fail the test.",
+        "persian": "خیلی محتمل است او امتحان را رد شود."
+      }
+    ],
+    "miniContext": "She's very likely to fail the test.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "doubt (that)",
+    "meaning": "تردید داشتن (که)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I doubt that he'll even notice me.",
+        "persian": "تردید دارم اصلا متوجه من بشود."
+      }
+    ],
+    "miniContext": "I doubt that he'll even notice me.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "expect (sth to happen)",
+    "meaning": "انتظار داشتن (اتفاقی بیفتد)",
+    "level": "Intermediate",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I expect he'll think I'm silly.",
+        "persian": "انتظار دارم فکر کند من احمقم."
+      }
+    ],
+    "miniContext": "I expect he'll think I'm silly.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "might",
+    "meaning": "ممکن است",
+    "level": "Intermediate",
+    "pos": "modal verb",
+    "synonyms": [
+      "may"
+    ],
+    "examples": [
+      {
+        "english": "That might go there instead.",
+        "persian": "ممکن است به جای آن به آنجا برویم."
+      }
+    ],
+    "miniContext": "That might go there instead.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "a good chance",
+    "meaning": "احتمال خوب",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There's a good chance it'll rain tomorrow.",
+        "persian": "احتمال خوبی هست که فردا باران ببارد."
+      }
+    ],
+    "miniContext": "There's a good chance it'll rain tomorrow.",
+    "icon": "🎲"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-88",
+    "word": "unfair",
+    "meaning": "ناعادلانه",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [
+      "fair (opp)"
+    ],
+    "examples": [
+      {
+        "english": "It's so unfair!",
+        "persian": "این خیلی ناعادلانه است!"
+      }
+    ],
+    "miniContext": "It's so unfair!",
+    "icon": "🎲"
+  }
+]

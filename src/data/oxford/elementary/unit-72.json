@@ -1,0 +1,212 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "amazing",
+    "meaning": "شگفت‌انگیز",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "wonderful"
+    ],
+    "examples": [
+      {
+        "english": "The view from the mountain was amazing.",
+        "persian": "منظره از بالای کوه شگفت‌انگیز بود."
+      }
+    ],
+    "miniContext": "The view from the mountain was amazing.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "at work",
+    "meaning": "در محل کار",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My father is at work now.",
+        "persian": "پدرم الان در محل کار است."
+      }
+    ],
+    "miniContext": "My father is at work now.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "charity",
+    "meaning": "خیریه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He gives money to charity every month.",
+        "persian": "او هر ماه به خیریه پول می‌دهد."
+      }
+    ],
+    "miniContext": "He gives money to charity every month.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "incredible",
+    "meaning": "باورنکردنی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "amazing"
+    ],
+    "examples": [
+      {
+        "english": "The view was incredible.",
+        "persian": "منظره باورنکردنی بود."
+      }
+    ],
+    "miniContext": "The view was incredible.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "part of sth",
+    "meaning": "بخشی از چیزی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is part of the plan.",
+        "persian": "این بخشی از برنامه است."
+      }
+    ],
+    "miniContext": "This is part of the plan.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "so ... (that)",
+    "meaning": "آنقدر... که",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was so cold that we stayed inside.",
+        "persian": "آنقدر سرد بود که ما داخل ماندیم."
+      }
+    ],
+    "miniContext": "It was so cold that we stayed inside.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "such ... (that)",
+    "meaning": "آنقدر... که",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was such a good film that I watched it twice.",
+        "persian": "آنقدر فیلم خوبی بود که دو بار آن را دیدم."
+      }
+    ],
+    "miniContext": "It was such a good film that I watched it twice.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "support (v)",
+    "meaning": "حمایت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My family always supports me.",
+        "persian": "خانواده‌ام همیشه از من حمایت می‌کند."
+      }
+    ],
+    "miniContext": "My family always supports me.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "surprising",
+    "meaning": "غافلگیرکننده",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a surprising result.",
+        "persian": "نتیجه غافلگیرکننده‌ای بود."
+      }
+    ],
+    "miniContext": "It was a surprising result.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "unit",
+    "meaning": "واحد؛ درس (بخش کتاب)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This unit is about computers.",
+        "persian": "این درس در مورد کامپیوترها است."
+      }
+    ],
+    "miniContext": "This unit is about computers.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "whole",
+    "meaning": "کل؛ تمام",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "entire"
+    ],
+    "examples": [
+      {
+        "english": "I read the whole book in one day.",
+        "persian": "من کل کتاب را در یک روز خواندم."
+      }
+    ],
+    "miniContext": "I read the whole book in one day.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-72",
+    "word": "worry",
+    "meaning": "نگرانی؛ نگران بودن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't worry, everything will be fine.",
+        "persian": "نگران نباش، همه چیز خوب می‌شود."
+      }
+    ],
+    "miniContext": "Don't worry, everything will be fine.",
+    "icon": "💼"
+  }
+]

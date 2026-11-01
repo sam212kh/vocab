@@ -1,0 +1,242 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "publisher",
+    "meaning": "ناشر",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I work for a publisher.",
+        "persian": "من برای یک ناشر کار می‌کنم."
+      }
+    ],
+    "miniContext": "I work for a publisher.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "reference book",
+    "meaning": "کتاب مرجع",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A dictionary is a reference book.",
+        "persian": "فرهنگ لغت یک کتاب مرجع است."
+      }
+    ],
+    "miniContext": "A dictionary is a reference book.",
+    "icon": "📘"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "poetry",
+    "meaning": "شعر (به طور کلی)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I particularly like poetry.",
+        "persian": "من مخصوصا شعر را دوست دارم."
+      }
+    ],
+    "miniContext": "I particularly like poetry.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "alphabetical order",
+    "meaning": "ترتیب الفبایی",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "All my books are arranged in alphabetical order.",
+        "persian": "تمام کتاب‌هایم به ترتیب الفبایی چیده شده‌اند."
+      }
+    ],
+    "miniContext": "All my books are arranged in alphabetical order.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "category",
+    "meaning": "دسته‌بندی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've got novels from different categories.",
+        "persian": "من رمان‌هایی از دسته‌بندی‌های مختلف دارم."
+      }
+    ],
+    "miniContext": "I've got novels from different categories.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "historical (novel)",
+    "meaning": "تاریخی (رمان)",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like historical novels.",
+        "persian": "رمان‌های تاریخی را دوست دارم."
+      }
+    ],
+    "miniContext": "I like historical novels.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "mystery",
+    "meaning": "رمان معمایی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'm reading a murder mystery at the moment.",
+        "persian": "الان دارم یک رمان معمایی جنایی می‌خوانم."
+      }
+    ],
+    "miniContext": "I'm reading a murder mystery at the moment.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "non-fiction",
+    "meaning": "غیرداستانی",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [
+      "fiction (opp)"
+    ],
+    "examples": [
+      {
+        "english": "I read quite a lot of non-fiction.",
+        "persian": "خیلی کتاب‌های غیرداستانی می‌خوانم."
+      }
+    ],
+    "miniContext": "I read quite a lot of non-fiction.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "biography",
+    "meaning": "زندگینامه",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He wrote a famous biography of Winston Churchill.",
+        "persian": "او یک زندگینامه‌ی مشهور از وینستون چرچیل نوشت."
+      }
+    ],
+    "miniContext": "He wrote a famous biography of Winston Churchill.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "title (of a book)",
+    "meaning": "عنوان (کتاب)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The title and cover attracted my attention.",
+        "persian": "عنوان و جلد توجهم را جلب کرد."
+      }
+    ],
+    "miniContext": "The title and cover attracted my attention.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "recommendation",
+    "meaning": "پیشنهاد (یک کتاب/چیز)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a recommendation by a friend.",
+        "persian": "یک پیشنهاد از طرف یک دوست بود."
+      }
+    ],
+    "miniContext": "It was a recommendation by a friend.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "plot",
+    "meaning": "طرح داستان، پیرنگ",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It had a good plot.",
+        "persian": "طرح داستان خوبی داشت."
+      }
+    ],
+    "miniContext": "It had a good plot.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "chapter",
+    "meaning": "فصل (کتاب)",
+    "level": "Intermediate",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I read a bit of the first chapter.",
+        "persian": "کمی از فصل اول را خواندم."
+      }
+    ],
+    "miniContext": "I read a bit of the first chapter.",
+    "icon": "📖"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-65",
+    "word": "well written",
+    "meaning": "خوش‌نوشته",
+    "level": "Intermediate",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was interesting and well written.",
+        "persian": "جالب و خوش‌نوشته بود."
+      }
+    ],
+    "miniContext": "It was interesting and well written.",
+    "icon": "📖"
+  }
+]

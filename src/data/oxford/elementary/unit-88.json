@@ -1,0 +1,259 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "change (money)",
+    "meaning": "تبدیل کردن (پول)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to change some money at the bank.",
+        "persian": "باید مقداری پول را در بانک تبدیل کنم."
+      }
+    ],
+    "miniContext": "I need to change some money at the bank.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "check in",
+    "meaning": "چک‌این کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We checked in at the hotel at noon.",
+        "persian": "ما ظهر در هتل چک‌این کردیم."
+      }
+    ],
+    "miniContext": "We checked in at the hotel at noon.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "check out",
+    "meaning": "تسویه‌حساب و ترک هتل",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We checked out of the hotel at ten.",
+        "persian": "ما ساعت ده از هتل تسویه‌حساب کردیم."
+      }
+    ],
+    "miniContext": "We checked out of the hotel at ten.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "go on a trip",
+    "meaning": "به سفر رفتن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We are going on a trip next week.",
+        "persian": "ما هفته آینده به سفر می‌رویم."
+      }
+    ],
+    "miniContext": "We are going on a trip next week.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "guest",
+    "meaning": "مهمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have a guest staying with us.",
+        "persian": "ما یک مهمان داریم که با ما می‌ماند."
+      }
+    ],
+    "miniContext": "We have a guest staying with us.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "helpful",
+    "meaning": "مفید، کمک‌کننده",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The hotel staff were very helpful.",
+        "persian": "کارکنان هتل خیلی کمک‌کننده بودند."
+      }
+    ],
+    "miniContext": "The hotel staff were very helpful.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "leave sth somewhere",
+    "meaning": "چیزی را جایی گذاشتن، فراموش کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I left my phone somewhere.",
+        "persian": "گوشی‌ام را جایی جا گذاشتم."
+      }
+    ],
+    "miniContext": "I left my phone somewhere.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "recommend",
+    "meaning": "توصیه کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you recommend a good restaurant?",
+        "persian": "می‌توانی یک رستوران خوب توصیه کنی؟"
+      }
+    ],
+    "miniContext": "Can you recommend a good restaurant?",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "sign (write your name)",
+    "meaning": "امضا کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please sign your name here.",
+        "persian": "لطفاً اینجا را امضا کنید."
+      }
+    ],
+    "miniContext": "Please sign your name here.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "stay (v)",
+    "meaning": "ماندن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We stayed at a nice hotel.",
+        "persian": "ما در یک هتل خوب ماندیم."
+      }
+    ],
+    "miniContext": "We stayed at a nice hotel.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "stay (n)",
+    "meaning": "اقامت",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Enjoy your stay!",
+        "persian": "اقامتت لذت‌بخش باشد!"
+      }
+    ],
+    "miniContext": "Enjoy your stay!",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "tourism",
+    "meaning": "گردشگری",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Tourism is important for this city.",
+        "persian": "گردشگری برای این شهر مهم است."
+      }
+    ],
+    "miniContext": "Tourism is important for this city.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "tourist",
+    "meaning": "گردشگر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are many tourists here in summer.",
+        "persian": "تابستان‌ها گردشگران زیادی اینجا هستند."
+      }
+    ],
+    "miniContext": "There are many tourists here in summer.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "trip",
+    "meaning": "سفر (کوتاه)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "journey"
+    ],
+    "examples": [
+      {
+        "english": "We went on a trip to the mountains.",
+        "persian": "ما به یک سفر به کوهستان رفتیم."
+      }
+    ],
+    "miniContext": "We went on a trip to the mountains.",
+    "icon": "🏨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-88",
+    "word": "until",
+    "meaning": "تا (زمانی که)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Wait until I come back.",
+        "persian": "صبر کن تا من برگردم."
+      }
+    ],
+    "miniContext": "Wait until I come back.",
+    "icon": "🏨"
+  }
+]

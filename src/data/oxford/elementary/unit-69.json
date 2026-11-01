@@ -1,0 +1,342 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "boss",
+    "meaning": "رئیس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My boss is very kind.",
+        "persian": "رئیس من خیلی مهربان است."
+      }
+    ],
+    "miniContext": "My boss is very kind.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "builder",
+    "meaning": "سازنده، بنا",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The builder is working on the roof.",
+        "persian": "بنا روی پشت‌بام کار می‌کند."
+      }
+    ],
+    "miniContext": "The builder is working on the roof.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "bus driver",
+    "meaning": "راننده اتوبوس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bus driver was very friendly.",
+        "persian": "راننده اتوبوس خیلی مهربان بود."
+      }
+    ],
+    "miniContext": "The bus driver was very friendly.",
+    "icon": "🚌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "career",
+    "meaning": "شغل، حرفه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a successful career.",
+        "persian": "او یک حرفه موفق دارد."
+      }
+    ],
+    "miniContext": "She has a successful career.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "chef",
+    "meaning": "سرآشپز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The chef cooked a delicious meal.",
+        "persian": "سرآشپز یک غذای خوشمزه پخت."
+      }
+    ],
+    "miniContext": "The chef cooked a delicious meal.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "hairdresser",
+    "meaning": "آرایشگر",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have an appointment with the hairdresser.",
+        "persian": "من یک وقت با آرایشگر دارم."
+      }
+    ],
+    "miniContext": "I have an appointment with the hairdresser.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "lorry driver",
+    "meaning": "راننده کامیون",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My uncle is a lorry driver.",
+        "persian": "عمویم راننده کامیون است."
+      }
+    ],
+    "miniContext": "My uncle is a lorry driver.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "model",
+    "meaning": "مدل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She works as a fashion model.",
+        "persian": "او به عنوان مدل لباس کار می‌کند."
+      }
+    ],
+    "miniContext": "She works as a fashion model.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "nurse",
+    "meaning": "پرستار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My sister is a nurse.",
+        "persian": "خواهر من پرستار است."
+      }
+    ],
+    "miniContext": "My sister is a nurse.",
+    "icon": "🧑‍⚕️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "pilot",
+    "meaning": "خلبان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My uncle is a pilot.",
+        "persian": "عمویم خلبان است."
+      }
+    ],
+    "miniContext": "My uncle is a pilot.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "police officer",
+    "meaning": "افسر پلیس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police officer helped us find the way.",
+        "persian": "افسر پلیس به ما کمک کرد راه را پیدا کنیم."
+      }
+    ],
+    "miniContext": "The police officer helped us find the way.",
+    "icon": "👮"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "policeman",
+    "meaning": "پلیس مرد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The policeman stopped the car.",
+        "persian": "پلیس ماشین را متوقف کرد."
+      }
+    ],
+    "miniContext": "The policeman stopped the car.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "policewoman",
+    "meaning": "پلیس زن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The policewoman answered our questions.",
+        "persian": "پلیس زن به سؤالات ما پاسخ داد."
+      }
+    ],
+    "miniContext": "The policewoman answered our questions.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "sales assistant",
+    "meaning": "فروشنده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sales assistant helped me find a jacket.",
+        "persian": "فروشنده به من کمک کرد یک ژاکت پیدا کنم."
+      }
+    ],
+    "miniContext": "The sales assistant helped me find a jacket.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "secretary",
+    "meaning": "منشی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The secretary answered the phone.",
+        "persian": "منشی تلفن را جواب داد."
+      }
+    ],
+    "miniContext": "The secretary answered the phone.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "soldier",
+    "meaning": "سرباز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "His father was a soldier.",
+        "persian": "پدرش یک سرباز بود."
+      }
+    ],
+    "miniContext": "His father was a soldier.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "taxi driver",
+    "meaning": "راننده تاکسی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My uncle is a taxi driver.",
+        "persian": "عمویم راننده تاکسی است."
+      }
+    ],
+    "miniContext": "My uncle is a taxi driver.",
+    "icon": "🚕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "train driver",
+    "meaning": "راننده قطار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Her father is a train driver.",
+        "persian": "پدر او راننده قطار است."
+      }
+    ],
+    "miniContext": "Her father is a train driver.",
+    "icon": "🚆"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "unemployed",
+    "meaning": "بیکار",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has been unemployed for six months.",
+        "persian": "او شش ماه است بیکار است."
+      }
+    ],
+    "miniContext": "He has been unemployed for six months.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-69",
+    "word": "work",
+    "meaning": "کار کردن؛ کار",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He works in a hospital.",
+        "persian": "او در یک بیمارستان کار می‌کند."
+      }
+    ],
+    "miniContext": "He works in a hospital.",
+    "icon": "💼"
+  }
+]

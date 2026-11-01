@@ -1,0 +1,395 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "burst out laughing",
+    "meaning": "ناگهان زدن زیر خنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We burst out laughing.",
+        "persian": "ناگهان زدیم زیر خنده."
+      }
+    ],
+    "miniContext": "There are noises I love - when someone bursts out laughing, or people cheer at football matches.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "cheer",
+    "meaning": "هورا کشیدن، تشویق کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most people stood up and cheered when Liam won.",
+        "persian": "وقتی لیام برنده شد، بیشتر مردم بلند شدند و هورا کشیدند."
+      }
+    ],
+    "miniContext": "Most people stood up and cheered when Liam won, but a couple booed.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "deaf",
+    "meaning": "ناشنوا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The poor man can't hear a thing: he's been deaf for years.",
+        "persian": "آن مرد بیچاره چیزی نمی‌شنود: سال‌هاست ناشنواست."
+      }
+    ],
+    "miniContext": "The poor man can't hear a thing: he's been deaf for years.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "background noise",
+    "meaning": "سروصدای پس‌زمینه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a lot of background noise.",
+        "persian": "سروصدای پس‌زمینه زیادی بود."
+      }
+    ],
+    "miniContext": "Background noise of cars, machines, etc. can be so irritating.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "irritating",
+    "meaning": "آزاردهنده، عصبانی‌کننده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "annoying"
+    ],
+    "examples": [
+      {
+        "english": "A lot of young people talk very quickly and not very clearly. It's very irritating.",
+        "persian": "خیلی از جوان‌ها خیلی سریع و نامفهوم حرف می‌زنند. خیلی آزاردهنده است."
+      }
+    ],
+    "miniContext": "Background noise of cars, machines, etc. that can be so irritating.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "in tears",
+    "meaning": "در حال گریه کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The poor boy was in tears.",
+        "persian": "آن پسر بیچاره داشت گریه می‌کرد."
+      }
+    ],
+    "miniContext": "The sound of a child in tears.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "catch a cold",
+    "meaning": "سرما خوردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you spend time with someone with a cold, you might catch their cold.",
+        "persian": "اگر با کسی که سرما خورده وقت بگذرانی، ممکن است سرما بخوری."
+      }
+    ],
+    "miniContext": "The sound of someone sneezing makes me worry I will be the next person to catch their cold.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "whisper",
+    "meaning": "زمزمه کردن، آهسته صحبت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please stop whispering like that.",
+        "persian": "لطفاً این‌طور زمزمه نکن."
+      }
+    ],
+    "miniContext": "Someone whispering behind me - I imagine they are talking about me!",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "overhear",
+    "meaning": "ناخواسته شنیدن حرف دیگران",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I overheard two people on the bus talking about unpleasant noises.",
+        "persian": "ناخواسته شنیدم که دو نفر در اتوبوس درباره صداهای ناخوشایند صحبت می‌کردند."
+      }
+    ],
+    "miniContext": "Overhearing something unpleasant that I wasn't meant to hear.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "sigh",
+    "meaning": "آه کشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When my mother sighs like that, I can tell she's disappointed.",
+        "persian": "وقتی مادرم این‌طور آه می‌کشد، می‌فهمم که ناامید شده."
+      }
+    ],
+    "miniContext": "When my mother sighs like that, I can tell she's disappointed.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "boo",
+    "meaning": "هو کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most people cheered when Liam won, but a couple booed.",
+        "persian": "بیشتر مردم وقتی لیام برنده شد هورا کشیدند، اما چند نفری هو کردند."
+      }
+    ],
+    "miniContext": "People booing at sports events or other occasions - it's very rude.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "snore",
+    "meaning": "خروپف کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My husband snores in his sleep.",
+        "persian": "شوهرم هنگام خواب خروپف می‌کند."
+      }
+    ],
+    "miniContext": "My partner snores! One or two people have told me I snore in my sleep.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "horn",
+    "meaning": "بوق ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I could hear a car horn in the distance.",
+        "persian": "از دور صدای بوق ماشین را می‌شنیدم."
+      }
+    ],
+    "miniContext": "I could hear a car horn in the distance.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "bark",
+    "meaning": "پارس کردن (سگ)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Several dogs were barking.",
+        "persian": "چند سگ پارس می‌کردند."
+      }
+    ],
+    "miniContext": "Several dogs were barking.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "crash",
+    "meaning": "صدای شدید برخورد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I heard a crash.",
+        "persian": "صدای برخورد شدیدی شنیدم."
+      }
+    ],
+    "miniContext": "I heard a crash.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "yell",
+    "meaning": "داد زدن، فریاد زدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Someone yelled.",
+        "persian": "یک نفر داد زد."
+      }
+    ],
+    "miniContext": "I opened the door and someone started shouting really loudly.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "slam",
+    "meaning": "محکم بستن (در)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A car door slammed.",
+        "persian": "در ماشین محکم بسته شد."
+      }
+    ],
+    "miniContext": "A car door slammed.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "crack",
+    "meaning": "ترک برداشتن؛ صدای ترک",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Something hit my window - it cracked.",
+        "persian": "چیزی به پنجره‌ام خورد و آن ترک برداشت."
+      }
+    ],
+    "miniContext": "Something hit my window - it cracked.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "footsteps",
+    "meaning": "صدای قدم‌ها",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I heard footsteps in the hall.",
+        "persian": "صدای قدم‌هایی در راهرو شنیدم."
+      }
+    ],
+    "miniContext": "I heard footsteps in the hall.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "silence",
+    "meaning": "سکوت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Silence. Then my door handle turned.",
+        "persian": "سکوت. بعد دستگیره در من چرخید."
+      }
+    ],
+    "miniContext": "Silence. Then my door handle turned.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "scream",
+    "meaning": "جیغ کشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I screamed and woke up.",
+        "persian": "جیغ کشیدم و از خواب بیدار شدم."
+      }
+    ],
+    "miniContext": "I screamed and woke up.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "breathe a sigh of relief",
+    "meaning": "نفس راحتی کشیدن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was a nightmare. I breathed a sigh of relief.",
+        "persian": "یک کابوس بود. نفس راحتی کشیدم."
+      }
+    ],
+    "miniContext": "It was a nightmare. I breathed a sigh of relief.",
+    "icon": "👂"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-12",
+    "word": "nightmare",
+    "meaning": "کابوس",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My trip to London was a nightmare: all the trains were delayed.",
+        "persian": "سفرم به لندن یک کابوس بود: همه قطارها تاخیر داشتند."
+      }
+    ],
+    "miniContext": "My trip to London was a nightmare: all the trains were delayed.",
+    "icon": "👂"
+  }
+]

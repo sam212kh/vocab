@@ -1,0 +1,312 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "article",
+    "meaning": "مقاله",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I read an interesting article online.",
+        "persian": "من یک مقاله جالب آنلاین خواندم."
+      }
+    ],
+    "miniContext": "I read an interesting article online.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "celebrity",
+    "meaning": "سلبریتی، فرد مشهور",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She wants to be a celebrity one day.",
+        "persian": "او می‌خواهد یک روز سلبریتی شود."
+      }
+    ],
+    "miniContext": "She wants to be a celebrity one day.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "find (sth) out",
+    "meaning": "فهمیدن، کشف کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "discover"
+    ],
+    "examples": [
+      {
+        "english": "I need to find out the time of the train.",
+        "persian": "باید زمان حرکت قطار را بفهمم."
+      }
+    ],
+    "miniContext": "I need to find out the time of the train.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "hear",
+    "meaning": "شنیدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you hear the music?",
+        "persian": "می‌توانی موسیقی را بشنوی؟"
+      }
+    ],
+    "miniContext": "Can you hear the music?",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "the (news)paper",
+    "meaning": "روزنامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "newspaper"
+    ],
+    "examples": [
+      {
+        "english": "I read the paper every morning.",
+        "persian": "من هر صبح روزنامه می‌خوانم."
+      }
+    ],
+    "miniContext": "I read the paper every morning.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "magazine",
+    "meaning": "مجله",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She reads a fashion magazine.",
+        "persian": "او یک مجله مد می‌خواند."
+      }
+    ],
+    "miniContext": "She reads a fashion magazine.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "media",
+    "meaning": "رسانه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The story was in the media.",
+        "persian": "این داستان در رسانه‌ها بود."
+      }
+    ],
+    "miniContext": "The story was in the media.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "most (of sth)",
+    "meaning": "بیشتر (چیزی)",
+    "level": "Elementary",
+    "pos": "determiner",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Most of the students passed.",
+        "persian": "بیشتر دانش‌آموزان قبول شدند."
+      }
+    ],
+    "miniContext": "Most of the students passed.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "news (as in \"the news\")",
+    "meaning": "اخبار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watch the news every evening.",
+        "persian": "من هر عصر اخبار را تماشا می‌کنم."
+      }
+    ],
+    "miniContext": "I watch the news every evening.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "newspaper",
+    "meaning": "روزنامه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He reads the newspaper every day.",
+        "persian": "او هر روز روزنامه می‌خواند."
+      }
+    ],
+    "miniContext": "He reads the newspaper every day.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "none (of sth)",
+    "meaning": "هیچ‌کدام",
+    "level": "Elementary",
+    "pos": "pronoun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "None of the students were late.",
+        "persian": "هیچ‌کدام از دانش‌آموزان دیر نکردند."
+      }
+    ],
+    "miniContext": "None of the students were late.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "paper",
+    "meaning": "کاغذ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please give me a piece of paper.",
+        "persian": "لطفاً یک تکه کاغذ به من بده."
+      }
+    ],
+    "miniContext": "Please give me a piece of paper.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "peace",
+    "meaning": "صلح؛ آرامش",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The news programme talked about peace.",
+        "persian": "برنامه خبری درباره صلح صحبت کرد."
+      }
+    ],
+    "miniContext": "The news programme talked about peace.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "programme",
+    "meaning": "برنامه (تلویزیونی)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is my favourite TV programme.",
+        "persian": "این برنامه مورد علاقه تلویزیونی من است."
+      }
+    ],
+    "miniContext": "This is my favourite TV programme.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "radio (on the radio)",
+    "meaning": "رادیو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I heard the news on the radio.",
+        "persian": "خبر را از رادیو شنیدم."
+      }
+    ],
+    "miniContext": "I heard the news on the radio.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "report (v)",
+    "meaning": "گزارش دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The news reported a big storm.",
+        "persian": "اخبار یک طوفان بزرگ را گزارش داد."
+      }
+    ],
+    "miniContext": "The news reported a big storm.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "the news",
+    "meaning": "اخبار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I watch the news every evening.",
+        "persian": "من هر شب اخبار تماشا می‌کنم."
+      }
+    ],
+    "miniContext": "I watch the news every evening.",
+    "icon": "📺"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-85",
+    "word": "war",
+    "meaning": "جنگ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The war lasted for many years.",
+        "persian": "جنگ سال‌های زیادی طول کشید."
+      }
+    ],
+    "miniContext": "The war lasted for many years.",
+    "icon": "📺"
+  }
+]

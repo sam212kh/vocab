@@ -1,0 +1,244 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "after that",
+    "meaning": "بعد از آن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "then"
+    ],
+    "examples": [
+      {
+        "english": "We had dinner, and after that we watched a film.",
+        "persian": "ما شام خوردیم و بعد از آن یک فیلم تماشا کردیم."
+      }
+    ],
+    "miniContext": "We had dinner, and after that we watched a film.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "as a result",
+    "meaning": "در نتیجه",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It rained a lot. As a result, the match was cancelled.",
+        "persian": "باران زیادی آمد. در نتیجه، مسابقه لغو شد."
+      }
+    ],
+    "miniContext": "It rained a lot. As a result, the match was cancelled.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "because",
+    "meaning": "چون، زیرا",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I stayed home because it was raining.",
+        "persian": "من خانه ماندم چون باران می‌آمد."
+      }
+    ],
+    "miniContext": "I stayed home because it was raining.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "because of sth/sb",
+    "meaning": "به خاطر چیزی/کسی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The flight was delayed because of the weather.",
+        "persian": "پرواز به خاطر آب‌وهوا به تاخیر افتاد."
+      }
+    ],
+    "miniContext": "The flight was delayed because of the weather.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "before that",
+    "meaning": "قبل از آن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Before that, I lived in London.",
+        "persian": "قبل از آن، من در لندن زندگی می‌کردم."
+      }
+    ],
+    "miniContext": "Before that, I lived in London.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "finally",
+    "meaning": "در نهایت، بالاخره",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "eventually"
+    ],
+    "examples": [
+      {
+        "english": "Finally, we arrived home.",
+        "persian": "در نهایت، به خانه رسیدیم."
+      }
+    ],
+    "miniContext": "Finally, we arrived home.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "first of all",
+    "meaning": "اول از همه",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "First of all, let's check the map.",
+        "persian": "اول از همه، بیایید نقشه را بررسی کنیم."
+      }
+    ],
+    "miniContext": "First of all, let's check the map.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "firstly",
+    "meaning": "اولا",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Firstly, I want to thank you all.",
+        "persian": "اولا، می‌خواهم از همه شما تشکر کنم."
+      }
+    ],
+    "miniContext": "Firstly, I want to thank you all.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "in order to do sth",
+    "meaning": "به منظور انجام کاری",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She saved money in order to buy a car.",
+        "persian": "او پول پس‌انداز کرد تا یک ماشین بخرد."
+      }
+    ],
+    "miniContext": "She saved money in order to buy a car.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "reason",
+    "meaning": "دلیل",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the reason for your decision?",
+        "persian": "دلیل تصمیمت چیست؟"
+      }
+    ],
+    "miniContext": "What's the reason for your decision?",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "secondly",
+    "meaning": "دوماً، در مرحله دوم",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Firstly, it's cheap. Secondly, it's fast.",
+        "persian": "اول اینکه ارزان است، دوماً سریع است."
+      }
+    ],
+    "miniContext": "Firstly, it's cheap. Secondly, it's fast.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "so (conjunction)",
+    "meaning": "پس، بنابراین",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was tired, so I went to bed early.",
+        "persian": "خسته بودم، پس زود خوابیدم."
+      }
+    ],
+    "miniContext": "I was tired, so I went to bed early.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "then",
+    "meaning": "سپس، بعد",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We had dinner, then we watched a film.",
+        "persian": "ما شام خوردیم، سپس یک فیلم تماشا کردیم."
+      }
+    ],
+    "miniContext": "We had dinner, then we watched a film.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-98",
+    "word": "to (purpose)",
+    "meaning": "برای (هدف)",
+    "level": "Elementary",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I went to the shop to buy milk.",
+        "persian": "من به مغازه رفتم تا شیر بخرم."
+      }
+    ],
+    "miniContext": "I went to the shop to buy milk.",
+    "icon": "🔗"
+  }
+]

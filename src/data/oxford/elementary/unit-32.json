@@ -1,0 +1,155 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "accident",
+    "meaning": "تصادف، حادثه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a car accident on the road.",
+        "persian": "در خیابان یک تصادف ماشین رخ داد."
+      }
+    ],
+    "miniContext": "There was a car accident on the road.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "broken",
+    "meaning": "شکسته",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The window is broken.",
+        "persian": "پنجره شکسته است."
+      }
+    ],
+    "miniContext": "The window is broken.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "burn",
+    "meaning": "سوختن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't touch the pan, it will burn you.",
+        "persian": "به ماهیتابه دست نزن، تو را می‌سوزاند."
+      }
+    ],
+    "miniContext": "Don't touch the pan, it will burn you.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "hit (v)",
+    "meaning": "زدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The ball hit the window.",
+        "persian": "توپ به پنجره خورد."
+      }
+    ],
+    "miniContext": "The ball hit the window.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "hurt",
+    "meaning": "آسیب زدن، درد گرفتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I fell and hurt my leg.",
+        "persian": "من افتادم و پایم آسیب دید."
+      }
+    ],
+    "miniContext": "I fell and hurt my leg.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "knock",
+    "meaning": "زدن (در)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Someone knocked on the door.",
+        "persian": "کسی در را زد."
+      }
+    ],
+    "miniContext": "Someone knocked on the door.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "injury",
+    "meaning": "آسیب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He has a leg injury.",
+        "persian": "او آسیب پا دارد."
+      }
+    ],
+    "miniContext": "He has a leg injury.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "pain",
+    "meaning": "درد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a pain in my leg.",
+        "persian": "در پایم درد دارم."
+      }
+    ],
+    "miniContext": "I have a pain in my leg.",
+    "icon": "🤕"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-32",
+    "word": "serious (very bad)",
+    "meaning": "جدی، شدید (بد)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She had a serious accident last year.",
+        "persian": "او سال گذشته یک تصادف جدی داشت."
+      }
+    ],
+    "miniContext": "She had a serious accident last year.",
+    "icon": "🤕"
+  }
+]

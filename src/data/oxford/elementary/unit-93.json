@@ -1,0 +1,225 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "borrow",
+    "meaning": "قرض گرفتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I borrow your pen?",
+        "persian": "می‌توانم خودکارت را قرض بگیرم؟"
+      }
+    ],
+    "miniContext": "Can I borrow your pen?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "Can I/you...?",
+    "meaning": "می‌توانم/می‌توانی...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you open the window, please?",
+        "persian": "می‌توانی پنجره را باز کنی؟"
+      }
+    ],
+    "miniContext": "Can you open the window, please?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "change places",
+    "meaning": "جا عوض کردن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can we change places? I can't see the screen.",
+        "persian": "می‌شود جامان را عوض کنیم؟ صفحه را نمی‌بینم."
+      }
+    ],
+    "miniContext": "Can we change places? I can't see the screen.",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "go ahead (= yes, of course)",
+    "meaning": "بفرمایید، ادامه بده",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "\"Can I ask a question?\" \"Go ahead.\"",
+        "persian": "«می‌توانم سوال بپرسم؟» «بفرمایید.»"
+      }
+    ],
+    "miniContext": "\"Can I ask a question?\" \"Go ahead.\"",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "if (Do you mind if/Is it OK if)",
+    "meaning": "اگر",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you mind if I open the window?",
+        "persian": "اشکالی ندارد اگر پنجره را باز کنم؟"
+      }
+    ],
+    "miniContext": "Do you mind if I open the window?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "Is it OK / all right if...?",
+    "meaning": "اشکالی ندارد اگر...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is it OK if I open the window?",
+        "persian": "اشکالی ندارد اگر پنجره را باز کنم؟"
+      }
+    ],
+    "miniContext": "Is it OK if I open the window?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "mind (as in \"Do you mind if...?\")",
+    "meaning": "ناراحت نمی‌شوی اگر...؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you mind if I sit here?",
+        "persian": "ناراحت نمی‌شوی اگر اینجا بنشینم؟"
+      }
+    ],
+    "miniContext": "Do you mind if I sit here?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "OK",
+    "meaning": "باشه؛ اشکالی ندارد",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "fine"
+    ],
+    "examples": [
+      {
+        "english": "Is it OK if I open the window?",
+        "persian": "اشکالی ندارد اگر پنجره را باز کنم؟"
+      }
+    ],
+    "miniContext": "Is it OK if I open the window?",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "permission",
+    "meaning": "اجازه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need permission to park here.",
+        "persian": "برای پارک کردن اینجا به اجازه نیاز داری."
+      }
+    ],
+    "miniContext": "You need permission to park here.",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "request",
+    "meaning": "درخواست",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a small request.",
+        "persian": "من یک درخواست کوچک دارم."
+      }
+    ],
+    "miniContext": "I have a small request.",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "respond",
+    "meaning": "پاسخ دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please respond as soon as possible.",
+        "persian": "لطفاً هرچه زودتر پاسخ بده."
+      }
+    ],
+    "miniContext": "Please respond as soon as possible.",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "response",
+    "meaning": "پاسخ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I haven't had a response yet.",
+        "persian": "هنوز پاسخی نگرفته‌ام."
+      }
+    ],
+    "miniContext": "I haven't had a response yet.",
+    "icon": "🙏"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-93",
+    "word": "take (carry)",
+    "meaning": "بردن، حمل کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you take this bag for me?",
+        "persian": "می‌توانی این کیف را برای من ببری؟"
+      }
+    ],
+    "miniContext": "Can you take this bag for me?",
+    "icon": "🙏"
+  }
+]

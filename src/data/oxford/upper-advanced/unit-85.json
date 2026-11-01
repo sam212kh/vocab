@@ -1,0 +1,198 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "backwards and forwards",
+    "meaning": "این‌طرف و اون‌طرف، رفت‌وبرگشت مکرر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "back and forth"
+    ],
+    "examples": [
+      {
+        "english": "We've been going backwards and forwards all day.",
+        "persian": "کل روز داریم این‌طرف و اون‌طرف می‌ریم."
+      }
+    ],
+    "miniContext": "We've been going backwards and forwards all day.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "first and foremost",
+    "meaning": "مهم‌تر از هر چیز دیگر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "First and foremost we need a plan.",
+        "persian": "مهم‌تر از هر چیز، به یک برنامه نیاز داریم."
+      }
+    ],
+    "miniContext": "First and foremost we need a plan.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "sooner or later",
+    "meaning": "دیر یا زود",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They'll be here sooner or later.",
+        "persian": "دیر یا زود می‌رسند."
+      }
+    ],
+    "miniContext": "They'll be here sooner or later.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "the pros and cons",
+    "meaning": "مزایا و معایب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We're considering the pros and cons of moving.",
+        "persian": "داریم مزایا و معایب جابه‌جایی را بررسی می‌کنیم."
+      }
+    ],
+    "miniContext": "We're considering the pros and cons of moving.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "trial and error",
+    "meaning": "آزمون و خطا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I learnt how to use a computer by trial and error.",
+        "persian": "با آزمون و خطا یاد گرفتم چطور از کامپیوتر استفاده کنم."
+      }
+    ],
+    "miniContext": "I learnt how to use a computer by trial and error.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "more or less",
+    "meaning": "تقریبا، تقریباً تمام",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I've more or less finished this book.",
+        "persian": "تقریبا این کتاب را تمام کرده‌ام."
+      }
+    ],
+    "miniContext": "I've more or less finished this book.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "now and again",
+    "meaning": "گاهی اوقات، نه زیاد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "now and then",
+      "on and off"
+    ],
+    "examples": [
+      {
+        "english": "I see my cousins now and again.",
+        "persian": "گاهی اوقات پسرعموهام را می‌بینم."
+      }
+    ],
+    "miniContext": "I see my cousins now and again.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "law and order",
+    "meaning": "نظم و قانون",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Who is responsible for law and order?",
+        "persian": "چه کسی مسئول نظم و قانون است؟"
+      }
+    ],
+    "miniContext": "Who is responsible for law and order?",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "safe and sound",
+    "meaning": "سالم و بدون آسیب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The children got home safe and sound.",
+        "persian": "بچه‌ها سالم به خانه رسیدند."
+      }
+    ],
+    "miniContext": "The children got home safe and sound.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "sick and tired (of sth)",
+    "meaning": "حسابی خسته و کلافه از چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "sick to death of sth"
+    ],
+    "examples": [
+      {
+        "english": "I'm sick and tired of this weather.",
+        "persian": "حسابی از این هوا خسته شده‌ام."
+      }
+    ],
+    "miniContext": "I'm sick and tired of this weather.",
+    "icon": "💬"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-85",
+    "word": "odds and ends",
+    "meaning": "خرت‌وپرت، چیزهای کوچک و بی‌اهمیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "bits and pieces"
+    ],
+    "examples": [
+      {
+        "english": "I've almost finished packing except for a few odds and ends.",
+        "persian": "بسته‌بندی را تقریبا تمام کرده‌ام، فقط چندتا خرت‌وپرت مانده."
+      }
+    ],
+    "miniContext": "I've almost finished packing except for a few odds and ends.",
+    "icon": "💬"
+  }
+]

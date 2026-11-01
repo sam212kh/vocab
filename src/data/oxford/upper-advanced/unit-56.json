@@ -1,0 +1,401 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "arms",
+    "meaning": "سلاح (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "weapons"
+    ],
+    "examples": [
+      {
+        "english": "Arms deal probe.",
+        "persian": "بازرسی از معامله‌ی تسلیحاتی."
+      }
+    ],
+    "miniContext": "Arms deal probe.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "probe",
+    "meaning": "تحقیق، بازرسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "investigation"
+    ],
+    "examples": [
+      {
+        "english": "A probe is an investigation into sth.",
+        "persian": "probe به معنای تحقیق درباره‌ی موضوعی است."
+      }
+    ],
+    "miniContext": "A probe is an investigation into sth.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "plea (for sth)",
+    "meaning": "التماس، درخواست مهم و احساسی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Mother's plea to kidnappers.",
+        "persian": "التماس مادر به آدم‌ربایان."
+      }
+    ],
+    "miniContext": "Mother's plea to kidnappers.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "kidnapper",
+    "meaning": "آدم‌ربا",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sb who takes a person away illegally and keeps them as a prisoner is a kidnapper.",
+        "persian": "کسی که فردی را به‌طور غیرقانونی می‌رباید و او را اسیر نگه می‌دارد، آدم‌ربا نامیده می‌شود."
+      }
+    ],
+    "miniContext": "Sb who takes a person away illegally and keeps them as a prisoner is a kidnapper.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "pledge",
+    "meaning": "تعهد دادن، قول رسمی دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Government pledges more aid.",
+        "persian": "دولت تعهد کمک بیشتر می‌دهد."
+      }
+    ],
+    "miniContext": "Government pledges more aid.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "aid",
+    "meaning": "کمک (مالی/غذایی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Aid is money, food, etc. that is sent to a country to help them.",
+        "persian": "کمک، همان پول، غذا و غیره است که برای یاری‌رساندن به یک کشور فرستاده می‌شود."
+      }
+    ],
+    "miniContext": "Aid is money, food, etc. that is sent to a country to help them.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "urge sb to do sth",
+    "meaning": "به شدت توصیه کردن، ترغیب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Senate urges caution.",
+        "persian": "سنا توصیه به احتیاط می‌کند."
+      }
+    ],
+    "miniContext": "Senate urges caution.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "bid",
+    "meaning": "تلاش، اقدام برای انجام کاری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "attempt"
+    ],
+    "examples": [
+      {
+        "english": "Bid to axe rail chief.",
+        "persian": "تلاش برای برکناری رئیس راه‌آهن."
+      }
+    ],
+    "miniContext": "Bid to axe rail chief.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "axe sb/sth",
+    "meaning": "برکنار کردن، حذف کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The bus company plans to axe part of the rural service.",
+        "persian": "شرکت اتوبوسرانی قصد دارد بخشی از خدمات روستایی را حذف کند."
+      }
+    ],
+    "miniContext": "The bus company plans to axe part of the rural service.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "chief",
+    "meaning": "رئیس، مسئول ارشد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "A police chief is one of the most important people in the force.",
+        "persian": "رئیس پلیس یکی از مهم‌ترین افراد نیروی انتظامی است."
+      }
+    ],
+    "miniContext": "A police chief is one of the most important people in the force.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "vow (to do sth)",
+    "meaning": "قول جدی دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Minister vows to quit.",
+        "persian": "وزیر قول استعفا می‌دهد."
+      }
+    ],
+    "miniContext": "Minister vows to quit.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "blast",
+    "meaning": "انفجار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Bomb blast wrecks factory.",
+        "persian": "انفجار بمب کارخانه را ویران کرد."
+      }
+    ],
+    "miniContext": "Bomb blast wrecks factory.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "wreck sth",
+    "meaning": "ویران کردن، نابود کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Bomb blast wrecks factory.",
+        "persian": "انفجار بمب کارخانه را ویران کرد."
+      }
+    ],
+    "miniContext": "Bomb blast wrecks factory.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "boost",
+    "meaning": "کمک و تقویت، افزایش دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Boost for voters.",
+        "persian": "تقویتی برای رأی‌دهندگان."
+      }
+    ],
+    "miniContext": "Boost for voters.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "go-ahead",
+    "meaning": "مجوز رسمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Go-ahead for road scheme.",
+        "persian": "مجوز اجرای طرح جاده‌ای."
+      }
+    ],
+    "miniContext": "Go-ahead for road scheme.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "scheme",
+    "meaning": "طرح، برنامه رسمی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Go-ahead for road scheme.",
+        "persian": "مجوز اجرای طرح جاده‌ای."
+      }
+    ],
+    "miniContext": "Go-ahead for road scheme.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "cease (sth)",
+    "meaning": "متوقف شدن، متوقف کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "IMG cease trading.",
+        "persian": "شرکت IMG تجارت را متوقف می‌کند."
+      }
+    ],
+    "miniContext": "IMG cease trading.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "clear sb (of sth)",
+    "meaning": "برائت کسی را اثبات کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Doctor cleared of negligence.",
+        "persian": "برائت پزشک از اتهام قصور ثابت شد."
+      }
+    ],
+    "miniContext": "Doctor cleared of negligence.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "blow",
+    "meaning": "ضربه، شوک ناگوار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Injury blow for United.",
+        "persian": "ضربه‌ی مصدومیت برای تیم یونایتد."
+      }
+    ],
+    "miniContext": "Injury blow for United.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "alert",
+    "meaning": "هشدار",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "New flood alert.",
+        "persian": "هشدار جدید سیل."
+      }
+    ],
+    "miniContext": "New flood alert.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "foil sth",
+    "meaning": "خنثی کردن، نقش بر آب کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Police foil bomb plot.",
+        "persian": "پلیس توطئه‌ی بمب‌گذاری را خنثی کرد."
+      }
+    ],
+    "miniContext": "Police foil bomb plot.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "plot",
+    "meaning": "توطئه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "conspiracy"
+    ],
+    "examples": [
+      {
+        "english": "Police foil bomb plot.",
+        "persian": "پلیس توطئه‌ی بمب‌گذاری را خنثی کرد."
+      }
+    ],
+    "miniContext": "Police foil bomb plot.",
+    "icon": "📰"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-56",
+    "word": "rule sth out",
+    "meaning": "رد کردن احتمال چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "PM rules out referendum.",
+        "persian": "نخست‌وزیر احتمال برگزاری همه‌پرسی را رد کرد."
+      }
+    ],
+    "miniContext": "PM rules out referendum.",
+    "icon": "📰"
+  }
+]

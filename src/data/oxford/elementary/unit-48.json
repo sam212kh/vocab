@@ -1,0 +1,308 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "beer",
+    "meaning": "آبجو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He doesn't drink beer.",
+        "persian": "او آبجو نمی‌نوشد."
+      }
+    ],
+    "miniContext": "He doesn't drink beer.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "black pepper",
+    "meaning": "فلفل سیاه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add some black pepper to the soup.",
+        "persian": "کمی فلفل سیاه به سوپ اضافه کن."
+      }
+    ],
+    "miniContext": "Add some black pepper to the soup.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "bottle",
+    "meaning": "بطری",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please pass me a bottle of water.",
+        "persian": "لطفا یک بطری آب به من بده."
+      }
+    ],
+    "miniContext": "Please pass me a bottle of water.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "bowl",
+    "meaning": "کاسه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She filled the bowl with soup.",
+        "persian": "او کاسه را از سوپ پر کرد."
+      }
+    ],
+    "miniContext": "She filled the bowl with soup.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "fizzy water",
+    "meaning": "آب گازدار",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I have a glass of fizzy water?",
+        "persian": "می‌توانم یک لیوان آب گازدار داشته باشم؟"
+      }
+    ],
+    "miniContext": "Can I have a glass of fizzy water?",
+    "icon": "💧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "fork",
+    "meaning": "چنگال",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you pass me a fork?",
+        "persian": "می‌توانی یک چنگال به من بدهی؟"
+      }
+    ],
+    "miniContext": "Can you pass me a fork?",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "glass (of sth)",
+    "meaning": "لیوان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can I have a glass of water?",
+        "persian": "می‌توانم یک لیوان آب داشته باشم؟"
+      }
+    ],
+    "miniContext": "Can I have a glass of water?",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "knife",
+    "meaning": "چاقو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Use a knife to cut the bread.",
+        "persian": "برای بریدن نان از چاقو استفاده کن."
+      }
+    ],
+    "miniContext": "Use a knife to cut the bread.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "oil",
+    "meaning": "روغن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add some oil to the pan.",
+        "persian": "کمی روغن به تابه اضافه کن."
+      }
+    ],
+    "miniContext": "Add some oil to the pan.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "pepper (= black pepper)",
+    "meaning": "فلفل (سیاه)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add some salt and pepper.",
+        "persian": "کمی نمک و فلفل اضافه کن."
+      }
+    ],
+    "miniContext": "Add some salt and pepper.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "plate",
+    "meaning": "بشقاب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Put the food on the plate.",
+        "persian": "غذا را داخل بشقاب بگذار."
+      }
+    ],
+    "miniContext": "Put the food on the plate.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "red wine",
+    "meaning": "شراب قرمز",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He ordered a glass of red wine.",
+        "persian": "او یک لیوان شراب قرمز سفارش داد."
+      }
+    ],
+    "miniContext": "He ordered a glass of red wine.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "salt",
+    "meaning": "نمک",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you pass the salt, please?",
+        "persian": "می‌توانی لطفاً نمک را بدهی؟"
+      }
+    ],
+    "miniContext": "Can you pass the salt, please?",
+    "icon": "🧂"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "spoon",
+    "meaning": "قاشق",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need a spoon for my soup.",
+        "persian": "برای سوپم به یک قاشق نیاز دارم."
+      }
+    ],
+    "miniContext": "I need a spoon for my soup.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "vinegar",
+    "meaning": "سرکه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add some vinegar to the salad.",
+        "persian": "کمی سرکه به سالاد اضافه کن."
+      }
+    ],
+    "miniContext": "Add some vinegar to the salad.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "water",
+    "meaning": "آب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I drink a lot of water every day.",
+        "persian": "من هر روز آب زیادی می‌نوشم."
+      }
+    ],
+    "miniContext": "I drink a lot of water every day.",
+    "icon": "💧"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "white wine",
+    "meaning": "شراب سفید",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She ordered a glass of white wine.",
+        "persian": "او یک لیوان شراب سفید سفارش داد."
+      }
+    ],
+    "miniContext": "She ordered a glass of white wine.",
+    "icon": "🍽️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-48",
+    "word": "wine",
+    "meaning": "شراب",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They drank red wine with dinner.",
+        "persian": "آن‌ها با شام شراب قرمز نوشیدند."
+      }
+    ],
+    "miniContext": "They drank red wine with dinner.",
+    "icon": "🍽️"
+  }
+]

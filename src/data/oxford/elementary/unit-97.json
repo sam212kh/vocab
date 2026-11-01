@@ -1,0 +1,144 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "also",
+    "meaning": "همچنین",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "too"
+    ],
+    "examples": [
+      {
+        "english": "I like tea, and I also like coffee.",
+        "persian": "من چای دوست دارم و همچنین قهوه هم دوست دارم."
+      }
+    ],
+    "miniContext": "I like tea, and I also like coffee.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "although",
+    "meaning": "اگرچه",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Although it was raining, we went for a walk.",
+        "persian": "اگرچه باران می‌آمد، ما پیاده‌روی رفتیم."
+      }
+    ],
+    "miniContext": "Although it was raining, we went for a walk.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "and",
+    "meaning": "و",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a brother and a sister.",
+        "persian": "من یک برادر و یک خواهر دارم."
+      }
+    ],
+    "miniContext": "I have a brother and a sister.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "as well",
+    "meaning": "همچنین",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "too"
+    ],
+    "examples": [
+      {
+        "english": "I like pizza, and pasta as well.",
+        "persian": "من پیتزا دوست دارم و پاستا را هم همچنین."
+      }
+    ],
+    "miniContext": "I like pizza, and pasta as well.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "but",
+    "meaning": "اما",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I like tea, but I don't like coffee.",
+        "persian": "من چای دوست دارم اما قهوه دوست ندارم."
+      }
+    ],
+    "miniContext": "I like tea, but I don't like coffee.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "however",
+    "meaning": "با این حال، اما",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The film was long, however I enjoyed it.",
+        "persian": "فیلم طولانی بود، با این حال از آن لذت بردم."
+      }
+    ],
+    "miniContext": "The film was long, however I enjoyed it.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "though",
+    "meaning": "اگرچه، با این حال",
+    "level": "Elementary",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was cold, though we had fun.",
+        "persian": "هوا سرد بود، با این حال خوش گذشت."
+      }
+    ],
+    "miniContext": "It was cold, though we had fun.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-97",
+    "word": "too (also)",
+    "meaning": "همچنین",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "also"
+    ],
+    "examples": [
+      {
+        "english": "I like tea, and I like coffee too.",
+        "persian": "من چای دوست دارم، قهوه را هم همچنین دوست دارم."
+      }
+    ],
+    "miniContext": "I like tea, and I like coffee too.",
+    "icon": "🔗"
+  }
+]

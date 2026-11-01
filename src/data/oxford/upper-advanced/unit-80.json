@@ -1,0 +1,295 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "aesthetic",
+    "meaning": "زیبایی‌شناختی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "An architect starts with an aesthetic vision.",
+        "persian": "معمار با یک دیدگاه زیبایی‌شناختی شروع می‌کند."
+      }
+    ],
+    "miniContext": "An architect starts with an aesthetic vision.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "unique",
+    "meaning": "منحصربه‌فرد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "An engineer turns this unique concept into a practical building.",
+        "persian": "مهندس این مفهوم منحصربه‌فرد را به ساختمانی عملی تبدیل می‌کند."
+      }
+    ],
+    "miniContext": "An engineer turns this unique concept into a practical building.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "constraint",
+    "meaning": "محدودیت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [
+      "restriction"
+    ],
+    "examples": [
+      {
+        "english": "Skyscrapers have more physical constraints than average buildings.",
+        "persian": "آسمان‌خراش‌ها محدودیت‌های فیزیکی بیشتری از ساختمان‌های معمولی دارند."
+      }
+    ],
+    "miniContext": "Skyscrapers have more physical constraints than average buildings.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "comply (with sth)",
+    "meaning": "مطابقت کردن، پیروی کردن از قانون",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The structure has to comply with building regulations.",
+        "persian": "سازه باید با مقررات ساختمانی مطابقت داشته باشد."
+      }
+    ],
+    "miniContext": "The structure has to comply with building regulations.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "regulation",
+    "meaning": "مقررات",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The structure has to comply with building regulations.",
+        "persian": "سازه باید با مقررات ساختمانی مطابقت داشته باشد."
+      }
+    ],
+    "miniContext": "The structure has to comply with building regulations.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "withstand",
+    "meaning": "تحمل کردن، در برابر فشار مقاومت کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "resist"
+    ],
+    "examples": [
+      {
+        "english": "It must be able to withstand high winds and earthquakes.",
+        "persian": "باید بتواند در برابر بادهای شدید و زلزله مقاومت کند."
+      }
+    ],
+    "miniContext": "It must be able to withstand high winds and earthquakes.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "undergo",
+    "meaning": "تحت فرایندی قرار گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They have to undergo a thorough process of testing.",
+        "persian": "باید تحت فرایند دقیقی از آزمایش قرار بگیرند."
+      }
+    ],
+    "miniContext": "They have to undergo a thorough process of testing.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "thorough",
+    "meaning": "دقیق و کامل",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They have to undergo a thorough process of testing.",
+        "persian": "باید تحت فرایند دقیقی از آزمایش قرار بگیرند."
+      }
+    ],
+    "miniContext": "They have to undergo a thorough process of testing.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "excessive",
+    "meaning": "بیش از حد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Results may indicate there is excessive movement.",
+        "persian": "نتایج ممکن است نشان دهند حرکت بیش از حد است."
+      }
+    ],
+    "miniContext": "Results may indicate there is excessive movement.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "meet the needs of sb/sth",
+    "meaning": "نیازهای کسی را برآورده کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It must meet the various needs of its users.",
+        "persian": "باید نیازهای مختلف کاربرانش را برآورده کند."
+      }
+    ],
+    "miniContext": "It must meet the various needs of its users.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "construction",
+    "meaning": "ساخت‌وساز",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The construction of a skyscraper begins with the foundations.",
+        "persian": "ساخت یک آسمان‌خراش با فونداسیون شروع می‌شود."
+      }
+    ],
+    "miniContext": "The construction of a skyscraper begins with the foundations.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "foundation",
+    "meaning": "فونداسیون، پی ساختمان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The construction begins with laying the foundations.",
+        "persian": "ساخت با ریختن فونداسیون شروع می‌شود."
+      }
+    ],
+    "miniContext": "The construction begins with laying the foundations.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "reinforced (concrete)",
+    "meaning": "مقاوم‌شده، تقویت‌شده (بتن)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Steel or reinforced concrete columns are inserted into the foundations.",
+        "persian": "ستون‌های فولادی یا بتن مسلح داخل فونداسیون قرار می‌گیرند."
+      }
+    ],
+    "miniContext": "Steel or reinforced concrete columns are inserted into the foundations.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "framework",
+    "meaning": "اسکلت، چارچوب سازه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Cranes erect the vertical columns of the building's framework.",
+        "persian": "جرثقیل‌ها ستون‌های عمودی اسکلت ساختمان را نصب می‌کنند."
+      }
+    ],
+    "miniContext": "Cranes erect the vertical columns of the building's framework.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "girder",
+    "meaning": "تیرآهن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Girders are attached horizontally between the columns.",
+        "persian": "تیرآهن‌ها به‌صورت افقی بین ستون‌ها وصل می‌شوند."
+      }
+    ],
+    "miniContext": "Girders are attached horizontally between the columns.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "load",
+    "meaning": "بار، وزن وارده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This structure gives support to the enormous load the building must bear.",
+        "persian": "این سازه بار عظیمی را که ساختمان باید تحمل کند پشتیبانی می‌کند."
+      }
+    ],
+    "miniContext": "This structure gives support to the enormous load the building must bear.",
+    "icon": "⚙️"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-80",
+    "word": "panel (building)",
+    "meaning": "پانل (صفحه‌ی سازه‌ای)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Panels made of glass or metal complete the exterior.",
+        "persian": "پانل‌های شیشه‌ای یا فلزی نمای بیرونی را کامل می‌کنند."
+      }
+    ],
+    "miniContext": "Panels made of glass or metal complete the exterior.",
+    "icon": "⚙️"
+  }
+]

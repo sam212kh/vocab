@@ -1,0 +1,212 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "certain",
+    "meaning": "مطمئن، قطعی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "sure"
+    ],
+    "examples": [
+      {
+        "english": "I am certain that she will come.",
+        "persian": "من مطمئن هستم که او خواهد آمد."
+      }
+    ],
+    "miniContext": "I am certain that she will come.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "impolite",
+    "meaning": "بی‌ادب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's impolite to interrupt people.",
+        "persian": "حرف کسی را قطع کردن بی‌ادبی است."
+      }
+    ],
+    "miniContext": "It's impolite to interrupt people.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "impossible",
+    "meaning": "غیرممکن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's impossible to finish this today.",
+        "persian": "امروز تمام کردن این کار غیرممکن است."
+      }
+    ],
+    "miniContext": "It's impossible to finish this today.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "lucky",
+    "meaning": "خوش‌شانس",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You are very lucky.",
+        "persian": "تو خیلی خوش‌شانسی."
+      }
+    ],
+    "miniContext": "You are very lucky.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "necessary",
+    "meaning": "ضروری",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's necessary to study every day.",
+        "persian": "هر روز مطالعه کردن ضروری است."
+      }
+    ],
+    "miniContext": "It's necessary to study every day.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "polite",
+    "meaning": "باادب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is always polite to everyone.",
+        "persian": "او همیشه با همه باادب است."
+      }
+    ],
+    "miniContext": "He is always polite to everyone.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "possible",
+    "meaning": "ممکن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Is it possible to change the date?",
+        "persian": "آیا ممکن است تاریخ را تغییر دهیم؟"
+      }
+    ],
+    "miniContext": "Is it possible to change the date?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "rude",
+    "meaning": "بی‌ادب",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's rude to interrupt people.",
+        "persian": "حرف کسی را قطع کردن بی‌ادبی است."
+      }
+    ],
+    "miniContext": "It's rude to interrupt people.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "uncertain",
+    "meaning": "نامطمئن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "unsure"
+    ],
+    "examples": [
+      {
+        "english": "I am uncertain about the plan.",
+        "persian": "من در مورد این برنامه نامطمئن هستم."
+      }
+    ],
+    "miniContext": "I am uncertain about the plan.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "unlucky",
+    "meaning": "بدشانس",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was unlucky and lost the game.",
+        "persian": "من بدشانس بودم و بازی را باختم."
+      }
+    ],
+    "miniContext": "I was unlucky and lost the game.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "unnecessary",
+    "meaning": "غیرضروری",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This step is unnecessary.",
+        "persian": "این مرحله غیرضروری است."
+      }
+    ],
+    "miniContext": "This step is unnecessary.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-62",
+    "word": "unsure",
+    "meaning": "نامطمئن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [
+      "uncertain"
+    ],
+    "examples": [
+      {
+        "english": "I'm unsure about my decision.",
+        "persian": "من در مورد تصمیمم نامطمئن هستم."
+      }
+    ],
+    "miniContext": "I'm unsure about my decision.",
+    "icon": "🔤"
+  }
+]

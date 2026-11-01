@@ -1,0 +1,467 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "a bit",
+    "meaning": "کمی، یک ذره",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [
+      "a little",
+      "slightly"
+    ],
+    "examples": [
+      {
+        "english": "I am a bit tired today.",
+        "persian": "من امروز کمی خسته هستم."
+      }
+    ],
+    "miniContext": "I am a bit tired today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "a lot (of sth)",
+    "meaning": "مقدار زیادی",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [
+      "many",
+      "much"
+    ],
+    "examples": [
+      {
+        "english": "There is a lot of food on the table.",
+        "persian": "روی میز غذای زیادی هست."
+      }
+    ],
+    "miniContext": "There is a lot of food on the table.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "better (than)",
+    "meaning": "بهتر (از)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This phone is better than my old one.",
+        "persian": "این گوشی از گوشی قدیمی من بهتر است."
+      }
+    ],
+    "miniContext": "This phone is better than my old one.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "blow",
+    "meaning": "دمیدن، وزیدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The wind is blowing hard today.",
+        "persian": "امروز باد شدید می‌وزد."
+      }
+    ],
+    "miniContext": "The wind is blowing hard today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "bright",
+    "meaning": "روشن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The room is very bright in the morning.",
+        "persian": "اتاق صبح‌ها خیلی روشن است."
+      }
+    ],
+    "miniContext": "The room is very bright in the morning.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "change (= become different)",
+    "meaning": "تغییر کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The weather changes quickly here.",
+        "persian": "آب‌وهوا اینجا سریع تغییر می‌کند."
+      }
+    ],
+    "miniContext": "The weather changes quickly here.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "heavy rain",
+    "meaning": "باران شدید",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was heavy rain last night.",
+        "persian": "شب گذشته باران شدیدی بود."
+      }
+    ],
+    "miniContext": "There was heavy rain last night.",
+    "icon": "🌧️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "hot",
+    "meaning": "گرم، داغ",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's very hot today.",
+        "persian": "امروز خیلی گرم است."
+      }
+    ],
+    "miniContext": "It's very hot today.",
+    "icon": "🥵"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "ice (= weather)",
+    "meaning": "یخ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The road was covered in ice.",
+        "persian": "خیابان پوشیده از یخ بود."
+      }
+    ],
+    "miniContext": "The road was covered in ice.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "icy",
+    "meaning": "یخ‌زده",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The streets were icy this morning.",
+        "persian": "خیابان‌ها امروز صبح یخ‌زده بودند."
+      }
+    ],
+    "miniContext": "The streets were icy this morning.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "moon",
+    "meaning": "ماه (آسمانی)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The moon is bright tonight.",
+        "persian": "امشب ماه روشن است."
+      }
+    ],
+    "miniContext": "The moon is bright tonight.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "rain (n, v)",
+    "meaning": "باران (باریدن)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's going to rain this afternoon.",
+        "persian": "امروز بعدازظهر باران می‌آید."
+      }
+    ],
+    "miniContext": "It's going to rain this afternoon.",
+    "icon": "🌧️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "shine",
+    "meaning": "درخشیدن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sun is shining today.",
+        "persian": "امروز خورشید می‌درخشد."
+      }
+    ],
+    "miniContext": "The sun is shining today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "shower (light rain)",
+    "meaning": "بارش کوتاه و ناگهانی",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There will be showers this afternoon.",
+        "persian": "بعدازظهر بارش‌های کوتاهی خواهد بود."
+      }
+    ],
+    "miniContext": "There will be showers this afternoon.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "sky",
+    "meaning": "آسمان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sky is blue today.",
+        "persian": "امروز آسمان آبی است."
+      }
+    ],
+    "miniContext": "The sky is blue today.",
+    "icon": "🌌"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "snow",
+    "meaning": "برف، باریدن برف",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It often snows in winter here.",
+        "persian": "اینجا در زمستان اغلب برف می‌بارد."
+      }
+    ],
+    "miniContext": "It often snows in winter here.",
+    "icon": "❄️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "storm",
+    "meaning": "طوفان",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a big storm last night.",
+        "persian": "دیشب یک طوفان بزرگ آمد."
+      }
+    ],
+    "miniContext": "There was a big storm last night.",
+    "icon": "⛈️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "strong (wind)",
+    "meaning": "شدید (باد)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a strong wind today.",
+        "persian": "امروز باد شدیدی می‌آمد."
+      }
+    ],
+    "miniContext": "There was a strong wind today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "suddenly",
+    "meaning": "ناگهان",
+    "level": "Elementary",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Suddenly, it started to rain.",
+        "persian": "ناگهان باران شروع شد."
+      }
+    ],
+    "miniContext": "Suddenly, it started to rain.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "sun",
+    "meaning": "خورشید",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The sun is very hot today.",
+        "persian": "امروز خورشید خیلی داغ است."
+      }
+    ],
+    "miniContext": "The sun is very hot today.",
+    "icon": "☀️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "sunny",
+    "meaning": "آفتابی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's sunny and warm today.",
+        "persian": "امروز آفتابی و گرم است."
+      }
+    ],
+    "miniContext": "It's sunny and warm today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "warm",
+    "meaning": "گرم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's warm today.",
+        "persian": "امروز هوا گرم است."
+      }
+    ],
+    "miniContext": "It's warm today.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "wet",
+    "meaning": "خیس",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "My shoes are wet from the rain.",
+        "persian": "کفش‌هایم از باران خیس شده‌اند."
+      }
+    ],
+    "miniContext": "My shoes are wet from the rain.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "What's the weather like?",
+    "meaning": "آب و هوا چطور است؟",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What's the weather like today?",
+        "persian": "امروز آب و هوا چطور است؟"
+      }
+    ],
+    "miniContext": "What's the weather like today?",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "wind",
+    "meaning": "باد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The wind is very strong today.",
+        "persian": "باد امروز بسیار قوی است."
+      }
+    ],
+    "miniContext": "The wind is very strong today.",
+    "icon": "💨"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "windy",
+    "meaning": "بادی",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's windy outside.",
+        "persian": "بیرون بادی است."
+      }
+    ],
+    "miniContext": "It's windy outside.",
+    "icon": "⛅"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-37",
+    "word": "worse",
+    "meaning": "بدتر (از)",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The weather is worse than yesterday.",
+        "persian": "آب و هوا بدتر از دیروز است."
+      }
+    ],
+    "miniContext": "The weather is worse than yesterday.",
+    "icon": "⛅"
+  }
+]

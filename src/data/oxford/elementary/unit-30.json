@@ -1,0 +1,329 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "area",
+    "meaning": "منطقه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "region"
+    ],
+    "examples": [
+      {
+        "english": "This is a quiet area of the city.",
+        "persian": "این یک منطقه آرام در شهر است."
+      }
+    ],
+    "miniContext": "This is a quiet area of the city.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "attack",
+    "meaning": "حمله کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The dog attacked the cat.",
+        "persian": "سگ به گربه حمله کرد."
+      }
+    ],
+    "miniContext": "The dog attacked the cat.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "believe",
+    "meaning": "باور کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I believe you.",
+        "persian": "من تو را باور می‌کنم."
+      }
+    ],
+    "miniContext": "I believe you.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "dead body",
+    "meaning": "جسد",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police found a dead body in the river.",
+        "persian": "پلیس یک جسد در رودخانه پیدا کرد."
+      }
+    ],
+    "miniContext": "The police found a dead body in the river.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "find",
+    "meaning": "پیدا کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can't find my keys.",
+        "persian": "نمی‌توانم کلیدهایم را پیدا کنم."
+      }
+    ],
+    "miniContext": "I can't find my keys.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "happen",
+    "meaning": "اتفاق افتادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What happened at the meeting?",
+        "persian": "در جلسه چه اتفاقی افتاد؟"
+      }
+    ],
+    "miniContext": "What happened at the meeting?",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "kill",
+    "meaning": "کشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Don't kill insects.",
+        "persian": "حشرات را نکش."
+      }
+    ],
+    "miniContext": "Don't kill insects.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "major",
+    "meaning": "اصلی، مهم",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's a major problem.",
+        "persian": "این یک مشکل مهم است."
+      }
+    ],
+    "miniContext": "It's a major problem.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "member",
+    "meaning": "عضو",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He is a member of the club.",
+        "persian": "او عضو کلوب است."
+      }
+    ],
+    "miniContext": "He is a member of the club.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "name (v)",
+    "meaning": "نام‌گذاری کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They named the baby Sara.",
+        "persian": "آنها نام بچه را سارا گذاشتند."
+      }
+    ],
+    "miniContext": "They named the baby Sara.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "plan (n, v)",
+    "meaning": "برنامه / برنامه‌ریزی کردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We have a plan for the weekend.",
+        "persian": "ما برای آخر هفته یک برنامه داریم."
+      }
+    ],
+    "miniContext": "We have a plan for the weekend.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "public (the public)",
+    "meaning": "عموم مردم",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The museum is open to the public.",
+        "persian": "موزه برای عموم مردم باز است."
+      }
+    ],
+    "miniContext": "The museum is open to the public.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "recent",
+    "meaning": "اخیر",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This is a recent photo of us.",
+        "persian": "این عکس اخیر ما است."
+      }
+    ],
+    "miniContext": "This is a recent photo of us.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "safe",
+    "meaning": "امن",
+    "level": "Elementary",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This city is very safe at night.",
+        "persian": "این شهر شب‌ها خیلی امن است."
+      }
+    ],
+    "miniContext": "This city is very safe at night.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "search",
+    "meaning": "جستجو / جستجو کردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "look for"
+    ],
+    "examples": [
+      {
+        "english": "The search for the missing dog took all day.",
+        "persian": "جستجو برای یافتن سگ گمشده کل روز طول کشید."
+      }
+    ],
+    "miniContext": "The search for the missing dog took all day.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "series (of events, etc.)",
+    "meaning": "سری، رشته (اتفاقات)",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There was a series of accidents on the road.",
+        "persian": "یک سری تصادف در جاده رخ داد."
+      }
+    ],
+    "miniContext": "There was a series of accidents on the road.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "statement",
+    "meaning": "اظهاریه، جمله",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The police made a short statement.",
+        "persian": "پلیس یک اظهاریه کوتاه داد."
+      }
+    ],
+    "miniContext": "The police made a short statement.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "stress",
+    "meaning": "استرس",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She has a lot of stress at work.",
+        "persian": "او در محل کار استرس زیادی دارد."
+      }
+    ],
+    "miniContext": "She has a lot of stress at work.",
+    "icon": "🚔"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-30",
+    "word": "take place",
+    "meaning": "اتفاق افتادن، برگزار شدن",
+    "level": "Elementary",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The meeting will take place tomorrow.",
+        "persian": "جلسه فردا برگزار خواهد شد."
+      }
+    ],
+    "miniContext": "The meeting will take place tomorrow.",
+    "icon": "🚔"
+  }
+]

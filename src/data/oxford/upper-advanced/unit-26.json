@@ -1,0 +1,431 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "windscreen",
+    "meaning": "شیشه جلوی ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You look through the windscreen when you're driving.",
+        "persian": "وقتی رانندگی می‌کنی از شیشه جلو نگاه می‌کنی."
+      }
+    ],
+    "miniContext": "You look through it when you're driving.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "windscreen wipers",
+    "meaning": "برف‌پاک‌کن شیشه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "To see in the rain, turn on the windscreen wipers.",
+        "persian": "برای دیدن در باران، برف‌پاک‌کن را روشن کن."
+      }
+    ],
+    "miniContext": "To see in the rain, turn on the windscreen wipers.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "steering wheel",
+    "meaning": "فرمان ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "To change direction, turn the steering wheel.",
+        "persian": "برای تغییر مسیر، فرمان را بچرخان."
+      }
+    ],
+    "miniContext": "To change direction, turn the steering wheel.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "headlight",
+    "meaning": "چراغ جلوی ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "To see at night, turn on the headlights.",
+        "persian": "برای دیدن در شب، چراغ‌های جلو را روشن کن."
+      }
+    ],
+    "miniContext": "To see at night, turn on the headlights.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "wing mirror",
+    "meaning": "آینه بغل ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "To overtake, look in your wing mirror.",
+        "persian": "برای سبقت گرفتن، به آینه بغل نگاه کن."
+      }
+    ],
+    "miniContext": "To overtake, look in your wing mirror.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "boot",
+    "meaning": "صندوق عقب ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "To store luggage, open the boot.",
+        "persian": "برای جا دادن بار، صندوق عقب را باز کن."
+      }
+    ],
+    "miniContext": "To store luggage, open the boot.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "tyre",
+    "meaning": "لاستیک ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you fit special tyres on your car in the winter?",
+        "persian": "زمستان‌ها لاستیک مخصوص روی ماشینت می‌بندی؟"
+      }
+    ],
+    "miniContext": "It's on the outside of the wheel.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "number plate",
+    "meaning": "پلاک ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It identifies your car.",
+        "persian": "ماشینت را شناسایی می‌کند."
+      }
+    ],
+    "miniContext": "It identifies your car.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "traffic warden",
+    "meaning": "مامور کنترل پارکینگ",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have traffic wardens? What is your attitude to them?",
+        "persian": "آیا مامور کنترل پارکینگ دارید؟ نگرشت نسبت به آن‌ها چیست؟"
+      }
+    ],
+    "miniContext": "Do you have traffic wardens? What is your attitude to them?",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "pavement",
+    "meaning": "پیاده‌رو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's where people walk.",
+        "persian": "جایی است که مردم راه می‌روند."
+      }
+    ],
+    "miniContext": "Do people park on the pavement in your country?",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "kerb",
+    "meaning": "لبه جدول خیابان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The first thing you have to do is start the car and pull away from the kerb.",
+        "persian": "اولین کاری که باید بکنی این است که ماشین را روشن کنی و از کنار جدول حرکت کنی."
+      }
+    ],
+    "miniContext": "The first thing you have to do is start the car and pull away from the kerb.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "zebra crossing",
+    "meaning": "خط‌کشی عابر پیاده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Do you have zebra crossings in your country?",
+        "persian": "آیا در کشورت خط‌کشی عابر پیاده دارید؟"
+      }
+    ],
+    "miniContext": "It helps people to cross the road.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "pull away (from sth)",
+    "meaning": "حرکت کردن ماشین (از جایی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrasal verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The first thing you have to do is start the car and pull away from the kerb.",
+        "persian": "اولین کاری که باید بکنی این است که ماشین را روشن کنی و از کنار جدول حرکت کنی."
+      }
+    ],
+    "miniContext": "Start the car and pull away from the kerb.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "steer",
+    "meaning": "هدایت کردن (ماشین)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You steer the car to control its direction.",
+        "persian": "برای کنترل مسیر، ماشین را هدایت می‌کنی."
+      }
+    ],
+    "miniContext": "You steer the car to control its direction.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "accelerate",
+    "meaning": "سرعت گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [
+      "speed up"
+    ],
+    "examples": [
+      {
+        "english": "If you want to go faster, you accelerate.",
+        "persian": "اگر بخواهی سریع‌تر بروی، سرعت می‌گیری."
+      }
+    ],
+    "miniContext": "If you want to go faster, you accelerate.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "reverse",
+    "meaning": "عقب رفتن (با ماشین)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you want to go back, you reverse.",
+        "persian": "اگر بخواهی عقب بروی، دنده عقب می‌زنی."
+      }
+    ],
+    "miniContext": "If you want to go back, you reverse.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "swerve",
+    "meaning": "ناگهان تغییر مسیر دادن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I swerved to avoid the child crossing the road.",
+        "persian": "برای اجتناب از بچه‌ای که از خیابان رد می‌شد، ناگهان فرمان را چرخاندم."
+      }
+    ],
+    "miniContext": "If you change direction suddenly, e.g. to avoid hitting something, you swerve.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "skid",
+    "meaning": "سر خوردن ماشین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you drive fast on a wet road and brake too quickly, you may skid.",
+        "persian": "اگر در جاده خیس سریع برانی و ناگهان ترمز بزنی، ممکن است سر بخوری."
+      }
+    ],
+    "miniContext": "If you drive fast on a wet road and brake too quickly, you may skid.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "overtake",
+    "meaning": "سبقت گرفتن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "If you pass another car going in the same direction, you overtake.",
+        "persian": "اگر از ماشین دیگری که هم‌جهت توست عبور کنی، سبقت گرفته‌ای."
+      }
+    ],
+    "miniContext": "You can't pass another car here.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "manual",
+    "meaning": "دنده‌ای (ماشین با دنده دستی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "With a manual car, you operate the gears by hand.",
+        "persian": "در ماشین دنده‌ای، دنده‌ها را با دست کنترل می‌کنی."
+      }
+    ],
+    "miniContext": "With a manual car, you need to change gear all the time.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "change gear",
+    "meaning": "عوض کردن دنده",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "With a manual car, you need to change gear all the time.",
+        "persian": "در ماشین دنده‌ای باید دائم دنده عوض کنی."
+      }
+    ],
+    "miniContext": "With a manual car, you need to change gear all the time (from 1 to 5/6 and reverse).",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "alert",
+    "meaning": "هوشیار، مراقب",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need to be alert at all times.",
+        "persian": "باید همیشه هوشیار باشی."
+      }
+    ],
+    "miniContext": "You need to be alert at all times and on the lookout for any potential hazards.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "be on the lookout (for sth/sb)",
+    "meaning": "مراقب و در جستجوی چیزی بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You need to be on the lookout for any potential hazards.",
+        "persian": "باید مراقب هر خطر احتمالی باشی."
+      }
+    ],
+    "miniContext": "You need to be alert at all times and on the lookout for any potential hazards.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "potential",
+    "meaning": "احتمالی، بالقوه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [
+      "possible"
+    ],
+    "examples": [
+      {
+        "english": "Birds are a potential problem.",
+        "persian": "پرندگان یک مشکل احتمالی هستند."
+      }
+    ],
+    "miniContext": "You need to be on the lookout for any potential hazards.",
+    "icon": "🚗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-26",
+    "word": "hazard",
+    "meaning": "خطر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ice can be a real hazard.",
+        "persian": "یخ می‌تواند خطر واقعی باشد."
+      }
+    ],
+    "miniContext": "You need to be alert at all times and on the lookout for any potential hazards.",
+    "icon": "🚗"
+  }
+]

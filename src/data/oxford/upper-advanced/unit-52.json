@@ -1,0 +1,359 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "health care",
+    "meaning": "خدمات بهداشتی و درمانی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In order to get free health care, you need to register with a doctor.",
+        "persian": "برای دریافت خدمات درمانی رایگان، باید نزد یک پزشک ثبت‌نام کنید."
+      }
+    ],
+    "miniContext": "In order to get free health care, you need to register with a doctor.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "register (with/for sth)",
+    "meaning": "ثبت‌نام کردن (نزد/برای چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "When I moved to Brighton, I had to register with a doctor near my home.",
+        "persian": "وقتی به برایتون نقل مکان کردم، باید نزد پزشکی نزدیک خانه‌ام ثبت‌نام می‌کردم."
+      }
+    ],
+    "miniContext": "When I moved to Brighton, I had to register with a doctor near my home.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "refer sb (to sth)",
+    "meaning": "ارجاع دادن کسی (به چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I asked the doctor to refer me to a specialist because of my long-term skin problem.",
+        "persian": "از پزشک خواستم مرا به دلیل مشکل پوستی طولانی‌مدتم به متخصص ارجاع دهد."
+      }
+    ],
+    "miniContext": "I asked the doctor to refer me to a specialist because of my long-term skin problem.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "specialist",
+    "meaning": "متخصص",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How do I get referred to a specialist?",
+        "persian": "چطور می‌توانم به یک متخصص ارجاع داده شوم؟"
+      }
+    ],
+    "miniContext": "How do I get referred to a specialist?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "prescription",
+    "meaning": "نسخه‌ی دارو",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "For many common illnesses, the doctor will give you a prescription.",
+        "persian": "برای بسیاری از بیماری‌های رایج، پزشک به شما نسخه می‌دهد."
+      }
+    ],
+    "miniContext": "For many common illnesses, the doctor will give you a prescription.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "suspect",
+    "meaning": "گمان بردن، مشکوک بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "What if I suspect a doctor has made a mistake?",
+        "persian": "اگر گمان کنم پزشکی اشتباه کرده است چه باید بکنم؟"
+      }
+    ],
+    "miniContext": "What if I suspect a doctor has made a mistake?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "participant (in sth)",
+    "meaning": "شرکت‌کننده (در چیزی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How many participants are taking part in the clinical trial for the new cancer drug?",
+        "persian": "چند شرکت‌کننده در کارآزمایی بالینی داروی جدید سرطان حضور دارند؟"
+      }
+    ],
+    "miniContext": "How many participants are taking part in the clinical trial for the new cancer drug?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "clinical",
+    "meaning": "بالینی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "How do I become a participant in a clinical trial?",
+        "persian": "چطور می‌توانم شرکت‌کننده‌ی یک کارآزمایی بالینی شوم؟"
+      }
+    ],
+    "miniContext": "How do I become a participant in a clinical trial?",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "cosmetic surgery",
+    "meaning": "جراحی زیبایی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some cosmetic surgery is available on the National Health Service.",
+        "persian": "برخی جراحی‌های زیبایی در نظام سلامت ملی در دسترس است."
+      }
+    ],
+    "miniContext": "Some cosmetic surgery is available on the National Health Service.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "free of charge",
+    "meaning": "رایگان، بدون هزینه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Prescriptions are free of charge if you are under 16 or over 60.",
+        "persian": "اگر زیر ۱۶ یا بالای ۶۰ سال باشید، نسخه‌ها رایگان هستند."
+      }
+    ],
+    "miniContext": "Prescriptions are free of charge if you are under 16 or over 60.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "confidential",
+    "meaning": "محرمانه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "All medical treatment has to be strictly confidential between the doctor and patient.",
+        "persian": "همه‌ی درمان‌های پزشکی باید کاملاً بین پزشک و بیمار محرمانه بماند."
+      }
+    ],
+    "miniContext": "All medical treatment has to be strictly confidential between the doctor and patient.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "dedicated",
+    "meaning": "فداکار، متعهد",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The doctors and nurses were very dedicated and kept me informed at all times.",
+        "persian": "پزشکان و پرستاران بسیار فداکار بودند و همیشه مرا در جریان می‌گذاشتند."
+      }
+    ],
+    "miniContext": "The doctors and nurses were very dedicated and kept me informed at all times.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "inform",
+    "meaning": "آگاه کردن، مطلع کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In hospital, patients are always kept informed about their treatment.",
+        "persian": "در بیمارستان، بیماران همیشه از درمان خود آگاه نگه داشته می‌شوند."
+      }
+    ],
+    "miniContext": "In hospital, patients are always kept informed about their treatment.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "be rushed off your feet",
+    "meaning": "بسیار سرشان شلوغ بودن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I know the staff were rushed off their feet, but nobody took any notice of my calls for help.",
+        "persian": "می‌دانم کارکنان بسیار سرشان شلوغ بود، اما هیچ‌کس به درخواست‌های کمکم توجهی نکرد."
+      }
+    ],
+    "miniContext": "I know the staff were rushed off their feet, but nobody took any notice of my calls for help.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "take (no) notice of sb/sth",
+    "meaning": "توجه کردن (نکردن) به کسی/چیزی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Nobody took any notice of my calls for help.",
+        "persian": "هیچ‌کس به فریادهای کمک‌خواهی من توجهی نکرد."
+      }
+    ],
+    "miniContext": "Nobody took any notice of my calls for help.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "miserable",
+    "meaning": "بسیار ناراحت، بدبخت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I felt miserable when I was admitted, but soon felt my old self again.",
+        "persian": "وقتی بستری شدم بسیار ناراحت بودم، اما به‌زودی دوباره حال خودم را پیدا کردم."
+      }
+    ],
+    "miniContext": "I felt miserable when I was admitted, but soon felt my old self again.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "absolute",
+    "meaning": "کامل، مطلق",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I had absolute confidence in the nursing staff.",
+        "persian": "اعتماد کاملی به کادر پرستاری داشتم."
+      }
+    ],
+    "miniContext": "I had absolute confidence in the nursing staff.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "ward",
+    "meaning": "بخش بیمارستان",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I was admitted to the ward, seen by a junior doctor, then nothing happened for two days.",
+        "persian": "به بخش بیمارستان منتقل شدم، پزشکی تازه‌کار مرا دید و بعد دو روز هیچ اتفاقی نیفتاد."
+      }
+    ],
+    "miniContext": "I was admitted to the ward, seen by a junior doctor, then nothing happened for two days.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "junior",
+    "meaning": "تازه‌کار، کم‌تجربه (رتبه پایین‌تر)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There are more senior doctors than junior doctors.",
+        "persian": "تعداد پزشکان باسابقه بیشتر از پزشکان تازه‌کار است."
+      }
+    ],
+    "miniContext": "There are more senior doctors than junior doctors.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "well-being",
+    "meaning": "سلامت و رفاه عمومی",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I felt the whole time that my well-being was the staff's prime concern.",
+        "persian": "در تمام مدت احساس می‌کردم سلامت من دغدغه‌ی اصلی کادر درمان است."
+      }
+    ],
+    "miniContext": "I felt the whole time that my well-being was the staff's prime concern.",
+    "icon": "🏥"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-52",
+    "word": "prime",
+    "meaning": "اصلی، مهم‌ترین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "For the doctors and nurses, the patient's well-being is their prime concern.",
+        "persian": "برای پزشکان و پرستاران، سلامت بیمار دغدغه‌ی اصلی‌شان است."
+      }
+    ],
+    "miniContext": "For the doctors and nurses, the patient's well-being is their prime concern.",
+    "icon": "🏥"
+  }
+]

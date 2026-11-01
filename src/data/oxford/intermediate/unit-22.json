@@ -1,0 +1,320 @@
+[
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "especially",
+    "meaning": "به ویژه، مخصوصا",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "particularly"
+    ],
+    "examples": [
+      {
+        "english": "I hate being at home all the time, especially in winter.",
+        "persian": "از خانه بودن همیشه متنفرم، مخصوصا زمستان‌ها."
+      }
+    ],
+    "miniContext": "I hate being at home all the time, especially in winter.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "naturally",
+    "meaning": "طبیعتا، البته",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "of course"
+    ],
+    "examples": [
+      {
+        "english": "Naturally, I was really pleased about the trip.",
+        "persian": "طبیعتا از آن سفر خیلی خوشحال بودم."
+      }
+    ],
+    "miniContext": "Naturally, I was really pleased about the trip.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "obviously",
+    "meaning": "واضح است که، بدیهی است",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "clearly"
+    ],
+    "examples": [
+      {
+        "english": "It's obviously an expensive time to go there.",
+        "persian": "واضح است که این فصل گران‌قیمتی برای رفتن به آنجاست."
+      }
+    ],
+    "miniContext": "It's obviously an expensive time to go there.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "in (actual) fact",
+    "meaning": "در واقع",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [
+      "actually"
+    ],
+    "examples": [
+      {
+        "english": "In actual fact, we found a cheap flight.",
+        "persian": "در واقع یک پرواز ارزان پیدا کردیم."
+      }
+    ],
+    "miniContext": "In actual fact, we found a cheap flight.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "perfectly",
+    "meaning": "کاملا",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The hotel was perfectly acceptable.",
+        "persian": "هتل کاملا قابل قبول بود."
+      }
+    ],
+    "miniContext": "The hotel was perfectly acceptable.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "specifically",
+    "meaning": "دقیقا، مشخصا",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I specifically asked for a room with a sea view.",
+        "persian": "دقیقا درخواست اتاقی با منظره‌ی دریا دادم."
+      }
+    ],
+    "miniContext": "I specifically asked for a room with a sea view.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "eventually",
+    "meaning": "بالاخره، سرانجام",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Eventually, they found me a room with a balcony.",
+        "persian": "بالاخره یک اتاق با بالکن برایم پیدا کردند."
+      }
+    ],
+    "miniContext": "Eventually, they found me a room with a balcony.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "simply",
+    "meaning": "صرفا، فقط",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "just"
+    ],
+    "examples": [
+      {
+        "english": "You simply need to book a month before you travel.",
+        "persian": "فقط کافیست یک ماه قبل از سفر رزرو کنی."
+      }
+    ],
+    "miniContext": "You simply need to book a month before you travel.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "hardly",
+    "meaning": "تقریبا هیچ، به سختی",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I hardly moved from the beach all week.",
+        "persian": "تقریبا تمام هفته از ساحل تکان نخوردم."
+      }
+    ],
+    "miniContext": "I hardly moved from the beach all week.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "not necessarily",
+    "meaning": "لزوما نه",
+    "level": "Intermediate",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I would recommend the area, but not necessarily that hotel.",
+        "persian": "آن منطقه را پیشنهاد می‌کنم، اما لزوما آن هتل را نه."
+      }
+    ],
+    "miniContext": "I would recommend the area, but not necessarily that hotel.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "angrily",
+    "meaning": "با عصبانیت",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He shouted at me angrily when I refused to move my car.",
+        "persian": "وقتی قبول نکردم ماشینم را جابه‌جا کنم، با عصبانیت سرم داد زد."
+      }
+    ],
+    "miniContext": "He shouted at me angrily when I refused to move my car.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "suddenly",
+    "meaning": "ناگهان",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Ollie's horse died suddenly, so we were all shocked.",
+        "persian": "اسب اولی ناگهان مرد، پس همه شوکه شدیم."
+      }
+    ],
+    "miniContext": "Ollie's horse died suddenly, so we were all shocked.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "heavily",
+    "meaning": "به شدت (باران/برف)",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It was raining heavily when we left the cinema.",
+        "persian": "وقتی از سینما بیرون آمدیم باران به شدت می‌بارید."
+      }
+    ],
+    "miniContext": "It was raining heavily when we left the cinema.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "calmly",
+    "meaning": "با آرامش",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He spoke very calmly about his experience.",
+        "persian": "او خیلی با آرامش درباره‌ی تجربه‌اش صحبت کرد."
+      }
+    ],
+    "miniContext": "He spoke very calmly about his experience.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "properly",
+    "meaning": "به درستی، درست",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The photocopier isn't working properly.",
+        "persian": "دستگاه فتوکپی به درستی کار نمی‌کند."
+      }
+    ],
+    "miniContext": "The photocopier isn't working properly.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "successfully",
+    "meaning": "با موفقیت",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Sofia completed her studies successfully.",
+        "persian": "صوفیا تحصیلاتش را با موفقیت تمام کرد."
+      }
+    ],
+    "miniContext": "Sofia completed her studies successfully.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "politely",
+    "meaning": "با ادب، مودبانه",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Brad always asks very politely if he wants something.",
+        "persian": "بِرَد همیشه خیلی مودبانه درخواست می‌کند."
+      }
+    ],
+    "miniContext": "Brad always asks very politely if he wants something.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-intermediate",
+    "lessonId": "unit-22",
+    "word": "secretly",
+    "meaning": "مخفیانه",
+    "level": "Intermediate",
+    "pos": "adverb",
+    "synonyms": [
+      "in secret"
+    ],
+    "examples": [
+      {
+        "english": "They did everything very secretly.",
+        "persian": "آن‌ها همه چیز را خیلی مخفیانه انجام دادند."
+      }
+    ],
+    "miniContext": "They did everything very secretly.",
+    "icon": "🔤"
+  }
+]

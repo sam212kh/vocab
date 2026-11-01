@@ -1,0 +1,299 @@
+[
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "while/whereas",
+    "meaning": "درحالی‌که (برای مقایسه یا تضاد)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Some people can work to music while others find it very difficult.",
+        "persian": "بعضی افراد می‌توانند با موسیقی کار کنند درحالی‌که برای بعضی دیگر خیلی سخت است."
+      }
+    ],
+    "miniContext": "Some people can work to music while others find it very difficult.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "nonetheless/nevertheless",
+    "meaning": "با این‌حال، با وجود این",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It's not a serious problem. Nonetheless, we'll have to do something.",
+        "persian": "مشکل جدی‌ای نیست. با این‌حال باید کاری انجام دهیم."
+      }
+    ],
+    "miniContext": "It's not a serious problem. Nonetheless, we'll have to do something.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "furthermore/moreover",
+    "meaning": "علاوه بر این (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "People respect her knowledge. Furthermore, they trust her.",
+        "persian": "مردم به دانش او احترام می‌گذارند. علاوه بر این، به او اعتماد دارند."
+      }
+    ],
+    "miniContext": "People respect her knowledge. Furthermore, they trust her.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "provided/providing (that)",
+    "meaning": "به شرط اینکه، مشروط بر",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "conjunction",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "You can withdraw £250 a day, provided that you have the money.",
+        "persian": "می‌توانی روزی ۲۵۰ پوند برداشت کنی، به شرط اینکه پول داشته باشی."
+      }
+    ],
+    "miniContext": "You can withdraw £250 a day, provided that you have the money.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "otherwise",
+    "meaning": "در غیر این صورت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I'd better shut the window, otherwise it'll get cold.",
+        "persian": "بهتره پنجره را ببندم، وگرنه سرد می‌شود."
+      }
+    ],
+    "miniContext": "I'd better shut the window, otherwise it'll get cold.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "consequently",
+    "meaning": "در نتیجه، بنابراین",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [
+      "therefore"
+    ],
+    "examples": [
+      {
+        "english": "Isabella failed her exam. Consequently, they wouldn't give her a place.",
+        "persian": "ایزابلا در امتحانش رد شد. در نتیجه، به او جایی ندادند."
+      }
+    ],
+    "miniContext": "Isabella failed her exam. Consequently, they wouldn't give her a place.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "besides",
+    "meaning": "علاوه بر این، به‌علاوه",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I wasn't keen on flying. Besides, I couldn't afford it.",
+        "persian": "علاقه‌ای به پرواز نداشتم. به‌علاوه، از عهده‌ی هزینه‌اش برنمی‌آمدم."
+      }
+    ],
+    "miniContext": "I wasn't keen on flying. Besides, I couldn't afford it.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "thereby",
+    "meaning": "بدین‌ترتیب (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Exercise strengthens the heart, thereby reducing the risk of attack.",
+        "persian": "ورزش قلب را تقویت می‌کند و بدین‌ترتیب خطر حمله را کاهش می‌دهد."
+      }
+    ],
+    "miniContext": "Exercise strengthens the heart, thereby reducing the risk of attack.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "prior to sth",
+    "meaning": "پیش از چیزی (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "preposition",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "They received an apology prior to the meeting.",
+        "persian": "آن‌ها پیش از جلسه عذرخواهی دریافت کردند."
+      }
+    ],
+    "miniContext": "They received an apology prior to the meeting.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "in view of sth",
+    "meaning": "با توجه به چیزی (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "considering"
+    ],
+    "examples": [
+      {
+        "english": "In view of the limited inconvenience, this was felt adequate.",
+        "persian": "با توجه به ناراحتی محدود، این کافی به‌نظر رسید."
+      }
+    ],
+    "miniContext": "In view of the limited inconvenience, this was felt adequate.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "inconvenience",
+    "meaning": "ناراحتی، زحمت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The residents suffered limited inconvenience.",
+        "persian": "ساکنان ناراحتی محدودی متحمل شدند."
+      }
+    ],
+    "miniContext": "The residents suffered limited inconvenience.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "adequate",
+    "meaning": "کافی، قابل‌قبول",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adjective",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "This was felt to be adequate.",
+        "persian": "این کافی به‌نظر رسید."
+      }
+    ],
+    "miniContext": "This was felt to be adequate.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "thus",
+    "meaning": "بنابراین، به این دلیل (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "adverb",
+    "synonyms": [
+      "hence"
+    ],
+    "examples": [
+      {
+        "english": "This was felt to be adequate; thus no further action was taken.",
+        "persian": "این کافی به‌نظر رسید؛ بنابراین اقدام دیگری انجام نشد."
+      }
+    ],
+    "miniContext": "This was felt to be adequate; thus no further action was taken.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "with regard to sb/sth",
+    "meaning": "در رابطه با، درباره‌ی (رسمی)",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [
+      "regarding"
+    ],
+    "examples": [
+      {
+        "english": "With regard to Mr Wilson, some damage was caused to his property.",
+        "persian": "در رابطه با آقای ویلسون، خسارتی به اموالش وارد شد."
+      }
+    ],
+    "miniContext": "With regard to Mr Wilson, some damage was caused to his property.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "oblige",
+    "meaning": "مجبور کردن",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "He was obliged to move out while the damage was repaired.",
+        "persian": "او مجبور شد تا زمان تعمیر خسارت، خانه را ترک کند."
+      }
+    ],
+    "miniContext": "He was obliged to move out while the damage was repaired.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "compensation",
+    "meaning": "غرامت",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "It agreed to pay a further £200 in compensation.",
+        "persian": "موافقت کرد ۲۰۰ پوند دیگر به‌عنوان غرامت بپردازد."
+      }
+    ],
+    "miniContext": "It agreed to pay a further £200 in compensation.",
+    "icon": "🔗"
+  },
+  {
+    "courseId": "oxford-upper-advanced",
+    "lessonId": "unit-75",
+    "word": "in conclusion",
+    "meaning": "در پایان، به‌عنوان نتیجه‌گیری",
+    "level": "Upper-Intermediate/Advanced",
+    "pos": "phrase",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "In conclusion, we hope this brings an end to the matter.",
+        "persian": "در پایان، امیدواریم این موضوع را به پایان برساند."
+      }
+    ],
+    "miniContext": "In conclusion, we hope this brings an end to the matter.",
+    "icon": "🔗"
+  }
+]

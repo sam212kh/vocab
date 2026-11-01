@@ -1,0 +1,282 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "begin",
+    "meaning": "شروع کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "start"
+    ],
+    "examples": [
+      {
+        "english": "The lesson begins at nine.",
+        "persian": "درس ساعت نه شروع می‌شود."
+      }
+    ],
+    "miniContext": "The lesson begins at nine.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "box",
+    "meaning": "جعبه",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "There is a box of toys in the corner.",
+        "persian": "یک جعبه اسباب‌بازی در گوشه هست."
+      }
+    ],
+    "miniContext": "There is a box of toys in the corner.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "bring",
+    "meaning": "آوردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you bring your book tomorrow?",
+        "persian": "می‌توانی فردا کتابت را بیاوری؟"
+      }
+    ],
+    "miniContext": "Can you bring your book tomorrow?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "lend",
+    "meaning": "قرض دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you lend me some money?",
+        "persian": "می‌توانی مقداری پول به من قرض بدهی؟"
+      }
+    ],
+    "miniContext": "Can you lend me some money?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "let",
+    "meaning": "اجازه دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "allow"
+    ],
+    "examples": [
+      {
+        "english": "My parents let me go out.",
+        "persian": "والدینم به من اجازه دادند بیرون بروم."
+      }
+    ],
+    "miniContext": "My parents let me go out.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "lose (to sb)",
+    "meaning": "باختن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "We lost the match.",
+        "persian": "ما بازی را باختیم."
+      }
+    ],
+    "miniContext": "We lost the match.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "put",
+    "meaning": "گذاشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please put the bags over there.",
+        "persian": "لطفاً کیف‌ها را آن طرف بگذار."
+      }
+    ],
+    "miniContext": "Please put the bags over there.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "ring (v, = telephone sb)",
+    "meaning": "زنگ زدن (تلفن)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "call"
+    ],
+    "examples": [
+      {
+        "english": "I'll ring you tomorrow morning.",
+        "persian": "فردا صبح به تو زنگ می‌زنم."
+      }
+    ],
+    "miniContext": "I'll ring you tomorrow morning.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "send",
+    "meaning": "فرستادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Can you send me the photo?",
+        "persian": "می‌توانی عکس را برایم بفرستی؟"
+      }
+    ],
+    "miniContext": "Can you send me the photo?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "sing",
+    "meaning": "خواندن (آواز)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She sings very well.",
+        "persian": "او خیلی خوب آواز می‌خواند."
+      }
+    ],
+    "miniContext": "She sings very well.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "sit",
+    "meaning": "نشستن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Please sit on this chair.",
+        "persian": "لطفاً روی این صندلی بنشین."
+      }
+    ],
+    "miniContext": "Please sit on this chair.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "speak",
+    "meaning": "صحبت کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "talk"
+    ],
+    "examples": [
+      {
+        "english": "Can you speak English?",
+        "persian": "می‌توانی انگلیسی صحبت کنی؟"
+      }
+    ],
+    "miniContext": "Can you speak English?",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "swim (v)",
+    "meaning": "شنا کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I can swim very well.",
+        "persian": "من می‌توانم خیلی خوب شنا کنم."
+      }
+    ],
+    "miniContext": "I can swim very well.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "teach",
+    "meaning": "آموزش دادن، تدریس کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "She teaches English at a school.",
+        "persian": "او انگلیسی را در یک مدرسه تدریس می‌کند."
+      }
+    ],
+    "miniContext": "She teaches English at a school.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "think",
+    "meaning": "فکر کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I think this book is great.",
+        "persian": "فکر می‌کنم این کتاب عالی است."
+      }
+    ],
+    "miniContext": "I think this book is great.",
+    "icon": "🔤"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-39",
+    "word": "write",
+    "meaning": "نوشتن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I write a letter to my friend every month.",
+        "persian": "من هر ماه یک نامه به دوستم می‌نویسم."
+      }
+    ],
+    "miniContext": "I write a letter to my friend every month.",
+    "icon": "🔤"
+  }
+]

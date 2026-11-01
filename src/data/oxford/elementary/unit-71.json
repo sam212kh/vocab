@@ -1,0 +1,127 @@
+[
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "add",
+    "meaning": "اضافه کردن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "Add some salt to the soup.",
+        "persian": "کمی نمک به سوپ اضافه کن."
+      }
+    ],
+    "miniContext": "Add some salt to the soup.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "advert",
+    "meaning": "تبلیغ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "advertisement"
+    ],
+    "examples": [
+      {
+        "english": "I saw an advert for a new phone.",
+        "persian": "من یک تبلیغ برای یک گوشی جدید دیدم."
+      }
+    ],
+    "miniContext": "I saw an advert for a new phone.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "advertisement",
+    "meaning": "تبلیغ",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [
+      "advert"
+    ],
+    "examples": [
+      {
+        "english": "The advertisement is on TV every day.",
+        "persian": "این تبلیغ هر روز در تلویزیون پخش می‌شود."
+      }
+    ],
+    "miniContext": "The advertisement is on TV every day.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "interview (n, v)",
+    "meaning": "مصاحبه، مصاحبه کردن",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I have a job interview tomorrow.",
+        "persian": "من فردا مصاحبه شغلی دارم."
+      }
+    ],
+    "miniContext": "I have a job interview tomorrow.",
+    "icon": "🗣️"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "interviewer",
+    "meaning": "مصاحبه‌کننده",
+    "level": "Elementary",
+    "pos": "noun",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "The interviewer asked many questions.",
+        "persian": "مصاحبه‌کننده سوالات زیادی پرسید."
+      }
+    ],
+    "miniContext": "The interviewer asked many questions.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "offer",
+    "meaning": "پیشنهاد دادن",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [
+      "suggest"
+    ],
+    "examples": [
+      {
+        "english": "He offered me some coffee.",
+        "persian": "او به من کمی قهوه پیشنهاد داد."
+      }
+    ],
+    "miniContext": "He offered me some coffee.",
+    "icon": "💼"
+  },
+  {
+    "courseId": "oxford-elementary",
+    "lessonId": "unit-71",
+    "word": "post (n, v)",
+    "meaning": "پست کردن (نامه)",
+    "level": "Elementary",
+    "pos": "verb",
+    "synonyms": [],
+    "examples": [
+      {
+        "english": "I need to post this letter.",
+        "persian": "باید این نامه را پست کنم."
+      }
+    ],
+    "miniContext": "I need to post this letter.",
+    "icon": "💼"
+  }
+]
