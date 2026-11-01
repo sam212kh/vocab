@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Volar/vue-tsc type-checking shims — inert, auto-regenerated, not used at
+# runtime (Vite resolves .vue imports directly via the explicit extension)
+*.vue.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
