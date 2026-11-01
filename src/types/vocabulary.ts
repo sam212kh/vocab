@@ -13,6 +13,7 @@ export interface Word {
     synonyms: string[]
     examples: Example[]
     miniContext: string
+    icon?: string
 }
 
 export type WordStatus =
@@ -34,6 +35,8 @@ export interface WordProgress {
     lastReviewedAt: number | null
     nextReviewAt: number | null
     practicePriority: number
+    easeFactor: number
+    intervalDays: number
 }
 
 export interface LessonManifest {
@@ -43,6 +46,7 @@ export interface LessonManifest {
     file: string
     type: 'batch' | 'lesson'
     courseId?: string
+    images?: string[]
 }
 
 export interface CourseManifest {

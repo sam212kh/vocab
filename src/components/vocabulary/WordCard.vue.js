@@ -1,6 +1,7 @@
 import { computed } from 'vue';
 import { useHardWordsStore } from '../../stores/hardWords';
 import { useWordProgressStore } from '../../stores/wordProgress';
+import HardWordButton from './HardWordButton.vue';
 import SpeechButton from '../ui/SpeechButton.vue';
 import ContextText from '../context/ContextText.vue';
 const props = defineProps();
@@ -12,19 +13,6 @@ const isHardWord = computed(() => {
 const progress = computed(() => {
     return wordProgressStore.getProgress(props.word.word, props.word.courseId, String(props.word.lessonId));
 });
-function toggleHardWord() {
-    const wasHardWord = hardWordsStore.isHardWord(props.word.word);
-    hardWordsStore.toggleWord(props.word.word, props.word.meaning);
-    /*
-     * Create Progress only when the word
-     * is being added to Hard Words.
-     *
-     * The word itself remains the identifier.
-     */
-    if (!wasHardWord) {
-        wordProgressStore.getProgress(props.word.word, props.word.courseId, String(props.word.lessonId));
-    }
-}
 const __VLS_ctx = {
     ...{},
     ...{},
@@ -91,35 +79,21 @@ const __VLS_0 = SpeechButton;
 const __VLS_1 = __VLS_asFunctionalComponent1(__VLS_0, new __VLS_0({
     text: (__VLS_ctx.word.word),
     lang: "en-US",
-    label: "🔊",
 }));
 const __VLS_2 = __VLS_1({
     text: (__VLS_ctx.word.word),
     lang: "en-US",
-    label: "🔊",
 }, ...__VLS_functionalComponentArgsRest(__VLS_1));
-__VLS_asFunctionalElement1(__VLS_intrinsics.button, __VLS_intrinsics.button)({
-    ...{ onClick: (__VLS_ctx.toggleHardWord) },
-    type: "button",
-    ...{ class: "shrink-0 rounded-lg px-3 py-2 text-lg transition hover:bg-gray-100" },
-    ...{ class: (__VLS_ctx.isHardWord
-            ? 'text-yellow-500'
-            : 'text-gray-400') },
-    'aria-label': (__VLS_ctx.isHardWord
-        ? 'Remove from Hard Words'
-        : 'Add to Hard Words'),
-    title: (__VLS_ctx.isHardWord
-        ? 'Remove from Hard Words'
-        : 'Add to Hard Words'),
-});
-/** @type {__VLS_StyleScopedClasses['shrink-0']} */ ;
-/** @type {__VLS_StyleScopedClasses['rounded-lg']} */ ;
-/** @type {__VLS_StyleScopedClasses['px-3']} */ ;
-/** @type {__VLS_StyleScopedClasses['py-2']} */ ;
-/** @type {__VLS_StyleScopedClasses['text-lg']} */ ;
-/** @type {__VLS_StyleScopedClasses['transition']} */ ;
-/** @type {__VLS_StyleScopedClasses['hover:bg-gray-100']} */ ;
-(__VLS_ctx.isHardWord ? '⭐' : '☆');
+const __VLS_5 = HardWordButton;
+// @ts-ignore
+const __VLS_6 = __VLS_asFunctionalComponent1(__VLS_5, new __VLS_5({
+    wordId: (__VLS_ctx.word.word),
+    meaning: (__VLS_ctx.word.meaning),
+}));
+const __VLS_7 = __VLS_6({
+    wordId: (__VLS_ctx.word.word),
+    meaning: (__VLS_ctx.word.meaning),
+}, ...__VLS_functionalComponentArgsRest(__VLS_6));
 __VLS_asFunctionalElement1(__VLS_intrinsics.div, __VLS_intrinsics.div)({
     ...{ class: "mt-5" },
 });
@@ -137,18 +111,16 @@ __VLS_asFunctionalElement1(__VLS_intrinsics.p, __VLS_intrinsics.p)({
 /** @type {__VLS_StyleScopedClasses['font-medium']} */ ;
 /** @type {__VLS_StyleScopedClasses['text-gray-700']} */ ;
 (__VLS_ctx.word.meaning);
-const __VLS_5 = SpeechButton;
+const __VLS_10 = SpeechButton;
 // @ts-ignore
-const __VLS_6 = __VLS_asFunctionalComponent1(__VLS_5, new __VLS_5({
-    text: (__VLS_ctx.word.meaning),
+const __VLS_11 = __VLS_asFunctionalComponent1(__VLS_10, new __VLS_10({
+    text: (__VLS_ctx.word.word),
     lang: "fa-IR",
-    label: "🔊",
 }));
-const __VLS_7 = __VLS_6({
-    text: (__VLS_ctx.word.meaning),
+const __VLS_12 = __VLS_11({
+    text: (__VLS_ctx.word.word),
     lang: "fa-IR",
-    label: "🔊",
-}, ...__VLS_functionalComponentArgsRest(__VLS_6));
+}, ...__VLS_functionalComponentArgsRest(__VLS_11));
 if (__VLS_ctx.word.synonyms.length) {
     __VLS_asFunctionalElement1(__VLS_intrinsics.div, __VLS_intrinsics.div)({
         ...{ class: "mt-5" },
@@ -180,7 +152,7 @@ if (__VLS_ctx.word.synonyms.length) {
         /** @type {__VLS_StyleScopedClasses['text-gray-700']} */ ;
         (synonym);
         // @ts-ignore
-        [index, word, word, word, word, word, word, toggleHardWord, isHardWord, isHardWord, isHardWord, isHardWord,];
+        [index, word, word, word, word, word, word, word, word,];
     }
 }
 if (__VLS_ctx.word.examples.length) {
@@ -220,18 +192,16 @@ if (__VLS_ctx.word.examples.length) {
         /** @type {__VLS_StyleScopedClasses['leading-7']} */ ;
         /** @type {__VLS_StyleScopedClasses['text-gray-800']} */ ;
         (example.english);
-        const __VLS_10 = SpeechButton;
+        const __VLS_15 = SpeechButton;
         // @ts-ignore
-        const __VLS_11 = __VLS_asFunctionalComponent1(__VLS_10, new __VLS_10({
+        const __VLS_16 = __VLS_asFunctionalComponent1(__VLS_15, new __VLS_15({
             text: (example.english),
             lang: "en-US",
-            label: "🔊",
         }));
-        const __VLS_12 = __VLS_11({
+        const __VLS_17 = __VLS_16({
             text: (example.english),
             lang: "en-US",
-            label: "🔊",
-        }, ...__VLS_functionalComponentArgsRest(__VLS_11));
+        }, ...__VLS_functionalComponentArgsRest(__VLS_16));
         __VLS_asFunctionalElement1(__VLS_intrinsics.div, __VLS_intrinsics.div)({
             ...{ class: "mt-2 flex items-start gap-2" },
         });
@@ -247,18 +217,6 @@ if (__VLS_ctx.word.examples.length) {
         /** @type {__VLS_StyleScopedClasses['leading-6']} */ ;
         /** @type {__VLS_StyleScopedClasses['text-gray-500']} */ ;
         (example.persian);
-        const __VLS_15 = SpeechButton;
-        // @ts-ignore
-        const __VLS_16 = __VLS_asFunctionalComponent1(__VLS_15, new __VLS_15({
-            text: (example.persian),
-            lang: "fa-IR",
-            label: "🔊",
-        }));
-        const __VLS_17 = __VLS_16({
-            text: (example.persian),
-            lang: "fa-IR",
-            label: "🔊",
-        }, ...__VLS_functionalComponentArgsRest(__VLS_16));
         // @ts-ignore
         [word, word, word,];
     }

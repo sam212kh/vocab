@@ -31,11 +31,14 @@ onMounted(async () => {
 
 const menuItems = [
     { label: 'Dashboard', icon: '🏠', route: '/' },
+    { label: 'Daily Session', icon: '⚡', route: '/session' },
     { label: 'Lessons', icon: '📚', route: '/lessons' },
-    { label: 'Learn', icon: '📖', route: '/learn' },
     { label: 'Practice', icon: '✍️', route: '/practice' },
+    { label: 'Cloze', icon: '🧩', route: '/cloze' },
+    { label: 'Matching', icon: '🔗', route: '/matching' },
     { label: 'Quiz', icon: '🧠', route: '/quiz' },
     { label: 'Listen & Repeat', icon: '🔊', route: '/listen-repeat' },
+    { label: 'Listen & Guess', icon: '👂', route: '/listen-guess' },
     { label: 'Hard Words', icon: '⭐', route: '/hard-words' },
     { label: 'Speaking Practice', icon: '🎙️', route: '/speaking-practice' },
     { label: 'Review', icon: '🔁', route: '/review' },

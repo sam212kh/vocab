@@ -1,9 +1,24 @@
-import { ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
+import { getSpeechProvider, getSpeechRate, getSpeechVoice, getSpeechVoices, loadSpeechVoices, setSpeechProvider, setSpeechRate, setSpeechVoice, } from '../../services/speech';
 const route = useRoute();
 const mobileOpen = ref(false);
+const speechProvider = ref(getSpeechProvider());
+watch(speechProvider, setSpeechProvider);
+const speechRate = ref(getSpeechRate());
+watch(speechRate, setSpeechRate);
+const speechVoice = ref(getSpeechVoice());
+const speechVoices = ref(getSpeechVoices());
+watch(speechVoice, setSpeechVoice);
+onMounted(async () => {
+    speechVoices.value = await loadSpeechVoices();
+    if (!speechVoices.value.some(voice => voice.id === speechVoice.value)) {
+        speechVoice.value = speechVoices.value[0]?.id ?? speechVoice.value;
+    }
+});
 const menuItems = [
     { label: 'Dashboard', icon: '🏠', route: '/' },
+    { label: 'Daily Session', icon: '⚡', route: '/session' },
     { label: 'Lessons', icon: '📚', route: '/lessons' },
     { label: 'Learn', icon: '📖', route: '/learn' },
     { label: 'Practice', icon: '✍️', route: '/practice' },
@@ -180,7 +195,114 @@ for (const [item] of __VLS_vFor((__VLS_ctx.menuItems))) {
     // @ts-ignore
     [];
 }
+__VLS_asFunctionalElement1(__VLS_intrinsics.div, __VLS_intrinsics.div)({
+    ...{ class: "mt-6 border-t pt-4" },
+});
+/** @type {__VLS_StyleScopedClasses['mt-6']} */ ;
+/** @type {__VLS_StyleScopedClasses['border-t']} */ ;
+/** @type {__VLS_StyleScopedClasses['pt-4']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.label, __VLS_intrinsics.label)({
+    for: "speech-provider",
+    ...{ class: "mb-2 block text-xs font-medium text-gray-600" },
+});
+/** @type {__VLS_StyleScopedClasses['mb-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['block']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-xs']} */ ;
+/** @type {__VLS_StyleScopedClasses['font-medium']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-gray-600']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.select, __VLS_intrinsics.select)({
+    id: "speech-provider",
+    value: (__VLS_ctx.speechProvider),
+    ...{ class: "w-full rounded-lg border bg-white px-3 py-2 text-sm" },
+});
+/** @type {__VLS_StyleScopedClasses['w-full']} */ ;
+/** @type {__VLS_StyleScopedClasses['rounded-lg']} */ ;
+/** @type {__VLS_StyleScopedClasses['border']} */ ;
+/** @type {__VLS_StyleScopedClasses['bg-white']} */ ;
+/** @type {__VLS_StyleScopedClasses['px-3']} */ ;
+/** @type {__VLS_StyleScopedClasses['py-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-sm']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: "automatic",
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: "neural",
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: "system",
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.label, __VLS_intrinsics.label)({
+    for: "speech-voice",
+    ...{ class: "mb-2 mt-4 block text-xs font-medium text-gray-600" },
+});
+/** @type {__VLS_StyleScopedClasses['mb-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['mt-4']} */ ;
+/** @type {__VLS_StyleScopedClasses['block']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-xs']} */ ;
+/** @type {__VLS_StyleScopedClasses['font-medium']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-gray-600']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.select, __VLS_intrinsics.select)({
+    id: "speech-voice",
+    value: (__VLS_ctx.speechVoice),
+    ...{ class: "w-full rounded-lg border bg-white px-3 py-2 text-sm" },
+});
+/** @type {__VLS_StyleScopedClasses['w-full']} */ ;
+/** @type {__VLS_StyleScopedClasses['rounded-lg']} */ ;
+/** @type {__VLS_StyleScopedClasses['border']} */ ;
+/** @type {__VLS_StyleScopedClasses['bg-white']} */ ;
+/** @type {__VLS_StyleScopedClasses['px-3']} */ ;
+/** @type {__VLS_StyleScopedClasses['py-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-sm']} */ ;
+for (const [voice] of __VLS_vFor((__VLS_ctx.speechVoices))) {
+    __VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+        key: (voice.id),
+        value: (voice.id),
+    });
+    (voice.label);
+    // @ts-ignore
+    [speechProvider, speechVoice, speechVoices,];
+}
+__VLS_asFunctionalElement1(__VLS_intrinsics.label, __VLS_intrinsics.label)({
+    for: "speech-rate",
+    ...{ class: "mb-2 mt-4 block text-xs font-medium text-gray-600" },
+});
+/** @type {__VLS_StyleScopedClasses['mb-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['mt-4']} */ ;
+/** @type {__VLS_StyleScopedClasses['block']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-xs']} */ ;
+/** @type {__VLS_StyleScopedClasses['font-medium']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-gray-600']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.select, __VLS_intrinsics.select)({
+    id: "speech-rate",
+    value: (__VLS_ctx.speechRate),
+    ...{ class: "w-full rounded-lg border bg-white px-3 py-2 text-sm" },
+});
+/** @type {__VLS_StyleScopedClasses['w-full']} */ ;
+/** @type {__VLS_StyleScopedClasses['rounded-lg']} */ ;
+/** @type {__VLS_StyleScopedClasses['border']} */ ;
+/** @type {__VLS_StyleScopedClasses['bg-white']} */ ;
+/** @type {__VLS_StyleScopedClasses['px-3']} */ ;
+/** @type {__VLS_StyleScopedClasses['py-2']} */ ;
+/** @type {__VLS_StyleScopedClasses['text-sm']} */ ;
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (0.6),
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (0.75),
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (0.9),
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (1),
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (1.15),
+});
+__VLS_asFunctionalElement1(__VLS_intrinsics.option, __VLS_intrinsics.option)({
+    value: (1.3),
+});
 // @ts-ignore
-[];
+[speechRate,];
 const __VLS_export = (await import('vue')).defineComponent({});
 export default {};

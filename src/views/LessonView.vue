@@ -90,16 +90,6 @@ onMounted(async () => {
             await loadLesson(
                 lesson.value
             )
-
-        console.log(
-            'Loaded lesson:',
-            lesson.value
-        )
-
-        console.log(
-            'Loaded words:',
-            words.value
-        )
     } catch (e) {
         console.error(e)
 
@@ -167,6 +157,22 @@ onMounted(async () => {
                 >
                     {{ lesson.subtitle }}
                 </p>
+            </div>
+
+            <!-- Book page -->
+
+            <div
+                v-if="lesson.images && lesson.images.length"
+                class="overflow-hidden rounded-2xl border bg-white shadow-sm"
+            >
+                <img
+                    v-for="image in lesson.images"
+                    :key="image"
+                    :src="image"
+                    :alt="lesson.title"
+                    class="w-full"
+                    loading="lazy"
+                />
             </div>
 
             <!-- Progress -->
@@ -263,6 +269,47 @@ onMounted(async () => {
                     :word="word"
                     :index="index"
                 />
+            </div>
+
+            <!-- Next step -->
+
+            <div
+                v-if="words.length"
+                class="rounded-2xl border bg-white p-6 text-center shadow-sm"
+            >
+                <p class="text-sm font-medium text-gray-700">
+                    Done reading? Put these words to the test.
+                </p>
+
+                <div class="mt-4 flex flex-col justify-center gap-3 sm:flex-row">
+                    <RouterLink
+                        :to="`/practice?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
+                        class="rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white hover:bg-gray-700"
+                    >
+                        Practice this lesson
+                    </RouterLink>
+
+                    <RouterLink
+                        :to="`/cloze?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
+                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
+                    >
+                        Fill in the blank
+                    </RouterLink>
+
+                    <RouterLink
+                        :to="`/matching?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
+                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
+                    >
+                        Match pairs
+                    </RouterLink>
+
+                    <RouterLink
+                        :to="`/quiz?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
+                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
+                    >
+                        Quiz this lesson
+                    </RouterLink>
+                </div>
             </div>
         </template>
     </div>

@@ -279,10 +279,10 @@ function getDateKey(
             </div>
 
             <RouterLink
-                to="/review"
+                to="/session"
                 class="inline-flex items-center justify-center rounded-xl bg-black px-5 py-3 text-sm font-medium text-white transition hover:bg-gray-800"
             >
-                Start Review
+                Start Daily Session
             </RouterLink>
         </div>
 

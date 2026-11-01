@@ -31,27 +31,45 @@ onMounted(async () => {
 })
 </script>
 <template>
-    <div v-if="loading">
-        Loading
+    <div class="mx-auto max-w-6xl space-y-6">
+    <div
+        v-if="loading"
+        class="rounded-2xl border bg-white p-8 text-center"
+    >
+        <p class="text-gray-500">Loading course...</p>
     </div>
-    <div v-else-if="error">
-      {{ error }}
+    <div
+        v-else-if="error"
+        class="rounded-2xl border border-red-200 bg-red-50 p-6"
+    >
+        <p class="text-sm text-red-600">{{ error }}</p>
     </div>
     <template v-else-if="course">
-        <h1 class="text-3xl font-blod m-5">
+        <div>
+        <h1 class="text-3xl font-bold text-gray-900">
             {{ course.title }}
         </h1>
-        <p class="mt-2 text-gry-600">
+        <p class="mt-2 text-gray-500">
             {{ course.description }}
         </p>
+        </div>
 
-        <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <RouterLink
                 v-for="lesson in course.lessons"
                 :key="lesson.id"
                 :to="`/courses/${course.id}/lessons/${lesson.id}`"
-                class="block rounded-xl border bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                class="block overflow-hidden rounded-xl border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
+                <img
+                    v-if="lesson.images && lesson.images.length"
+                    :src="lesson.images[0]"
+                    :alt="lesson.title"
+                    class="h-32 w-full object-cover object-top"
+                    loading="lazy"
+                />
+
+                <div class="p-5">
                 <h2 class="font-semibold">
                     {{ lesson.title }}
                 </h2>
@@ -65,10 +83,10 @@ onMounted(async () => {
                 <p class="mt-4 text-sm text-gray-500">
                     {{ lesson.type }}
                 </p>
+                </div>
             </RouterLink>
 
         </div>
     </template>
-
-
+    </div>
 </template>

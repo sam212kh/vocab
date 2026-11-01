@@ -12,19 +12,11 @@
     ],
     "examples": [
       {
-        "english": "The situation became a aberration that required careful judgment.",
-        "persian": "این موقعیت به یک انحراف از حالت معمول؛ مورد غیرعادی تبدیل شد که به قضاوت دقیق نیاز داشت."
-      },
-      {
-        "english": "Her explanation helped everyone understand the aberration more clearly.",
-        "persian": "توضیح او به همه کمک کرد انحراف از حالت معمول؛ مورد غیرعادی را بهتر درک کنند."
-      },
-      {
-        "english": "The discussion revealed an important aberration that had been overlooked.",
-        "persian": "بحث یک انحراف از حالت معمول؛ مورد غیرعادی مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The sudden drop in sales was an aberration in an otherwise steady quarter.",
+        "persian": "کاهش ناگهانی فروش یک انحراف از حالت معمول در فصلی که در غیر این صورت ثابت بود، به شمار می‌رفت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “aberration” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The sudden drop in sales was an aberration in an otherwise steady quarter."
   },
   {
     "courseId": "upgrade",
@@ -39,19 +31,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to abhor the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را بیزار بودن از."
-      },
-      {
-        "english": "Experienced people know how to abhor difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را بیزار بودن از بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to abhor the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت بیزار بودن از."
+        "english": "Most readers abhor cruelty toward animals in any story.",
+        "persian": "بیشتر خوانندگان از بی‌رحمی نسبت به حیوانات در هر داستانی بیزارند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “abhor” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Most readers abhor cruelty toward animals in any story."
   },
   {
     "courseId": "upgrade",
@@ -66,19 +50,11 @@
     ],
     "examples": [
       {
-        "english": "His abject approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بسیار پست و اسفناک او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed abject, but the reasons became clearer later.",
-        "persian": "این تصمیم بسیار پست و اسفناک به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A abject attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بسیار پست و اسفناک می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The prisoners lived in abject poverty, with barely enough food to survive.",
+        "persian": "زندانیان در فقری بسیار پست و اسفناک زندگی می‌کردند و به‌سختی غذای کافی برای زنده ماندن داشتند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “abject” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The prisoners lived in abject poverty, with barely enough food to survive."
   },
   {
     "courseId": "upgrade",
@@ -93,19 +69,11 @@
     ],
     "examples": [
       {
-        "english": "His abstruse approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دشوارفهم و پیچیده او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed abstruse, but the reasons became clearer later.",
-        "persian": "این تصمیم دشوارفهم و پیچیده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A abstruse attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دشوارفهم و پیچیده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The professor's lecture on quantum field theory was too abstruse for most undergraduates.",
+        "persian": "سخنرانی استاد درباره نظریه میدان کوانتومی برای بیشتر دانشجویان کارشناسی بسیار دشوارفهم و پیچیده بود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “abstruse” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The professor's lecture on quantum field theory was too abstruse for most undergraduates."
   },
   {
     "courseId": "upgrade",
@@ -120,19 +88,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to acquiesce the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را با اکراه پذیرفتن."
-      },
-      {
-        "english": "Experienced people know how to acquiesce difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را با اکراه پذیرفتن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to acquiesce the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت با اکراه پذیرفتن."
+        "english": "After hours of arguing, she finally acquiesced to her brother's plan.",
+        "persian": "پس از ساعت‌ها بحث، او در نهایت با اکراه نقشه برادرش را پذیرفت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “acquiesce” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "After hours of arguing, she finally acquiesced to her brother's plan."
   },
   {
     "courseId": "upgrade",
@@ -147,19 +107,11 @@
     ],
     "examples": [
       {
-        "english": "His acrimonious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد تلخ و خصمانه او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed acrimonious, but the reasons became clearer later.",
-        "persian": "این تصمیم تلخ و خصمانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A acrimonious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش تلخ و خصمانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The divorce turned acrimonious once the couple began fighting over custody.",
+        "persian": "طلاق پس از آنکه زوجین بر سر حضانت فرزند با هم درگیر شدند، تلخ و خصمانه شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “acrimonious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The divorce turned acrimonious once the couple began fighting over custody."
   },
   {
     "courseId": "upgrade",
@@ -174,19 +126,11 @@
     ],
     "examples": [
       {
-        "english": "His adamant approach helped him deal with the situation calmly.",
-        "persian": "رویکرد مصمم و سازش‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed adamant, but the reasons became clearer later.",
-        "persian": "این تصمیم مصمم و سازش‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A adamant attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش مصمم و سازش‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The coach was adamant that the team practice every single morning.",
+        "persian": "مربی مصمم و سازش‌ناپذیر بود که تیم هر روز صبح تمرین کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “adamant” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The coach was adamant that the team practice every single morning."
   },
   {
     "courseId": "upgrade",
@@ -201,19 +145,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to admonish the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را توبیخ یا هشدار دادن."
-      },
-      {
-        "english": "Experienced people know how to admonish difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را توبیخ یا هشدار دادن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to admonish the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت توبیخ یا هشدار دادن."
+        "english": "The teacher admonished the students for talking during the exam.",
+        "persian": "معلم دانش‌آموزان را به خاطر صحبت کردن در طول امتحان توبیخ کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “admonish” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The teacher admonished the students for talking during the exam."
   },
   {
     "courseId": "upgrade",
@@ -228,19 +164,11 @@
     ],
     "examples": [
       {
-        "english": "His aesthetic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد زیبایی‌شناختی او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed aesthetic, but the reasons became clearer later.",
-        "persian": "این تصمیم زیبایی‌شناختی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A aesthetic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش زیبایی‌شناختی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The architect chose white marble for purely aesthetic reasons.",
+        "persian": "معمار مرمر سفید را صرفاً به دلایل زیبایی‌شناختی انتخاب کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “aesthetic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The architect chose white marble for purely aesthetic reasons."
   },
   {
     "courseId": "upgrade",
@@ -255,19 +183,11 @@
     ],
     "examples": [
       {
-        "english": "His affable approach helped him deal with the situation calmly.",
-        "persian": "رویکرد خوش‌برخورد او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed affable, but the reasons became clearer later.",
-        "persian": "این تصمیم خوش‌برخورد به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A affable attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش خوش‌برخورد می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The new manager is affable and always greets employees by name.",
+        "persian": "مدیر جدید خوش‌برخورد است و همیشه کارمندان را با نام صدا می‌زند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “affable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The new manager is affable and always greets employees by name."
   },
   {
     "courseId": "upgrade",
@@ -282,19 +202,11 @@
     ],
     "examples": [
       {
-        "english": "His alacrity approach helped him deal with the situation calmly.",
-        "persian": "رویکرد چابکی و اشتیاق او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed alacrity, but the reasons became clearer later.",
-        "persian": "این تصمیم چابکی و اشتیاق به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A alacrity attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش چابکی و اشتیاق می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "She agreed to help with alacrity, dropping everything else she was doing.",
+        "persian": "او با چابکی و اشتیاق پذیرفت که کمک کند و هر کار دیگری را که انجام می‌داد رها کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “alacrity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "She agreed to help with alacrity, dropping everything else she was doing."
   },
   {
     "courseId": "upgrade",
@@ -309,19 +221,11 @@
     ],
     "examples": [
       {
-        "english": "His ambivalent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دارای احساسات دوگانه او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed ambivalent, but the reasons became clearer later.",
-        "persian": "این تصمیم دارای احساسات دوگانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A ambivalent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دارای احساسات دوگانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "He felt ambivalent about moving abroad, excited yet afraid at the same time.",
+        "persian": "او دربارهٔ مهاجرت به خارج احساسات دوگانه داشت؛ هم هیجان‌زده بود و هم همزمان می‌ترسید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ambivalent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "He felt ambivalent about moving abroad, excited yet afraid at the same time."
   },
   {
     "courseId": "upgrade",
@@ -336,19 +240,11 @@
     ],
     "examples": [
       {
-        "english": "His anachronistic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد ناسازگار با زمان خود او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed anachronistic, but the reasons became clearer later.",
-        "persian": "این تصمیم ناسازگار با زمان خود به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A anachronistic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش ناسازگار با زمان خود می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Using a typewriter in a modern office feels anachronistic.",
+        "persian": "استفاده از ماشین تحریر در یک دفتر مدرن ناسازگار با زمان خود به نظر می‌رسد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “anachronistic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Using a typewriter in a modern office feels anachronistic."
   },
   {
     "courseId": "upgrade",
@@ -363,19 +259,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to antagonize the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را خصمانه کردن؛ تحریک کردن."
-      },
-      {
-        "english": "Experienced people know how to antagonize difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را خصمانه کردن؛ تحریک کردن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to antagonize the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت خصمانه کردن؛ تحریک کردن."
+        "english": "He didn't mean to antagonize his coworkers, but his blunt comments often did.",
+        "persian": "او قصد نداشت همکارانش را تحریک کند، اما نظرات صریح او اغلب این‌گونه اثر می‌گذاشت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “antagonize” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "He didn't mean to antagonize his coworkers, but his blunt comments often did."
   },
   {
     "courseId": "upgrade",
@@ -390,19 +278,11 @@
     ],
     "examples": [
       {
-        "english": "His apathetic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌تفاوت او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed apathetic, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌تفاوت به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A apathetic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌تفاوت می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Many young voters seemed apathetic about the local election.",
+        "persian": "بسیاری از رأی‌دهندگان جوان نسبت به انتخابات محلی بی‌تفاوت به نظر می‌رسیدند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “apathetic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Many young voters seemed apathetic about the local election."
   },
   {
     "courseId": "upgrade",
@@ -417,19 +297,11 @@
     ],
     "examples": [
       {
-        "english": "His ardent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرحرارت و مشتاق او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed ardent, but the reasons became clearer later.",
-        "persian": "این تصمیم پرحرارت و مشتاق به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A ardent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرحرارت و مشتاق می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "She has been an ardent supporter of the charity since its founding.",
+        "persian": "او از زمان تأسیس این خیریه، حامی پرحرارت و مشتاق آن بوده است."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ardent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "She has been an ardent supporter of the charity since its founding."
   },
   {
     "courseId": "upgrade",
@@ -444,19 +316,11 @@
     ],
     "examples": [
       {
-        "english": "His assiduous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد کوشا و پیگیر او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed assiduous, but the reasons became clearer later.",
-        "persian": "این تصمیم کوشا و پیگیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A assiduous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش کوشا و پیگیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Through assiduous practice, she mastered the violin within three years.",
+        "persian": "او از طریق تمرین کوشا و پیگیر، در عرض سه سال بر ویولن تسلط یافت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “assiduous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Through assiduous practice, she mastered the violin within three years."
   },
   {
     "courseId": "upgrade",
@@ -471,19 +335,11 @@
     ],
     "examples": [
       {
-        "english": "His audacious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد جسور و بی‌باک او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed audacious, but the reasons became clearer later.",
-        "persian": "این تصمیم جسور و بی‌باک به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A audacious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش جسور و بی‌باک می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The startup made an audacious bid to compete with industry giants.",
+        "persian": "آن استارتاپ پیشنهادی جسور و بی‌باک برای رقابت با غول‌های صنعت ارائه داد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “audacious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The startup made an audacious bid to compete with industry giants."
   },
   {
     "courseId": "upgrade",
@@ -498,19 +354,11 @@
     ],
     "examples": [
       {
-        "english": "His austere approach helped him deal with the situation calmly.",
-        "persian": "رویکرد ساده و سخت‌گیرانه او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed austere, but the reasons became clearer later.",
-        "persian": "این تصمیم ساده و سخت‌گیرانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A austere attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش ساده و سخت‌گیرانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The monk lived an austere life with no furniture beyond a bed and a desk.",
+        "persian": "آن راهب زندگی ساده و سخت‌گیرانه‌ای داشت و جز یک تخت و یک میز، وسیله‌ای نداشت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “austere” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The monk lived an austere life with no furniture beyond a bed and a desk."
   },
   {
     "courseId": "upgrade",
@@ -525,19 +373,11 @@
     ],
     "examples": [
       {
-        "english": "The situation became a aversion that required careful judgment.",
-        "persian": "این موقعیت به یک بیزاری تبدیل شد که به قضاوت دقیق نیاز داشت."
-      },
-      {
-        "english": "Her explanation helped everyone understand the aversion more clearly.",
-        "persian": "توضیح او به همه کمک کرد بیزاری را بهتر درک کنند."
-      },
-      {
-        "english": "The discussion revealed an important aversion that had been overlooked.",
-        "persian": "بحث یک بیزاری مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "He has a strong aversion to crowded places and avoids concerts entirely.",
+        "persian": "او بیزاری شدیدی نسبت به مکان‌های پرازدحام دارد و کاملاً از کنسرت‌ها دوری می‌کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “aversion” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "He has a strong aversion to crowded places and avoids concerts entirely."
   },
   {
     "courseId": "upgrade",
@@ -552,19 +392,11 @@
     ],
     "examples": [
       {
-        "english": "His belligerent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد ستیزه‌جو او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed belligerent, but the reasons became clearer later.",
-        "persian": "این تصمیم ستیزه‌جو به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A belligerent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش ستیزه‌جو می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The customer became belligerent when the waiter brought the wrong order.",
+        "persian": "وقتی پیشخدمت سفارش اشتباه را آورد، مشتری ستیزه‌جو شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “belligerent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The customer became belligerent when the waiter brought the wrong order."
   },
   {
     "courseId": "upgrade",
@@ -579,19 +411,11 @@
     ],
     "examples": [
       {
-        "english": "His benevolent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد خیرخواه او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed benevolent, but the reasons became clearer later.",
-        "persian": "این تصمیم خیرخواه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A benevolent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش خیرخواه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The benevolent donor paid for the entire school's new library.",
+        "persian": "آن اهداکننده خیرخواه هزینه کتابخانه جدید کل مدرسه را پرداخت کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “benevolent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The benevolent donor paid for the entire school's new library."
   },
   {
     "courseId": "upgrade",
@@ -606,19 +430,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to bolster the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تقویت کردن."
-      },
-      {
-        "english": "Experienced people know how to bolster difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تقویت کردن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to bolster the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تقویت کردن."
+        "english": "Extra training sessions helped bolster the team's confidence before the final.",
+        "persian": "جلسات تمرین اضافی به تقویت اعتمادبه‌نفس تیم پیش از فینال کمک کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “bolster” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Extra training sessions helped bolster the team's confidence before the final."
   },
   {
     "courseId": "upgrade",
@@ -633,19 +449,11 @@
     ],
     "examples": [
       {
-        "english": "His brazen approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌شرم و گستاخ او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed brazen, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌شرم و گستاخ به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A brazen attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌شرم و گستاخ می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The thief made a brazen attempt to steal the painting in broad daylight.",
+        "persian": "دزد تلاشی بی‌شرمانه و گستاخ کرد تا نقاشی را در روز روشن بدزدد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “brazen” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The thief made a brazen attempt to steal the painting in broad daylight."
   },
   {
     "courseId": "upgrade",
@@ -660,19 +468,11 @@
     ],
     "examples": [
       {
-        "english": "The situation became a brevity that required careful judgment.",
-        "persian": "این موقعیت به یک کوتاهی و اختصار تبدیل شد که به قضاوت دقیق نیاز داشت."
-      },
-      {
-        "english": "Her explanation helped everyone understand the brevity more clearly.",
-        "persian": "توضیح او به همه کمک کرد کوتاهی و اختصار را بهتر درک کنند."
-      },
-      {
-        "english": "The discussion revealed an important brevity that had been overlooked.",
-        "persian": "بحث یک کوتاهی و اختصار مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The editor praised the article for its brevity and clarity.",
+        "persian": "ویراستار از این مقاله به خاطر کوتاهی و اختصار و وضوح آن تقدیر کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “brevity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The editor praised the article for its brevity and clarity."
   },
   {
     "courseId": "upgrade",
@@ -687,19 +487,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to cajole the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را با چاپلوسی متقاعد کردن."
-      },
-      {
-        "english": "Experienced people know how to cajole difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را با چاپلوسی متقاعد کردن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to cajole the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت با چاپلوسی متقاعد کردن."
+        "english": "She tried to cajole her little brother into sharing his dessert.",
+        "persian": "او سعی کرد برادر کوچکش را با چاپلوسی متقاعد کند که دسرش را با او شریک شود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “cajole” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "She tried to cajole her little brother into sharing his dessert."
   },
   {
     "courseId": "upgrade",
@@ -714,19 +506,11 @@
     ],
     "examples": [
       {
-        "english": "His capricious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دمدمی‌مزاج او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed capricious, but the reasons became clearer later.",
-        "persian": "این تصمیم دمدمی‌مزاج به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A capricious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دمدمی‌مزاج می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The weather in the mountains is capricious, changing from sun to snow within hours.",
+        "persian": "آب‌وهوای کوهستان دمدمی‌مزاج است و در عرض چند ساعت از آفتاب به برف تغییر می‌کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “capricious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The weather in the mountains is capricious, changing from sun to snow within hours."
   },
   {
     "courseId": "upgrade",
@@ -741,19 +525,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to censure the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را سرزنش کردن."
-      },
-      {
-        "english": "Experienced people know how to censure difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را سرزنش کردن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to censure the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت سرزنش کردن."
+        "english": "The committee voted to censure the senator for his misleading statements.",
+        "persian": "کمیته رأی داد که سناتور را به خاطر بیانیه‌های گمراه‌کننده‌اش سرزنش کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “censure” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "The committee voted to censure the senator for his misleading statements."
   },
   {
     "courseId": "upgrade",
@@ -768,19 +544,11 @@
     ],
     "examples": [
       {
-        "english": "She decided to coerce the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را مجبور کردن."
-      },
-      {
-        "english": "Experienced people know how to coerce difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را مجبور کردن بدون ایجاد درگیری غیرضروری."
-      },
-      {
-        "english": "He chose to coerce the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت مجبور کردن."
+        "english": "No employee should be coerced into working unpaid overtime.",
+        "persian": "هیچ کارمندی نباید مجبور شود بدون دستمزد اضافه‌کاری کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “coerce” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "No employee should be coerced into working unpaid overtime."
   },
   {
     "courseId": "upgrade",
@@ -795,18 +563,10 @@
     ],
     "examples": [
       {
-        "english": "His cogent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد قانع‌کننده و منطقی او کمک کرد موقعیت را با آرامش مدیریت کند."
-      },
-      {
-        "english": "The decision seemed cogent, but the reasons became clearer later.",
-        "persian": "این تصمیم قانع‌کننده و منطقی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
-      },
-      {
-        "english": "A cogent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش قانع‌کننده و منطقی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her cogent argument convinced even the harshest critics on the panel.",
+        "persian": "استدلال قانع‌کننده و منطقی او حتی سخت‌گیرترین منتقدان هیئت را هم قانع کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “cogent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Her cogent argument convinced even the harshest critics on the panel."
   }
 ]

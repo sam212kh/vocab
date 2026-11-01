@@ -14,6 +14,7 @@ interface RawWord {
     synonyms?: unknown
     examples?: unknown
     miniContext?: unknown
+    icon?: unknown
 }
 
 function normalizeExample(value: unknown): Example {
@@ -73,6 +74,9 @@ function normalizeWord(
         synonyms,
         examples,
         miniContext: String(raw.miniContext ?? '').trim(),
+        icon: typeof raw.icon === 'string' && raw.icon
+            ? raw.icon
+            : undefined,
     }
 }
 

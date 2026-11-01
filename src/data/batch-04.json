@@ -16,19 +16,11 @@
     ],
     "examples": [
       [
-        "I acknowledge that I made a mistake.",
-        "می‌پذیرم که اشتباه کردم."
-      ],
-      [
-        "The team acknowledged the customer's concern.",
-        "تیم نگرانی مشتری را پذیرفت."
-      ],
-      [
-        "The service should acknowledge the request immediately.",
-        "سرویس باید بلافاصله دریافت Request را تأیید کند."
+        "He finally acknowledged that his first plan had failed.",
+        "او سرانجام پذیرفت که طرح اولش ناموفق بوده است."
       ]
     ],
-    "miniContext": "I acknowledge that I made a mistake. The team acknowledged the customer's concern. The service should acknowledge the request immediately. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "He finally acknowledged that his first plan had failed."
   },
   {
     "word": "advocate",
@@ -47,19 +39,11 @@
     ],
     "examples": [
       [
-        "I strongly advocate learning through practice.",
-        "من شدیداً از یادگیری از طریق تمرین حمایت می‌کنم."
-      ],
-      [
-        "She advocates a simpler workflow.",
-        "او از Workflow ساده‌تر حمایت می‌کند."
-      ],
-      [
-        "Many engineers advocate automated testing.",
-        "بسیاری از مهندسان از Automated Testing حمایت می‌کنند."
+        "She has long advocated stricter laws to protect factory workers.",
+        "او مدت‌ها است از قوانین سخت‌گیرانه‌تر برای حمایت از کارگران کارخانه طرفداری می‌کند."
       ]
     ],
-    "miniContext": "I strongly advocate learning through practice. She advocates a simpler workflow. Many engineers advocate automated testing. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "She has long advocated stricter laws to protect factory workers."
   },
   {
     "word": "assess",
@@ -78,19 +62,11 @@
     ],
     "examples": [
       [
-        "Let's assess the situation first.",
-        "اول وضعیت را ارزیابی کنیم."
-      ],
-      [
-        "The manager assessed the team's progress.",
-        "مدیر پیشرفت تیم را ارزیابی کرد."
-      ],
-      [
-        "We need to assess the system under peak load.",
-        "باید سیستم را در Peak Load ارزیابی کنیم."
+        "The inspector arrived to assess the damage after the storm.",
+        "بازرس آمد تا خسارت پس از طوفان را ارزیابی کند."
       ]
     ],
-    "miniContext": "Let's assess the situation first. The manager assessed the team's progress. We need to assess the system under peak load. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The inspector arrived to assess the damage after the storm."
   },
   {
     "word": "attain",
@@ -109,19 +85,11 @@
     ],
     "examples": [
       [
-        "She finally attained her goal.",
-        "او بالاخره به هدفش رسید."
-      ],
-      [
-        "The company attained strong growth this year.",
-        "شرکت امسال به رشد خوبی دست یافت."
-      ],
-      [
-        "The service must attain the required throughput.",
-        "سرویس باید به Throughput موردنیاز برسد."
+        "It took her a decade of hard work to attain the rank of senior partner.",
+        "ده سال کار سخت طول کشید تا او به رتبه شریک ارشد دست یابد."
       ]
     ],
-    "miniContext": "She finally attained her goal. The company attained strong growth this year. The service must attain the required throughput. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "It took her a decade of hard work to attain the rank of senior partner."
   },
   {
     "word": "cease",
@@ -140,19 +108,11 @@
     ],
     "examples": [
       [
-        "The noise finally ceased.",
-        "سر و صدا بالاخره متوقف شد."
-      ],
-      [
-        "The company ceased operations in that region.",
-        "شرکت فعالیتش را در آن منطقه متوقف کرد."
-      ],
-      [
-        "The worker ceases processing when the queue is empty.",
-        "Worker وقتی Queue خالی باشد پردازش را متوقف می‌کند."
+        "The factory ceased production after the main supplier went bankrupt.",
+        "کارخانه پس از ورشکستگی تامین‌کننده اصلی‌اش تولید را متوقف کرد."
       ]
     ],
-    "miniContext": "The noise finally ceased. The company ceased operations in that region. The worker ceases processing when the queue is empty. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The factory ceased production after the main supplier went bankrupt."
   },
   {
     "word": "contemplate",
@@ -171,19 +131,11 @@
     ],
     "examples": [
       [
-        "I'm contemplating a career change.",
-        "دارم به تغییر شغلم فکر می‌کنم."
-      ],
-      [
-        "We're contemplating several options.",
-        "داریم چند گزینه را بررسی می‌کنیم."
-      ],
-      [
-        "The team is contemplating a move to microservices.",
-        "تیم در حال بررسی مهاجرت به Microservices است."
+        "After the accident, he spent months contemplating a career change.",
+        "او پس از آن حادثه، ماه‌ها به تغییر شغل فکر کرد."
       ]
     ],
-    "miniContext": "I'm contemplating a career change. We're contemplating several options. The team is contemplating a move to microservices. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "After the accident, he spent months contemplating a career change."
   },
   {
     "word": "contradict",
@@ -202,19 +154,11 @@
     ],
     "examples": [
       [
-        "Your two answers contradict each other.",
-        "دو پاسخ تو با هم تناقض دارند."
-      ],
-      [
-        "The data contradicts our original assumption.",
-        "داده با فرض اولیه ما تناقض دارد."
-      ],
-      [
-        "The logs contradict the reported behavior.",
-        "Logها با رفتار گزارش‌شده تناقض دارند."
+        "The witness's new statement seemed to contradict what she had said earlier.",
+        "بیانیه جدید شاهد به نظر می‌رسید با آنچه قبلاً گفته بود تناقض داشت."
       ]
     ],
-    "miniContext": "Your two answers contradict each other. The data contradicts our original assumption. The logs contradict the reported behavior. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The witness's new statement seemed to contradict what she had said earlier."
   },
   {
     "word": "deteriorate",
@@ -233,19 +177,11 @@
     ],
     "examples": [
       [
-        "His condition started to deteriorate.",
-        "وضعیت او شروع به بدتر شدن کرد."
-      ],
-      [
-        "Service quality deteriorated after the change.",
-        "کیفیت Service بعد از تغییر افت کرد."
-      ],
-      [
-        "Performance may deteriorate as traffic grows.",
-        "با افزایش Traffic ممکن است Performance افت کند."
+        "Her eyesight began to deteriorate rapidly after she turned seventy.",
+        "بینایی او پس از هفتاد سالگی به‌سرعت رو به بدتر شدن رفت."
       ]
     ],
-    "miniContext": "His condition started to deteriorate. Service quality deteriorated after the change. Performance may deteriorate as traffic grows. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Her eyesight began to deteriorate rapidly after she turned seventy."
   },
   {
     "word": "diminish",
@@ -264,19 +200,11 @@
     ],
     "examples": [
       [
-        "The pain gradually diminished.",
-        "درد به‌تدریج کمتر شد."
-      ],
-      [
-        "The update diminished the number of complaints.",
-        "Update تعداد شکایت‌ها را کاهش داد."
-      ],
-      [
-        "Compression can diminish network traffic.",
-        "Compression می‌تواند Network Traffic را کاهش دهد."
+        "Nothing could diminish her excitement about the upcoming trip.",
+        "هیچ‌چیز نمی‌توانست هیجان او درباره سفر پیش‌رو را کاهش دهد."
       ]
     ],
-    "miniContext": "The pain gradually diminished. The update diminished the number of complaints. Compression can diminish network traffic. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Nothing could diminish her excitement about the upcoming trip."
   },
   {
     "word": "disclose",
@@ -295,19 +223,11 @@
     ],
     "examples": [
       [
-        "He refused to disclose the details.",
-        "او حاضر نشد جزئیات را فاش کند."
-      ],
-      [
-        "The company must disclose the incident.",
-        "شرکت باید Incident را اعلام کند."
-      ],
-      [
-        "Never disclose private credentials in logs.",
-        "هرگز Credentialهای خصوصی را در Log فاش نکن."
+        "The company was forced to disclose the data breach to its customers.",
+        "شرکت مجبور شد نشت اطلاعات را به مشتریانش افشا کند."
       ]
     ],
-    "miniContext": "He refused to disclose the details. The company must disclose the incident. Never disclose private credentials in logs. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The company was forced to disclose the data breach to its customers."
   },
   {
     "word": "eliminate",
@@ -326,19 +246,11 @@
     ],
     "examples": [
       [
-        "We need to eliminate unnecessary steps.",
-        "باید مراحل غیرضروری را حذف کنیم."
-      ],
-      [
-        "The new process eliminated several manual tasks.",
-        "فرایند جدید چند Task دستی را حذف کرد."
-      ],
-      [
-        "The fix eliminated the race condition.",
-        "Fix مشکل Race Condition را برطرف کرد."
+        "The new filter eliminates almost all the dust from the water.",
+        "فیلتر جدید تقریباً تمام گرد و غبار آب را حذف می‌کند."
       ]
     ],
-    "miniContext": "We need to eliminate unnecessary steps. The new process eliminated several manual tasks. The fix eliminated the race condition. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The new filter eliminates almost all the dust from the water."
   },
   {
     "word": "exceed",
@@ -357,19 +269,11 @@
     ],
     "examples": [
       [
-        "Don't exceed the speed limit.",
-        "از محدودیت سرعت فراتر نرو."
-      ],
-      [
-        "Sales exceeded our expectations.",
-        "فروش از انتظار ما بیشتر شد."
-      ],
-      [
-        "The service must not exceed the rate limit.",
-        "Service نباید از Rate Limit عبور کند."
+        "The driver was fined for exceeding the speed limit in a school zone.",
+        "راننده به دلیل فراتر رفتن از حد سرعت در محدوده مدرسه جریمه شد."
       ]
     ],
-    "miniContext": "Don't exceed the speed limit. Sales exceeded our expectations. The service must not exceed the rate limit. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The driver was fined for exceeding the speed limit in a school zone."
   },
   {
     "word": "explicit",
@@ -388,19 +292,11 @@
     ],
     "examples": [
       [
-        "Please give me explicit instructions.",
-        "لطفاً دستورالعمل‌های صریح بده."
-      ],
-      [
-        "The contract contains explicit requirements.",
-        "قرارداد Requirementهای مشخصی دارد."
-      ],
-      [
-        "The API requires explicit authorization.",
-        "API به Authorization صریح نیاز دارد."
+        "The manager gave explicit instructions not to contact the client directly.",
+        "مدیر دستورالعمل‌های صریحی داد که مستقیماً با مشتری تماس گرفته نشود."
       ]
     ],
-    "miniContext": "Please give me explicit instructions. The contract contains explicit requirements. The API requires explicit authorization. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The manager gave explicit instructions not to contact the client directly."
   },
   {
     "word": "implicit",
@@ -419,19 +315,11 @@
     ],
     "examples": [
       [
-        "There was an implicit agreement between them.",
-        "بین آنها یک توافق ضمنی وجود داشت."
-      ],
-      [
-        "The rule is implicit rather than documented.",
-        "Rule ضمنی است و مستند نشده."
-      ],
-      [
-        "The framework makes some assumptions implicit.",
-        "Framework بعضی Assumptionها را به‌صورت ضمنی در نظر می‌گیرد."
+        "There was an implicit understanding that latecomers would lose their seats.",
+        "یک توافق ضمنی وجود داشت که افرادی که دیر می‌رسند جای خود را از دست می‌دهند."
       ]
     ],
-    "miniContext": "There was an implicit agreement between them. The rule is implicit rather than documented. The framework makes some assumptions implicit. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "There was an implicit understanding that latecomers would lose their seats."
   },
   {
     "word": "facilitate",
@@ -450,19 +338,11 @@
     ],
     "examples": [
       [
-        "Good communication facilitates teamwork.",
-        "ارتباط خوب کار تیمی را آسان می‌کند."
-      ],
-      [
-        "The dashboard facilitates faster decisions.",
-        "Dashboard تصمیم‌گیری سریع‌تر را تسهیل می‌کند."
-      ],
-      [
-        "Indexes facilitate efficient database access.",
-        "Indexها دسترسی کارآمد به Database را آسان می‌کنند."
+        "The new bridge facilitates travel between the two neighboring towns.",
+        "پل جدید رفت‌وآمد بین دو شهر همسایه را تسهیل می‌کند."
       ]
     ],
-    "miniContext": "Good communication facilitates teamwork. The dashboard facilitates faster decisions. Indexes facilitate efficient database access. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The new bridge facilitates travel between the two neighboring towns."
   },
   {
     "word": "fluctuate",
@@ -481,19 +361,11 @@
     ],
     "examples": [
       [
-        "Prices fluctuate throughout the year.",
-        "قیمت‌ها در طول سال نوسان دارند."
-      ],
-      [
-        "Traffic fluctuates during the day.",
-        "Traffic در طول روز نوسان دارد."
-      ],
-      [
-        "Latency may fluctuate under variable load.",
-        "Latency ممکن است تحت Load متغیر نوسان داشته باشد."
+        "Oil prices tend to fluctuate sharply during times of political tension.",
+        "قیمت نفت در دوران تنش‌های سیاسی معمولاً به‌شدت نوسان دارد."
       ]
     ],
-    "miniContext": "Prices fluctuate throughout the year. Traffic fluctuates during the day. Latency may fluctuate under variable load. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Oil prices tend to fluctuate sharply during times of political tension."
   },
   {
     "word": "fundamental",
@@ -512,19 +384,11 @@
     ],
     "examples": [
       [
-        "Trust is fundamental to a good relationship.",
-        "اعتماد برای یک رابطه خوب اساسی است."
-      ],
-      [
-        "We need to solve the fundamental problem.",
-        "باید مشکل بنیادی را حل کنیم."
-      ],
-      [
-        "Understanding HTTP is fundamental to backend development.",
-        "درک HTTP برای Backend Development بنیادی است."
+        "Trust is a fundamental part of any long-term business relationship.",
+        "اعتماد بخش بنیادی هر رابطه تجاری بلندمدت است."
       ]
     ],
-    "miniContext": "Trust is fundamental to a good relationship. We need to solve the fundamental problem. Understanding HTTP is fundamental to backend development. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Trust is a fundamental part of any long-term business relationship."
   },
   {
     "word": "inefficient",
@@ -543,19 +407,11 @@
     ],
     "examples": [
       [
-        "This method is inefficient.",
-        "این روش ناکارآمد است."
-      ],
-      [
-        "The current workflow is inefficient.",
-        "Workflow فعلی ناکارآمد است."
-      ],
-      [
-        "An N+1 query pattern is inefficient at scale.",
-        "الگوی N+1 Query در Scale بالا ناکارآمد است."
+        "The old filing system was slow and inefficient compared to the digital one.",
+        "سیستم بایگانی قدیمی در مقایسه با سیستم دیجیتال، کند و ناکارآمد بود."
       ]
     ],
-    "miniContext": "This method is inefficient. The current workflow is inefficient. An N+1 query pattern is inefficient at scale. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The old filing system was slow and inefficient compared to the digital one."
   },
   {
     "word": "inhibit",
@@ -574,19 +430,11 @@
     ],
     "examples": [
       [
-        "Fear can inhibit creativity.",
-        "ترس می‌تواند مانع خلاقیت شود."
-      ],
-      [
-        "Strict rules may inhibit experimentation.",
-        "قوانین سخت ممکن است مانع Experimentation شوند."
-      ],
-      [
-        "Lock contention can inhibit throughput.",
-        "Lock Contention می‌تواند Throughput را کاهش دهد."
+        "Too much self-doubt can inhibit a young athlete's performance.",
+        "تردید زیاد نسبت به خود می‌تواند عملکرد یک ورزشکار جوان را مانع شود."
       ]
     ],
-    "miniContext": "Fear can inhibit creativity. Strict rules may inhibit experimentation. Lock contention can inhibit throughput. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Too much self-doubt can inhibit a young athlete's performance."
   },
   {
     "word": "integrity",
@@ -605,19 +453,11 @@
     ],
     "examples": [
       [
-        "We need to protect the integrity of the data.",
-        "باید از صحت Data محافظت کنیم."
-      ],
-      [
-        "The system maintains data integrity.",
-        "سیستم Data Integrity را حفظ می‌کند."
-      ],
-      [
-        "Transactions help preserve database integrity.",
-        "Transactionها به حفظ یکپارچگی Database کمک می‌کنند."
+        "The journalist was known for her integrity, even when the truth was unpopular.",
+        "آن روزنامه‌نگار به خاطر صداقت و درستکاری‌اش شناخته می‌شد، حتی وقتی حقیقت محبوب نبود."
       ]
     ],
-    "miniContext": "We need to protect the integrity of the data. The system maintains data integrity. Transactions help preserve database integrity. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The journalist was known for her integrity, even when the truth was unpopular."
   },
   {
     "word": "legitimate",
@@ -636,19 +476,11 @@
     ],
     "examples": [
       [
-        "That's a legitimate concern.",
-        "این یک نگرانی موجه است."
-      ],
-      [
-        "The request looks legitimate.",
-        "Request معتبر به نظر می‌رسد."
-      ],
-      [
-        "The server must distinguish legitimate traffic from attacks.",
-        "Server باید Traffic معتبر را از حملات تشخیص دهد."
+        "He had a legitimate reason for missing the deadline this time.",
+        "او این بار دلیلی موجه برای از دست دادن مهلت داشت."
       ]
     ],
-    "miniContext": "That's a legitimate concern. The request looks legitimate. The server must distinguish legitimate traffic from attacks. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "He had a legitimate reason for missing the deadline this time."
   },
   {
     "word": "mandatory",
@@ -667,19 +499,11 @@
     ],
     "examples": [
       [
-        "Attendance is mandatory.",
-        "حضور اجباری است."
-      ],
-      [
-        "Security training is mandatory for new employees.",
-        "Security Training برای کارکنان جدید اجباری است."
-      ],
-      [
-        "Authentication is mandatory for this endpoint.",
-        "Authentication برای این Endpoint اجباری است."
+        "Wearing a seatbelt is mandatory for everyone in the car.",
+        "بستن کمربند ایمنی برای همه افراد داخل خودرو اجباری است."
       ]
     ],
-    "miniContext": "Attendance is mandatory. Security training is mandatory for new employees. Authentication is mandatory for this endpoint. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Wearing a seatbelt is mandatory for everyone in the car."
   },
   {
     "word": "notwithstanding",
@@ -698,19 +522,11 @@
     ],
     "examples": [
       [
-        "Notwithstanding the rain, we went outside.",
-        "با وجود باران، بیرون رفتیم."
-      ],
-      [
-        "Notwithstanding the risks, the company approved the plan.",
-        "با وجود Riskها، شرکت Plan را تأیید کرد."
-      ],
-      [
-        "Notwithstanding the optimization, the query remains slow.",
-        "با وجود Optimization، Query همچنان کند است."
+        "Notwithstanding the bad weather, the festival drew a huge crowd.",
+        "علی‌رغم آب‌وهوای بد، آن فستیوال جمعیت زیادی را جذب کرد."
       ]
     ],
-    "miniContext": "Notwithstanding the rain, we went outside. Notwithstanding the risks, the company approved the plan. Notwithstanding the optimization, the query remains slow. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Notwithstanding the bad weather, the festival drew a huge crowd."
   },
   {
     "word": "obsolete",
@@ -729,19 +545,11 @@
     ],
     "examples": [
       [
-        "This software is obsolete.",
-        "این Software منسوخ شده است."
-      ],
-      [
-        "The old process has become obsolete.",
-        "فرایند قدیمی منسوخ شده است."
-      ],
-      [
-        "This API version is obsolete and should be replaced.",
-        "این نسخه API منسوخ است و باید جایگزین شود."
+        "That software became obsolete as soon as the new operating system was released.",
+        "آن نرم‌افزار به‌محض انتشار سیستم‌عامل جدید منسوخ شد."
       ]
     ],
-    "miniContext": "This software is obsolete. The old process has become obsolete. This API version is obsolete and should be replaced. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "That software became obsolete as soon as the new operating system was released."
   },
   {
     "word": "persistent",
@@ -760,19 +568,11 @@
     ],
     "examples": [
       [
-        "She is persistent when solving problems.",
-        "او هنگام حل مشکلات پشتکار دارد."
-      ],
-      [
-        "We need persistent storage for this data.",
-        "برای این Data به Persistent Storage نیاز داریم."
-      ],
-      [
-        "The queue uses persistent messages to survive restarts.",
-        "Queue از Messageهای Persistent استفاده می‌کند تا Restart را تحمل کند."
+        "Despite several rejections, she remained persistent in pursuing her research idea.",
+        "او با وجود چندین رد شدن، در پیگیری ایده تحقیقاتی‌اش مصر و پیگیر ماند."
       ]
     ],
-    "miniContext": "She is persistent when solving problems. We need persistent storage for this data. The queue uses persistent messages to survive restarts. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Despite several rejections, she remained persistent in pursuing her research idea."
   },
   {
     "word": "prevalent",
@@ -791,19 +591,11 @@
     ],
     "examples": [
       [
-        "This problem is prevalent among beginners.",
-        "این مشکل بین مبتدی‌ها رایج است."
-      ],
-      [
-        "Remote work is prevalent in the industry.",
-        "Remote Work در این صنعت رایج است."
-      ],
-      [
-        "Caching is prevalent in high-traffic systems.",
-        "Caching در سیستم‌های پرترافیک رایج است."
+        "Remote work has become far more prevalent since the pandemic.",
+        "کار از راه دور از زمان همه‌گیری بسیار رایج‌تر شده است."
       ]
     ],
-    "miniContext": "This problem is prevalent among beginners. Remote work is prevalent in the industry. Caching is prevalent in high-traffic systems. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Remote work has become far more prevalent since the pandemic."
   },
   {
     "word": "profound",
@@ -822,19 +614,11 @@
     ],
     "examples": [
       [
-        "The experience had a profound effect on me.",
-        "این تجربه تأثیر عمیقی روی من داشت."
-      ],
-      [
-        "The change had a profound impact on the team.",
-        "این تغییر تأثیر عمیقی روی تیم داشت."
-      ],
-      [
-        "Distributed systems introduce profound design challenges.",
-        "Distributed Systems چالش‌های عمیق Design ایجاد می‌کنند."
+        "Losing her mentor had a profound effect on her career choices.",
+        "از دست دادن استاد راهنمایش تأثیر عمیقی بر انتخاب‌های شغلی او گذاشت."
       ]
     ],
-    "miniContext": "The experience had a profound effect on me. The change had a profound impact on the team. Distributed systems introduce profound design challenges. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Losing her mentor had a profound effect on her career choices."
   },
   {
     "word": "reluctance",
@@ -853,19 +637,11 @@
     ],
     "examples": [
       [
-        "I understand your reluctance.",
-        "بی‌میلی تو را درک می‌کنم."
-      ],
-      [
-        "There was some reluctance to change the process.",
-        "برای تغییر فرایند کمی بی‌میلی وجود داشت."
-      ],
-      [
-        "Developer reluctance can slow adoption of new tools.",
-        "بی‌میلی Developerها می‌تواند Adoption ابزارهای جدید را کند کند."
+        "He agreed to help, though with obvious reluctance.",
+        "او با اینکه بی‌میلی واضحی داشت، موافقت کرد که کمک کند."
       ]
     ],
-    "miniContext": "I understand your reluctance. There was some reluctance to change the process. Developer reluctance can slow adoption of new tools. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "He agreed to help, though with obvious reluctance."
   },
   {
     "word": "retain",
@@ -884,19 +660,11 @@
     ],
     "examples": [
       [
-        "It's difficult to retain every detail.",
-        "حفظ کردن همه جزئیات سخت است."
-      ],
-      [
-        "The company wants to retain experienced employees.",
-        "شرکت می‌خواهد کارکنان باتجربه را حفظ کند."
-      ],
-      [
-        "The cache retains data for five minutes.",
-        "Cache داده را پنج دقیقه نگه می‌دارد."
+        "The museum worked hard to retain its most experienced guides.",
+        "موزه برای حفظ باتجربه‌ترین راهنماهای خود تلاش زیادی کرد."
       ]
     ],
-    "miniContext": "It's difficult to retain every detail. The company wants to retain experienced employees. The cache retains data for five minutes. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The museum worked hard to retain its most experienced guides."
   },
   {
     "word": "simultaneous",
@@ -915,19 +683,11 @@
     ],
     "examples": [
       [
-        "There were simultaneous phone calls.",
-        "چند تماس همزمان وجود داشت."
-      ],
-      [
-        "The teams made simultaneous changes.",
-        "تیم‌ها همزمان تغییراتی ایجاد کردند."
-      ],
-      [
-        "Simultaneous requests can cause contention.",
-        "Requestهای همزمان می‌توانند باعث Contention شوند."
+        "The conference offered simultaneous translation into three languages.",
+        "آن کنفرانس ترجمه همزمان به سه زبان را ارائه می‌داد."
       ]
     ],
-    "miniContext": "There were simultaneous phone calls. The teams made simultaneous changes. Simultaneous requests can cause contention. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The conference offered simultaneous translation into three languages."
   },
   {
     "word": "solely",
@@ -946,19 +706,11 @@
     ],
     "examples": [
       [
-        "I didn't do it solely for money.",
-        "من این کار را فقط برای پول انجام ندادم."
-      ],
-      [
-        "The decision wasn't based solely on cost.",
-        "تصمیم فقط بر اساس هزینه نبود."
-      ],
-      [
-        "Don't rely solely on cache for correctness.",
-        "فقط به Cache برای Correctness تکیه نکن."
+        "The decision was based solely on the test results, not personal opinion.",
+        "این تصمیم صرفاً بر اساس نتایج آزمون بود، نه نظر شخصی."
       ]
     ],
-    "miniContext": "I didn't do it solely for money. The decision wasn't based solely on cost. Don't rely solely on cache for correctness. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The decision was based solely on the test results, not personal opinion."
   },
   {
     "word": "specify",
@@ -977,19 +729,11 @@
     ],
     "examples": [
       [
-        "Please specify what you need.",
-        "لطفاً دقیقاً مشخص کن چه می‌خواهی."
-      ],
-      [
-        "The contract specifies the delivery date.",
-        "قرارداد تاریخ تحویل را مشخص می‌کند."
-      ],
-      [
-        "The API specification specifies the required fields.",
-        "API Specification فیلدهای موردنیاز را مشخص می‌کند."
+        "The contract failed to specify who would cover the shipping costs.",
+        "در قرارداد مشخص نشده بود که هزینه ارسال را چه کسی پرداخت می‌کند."
       ]
     ],
-    "miniContext": "Please specify what you need. The contract specifies the delivery date. The API specification specifies the required fields. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The contract failed to specify who would cover the shipping costs."
   },
   {
     "word": "terminate",
@@ -1008,19 +752,11 @@
     ],
     "examples": [
       [
-        "They decided to terminate the agreement.",
-        "آنها تصمیم گرفتند قرارداد را خاتمه دهند."
-      ],
-      [
-        "The company terminated the project.",
-        "شرکت پروژه را متوقف کرد."
-      ],
-      [
-        "The server terminates idle connections after a timeout.",
-        "Server بعد از Timeout Connectionهای Idle را می‌بندد."
+        "The airline terminated the route due to low ticket sales.",
+        "شرکت هواپیمایی به دلیل فروش پایین بلیت، آن مسیر را متوقف کرد."
       ]
     ],
-    "miniContext": "They decided to terminate the agreement. The company terminated the project. The server terminates idle connections after a timeout. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The airline terminated the route due to low ticket sales."
   },
   {
     "word": "underestimate",
@@ -1039,19 +775,11 @@
     ],
     "examples": [
       [
-        "Don't underestimate the difficulty of the task.",
-        "سختی Task را دست‌کم نگیر."
-      ],
-      [
-        "We underestimated the migration effort.",
-        "تلاش لازم برای Migration را کمتر از واقع برآورد کردیم."
-      ],
-      [
-        "Never underestimate traffic spikes.",
-        "هیچ‌وقت Traffic Spikeها را دست‌کم نگیر."
+        "Never underestimate how much a simple phone call can mean to someone lonely.",
+        "هرگز دست‌کم نگیرید که یک تماس تلفنی ساده چقدر می‌تواند برای فردی تنها اهمیت داشته باشد."
       ]
     ],
-    "miniContext": "Don't underestimate the difficulty of the task. We underestimated the migration effort. Never underestimate traffic spikes. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Never underestimate how much a simple phone call can mean to someone lonely."
   },
   {
     "word": "unprecedented",
@@ -1070,19 +798,11 @@
     ],
     "examples": [
       [
-        "The city experienced unprecedented growth.",
-        "شهر رشد بی‌سابقه‌ای را تجربه کرد."
-      ],
-      [
-        "The company faced unprecedented demand.",
-        "شرکت با تقاضای بی‌سابقه‌ای مواجه شد."
-      ],
-      [
-        "The system received unprecedented traffic.",
-        "سیستم Traffic بی‌سابقه‌ای دریافت کرد."
+        "The city faced unprecedented flooding after three days of nonstop rain.",
+        "شهر پس از سه روز باران مداوم با سیلی بی‌سابقه مواجه شد."
       ]
     ],
-    "miniContext": "The city experienced unprecedented growth. The company faced unprecedented demand. The system received unprecedented traffic. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The city faced unprecedented flooding after three days of nonstop rain."
   },
   {
     "word": "versatile",
@@ -1101,19 +821,11 @@
     ],
     "examples": [
       [
-        "She's a versatile developer.",
-        "او Developer چندمهارته‌ای است."
-      ],
-      [
-        "This tool is versatile enough for many teams.",
-        "این ابزار برای تیم‌های مختلف به اندازه کافی چندمنظوره است."
-      ],
-      [
-        "A versatile API can support multiple clients.",
-        "یک API چندمنظوره می‌تواند چند Client را پشتیبانی کند."
+        "Olive oil is a versatile ingredient used in both cooking and baking.",
+        "روغن زیتون ماده‌ای همه‌کاره است که هم در پخت‌وپز و هم در شیرینی‌پزی استفاده می‌شود."
       ]
     ],
-    "miniContext": "She's a versatile developer. This tool is versatile enough for many teams. A versatile API can support multiple clients. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Olive oil is a versatile ingredient used in both cooking and baking."
   },
   {
     "word": "whereby",
@@ -1132,19 +844,11 @@
     ],
     "examples": [
       [
-        "They created a process whereby users can report issues.",
-        "آنها فرایندی ایجاد کردند که کاربران از طریق آن مشکلات را گزارش کنند."
-      ],
-      [
-        "We need a system whereby approvals are tracked.",
-        "به سیستمی نیاز داریم که Approvalها در آن Track شوند."
-      ],
-      [
-        "The mechanism whereby services communicate must be secure.",
-        "Mechanism ارتباط سرویس‌ها باید امن باشد."
+        "The company introduced a new policy whereby employees could work from home twice a week.",
+        "شرکت سیاست جدیدی معرفی کرد که به‌واسطه آن کارمندان می‌توانستند هفته‌ای دو روز از خانه کار کنند."
       ]
     ],
-    "miniContext": "They created a process whereby users can report issues. We need a system whereby approvals are tracked. The mechanism whereby services communicate must be secure. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The company introduced a new policy whereby employees could work from home twice a week."
   },
   {
     "word": "withstand",
@@ -1163,19 +867,11 @@
     ],
     "examples": [
       [
-        "This material can withstand high temperatures.",
-        "این ماده می‌تواند دمای بالا را تحمل کند."
-      ],
-      [
-        "The team withstood intense pressure.",
-        "تیم فشار زیادی را تحمل کرد."
-      ],
-      [
-        "The service must withstand sudden traffic spikes.",
-        "Service باید Traffic Spikeهای ناگهانی را تحمل کند."
+        "The old stone wall was built to withstand even the strongest storms.",
+        "آن دیوار سنگی قدیمی طوری ساخته شده بود که حتی قوی‌ترین طوفان‌ها را تحمل کند."
       ]
     ],
-    "miniContext": "This material can withstand high temperatures. The team withstood intense pressure. The service must withstand sudden traffic spikes. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The old stone wall was built to withstand even the strongest storms."
   },
   {
     "word": "yield",
@@ -1194,18 +890,10 @@
     ],
     "examples": [
       [
-        "The investment yielded a good return.",
-        "سرمایه‌گذاری بازده خوبی داشت."
-      ],
-      [
-        "The experiment yielded useful results.",
-        "Experiment نتایج مفیدی ایجاد کرد."
-      ],
-      [
-        "The query yields fewer rows after filtering.",
-        "Query بعد از Filtering رکوردهای کمتری برمی‌گرداند."
+        "The new farming technique yielded almost twice as much wheat as last year.",
+        "تکنیک کشاورزی جدید تقریباً دو برابر گندم سال گذشته بازده داد."
       ]
     ],
-    "miniContext": "The investment yielded a good return. The experiment yielded useful results. The query yields fewer rows after filtering. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "The new farming technique yielded almost twice as much wheat as last year."
   }
 ]

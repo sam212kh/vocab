@@ -8,6 +8,10 @@ import {
 } from '../services/pronunciation'
 
 import {
+    answersMatch,
+} from '../services/textMatch'
+
+import {
     useSpeakingPractice,
 } from '../composables/useSpeakingPractice'
 
@@ -52,10 +56,10 @@ const error =
     ref('')
 
 const phase = ref<
-    'ready' |
+    'recall' |
     'speak' |
     'result'
->('ready')
+>('recall')
 
 const pronunciationScore =
     ref<number | null>(null)
@@ -64,6 +68,15 @@ const pronunciationCorrect =
     ref(false)
 
 const answerRecorded =
+    ref(false)
+
+const recallAnswer =
+    ref('')
+
+const recallRevealed =
+    ref(false)
+
+const recallCorrect =
     ref(false)
 
 const isCompleted =
@@ -247,7 +260,7 @@ async function loadReviewWords() {
 function resetPracticeState() {
     reset()
 
-    phase.value = 'ready'
+    phase.value = 'recall'
 
     pronunciationScore.value =
         null
@@ -257,14 +270,64 @@ function resetPracticeState() {
 
     answerRecorded.value =
         false
+
+    recallAnswer.value = ''
+
+    recallRevealed.value = false
+
+    recallCorrect.value = false
 }
 
-function startSpeaking() {
-    if (!currentWord.value) {
+/*
+ * Pretesting effect: the user guesses the English
+ * word from its meaning BEFORE the word is revealed.
+ * This recall attempt (not the later speaking step)
+ * is what drives the spaced-repetition schedule.
+ */
+function submitRecall() {
+    if (
+        !currentWord.value ||
+        recallRevealed.value
+    ) {
         return
     }
 
-    resetPracticeState()
+    recallRevealed.value = true
+
+    recallCorrect.value =
+        answersMatch(
+            currentWord.value.word,
+            recallAnswer.value
+        )
+
+    const progress =
+        wordProgressStore.getProgress(
+            currentWord.value.word,
+            currentWord.value.courseId,
+            currentWord.value.lessonId
+        )
+
+    if (recallCorrect.value) {
+        wordProgressStore.recordCorrect(
+            currentWord.value.word,
+            progress.courseId,
+            progress.lessonId
+        )
+    } else {
+        wordProgressStore.recordWrong(
+            currentWord.value.word,
+            progress.courseId,
+            progress.lessonId
+        )
+    }
+
+    answerRecorded.value = true
+}
+
+function proceedToSpeak() {
+    if (!currentWord.value) {
+        return
+    }
 
     phase.value = 'speak'
 }
@@ -606,9 +669,9 @@ onMounted(() => {
             <div
                 class="rounded-2xl border bg-white p-8 text-center shadow-sm"
             >
-                <!-- READY -->
+                <!-- RECALL -->
                 <div
-                    v-if="phase === 'ready'"
+                    v-if="phase === 'recall'"
                 >
                     <p
                         class="text-sm font-medium uppercase tracking-wide text-gray-400"
@@ -619,11 +682,50 @@ onMounted(() => {
                     <h2
                         class="mt-2 text-2xl font-bold"
                     >
-                        Remember the word
+                        Recall the word
                     </h2>
 
                     <div
                         class="mt-10"
+                    >
+                        <p
+                            class="text-lg text-gray-600"
+                        >
+                            {{ currentWord.meaning }}
+                        </p>
+
+                        <SpeechButton
+                            :text="
+                                currentWord.meaning
+                            "
+                            lang="fa-IR"
+                        />
+                    </div>
+
+                    <form
+                        v-if="!recallRevealed"
+                        class="mt-8"
+                        @submit.prevent="submitRecall"
+                    >
+                        <input
+                            v-model="recallAnswer"
+                            autofocus
+                            autocomplete="off"
+                            placeholder="Type the English word..."
+                            class="w-full rounded-xl border px-4 py-4 text-center text-xl outline-none focus:border-gray-900"
+                        />
+
+                        <button
+                            type="submit"
+                            class="mt-5 w-full rounded-xl bg-black px-8 py-3 text-white hover:bg-gray-800"
+                        >
+                            Check
+                        </button>
+                    </form>
+
+                    <div
+                        v-else
+                        class="mt-8"
                     >
                         <div
                             class="flex items-center justify-center gap-3"
@@ -643,28 +745,30 @@ onMounted(() => {
                         </div>
 
                         <p
-                            class="mt-5 text-lg text-gray-600"
+                            class="mt-4 text-lg font-semibold"
+                            :class="
+                                recallCorrect
+                                    ? 'text-green-600'
+                                    : 'text-red-600'
+                            "
                         >
-                            {{ currentWord.meaning }}
+                            {{
+                                recallCorrect
+                                    ? '✅ Correct!'
+                                    : `❌ You said: ${recallAnswer || '(nothing)'}`
+                            }}
                         </p>
 
-                        <SpeechButton
-                            :text="
-                                currentWord.meaning
+                        <button
+                            type="button"
+                            class="mt-8 rounded-lg bg-black px-8 py-3 text-white hover:bg-gray-800"
+                            @click="
+                                proceedToSpeak
                             "
-                            lang="fa-IR"
-                        />
+                        >
+                            🎙 Continue to speaking →
+                        </button>
                     </div>
-
-                    <button
-                        type="button"
-                        class="mt-10 rounded-lg bg-black px-8 py-3 text-white hover:bg-gray-800"
-                        @click="
-                            startSpeaking
-                        "
-                    >
-                        🎙 Practice
-                    </button>
                 </div>
 
                 <!-- SPEAK -->

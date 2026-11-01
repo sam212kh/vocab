@@ -56,6 +56,14 @@ const progress = computed(() => {
                 <div
                     class="flex min-w-0 items-center gap-2"
                 >
+                    <span
+                        v-if="word.icon"
+                        class="text-2xl leading-none"
+                        aria-hidden="true"
+                    >
+                        {{ word.icon }}
+                    </span>
+
                     <h2
                         class="text-2xl font-bold"
                     >

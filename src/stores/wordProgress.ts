@@ -37,148 +37,6 @@ export const useWordProgressStore =
                     .toLowerCase()
             }
 
-            function normalizeProgress(
-                item: Partial<WordProgress>
-            ): WordProgress | null {
-                if (
-                    typeof item.wordId !==
-                    'string'
-                ) {
-                    return null
-                }
-
-                const wordId =
-                    normalizeWord(
-                        item.wordId
-                    )
-
-                if (!wordId) {
-                    return null
-                }
-
-                const status =
-                    VALID_STATUSES.includes(
-                        item.status as WordStatus
-                    )
-                        ? (item.status as WordStatus)
-                        : 'new'
-
-                return {
-                    wordId,
-
-                    courseId:
-                        typeof item.courseId ===
-                        'string'
-                            ? item.courseId
-                            : '',
-
-                    lessonId:
-                        typeof item.lessonId ===
-                        'string'
-                            ? item.lessonId
-                            : '',
-
-                    status,
-
-                    level:
-                        typeof item.level ===
-                        'number' &&
-                        Number.isFinite(
-                            item.level
-                        )
-                            ? Math.max(
-                                0,
-                                Math.min(
-                                    5,
-                                    Math.floor(
-                                        item.level
-                                    )
-                                )
-                            )
-                            : 0,
-
-                    pos:
-                        typeof item.pos ===
-                        'string'
-                            ? item.pos
-                            : '',
-
-                    correctAnswers:
-                        typeof item.correctAnswers ===
-                        'number' &&
-                        Number.isFinite(
-                            item.correctAnswers
-                        )
-                            ? Math.max(
-                                0,
-                                Math.floor(
-                                    item.correctAnswers
-                                )
-                            )
-                            : 0,
-
-                    wrongAnswers:
-                        typeof item.wrongAnswers ===
-                        'number' &&
-                        Number.isFinite(
-                            item.wrongAnswers
-                        )
-                            ? Math.max(
-                                0,
-                                Math.floor(
-                                    item.wrongAnswers
-                                )
-                            )
-                            : 0,
-
-                    streak:
-                        typeof item.streak ===
-                        'number' &&
-                        Number.isFinite(
-                            item.streak
-                        )
-                            ? Math.max(
-                                0,
-                                Math.floor(
-                                    item.streak
-                                )
-                            )
-                            : 0,
-
-                    lastReviewedAt:
-                        typeof item.lastReviewedAt ===
-                        'number' &&
-                        Number.isFinite(
-                            item.lastReviewedAt
-                        )
-                            ? item.lastReviewedAt
-                            : null,
-
-                    nextReviewAt:
-                        typeof item.nextReviewAt ===
-                        'number' &&
-                        Number.isFinite(
-                            item.nextReviewAt
-                        )
-                            ? item.nextReviewAt
-                            : null,
-
-                    practicePriority:
-                        typeof item.practicePriority ===
-                        'number' &&
-                        Number.isFinite(
-                            item.practicePriority
-                        )
-                            ? Math.max(
-                                0,
-                                Math.floor(
-                                    item.practicePriority
-                                )
-                            )
-                            : 0,
-                }
-            }
-
             function getProgress(
                 word: string,
                 courseId = '',
@@ -257,6 +115,10 @@ export const useWordProgressStore =
                     nextReviewAt: null,
 
                     practicePriority: 0,
+
+                    easeFactor: 2.5,
+
+                    intervalDays: 0,
                 }
 
                 progress.value.push(
@@ -278,6 +140,19 @@ export const useWordProgressStore =
                         word,
                         courseId,
                         lessonId
+                    )
+
+                /*
+                 * Derive SM-2 quality from the streak
+                 * BEFORE it is incremented below, so a
+                 * fresh/just-recovered word is graded
+                 * as a bare pass rather than a confident
+                 * repeat.
+                 */
+                const schedule =
+                    calculateNextReview(
+                        item,
+                        true
                     )
 
                 item.correctAnswers++
@@ -315,11 +190,14 @@ export const useWordProgressStore =
                         1
                     )
 
+                item.easeFactor =
+                    schedule.easeFactor
+
+                item.intervalDays =
+                    schedule.intervalDays
+
                 item.nextReviewAt =
-                    calculateNextReview(
-                        item,
-                        true
-                    )
+                    schedule.nextReviewAt
 
                 save()
             }
@@ -336,6 +214,12 @@ export const useWordProgressStore =
                         lessonId
                     )
 
+                const schedule =
+                    calculateNextReview(
+                        item,
+                        false
+                    )
+
                 item.wrongAnswers++
 
                 item.streak = 0
@@ -348,11 +232,14 @@ export const useWordProgressStore =
                 item.lastReviewedAt =
                     Date.now()
 
+                item.easeFactor =
+                    schedule.easeFactor
+
+                item.intervalDays =
+                    schedule.intervalDays
+
                 item.nextReviewAt =
-                    calculateNextReview(
-                        item,
-                        false
-                    )
+                    schedule.nextReviewAt
 
                 save()
             }
@@ -685,6 +572,24 @@ function normalizeStoredProgress(
                         value.practicePriority
                     )
                 )
+                : 0,
+
+        easeFactor:
+            typeof value.easeFactor ===
+            'number' &&
+            Number.isFinite(
+                value.easeFactor
+            )
+                ? Math.max(1.3, value.easeFactor)
+                : 2.5,
+
+        intervalDays:
+            typeof value.intervalDays ===
+            'number' &&
+            Number.isFinite(
+                value.intervalDays
+            )
+                ? Math.max(0, value.intervalDays)
                 : 0,
     }
 }

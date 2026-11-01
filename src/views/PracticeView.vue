@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { answersMatch } from '../services/textMatch'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
 
 const progressStore = useWordProgressStore()
@@ -15,12 +17,16 @@ const revealed = ref(false)
 const result = ref<'correct' | 'wrong' | null>(null)
 const loading = ref(false)
 const error = ref('')
+const started = ref(false)
+const score = ref(0)
 
 const selectedCourse = computed(() =>
     courses.value.find(c => c.id === selectedCourseId.value)
 )
 
 const currentWord = computed(() => words.value[index.value] ?? null)
+
+const finished = computed(() => started.value && index.value >= words.value.length)
 
 const selectedLesson = computed<LessonManifest | null>(() =>
     selectedCourse.value?.lessons.find(l => l.id === selectedLessonId.value) ?? null
@@ -36,10 +42,13 @@ async function startPractice() {
     answer.value = ''
     revealed.value = false
     result.value = null
+    score.value = 0
+    started.value = false
 
     try {
         words.value = await loadLesson(selectedLesson.value)
         index.value = 0
+        started.value = true
     } catch (e) {
         error.value = e instanceof Error ? e.message : 'Failed to load lesson'
     } finally {
@@ -50,13 +59,11 @@ async function startPractice() {
 function checkAnswer() {
     if (!currentWord.value || revealed.value) return
 
-    const expected = normalize(currentWord.value.word)
-    const actual = normalize(answer.value)
-
     revealed.value = true
-    result.value = expected === actual ? 'correct' : 'wrong'
+    result.value = answersMatch(currentWord.value.word, answer.value) ? 'correct' : 'wrong'
 
     if (result.value === 'correct') {
+        score.value++
         progressStore.recordCorrect(
             currentWord.value.word,
             currentWord.value.courseId,
@@ -73,20 +80,41 @@ function checkAnswer() {
 
 function next() {
     if (!words.value.length) return
-    index.value = (index.value + 1) % words.value.length
+    index.value++
     answer.value = ''
     revealed.value = false
     result.value = null
 }
 
-function normalize(value: string) {
-    return value.trim().toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, ' ')
+function restart() {
+    started.value = false
+    words.value = []
+    index.value = 0
+    score.value = 0
 }
+
+const route = useRoute()
 
 onMounted(async () => {
     try {
         courses.value = (await loadManifest()).courses
-        selectedCourseId.value = courses.value[0]?.id ?? ''
+
+        const queryCourseId = String(route.query.courseId ?? '')
+        const queryLessonId = String(route.query.lessonId ?? '')
+
+        const hasQueryCourse = courses.value.some(c => c.id === queryCourseId)
+
+        selectedCourseId.value = hasQueryCourse
+            ? queryCourseId
+            : (courses.value[0]?.id ?? '')
+
+        if (
+            hasQueryCourse &&
+            availableLessons.value.some(l => l.id === queryLessonId)
+        ) {
+            selectedLessonId.value = queryLessonId
+            await startPractice()
+        }
     } catch (e) {
         error.value = e instanceof Error ? e.message : 'Failed to load courses'
     }
@@ -141,9 +169,23 @@ onMounted(async () => {
             {{ error }}
         </div>
 
-        <article v-if="currentWord" class="rounded-2xl border bg-white p-6 shadow-sm">
+        <div v-if="finished" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
+            <p class="text-sm text-gray-500">Practice complete</p>
+            <h2 class="mt-2 text-4xl font-bold">{{ score }} / {{ words.length }}</h2>
+            <p class="mt-3 text-gray-500">Your answers were added to your review progress.</p>
+            <button
+                type="button"
+                class="mt-6 rounded-xl bg-gray-900 px-5 py-3 font-semibold text-white hover:bg-gray-700"
+                @click="restart"
+            >
+                Practice another lesson
+            </button>
+        </div>
+
+        <article v-else-if="currentWord" class="rounded-2xl border bg-white p-6 shadow-sm">
             <div class="flex items-center justify-between text-sm text-gray-500">
                 <span>{{ index + 1 }} / {{ words.length }}</span>
+                <span>Score: {{ score }}</span>
                 <span>{{ currentWord.pos }}</span>
             </div>
 

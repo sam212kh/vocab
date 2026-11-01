@@ -15,70 +15,6 @@ export const useWordProgressStore = defineStore('wordProgress', () => {
             .trim()
             .toLowerCase();
     }
-    function normalizeProgress(item) {
-        if (typeof item.wordId !==
-            'string') {
-            return null;
-        }
-        const wordId = normalizeWord(item.wordId);
-        if (!wordId) {
-            return null;
-        }
-        const status = VALID_STATUSES.includes(item.status)
-            ? item.status
-            : 'new';
-        return {
-            wordId,
-            courseId: typeof item.courseId ===
-                'string'
-                ? item.courseId
-                : '',
-            lessonId: typeof item.lessonId ===
-                'string'
-                ? item.lessonId
-                : '',
-            status,
-            level: typeof item.level ===
-                'number' &&
-                Number.isFinite(item.level)
-                ? Math.max(0, Math.min(5, Math.floor(item.level)))
-                : 0,
-            pos: typeof item.pos ===
-                'string'
-                ? item.pos
-                : '',
-            correctAnswers: typeof item.correctAnswers ===
-                'number' &&
-                Number.isFinite(item.correctAnswers)
-                ? Math.max(0, Math.floor(item.correctAnswers))
-                : 0,
-            wrongAnswers: typeof item.wrongAnswers ===
-                'number' &&
-                Number.isFinite(item.wrongAnswers)
-                ? Math.max(0, Math.floor(item.wrongAnswers))
-                : 0,
-            streak: typeof item.streak ===
-                'number' &&
-                Number.isFinite(item.streak)
-                ? Math.max(0, Math.floor(item.streak))
-                : 0,
-            lastReviewedAt: typeof item.lastReviewedAt ===
-                'number' &&
-                Number.isFinite(item.lastReviewedAt)
-                ? item.lastReviewedAt
-                : null,
-            nextReviewAt: typeof item.nextReviewAt ===
-                'number' &&
-                Number.isFinite(item.nextReviewAt)
-                ? item.nextReviewAt
-                : null,
-            practicePriority: typeof item.practicePriority ===
-                'number' &&
-                Number.isFinite(item.practicePriority)
-                ? Math.max(0, Math.floor(item.practicePriority))
-                : 0,
-        };
-    }
     function getProgress(word, courseId = '', lessonId = '') {
         const normalized = normalizeWord(word);
         let existing = progress.value.find(item => normalizeWord(item.wordId) === normalized);
@@ -121,6 +57,8 @@ export const useWordProgressStore = defineStore('wordProgress', () => {
             lastReviewedAt: null,
             nextReviewAt: null,
             practicePriority: 0,
+            easeFactor: 2.5,
+            intervalDays: 0,
         };
         progress.value.push(newProgress);
         save();
@@ -128,6 +66,14 @@ export const useWordProgressStore = defineStore('wordProgress', () => {
     }
     function recordCorrect(word, courseId = '', lessonId = '') {
         const item = getProgress(word, courseId, lessonId);
+        /*
+         * Derive SM-2 quality from the streak
+         * BEFORE it is incremented below, so a
+         * fresh/just-recovered word is graded
+         * as a bare pass rather than a confident
+         * repeat.
+         */
+        const schedule = calculateNextReview(item, true);
         item.correctAnswers++;
         item.streak++;
         item.lastReviewedAt =
@@ -149,12 +95,17 @@ export const useWordProgressStore = defineStore('wordProgress', () => {
         item.practicePriority =
             Math.max(0, item.practicePriority -
                 1);
+        item.easeFactor =
+            schedule.easeFactor;
+        item.intervalDays =
+            schedule.intervalDays;
         item.nextReviewAt =
-            calculateNextReview(item, true);
+            schedule.nextReviewAt;
         save();
     }
     function recordWrong(word, courseId = '', lessonId = '') {
         const item = getProgress(word, courseId, lessonId);
+        const schedule = calculateNextReview(item, false);
         item.wrongAnswers++;
         item.streak = 0;
         item.status =
@@ -162,8 +113,12 @@ export const useWordProgressStore = defineStore('wordProgress', () => {
         item.practicePriority++;
         item.lastReviewedAt =
             Date.now();
+        item.easeFactor =
+            schedule.easeFactor;
+        item.intervalDays =
+            schedule.intervalDays;
         item.nextReviewAt =
-            calculateNextReview(item, false);
+            schedule.nextReviewAt;
         save();
     }
     function isDue(word) {
@@ -327,6 +282,16 @@ function normalizeStoredProgress(item) {
             'number' &&
             Number.isFinite(value.practicePriority)
             ? Math.max(0, Math.floor(value.practicePriority))
+            : 0,
+        easeFactor: typeof value.easeFactor ===
+            'number' &&
+            Number.isFinite(value.easeFactor)
+            ? Math.max(1.3, value.easeFactor)
+            : 2.5,
+        intervalDays: typeof value.intervalDays ===
+            'number' &&
+            Number.isFinite(value.intervalDays)
+            ? Math.max(0, value.intervalDays)
             : 0,
     };
 }

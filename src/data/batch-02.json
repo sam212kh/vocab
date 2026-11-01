@@ -16,18 +16,11 @@
     ],
     "examples": [
       [
-        "I've learned to use analyze naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، analyze را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used analyze to explain her point and give the team a clearer direction.",
-        "در جلسه، او از analyze استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, analyze can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، analyze می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The analyst spent hours analyzing the sales data before writing her report.",
+        "تحلیل‌گر ساعت‌ها صرف تحلیل داده‌های فروش کرد پیش از نوشتن گزارشش."
       ]
-    ]
+    ],
+    "miniContext": "The analyst spent hours analyzing the sales data before writing her report."
   },
   {
     "word": "anticipate",
@@ -46,18 +39,11 @@
     ],
     "examples": [
       [
-        "I've learned to use anticipate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، anticipate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used anticipate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از anticipate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, anticipate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، anticipate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The store anticipated high demand and ordered extra stock before the holidays.",
+        "فروشگاه تقاضای بالا را پیش‌بینی کرد و پیش از تعطیلات موجودی اضافی سفارش داد."
       ]
-    ]
+    ],
+    "miniContext": "The store anticipated high demand and ordered extra stock before the holidays."
   },
   {
     "word": "appropriate",
@@ -76,18 +62,11 @@
     ],
     "examples": [
       [
-        "I've learned to use appropriate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، appropriate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used appropriate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از appropriate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, appropriate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، appropriate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Jeans are not really appropriate for a formal business meeting.",
+        "شلوار جین واقعاً برای یک جلسه کاری رسمی مناسب نیست."
       ]
-    ]
+    ],
+    "miniContext": "Jeans are not really appropriate for a formal business meeting."
   },
   {
     "word": "assess",
@@ -106,18 +85,11 @@
     ],
     "examples": [
       [
-        "I've learned to use assess naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، assess را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used assess to explain her point and give the team a clearer direction.",
-        "در جلسه، او از assess استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, assess can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، assess می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The committee will assess each proposal based on cost and feasibility.",
+        "کمیته هر پیشنهاد را بر اساس هزینه و امکان‌پذیری ارزیابی خواهد کرد."
       ]
-    ]
+    ],
+    "miniContext": "The committee will assess each proposal based on cost and feasibility."
   },
   {
     "word": "assume",
@@ -136,18 +108,11 @@
     ],
     "examples": [
       [
-        "I've learned to use assume naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، assume را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used assume to explain her point and give the team a clearer direction.",
-        "در جلسه، او از assume استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, assume can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، assume می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "I assumed the meeting was cancelled since no one mentioned it.",
+        "من فرض کردم جلسه لغو شده است چون کسی چیزی درباره‌اش نگفت."
       ]
-    ]
+    ],
+    "miniContext": "I assumed the meeting was cancelled since no one mentioned it."
   },
   {
     "word": "clarity",
@@ -166,18 +131,11 @@
     ],
     "examples": [
       [
-        "I've learned to use clarity naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، clarity را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used clarity to explain her point and give the team a clearer direction.",
-        "در جلسه، او از clarity استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, clarity can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، clarity می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Her explanation gave the whole team a new sense of clarity about the project.",
+        "توضیح او به کل تیم نوعی شفافیت جدید درباره پروژه داد."
       ]
-    ]
+    ],
+    "miniContext": "Her explanation gave the whole team a new sense of clarity about the project."
   },
   {
     "word": "collaborate",
@@ -196,18 +154,11 @@
     ],
     "examples": [
       [
-        "I've learned to use collaborate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، collaborate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used collaborate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از collaborate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, collaborate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، collaborate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Two different departments collaborated to launch the product on time.",
+        "دو بخش مختلف برای عرضه به‌موقع محصول با یکدیگر همکاری کردند."
       ]
-    ]
+    ],
+    "miniContext": "Two different departments collaborated to launch the product on time."
   },
   {
     "word": "commit",
@@ -226,18 +177,11 @@
     ],
     "examples": [
       [
-        "I've learned to use commit naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، commit را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used commit to explain her point and give the team a clearer direction.",
-        "در جلسه، او از commit استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, commit can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، commit می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "She committed to finishing the manuscript before the end of the year.",
+        "او متعهد شد که دست‌نویس را پیش از پایان سال به اتمام برساند."
       ]
-    ]
+    ],
+    "miniContext": "She committed to finishing the manuscript before the end of the year."
   },
   {
     "word": "communicate",
@@ -256,18 +200,11 @@
     ],
     "examples": [
       [
-        "I've learned to use communicate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، communicate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used communicate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از communicate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, communicate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، communicate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Good leaders know how to communicate clearly even under pressure.",
+        "رهبران خوب می‌دانند چگونه حتی تحت فشار به‌وضوح ارتباط برقرار کنند."
       ]
-    ]
+    ],
+    "miniContext": "Good leaders know how to communicate clearly even under pressure."
   },
   {
     "word": "complex",
@@ -286,18 +223,11 @@
     ],
     "examples": [
       [
-        "I've learned to use complex naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، complex را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used complex to explain her point and give the team a clearer direction.",
-        "در جلسه، او از complex استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, complex can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، complex می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The tax law is far more complex than most people realize.",
+        "قانون مالیاتی بسیار پیچیده‌تر از آن چیزی است که اکثر مردم فکر می‌کنند."
       ]
-    ]
+    ],
+    "miniContext": "The tax law is far more complex than most people realize."
   },
   {
     "word": "concern",
@@ -316,18 +246,11 @@
     ],
     "examples": [
       [
-        "I've learned to use concern naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، concern را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used concern to explain her point and give the team a clearer direction.",
-        "در جلسه، او از concern استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, concern can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، concern می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Safety was the main concern when the engineers redesigned the bridge.",
+        "ایمنی نگرانی اصلی مهندسان هنگام بازطراحی پل بود."
       ]
-    ]
+    ],
+    "miniContext": "Safety was the main concern when the engineers redesigned the bridge."
   },
   {
     "word": "consistent",
@@ -346,18 +269,11 @@
     ],
     "examples": [
       [
-        "I've learned to use consistent naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، consistent را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used consistent to explain her point and give the team a clearer direction.",
-        "در جلسه، او از consistent استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, consistent can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، consistent می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Her training schedule has been consistent every week for the past year.",
+        "برنامه تمرینی او طی سال گذشته هر هفته ثابت بوده است."
       ]
-    ]
+    ],
+    "miniContext": "Her training schedule has been consistent every week for the past year."
   },
   {
     "word": "construct",
@@ -376,18 +292,11 @@
     ],
     "examples": [
       [
-        "I've learned to use construct naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، construct را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used construct to explain her point and give the team a clearer direction.",
-        "در جلسه، او از construct استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, construct can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، construct می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Workers took almost a year to construct the new bridge over the river.",
+        "کارگران تقریباً یک سال طول کشید تا پل جدید روی رودخانه را بسازند."
       ]
-    ]
+    ],
+    "miniContext": "Workers took almost a year to construct the new bridge over the river."
   },
   {
     "word": "consume",
@@ -406,18 +315,11 @@
     ],
     "examples": [
       [
-        "I've learned to use consume naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، consume را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used consume to explain her point and give the team a clearer direction.",
-        "در جلسه، او از consume استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, consume can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، consume می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Teenagers today consume most of their news through social media.",
+        "نوجوانان امروزی بیشتر اخبار خود را از طریق شبکه‌های اجتماعی مصرف می‌کنند."
       ]
-    ]
+    ],
+    "miniContext": "Teenagers today consume most of their news through social media."
   },
   {
     "word": "context",
@@ -436,18 +338,11 @@
     ],
     "examples": [
       [
-        "I've learned to use context naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، context را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used context to explain her point and give the team a clearer direction.",
-        "در جلسه، او از context استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, context can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، context می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Without more context, it's hard to understand why he said that.",
+        "بدون زمینه بیشتر، درک این‌که او چرا این را گفت سخت است."
       ]
-    ]
+    ],
+    "miniContext": "Without more context, it's hard to understand why he said that."
   },
   {
     "word": "criteria",
@@ -466,18 +361,11 @@
     ],
     "examples": [
       [
-        "I've learned to use criteria naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، criteria را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used criteria to explain her point and give the team a clearer direction.",
-        "در جلسه، او از criteria استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, criteria can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، criteria می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The scholarship has strict criteria regarding grades and financial need.",
+        "این بورسیه معیارهای سختگیرانه‌ای درباره نمرات و نیاز مالی دارد."
       ]
-    ]
+    ],
+    "miniContext": "The scholarship has strict criteria regarding grades and financial need."
   },
   {
     "word": "decline",
@@ -496,18 +384,11 @@
     ],
     "examples": [
       [
-        "I've learned to use decline naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، decline را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used decline to explain her point and give the team a clearer direction.",
-        "در جلسه، او از decline استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, decline can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، decline می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Sales began to decline sharply after the competitor lowered its prices.",
+        "فروش پس از کاهش قیمت رقیب، به‌شدت کاهش یافت."
       ]
-    ]
+    ],
+    "miniContext": "Sales began to decline sharply after the competitor lowered its prices."
   },
   {
     "word": "demonstrate",
@@ -526,18 +407,11 @@
     ],
     "examples": [
       [
-        "I've learned to use demonstrate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، demonstrate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used demonstrate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از demonstrate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, demonstrate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، demonstrate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The coach demonstrated the correct technique before letting the players practice.",
+        "مربی تکنیک صحیح را نشان داد پیش از اینکه به بازیکنان اجازه تمرین دهد."
       ]
-    ]
+    ],
+    "miniContext": "The coach demonstrated the correct technique before letting the players practice."
   },
   {
     "word": "distinguish",
@@ -556,18 +430,11 @@
     ],
     "examples": [
       [
-        "I've learned to use distinguish naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، distinguish را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used distinguish to explain her point and give the team a clearer direction.",
-        "در جلسه، او از distinguish استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, distinguish can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، distinguish می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "It's not always easy to distinguish between the twins at first glance.",
+        "در نگاه اول همیشه آسان نیست که بین دوقلوها تمایز قائل شد."
       ]
-    ]
+    ],
+    "miniContext": "It's not always easy to distinguish between the twins at first glance."
   },
   {
     "word": "emphasize",
@@ -586,18 +453,11 @@
     ],
     "examples": [
       [
-        "I've learned to use emphasize naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، emphasize را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used emphasize to explain her point and give the team a clearer direction.",
-        "در جلسه، او از emphasize استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, emphasize can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، emphasize می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The manager emphasized the importance of meeting the deadline.",
+        "مدیر بر اهمیت رعایت موعد نهایی تاکید کرد."
       ]
-    ]
+    ],
+    "miniContext": "The manager emphasized the importance of meeting the deadline."
   },
   {
     "word": "enable",
@@ -616,18 +476,11 @@
     ],
     "examples": [
       [
-        "I've learned to use enable naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، enable را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used enable to explain her point and give the team a clearer direction.",
-        "در جلسه، او از enable استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, enable can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، enable می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The new software enables teams to work together from different cities.",
+        "نرم‌افزار جدید تیم‌ها را قادر می‌سازد از شهرهای مختلف با هم کار کنند."
       ]
-    ]
+    ],
+    "miniContext": "The new software enables teams to work together from different cities."
   },
   {
     "word": "ensure",
@@ -646,18 +499,11 @@
     ],
     "examples": [
       [
-        "I've learned to use ensure naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، ensure را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used ensure to explain her point and give the team a clearer direction.",
-        "در جلسه، او از ensure استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, ensure can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، ensure می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Please double-check the figures to ensure there are no mistakes in the report.",
+        "لطفاً اعداد را دوباره بررسی کنید تا اطمینان حاصل شود گزارش اشتباهی ندارد."
       ]
-    ]
+    ],
+    "miniContext": "Please double-check the figures to ensure there are no mistakes in the report."
   },
   {
     "word": "evaluate",
@@ -676,18 +522,11 @@
     ],
     "examples": [
       [
-        "I've learned to use evaluate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، evaluate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used evaluate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از evaluate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, evaluate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، evaluate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Teachers evaluate student progress through quizzes and group projects.",
+        "معلمان پیشرفت دانش‌آموزان را از طریق آزمون‌ها و پروژه‌های گروهی ارزیابی می‌کنند."
       ]
-    ]
+    ],
+    "miniContext": "Teachers evaluate student progress through quizzes and group projects."
   },
   {
     "word": "evidence",
@@ -706,18 +545,11 @@
     ],
     "examples": [
       [
-        "I've learned to use evidence naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، evidence را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used evidence to explain her point and give the team a clearer direction.",
-        "در جلسه، او از evidence استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, evidence can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، evidence می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The detective found enough evidence to reopen the old case.",
+        "کارآگاه شواهد کافی برای بازگشایی پرونده قدیمی پیدا کرد."
       ]
-    ]
+    ],
+    "miniContext": "The detective found enough evidence to reopen the old case."
   },
   {
     "word": "expand",
@@ -736,18 +568,11 @@
     ],
     "examples": [
       [
-        "I've learned to use expand naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، expand را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used expand to explain her point and give the team a clearer direction.",
-        "در جلسه، او از expand استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, expand can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، expand می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The bakery plans to expand into two more neighborhoods next year.",
+        "این نانوایی قصد دارد سال آینده به دو محله دیگر گسترش یابد."
       ]
-    ]
+    ],
+    "miniContext": "The bakery plans to expand into two more neighborhoods next year."
   },
   {
     "word": "feasible",
@@ -766,18 +591,11 @@
     ],
     "examples": [
       [
-        "I've learned to use feasible naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، feasible را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used feasible to explain her point and give the team a clearer direction.",
-        "در جلسه، او از feasible استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, feasible can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، feasible می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Building the bridge in six months is not really feasible with this budget.",
+        "ساخت پل در شش ماه با این بودجه واقعاً امکان‌پذیر نیست."
       ]
-    ]
+    ],
+    "miniContext": "Building the bridge in six months is not really feasible with this budget."
   },
   {
     "word": "flexible",
@@ -796,18 +614,11 @@
     ],
     "examples": [
       [
-        "I've learned to use flexible naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، flexible را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used flexible to explain her point and give the team a clearer direction.",
-        "در جلسه، او از flexible استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, flexible can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، flexible می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Her new job offers flexible hours, so she can pick up her kids from school.",
+        "شغل جدید او ساعات کاری انعطاف‌پذیری دارد، بنابراین می‌تواند بچه‌هایش را از مدرسه بیاورد."
       ]
-    ]
+    ],
+    "miniContext": "Her new job offers flexible hours, so she can pick up her kids from school."
   },
   {
     "word": "implement",
@@ -826,18 +637,11 @@
     ],
     "examples": [
       [
-        "I've learned to use implement naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، implement را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used implement to explain her point and give the team a clearer direction.",
-        "در جلسه، او از implement استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, implement can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، implement می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The company decided to implement a four-day work week next quarter.",
+        "شرکت تصمیم گرفت یک هفته کاری چهار روزه را در فصل آینده پیاده‌سازی کند."
       ]
-    ]
+    ],
+    "miniContext": "The company decided to implement a four-day work week next quarter."
   },
   {
     "word": "impact",
@@ -856,18 +660,11 @@
     ],
     "examples": [
       [
-        "I've learned to use impact naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، impact را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used impact to explain her point and give the team a clearer direction.",
-        "در جلسه، او از impact استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, impact can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، impact می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The drought had a serious impact on the region's wheat production.",
+        "خشکسالی تاثیر جدی بر تولید گندم منطقه گذاشت."
       ]
-    ]
+    ],
+    "miniContext": "The drought had a serious impact on the region's wheat production."
   },
   {
     "word": "indicate",
@@ -886,18 +683,11 @@
     ],
     "examples": [
       [
-        "I've learned to use indicate naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، indicate را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used indicate to explain her point and give the team a clearer direction.",
-        "در جلسه، او از indicate استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, indicate can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، indicate می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Her tone of voice indicated that she was more worried than she admitted.",
+        "لحن صدای او نشان می‌داد که بیشتر از آنچه اعتراف می‌کرد نگران بود."
       ]
-    ]
+    ],
+    "miniContext": "Her tone of voice indicated that she was more worried than she admitted."
   },
   {
     "word": "interpret",
@@ -916,18 +706,11 @@
     ],
     "examples": [
       [
-        "I've learned to use interpret naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، interpret را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used interpret to explain her point and give the team a clearer direction.",
-        "در جلسه، او از interpret استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, interpret can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، interpret می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Different economists interpret the same data in completely different ways.",
+        "اقتصاددانان مختلف همان داده‌ها را به شیوه‌های کاملاً متفاوتی تفسیر می‌کنند."
       ]
-    ]
+    ],
+    "miniContext": "Different economists interpret the same data in completely different ways."
   },
   {
     "word": "involve",
@@ -946,18 +729,11 @@
     ],
     "examples": [
       [
-        "I've learned to use involve naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، involve را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used involve to explain her point and give the team a clearer direction.",
-        "در جلسه، او از involve استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, involve can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، involve می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The investigation will involve interviews with everyone who was in the building.",
+        "این تحقیق شامل مصاحبه با همه کسانی خواهد شد که در آن ساختمان بودند."
       ]
-    ]
+    ],
+    "miniContext": "The investigation will involve interviews with everyone who was in the building."
   },
   {
     "word": "justify",
@@ -976,18 +752,11 @@
     ],
     "examples": [
       [
-        "I've learned to use justify naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، justify را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used justify to explain her point and give the team a clearer direction.",
-        "در جلسه، او از justify استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, justify can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، justify می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "He struggled to justify the extra expense to his manager.",
+        "او برای توجیه هزینه اضافی نزد مدیرش با مشکل مواجه شد."
       ]
-    ]
+    ],
+    "miniContext": "He struggled to justify the extra expense to his manager."
   },
   {
     "word": "leverage",
@@ -1006,18 +775,11 @@
     ],
     "examples": [
       [
-        "I've learned to use leverage naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، leverage را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used leverage to explain her point and give the team a clearer direction.",
-        "در جلسه، او از leverage استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, leverage can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، leverage می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The startup leveraged social media to reach customers without a big budget.",
+        "آن استارتاپ از شبکه‌های اجتماعی بهره گرفت تا بدون بودجه بزرگ به مشتریان دسترسی یابد."
       ]
-    ]
+    ],
+    "miniContext": "The startup leveraged social media to reach customers without a big budget."
   },
   {
     "word": "objective",
@@ -1036,18 +798,11 @@
     ],
     "examples": [
       [
-        "I've learned to use objective naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، objective را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used objective to explain her point and give the team a clearer direction.",
-        "در جلسه، او از objective استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, objective can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، objective می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The main objective of the trip was to visit her grandmother in Shiraz.",
+        "هدف اصلی سفر دیدار از مادربزرگش در شیراز بود."
       ]
-    ]
+    ],
+    "miniContext": "The main objective of the trip was to visit her grandmother in Shiraz."
   },
   {
     "word": "outcome",
@@ -1066,18 +821,11 @@
     ],
     "examples": [
       [
-        "I've learned to use outcome naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، outcome را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used outcome to explain her point and give the team a clearer direction.",
-        "در جلسه، او از outcome استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, outcome can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، outcome می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "No one could predict the outcome of such a close election.",
+        "هیچ‌کس نمی‌توانست نتیجه چنین انتخابات نزدیکی را پیش‌بینی کند."
       ]
-    ]
+    ],
+    "miniContext": "No one could predict the outcome of such a close election."
   },
   {
     "word": "priority",
@@ -1096,18 +844,11 @@
     ],
     "examples": [
       [
-        "I've learned to use priority naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، priority را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used priority to explain her point and give the team a clearer direction.",
-        "در جلسه، او از priority استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, priority can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، priority می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Finishing her thesis became her top priority this semester.",
+        "اتمام پایان‌نامه‌اش این ترم به اولویت اصلی او تبدیل شد."
       ]
-    ]
+    ],
+    "miniContext": "Finishing her thesis became her top priority this semester."
   },
   {
     "word": "relevant",
@@ -1126,18 +867,11 @@
     ],
     "examples": [
       [
-        "I've learned to use relevant naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، relevant را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used relevant to explain her point and give the team a clearer direction.",
-        "در جلسه، او از relevant استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, relevant can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، relevant می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Only information relevant to the current case should appear in the file.",
+        "فقط اطلاعات مرتبط با پرونده فعلی باید در فایل ظاهر شود."
       ]
-    ]
+    ],
+    "miniContext": "Only information relevant to the current case should appear in the file."
   },
   {
     "word": "reliable",
@@ -1156,18 +890,11 @@
     ],
     "examples": [
       [
-        "I've learned to use reliable naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، reliable را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used reliable to explain her point and give the team a clearer direction.",
-        "در جلسه، او از reliable استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, reliable can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، reliable می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "We needed a reliable babysitter who could come on short notice.",
+        "ما به یک پرستار بچه قابل اعتماد نیاز داشتیم که با اطلاع کوتاه بتواند بیاید."
       ]
-    ]
+    ],
+    "miniContext": "We needed a reliable babysitter who could come on short notice."
   },
   {
     "word": "resolve",
@@ -1186,18 +913,11 @@
     ],
     "examples": [
       [
-        "I've learned to use resolve naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، resolve را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used resolve to explain her point and give the team a clearer direction.",
-        "در جلسه، او از resolve استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, resolve can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، resolve می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The two neighbors finally resolved their dispute over the fence.",
+        "دو همسایه بالاخره اختلاف خود درباره نرده را حل کردند."
       ]
-    ]
+    ],
+    "miniContext": "The two neighbors finally resolved their dispute over the fence."
   },
   {
     "word": "retain",
@@ -1216,18 +936,11 @@
     ],
     "examples": [
       [
-        "I've learned to use retain naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، retain را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used retain to explain her point and give the team a clearer direction.",
-        "در جلسه، او از retain استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, retain can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، retain می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Companies often struggle to retain talented employees during a hiring boom.",
+        "شرکت‌ها اغلب در دوران رونق استخدام برای حفظ کارمندان بااستعداد مشکل دارند."
       ]
-    ]
+    ],
+    "miniContext": "Companies often struggle to retain talented employees during a hiring boom."
   },
   {
     "word": "significant",
@@ -1246,18 +959,11 @@
     ],
     "examples": [
       [
-        "I've learned to use significant naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، significant را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used significant to explain her point and give the team a clearer direction.",
-        "در جلسه، او از significant استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, significant can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، significant می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "There was a significant drop in temperature overnight.",
+        "در طول شب کاهش قابل توجهی در دما رخ داد."
       ]
-    ]
+    ],
+    "miniContext": "There was a significant drop in temperature overnight."
   },
   {
     "word": "strategy",
@@ -1276,18 +982,11 @@
     ],
     "examples": [
       [
-        "I've learned to use strategy naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، strategy را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used strategy to explain her point and give the team a clearer direction.",
-        "در جلسه، او از strategy استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, strategy can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، strategy می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The coach changed his strategy at halftime, and the team finally scored.",
+        "مربی در نیمه اول راهبردش را تغییر داد و تیم بالاخره گل زد."
       ]
-    ]
+    ],
+    "miniContext": "The coach changed his strategy at halftime, and the team finally scored."
   },
   {
     "word": "sufficient",
@@ -1306,18 +1005,11 @@
     ],
     "examples": [
       [
-        "I've learned to use sufficient naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، sufficient را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used sufficient to explain her point and give the team a clearer direction.",
-        "در جلسه، او از sufficient استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, sufficient can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، sufficient می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "One suitcase was sufficient for her short weekend trip.",
+        "یک چمدان برای سفر کوتاه آخر هفته او کافی بود."
       ]
-    ]
+    ],
+    "miniContext": "One suitcase was sufficient for her short weekend trip."
   },
   {
     "word": "temporary",
@@ -1336,18 +1028,11 @@
     ],
     "examples": [
       [
-        "I've learned to use temporary naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، temporary را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used temporary to explain her point and give the team a clearer direction.",
-        "در جلسه، او از temporary استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, temporary can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، temporary می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "He took a temporary job at the warehouse while he finished his degree.",
+        "او در حالی که مدرکش را به پایان می‌رساند، یک شغل موقت در انبار گرفت."
       ]
-    ]
+    ],
+    "miniContext": "He took a temporary job at the warehouse while he finished his degree."
   },
   {
     "word": "transparent",
@@ -1366,18 +1051,11 @@
     ],
     "examples": [
       [
-        "I've learned to use transparent naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، transparent را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used transparent to explain her point and give the team a clearer direction.",
-        "در جلسه، او از transparent استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, transparent can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، transparent می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The new manager promised to be transparent about the company's finances.",
+        "مدیر جدید قول داد درباره وضعیت مالی شرکت شفاف باشد."
       ]
-    ]
+    ],
+    "miniContext": "The new manager promised to be transparent about the company's finances."
   },
   {
     "word": "underlying",
@@ -1396,18 +1074,11 @@
     ],
     "examples": [
       [
-        "I've learned to use underlying naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، underlying را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used underlying to explain her point and give the team a clearer direction.",
-        "در جلسه، او از underlying استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, underlying can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، underlying می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "The doctor searched for the underlying cause of her chronic fatigue.",
+        "پزشک به دنبال علت زیربنایی خستگی مزمن او بود."
       ]
-    ]
+    ],
+    "miniContext": "The doctor searched for the underlying cause of her chronic fatigue."
   },
   {
     "word": "valid",
@@ -1426,18 +1097,11 @@
     ],
     "examples": [
       [
-        "I've learned to use valid naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، valid را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used valid to explain her point and give the team a clearer direction.",
-        "در جلسه، او از valid استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, valid can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، valid می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Her student card is only valid until the end of this semester.",
+        "کارت دانشجویی او فقط تا پایان این ترم معتبر است."
       ]
-    ]
+    ],
+    "miniContext": "Her student card is only valid until the end of this semester."
   },
   {
     "word": "viable",
@@ -1456,18 +1120,11 @@
     ],
     "examples": [
       [
-        "I've learned to use viable naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، viable را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used viable to explain her point and give the team a clearer direction.",
-        "در جلسه، او از viable استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, viable can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، viable می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "Solar power is becoming a more viable option for rural villages.",
+        "انرژی خورشیدی به گزینه‌ای هرچه قابل‌اجراتر برای روستاها تبدیل می‌شود."
       ]
-    ]
+    ],
+    "miniContext": "Solar power is becoming a more viable option for rural villages."
   },
   {
     "word": "whereas",
@@ -1486,17 +1143,10 @@
     ],
     "examples": [
       [
-        "I've learned to use whereas naturally when I talk about everyday situations.",
-        "یاد گرفته‌ام هنگام صحبت درباره موقعیت‌های روزمره، whereas را به‌طور طبیعی استفاده کنم."
-      ],
-      [
-        "During the meeting, she used whereas to explain her point and give the team a clearer direction.",
-        "در جلسه، او از whereas استفاده کرد تا منظورش را توضیح دهد و مسیر روشن‌تری به تیم بدهد."
-      ],
-      [
-        "In a real software project, whereas can make a noticeable difference when the team is solving a difficult problem.",
-        "در یک پروژه واقعی نرم‌افزاری، whereas می‌تواند هنگام حل یک مشکل دشوار تفاوت قابل توجهی ایجاد کند."
+        "She prefers tea in the morning, whereas her husband always drinks coffee.",
+        "او صبح‌ها چای را ترجیح می‌دهد، در حالی که همسرش همیشه قهوه می‌نوشد."
       ]
-    ]
+    ],
+    "miniContext": "She prefers tea in the morning, whereas her husband always drinks coffee."
   }
 ]

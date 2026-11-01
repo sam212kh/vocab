@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import DashboardView from "../views/DashboardView.vue";
-import LearnView from "../views/LearnView.vue";
 import PracticeView from "../views/PracticeView.vue";
+import ClozeView from "../views/ClozeView.vue";
+import ListenGuessView from "../views/ListenGuessView.vue";
+import MatchingView from "../views/MatchingView.vue";
 import QuizView from "../views/QuizView.vue";
 import LessonsView from "../views/LessonsView.vue"
 import LessonView from "../views/LessonView.vue"
@@ -11,6 +13,7 @@ import ListenRepeat from '../views/ListenRepeatView.vue';
 import HardWordsView from '../views/HardWordsView.vue'
 import SpeakingPracticeView from '../views/SpeakingPracticeView.vue'
 import ReviewView from  '../views/ReviewView.vue'
+import SessionView from '../views/SessionView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -38,8 +41,7 @@ const router = createRouter({
         },
         {
             path: '/learn',
-            name: 'learn',
-            component: LearnView,
+            redirect: '/lessons',
         },
         {
             path: '/practice',
@@ -50,6 +52,21 @@ const router = createRouter({
             path: '/quiz',
             name: 'quiz',
             component: QuizView
+        },
+        {
+            path: '/cloze',
+            name: 'cloze',
+            component: ClozeView
+        },
+        {
+            path: '/listen-guess',
+            name: 'listen-guess',
+            component: ListenGuessView
+        },
+        {
+            path: '/matching',
+            name: 'matching',
+            component: MatchingView
         },
         {
             path: '/listen-repeat',
@@ -70,6 +87,11 @@ const router = createRouter({
             path: '/review',
             name: 'review',
             component: ReviewView,
+        },
+        {
+            path: '/session',
+            name: 'session',
+            component: SessionView,
         },
     ]
 })

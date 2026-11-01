@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
@@ -105,10 +106,28 @@ function restart() {
     selected.value = null
 }
 
+const route = useRoute()
+
 onMounted(async () => {
     try {
         courses.value = (await loadManifest()).courses
-        courseId.value = courses.value[0]?.id ?? ''
+
+        const queryCourseId = String(route.query.courseId ?? '')
+        const queryLessonId = String(route.query.lessonId ?? '')
+
+        const hasQueryCourse = courses.value.some(c => c.id === queryCourseId)
+
+        courseId.value = hasQueryCourse
+            ? queryCourseId
+            : (courses.value[0]?.id ?? '')
+
+        if (
+            hasQueryCourse &&
+            lessons.value.some(l => l.id === queryLessonId)
+        ) {
+            lessonId.value = queryLessonId
+            await startQuiz()
+        }
     } catch (e) {
         error.value = e instanceof Error ? e.message : 'Failed to load courses'
     }
