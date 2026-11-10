@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "prompts": [
+    {
+      "id": "daily-journal",
+      "title": "Daily Journal",
+      "promptType": "journal",
+      "cefrLevel": "A2-B1",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "instructions": "Write a few sentences about your day. What did you do? How did you feel? Use the past simple.",
+      "instructionsPersian": "چند جمله درباره روزت بنویس. چه کار کردی؟ چه حسی داشتی؟ از گذشته ساده استفاده کن.",
+      "minWords": 30,
+      "estimatedDuration": 10
+    },
+    {
+      "id": "describe-routine",
+      "title": "My Morning Routine",
+      "promptType": "paragraph",
+      "cefrLevel": "A2",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "instructions": "Describe your morning routine in one paragraph. Use present simple and time expressions like 'usually', 'then', and 'after that'.",
+      "instructionsPersian": "روال صبح خود را در یک پاراگراف توصیف کن. از حال ساده و کلماتی مثل usually و then استفاده کن.",
+      "minWords": 40,
+      "requiredElements": ["usually"],
+      "estimatedDuration": 10
+    },
+    {
+      "id": "sick-day-email",
+      "title": "Email: Taking a Sick Day",
+      "promptType": "email",
+      "cefrLevel": "B1",
+      "skillTags": ["writing"],
+      "domainTags": ["business"],
+      "difficulty": 2,
+      "instructions": "Write a short, polite email to your manager saying you are ill and cannot come to work today. Mention how your tasks will be handled.",
+      "instructionsPersian": "یک ایمیل کوتاه و مودبانه به مدیرت بنویس و بگو امروز بیمار هستی و نمی‌توانی سر کار بیایی. اشاره کن کارهایت چطور پیش می‌رود.",
+      "minWords": 40,
+      "maxWords": 120,
+      "estimatedDuration": 15,
+      "exampleResponse": "Subject: Sick leave today\n\nHi Sara,\n\nI'm feeling unwell this morning and won't be able to come in today. I've moved my two meetings to tomorrow and asked Reza to cover the deploy if it can't wait.\n\nI'll check messages occasionally and expect to be back tomorrow.\n\nBest regards,\nSam"
+    },
+    {
+      "id": "opinion-remote-work",
+      "title": "Opinion: Working from Home",
+      "promptType": "opinion",
+      "cefrLevel": "B1-B2",
+      "skillTags": ["writing"],
+      "domainTags": ["business"],
+      "difficulty": 3,
+      "instructions": "Do you think working from home is better than working in an office? Write an opinion paragraph. Give your opinion clearly, support it with two reasons, and use linking words such as 'however' or 'because'.",
+      "instructionsPersian": "آیا دورکاری بهتر از کار در دفتر است؟ یک پاراگراف نظرت را بنویس: نظرت را روشن بگو، دو دلیل بیاور و از کلمات ربط مثل however یا because استفاده کن.",
+      "minWords": 60,
+      "maxWords": 150,
+      "requiredElements": ["because"],
+      "estimatedDuration": 20
+    },
+    {
+      "id": "explain-technical",
+      "title": "Explain a Technical Concept",
+      "promptType": "technical",
+      "cefrLevel": "B2",
+      "skillTags": ["writing"],
+      "domainTags": ["technical"],
+      "difficulty": 4,
+      "instructions": "Explain a technical concept you know well (for example: an API, caching, or version control) to a junior colleague in plain English. Avoid jargon where possible; where you must use a technical term, briefly explain it.",
+      "instructionsPersian": "یک مفهوم فنی که خوب می‌شناسی (مثلاً API یا کش) را به زبان ساده برای یک همکار تازه‌کار توضیح بده. تا جای ممکن از اصطلاحات پیچیده پرهیز کن.",
+      "minWords": 80,
+      "maxWords": 200,
+      "estimatedDuration": 20
+    },
+    {
+      "id": "summarize-reading",
+      "title": "Summary: Something You Read",
+      "promptType": "summary",
+      "cefrLevel": "B1-B2",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 3,
+      "instructions": "Summarize an article, a reading passage from this app, or a video you watched recently in 3-5 sentences. Focus on the main idea — do not copy sentences from the original.",
+      "instructionsPersian": "یک مقاله یا متن که اخیراً خوانده‌ای را در ۳ تا ۵ جمله خلاصه کن. روی ایده اصلی تمرکز کن و جمله‌ها را از متن اصلی کپی نکن.",
+      "minWords": 30,
+      "maxWords": 100,
+      "estimatedDuration": 15
+    }
+  ]
+}

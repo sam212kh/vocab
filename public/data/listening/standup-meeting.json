@@ -1,0 +1,100 @@
+{
+  "id": "standup-meeting",
+  "title": "Daily Standup Meeting",
+  "scenario": "Three developers give their daily status update. Listen to the whole standup, then answer the questions.",
+  "scenarioPersian": "سه برنامه‌نویس گزارش روزانه می‌دهند. کل جلسه را گوش بده و بعد به سوال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Lead", "english": "Morning everyone, quick round — yesterday, today, blockers. Dana, go ahead.", "persian": "صبح بخیر، یک دور سریع — دیروز، امروز، موانع. دانا شروع کن." },
+    { "speaker": "Dana", "english": "Yesterday I finished the search endpoint and merged it. Today I'm starting on pagination. No blockers.", "persian": "دیروز endpoint جستجو را تمام و merge کردم. امروز صفحه‌بندی را شروع می‌کنم. مانعی ندارم." },
+    { "speaker": "Omid", "english": "I was debugging the flaky login test most of yesterday. It turned out to be a timing issue with the mock server. Fix is up for review. Today I'll pick up the password reset ticket, but I'm blocked on the email service credentials.", "persian": "دیروز بیشتر وقتم صرف دیباگ تست ناپایدار لاگین شد. مشکل از تایمینگ سرور mock بود. اصلاحیه در حال بازبینی است. امروز تیکت بازنشانی رمز را برمی‌دارم اما منتظر اطلاعات سرویس ایمیل هستم." },
+    { "speaker": "Lead", "english": "I'll chase the credentials right after this — should be with you before lunch.", "persian": "بلافاصله بعد از جلسه پیگیری می‌کنم — قبل از ناهار به دستت می‌رسد." },
+    { "speaker": "Sara", "english": "Quick one from me: the staging deploy failed last night because of a missing environment variable. I've fixed the config and redeployed — everything is green now. Today I'm on code review and the performance dashboard.", "persian": "من کوتاه می‌گویم: دیپلوی staging دیشب به خاطر یک متغیر محیطی جاافتاده شکست خورد. تنظیمات را درست و دوباره دیپلوی کردم — الان همه چیز سبز است. امروز روی بازبینی کد و داشبورد کارایی کار می‌کنم." },
+    { "speaker": "Lead", "english": "Great. Reminder: feature freeze is Thursday, so anything for the release needs to be in review by Wednesday afternoon.", "persian": "عالی. یادآوری: فریز قابلیت‌ها پنجشنبه است، پس هر چیزی برای ریلیز باید تا بعدازظهر چهارشنبه در بازبینی باشد." }
+  ],
+  "learningObjectives": [
+    "Follow a software-team standup",
+    "Understand workplace status updates and blockers"
+  ],
+  "exercises": [
+    {
+      "id": "standup-1",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "audioText": "Yesterday I finished the search endpoint and merged it. Today I'm starting on pagination. No blockers.",
+      "prompt": "What is Dana working on today?",
+      "options": ["The search endpoint", "Pagination", "Code review", "The login test"],
+      "correctIndex": 1,
+      "explanation": "'Today I'm starting on pagination.'"
+    },
+    {
+      "id": "standup-2",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "audioText": "I was debugging the flaky login test most of yesterday. It turned out to be a timing issue with the mock server.",
+      "prompt": "What caused the flaky login test?",
+      "options": [
+        "A missing environment variable",
+        "Wrong credentials",
+        "A timing issue with the mock server",
+        "A broken search endpoint"
+      ],
+      "correctIndex": 2,
+      "explanation": "'It turned out to be a timing issue with the mock server.'"
+    },
+    {
+      "id": "standup-3",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "audioText": "Today I'll pick up the password reset ticket, but I'm blocked on the email service credentials.",
+      "prompt": "What is blocking Omid?",
+      "options": [
+        "A failing deploy",
+        "Missing email service credentials",
+        "An unreviewed pull request",
+        "The feature freeze"
+      ],
+      "correctIndex": 1,
+      "explanation": "'I'm blocked on the email service credentials.'"
+    },
+    {
+      "id": "standup-4",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "audioText": "The staging deploy failed last night because of a missing environment variable. I've fixed the config and redeployed — everything is green now.",
+      "prompt": "What is the current state of staging?",
+      "options": [
+        "Still failing",
+        "Fixed and healthy",
+        "Waiting for review",
+        "Rolled back to last week's version"
+      ],
+      "correctIndex": 1,
+      "explanation": "'I've fixed the config and redeployed — everything is green now.'"
+    },
+    {
+      "id": "standup-5",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "audioText": "Feature freeze is Thursday, so anything for the release needs to be in review by Wednesday afternoon.",
+      "prompt": "What is the deadline for code to be in review?",
+      "options": [
+        "Thursday morning",
+        "Wednesday afternoon",
+        "Friday",
+        "Before lunch today"
+      ],
+      "correctIndex": 1,
+      "explanation": "Freeze Thursday → review by Wednesday afternoon."
+    }
+  ]
+}

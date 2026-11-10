@@ -1,0 +1,86 @@
+{
+  "id": "first-conditional",
+  "title": "First Conditional",
+  "explanation": "Use the first conditional for real future possibilities: If + present simple, will + base verb. If it rains, we will stay home. The if-clause uses present simple even though the meaning is future — never 'if it will rain'. You can swap the halves: We will stay home if it rains.",
+  "explanationPersian": "شرطی نوع اول برای احتمال‌های واقعی آینده است: بعد از if حال ساده و در جمله اصلی will می‌آید. در بخش if هرگز will به کار نمی‌رود.",
+  "examples": [
+    { "english": "If you study, you will pass the exam.", "persian": "اگر درس بخوانی، قبول می‌شوی.", "note": "if + present, will + base" },
+    { "english": "We will miss the bus if we don't hurry.", "persian": "اگر عجله نکنیم اتوبوس را از دست می‌دهیم.", "note": "main clause first" },
+    { "english": "If she calls, I'll tell her the news.", "persian": "اگر زنگ بزند، خبر را به او می‌گویم.", "note": "I'll = I will" },
+    { "english": "What will you do if the flight is cancelled?", "persian": "اگر پرواز لغو شود چه می‌کنی؟", "note": "question form" }
+  ],
+  "exercises": [
+    {
+      "id": "first-conditional-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "prompt": "If it ___ tomorrow, we will cancel the picnic.",
+      "options": ["will rain", "rains", "rained", "raining"],
+      "correctIndex": 1,
+      "explanation": "The if-clause takes present simple: if it rains."
+    },
+    {
+      "id": "first-conditional-2",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "incorrectSentence": "If you will help me, I will finish early.",
+      "acceptedAnswers": ["If you help me, I will finish early."],
+      "explanation": "No will in the if-clause.",
+      "explanationPersian": "در بخش if از will استفاده نمی‌شود."
+    },
+    {
+      "id": "first-conditional-3",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "before": "If he doesn't leave now, he",
+      "after": "the train. (miss)",
+      "acceptedAnswers": ["will miss", "'ll miss"],
+      "explanation": "Main clause: will + base verb."
+    },
+    {
+      "id": "first-conditional-4",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "segments": ["If", "the", "meeting", "runs", "late,", "I", "will", "call", "you"],
+      "explanation": "If + present simple, will + base verb."
+    },
+    {
+      "id": "first-conditional-5",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I will go out if it will stop raining.",
+        "I go out if it stops raining tomorrow.",
+        "I will go out if it stops raining.",
+        "If it stop raining, I will go out."
+      ],
+      "correctIndex": 2,
+      "explanation": "Will in the main clause, present simple after if."
+    },
+    {
+      "id": "first-conditional-6",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "source": "اگر سخت کار کنی، موفق می‌شوی.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "If you work hard, you will succeed.",
+        "You will succeed if you work hard."
+      ],
+      "explanation": "If + present simple, will + base verb."
+    }
+  ]
+}

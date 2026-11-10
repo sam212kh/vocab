@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "id": "everyday-sentences",
+      "title": "Everyday Sentences — Dictation",
+      "kind": "sentences",
+      "cefrLevel": "A2",
+      "skillTags": ["listening"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "estimatedDuration": 8,
+      "learningObjectives": [
+        "Catch common everyday sentences at natural speed",
+        "Write down exactly what you hear"
+      ],
+      "file": "./everyday-sentences.json"
+    },
+    {
+      "id": "at-the-doctor",
+      "title": "At the Doctor's Office",
+      "kind": "dialogue",
+      "cefrLevel": "B1",
+      "skillTags": ["listening"],
+      "domainTags": ["general"],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "learningObjectives": [
+        "Follow a two-person conversation",
+        "Pick out specific details from speech"
+      ],
+      "file": "./at-the-doctor.json"
+    },
+    {
+      "id": "standup-meeting",
+      "title": "Daily Standup Meeting",
+      "kind": "dialogue",
+      "cefrLevel": "B2",
+      "skillTags": ["listening"],
+      "domainTags": ["technical", "business"],
+      "difficulty": 3,
+      "estimatedDuration": 10,
+      "learningObjectives": [
+        "Follow a software-team standup",
+        "Understand workplace status updates and blockers"
+      ],
+      "file": "./standup-meeting.json"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "passages": [
+    {
+      "id": "coffee-with-a-friend",
+      "title": "Coffee with a Friend",
+      "kind": "dialogue",
+      "cefrLevel": "A2",
+      "skillTags": ["reading"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "estimatedReadingTime": 3,
+      "learningObjectives": [
+        "Follow a simple everyday conversation",
+        "Find specific information in a dialogue"
+      ],
+      "file": "./coffee-with-a-friend.json"
+    },
+    {
+      "id": "remote-work",
+      "title": "The Rise of Remote Work",
+      "kind": "article",
+      "cefrLevel": "B1",
+      "skillTags": ["reading"],
+      "domainTags": ["business"],
+      "difficulty": 3,
+      "estimatedReadingTime": 5,
+      "learningObjectives": [
+        "Identify the main idea of a short article",
+        "Understand vocabulary about work in context"
+      ],
+      "file": "./remote-work.json"
+    },
+    {
+      "id": "code-review-email",
+      "title": "A Code Review Request",
+      "kind": "professional",
+      "cefrLevel": "B2",
+      "skillTags": ["reading"],
+      "domainTags": ["technical", "business"],
+      "difficulty": 4,
+      "estimatedReadingTime": 4,
+      "learningObjectives": [
+        "Read a professional software-team email",
+        "Infer tone and intent in workplace communication"
+      ],
+      "file": "./code-review-email.json"
+    }
+  ]
+}

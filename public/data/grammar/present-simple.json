@@ -1,0 +1,87 @@
+{
+  "id": "present-simple",
+  "title": "Present Simple",
+  "explanation": "Use the present simple for habits, routines, and facts that are generally true. With he, she, and it, add -s (or -es) to the verb: I work → she works, I go → he goes. For negatives and questions, use do/does: She doesn't work. Does he go?",
+  "explanationPersian": "از حال ساده برای عادت‌ها، کارهای روزمره و حقایق کلی استفاده می‌شود. با he/she/it به فعل s- یا es- اضافه کنید. برای منفی و سوالی از do/does استفاده کنید.",
+  "examples": [
+    { "english": "I drink coffee every morning.", "persian": "من هر صبح قهوه می‌نوشم.", "note": "habit" },
+    { "english": "She works in a hospital.", "persian": "او در بیمارستان کار می‌کند.", "note": "-s with she" },
+    { "english": "Water boils at 100 degrees.", "persian": "آب در ۱۰۰ درجه می‌جوشد.", "note": "general fact" },
+    { "english": "Does he play football? — No, he doesn't.", "persian": "آیا او فوتبال بازی می‌کند؟ — نه.", "note": "question with does" }
+  ],
+  "exercises": [
+    {
+      "id": "present-simple-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "prompt": "She ___ to work by bus.",
+      "options": ["go", "goes", "going", "is go"],
+      "correctIndex": 1,
+      "explanation": "With she, add -es to go: she goes.",
+      "explanationPersian": "با she فعل go به goes تبدیل می‌شود."
+    },
+    {
+      "id": "present-simple-2",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "before": "My brother",
+      "after": "TV in the evening. (watch)",
+      "acceptedAnswers": ["watches"],
+      "explanation": "Third person singular: watch → watches."
+    },
+    {
+      "id": "present-simple-3",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "incorrectSentence": "He don't like cold weather.",
+      "acceptedAnswers": ["He doesn't like cold weather."],
+      "explanation": "With he/she/it use doesn't, not don't.",
+      "explanationPersian": "با he/she/it از doesn't استفاده می‌شود نه don't."
+    },
+    {
+      "id": "present-simple-4",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "segments": ["Does", "she", "speak", "English", "at", "work?"],
+      "explanation": "Questions with he/she/it start with Does + subject + base verb."
+    },
+    {
+      "id": "present-simple-5",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I am go to the gym on Mondays.",
+        "I goes to the gym on Mondays.",
+        "I go to the gym on Mondays.",
+        "I going to the gym on Mondays."
+      ],
+      "correctIndex": 2,
+      "explanation": "With I, use the base verb: I go."
+    },
+    {
+      "id": "present-simple-6",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "source": "او هر روز انگلیسی مطالعه می‌کند.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "She studies English every day.",
+        "He studies English every day."
+      ],
+      "explanation": "Third person singular: study → studies."
+    }
+  ]
+}

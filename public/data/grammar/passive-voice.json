@@ -1,0 +1,83 @@
+{
+  "id": "passive-voice",
+  "title": "Passive Voice",
+  "explanation": "Use the passive (be + past participle) when the action matters more than who does it, or when the doer is unknown: The report was sent yesterday. English is spoken here. The tense lives in be: is made (present), was made (past), has been made (present perfect). Add by + agent only when it adds useful information.",
+  "explanationPersian": "جمله مجهول با فعل be و اسم مفعول ساخته می‌شود و وقتی به کار می‌رود که انجام‌دهنده کار ناشناخته یا کم‌اهمیت باشد. زمان جمله روی فعل be مشخص می‌شود. فقط وقتی لازم است، عامل را با by اضافه کنید.",
+  "examples": [
+    { "english": "The office is cleaned every evening.", "persian": "دفتر هر شب تمیز می‌شود.", "note": "present passive" },
+    { "english": "The bridge was built in 1995.", "persian": "این پل در سال ۱۹۹۵ ساخته شد.", "note": "past passive, agent unimportant" },
+    { "english": "The bug has been fixed.", "persian": "باگ برطرف شده است.", "note": "present perfect passive" },
+    { "english": "This novel was written by a young author.", "persian": "این رمان توسط نویسنده‌ای جوان نوشته شد.", "note": "by + agent when it matters" }
+  ],
+  "exercises": [
+    {
+      "id": "passive-voice-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "prompt": "The email ___ to all employees yesterday.",
+      "options": ["sent", "was sent", "has sent", "is send"],
+      "correctIndex": 1,
+      "explanation": "Past passive: was + sent."
+    },
+    {
+      "id": "passive-voice-2",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "before": "English",
+      "after": "spoken in many countries. (be)",
+      "acceptedAnswers": ["is"],
+      "explanation": "Present passive with a general fact: is spoken."
+    },
+    {
+      "id": "passive-voice-3",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "incorrectSentence": "The project has been finish on time.",
+      "acceptedAnswers": ["The project has been finished on time."],
+      "explanation": "Passive needs the past participle: been finished.",
+      "explanationPersian": "در مجهول اسم مفعول لازم است: finished."
+    },
+    {
+      "id": "passive-voice-4",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "prompt": "Choose the best passive version of: 'Someone stole my bike.'",
+      "options": [
+        "My bike stole.",
+        "My bike was stolen.",
+        "My bike was stolen by someone.",
+        "My bike has stolen."
+      ],
+      "correctIndex": 1,
+      "explanation": "The agent (someone) adds nothing — drop by someone."
+    },
+    {
+      "id": "passive-voice-5",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "segments": ["The", "results", "will", "be", "announced", "next", "week"],
+      "explanation": "Future passive: will be + past participle."
+    },
+    {
+      "id": "passive-voice-6",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "before": "The new feature is currently",
+      "after": "tested by the QA team. (be)",
+      "acceptedAnswers": ["being"],
+      "explanation": "Present continuous passive: is being tested."
+    }
+  ]
+}

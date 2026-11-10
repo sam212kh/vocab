@@ -1,0 +1,78 @@
+{
+  "id": "comparatives-superlatives",
+  "title": "Comparatives and Superlatives",
+  "explanation": "Short adjectives: add -er / -est (tall → taller → the tallest). Long adjectives: use more / the most (expensive → more expensive → the most expensive). Use than after comparatives: faster than me. Irregulars: good → better → the best, bad → worse → the worst.",
+  "explanationPersian": "صفت‌های کوتاه er- و est- می‌گیرند و صفت‌های بلند با more و the most ساخته می‌شوند. بعد از صفت تفضیلی از than استفاده کنید. good و bad بی‌قاعده‌اند: better/best و worse/worst.",
+  "examples": [
+    { "english": "My new phone is faster than my old one.", "persian": "گوشی جدید من از قبلی سریع‌تر است.", "note": "-er + than" },
+    { "english": "This is the most expensive restaurant in town.", "persian": "این گران‌ترین رستوران شهر است.", "note": "the most + long adjective" },
+    { "english": "Her English is better than mine.", "persian": "انگلیسی او از من بهتر است.", "note": "irregular: good → better" },
+    { "english": "Today is the hottest day of the year.", "persian": "امروز گرم‌ترین روز سال است.", "note": "double consonant: hot → hottest" }
+  ],
+  "exercises": [
+    {
+      "id": "comparatives-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "prompt": "This exercise is ___ than the last one.",
+      "options": ["easyer", "easier", "more easy", "easiest"],
+      "correctIndex": 1,
+      "explanation": "Easy → easier (y changes to i)."
+    },
+    {
+      "id": "comparatives-2",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "before": "Mount Damavand is the",
+      "after": "mountain in Iran. (high)",
+      "acceptedAnswers": ["highest"],
+      "explanation": "Superlative of a short adjective: the highest."
+    },
+    {
+      "id": "comparatives-3",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "incorrectSentence": "This book is more better than that one.",
+      "acceptedAnswers": ["This book is better than that one."],
+      "explanation": "Better is already comparative — never 'more better'.",
+      "explanationPersian": "better خودش تفضیلی است؛ «more better» غلط است."
+    },
+    {
+      "id": "comparatives-4",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "prompt": "It was ___ movie I have ever seen.",
+      "options": ["the worst", "the worse", "worst", "more bad"],
+      "correctIndex": 0,
+      "explanation": "Superlative of bad: the worst."
+    },
+    {
+      "id": "comparatives-5",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "segments": ["Tehran", "is", "bigger", "than", "Isfahan"],
+      "explanation": "Comparative + than: bigger than."
+    },
+    {
+      "id": "comparatives-6",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "before": "Online meetings are",
+      "after": "convenient than travelling. (more / most)",
+      "acceptedAnswers": ["more"],
+      "explanation": "Long adjective + than → more convenient than."
+    }
+  ]
+}

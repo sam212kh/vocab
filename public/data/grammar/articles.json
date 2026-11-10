@@ -1,0 +1,85 @@
+{
+  "id": "articles",
+  "title": "Articles: a, an, the",
+  "explanation": "Use a before consonant sounds (a car, a university) and an before vowel sounds (an apple, an hour). Use the when both speakers know which thing you mean, or when there is only one (the sun). Use no article for general plurals and uncountables: I like dogs. Milk is healthy.",
+  "explanationPersian": "قبل از صدای بی‌صدا از a و قبل از صدای صدادار از an استفاده کنید. وقتی هر دو طرف می‌دانند درباره چه چیزی صحبت می‌شود، the به کار می‌رود. برای جمع کلی و اسم‌های غیرقابل‌شمارش حرف تعریف لازم نیست.",
+  "examples": [
+    { "english": "She bought a car and an umbrella.", "persian": "او یک ماشین و یک چتر خرید.", "note": "a + consonant sound, an + vowel sound" },
+    { "english": "The sun rises in the east.", "persian": "خورشید از شرق طلوع می‌کند.", "note": "unique things take the" },
+    { "english": "I like dogs.", "persian": "من سگ‌ها را دوست دارم.", "note": "no article for general plurals" },
+    { "english": "He is an honest man.", "persian": "او مرد صادقی است.", "note": "honest starts with a vowel SOUND" }
+  ],
+  "exercises": [
+    {
+      "id": "articles-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "prompt": "She is ___ engineer.",
+      "options": ["a", "an", "the", "(no article)"],
+      "correctIndex": 1,
+      "explanation": "Engineer starts with a vowel sound, so use an."
+    },
+    {
+      "id": "articles-2",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "prompt": "He studies at ___ university.",
+      "options": ["a", "an", "the", "(no article)"],
+      "correctIndex": 0,
+      "explanation": "University starts with a 'yu' consonant sound, so use a.",
+      "explanationPersian": "کلمه university با صدای «یو» شروع می‌شود، پس a درست است."
+    },
+    {
+      "id": "articles-3",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "before": "Can you close",
+      "after": "door, please?",
+      "acceptedAnswers": ["the"],
+      "explanation": "Both people know which door — use the."
+    },
+    {
+      "id": "articles-4",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "incorrectSentence": "I saw an movie last night.",
+      "acceptedAnswers": ["I saw a movie last night."],
+      "explanation": "Movie starts with a consonant sound — a movie."
+    },
+    {
+      "id": "articles-5",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "The life is beautiful.",
+        "Life is beautiful.",
+        "A life is beautiful.",
+        "An life is beautiful."
+      ],
+      "correctIndex": 1,
+      "explanation": "General, abstract ideas take no article: Life is beautiful."
+    },
+    {
+      "id": "articles-6",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "before": "We waited for",
+      "after": "hour. (a / an / the)",
+      "acceptedAnswers": ["an"],
+      "explanation": "The h in hour is silent — it starts with a vowel sound."
+    }
+  ]
+}

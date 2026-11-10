@@ -1,0 +1,106 @@
+{
+  "id": "coffee-with-a-friend",
+  "title": "Coffee with a Friend",
+  "paragraphs": [
+    { "speaker": "Sara", "english": "Hi Maryam! Sorry I'm late. The traffic was terrible this morning.", "persian": "سلام مریم! ببخشید دیر کردم. ترافیک امروز صبح وحشتناک بود." },
+    { "speaker": "Maryam", "english": "No problem! I only arrived five minutes ago. Do you want to order?", "persian": "مشکلی نیست! من هم پنج دقیقه پیش رسیدم. می‌خواهی سفارش بدهی؟" },
+    { "speaker": "Sara", "english": "Yes, I'm really tired. I need a strong coffee. What about you?", "persian": "آره، خیلی خسته‌ام. یک قهوه قوی لازم دارم. تو چی؟" },
+    { "speaker": "Maryam", "english": "Just a tea for me. I drank too much coffee yesterday and I couldn't sleep.", "persian": "برای من فقط چای. دیروز زیادی قهوه خوردم و نتوانستم بخوابم." },
+    { "speaker": "Sara", "english": "By the way, how was your job interview on Monday?", "persian": "راستی، مصاحبه کاری‌ات روز دوشنبه چطور بود؟" },
+    { "speaker": "Maryam", "english": "It went well, I think. They will call me next week. I'm a little nervous about it.", "persian": "فکر می‌کنم خوب پیش رفت. هفته آینده با من تماس می‌گیرند. کمی نگرانم." },
+    { "speaker": "Sara", "english": "Don't worry. You have a lot of experience. I'm sure you will get it.", "persian": "نگران نباش. تو تجربه زیادی داری. مطمئنم قبول می‌شوی." }
+  ],
+  "vocabulary": [
+    { "word": "terrible", "meaning": "very bad", "persian": "وحشتناک" },
+    { "word": "order", "meaning": "to ask for food or drink in a café", "persian": "سفارش دادن" },
+    { "word": "by the way", "meaning": "used to introduce a new topic", "persian": "راستی" },
+    { "word": "nervous", "meaning": "worried about something", "persian": "نگران، مضطرب" },
+    { "word": "experience", "meaning": "knowledge from doing something before", "persian": "تجربه" }
+  ],
+  "learningObjectives": [
+    "Follow a simple everyday conversation",
+    "Find specific information in a dialogue"
+  ],
+  "exercises": [
+    {
+      "id": "coffee-1",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "comprehensionKind": "main-idea",
+      "prompt": "What is this conversation mainly about?",
+      "options": [
+        "Two friends meeting for a drink and talking about recent news",
+        "Two colleagues discussing a work project",
+        "A customer complaining about coffee",
+        "Two friends planning a holiday"
+      ],
+      "correctIndex": 0,
+      "explanation": "They meet at a café, order drinks and catch up — the interview is one topic, not the whole point."
+    },
+    {
+      "id": "coffee-2",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "comprehensionKind": "specific-information",
+      "prompt": "Why was Sara late?",
+      "options": [
+        "She overslept",
+        "The traffic was very bad",
+        "She was at a job interview",
+        "She couldn't find the café"
+      ],
+      "correctIndex": 1,
+      "explanation": "She says: 'The traffic was terrible this morning.'"
+    },
+    {
+      "id": "coffee-3",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "comprehensionKind": "specific-information",
+      "prompt": "Why does Maryam order tea instead of coffee?",
+      "options": [
+        "She doesn't like coffee",
+        "Tea is cheaper",
+        "Too much coffee yesterday stopped her sleeping",
+        "The café has no coffee"
+      ],
+      "correctIndex": 2,
+      "explanation": "'I drank too much coffee yesterday and I couldn't sleep.'"
+    },
+    {
+      "id": "coffee-4",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "comprehensionKind": "vocabulary-in-context",
+      "prompt": "In this dialogue, 'nervous' is closest in meaning to:",
+      "options": ["excited", "worried", "angry", "tired"],
+      "correctIndex": 1,
+      "explanation": "Nervous = worried about something that may happen."
+    },
+    {
+      "id": "coffee-5",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "comprehensionKind": "inference",
+      "prompt": "What will probably happen next week?",
+      "options": [
+        "Maryam will start a new job immediately",
+        "The company will contact Maryam about the interview result",
+        "Sara will have a job interview",
+        "They will meet at the same café"
+      ],
+      "correctIndex": 1,
+      "explanation": "'They will call me next week' — the result is coming, not the job itself yet."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "everyday-sentences",
+  "title": "Everyday Sentences — Dictation",
+  "scenario": "You will hear six everyday sentences, one per exercise. Listen as many times as you need, then type exactly what you hear.",
+  "scenarioPersian": "شش جمله روزمره می‌شنوی. هر بار که لازم بود گوش بده و دقیقاً همان را بنویس.",
+  "lines": [],
+  "learningObjectives": [
+    "Catch common everyday sentences at natural speed",
+    "Write down exactly what you hear"
+  ],
+  "exercises": [
+    {
+      "id": "dictation-1",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "audioText": "Could you open the window, please?",
+      "acceptedAnswers": ["Could you open the window, please?", "Could you open the window please"]
+    },
+    {
+      "id": "dictation-2",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "audioText": "I usually have breakfast at seven.",
+      "acceptedAnswers": ["I usually have breakfast at seven."]
+    },
+    {
+      "id": "dictation-3",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "audioText": "The bus leaves in ten minutes.",
+      "acceptedAnswers": ["The bus leaves in ten minutes."]
+    },
+    {
+      "id": "dictation-4",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "audioText": "She doesn't like spicy food.",
+      "acceptedAnswers": ["She doesn't like spicy food.", "She does not like spicy food."]
+    },
+    {
+      "id": "dictation-5",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "audioText": "We're meeting them at the station.",
+      "acceptedAnswers": ["We're meeting them at the station.", "We are meeting them at the station."]
+    },
+    {
+      "id": "dictation-6",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "A2",
+      "difficulty": 3,
+      "audioText": "How long have you lived here?",
+      "acceptedAnswers": ["How long have you lived here?"]
+    }
+  ]
+}

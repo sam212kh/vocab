@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "present-simple",
+      "title": "Present Simple",
+      "titlePersian": "حال ساده",
+      "category": "Tenses",
+      "cefrLevel": "A1",
+      "skillTags": ["grammar"],
+      "difficulty": 1,
+      "learningObjectives": [
+        "Use present simple for habits, routines and facts",
+        "Use the -s ending correctly with he/she/it"
+      ],
+      "estimatedDuration": 10,
+      "file": "./present-simple.json"
+    },
+    {
+      "id": "articles",
+      "title": "Articles: a, an, the",
+      "titlePersian": "حروف تعریف",
+      "category": "Articles",
+      "cefrLevel": "A1",
+      "skillTags": ["grammar"],
+      "difficulty": 1,
+      "learningObjectives": [
+        "Choose between a and an",
+        "Use the for specific things and no article for general plurals"
+      ],
+      "estimatedDuration": 10,
+      "file": "./articles.json"
+    },
+    {
+      "id": "past-simple",
+      "title": "Past Simple",
+      "titlePersian": "گذشته ساده",
+      "category": "Tenses",
+      "cefrLevel": "A2",
+      "skillTags": ["grammar"],
+      "difficulty": 2,
+      "learningObjectives": [
+        "Form regular and common irregular past forms",
+        "Use did/didn't in questions and negatives"
+      ],
+      "estimatedDuration": 10,
+      "file": "./past-simple.json"
+    },
+    {
+      "id": "comparatives-superlatives",
+      "title": "Comparatives and Superlatives",
+      "titlePersian": "صفات تفضیلی و عالی",
+      "category": "Adjectives",
+      "cefrLevel": "A2",
+      "skillTags": ["grammar"],
+      "difficulty": 2,
+      "learningObjectives": [
+        "Form -er/-est and more/most comparisons",
+        "Use than and the correctly in comparisons"
+      ],
+      "estimatedDuration": 10,
+      "file": "./comparatives-superlatives.json"
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present Perfect",
+      "titlePersian": "حال کامل",
+      "category": "Tenses",
+      "cefrLevel": "B1",
+      "skillTags": ["grammar"],
+      "difficulty": 3,
+      "learningObjectives": [
+        "Use present perfect for experiences and unfinished time",
+        "Choose between present perfect and past simple"
+      ],
+      "estimatedDuration": 12,
+      "file": "./present-perfect.json"
+    },
+    {
+      "id": "first-conditional",
+      "title": "First Conditional",
+      "titlePersian": "شرطی نوع اول",
+      "category": "Conditionals",
+      "cefrLevel": "B1",
+      "skillTags": ["grammar"],
+      "difficulty": 3,
+      "learningObjectives": [
+        "Form if + present simple, will + base verb",
+        "Talk about real future possibilities"
+      ],
+      "estimatedDuration": 10,
+      "file": "./first-conditional.json"
+    },
+    {
+      "id": "passive-voice",
+      "title": "Passive Voice",
+      "titlePersian": "جمله مجهول",
+      "category": "Sentence Structure",
+      "cefrLevel": "B2",
+      "skillTags": ["grammar"],
+      "difficulty": 4,
+      "learningObjectives": [
+        "Form passive sentences in present and past",
+        "Choose passive when the agent is unknown or unimportant"
+      ],
+      "estimatedDuration": 12,
+      "file": "./passive-voice.json"
+    }
+  ]
+}

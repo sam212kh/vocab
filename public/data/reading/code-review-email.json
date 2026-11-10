@@ -1,0 +1,122 @@
+{
+  "id": "code-review-email",
+  "title": "A Code Review Request",
+  "paragraphs": [
+    { "english": "Subject: Review request — payment retry logic (PR #482)", "persian": "موضوع: درخواست بازبینی — منطق تلاش مجدد پرداخت (PR #482)" },
+    { "english": "Hi Arman,", "persian": "سلام آرمان،" },
+    { "english": "Could you take a look at PR #482 when you get a chance? It implements the retry logic for failed payment requests that we discussed in Monday's planning meeting. I'd particularly appreciate your eyes on the backoff strategy — I went with exponential backoff capped at five attempts, but I'm not fully convinced the cap is in the right place.", "persian": "اگر فرصت کردی نگاهی به PR #482 بینداز. این PR منطق تلاش مجدد برای درخواست‌های پرداخت ناموفق را که در جلسه برنامه‌ریزی دوشنبه صحبت کردیم پیاده می‌کند. مخصوصاً نظرت درباره استراتژی backoff برایم مهم است — من backoff نمایی با سقف پنج تلاش گذاشتم اما کاملاً مطمئن نیستم سقف در جای درستی باشد." },
+    { "english": "One thing to flag: I had to touch the shared HTTP client to add the retry hooks, so the change is a bit wider than the ticket originally suggested. All existing tests pass, and I've added coverage for the new paths, but given that other services depend on that client, a second opinion would make me more comfortable before merging.", "persian": "یک نکته قابل توجه: مجبور شدم برای افزودن hookهای تلاش مجدد به کلاینت HTTP مشترک دست بزنم، بنابراین تغییر کمی گسترده‌تر از چیزی است که تیکت اولیه نشان می‌داد. همه تست‌های موجود پاس می‌شوند و برای مسیرهای جدید هم تست اضافه کرده‌ام، اما چون سرویس‌های دیگر به آن کلاینت وابسته‌اند، یک نظر دوم قبل از merge خیالم را راحت‌تر می‌کند." },
+    { "english": "No urgency — end of week is absolutely fine. If it's easier, we could also walk through it together in a quick call.", "persian": "عجله‌ای نیست — تا آخر هفته کاملاً خوب است. اگر راحت‌تر است می‌توانیم در یک تماس کوتاه با هم مرورش کنیم." },
+    { "english": "Thanks a lot,\nNeda", "persian": "خیلی ممنون،\nندا" }
+  ],
+  "vocabulary": [
+    { "word": "take a look at", "meaning": "to review or examine something", "persian": "نگاهی انداختن به" },
+    { "word": "flag", "meaning": "to point out something that needs attention", "persian": "گوشزد کردن" },
+    { "word": "backoff strategy", "meaning": "a plan for waiting longer between retry attempts", "persian": "استراتژی افزایش فاصله بین تلاش‌های مجدد" },
+    { "word": "second opinion", "meaning": "another person's judgement on a decision", "persian": "نظر دوم" },
+    { "word": "coverage", "meaning": "the extent to which tests check the code", "persian": "پوشش تست" },
+    { "word": "urgency", "meaning": "the need for fast action", "persian": "فوریت" }
+  ],
+  "learningObjectives": [
+    "Read a professional software-team email",
+    "Infer tone and intent in workplace communication"
+  ],
+  "exercises": [
+    {
+      "id": "review-1",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "comprehensionKind": "main-idea",
+      "prompt": "What is the main purpose of this email?",
+      "options": [
+        "To report a production bug in the payment system",
+        "To ask a colleague to review a pull request, with context on what to focus on",
+        "To schedule Monday's planning meeting",
+        "To announce that PR #482 has been merged"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's a review request with specific guidance (backoff strategy, shared client change)."
+    },
+    {
+      "id": "review-2",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "comprehensionKind": "specific-information",
+      "prompt": "Why does Neda want a second opinion before merging?",
+      "options": [
+        "The tests are failing",
+        "She changed a shared component that other services depend on",
+        "The ticket was cancelled",
+        "Arman wrote the original code"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Given that other services depend on that client, a second opinion would make me more comfortable.'"
+    },
+    {
+      "id": "review-3",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "comprehensionKind": "inference",
+      "prompt": "What does 'I'm not fully convinced the cap is in the right place' suggest about Neda?",
+      "options": [
+        "She is confident her solution is perfect",
+        "She openly invites challenge on a specific design decision",
+        "She wants Arman to rewrite the feature",
+        "She thinks the feature should be removed"
+      ],
+      "correctIndex": 1,
+      "explanation": "She signals genuine uncertainty about one decision and directs the reviewer's attention there — collaborative, not defensive."
+    },
+    {
+      "id": "review-4",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "comprehensionKind": "vocabulary-in-context",
+      "prompt": "In this email, 'to flag' means:",
+      "options": [
+        "to mark code for deletion",
+        "to celebrate a success",
+        "to proactively point out something the reader should know",
+        "to reject a pull request"
+      ],
+      "correctIndex": 2,
+      "explanation": "'One thing to flag' introduces information the reviewer needs before diving in."
+    },
+    {
+      "id": "review-5",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 3,
+      "comprehensionKind": "inference",
+      "prompt": "What is the tone of this email?",
+      "options": [
+        "Demanding and urgent",
+        "Formal and distant",
+        "Polite, collaborative and low-pressure",
+        "Apologetic and insecure"
+      ],
+      "correctIndex": 2,
+      "explanation": "'When you get a chance', 'no urgency', offering a call — considerate of the reader's time while staying clear."
+    },
+    {
+      "id": "review-6",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 4,
+      "comprehensionKind": "specific-information",
+      "prompt": "What retry strategy did Neda implement? (two words)",
+      "acceptedAnswers": ["exponential backoff"],
+      "explanation": "'I went with exponential backoff capped at five attempts.'"
+    }
+  ]
+}

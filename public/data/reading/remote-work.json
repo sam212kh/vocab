@@ -1,0 +1,120 @@
+{
+  "id": "remote-work",
+  "title": "The Rise of Remote Work",
+  "paragraphs": [
+    { "english": "Ten years ago, most people travelled to an office every day. Today, millions of employees work from home for part or all of the week. This change happened slowly at first, but it accelerated dramatically after 2020, when companies around the world were forced to try remote work for the first time.", "persian": "ده سال پیش بیشتر مردم هر روز به دفتر می‌رفتند. امروز میلیون‌ها کارمند بخشی یا تمام هفته را از خانه کار می‌کنند. این تغییر ابتدا آهسته بود اما بعد از ۲۰۲۰ که شرکت‌ها مجبور شدند دورکاری را امتحان کنند، به‌شدت سرعت گرفت." },
+    { "english": "Remote work has clear benefits. Employees save time and money because they no longer commute. Many people say they can concentrate better at home, away from noisy open-plan offices. Companies also benefit: they can hire talented people from anywhere in the world, not only from one city.", "persian": "دورکاری مزایای روشنی دارد. کارمندان چون دیگر رفت‌وآمد نمی‌کنند، در زمان و هزینه صرفه‌جویی می‌کنند. بسیاری می‌گویند در خانه و دور از دفترهای شلوغ بهتر تمرکز می‌کنند. شرکت‌ها هم سود می‌برند: می‌توانند افراد بااستعداد را از هر جای دنیا استخدام کنند." },
+    { "english": "However, working from home is not perfect. Some employees feel isolated and miss the social side of office life. New team members often find it harder to learn from colleagues through a screen. For managers, building trust and a strong team culture takes more effort when people rarely meet face to face.", "persian": "با این حال دورکاری بی‌عیب نیست. بعضی کارمندان احساس تنهایی می‌کنند و بخش اجتماعی زندگی اداری را از دست می‌دهند. اعضای جدید تیم از پشت صفحه سخت‌تر از همکاران یاد می‌گیرند. برای مدیران هم ساختن اعتماد و فرهنگ تیمی وقتی افراد به‌ندرت حضوری همدیگر را می‌بینند، تلاش بیشتری می‌طلبد." },
+    { "english": "Because of these trade-offs, many organisations now choose a hybrid model: employees spend two or three days in the office and the rest at home. This approach tries to combine the flexibility of remote work with the human connection of the traditional office. The debate continues, but one thing seems certain — the five-day office week is unlikely to return for everyone.", "persian": "به دلیل همین بده‌بستان‌ها، بسیاری از سازمان‌ها حالا مدل ترکیبی را انتخاب می‌کنند: دو سه روز در دفتر و بقیه در خانه. این روش تلاش می‌کند انعطاف دورکاری را با ارتباط انسانی دفتر سنتی ترکیب کند. بحث ادامه دارد اما یک چیز قطعی به نظر می‌رسد — هفته کاری پنج‌روزه در دفتر احتمالاً برای همه برنمی‌گردد." }
+  ],
+  "vocabulary": [
+    { "word": "commute", "meaning": "to travel regularly between home and work", "persian": "رفت‌وآمد روزانه به محل کار" },
+    { "word": "accelerate", "meaning": "to happen faster", "persian": "سرعت گرفتن" },
+    { "word": "concentrate", "meaning": "to focus your attention", "persian": "تمرکز کردن" },
+    { "word": "isolated", "meaning": "feeling alone and disconnected", "persian": "منزوی" },
+    { "word": "trade-off", "meaning": "a balance between two things you cannot have fully at the same time", "persian": "بده‌بستان، مصالحه" },
+    { "word": "hybrid", "meaning": "a mix of two different approaches", "persian": "ترکیبی" }
+  ],
+  "learningObjectives": [
+    "Identify the main idea of a short article",
+    "Understand vocabulary about work in context"
+  ],
+  "exercises": [
+    {
+      "id": "remote-1",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "comprehensionKind": "main-idea",
+      "prompt": "Which sentence best summarises the article?",
+      "options": [
+        "Remote work is always better than office work",
+        "Remote work grew quickly and has both benefits and problems, so many companies now mix both",
+        "Companies should force employees back to the office",
+        "Open-plan offices are too noisy for concentration"
+      ],
+      "correctIndex": 1,
+      "explanation": "The article presents benefits, drawbacks, and the hybrid compromise — not a one-sided argument."
+    },
+    {
+      "id": "remote-2",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "comprehensionKind": "specific-information",
+      "prompt": "According to the article, what advantage do COMPANIES get from remote work?",
+      "options": [
+        "Lower salaries",
+        "Hiring talent from anywhere, not just one city",
+        "Fewer meetings",
+        "Smaller teams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraph 2: 'they can hire talented people from anywhere in the world.'"
+    },
+    {
+      "id": "remote-3",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "comprehensionKind": "vocabulary-in-context",
+      "prompt": "In paragraph 4, 'trade-offs' refers to:",
+      "options": [
+        "financial costs of office buildings",
+        "exchanges of employees between companies",
+        "the mix of advantages and disadvantages described earlier",
+        "negotiations between managers and employees"
+      ],
+      "correctIndex": 2,
+      "explanation": "'These trade-offs' points back to the benefits (par. 2) versus problems (par. 3)."
+    },
+    {
+      "id": "remote-4",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "comprehensionKind": "inference",
+      "prompt": "What can we infer about the author's view of the future?",
+      "options": [
+        "Everyone will work from home permanently",
+        "Full-time office work will return for all employees",
+        "Flexible arrangements are here to stay in some form",
+        "Hybrid models will fail"
+      ],
+      "correctIndex": 2,
+      "explanation": "'The five-day office week is unlikely to return for everyone' implies lasting flexibility, without claiming full remote for all."
+    },
+    {
+      "id": "remote-5",
+      "type": "reading-comprehension",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "comprehensionKind": "specific-information",
+      "prompt": "Which group does the article say finds remote learning from colleagues especially hard?",
+      "options": [
+        "Managers",
+        "New team members",
+        "Experienced engineers",
+        "People in open-plan offices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraph 3: 'New team members often find it harder to learn from colleagues through a screen.'"
+    },
+    {
+      "id": "remote-6",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "comprehensionKind": "summary",
+      "prompt": "What is the name of the model where employees split the week between office and home? (one word)",
+      "acceptedAnswers": ["hybrid", "hybrid model"],
+      "explanation": "Paragraph 4 calls it the hybrid model."
+    }
+  ]
+}

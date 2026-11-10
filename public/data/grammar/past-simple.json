@@ -1,0 +1,81 @@
+{
+  "id": "past-simple",
+  "title": "Past Simple",
+  "explanation": "Use the past simple for finished actions at a specific time in the past. Regular verbs add -ed (work → worked). Many common verbs are irregular (go → went, have → had, buy → bought). Negatives and questions use did + base verb: I didn't go. Did you see it?",
+  "explanationPersian": "از گذشته ساده برای کارهای تمام‌شده در زمان مشخصی در گذشته استفاده می‌شود. فعل‌های باقاعده ed- می‌گیرند و بسیاری از فعل‌های پرکاربرد بی‌قاعده‌اند. در منفی و سوالی از did با شکل ساده فعل استفاده کنید.",
+  "examples": [
+    { "english": "We watched a film last night.", "persian": "دیشب یک فیلم تماشا کردیم.", "note": "regular -ed" },
+    { "english": "She went to Shiraz in 2022.", "persian": "او در سال ۲۰۲۲ به شیراز رفت.", "note": "irregular: go → went" },
+    { "english": "I didn't see him yesterday.", "persian": "دیروز او را ندیدم.", "note": "didn't + base verb" },
+    { "english": "Did you finish the report?", "persian": "گزارش را تمام کردی؟", "note": "did + subject + base verb" }
+  ],
+  "exercises": [
+    {
+      "id": "past-simple-1",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "before": "They",
+      "after": "to London last summer. (go)",
+      "acceptedAnswers": ["went"],
+      "explanation": "Go is irregular: go → went."
+    },
+    {
+      "id": "past-simple-2",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "incorrectSentence": "I didn't went to the party.",
+      "acceptedAnswers": ["I didn't go to the party."],
+      "explanation": "After didn't, use the base verb: didn't go, not didn't went.",
+      "explanationPersian": "بعد از didn't شکل ساده فعل می‌آید: didn't go."
+    },
+    {
+      "id": "past-simple-3",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "prompt": "She ___ her keys this morning.",
+      "options": ["lose", "losed", "lost", "loses"],
+      "correctIndex": 2,
+      "explanation": "Lose is irregular: lose → lost."
+    },
+    {
+      "id": "past-simple-4",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "segments": ["Did", "you", "call", "her", "yesterday?"],
+      "explanation": "Past questions: Did + subject + base verb."
+    },
+    {
+      "id": "past-simple-5",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "before": "He",
+      "after": "for the exam all week. (study)",
+      "acceptedAnswers": ["studied"],
+      "explanation": "Study → studied (y changes to i before -ed)."
+    },
+    {
+      "id": "past-simple-6",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "source": "دیروز یک کتاب خریدم.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "I bought a book yesterday.",
+        "Yesterday I bought a book."
+      ],
+      "explanation": "Buy is irregular: buy → bought."
+    }
+  ]
+}

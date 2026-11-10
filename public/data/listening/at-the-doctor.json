@@ -1,0 +1,93 @@
+{
+  "id": "at-the-doctor",
+  "title": "At the Doctor's Office",
+  "scenario": "A patient visits a doctor about a problem. Listen to the full conversation, then answer the questions. The transcript stays hidden until after the questions.",
+  "scenarioPersian": "بیماری به پزشک مراجعه می‌کند. کل گفتگو را گوش بده و بعد به سوال‌ها جواب بده. متن تا بعد از سوال‌ها مخفی می‌ماند.",
+  "lines": [
+    { "speaker": "Doctor", "english": "Good morning. What seems to be the problem?", "persian": "صبح بخیر. مشکل چیست؟" },
+    { "speaker": "Patient", "english": "I've had a sore throat and a cough for about a week now.", "persian": "حدود یک هفته است گلودرد و سرفه دارم." },
+    { "speaker": "Doctor", "english": "Any fever or difficulty breathing?", "persian": "تب یا مشکل تنفسی هم داری؟" },
+    { "speaker": "Patient", "english": "I had a slight fever two days ago, but it's gone now. Breathing is fine.", "persian": "دو روز پیش تب خفیفی داشتم اما الان خوب شده. تنفسم مشکلی ندارد." },
+    { "speaker": "Doctor", "english": "Let me have a look. It looks like a mild infection. I'll prescribe some antibiotics — take one tablet twice a day after meals.", "persian": "بگذار نگاهی بیندازم. به نظر یک عفونت خفیف است. آنتی‌بیوتیک می‌نویسم — روزی دو بار بعد از غذا یک قرص بخور." },
+    { "speaker": "Patient", "english": "How long should I take them?", "persian": "چند روز باید مصرف کنم؟" },
+    { "speaker": "Doctor", "english": "For seven days, even if you feel better earlier. And drink plenty of warm fluids.", "persian": "هفت روز، حتی اگر زودتر بهتر شدی. مایعات گرم هم زیاد بنوش." }
+  ],
+  "learningObjectives": [
+    "Follow a two-person conversation",
+    "Pick out specific details from speech"
+  ],
+  "exercises": [
+    {
+      "id": "doctor-1",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "audioText": "I've had a sore throat and a cough for about a week now.",
+      "prompt": "How long has the patient had symptoms?",
+      "options": ["Two days", "About a week", "A month", "Since yesterday"],
+      "correctIndex": 1,
+      "explanation": "'...for about a week now.'"
+    },
+    {
+      "id": "doctor-2",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "audioText": "I had a slight fever two days ago, but it's gone now. Breathing is fine.",
+      "prompt": "What is true about the patient's fever?",
+      "options": [
+        "They still have a high fever",
+        "They never had a fever",
+        "They had a slight fever but it has passed",
+        "The fever started today"
+      ],
+      "correctIndex": 2,
+      "explanation": "'I had a slight fever two days ago, but it's gone now.'"
+    },
+    {
+      "id": "doctor-3",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "audioText": "I'll prescribe some antibiotics — take one tablet twice a day after meals.",
+      "prompt": "How should the patient take the medicine?",
+      "options": [
+        "One tablet once a day before meals",
+        "Two tablets once a day",
+        "One tablet twice a day after meals",
+        "Two tablets twice a day"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Take one tablet twice a day after meals.'"
+    },
+    {
+      "id": "doctor-4",
+      "type": "listening-comprehension",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "audioText": "For seven days, even if you feel better earlier.",
+      "prompt": "When can the patient stop taking the antibiotics?",
+      "options": [
+        "As soon as they feel better",
+        "After seven days, even if they feel better sooner",
+        "After the fever returns",
+        "The doctor didn't say"
+      ],
+      "correctIndex": 1,
+      "explanation": "Finish the full course: seven days regardless of feeling better."
+    },
+    {
+      "id": "doctor-5",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "audioText": "And drink plenty of warm fluids.",
+      "acceptedAnswers": ["And drink plenty of warm fluids."]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "introduce-yourself",
+      "title": "Introducing Yourself",
+      "description": "Warm up with model sentences, then answer open questions about yourself.",
+      "cefrLevel": "A2-B1",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "estimatedDuration": 10,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "Hi, my name is Sam and I'm a software developer.",
+          "promptPersian": "سلام، اسم من سم است و برنامه‌نویس هستم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I've been learning English for about two years.",
+          "promptPersian": "حدود دو سال است انگلیسی یاد می‌گیرم."
+        },
+        {
+          "kind": "open",
+          "prompt": "Tell me about yourself. What do you do, and what do you enjoy?",
+          "promptPersian": "درباره خودت بگو. چه کار می‌کنی و از چه چیزی لذت می‌بری؟",
+          "usefulPhrases": ["I work as a...", "In my free time...", "What I enjoy most is..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Why are you learning English, and how do you want to use it?",
+          "promptPersian": "چرا انگلیسی یاد می‌گیری و می‌خواهی کجا از آن استفاده کنی؟",
+          "usefulPhrases": ["The main reason is...", "I'd like to be able to...", "In the future..."]
+        }
+      ]
+    },
+    {
+      "id": "daily-work",
+      "title": "Talking About Your Work Day",
+      "description": "Describe your typical day and current projects.",
+      "cefrLevel": "B1",
+      "skillTags": ["speaking"],
+      "domainTags": ["business", "technical"],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "I usually start my day by checking messages and planning my tasks.",
+          "promptPersian": "معمولاً روزم را با چک کردن پیام‌ها و برنامه‌ریزی کارها شروع می‌کنم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "At the moment I'm working on a project with a tight deadline.",
+          "promptPersian": "در حال حاضر روی پروژه‌ای با ضرب‌الاجل فشرده کار می‌کنم."
+        },
+        {
+          "kind": "open",
+          "prompt": "Walk me through a typical working day, from morning to evening.",
+          "promptPersian": "یک روز کاری معمولی‌ات را از صبح تا شب توصیف کن.",
+          "usefulPhrases": ["First thing in the morning...", "After that...", "By the end of the day..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "What are you working on right now? What's the most challenging part?",
+          "promptPersian": "الان روی چه چیزی کار می‌کنی؟ چالش‌برانگیزترین بخش آن چیست؟",
+          "usefulPhrases": ["I'm currently working on...", "The tricky part is...", "To deal with that, I..."]
+        }
+      ]
+    },
+    {
+      "id": "interview-basics",
+      "title": "Job Interview Basics",
+      "description": "Practice classic interview questions out loud.",
+      "cefrLevel": "B1-B2",
+      "skillTags": ["speaking"],
+      "domainTags": ["business"],
+      "difficulty": 3,
+      "estimatedDuration": 15,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "I have five years of experience in backend development.",
+          "promptPersian": "پنج سال تجربه در توسعه بک‌اند دارم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "One of my strengths is staying calm under pressure.",
+          "promptPersian": "یکی از نقاط قوت من حفظ آرامش زیر فشار است."
+        },
+        {
+          "kind": "open",
+          "prompt": "Tell me about your professional background and experience.",
+          "promptPersian": "درباره سابقه و تجربه حرفه‌ای‌ات صحبت کن.",
+          "usefulPhrases": ["I started my career...", "Over the past few years...", "My main focus has been..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Describe a difficult problem you solved at work. What did you do?",
+          "promptPersian": "یک مشکل سخت که در کار حل کردی را توصیف کن. چه کردی؟",
+          "usefulPhrases": ["The situation was...", "What I did first was...", "In the end..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Where do you see yourself in five years?",
+          "promptPersian": "خودت را پنج سال دیگر کجا می‌بینی؟",
+          "usefulPhrases": ["My goal is to...", "I'd like to grow into...", "Ideally, I will have..."]
+        }
+      ]
+    }
+  ]
+}

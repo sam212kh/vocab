@@ -1,0 +1,83 @@
+{
+  "id": "present-perfect",
+  "title": "Present Perfect",
+  "explanation": "Use have/has + past participle for experiences (I have visited Turkey), recent results (She has lost her keys), and unfinished time periods (I have worked here for three years). Use the past simple instead when the time is finished and specific: I visited Turkey in 2019.",
+  "explanationPersian": "حال کامل با have/has و اسم مفعول ساخته می‌شود و برای تجربه‌ها، نتایج اخیر و بازه‌های زمانی ناتمام به کار می‌رود. اگر زمان مشخص و تمام‌شده باشد (مثلاً in 2019) از گذشته ساده استفاده کنید.",
+  "examples": [
+    { "english": "I have worked here since 2021.", "persian": "از سال ۲۰۲۱ اینجا کار می‌کنم.", "note": "unfinished period with since" },
+    { "english": "She has just finished the report.", "persian": "او همین الان گزارش را تمام کرده است.", "note": "recent result with just" },
+    { "english": "Have you ever been to Istanbul?", "persian": "تا حالا استانبول رفته‌ای؟", "note": "experience with ever" },
+    { "english": "I saw that film last week.", "persian": "آن فیلم را هفته پیش دیدم.", "note": "finished time → past simple, NOT present perfect" }
+  ],
+  "exercises": [
+    {
+      "id": "present-perfect-1",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "prompt": "I ___ here for five years.",
+      "options": ["work", "worked", "have worked", "am working"],
+      "correctIndex": 2,
+      "explanation": "For + a period continuing to now → present perfect."
+    },
+    {
+      "id": "present-perfect-2",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "incorrectSentence": "I have seen him yesterday.",
+      "acceptedAnswers": ["I saw him yesterday."],
+      "explanation": "Yesterday is finished time — use past simple, not present perfect.",
+      "explanationPersian": "با yesterday زمان تمام شده است؛ گذشته ساده درست است."
+    },
+    {
+      "id": "present-perfect-3",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "before": "She has",
+      "after": "her homework already. (do)",
+      "acceptedAnswers": ["done"],
+      "explanation": "Past participle of do is done."
+    },
+    {
+      "id": "present-perfect-4",
+      "type": "multiple-choice",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Have you ever ate sushi?",
+        "Have you ever eaten sushi?",
+        "Did you ever eaten sushi?",
+        "Have you ever eat sushi?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Present perfect needs the past participle: eaten."
+    },
+    {
+      "id": "present-perfect-5",
+      "type": "sentence-ordering",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "segments": ["We", "have", "never", "missed", "a", "deadline"],
+      "explanation": "Never goes between have and the past participle."
+    },
+    {
+      "id": "present-perfect-6",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 3,
+      "before": "I have known her",
+      "after": "2019. (for / since)",
+      "acceptedAnswers": ["since"],
+      "explanation": "Since + a starting point (2019); for + a length of time (five years)."
+    }
+  ]
+}
