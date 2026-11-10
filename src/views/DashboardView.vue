@@ -3,9 +3,32 @@ import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useHardWordsStore } from '../stores/hardWords'
+import { useLearnerProfileStore } from '../stores/learnerProfile'
+import { useGrammarProgressStore } from '../stores/grammarProgress'
+import { usePerformanceStore } from '../stores/performance'
+import { buildDailyRecommendation } from '../services/learningRecommendation'
 
 const wordProgressStore =
     useWordProgressStore()
+
+const hardWordsStore = useHardWordsStore()
+const learnerProfileStore = useLearnerProfileStore()
+const grammarProgressStore = useGrammarProgressStore()
+const performanceStore = usePerformanceStore()
+
+const recommendation = computed(() => {
+    return buildDailyRecommendation({
+        studyDurationMinutes: learnerProfileStore.profile.studyDurationMinutes,
+        dueWordsCount: wordProgressStore.getDueWords().length,
+        hardWordsCount: hardWordsStore.hardWords.length,
+        goals: learnerProfileStore.profile.goals.map(goal => goal.type),
+        dueGrammarTopics: grammarProgressStore.getDueTopics().map(topic => topic.topicId),
+        skillSummaries: performanceStore.summarizeAll(),
+    })
+})
+
+const recentMistakes = computed(() => performanceStore.recentMistakes(5))
 
 const progress = computed(() => {
     return wordProgressStore.progress
@@ -304,6 +327,55 @@ function getDateKey(
             </p>
         </div>
 
+        <!-- Continue Learning -->
+
+        <RouterLink
+            v-if="recommendation.activities.length"
+            :to="recommendation.activities[0].route"
+            class="block rounded-2xl bg-gray-900 p-6 text-white shadow-sm transition hover:bg-gray-800"
+        >
+            <p class="text-sm text-gray-300">Continue learning</p>
+            <p class="mt-1 text-xl font-semibold">{{ recommendation.activities[0].label }}</p>
+            <p class="mt-1 text-sm text-gray-300">{{ recommendation.activities[0].reason }}</p>
+        </RouterLink>
+
+        <!-- Recommended for today -->
+
+        <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center justify-between">
+                <h2 class="text-lg font-semibold text-gray-900">
+                    Recommended for today
+                </h2>
+
+                <span class="text-sm text-gray-400">
+                    ~{{ recommendation.totalEstimatedMinutes }} min
+                </span>
+            </div>
+
+            <div class="mt-4 space-y-3">
+                <RouterLink
+                    v-for="activity in recommendation.activities"
+                    :key="activity.type"
+                    :to="activity.route"
+                    class="block rounded-xl border border-gray-100 p-4 transition hover:-translate-y-0.5 hover:shadow-md"
+                >
+                    <div class="flex items-center justify-between">
+                        <p class="font-medium text-gray-900">
+                            {{ activity.label }}
+                        </p>
+
+                        <span class="text-sm text-gray-400">
+                            ~{{ activity.estimatedMinutes }} min
+                        </span>
+                    </div>
+
+                    <p class="mt-1 text-sm text-gray-500">
+                        {{ activity.reason }}
+                    </p>
+                </RouterLink>
+            </div>
+        </div>
+
         <!-- Main Stats -->
 
         <div
@@ -530,6 +602,29 @@ function getDateKey(
                             }"
                         />
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Mistakes -->
+
+        <div v-if="recentMistakes.length" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <h2 class="text-lg font-semibold text-gray-900">Recent mistakes</h2>
+            <p class="mt-1 text-sm text-gray-500">
+                From your latest exercises across all modules.
+            </p>
+
+            <div class="mt-4 space-y-2">
+                <div
+                    v-for="mistake in recentMistakes"
+                    :key="mistake.id"
+                    class="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-3 text-sm"
+                >
+                    <span class="font-medium text-gray-700">{{ mistake.activityId }}</span>
+                    <span class="text-gray-400">
+                        {{ mistake.skill }}
+                        <span v-if="mistake.errorCategories.length"> · {{ mistake.errorCategories.join(', ') }}</span>
+                    </span>
                 </div>
             </div>
         </div>

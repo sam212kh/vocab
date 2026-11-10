@@ -28,9 +28,11 @@ Vue 3 + TypeScript vocabulary learning application.
 
 ## Data
 
-`public/data/manifest.json` is loaded first.
+`public/data/` is the single runtime content source. `public/data/manifest.json` is loaded first.
 
 Lesson JSON files are loaded only when a lesson is opened or a practice/review flow needs them.
+
+A stale duplicate of the content under `src/data/` (never referenced by any code) was removed during Phase 3 cleanup — do not recreate it; add new content under `public/data/` only.
 
 The repository currently contains:
 

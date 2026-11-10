@@ -29,19 +29,46 @@ onMounted(async () => {
     }
 })
 
-const menuItems = [
-    { label: 'Dashboard', icon: '🏠', route: '/' },
-    { label: 'Daily Session', icon: '⚡', route: '/session' },
-    { label: 'Lessons', icon: '📚', route: '/lessons' },
-    { label: 'Practice', icon: '✍️', route: '/practice' },
-    { label: 'Cloze', icon: '🧩', route: '/cloze' },
-    { label: 'Matching', icon: '🔗', route: '/matching' },
-    { label: 'Quiz', icon: '🧠', route: '/quiz' },
-    { label: 'Listen & Repeat', icon: '🔊', route: '/listen-repeat' },
-    { label: 'Listen & Guess', icon: '👂', route: '/listen-guess' },
-    { label: 'Hard Words', icon: '⭐', route: '/hard-words' },
-    { label: 'Speaking Practice', icon: '🎙️', route: '/speaking-practice' },
-    { label: 'Review', icon: '🔁', route: '/review' },
+const menuSections = [
+    {
+        title: '',
+        items: [
+            { label: 'Dashboard', icon: '🏠', route: '/' },
+            { label: 'Daily Session', icon: '⚡', route: '/session' },
+        ],
+    },
+    {
+        title: 'Skills',
+        items: [
+            { label: 'Grammar', icon: '🧱', route: '/grammar' },
+            { label: 'Listening', icon: '🎧', route: '/listening' },
+            { label: 'Guided Speaking', icon: '🗣️', route: '/guided-speaking' },
+            { label: 'Reading', icon: '📖', route: '/reading' },
+            { label: 'Writing', icon: '✏️', route: '/writing' },
+        ],
+    },
+    {
+        title: 'Vocabulary',
+        items: [
+            { label: 'Lessons', icon: '📚', route: '/lessons' },
+            { label: 'Practice', icon: '✍️', route: '/practice' },
+            { label: 'Cloze', icon: '🧩', route: '/cloze' },
+            { label: 'Matching', icon: '🔗', route: '/matching' },
+            { label: 'Quiz', icon: '🧠', route: '/quiz' },
+            { label: 'Listen & Repeat', icon: '🔊', route: '/listen-repeat' },
+            { label: 'Listen & Guess', icon: '👂', route: '/listen-guess' },
+            { label: 'Hard Words', icon: '⭐', route: '/hard-words' },
+            { label: 'Speaking Practice', icon: '🎙️', route: '/speaking-practice' },
+            { label: 'Review', icon: '🔁', route: '/review' },
+        ],
+    },
+    {
+        title: 'Me',
+        items: [
+            { label: 'Skill Levels', icon: '📊', route: '/skills' },
+            { label: 'Profile', icon: '👤', route: '/profile' },
+        ],
+    },
 ]
 
 function isActive(path: string) {
@@ -94,21 +121,32 @@ function closeMobile() {
                 </button>
             </div>
 
-            <nav class="space-y-1">
-                <RouterLink
-                    v-for="item in menuItems"
-                    :key="item.route"
-                    :to="item.route"
-                    class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-gray-700 transition hover:bg-gray-100"
-                    :class="{
-                        'bg-gray-900 text-white hover:bg-gray-900':
-                            isActive(item.route),
-                    }"
-                    @click="closeMobile"
-                >
-                    <span>{{ item.icon }}</span>
-                    <span>{{ item.label }}</span>
-                </RouterLink>
+            <nav class="min-h-0 flex-1 space-y-4 overflow-y-auto pb-4">
+                <div v-for="section in menuSections" :key="section.title">
+                    <p
+                        v-if="section.title"
+                        class="mb-1 px-3 text-xs font-semibold uppercase tracking-wider text-gray-400"
+                    >
+                        {{ section.title }}
+                    </p>
+
+                    <div class="space-y-1">
+                        <RouterLink
+                            v-for="item in section.items"
+                            :key="item.route"
+                            :to="item.route"
+                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition hover:bg-gray-100"
+                            :class="{
+                                'bg-gray-900 text-white hover:bg-gray-900':
+                                    isActive(item.route),
+                            }"
+                            @click="closeMobile"
+                        >
+                            <span>{{ item.icon }}</span>
+                            <span>{{ item.label }}</span>
+                        </RouterLink>
+                    </div>
+                </div>
             </nav>
 
             <div class="mt-6 border-t pt-4">

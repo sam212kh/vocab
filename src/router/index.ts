@@ -14,6 +14,13 @@ import HardWordsView from '../views/HardWordsView.vue'
 import SpeakingPracticeView from '../views/SpeakingPracticeView.vue'
 import ReviewView from  '../views/ReviewView.vue'
 import SessionView from '../views/SessionView.vue'
+import ProfileView from '../views/ProfileView.vue'
+import SkillsView from '../views/SkillsView.vue'
+import GrammarView from '../views/GrammarView.vue'
+import ReadingView from '../views/ReadingView.vue'
+import WritingView from '../views/WritingView.vue'
+import ListeningView from '../views/ListeningView.vue'
+import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -92,6 +99,41 @@ const router = createRouter({
             path: '/session',
             name: 'session',
             component: SessionView,
+        },
+        {
+            path: '/profile',
+            name: 'profile',
+            component: ProfileView,
+        },
+        {
+            path: '/skills',
+            name: 'skills',
+            component: SkillsView,
+        },
+        {
+            path: '/grammar',
+            name: 'grammar',
+            component: GrammarView,
+        },
+        {
+            path: '/reading',
+            name: 'reading',
+            component: ReadingView,
+        },
+        {
+            path: '/writing',
+            name: 'writing',
+            component: WritingView,
+        },
+        {
+            path: '/listening',
+            name: 'listening',
+            component: ListeningView,
+        },
+        {
+            path: '/guided-speaking',
+            name: 'guided-speaking',
+            component: GuidedSpeakingView,
         },
     ]
 })

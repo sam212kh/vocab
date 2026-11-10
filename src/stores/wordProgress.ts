@@ -5,6 +5,12 @@ import {
     calculateNextReview,
 } from '../services/spacedRepetition'
 
+import {
+    createVersionedRepository,
+} from '../persistence/versionedStorage'
+
+import { useToastStore } from './toast'
+
 import type {
     WordProgress,
     WordStatus,
@@ -13,6 +19,8 @@ import type {
 const STORAGE_KEY =
     'english-upgrade-word-progress'
 
+const STORAGE_VERSION = 1
+
 const VALID_STATUSES: WordStatus[] = [
     'new',
     'learning',
@@ -20,14 +28,29 @@ const VALID_STATUSES: WordStatus[] = [
     'mastered',
 ]
 
+const repository = createVersionedRepository<WordProgress[]>({
+    key: STORAGE_KEY,
+    version: STORAGE_VERSION,
+    defaultValue: () => [],
+    migrate: migrateStoredProgress,
+})
+
 export const useWordProgressStore =
     defineStore(
         'wordProgress',
         () => {
+            const { value: initialProgress, migratedFromLegacy } =
+                repository.load()
+
             const progress =
-                ref<WordProgress[]>(
-                    loadFromStorage()
+                ref<WordProgress[]>(initialProgress)
+
+            if (migratedFromLegacy && initialProgress.length) {
+                useToastStore().push(
+                    'Existing word progress was migrated to the new storage format.',
+                    'info'
                 )
+            }
 
             function normalizeWord(
                 word: string
@@ -332,12 +355,7 @@ export const useWordProgressStore =
             }
 
             function save() {
-                localStorage.setItem(
-                    STORAGE_KEY,
-                    JSON.stringify(
-                        progress.value
-                    )
-                )
+                repository.save(progress.value)
             }
 
             return {
@@ -360,68 +378,39 @@ export const useWordProgressStore =
         }
     )
 
-function loadFromStorage():
-    WordProgress[] {
-    try {
-        const stored =
-            localStorage.getItem(
-                STORAGE_KEY
-            )
-
-        if (!stored) {
-            return []
-        }
-
-        const parsed =
-            JSON.parse(stored)
-
-        if (!Array.isArray(parsed)) {
-            return []
-        }
-
-        const normalized: WordProgress[] =
-            []
-
-        const seen =
-            new Set<string>()
-
-        for (
-            const item of parsed
-            ) {
-            const result =
-                normalizeStoredProgress(
-                    item
-                )
-
-            if (!result) {
-                continue
-            }
-
-            /*
-             * Prevent duplicate Progress
-             * records for the same word.
-             */
-            if (
-                seen.has(
-                    result.wordId
-                )
-            ) {
-                continue
-            }
-
-            seen.add(
-                result.wordId
-            )
-
-            normalized.push(
-                result
-            )
-        }
-
-        return normalized
-    } catch {
+function migrateStoredProgress(
+    raw: unknown,
+    _storedVersion: number | null
+): WordProgress[] {
+    if (!Array.isArray(raw)) {
         return []
     }
+
+    const normalized: WordProgress[] = []
+
+    const seen = new Set<string>()
+
+    for (const item of raw) {
+        const result = normalizeStoredProgress(item)
+
+        if (!result) {
+            continue
+        }
+
+        /*
+         * Prevent duplicate Progress
+         * records for the same word.
+         */
+        if (seen.has(result.wordId)) {
+            continue
+        }
+
+        seen.add(result.wordId)
+
+        normalized.push(result)
+    }
+
+    return normalized
 }
 
 function normalizeStoredProgress(

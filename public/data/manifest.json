@@ -5,6 +5,14 @@
       "id": "upgrade",
       "title": "English Upgrade",
       "description": "Vocabulary for conversation, work, interviews and technical English.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general",
+        "business",
+        "technical"
+      ],
       "lessons": [
         {
           "id": "batch-01",
@@ -88,6 +96,14 @@
       "id": "hard",
       "title": "English Hard",
       "description": "Vocabulary for conversation, work, interviews and technical English.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general",
+        "business",
+        "technical"
+      ],
       "lessons": [
         {
           "id": "batch-01",
@@ -144,7 +160,7 @@
         {
           "id": "batch-09",
           "title": "Batch 09",
-          "file": "./hard/batch-01.json",
+          "file": "./hard/batch-09.json",
           "type": "batch"
         }
       ]
@@ -153,6 +169,14 @@
       "id": "hard-v2",
       "title": "English Very Hard",
       "description": "Vocabulary for conversation, work, interviews and technical English.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general",
+        "business",
+        "technical"
+      ],
       "lessons": [
         {
           "id": "batch-01",
@@ -214,6 +238,12 @@
       "id": "504",
       "title": "504 Absolutely Essential Words",
       "description": "504 Absolutely Essential Words — 42 lessons / 504 words.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "lessons": [
         {
           "id": "504-01",
@@ -515,6 +545,13 @@
       "id": "oxford-elementary",
       "title": "Oxford Word Skills — Elementary",
       "description": "Oxford Word Skills (2nd Edition), Elementary level — 100 units, ~2,000 essential words and phrases (CEFR A1/A2).",
+      "cefrLevel": "A1-A2",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "lessons": [
         {
           "id": "oxford-elementary-01",
@@ -1522,6 +1559,13 @@
       "id": "oxford-intermediate",
       "title": "Oxford Word Skills — Intermediate",
       "description": "Oxford Word Skills (2nd Edition), Intermediate level — 100 units, ~1,900 essential words and phrases (CEFR B1).",
+      "cefrLevel": "B1",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "lessons": [
         {
           "id": "oxford-intermediate-01",
@@ -2529,6 +2573,13 @@
       "id": "oxford-upper-advanced",
       "title": "Oxford Word Skills — Upper-Intermediate/Advanced",
       "description": "Oxford Word Skills (2nd Edition), Upper-Intermediate/Advanced level — 100 units, ~2,000 words and phrases (CEFR B2/C1).",
+      "cefrLevel": "B2-C1",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "lessons": [
         {
           "id": "oxford-upper-advanced-01",

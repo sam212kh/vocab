@@ -1,21 +1,18 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useHardWords } from '../../composables/useHardWords'
+import { useHardWordsStore } from '../../stores/hardWords'
 
 const props = defineProps<{
     wordId: string
     meaning: string
 }>()
 
-const {
-    isHardWord,
-    toggleHardWord,
-} = useHardWords()
+const hardWordsStore = useHardWordsStore()
 
-const hard = computed(() => isHardWord(props.wordId))
+const hard = computed(() => hardWordsStore.isHardWord(props.wordId))
 
 function handleToggle() {
-    toggleHardWord(
+    hardWordsStore.toggleWord(
         props.wordId,
         props.meaning
     )

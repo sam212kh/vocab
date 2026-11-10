@@ -1,7 +1,15 @@
 import { computed, ref } from 'vue'
 import { defineStore } from 'pinia'
 
+import {
+    createVersionedRepository,
+} from '../persistence/versionedStorage'
+
+import { useToastStore } from './toast'
+
 const STORAGE_KEY = 'english-upgrade-hard-words'
+
+const STORAGE_VERSION = 1
 
 interface HardWord {
     word: string
@@ -9,12 +17,27 @@ interface HardWord {
     addedAt: number
 }
 
+const repository = createVersionedRepository<HardWord[]>({
+    key: STORAGE_KEY,
+    version: STORAGE_VERSION,
+    defaultValue: () => [],
+    migrate: migrateStoredHardWords,
+})
+
 export const useHardWordsStore = defineStore(
     'hardWords',
     () => {
-        const hardWords = ref<HardWord[]>(
-            loadFromStorage()
-        )
+        const { value: initialHardWords, migratedFromLegacy } =
+            repository.load()
+
+        const hardWords = ref<HardWord[]>(initialHardWords)
+
+        if (migratedFromLegacy && initialHardWords.length) {
+            useToastStore().push(
+                'Existing hard words were migrated to the new storage format.',
+                'info'
+            )
+        }
 
         const wordIds = computed(() => {
             return new Set(
@@ -36,7 +59,7 @@ export const useHardWordsStore = defineStore(
             )
         }
 
-        function addWord(word: string,     meaning: string) {
+        function addWord(word: string, meaning: string) {
             const normalized = normalizeWord(word)
 
             if (isHardWord(normalized)) {
@@ -81,10 +104,7 @@ export const useHardWordsStore = defineStore(
         }
 
         function save() {
-            localStorage.setItem(
-                STORAGE_KEY,
-                JSON.stringify(hardWords.value)
-            )
+            repository.save(hardWords.value)
         }
 
         return {
@@ -99,23 +119,25 @@ export const useHardWordsStore = defineStore(
     }
 )
 
-function loadFromStorage(): HardWord[] {
-    try {
-        const stored =
-            localStorage.getItem(STORAGE_KEY)
-
-        if (!stored) {
-            return []
-        }
-
-        const parsed = JSON.parse(stored)
-
-        if (!Array.isArray(parsed)) {
-            return []
-        }
-
-        return parsed
-    } catch {
+function migrateStoredHardWords(
+    raw: unknown,
+    _storedVersion: number | null
+): HardWord[] {
+    if (!Array.isArray(raw)) {
         return []
     }
+
+    return raw
+        .filter(
+            (item): item is Record<string, unknown> =>
+                !!item &&
+                typeof item === 'object' &&
+                typeof (item as Record<string, unknown>).word === 'string'
+        )
+        .map(item => ({
+            word: String(item.word).trim().toLowerCase(),
+            meaning: typeof item.meaning === 'string' ? item.meaning : '',
+            addedAt: Number(item.addedAt) || Date.now(),
+        }))
+        .filter(item => item.word)
 }

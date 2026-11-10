@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import AppSidebar from './components/layout/AppSidebar.vue'
+import AppToast from './components/ui/AppToast.vue'
 
 const visible = ref(false)
 
@@ -18,6 +19,8 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 
 <template>
     <div class="min-h-screen bg-gray-50 text-gray-900">
+        <AppToast />
+
         <div class="flex min-h-screen">
             <AppSidebar />
 
