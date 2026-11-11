@@ -17,8 +17,9 @@ export interface RecommendationInput {
     /** Observed per-skill performance summaries (may be empty — never faked). */
     skillSummaries?: SkillPerformanceSummary[]
     /**
-     * Confirmed-error categories recurring across AI writing evaluations
-     * (from the mistakes store) — style suggestions are excluded upstream.
+     * Confirmed-error categories recurring across AI feedback (writing
+     * evaluations AND conversation corrections, via the mistakes store) —
+     * style suggestions are excluded upstream.
      */
     recurringWritingErrorCategories?: string[]
 }
@@ -130,7 +131,7 @@ export function buildDailyRecommendation(
             route: '/writing',
             estimatedMinutes: Math.min(remaining, 15),
             skill: 'writing',
-            reason: `AI evaluations found recurring ${categories} errors across your recent writing — targeted practice recommended.`,
+            reason: `Recent AI feedback found recurring ${categories} errors in your writing and conversations — targeted practice recommended.`,
         })
     }
 

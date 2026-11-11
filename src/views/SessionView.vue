@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useSessionSettingsStore } from '../stores/sessionSettings'
 
 import {
     checkPronunciation,
@@ -41,6 +42,8 @@ const MAX_LESSONS_SCANNED_FOR_NEW_WORDS = 20
 
 const wordProgressStore =
     useWordProgressStore()
+
+const sessionSettingsStore = useSessionSettingsStore()
 
 const {
     isSupported,
@@ -293,7 +296,10 @@ function proceedToSpeak() {
         return
     }
 
-    phase.value = 'speak'
+    /* Speaking step can be disabled — go straight to the result. */
+    phase.value = sessionSettingsStore.settings.speakingEnabled
+        ? 'speak'
+        : 'result'
 }
 
 async function practiceCurrentWord() {
@@ -353,11 +359,28 @@ onMounted(() => {
 
 <template>
     <div>
-        <div class="mb-8">
-            <h1 class="text-3xl font-bold">Daily Session</h1>
-            <p class="mt-2 text-gray-500">
-                Due reviews mixed with a few new words — interleaved, not blocked.
-            </p>
+        <div class="mb-8 flex flex-wrap items-start justify-between gap-4">
+            <div>
+                <h1 class="text-3xl font-bold">Daily Session</h1>
+                <p class="mt-2 text-gray-500">
+                    Due reviews mixed with a few new words — interleaved, not blocked.
+                </p>
+            </div>
+
+            <button
+                type="button"
+                class="flex items-center gap-2 rounded-xl border px-4 py-2 text-sm transition"
+                :class="sessionSettingsStore.settings.speakingEnabled
+                    ? 'border-gray-900 bg-gray-900 text-white hover:bg-gray-700'
+                    : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
+                :title="sessionSettingsStore.settings.speakingEnabled
+                    ? 'Speaking step is on — click to skip it in this session'
+                    : 'Speaking step is off — click to include it again'"
+                @click="sessionSettingsStore.toggleSpeaking"
+            >
+                🎙
+                <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
+            </button>
         </div>
 
         <div v-if="error" class="mb-6 rounded-lg bg-red-50 p-4 text-red-600">
@@ -451,7 +474,9 @@ onMounted(() => {
                             class="mt-8 rounded-lg bg-black px-8 py-3 text-white hover:bg-gray-800"
                             @click="proceedToSpeak"
                         >
-                            🎙 Continue to speaking →
+                            {{ sessionSettingsStore.settings.speakingEnabled
+                                ? '🎙 Continue to speaking →'
+                                : 'Continue →' }}
                         </button>
                     </div>
                 </div>

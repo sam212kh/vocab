@@ -40,6 +40,7 @@ const menuSections = [
     {
         title: 'Skills',
         items: [
+            { label: 'Conversation', icon: '💬', route: '/conversation' },
             { label: 'Grammar', icon: '🧱', route: '/grammar' },
             { label: 'Listening', icon: '🎧', route: '/listening' },
             { label: 'Guided Speaking', icon: '🗣️', route: '/guided-speaking' },

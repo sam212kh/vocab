@@ -47,8 +47,29 @@ export function validateAnswer(
                 return wrongShape(exercise.id, expected)
             }
 
+            /*
+             * Number-form equivalence ("10" ≡ "ten") is enabled where the
+             * number's written form is not itself the thing being tested:
+             * dictation (recognizers/learners legitimately write digits),
+             * translation and short answers. Fill-blank stays strict —
+             * grammar content may deliberately require the written form —
+             * as does grammar-correction (the exact sentence is the point).
+             */
+            const numberEquivalence =
+                exercise.type === 'dictation' ||
+                exercise.type === 'translation' ||
+                exercise.type === 'short-answer'
+
+            /*
+             * Grammar correction disables typo tolerance entirely: the
+             * uncorrected sentence is typically one edit away from the
+             * corrected one ("a" vs "an"), so a 1-edit tolerance would
+             * accept the very mistake the exercise tests.
+             */
+            const exact = exercise.type === 'grammar-correction'
+
             const correct = accepted.some(candidate =>
-                answersMatch(candidate, answer.text)
+                answersMatch(candidate, answer.text, { numberEquivalence, exact })
             )
 
             return {
@@ -99,11 +120,18 @@ export function validateAnswer(
                     match => match.leftIndex === match.rightIndex
                 )
 
+            /* Show the learner's actual pairing, never a placeholder. */
+            const received = answer.matches
+                .map(match =>
+                    `${exercise.pairs[match.leftIndex]?.left ?? '?'} → ${exercise.pairs[match.rightIndex]?.right ?? '?'}`
+                )
+                .join(', ')
+
             return {
                 exerciseId: exercise.id,
                 correct,
                 expected,
-                received: correct ? expected : 'one or more pairs mismatched',
+                received,
                 feedback: exercise.explanation,
             }
         }

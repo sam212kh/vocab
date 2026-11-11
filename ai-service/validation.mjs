@@ -214,6 +214,257 @@ export function validateEvaluation(raw, submissionText) {
   }
 }
 
+/* ------------------------------------------------------------------ */
+/* Conversation                                                        */
+/* ------------------------------------------------------------------ */
+
+const CONVERSATION_MODES = ['free', 'daily-life', 'professional', 'interview', 'workplace', 'technical', 'travel', 'roleplay']
+
+const FEEDBACK_MODES = ['natural', 'gentle', 'teacher']
+
+const DIFFICULTIES = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
+const MAX_MESSAGES = 16
+
+const MAX_MESSAGE_CHARS = 2000
+
+export function validateChatRequest(body, config) {
+  if (!body || typeof body !== 'object') {
+    return { ok: false, errors: ['Body must be a JSON object'] }
+  }
+
+  const errors = []
+
+  const rawMessages = Array.isArray(body.messages) ? body.messages : null
+
+  if (!rawMessages || !rawMessages.length) errors.push('messages is required')
+
+  if (body.mode !== undefined && !CONVERSATION_MODES.includes(body.mode)) errors.push('invalid mode')
+  if (body.feedbackMode !== undefined && !FEEDBACK_MODES.includes(body.feedbackMode)) errors.push('invalid feedbackMode')
+  if (body.difficulty !== undefined && !DIFFICULTIES.includes(body.difficulty)) errors.push('invalid difficulty')
+  if (body.provider !== undefined && !['ollama', 'cloud'].includes(body.provider)) errors.push('provider must be "ollama" or "cloud"')
+  if (body.explanationLanguage !== undefined && !['english', 'persian', 'bilingual'].includes(body.explanationLanguage)) {
+    errors.push('explanationLanguage must be english, persian or bilingual')
+  }
+
+  const messages = (rawMessages ?? [])
+    .filter(item => item && typeof item === 'object' && typeof item.text === 'string' && item.text.trim())
+    .map(item => ({
+      role: item.role === 'learner' ? 'learner' : 'tutor',
+      text: item.text.slice(0, MAX_MESSAGE_CHARS),
+    }))
+    /* Bounded context window: only the most recent turns reach the model. */
+    .slice(-MAX_MESSAGES)
+
+  if (!errors.length && !messages.length) errors.push('messages contained no usable entries')
+
+  if (!errors.length && messages[messages.length - 1].role !== 'learner') {
+    errors.push('the last message must be from the learner')
+  }
+
+  const totalChars = messages.reduce((sum, message) => sum + message.text.length, 0)
+  if (totalChars > config.maxSubmissionChars * 2) errors.push('conversation context is too large')
+
+  if (errors.length) return { ok: false, errors }
+
+  const learner = body.learner && typeof body.learner === 'object' ? body.learner : {}
+  const scenario = body.scenario && typeof body.scenario === 'object' ? body.scenario : null
+
+  return {
+    ok: true,
+    value: {
+      messages,
+      mode: body.mode ?? 'free',
+      feedbackMode: body.feedbackMode ?? 'gentle',
+      difficulty: body.difficulty ?? 'B1',
+      explanationLanguage: body.explanationLanguage ?? 'bilingual',
+      provider: body.provider,
+      model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
+      scenario: scenario
+        ? {
+            title: clip(scenario.title, 200),
+            aiRole: clip(scenario.aiRole, 300),
+            learnerRole: clip(scenario.learnerRole, 300),
+            objective: clip(scenario.objective, 500),
+            context: clip(scenario.context, 1000),
+            vocabulary: Array.isArray(scenario.vocabulary)
+              ? scenario.vocabulary.filter(item => typeof item === 'string').slice(0, 10)
+              : [],
+          }
+        : null,
+      learner: {
+        nativeLanguage: clip(learner.nativeLanguage, 50),
+        interests: Array.isArray(learner.interests)
+          ? learner.interests.filter(item => typeof item === 'string').slice(0, 5)
+          : [],
+        goals: Array.isArray(learner.goals)
+          ? learner.goals.filter(item => typeof item === 'string').slice(0, 4)
+          : [],
+        recurringMistakes: Array.isArray(learner.recurringMistakes)
+          ? learner.recurringMistakes.filter(item => typeof item === 'string').slice(0, 5)
+          : [],
+      },
+    },
+  }
+}
+
+const FEEDBACK_MODE_CORRECTION_LIMITS = { natural: 0, gentle: 2, teacher: 5 }
+
+/**
+ * Validate a chat model response. "reply" is hard-required. Corrections are
+ * trusted even less than in writing evaluation: they must quote the
+ * learner's LAST message, and the feedback-mode contract is enforced
+ * server-side (natural mode strips everything, gentle keeps only errors).
+ */
+export function validateChatResponse(raw, lastLearnerMessage, feedbackMode) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const reply = str(raw.reply, 4000)
+
+  if (!reply) return { ok: false, errors: ['missing "reply"'] }
+
+  const limit = FEEDBACK_MODE_CORRECTION_LIMITS[feedbackMode] ?? 2
+  const normalizedMessage = normalizeForMatch(lastLearnerMessage)
+  const seen = new Set()
+  const corrections = []
+  const warnings = []
+
+  for (const item of Array.isArray(raw.corrections) ? raw.corrections : []) {
+    if (corrections.length >= limit) break
+    if (!item || typeof item !== 'object') continue
+
+    const original = str(item.original, 500)
+    const corrected = str(item.corrected, 500)
+    const explanation = str(item.explanation, 1000)
+
+    if (!original || !corrected || !explanation) continue
+
+    if (!normalizedMessage.includes(normalizeForMatch(original))) {
+      warnings.push('dropped a correction not quoting the learner message')
+      continue
+    }
+
+    const kind = item.kind === 'error' ? 'error' : 'style'
+
+    /* Gentle mode: important errors only, never style nits. */
+    if (feedbackMode === 'gentle' && kind !== 'error') continue
+
+    const key = normalizeForMatch(original)
+    if (seen.has(key)) continue
+    seen.add(key)
+
+    corrections.push({
+      original,
+      corrected,
+      natural: str(item.natural, 500),
+      category: MISTAKE_CATEGORIES.includes(item.category) ? item.category : 'other',
+      kind,
+      explanation,
+      explanationPersian: str(item.explanationPersian, 1000),
+      example: str(item.example, 500),
+    })
+  }
+
+  return { ok: true, errors: warnings, value: { reply, corrections } }
+}
+
+export function validateSummaryResponse(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const overall = str(raw.overall, 2000)
+
+  if (!overall) return { ok: false, errors: ['missing "overall"'] }
+
+  const strings = (value, limit, chars = 300) =>
+    (Array.isArray(value) ? value : [])
+      .filter(item => typeof item === 'string' && item.trim())
+      .slice(0, limit)
+      .map(item => item.slice(0, chars))
+
+  const corrections = (Array.isArray(raw.corrections) ? raw.corrections : [])
+    .filter(item => item && typeof item === 'object' && str(item.original) && str(item.corrected))
+    .slice(0, 5)
+    .map(item => ({
+      original: str(item.original, 500),
+      corrected: str(item.corrected, 500),
+      category: MISTAKE_CATEGORIES.includes(item.category) ? item.category : 'other',
+      kind: item.kind === 'error' ? 'error' : 'style',
+      explanation: str(item.explanation, 1000),
+      explanationPersian: str(item.explanationPersian, 1000),
+    }))
+
+  const usefulExpressions = (Array.isArray(raw.usefulExpressions) ? raw.usefulExpressions : [])
+    .filter(item => item && typeof item === 'object' && str(item.expression))
+    .slice(0, 5)
+    .map(item => ({
+      expression: str(item.expression, 300),
+      meaning: str(item.meaning, 500),
+      meaningPersian: str(item.meaningPersian, 500),
+    }))
+
+  return {
+    ok: true,
+    errors: [],
+    value: {
+      overall,
+      strengths: strings(raw.strengths, 3),
+      improvements: strings(raw.improvements, 3),
+      corrections,
+      usefulExpressions,
+      suggestedNextActivity: str(raw.suggestedNextActivity, 300),
+    },
+  }
+}
+
+const ASSIST_KINDS = ['translate', 'explain', 'simplify', 'correct']
+
+export function validateAssistRequest(body) {
+  if (!body || typeof body !== 'object') {
+    return { ok: false, errors: ['Body must be a JSON object'] }
+  }
+
+  const errors = []
+
+  if (!ASSIST_KINDS.includes(body.kind)) errors.push('invalid kind')
+
+  const text = typeof body.text === 'string' ? body.text.trim() : ''
+
+  if (!text) errors.push('text is required')
+  if (text.length > 2000) errors.push('text exceeds 2000 characters')
+  if (body.provider !== undefined && !['ollama', 'cloud'].includes(body.provider)) errors.push('provider must be "ollama" or "cloud"')
+
+  if (errors.length) return { ok: false, errors }
+
+  return {
+    ok: true,
+    value: {
+      kind: body.kind,
+      text,
+      explanationLanguage: ['english', 'persian', 'bilingual'].includes(body.explanationLanguage)
+        ? body.explanationLanguage
+        : 'bilingual',
+      provider: body.provider,
+      model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
+    },
+  }
+}
+
+export function validateAssistResponse(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const reply = str(raw.reply, 3000)
+
+  if (!reply) return { ok: false, errors: ['missing "reply"'] }
+
+  return { ok: true, errors: [], value: { reply } }
+}
+
 /** Strip common markdown fences and extract the outermost JSON object. */
 export function extractJson(content) {
   const trimmed = content.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '')

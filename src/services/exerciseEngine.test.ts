@@ -152,6 +152,71 @@ describe('validateAnswer', () => {
     })
 })
 
+describe('exact-answer regression (learner answer must never be marked wrong when identical)', () => {
+    const correctSentence: GrammarCorrectionExercise = {
+        id: 'gc-movie',
+        type: 'grammar-correction',
+        skill: 'grammar',
+        incorrectSentence: 'I saw an movie last night.',
+        acceptedAnswers: ['I saw a movie last night.'],
+    }
+
+    it('the exact accepted answer is correct, with and without final punctuation', () => {
+        expect(validateAnswer(correctSentence, { kind: 'text', text: 'I saw a movie last night.' }).correct).toBe(true)
+        expect(validateAnswer(correctSentence, { kind: 'text', text: 'I saw a movie last night' }).correct).toBe(true)
+        expect(validateAnswer(correctSentence, { kind: 'text', text: 'i saw a movie last night.' }).correct).toBe(true)
+    })
+
+    it('the UNCORRECTED original sentence stays incorrect (no typo tolerance for grammar-correction)', () => {
+        expect(validateAnswer(correctSentence, { kind: 'text', text: 'I saw an movie last night.' }).correct).toBe(false)
+    })
+
+    it('the learner answer is preserved verbatim and the expected answer is independent', () => {
+        const result = validateAnswer(correctSentence, { kind: 'text', text: 'I saw an movie last night.' })
+
+        expect(result.received).toBe('I saw an movie last night.')
+        expect(result.expected).toBe('I saw a movie last night.')
+        expect(result.received).not.toBe(result.expected)
+    })
+
+    it('repeated validations are independent — a previous attempt cannot affect the current one', () => {
+        const wrong = validateAnswer(correctSentence, { kind: 'text', text: 'I saw an movie last night.' })
+        const right = validateAnswer(correctSentence, { kind: 'text', text: 'I saw a movie last night.' })
+        const wrongAgain = validateAnswer(correctSentence, { kind: 'text', text: 'totally different' })
+
+        expect(wrong.correct).toBe(false)
+        expect(right.correct).toBe(true)
+        expect(wrongAgain.correct).toBe(false)
+        expect(right.received).toBe('I saw a movie last night.')
+        expect(wrongAgain.received).toBe('totally different')
+    })
+
+    it('selecting the correct multiple-choice option is correct and received shows the chosen label', () => {
+        const result = validateAnswer(multipleChoice, { kind: 'choice', index: 1 })
+
+        expect(result.correct).toBe(true)
+        expect(result.received).toBe('goes')
+
+        const wrong = validateAnswer(multipleChoice, { kind: 'choice', index: 0 })
+        expect(wrong.correct).toBe(false)
+        expect(wrong.received).toBe('go')
+        expect(wrong.expected).toBe('goes')
+    })
+
+    it('matching shows the learner actual pairing, not a placeholder', () => {
+        const result = validateAnswer(matching, {
+            kind: 'matching',
+            matches: [
+                { leftIndex: 0, rightIndex: 1 },
+                { leftIndex: 1, rightIndex: 0 },
+            ],
+        })
+
+        expect(result.correct).toBe(false)
+        expect(result.received).toBe('big → tiny, small → large')
+    })
+})
+
 describe('countWords', () => {
     it('counts whitespace-separated words, ignoring surrounding space', () => {
         expect(countWords('  hello   world  ')).toBe(2)

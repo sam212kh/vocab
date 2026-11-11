@@ -2,6 +2,7 @@
 import { computed, ref, watch } from 'vue'
 
 import { shuffle, validateAnswer } from '../../services/exerciseEngine'
+import { annotateNumbers } from '../../services/numbers'
 import SpeechButton from '../ui/SpeechButton.vue'
 
 import type {
@@ -140,6 +141,16 @@ const segmentCount = computed(() =>
         ? props.exercise.segments.length
         : 0
 )
+
+/**
+ * After a dictation attempt, surface both forms of any numbers in the
+ * sentence (digits — English words — Persian) as learning assistance.
+ */
+const numberAnnotations = computed(() => {
+    if (props.exercise.type !== 'dictation' || !answered.value) return []
+
+    return annotateNumbers(props.exercise.audioText)
+})
 
 function submitMatching() {
     if (matchSelection.value.some(selection => selection === null)) return
@@ -324,16 +335,24 @@ function submitMatching() {
             </button>
         </form>
 
-        <!-- Result -->
+        <!-- Result: the learner's EXACT submitted answer and the canonical
+             expected answer are always shown separately — one is never
+             substituted for the other. -->
         <div v-if="answered" class="mt-6 rounded-xl p-4" :class="result!.correct ? 'bg-green-50' : 'bg-red-50'">
             <p class="font-semibold" :class="result!.correct ? 'text-green-700' : 'text-red-700'">
-                {{ result!.correct ? '✅ Correct' : '❌ Not quite' }}
+                {{ result!.correct ? '✅ Correct! Well done.' : '❌ Not quite' }}
             </p>
 
-            <p v-if="!result!.correct" class="mt-2 text-sm text-gray-700">
-                <span class="text-gray-500">Answer:</span>
-                <span class="font-medium">{{ result!.expected }}</span>
-            </p>
+            <div class="mt-3 space-y-2 text-sm">
+                <p>
+                    <span class="block text-xs text-gray-500">Your answer</span>
+                    <span class="font-medium text-gray-800">{{ result!.received }}</span>
+                </p>
+                <p>
+                    <span class="block text-xs text-gray-500">Correct answer</span>
+                    <span class="font-medium text-gray-800">{{ result!.expected }}</span>
+                </p>
+            </div>
 
             <p v-if="result!.feedback" class="mt-2 text-sm text-gray-600">
                 {{ result!.feedback }}
@@ -345,6 +364,32 @@ function submitMatching() {
                 dir="rtl"
             >
                 {{ exercise.explanationPersian }}
+            </p>
+        </div>
+
+        <!-- Number learning assistance (dictation) -->
+        <div
+            v-if="numberAnnotations.length"
+            class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-4"
+        >
+            <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">
+                Numbers in this sentence
+            </p>
+
+            <div
+                v-for="item in numberAnnotations"
+                :key="item.digits"
+                class="mt-2 flex flex-wrap items-baseline gap-x-3 text-sm"
+            >
+                <span class="font-semibold text-gray-900">{{ item.digits }}</span>
+                <span class="text-gray-600">{{ item.english }}</span>
+                <span class="text-gray-600" dir="rtl">{{ item.persian }}</span>
+            </div>
+
+            <p class="mt-2 text-xs text-gray-400">
+                {{ numberAnnotations.some(item => item.reading === 'decimal')
+                    ? 'Decimals are read digit by digit after "point" (25.50 — twenty-five point five zero). '
+                    : '' }}Both the digit form and the written form are accepted in your answer — but only for the same value.
             </p>
         </div>
     </div>

@@ -4,13 +4,21 @@ import { loadConfig } from './config.mjs'
 import { AIProviderError, createRegistry } from './providers.mjs'
 import {
   WRITING_EVALUATOR_PROMPT_VERSION,
+  buildAssistPrompt,
+  buildConversationPrompt,
   buildRepairPrompt,
+  buildSummaryPrompt,
   buildWritingEvaluationPrompt,
 } from './prompts.mjs'
 import {
   extractJson,
+  validateAssistRequest,
+  validateAssistResponse,
+  validateChatRequest,
+  validateChatResponse,
   validateEvaluateRequest,
   validateEvaluation,
+  validateSummaryResponse,
 } from './validation.mjs'
 
 const { config, problems } = loadConfig()
@@ -113,16 +121,137 @@ function providerErrorResponse(res, error, providerId) {
   reply(res, status, { error: message, code: error.code, provider: providerId })
 }
 
-async function generateWithProvider(provider, model, prompt) {
-  return provider.generate({
+/**
+ * Shared generation pipeline used by every AI endpoint:
+ * provider resolution + model allowlist + explicit fallback + bounded
+ * repair + response validation. Replies with the error itself and returns
+ * null on failure; returns { provider, response, value, warnings,
+ * fallbackUsed, attempt } on success.
+ */
+async function runGeneration(res, { body, requestedProvider, requestedModel, prompt, validate, maxTokens = 4000, temperature = 0.4 }) {
+  let provider = registry.resolve(requestedProvider)
+  let model = requestedModel ?? registry.modelFor(provider.id)
+  let fallbackUsed = false
+
+  const allowedModels = registry.modelsFor(provider.id)
+  if (requestedModel && allowedModels.length && !allowedModels.includes(requestedModel)) {
+    reply(res, 400, { error: `Model "${requestedModel}" is not configured for provider "${provider.id}"` })
+    return null
+  }
+
+  const generationOptions = () => ({
     system: prompt.system,
     user: prompt.user,
     model,
-    temperature: 0.3,
-    maxTokens: 4000,
+    temperature,
+    maxTokens,
     timeoutMs: config.requestTimeoutMs,
     json: true,
   })
+
+  let response
+
+  try {
+    response = await provider.generate(generationOptions())
+  } catch (error) {
+    if (!(error instanceof AIProviderError)) {
+      log('ai.unexpected.error', { message: error.message })
+      reply(res, 500, { error: 'Internal evaluation error' })
+      return null
+    }
+
+    /* Explicit, configured fallback only — never silent. */
+    const fallback = config.fallbackProvider && body.allowFallback === true
+      ? registry.get(config.fallbackProvider)
+      : null
+
+    if (!fallback || fallback.id === provider.id) {
+      providerErrorResponse(res, error, provider.id)
+      return null
+    }
+
+    log('ai.fallback', { from: provider.id, to: fallback.id, code: error.code })
+    provider = fallback
+    model = registry.modelFor(fallback.id)
+    fallbackUsed = true
+
+    try {
+      response = await provider.generate(generationOptions())
+    } catch (fallbackError) {
+      if (fallbackError instanceof AIProviderError) {
+        providerErrorResponse(res, fallbackError, provider.id)
+      } else {
+        log('ai.unexpected.error', { message: fallbackError.message })
+        reply(res, 500, { error: 'Internal evaluation error' })
+      }
+      return null
+    }
+  }
+
+  let attempt = 0
+  let result
+
+  for (;;) {
+    if (response.content.length > config.maxResponseChars) {
+      result = { ok: false, errors: ['model response exceeds the size limit'] }
+    } else {
+      const parsed = extractJson(response.content)
+      result = parsed === null
+        ? { ok: false, errors: ['response is not valid JSON'] }
+        : validate(parsed)
+    }
+
+    if (result.ok || attempt >= config.maxRepairAttempts) break
+
+    attempt++
+    log('ai.repair.attempt', { provider: provider.id, attempt, errors: result.errors.slice(0, 3) })
+
+    try {
+      response = await provider.generate({
+        ...generationOptions(),
+        user: buildRepairPrompt(prompt.user, result.errors),
+        temperature: 0.2,
+      })
+    } catch (error) {
+      if (error instanceof AIProviderError) {
+        providerErrorResponse(res, error, provider.id)
+      } else {
+        reply(res, 500, { error: 'Internal evaluation error' })
+      }
+      return null
+    }
+  }
+
+  if (!result.ok) {
+    log('ai.validation.failed', { provider: provider.id, model, errors: result.errors.slice(0, 5) })
+    reply(res, 502, {
+      error: 'The AI response could not be validated. Your text was not lost — try again or switch provider.',
+      code: 'invalid-model-output',
+      provider: provider.id,
+    })
+    return null
+  }
+
+  return {
+    provider,
+    response,
+    value: result.value ?? result.evaluation,
+    warnings: result.errors,
+    fallbackUsed,
+    attempt,
+  }
+}
+
+function meta(outcome, promptVersion, started) {
+  return {
+    provider: outcome.provider.id,
+    model: outcome.response.model,
+    promptVersion,
+    durationMs: Date.now() - started,
+    fallbackUsed: outcome.fallbackUsed,
+    warnings: outcome.warnings,
+    usage: outcome.response.usage ?? null,
+  }
 }
 
 async function handleEvaluateWriting(req, res) {
@@ -137,16 +266,6 @@ async function handleEvaluateWriting(req, res) {
 
   const request = validation.value
 
-  let provider = registry.resolve(request.provider)
-  let model = request.model ?? registry.modelFor(provider.id)
-  let fallbackUsed = false
-
-  /* Only models explicitly configured server-side may be requested. */
-  const allowedModels = registry.modelsFor(provider.id)
-  if (request.model && allowedModels.length && !allowedModels.includes(request.model)) {
-    return reply(res, 400, { error: `Model "${request.model}" is not configured for provider "${provider.id}"` })
-  }
-
   const prompt = buildWritingEvaluationPrompt({
     text: request.text,
     task: request.task,
@@ -156,112 +275,162 @@ async function handleEvaluateWriting(req, res) {
   })
 
   const started = Date.now()
-  let response
 
-  try {
-    response = await generateWithProvider(provider, model, prompt)
-  } catch (error) {
-    if (!(error instanceof AIProviderError)) {
-      log('ai.unexpected.error', { message: error.message })
-      return reply(res, 500, { error: 'Internal evaluation error' })
-    }
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    temperature: 0.3,
+    validate: parsed => validateEvaluation(parsed, request.text),
+  })
 
-    /*
-     * Explicit, configured fallback only. The learner's chosen provider
-     * failed; if AI_FALLBACK_PROVIDER is set AND the client allowed
-     * fallback, retry there — and tell the client that happened, since
-     * their text is being sent to a different provider.
-     */
-    const fallback = config.fallbackProvider && body.allowFallback === true
-      ? registry.get(config.fallbackProvider)
-      : null
-
-    if (!fallback || fallback.id === provider.id) {
-      return providerErrorResponse(res, error, provider.id)
-    }
-
-    log('ai.fallback', { from: provider.id, to: fallback.id, code: error.code })
-    provider = fallback
-    model = registry.modelFor(fallback.id)
-    fallbackUsed = true
-
-    try {
-      response = await generateWithProvider(provider, model, prompt)
-    } catch (fallbackError) {
-      if (fallbackError instanceof AIProviderError) {
-        return providerErrorResponse(res, fallbackError, provider.id)
-      }
-      log('ai.unexpected.error', { message: fallbackError.message })
-      return reply(res, 500, { error: 'Internal evaluation error' })
-    }
-  }
-
-  /* Parse + validate the untrusted model output, with bounded repair. */
-  let attempt = 0
-  let result
-
-  for (;;) {
-    if (response.content.length > config.maxResponseChars) {
-      result = { ok: false, errors: ['model response exceeds the size limit'] }
-    } else {
-      const parsed = extractJson(response.content)
-      result = parsed === null
-        ? { ok: false, errors: ['response is not valid JSON'] }
-        : validateEvaluation(parsed, request.text)
-    }
-
-    if (result.ok || attempt >= config.maxRepairAttempts) break
-
-    attempt++
-    log('ai.repair.attempt', { provider: provider.id, attempt, errors: result.errors.slice(0, 3) })
-
-    try {
-      response = await provider.generate({
-        system: prompt.system,
-        user: buildRepairPrompt(prompt.user, result.errors),
-        model,
-        temperature: 0.2,
-        maxTokens: 4000,
-        timeoutMs: config.requestTimeoutMs,
-        json: true,
-      })
-    } catch (error) {
-      if (error instanceof AIProviderError) return providerErrorResponse(res, error, provider.id)
-      return reply(res, 500, { error: 'Internal evaluation error' })
-    }
-  }
-
-  if (!result.ok) {
-    log('ai.validation.failed', { provider: provider.id, model, errors: result.errors.slice(0, 5) })
-    return reply(res, 502, {
-      error: 'The AI response could not be validated as structured feedback. Your text was not lost — try again or switch provider.',
-      code: 'invalid-model-output',
-      provider: provider.id,
-    })
-  }
+  if (!outcome) return
 
   log('ai.evaluation.ok', {
-    provider: provider.id,
-    model: response.model,
+    provider: outcome.provider.id,
+    model: outcome.response.model,
     durationMs: Date.now() - started,
     textChars: request.text.length,
-    sentences: result.evaluation.sentences.length,
-    repairAttempts: attempt,
-    fallbackUsed,
-    warnings: result.errors,
+    sentences: outcome.value.sentences.length,
+    repairAttempts: outcome.attempt,
+    fallbackUsed: outcome.fallbackUsed,
+    warnings: outcome.warnings,
   })
 
   reply(res, 200, {
-    evaluation: result.evaluation,
-    meta: {
-      provider: provider.id,
-      model: response.model,
-      promptVersion: WRITING_EVALUATOR_PROMPT_VERSION,
-      durationMs: Date.now() - started,
-      fallbackUsed,
-      warnings: result.errors,
-      usage: response.usage ?? null,
-    },
+    evaluation: outcome.value,
+    meta: meta(outcome, WRITING_EVALUATOR_PROMPT_VERSION, started),
+  })
+}
+
+async function handleChat(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  const validation = validateChatRequest(body, config)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+
+  const prompt = buildConversationPrompt(request)
+
+  const lastLearnerMessage = request.messages[request.messages.length - 1].text
+
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    temperature: 0.6,
+    validate: parsed => validateChatResponse(parsed, lastLearnerMessage, request.feedbackMode),
+  })
+
+  if (!outcome) return
+
+  log('ai.chat.ok', {
+    provider: outcome.provider.id,
+    model: outcome.response.model,
+    mode: request.mode,
+    feedbackMode: request.feedbackMode,
+    durationMs: Date.now() - started,
+    messages: request.messages.length,
+    corrections: outcome.value.corrections.length,
+    fallbackUsed: outcome.fallbackUsed,
+  })
+
+  reply(res, 200, {
+    reply: outcome.value.reply,
+    corrections: outcome.value.corrections,
+    meta: meta(outcome, prompt.promptVersion, started),
+  })
+}
+
+async function handleSummary(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  /* Summary reuses the chat request validation for transcript + learner. */
+  const validation = validateChatRequest({ ...body, feedbackMode: 'teacher' }, config)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+
+  const prompt = buildSummaryPrompt({
+    messages: request.messages,
+    mode: request.mode,
+    scenarioTitle: request.scenario?.title,
+    explanationLanguage: request.explanationLanguage,
+    learner: request.learner,
+  })
+
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    temperature: 0.3,
+    validate: validateSummaryResponse,
+  })
+
+  if (!outcome) return
+
+  log('ai.summary.ok', {
+    provider: outcome.provider.id,
+    durationMs: Date.now() - started,
+    messages: request.messages.length,
+    fallbackUsed: outcome.fallbackUsed,
+  })
+
+  reply(res, 200, {
+    summary: outcome.value,
+    meta: meta(outcome, prompt.promptVersion, started),
+  })
+}
+
+async function handleAssist(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  const validation = validateAssistRequest(body)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+
+  const prompt = buildAssistPrompt(request)
+
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    maxTokens: 1000,
+    temperature: 0.3,
+    validate: validateAssistResponse,
+  })
+
+  if (!outcome) return
+
+  log('ai.assist.ok', { provider: outcome.provider.id, kind: request.kind, durationMs: Date.now() - started })
+
+  reply(res, 200, {
+    reply: outcome.value.reply,
+    meta: meta(outcome, prompt.promptVersion, started),
   })
 }
 
@@ -287,6 +456,13 @@ async function handleProviders(_req, res) {
   reply(res, 200, { defaultProvider: config.defaultProvider, fallbackProvider: config.fallbackProvider || null, providers: results })
 }
 
+const POST_ROUTES = new Map([
+  ['/api/ai/evaluate-writing', handleEvaluateWriting],
+  ['/api/ai/chat', handleChat],
+  ['/api/ai/conversation-summary', handleSummary],
+  ['/api/ai/assist', handleAssist],
+])
+
 const server = createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', 'http://localhost')
 
@@ -305,14 +481,16 @@ const server = createServer(async (req, res) => {
     return handleProviders(req, res)
   }
 
-  if (req.method === 'POST' && url.pathname === '/api/ai/evaluate-writing') {
+  const handler = req.method === 'POST' ? POST_ROUTES.get(url.pathname) : undefined
+
+  if (handler) {
     if (!withinRateLimit(req)) {
       res.setHeader('Retry-After', '60')
       return reply(res, 429, { error: 'Rate limit exceeded — try again in a minute' })
     }
 
     try {
-      return await handleEvaluateWriting(req, res)
+      return await handler(req, res)
     } catch (error) {
       log('ai.unhandled.error', { message: error.message })
       if (!res.headersSent) reply(res, 500, { error: 'Internal evaluation error' })

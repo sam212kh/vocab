@@ -263,3 +263,223 @@ test('unknown routes return 404', async () => {
   const response = await fetch(`${base}/api/ai/unknown`)
   assert.equal(response.status, 404)
 })
+
+/* ================= conversation ================= */
+
+const LEARNER_SENTENCE = 'I am working in this company since five years.'
+
+const CHAT_MESSAGES = [
+  { role: 'tutor', text: 'Nice to meet you! What do you do for work?' },
+  { role: 'learner', text: LEARNER_SENTENCE },
+]
+
+const VALID_CHAT_RESPONSE = {
+  reply: "That's interesting! What kind of projects do you work on?",
+  corrections: [
+    {
+      original: 'I am working in this company since five years.',
+      corrected: 'I have been working at this company for five years.',
+      natural: "I've been with this company for five years.",
+      category: 'tense',
+      kind: 'error',
+      explanation: 'Use present perfect continuous with "for" + a duration.',
+      explanationPersian: 'برای بیان مدت زمان از حال کامل استمراری استفاده می‌شود.',
+      example: 'I have been living here for two years.',
+    },
+    {
+      original: 'I am working in this company since five years.',
+      corrected: 'duplicate — should be dropped',
+      category: 'tense',
+      kind: 'error',
+      explanation: 'dup',
+      explanationPersian: '',
+      example: '',
+    },
+  ],
+}
+
+test('chat returns a validated reply with corrections in gentle mode', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify(VALID_CHAT_RESPONSE)
+
+  const response = await post('/api/ai/chat', {
+    messages: CHAT_MESSAGES,
+    mode: 'professional',
+    feedbackMode: 'gentle',
+    difficulty: 'B1',
+    learner: { nativeLanguage: 'Persian' },
+  })
+
+  const body = await response.json()
+
+  assert.equal(response.status, 200)
+  assert.match(body.reply, /interesting/)
+  assert.equal(body.corrections.length, 1, 'duplicate correction must be dropped')
+  assert.equal(body.corrections[0].kind, 'error')
+  assert.ok(body.corrections[0].explanationPersian.length > 0)
+  assert.equal(body.meta.promptVersion, 'conversation-tutor-v1')
+})
+
+test('natural feedback mode strips ALL corrections server-side', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify(VALID_CHAT_RESPONSE)
+
+  const response = await post('/api/ai/chat', {
+    messages: CHAT_MESSAGES,
+    feedbackMode: 'natural',
+  })
+
+  const body = await response.json()
+
+  assert.equal(response.status, 200)
+  assert.equal(body.corrections.length, 0)
+})
+
+test('gentle mode drops style-only corrections', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({
+    reply: 'Nice!',
+    corrections: [{
+      original: LEARNER_SENTENCE,
+      corrected: 'A smoother phrasing.',
+      category: 'naturalness',
+      kind: 'style',
+      explanation: 'Just style.',
+      explanationPersian: '',
+      example: '',
+    }],
+  })
+
+  const response = await post('/api/ai/chat', { messages: CHAT_MESSAGES, feedbackMode: 'gentle' })
+  const body = await response.json()
+
+  assert.equal(body.corrections.length, 0)
+})
+
+test('corrections not quoting the learner message are dropped', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({
+    reply: 'Okay!',
+    corrections: [{
+      original: 'A sentence the learner never wrote.',
+      corrected: 'x',
+      category: 'tense',
+      kind: 'error',
+      explanation: 'hallucinated',
+      explanationPersian: '',
+      example: '',
+    }],
+  })
+
+  const response = await post('/api/ai/chat', { messages: CHAT_MESSAGES, feedbackMode: 'teacher' })
+  const body = await response.json()
+
+  assert.equal(response.status, 200)
+  assert.equal(body.corrections.length, 0)
+  assert.match(body.meta.warnings[0], /dropped a correction/)
+})
+
+test('roleplay prompt version is used when a scenario is provided', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ reply: 'Welcome to the interview!', corrections: [] })
+
+  const response = await post('/api/ai/chat', {
+    messages: CHAT_MESSAGES,
+    mode: 'roleplay',
+    scenario: {
+      title: 'Job Interview',
+      aiRole: 'Hiring manager',
+      learnerRole: 'Candidate',
+      objective: 'Answer questions',
+      context: 'An interview.',
+    },
+  })
+
+  const body = await response.json()
+
+  assert.equal(body.meta.promptVersion, 'roleplay-tutor-v1')
+})
+
+test('chat request validation: last message must be from the learner; enums checked', async () => {
+  const tutorLast = await post('/api/ai/chat', {
+    messages: [{ role: 'learner', text: 'Hi' }, { role: 'tutor', text: 'Hello!' }],
+  })
+  assert.equal(tutorLast.status, 400)
+
+  const badMode = await post('/api/ai/chat', { messages: CHAT_MESSAGES, mode: 'karaoke' })
+  assert.equal(badMode.status, 400)
+
+  const badFeedback = await post('/api/ai/chat', { messages: CHAT_MESSAGES, feedbackMode: 'brutal' })
+  assert.equal(badFeedback.status, 400)
+
+  const empty = await post('/api/ai/chat', { messages: [] })
+  assert.equal(empty.status, 400)
+})
+
+test('chat missing reply triggers repair then safe 502; transcript is untouched client-side', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ corrections: [] })
+
+  const response = await post('/api/ai/chat', { messages: CHAT_MESSAGES })
+  const body = await response.json()
+
+  assert.equal(response.status, 502)
+  assert.equal(body.code, 'invalid-model-output')
+})
+
+test('conversation summary returns validated structure with caps', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({
+    overall: 'A good conversation with clear progress on work vocabulary.',
+    strengths: ['Good vocabulary', 'Clear questions', 'Confidence', 'extra strength dropped'],
+    improvements: ['Present perfect'],
+    corrections: Array.from({ length: 8 }, (_, i) => ({
+      original: `mistake ${i}`,
+      corrected: `fixed ${i}`,
+      category: 'tense',
+      kind: 'error',
+      explanation: 'x',
+      explanationPersian: '',
+    })),
+    usefulExpressions: [{ expression: 'by the way', meaning: 'introducing a new topic', meaningPersian: 'راستی' }],
+    suggestedNextActivity: 'Practice the present perfect grammar topic.',
+  })
+
+  const response = await post('/api/ai/conversation-summary', {
+    messages: CHAT_MESSAGES,
+    mode: 'professional',
+  })
+
+  const body = await response.json()
+
+  assert.equal(response.status, 200)
+  assert.equal(body.summary.strengths.length, 3, 'strengths capped at 3')
+  assert.equal(body.summary.corrections.length, 5, 'corrections capped at 5')
+  assert.equal(body.summary.usefulExpressions[0].meaningPersian, 'راستی')
+  assert.equal(body.meta.promptVersion, 'conversation-summary-v1')
+})
+
+test('assist validates kind and text and returns a reply', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ reply: 'اتوبوس تا ده دقیقه دیگر حرکت می‌کند.' })
+
+  const ok = await post('/api/ai/assist', { kind: 'translate', text: 'The bus leaves in ten minutes.' })
+  const body = await ok.json()
+
+  assert.equal(ok.status, 200)
+  assert.ok(body.reply.length > 0)
+
+  const badKind = await post('/api/ai/assist', { kind: 'summon', text: 'hello' })
+  assert.equal(badKind.status, 400)
+
+  const noText = await post('/api/ai/assist', { kind: 'explain', text: '' })
+  assert.equal(noText.status, 400)
+})
+
+test('chat provider failure returns safe error and respects no-silent-fallback', async () => {
+  process.env.AI_TEST_FAILURE = 'unreachable'
+  process.env.AI_TEST_FAILURE_PROVIDER = 'ollama'
+  process.env.AI_TEST_CLOUD_RESPONSE = JSON.stringify({ reply: 'Fallback reply', corrections: [] })
+
+  const noFallback = await post('/api/ai/chat', { messages: CHAT_MESSAGES })
+  assert.equal(noFallback.status, 503)
+
+  const withFallback = await post('/api/ai/chat', { messages: CHAT_MESSAGES, allowFallback: true })
+  const body = await withFallback.json()
+
+  assert.equal(withFallback.status, 200)
+  assert.equal(body.meta.provider, 'cloud')
+  assert.equal(body.meta.fallbackUsed, true)
+})

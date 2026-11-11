@@ -122,6 +122,104 @@ export async function checkAIHealth(): Promise<boolean> {
     }
 }
 
+export interface ChatPayloadMessage {
+    role: 'learner' | 'tutor'
+    text: string
+}
+
+export interface ChatPayload {
+    messages: ChatPayloadMessage[]
+    mode: string
+    scenario?: {
+        title: string
+        aiRole: string
+        learnerRole: string
+        objective: string
+        context: string
+        vocabulary?: string[]
+    } | null
+    difficulty: string
+    feedbackMode: 'natural' | 'gentle' | 'teacher'
+    explanationLanguage: 'english' | 'persian' | 'bilingual'
+    provider?: 'ollama' | 'cloud'
+    model?: string
+    allowFallback: boolean
+    learner: {
+        nativeLanguage: string
+        interests: string[]
+        goals: string[]
+        recurringMistakes: string[]
+    }
+}
+
+export interface GatewayChatResponse {
+    reply: string
+    corrections: unknown[]
+    meta: GatewayEvaluationResponse['meta']
+}
+
+export interface GatewaySummaryResponse {
+    summary: {
+        overall: string
+        strengths: string[]
+        improvements: string[]
+        corrections: unknown[]
+        usefulExpressions: unknown[]
+        suggestedNextActivity: string
+    }
+    meta: GatewayEvaluationResponse['meta']
+}
+
+async function postJson<T>(path: string, payload: unknown, requiredKey: keyof T): Promise<T> {
+    const response = await request(path, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    })
+
+    const body = (await response.json().catch(() => null)) as
+        | (Partial<T> & { error?: string; code?: string; provider?: string })
+        | null
+
+    if (!response.ok || !body) {
+        const code = (body?.code as AIClientErrorCode) ??
+            (response.status === 400 ? 'bad-request' : 'provider-error')
+
+        throw new AIClientError(
+            code,
+            body?.error ?? `AI request failed (HTTP ${response.status})`,
+            body?.provider ?? null
+        )
+    }
+
+    if (body[requiredKey] === undefined || body[requiredKey] === null) {
+        throw new AIClientError('invalid-model-output', 'The AI service returned an incomplete response.')
+    }
+
+    return body as T
+}
+
+export function sendConversationTurn(payload: ChatPayload): Promise<GatewayChatResponse> {
+    return postJson<GatewayChatResponse>('/chat', payload, 'reply')
+}
+
+export function summarizeConversation(
+    payload: Omit<ChatPayload, 'feedbackMode'>
+): Promise<GatewaySummaryResponse> {
+    return postJson<GatewaySummaryResponse>('/conversation-summary', payload, 'summary')
+}
+
+export function assistWithMessage(payload: {
+    kind: 'translate' | 'explain' | 'simplify' | 'correct'
+    text: string
+    explanationLanguage: 'english' | 'persian' | 'bilingual'
+    provider?: 'ollama' | 'cloud'
+    model?: string
+    allowFallback: boolean
+}): Promise<{ reply: string }> {
+    return postJson<{ reply: string }>('/assist', payload, 'reply')
+}
+
 export async function evaluateWriting(
     payload: EvaluateWritingPayload
 ): Promise<GatewayEvaluationResponse> {

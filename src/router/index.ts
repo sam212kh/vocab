@@ -22,6 +22,7 @@ import WritingView from '../views/WritingView.vue'
 import ListeningView from '../views/ListeningView.vue'
 import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
 import AISettingsView from '../views/AISettingsView.vue'
+import ConversationView from '../views/ConversationView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -140,6 +141,11 @@ const router = createRouter({
             path: '/ai-settings',
             name: 'ai-settings',
             component: AISettingsView,
+        },
+        {
+            path: '/conversation',
+            name: 'conversation',
+            component: ConversationView,
         },
     ]
 })

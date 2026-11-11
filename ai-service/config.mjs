@@ -9,10 +9,16 @@ function integer(value, fallback) {
   return Number.isFinite(parsed) && parsed > 0 ? Math.floor(parsed) : fallback
 }
 
+/** Like integer() but allows 0 — port 0 means "pick an ephemeral port" (used by tests). */
+function port(value, fallback) {
+  const parsed = Number(value)
+  return Number.isFinite(parsed) && parsed >= 0 ? Math.floor(parsed) : fallback
+}
+
 export function loadConfig(env = process.env) {
   const config = {
     host: env.AI_HOST ?? '127.0.0.1',
-    port: integer(env.AI_SERVICE_PORT, 8788),
+    port: port(env.AI_SERVICE_PORT, 8788),
     allowedOrigins: (env.AI_ALLOWED_ORIGINS ?? 'http://localhost:5173,http://127.0.0.1:5173')
       .split(',')
       .map(origin => origin.trim().replace(/\/$/, ''))
