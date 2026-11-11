@@ -4,11 +4,18 @@ import { defineStore } from 'pinia'
 import { createVersionedRepository } from '../persistence/versionedStorage'
 import { countWords } from '../services/exerciseEngine'
 
-import type { WritingSubmission } from '../types/writing'
+import type { WritingEvaluation, WritingSubmission } from '../types/writing'
 
 const STORAGE_KEY = 'english-upgrade-writing-history'
 
-const STORAGE_VERSION = 1
+/**
+ * v1 → v2: submissions previously carried `evaluation: null` (a slot that
+ * was never populated before the AI gateway existed). v2 stores
+ * `evaluations: WritingEvaluation[]` so retries append instead of
+ * overwriting. Migration maps any legacy value into an empty array —
+ * no learner text is ever touched.
+ */
+const STORAGE_VERSION = 2
 
 const repository = createVersionedRepository<WritingSubmission[]>({
     key: STORAGE_KEY,
@@ -36,13 +43,27 @@ export const useWritingHistoryStore = defineStore('writingHistory', () => {
             submittedAt: Date.now(),
             constraintsPassed,
             constraintIssues,
-            evaluation: null,
+            evaluations: [],
         }
 
         submissions.value.push(submission)
         save()
 
         return submission
+    }
+
+    /** Appends — previous evaluations of the same submission are kept. */
+    function addEvaluation(submissionId: string, evaluation: WritingEvaluation) {
+        const submission = submissions.value.find(item => item.id === submissionId)
+
+        if (!submission) return
+
+        submission.evaluations.push(evaluation)
+        save()
+    }
+
+    function getSubmission(submissionId: string): WritingSubmission | null {
+        return submissions.value.find(item => item.id === submissionId) ?? null
     }
 
     function getSubmissionsForPrompt(promptId: string): WritingSubmission[] {
@@ -63,6 +84,8 @@ export const useWritingHistoryStore = defineStore('writingHistory', () => {
     return {
         submissions,
         addSubmission,
+        addEvaluation,
+        getSubmission,
         getSubmissionsForPrompt,
         clear,
     }
@@ -73,12 +96,34 @@ function migrateStored(raw: unknown, _storedVersion: number | null): WritingSubm
         return []
     }
 
-    return raw.filter(
-        (item): item is WritingSubmission =>
-            !!item &&
-            typeof item === 'object' &&
-            typeof (item as WritingSubmission).id === 'string' &&
-            typeof (item as WritingSubmission).promptId === 'string' &&
-            typeof (item as WritingSubmission).text === 'string'
-    )
+    return raw
+        .filter(
+            (item): item is Record<string, unknown> =>
+                !!item &&
+                typeof item === 'object' &&
+                typeof (item as Record<string, unknown>).id === 'string' &&
+                typeof (item as Record<string, unknown>).promptId === 'string' &&
+                typeof (item as Record<string, unknown>).text === 'string'
+        )
+        .map(item => ({
+            id: String(item.id),
+            promptId: String(item.promptId),
+            text: String(item.text),
+            wordCount:
+                typeof item.wordCount === 'number' && Number.isFinite(item.wordCount)
+                    ? item.wordCount
+                    : countWords(String(item.text)),
+            submittedAt:
+                typeof item.submittedAt === 'number' && Number.isFinite(item.submittedAt)
+                    ? item.submittedAt
+                    : Date.now(),
+            constraintsPassed: item.constraintsPassed === true,
+            constraintIssues: Array.isArray(item.constraintIssues)
+                ? item.constraintIssues.filter((issue): issue is string => typeof issue === 'string')
+                : [],
+            /* v1 had `evaluation: null` (never populated) — becomes []. */
+            evaluations: Array.isArray(item.evaluations)
+                ? (item.evaluations as WritingEvaluation[])
+                : [],
+        }))
 }

@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:tts": "node --test tts-service/server.test.mjs",
-    "start:tts": "node tts-service/server.mjs"
+    "start:tts": "node tts-service/server.mjs",
+    "test:ai": "node --test ai-service/server.test.mjs",
+    "start:ai": "node ai-service/server.mjs"
   },
   "dependencies": {
     "pinia": "^3.0.3",

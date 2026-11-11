@@ -16,6 +16,11 @@ export interface RecommendationInput {
     dueGrammarTopics?: string[]
     /** Observed per-skill performance summaries (may be empty — never faked). */
     skillSummaries?: SkillPerformanceSummary[]
+    /**
+     * Confirmed-error categories recurring across AI writing evaluations
+     * (from the mistakes store) — style suggestions are excluded upstream.
+     */
+    recurringWritingErrorCategories?: string[]
 }
 
 const GOAL_TO_SKILL: Record<LearningGoalType, SkillName> = {
@@ -115,7 +120,21 @@ export function buildDailyRecommendation(
         })
     }
 
-    /* 2. Repeated mistakes → revisit that skill's module. */
+    /* 2a. Recurring confirmed writing errors → targeted writing practice. */
+    if (remaining > 0 && input.recurringWritingErrorCategories?.length && !coveredSkills.has('writing')) {
+        const categories = input.recurringWritingErrorCategories.slice(0, 3).join(', ')
+
+        push({
+            type: 'writing-practice',
+            label: 'Writing',
+            route: '/writing',
+            estimatedMinutes: Math.min(remaining, 15),
+            skill: 'writing',
+            reason: `AI evaluations found recurring ${categories} errors across your recent writing — targeted practice recommended.`,
+        })
+    }
+
+    /* 2b. Repeated mistakes → revisit that skill's module. */
     const summariesWithRepeats = (input.skillSummaries ?? [])
         .filter(summary => summary.repeatedMistakes.length > 0)
         .sort((a, b) => b.repeatedMistakes.length - a.repeatedMistakes.length)

@@ -3,14 +3,29 @@ import { computed, onMounted, ref } from 'vue'
 
 import { loadWritingManifest } from '../services/writingContent'
 import { countWords, validateAnswer } from '../services/exerciseEngine'
+import {
+    createAIWritingEvaluator,
+    performanceCategoriesFromEvaluation,
+} from '../services/writingEvaluation'
+import { AIClientError } from '../services/aiClient'
 import { useWritingHistoryStore } from '../stores/writingHistory'
 import { usePerformanceStore } from '../stores/performance'
+import { useAISettingsStore } from '../stores/aiSettings'
+import { useMistakesStore } from '../stores/mistakes'
+import { useToastStore } from '../stores/toast'
 
-import type { WritingPrompt } from '../types/writing'
+import WritingFeedback from '../components/writing/WritingFeedback.vue'
+
+import type { WritingEvaluation, WritingPrompt } from '../types/writing'
 import type { WritingResponseExercise } from '../types/exercise'
 
 const writingHistoryStore = useWritingHistoryStore()
 const performanceStore = usePerformanceStore()
+const aiSettingsStore = useAISettingsStore()
+const mistakesStore = useMistakesStore()
+const toastStore = useToastStore()
+
+const aiEvaluator = createAIWritingEvaluator()
 
 const prompts = ref<WritingPrompt[]>([])
 const loading = ref(false)
@@ -21,6 +36,12 @@ const draft = ref('')
 const submitted = ref(false)
 const constraintIssues = ref<string[]>([])
 const showExample = ref(false)
+
+/* AI evaluation state — the learner's text is never touched by any of it. */
+const currentSubmissionId = ref<string | null>(null)
+const evaluating = ref(false)
+const evaluation = ref<WritingEvaluation | null>(null)
+const evaluationError = ref('')
 
 const wordCount = computed(() => countWords(draft.value))
 
@@ -36,6 +57,14 @@ function openPrompt(prompt: WritingPrompt) {
     submitted.value = false
     constraintIssues.value = []
     showExample.value = false
+    resetEvaluationState()
+}
+
+function resetEvaluationState() {
+    currentSubmissionId.value = null
+    evaluating.value = false
+    evaluation.value = null
+    evaluationError.value = ''
 }
 
 function backToList() {
@@ -65,12 +94,14 @@ function submit() {
 
     constraintIssues.value = result.correct || !result.feedback ? [] : [result.feedback]
 
-    writingHistoryStore.addSubmission(
+    const submission = writingHistoryStore.addSubmission(
         prompt.id,
         draft.value,
         result.correct,
         constraintIssues.value
     )
+
+    currentSubmissionId.value = submission.id
 
     performanceStore.record({
         skill: 'writing',
@@ -88,6 +119,64 @@ function writeAgain() {
     submitted.value = false
     constraintIssues.value = []
     showExample.value = false
+    resetEvaluationState()
+}
+
+async function requestEvaluation() {
+    const prompt = activePrompt.value
+    const submissionId = currentSubmissionId.value
+
+    if (!prompt || !submissionId || evaluating.value) return
+
+    evaluating.value = true
+    evaluationError.value = ''
+
+    try {
+        const result = await aiEvaluator.evaluate(prompt, draft.value)
+
+        evaluation.value = result
+
+        /* Persist (append, never overwrite) + feed learning intelligence. */
+        writingHistoryStore.addEvaluation(submissionId, result)
+        mistakesStore.recordFromEvaluation(submissionId, result.sentences)
+
+        const errorCategories = performanceCategoriesFromEvaluation(result)
+
+        performanceStore.record({
+            skill: 'writing',
+            activityId: `${prompt.id}-ai-evaluation`,
+            lessonId: prompt.id,
+            difficulty: prompt.difficulty ?? null,
+            result: errorCategories.length ? 'incorrect' : 'correct',
+            errorCategories,
+            timeSpent: result.durationMs,
+        })
+
+        if (result.fallbackUsed) {
+            toastStore.push(
+                `Your chosen provider failed — this evaluation came from the fallback provider (${result.provider}).`,
+                'info'
+            )
+        }
+    } catch (err) {
+        if (err instanceof AIClientError) {
+            const messages: Record<string, string> = {
+                'gateway-unreachable': 'The AI service is not running. Your text is saved — start the service and retry.',
+                unreachable: 'The AI provider is not reachable. Your text is saved — check AI Settings and retry.',
+                timeout: 'The AI provider timed out. Your text is saved — you can retry.',
+                'model-unavailable': err.message,
+                auth: 'Cloud API credentials were rejected on the server. Your text is saved.',
+                'rate-limited': 'The AI provider is rate-limited right now. Your text is saved — retry in a minute.',
+                'invalid-model-output': 'The model returned an unusable response. Your text is saved — retry or switch model in AI Settings.',
+            }
+
+            evaluationError.value = messages[err.code] ?? `${err.message} Your text is saved.`
+        } else {
+            evaluationError.value = 'Unexpected evaluation error. Your text is saved.'
+        }
+    } finally {
+        evaluating.value = false
+    }
 }
 
 function formatDate(timestamp: number): string {
@@ -222,6 +311,43 @@ onMounted(async () => {
                     <p class="mt-2 whitespace-pre-wrap text-gray-800" dir="auto">{{ draft }}</p>
                 </div>
 
+                <!-- AI evaluation -->
+                <div v-if="aiSettingsStore.settings.enabled && !evaluation">
+                    <div v-if="evaluating" class="rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm">
+                        <div class="inline-block h-6 w-6 animate-spin rounded-full border-2 border-gray-300 border-t-gray-900" />
+                        <p class="mt-3 text-sm text-gray-500">
+                            Evaluating with {{ aiSettingsStore.settings.provider === 'ollama' ? 'the local model' : 'the cloud model' }}...
+                            this can take a while.
+                        </p>
+                    </div>
+
+                    <div v-else-if="evaluationError" class="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+                        <p class="text-sm text-amber-800">{{ evaluationError }}</p>
+                        <button
+                            type="button"
+                            class="mt-3 rounded-xl bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-gray-700"
+                            @click="requestEvaluation"
+                        >
+                            Retry evaluation
+                        </button>
+                    </div>
+
+                    <button
+                        v-else
+                        type="button"
+                        class="w-full rounded-2xl border-2 border-dashed border-gray-300 p-5 text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
+                        @click="requestEvaluation"
+                    >
+                        🤖 Get AI feedback on this text
+                    </button>
+                </div>
+
+                <WritingFeedback
+                    v-if="evaluation"
+                    :evaluation="evaluation"
+                    :original-text="draft"
+                />
+
                 <div v-if="activePrompt.exampleResponse">
                     <button
                         type="button"
@@ -259,8 +385,18 @@ onMounted(async () => {
                     >
                         <summary class="cursor-pointer text-sm text-gray-600">
                             {{ formatDate(item.submittedAt) }} · {{ item.wordCount }} words
+                            <span v-if="item.evaluations.length" class="ml-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
+                                {{ item.evaluations.length }} AI {{ item.evaluations.length === 1 ? 'evaluation' : 'evaluations' }}
+                            </span>
                         </summary>
                         <p class="mt-3 whitespace-pre-wrap text-sm text-gray-800" dir="auto">{{ item.text }}</p>
+
+                        <div v-if="item.evaluations.length" class="mt-4 border-t pt-4">
+                            <WritingFeedback
+                                :evaluation="item.evaluations[item.evaluations.length - 1]"
+                                :original-text="item.text"
+                            />
+                        </div>
                     </details>
                 </div>
             </div>

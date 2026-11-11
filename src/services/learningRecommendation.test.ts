@@ -122,6 +122,22 @@ describe('buildDailyRecommendation', () => {
         expect(grammarActivities).toHaveLength(1)
     })
 
+    it('recurring confirmed writing errors produce a targeted writing recommendation naming the categories', () => {
+        const recommendation = buildDailyRecommendation({
+            studyDurationMinutes: 45,
+            dueWordsCount: 0,
+            hardWordsCount: 0,
+            goals: [],
+            recurringWritingErrorCategories: ['tense', 'articles'],
+        })
+
+        const writing = recommendation.activities.find(a => a.type === 'writing-practice')
+
+        expect(writing).toBeDefined()
+        expect(writing!.reason).toContain('tense')
+        expect(writing!.reason).toContain('articles')
+    })
+
     it('adds hard-words review only when hard words exist and time remains', () => {
         const recommendation = buildDailyRecommendation({
             studyDurationMinutes: 60, dueWordsCount: 0, hardWordsCount: 3, goals: [],

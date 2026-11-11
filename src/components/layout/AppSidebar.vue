@@ -67,6 +67,7 @@ const menuSections = [
         items: [
             { label: 'Skill Levels', icon: '📊', route: '/skills' },
             { label: 'Profile', icon: '👤', route: '/profile' },
+            { label: 'AI Settings', icon: '🤖', route: '/ai-settings' },
         ],
     },
 ]

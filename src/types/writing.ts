@@ -33,42 +33,110 @@ export interface WritingManifest {
 export interface WritingSubmission {
     id: string
     promptId: string
+    /** Immutable — evaluations never modify the learner's original text. */
     text: string
     wordCount: number
     submittedAt: number
     /** Result of deterministic constraint checks only. */
     constraintsPassed: boolean
     constraintIssues: string[]
-    /** Filled by a future AI evaluator — null until one exists. Never fabricated. */
-    evaluation: WritingEvaluation | null
+    /**
+     * AI evaluations of this submission, oldest first. A retry appends a new
+     * entry — previous evaluations are never overwritten. Empty until the
+     * learner requests one. Never fabricated.
+     */
+    evaluations: WritingEvaluation[]
 }
 
-/**
- * Provider-independent evaluation contract. A future AI service (local model
- * or remote provider behind an adapter, mirroring how services/speech.ts
- * abstracts TTS engines) returns this shape. Nothing in the current app
- * fabricates these fields — deterministic constraint checks live separately
- * on WritingSubmission.
- */
-export interface WritingEvaluation {
-    /** Where this evaluation came from, e.g. "local-llm", "remote-api". */
-    provider: string
-    evaluatedAt: number
-    correctedVersion: string
-    naturalAlternative?: string
-    mistakes: WritingMistake[]
-    suggestedPractice?: string[]
+export type MistakeCategory =
+    | 'tense'
+    | 'articles'
+    | 'prepositions'
+    | 'subject-verb-agreement'
+    | 'word-order'
+    | 'sentence-fragment'
+    | 'run-on'
+    | 'word-choice'
+    | 'collocation'
+    | 'spelling'
+    | 'punctuation'
+    | 'coherence'
+    | 'register'
+    | 'naturalness'
+    | 'other'
+
+/** 'error' = actual mistake; 'style' = valid English that could be more natural. */
+export type MistakeKind = 'error' | 'style'
+
+export type EvaluationDimension =
+    | 'grammar'
+    | 'vocabulary'
+    | 'sentence-structure'
+    | 'coherence'
+    | 'naturalness'
+    | 'clarity'
+    | 'task-completion'
+
+export interface DimensionFeedback {
+    dimension: EvaluationDimension
+    assessment: string
+    evidence: string
+    suggestion: string
 }
 
-export interface WritingMistake {
-    category: 'grammar' | 'vocabulary' | 'structure' | 'coherence' | 'clarity' | 'naturalness' | 'task-completion'
+export interface SentenceFeedback {
+    /** Verbatim from the learner's submission (gateway-verified). */
     original: string
-    correction: string
+    corrected: string
+    category: MistakeCategory
+    kind: MistakeKind
+    explanation: string
+    explanationPersian: string
+    example: string
+}
+
+export interface VocabularySuggestion {
+    original: string
+    suggestion: string
+    reason: string
+    kind: MistakeKind
+}
+
+export interface FollowUpExercise {
+    type: 'grammar-correction' | 'fill-blank' | 'short-answer'
+    prompt: string
+    acceptedAnswers: string[]
     explanation: string
 }
 
-/** The interface a future AI writing service must implement. */
+/**
+ * One validated AI evaluation. Produced only by a real model behind the AI
+ * gateway — teaching feedback, never a certified CEFR assessment.
+ */
+export interface WritingEvaluation {
+    provider: string
+    model: string
+    promptVersion: string
+    evaluatedAt: number
+    durationMs: number
+    /** True when the gateway used the explicitly-allowed fallback provider. */
+    fallbackUsed: boolean
+    overall: string
+    correctedVersion: string
+    naturalVersion: string
+    dimensions: DimensionFeedback[]
+    sentences: SentenceFeedback[]
+    vocabulary: VocabularySuggestion[]
+    priorities: string[]
+    followUpExercises: FollowUpExercise[]
+}
+
+export interface WritingEvaluationRequest {
+    prompt: WritingPrompt
+    text: string
+}
+
+/** The interface an AI writing service implements (consumed by the Writing view). */
 export interface WritingEvaluator {
-    readonly provider: string
     evaluate(prompt: WritingPrompt, text: string): Promise<WritingEvaluation>
 }

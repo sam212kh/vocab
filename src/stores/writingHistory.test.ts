@@ -20,7 +20,7 @@ describe('writingHistory store', () => {
 
         expect(submission.wordCount).toBe(11)
         expect(submission.constraintsPassed).toBe(true)
-        expect(submission.evaluation).toBeNull()
+        expect(submission.evaluations).toEqual([])
     })
 
     it('returns submissions for a prompt newest-first', () => {
@@ -47,5 +47,51 @@ describe('writingHistory store', () => {
 
         expect(second.submissions).toHaveLength(1)
         expect(second.submissions[0].constraintIssues).toEqual(['Too short.'])
+    })
+
+    it('migrates v1 records (evaluation: null) to v2 (evaluations: []) without losing text', () => {
+        localStorage.setItem(
+            'english-upgrade-writing-history',
+            JSON.stringify({
+                __version: 1,
+                data: [{
+                    id: 'old-1',
+                    promptId: 'daily-journal',
+                    text: 'My old v1 submission text.',
+                    wordCount: 5,
+                    submittedAt: 1000,
+                    constraintsPassed: true,
+                    constraintIssues: [],
+                    evaluation: null,
+                }],
+            })
+        )
+
+        const store = useWritingHistoryStore()
+
+        expect(store.submissions).toHaveLength(1)
+        expect(store.submissions[0].text).toBe('My old v1 submission text.')
+        expect(store.submissions[0].evaluations).toEqual([])
+    })
+
+    it('addEvaluation appends — a retry never overwrites earlier evaluations or the original text', () => {
+        const store = useWritingHistoryStore()
+        const submission = store.addSubmission('daily-journal', 'Original learner text.', true, [])
+
+        const makeEvaluation = (model: string) => ({
+            provider: 'ollama', model, promptVersion: 'writing-evaluator-v1',
+            evaluatedAt: Date.now(), durationMs: 10, fallbackUsed: false,
+            overall: 'ok', correctedVersion: 'c', naturalVersion: 'n',
+            dimensions: [], sentences: [], vocabulary: [], priorities: [], followUpExercises: [],
+        })
+
+        store.addEvaluation(submission.id, makeEvaluation('first'))
+        store.addEvaluation(submission.id, makeEvaluation('second'))
+
+        const stored = store.getSubmission(submission.id)!
+
+        expect(stored.evaluations).toHaveLength(2)
+        expect(stored.evaluations[0].model).toBe('first')
+        expect(stored.text).toBe('Original learner text.')
     })
 })

@@ -1,0 +1,24 @@
+[Unit]
+Description=English Upgrade AI Gateway
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=english-ai
+Group=english-ai
+WorkingDirectory=/opt/english-upgrade/ai-service
+EnvironmentFile=/etc/english-upgrade-ai.env
+ExecStart=/usr/bin/node /opt/english-upgrade/ai-service/server.mjs
+Restart=on-failure
+RestartSec=3
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

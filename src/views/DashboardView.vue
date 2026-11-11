@@ -7,6 +7,7 @@ import { useHardWordsStore } from '../stores/hardWords'
 import { useLearnerProfileStore } from '../stores/learnerProfile'
 import { useGrammarProgressStore } from '../stores/grammarProgress'
 import { usePerformanceStore } from '../stores/performance'
+import { useMistakesStore } from '../stores/mistakes'
 import { buildDailyRecommendation } from '../services/learningRecommendation'
 
 const wordProgressStore =
@@ -16,6 +17,7 @@ const hardWordsStore = useHardWordsStore()
 const learnerProfileStore = useLearnerProfileStore()
 const grammarProgressStore = useGrammarProgressStore()
 const performanceStore = usePerformanceStore()
+const mistakesStore = useMistakesStore()
 
 const recommendation = computed(() => {
     return buildDailyRecommendation({
@@ -25,6 +27,7 @@ const recommendation = computed(() => {
         goals: learnerProfileStore.profile.goals.map(goal => goal.type),
         dueGrammarTopics: grammarProgressStore.getDueTopics().map(topic => topic.topicId),
         skillSummaries: performanceStore.summarizeAll(),
+        recurringWritingErrorCategories: mistakesStore.recurringErrorCategories(),
     })
 })
 

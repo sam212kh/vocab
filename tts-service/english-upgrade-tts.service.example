@@ -1,0 +1,25 @@
+[Unit]
+Description=English Upgrade TTS API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=english-tts
+Group=english-tts
+WorkingDirectory=/opt/english-upgrade/tts-service
+EnvironmentFile=/etc/english-upgrade-tts.env
+ExecStart=/usr/bin/node /opt/english-upgrade/tts-service/server.mjs
+Restart=on-failure
+RestartSec=3
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/cache/english-upgrade-tts
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

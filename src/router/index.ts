@@ -21,6 +21,7 @@ import ReadingView from '../views/ReadingView.vue'
 import WritingView from '../views/WritingView.vue'
 import ListeningView from '../views/ListeningView.vue'
 import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
+import AISettingsView from '../views/AISettingsView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -134,6 +135,11 @@ const router = createRouter({
             path: '/guided-speaking',
             name: 'guided-speaking',
             component: GuidedSpeakingView,
+        },
+        {
+            path: '/ai-settings',
+            name: 'ai-settings',
+            component: AISettingsView,
         },
     ]
 })
