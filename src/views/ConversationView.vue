@@ -3,10 +3,10 @@ import { computed, nextTick, onMounted, ref } from 'vue'
 
 import { loadScenarios } from '../services/conversationContent'
 import {
-    performanceCategoryFor,
     requestSessionSummary,
     requestTutorTurn,
 } from '../services/conversationService'
+import { evidenceForTurn } from '../services/conversationEvidence'
 import { AIClientError } from '../services/aiClient'
 
 import { useConversationsStore } from '../stores/conversations'
@@ -223,28 +223,17 @@ async function sendDraft() {
 
     if (!text) return
 
+    const inputMethod = draftFromVoice.value ? 'voice' as const : 'text' as const
+    const voiceConfidence = draftFromVoice.value ? draftVoiceConfidence.value : null
+
     const learnerMessage = conversationsStore.appendMessage(active.id, {
         role: 'learner',
         text,
-        inputMethod: draftFromVoice.value ? 'voice' : 'text',
-        voiceConfidence: draftFromVoice.value ? draftVoiceConfidence.value : null,
+        inputMethod,
+        voiceConfidence,
         corrections: [],
         translation: null,
     })
-
-    /*
-     * Voice evidence only: a spoken turn records a speaking event with the
-     * recognizer's confidence. Typed messages never create speaking events.
-     */
-    if (learnerMessage && draftFromVoice.value) {
-        performanceStore.record({
-            skill: 'speaking',
-            activityId: `conversation-${active.mode}`,
-            lessonId: active.scenarioId,
-            result: 'correct',
-            confidence: draftVoiceConfidence.value,
-        })
-    }
 
     draft.value = ''
     draftFromVoice.value = false
@@ -275,22 +264,21 @@ async function sendDraft() {
         }
 
         /*
-         * Correctness evidence exists only when feedback was on (B/C):
-         * errors → incorrect event per category; clean message → one
-         * correct grammar event. Mode A produces no events at all.
+         * Performance evidence rules live in conversationEvidence.ts:
+         * speaking events only for voice input, correctness events only
+         * when a feedback mode produced evidence.
          */
-        if (learnerMessage && active.feedbackMode !== 'natural') {
-            const errorCorrections = turn.corrections.filter(item => item.kind === 'error')
-
-            performanceStore.record({
-                skill: errorCorrections.length
-                    ? (performanceCategoryFor(errorCorrections[0]) === 'vocabulary' ? 'vocabulary' : 'grammar')
-                    : 'grammar',
-                activityId: `conversation-${active.mode}`,
-                lessonId: active.scenarioId,
-                result: errorCorrections.length ? 'incorrect' : 'correct',
-                errorCategories: errorCorrections.map(performanceCategoryFor),
-            })
+        if (learnerMessage) {
+            for (const event of evidenceForTurn({
+                mode: active.mode,
+                scenarioId: active.scenarioId,
+                feedbackMode: active.feedbackMode,
+                inputMethod,
+                voiceConfidence,
+                corrections: turn.corrections,
+            })) {
+                performanceStore.record(event)
+            }
         }
 
         conversationsStore.appendMessage(active.id, {

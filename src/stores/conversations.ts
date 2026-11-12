@@ -40,6 +40,10 @@ export const useConversationsStore = defineStore('conversations', () => {
 
     let messageSequence = 0
 
+    /* Date.now() alone collides when sessions are created in the same
+     * millisecond — ids must be unique or endSession targets the wrong one. */
+    let sessionSequence = 0
+
     function startSession(options: {
         mode: ConversationMode
         scenarioId?: string | null
@@ -52,7 +56,7 @@ export const useConversationsStore = defineStore('conversations', () => {
         }
 
         const session: ConversationSession = {
-            id: `conv-${Date.now()}`,
+            id: `conv-${Date.now()}-${sessionSequence++}`,
             mode: options.mode,
             scenarioId: options.scenarioId ?? null,
             difficulty: options.difficulty,
