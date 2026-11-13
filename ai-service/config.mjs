@@ -60,6 +60,12 @@ export function loadConfig(env = process.env) {
       jsonMode: env.CLOUD_JSON_MODE !== '0',
     },
 
+    assessment: {
+      stateDir: env.ASSESSMENT_STATE_DIR ?? new URL('./.assessment-state', import.meta.url).pathname,
+      banksDir: env.ASSESSMENT_BANKS_DIR ?? new URL('./assessment/banks', import.meta.url).pathname,
+      rateLimitPerMinute: integer(env.ASSESSMENT_RATE_LIMIT_PER_MINUTE, 60),
+    },
+
     testMode: env.NODE_ENV === 'test',
   }
 

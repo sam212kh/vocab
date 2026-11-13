@@ -11,6 +11,7 @@
     "test:tts": "node --test tts-service/server.test.mjs",
     "start:tts": "node tts-service/server.mjs",
     "test:ai": "node --test ai-service/server.test.mjs",
+    "test:assessment": "node --test ai-service/assessment/assessment.test.mjs ai-service/assessment/banks.test.mjs",
     "start:ai": "node ai-service/server.mjs"
   },
   "dependencies": {

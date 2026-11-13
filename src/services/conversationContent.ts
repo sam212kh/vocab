@@ -9,7 +9,24 @@ export async function loadScenarios(): Promise<RoleplayScenario[]> {
         throw new Error(`Could not load conversation scenarios (${response.status})`)
     }
 
-    const manifest = (await response.json()) as ScenarioManifest
+    /*
+     * A missing file behind an SPA/nginx history fallback returns the HTML
+     * index page with HTTP 200 — JSON.parse then fails with a cryptic
+     * "unexpected character" error. Detect that case and say what is
+     * actually wrong (see DEPLOY.md: public/data must be deployed).
+     */
+    const raw = await response.text()
+
+    let manifest: ScenarioManifest
+
+    try {
+        manifest = JSON.parse(raw) as ScenarioManifest
+    } catch {
+        throw new Error(
+            'Roleplay scenarios are missing on this server (/data/conversation/scenarios.json returned a non-JSON page). ' +
+            'Deploy the latest public/data content — other conversation modes still work.'
+        )
+    }
 
     if (!manifest || !Array.isArray(manifest.scenarios)) {
         throw new Error('Invalid scenario manifest format')

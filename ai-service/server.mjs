@@ -20,6 +20,7 @@ import {
   validateEvaluation,
   validateSummaryResponse,
 } from './validation.mjs'
+import { createAssessmentModule } from './assessment/routes.mjs'
 
 const { config, problems } = loadConfig()
 
@@ -32,6 +33,13 @@ if (problems.length) {
 }
 
 const registry = createRegistry(config)
+
+const assessment = createAssessmentModule({
+  stateDir: config.assessment.stateDir,
+  banksDir: config.assessment.banksDir,
+  rateLimitPerMinute: config.assessment.rateLimitPerMinute,
+  log: (event, fields) => log(event, fields),
+})
 
 const limits = new Map()
 let shuttingDown = false
@@ -479,6 +487,17 @@ const server = createServer(async (req, res) => {
 
   if (req.method === 'GET' && url.pathname === '/api/ai/providers') {
     return handleProviders(req, res)
+  }
+
+  if (url.pathname.startsWith('/api/assessment/')) {
+    try {
+      const handled = await assessment.handle(req, res, url, { reply, readBody })
+      if (handled) return
+    } catch (error) {
+      log('assessment.unhandled.error', { message: error.message })
+      if (!res.headersSent) reply(res, 500, { error: 'Internal assessment error' })
+      return
+    }
   }
 
   const handler = req.method === 'POST' ? POST_ROUTES.get(url.pathname) : undefined
