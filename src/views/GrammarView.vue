@@ -262,9 +262,9 @@ onMounted(async () => {
 
         <!-- EXERCISES -->
         <div v-else-if="phase === 'exercises' && activeTopic && currentExercise">
-            <div class="mb-6 flex items-center justify-between text-sm text-gray-500">
-                <span>{{ activeTopic.title }}</span>
-                <span>{{ exerciseIndex + 1 }} / {{ activeTopic.exercises.length }}</span>
+            <div class="mb-6 flex items-center justify-between gap-3 text-sm text-gray-500">
+                <span class="min-w-0 truncate">{{ activeTopic.title }}</span>
+                <span class="shrink-0">{{ exerciseIndex + 1 }} / {{ activeTopic.exercises.length }}</span>
             </div>
 
             <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">

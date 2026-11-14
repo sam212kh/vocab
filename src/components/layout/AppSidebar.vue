@@ -13,8 +13,16 @@ import {
 } from '../../services/speech'
 import type { SpeechRate } from '../../services/speech'
 
+defineProps<{
+    /** Mobile drawer visibility — owned by App.vue's sticky header. */
+    open: boolean
+}>()
+
+const emit = defineEmits<{
+    close: []
+}>()
+
 const route = useRoute()
-const mobileOpen = ref(false)
 const speechProvider = ref(getSpeechProvider())
 watch(speechProvider, setSpeechProvider)
 const speechRate = ref<SpeechRate>(getSpeechRate())
@@ -79,29 +87,20 @@ function isActive(path: string) {
 }
 
 function closeMobile() {
-    mobileOpen.value = false
+    emit('close')
 }
 </script>
 
 <template>
-    <button
-        type="button"
-        class="fixed left-4 top-4 z-50 flex h-10 w-10 items-center justify-center rounded-lg border bg-white shadow md:hidden"
-        aria-label="Open menu"
-        @click="mobileOpen = true"
-    >
-        ☰
-    </button>
-
     <div
-        v-if="mobileOpen"
+        v-if="open"
         class="fixed inset-0 z-40 bg-black/30 md:hidden"
         @click="closeMobile"
     />
 
     <aside
         class="fixed inset-y-0 left-0 z-50 w-64 -translate-x-full border-r bg-white p-4 shadow-xl transition-transform md:sticky md:top-0 md:flex md:h-screen md:translate-x-0 md:shrink-0 md:shadow-none"
-        :class="{ 'translate-x-0': mobileOpen }"
+        :class="{ 'translate-x-0': open }"
     >
         <div class="flex w-full flex-col">
             <div class="mb-6 flex items-center justify-between">

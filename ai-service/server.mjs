@@ -6,6 +6,7 @@ import {
   WRITING_EVALUATOR_PROMPT_VERSION,
   buildAssistPrompt,
   buildConversationPrompt,
+  buildExpressPrompt,
   buildRepairPrompt,
   buildSummaryPrompt,
   buildWritingEvaluationPrompt,
@@ -18,6 +19,8 @@ import {
   validateChatResponse,
   validateEvaluateRequest,
   validateEvaluation,
+  validateExpressRequest,
+  validateExpressResponse,
   validateSummaryResponse,
 } from './validation.mjs'
 import { createAssessmentModule } from './assessment/routes.mjs'
@@ -464,11 +467,48 @@ async function handleProviders(_req, res) {
   reply(res, 200, { defaultProvider: config.defaultProvider, fallbackProvider: config.fallbackProvider || null, providers: results })
 }
 
+async function handleExpress(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  const validation = validateExpressRequest(body)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+
+  const prompt = buildExpressPrompt(request)
+
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    maxTokens: 1500,
+    temperature: 0.4,
+    validate: validateExpressResponse,
+  })
+
+  if (!outcome) return
+
+  log('ai.express.ok', { provider: outcome.provider.id, durationMs: Date.now() - started, inputChars: request.input.length })
+
+  reply(res, 200, {
+    expression: outcome.value,
+    meta: meta(outcome, prompt.promptVersion, started),
+  })
+}
+
 const POST_ROUTES = new Map([
   ['/api/ai/evaluate-writing', handleEvaluateWriting],
   ['/api/ai/chat', handleChat],
   ['/api/ai/conversation-summary', handleSummary],
   ['/api/ai/assist', handleAssist],
+  ['/api/ai/express', handleExpress],
 ])
 
 const server = createServer(async (req, res) => {

@@ -420,6 +420,89 @@ export function validateSummaryResponse(raw) {
   }
 }
 
+export function validateExpressRequest(body) {
+  if (!body || typeof body !== 'object') {
+    return { ok: false, errors: ['Body must be a JSON object'] }
+  }
+
+  const input = typeof body.input === 'string' ? body.input.trim() : ''
+
+  const errors = []
+
+  if (!input) errors.push('input is required')
+  if (input.length > 500) errors.push('input exceeds 500 characters')
+  if (body.provider !== undefined && !['ollama', 'cloud'].includes(body.provider)) errors.push('provider must be "ollama" or "cloud"')
+
+  if (errors.length) return { ok: false, errors }
+
+  const learner = body.learner && typeof body.learner === 'object' ? body.learner : {}
+
+  return {
+    ok: true,
+    value: {
+      input,
+      provider: body.provider,
+      model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
+      learner: { selfReportedLevel: clip(learner.selfReportedLevel, 10) },
+    },
+  }
+}
+
+const EXPRESS_EXERCISE_TYPES = new Set(['grammar-correction', 'fill-blank', 'short-answer'])
+
+export function validateExpressResponse(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const literal = str(raw.literal, 500)
+  const natural = str(raw.natural, 500)
+  const naturalPersian = str(raw.naturalPersian, 500)
+
+  const errors = []
+  if (!natural) errors.push('missing "natural"')
+  if (!naturalPersian) errors.push('missing "naturalPersian"')
+
+  if (errors.length) return { ok: false, errors }
+
+  const pairList = (value, limit) =>
+    (Array.isArray(value) ? value : [])
+      .filter(item => item && typeof item === 'object' && str(item.english) && str(item.persian))
+      .slice(0, limit)
+      .map(item => ({ english: str(item.english, 300), persian: str(item.persian, 300) }))
+
+  const followUpExercises = (Array.isArray(raw.followUpExercises) ? raw.followUpExercises : [])
+    .filter(item =>
+      item && typeof item === 'object' &&
+      EXPRESS_EXERCISE_TYPES.has(item.type) &&
+      str(item.prompt) &&
+      Array.isArray(item.acceptedAnswers) &&
+      item.acceptedAnswers.some(answer => typeof answer === 'string' && answer.trim())
+    )
+    .slice(0, 2)
+    .map(item => ({
+      type: item.type,
+      prompt: str(item.prompt, 500),
+      acceptedAnswers: item.acceptedAnswers.filter(a => typeof a === 'string' && a.trim()).map(a => a.slice(0, 300)),
+      explanation: str(item.explanation, 500),
+    }))
+
+  return {
+    ok: true,
+    errors: [],
+    value: {
+      literal,
+      natural,
+      naturalPersian,
+      advanced: str(raw.advanced, 500),
+      advancedPersian: str(raw.advancedPersian, 500),
+      vocabulary: pairList(raw.vocabulary, 4),
+      relatedExamples: pairList(raw.relatedExamples, 3),
+      followUpExercises,
+    },
+  }
+}
+
 const ASSIST_KINDS = ['translate', 'explain', 'simplify', 'correct']
 
 export function validateAssistRequest(body) {

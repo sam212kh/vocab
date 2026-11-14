@@ -413,7 +413,9 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="mx-auto flex h-[calc(100vh-6rem)] max-w-3xl flex-col">
+    <!-- dvh: tracks the Android Chrome visual viewport so the input row is
+         not pushed under the keyboard the way 100vh is. -->
+    <div class="mx-auto flex h-[calc(100dvh-8.5rem)] max-w-3xl flex-col md:h-[calc(100dvh-6rem)]">
         <!-- ============ SETUP ============ -->
         <div v-if="phase === 'setup'" class="overflow-y-auto">
             <div class="mb-6">

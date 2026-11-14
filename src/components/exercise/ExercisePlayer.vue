@@ -3,7 +3,10 @@ import { computed, ref, watch } from 'vue'
 
 import { shuffle, validateAnswer } from '../../services/exerciseEngine'
 import { annotateNumbers } from '../../services/numbers'
+import { analyzeTextAnswer } from '../../services/answerDiff'
 import SpeechButton from '../ui/SpeechButton.vue'
+
+import type { AnswerAnalysis } from '../../services/answerDiff'
 
 import type {
     Exercise,
@@ -143,6 +146,36 @@ const segmentCount = computed(() =>
 )
 
 /**
+ * Word-level analysis for incorrect translation / grammar-correction
+ * answers: names the specific wrong words instead of implying the whole
+ * sentence was wrong, and separates meaning from wording. Deterministic
+ * (services/answerDiff) — scoring itself is untouched.
+ */
+const answerAnalysis = computed<AnswerAnalysis | null>(() => {
+    if (!result.value || result.value.correct) return null
+
+    const exercise = props.exercise
+
+    if (exercise.type !== 'translation' && exercise.type !== 'grammar-correction') return null
+    if (!result.value.received || result.value.received === '(no answer)') return null
+
+    return analyzeTextAnswer(exercise.acceptedAnswers, result.value.received)
+})
+
+const meaningLabel = computed(() => {
+    switch (answerAnalysis.value?.meaning) {
+        case 'subject-differs':
+            return 'The subject of your sentence differs from the prompt — that changes the meaning.'
+        case 'close':
+            return 'Your sentence matches the intended meaning — the issue is wording, not meaning.'
+        case 'different':
+            return 'Your sentence is quite different from the expected answer.'
+        default:
+            return ''
+    }
+})
+
+/**
  * After a dictation attempt, surface both forms of any numbers in the
  * sentence (digits — English words — Persian) as learning assistance.
  */
@@ -176,8 +209,9 @@ function submitMatching() {
             <SpeechButton :text="exercise.audioText" lang="en-US" />
         </div>
 
-        <!-- Prompt -->
-        <div class="text-center">
+        <!-- Prompt (break-words: long sentences must wrap, never overflow
+             the card on narrow screens) -->
+        <div class="min-w-0 break-words text-center">
             <p v-if="exercise.type === 'fill-blank'" class="text-lg leading-relaxed">
                 {{ exercise.before }}
                 <span class="mx-1 inline-block min-w-24 rounded border-b-2 border-gray-400 px-2 font-semibold">
@@ -350,12 +384,50 @@ function submitMatching() {
                 </p>
                 <p>
                     <span class="block text-xs text-gray-500">Correct answer</span>
-                    <span class="font-medium text-gray-800">{{ result!.expected }}</span>
+                    <span class="font-medium text-gray-800">
+                        {{ answerAnalysis?.closestAccepted ?? result!.expected }}
+                    </span>
                 </p>
             </div>
 
+            <!-- Dimension-separated feedback for translation / grammar-correction -->
+            <div v-if="answerAnalysis" class="mt-3 space-y-2 text-sm">
+                <p v-if="meaningLabel" class="text-gray-600">
+                    <span class="text-xs text-gray-500">Meaning: </span>{{ meaningLabel }}
+                </p>
+
+                <div v-if="answerAnalysis.corrections.length">
+                    <p class="text-xs text-gray-500">
+                        What to fix ({{ answerAnalysis.corrections.length }}
+                        {{ answerAnalysis.corrections.length === 1 ? 'word' : 'words' }} —
+                        the rest of your sentence matches):
+                    </p>
+                    <div class="mt-1 flex flex-wrap gap-1.5">
+                        <span
+                            v-for="(op, index) in answerAnalysis.corrections"
+                            :key="index"
+                            class="rounded-lg bg-white/70 px-2 py-1"
+                        >
+                            <template v-if="op.type === 'replace'">
+                                <span class="text-red-600 line-through">{{ op.learner }}</span>
+                                <span class="mx-1 text-gray-400">→</span>
+                                <span class="font-medium text-green-700">{{ op.expected }}</span>
+                            </template>
+                            <template v-else-if="op.type === 'missing'">
+                                <span class="text-gray-400">add </span>
+                                <span class="font-medium text-green-700">{{ op.expected }}</span>
+                            </template>
+                            <template v-else-if="op.type === 'extra'">
+                                <span class="text-gray-400">remove </span>
+                                <span class="text-red-600 line-through">{{ op.learner }}</span>
+                            </template>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
             <p v-if="result!.feedback" class="mt-2 text-sm text-gray-600">
-                {{ result!.feedback }}
+                <span v-if="answerAnalysis" class="text-xs text-gray-500">Topic note: </span>{{ result!.feedback }}
             </p>
 
             <p

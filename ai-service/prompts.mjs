@@ -290,6 +290,47 @@ export function buildSummaryPrompt({ messages, mode, scenarioTitle, explanationL
   return { system, user, promptVersion: CONVERSATION_SUMMARY_PROMPT_VERSION }
 }
 
+/* ------------------------------------------------------------------ */
+/* Real-Life "express this" helper                                     */
+/* ------------------------------------------------------------------ */
+
+export const EXPRESS_PROMPT_VERSION = 'real-life-express-v1'
+
+const EXPRESS_SCHEMA = `Respond with ONLY a single JSON object:
+{
+  "literal": string,            // close word-for-word English rendering (may be unnatural; that's its point)
+  "natural": string,            // how a native speaker would ACTUALLY say it in everyday life
+  "naturalPersian": string,     // Persian translation of the natural version
+  "advanced": string,           // one more advanced or alternative natural way to say it
+  "advancedPersian": string,
+  "vocabulary": [               // 2-4 key words/collocations from the natural version
+    { "english": string, "persian": string }
+  ],
+  "relatedExamples": [          // 2-3 related everyday sentences the learner could also use
+    { "english": string, "persian": string }
+  ],
+  "followUpExercises": [        // 1-2 short exercises grounded in THIS sentence; [] if none fit
+    { "type": "grammar-correction" | "fill-blank" | "short-answer", "prompt": string, "acceptedAnswers": [string], "explanation": string }
+  ]
+}
+Rules: never invent a different meaning than the input; the natural version must be genuinely idiomatic everyday English, not textbook English; if the input is already natural English, say so by making "natural" equal to a lightly polished version and put the polish note in no field other than the alternatives. Keep everything short.`
+
+export function buildExpressPrompt({ input, learner }) {
+  const system = [
+    'You help a Persian-speaking English learner say everyday things naturally. The learner tells you what they are doing or want to say (in Persian or English); you show how to express it in real, natural English.',
+    EXPRESS_SCHEMA,
+    learner?.selfReportedLevel
+      ? `Learner level (self-reported, unverified): ${learner.selfReportedLevel}. Keep the "natural" version at this level; "advanced" may stretch one level higher.`
+      : 'Keep the natural version simple and genuinely conversational.',
+  ].join('\n\n')
+
+  return {
+    system,
+    user: `The learner wants to express:\n"""\n${input}\n"""`,
+    promptVersion: EXPRESS_PROMPT_VERSION,
+  }
+}
+
 const ASSIST_INSTRUCTIONS = {
   translate: 'Translate the given English text into natural Persian (Farsi). Reply with the translation and nothing else.',
   explain: 'Explain the meaning and usage of the given English text simply, in one short paragraph. If an expression or idiom, explain when people use it.',
