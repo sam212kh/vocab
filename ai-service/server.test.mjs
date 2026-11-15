@@ -468,6 +468,36 @@ test('assist validates kind and text and returns a reply', async () => {
   assert.equal(noText.status, 400)
 })
 
+test('express endpoint returns validated expression help; requires natural + Persian', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({
+    literal: 'I am making tea.',
+    natural: "I'm making some tea.",
+    naturalPersian: 'دارم چای درست می‌کنم.',
+    advanced: "I'll put the kettle on.",
+    advancedPersian: 'کتری را می‌گذارم.',
+    vocabulary: [{ english: 'put the kettle on', persian: 'کتری را گذاشتن' }],
+    relatedExamples: [{ english: 'Do you want a cup?', persian: 'یک فنجان می‌خوری؟' }],
+    followUpExercises: [{ type: 'fill-blank', prompt: "I'll put the kettle ___.", acceptedAnswers: ['on'], explanation: 'Collocation.' }],
+  })
+
+  const ok = await post('/api/ai/express', { input: 'دارم چای درست می‌کنم' })
+  const body = await ok.json()
+
+  assert.equal(ok.status, 200)
+  assert.equal(body.expression.natural, "I'm making some tea.")
+  assert.ok(body.expression.naturalPersian.length > 0)
+  assert.equal(body.meta.promptVersion, 'real-life-express-v1')
+
+  /* missing natural → repair → 502 */
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ literal: 'x' })
+  const invalid = await post('/api/ai/express', { input: 'test' })
+  assert.equal(invalid.status, 502)
+
+  /* request validation */
+  assert.equal((await post('/api/ai/express', {})).status, 400)
+  assert.equal((await post('/api/ai/express', { input: 'x'.repeat(600) })).status, 400)
+})
+
 test('chat provider failure returns safe error and respects no-silent-fallback', async () => {
   process.env.AI_TEST_FAILURE = 'unreachable'
   process.env.AI_TEST_FAILURE_PROVIDER = 'ollama'

@@ -220,6 +220,36 @@ export function assistWithMessage(payload: {
     return postJson<{ reply: string }>('/assist', payload, 'reply')
 }
 
+export interface GatewayExpressResponse {
+    expression: {
+        literal: string
+        natural: string
+        naturalPersian: string
+        advanced: string
+        advancedPersian: string
+        vocabulary: { english: string; persian: string }[]
+        relatedExamples: { english: string; persian: string }[]
+        followUpExercises: {
+            type: 'grammar-correction' | 'fill-blank' | 'short-answer'
+            prompt: string
+            acceptedAnswers: string[]
+            explanation: string
+        }[]
+    }
+    meta: GatewayEvaluationResponse['meta']
+}
+
+/** "My Real Life": express an everyday intent in natural English. */
+export function expressInEnglish(payload: {
+    input: string
+    provider?: 'ollama' | 'cloud'
+    model?: string
+    allowFallback: boolean
+    learner: { selfReportedLevel: string }
+}): Promise<GatewayExpressResponse> {
+    return postJson<GatewayExpressResponse>('/express', payload, 'expression')
+}
+
 export async function evaluateWriting(
     payload: EvaluateWritingPayload
 ): Promise<GatewayEvaluationResponse> {

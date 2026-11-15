@@ -48,6 +48,7 @@ const menuSections = [
     {
         title: 'Skills',
         items: [
+            { label: 'Real-Life English', icon: '🏡', route: '/real-life' },
             { label: 'Conversation', icon: '💬', route: '/conversation' },
             { label: 'Grammar', icon: '🧱', route: '/grammar' },
             { label: 'Listening', icon: '🎧', route: '/listening' },

@@ -23,6 +23,7 @@ import ListeningView from '../views/ListeningView.vue'
 import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
 import AISettingsView from '../views/AISettingsView.vue'
 import ConversationView from '../views/ConversationView.vue'
+import RealLifeView from '../views/RealLifeView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -146,6 +147,11 @@ const router = createRouter({
             path: '/conversation',
             name: 'conversation',
             component: ConversationView,
+        },
+        {
+            path: '/real-life',
+            name: 'real-life',
+            component: RealLifeView,
         },
     ]
 })
