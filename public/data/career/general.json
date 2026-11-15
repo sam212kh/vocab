@@ -1,0 +1,325 @@
+{
+  "id": "general",
+  "questions": [
+    {
+      "id": "gen-01",
+      "question": "Tell me about yourself.",
+      "questionPersian": "درباره خودتان بگویید.",
+      "intention": "An opener to see how you summarize your professional story — not your life history.",
+      "intentionPersian": "می‌خواهند ببینند چطور داستان حرفه‌ای‌ات را خلاصه می‌کنی — نه زندگی‌نامه کامل.",
+      "vocabulary": [
+        { "english": "background", "persian": "سابقه" },
+        { "english": "specialize in", "persian": "تخصص داشتن در" },
+        { "english": "currently", "persian": "در حال حاضر" },
+        { "english": "hands-on experience", "persian": "تجربه عملی" }
+      ],
+      "structure": "Present → past → future: current role (1-2 sentences), relevant background (1-2), why you're here (1).",
+      "example": "I'm a backend developer with about six years of experience, currently working on payment systems at a fintech company. My background is mostly in PHP and Laravel, with hands-on experience scaling APIs. I'm here because I want to work on larger international products.",
+      "followUps": ["What part of your current role do you enjoy most?", "What made you choose this field?"]
+    },
+    {
+      "id": "gen-02",
+      "question": "Why are you interested in this position?",
+      "questionPersian": "چرا به این موقعیت علاقه دارید؟",
+      "intention": "They check whether you understand the role and want THIS job, not just any job.",
+      "intentionPersian": "می‌سنجند آیا شغل را فهمیده‌ای و همین شغل را می‌خواهی، نه هر شغلی.",
+      "vocabulary": [
+        { "english": "aligns with", "persian": "هم‌راستا بودن با" },
+        { "english": "appeal to", "persian": "جذاب بودن برای" },
+        { "english": "challenge", "persian": "چالش" },
+        { "english": "growth opportunity", "persian": "فرصت رشد" }
+      ],
+      "structure": "Name 2 specific things about the role + connect them to your skills or goals. Specific beats flattering.",
+      "example": "Two things appeal to me: the scale of your platform, and that this role owns the API layer end to end. That aligns with what I do best, and it's the kind of technical challenge I've been looking for.",
+      "followUps": ["What do you know about our product?", "Which part of the job description stood out to you?"]
+    },
+    {
+      "id": "gen-03",
+      "question": "Why do you want to work for our company?",
+      "questionPersian": "چرا می‌خواهید در شرکت ما کار کنید؟",
+      "intention": "Did you research the company, and are your motivations compatible with it?",
+      "intentionPersian": "آیا درباره شرکت تحقیق کرده‌ای و انگیزه‌هایت با آن سازگار است؟",
+      "vocabulary": [
+        { "english": "reputation", "persian": "اعتبار" },
+        { "english": "mission", "persian": "ماموریت" },
+        { "english": "contribute to", "persian": "سهم داشتن در" },
+        { "english": "admire", "persian": "تحسین کردن" }
+      ],
+      "structure": "One concrete company fact (product, culture, engineering blog, market) + why it matters to you personally.",
+      "example": "I've followed your engineering blog for a while — the way your team handled the migration to event-driven architecture was impressive. I want to contribute to a team that works at that level and shares what it learns.",
+      "followUps": ["What else do you know about us?", "How do you see yourself contributing in the first six months?"]
+    },
+    {
+      "id": "gen-04",
+      "question": "What are your strengths?",
+      "questionPersian": "نقاط قوت شما چیست؟",
+      "intention": "Can you assess yourself honestly and back claims with evidence?",
+      "intentionPersian": "آیا می‌توانی خودت را صادقانه ارزیابی کنی و ادعایت را با شواهد پشتیبانی کنی؟",
+      "vocabulary": [
+        { "english": "strength", "persian": "نقطه قوت" },
+        { "english": "attention to detail", "persian": "دقت در جزئیات" },
+        { "english": "proven track record", "persian": "سابقه اثبات‌شده" },
+        { "english": "for instance", "persian": "به عنوان مثال" }
+      ],
+      "structure": "Pick 1-2 strengths relevant to THIS role; give one short concrete example for each.",
+      "example": "I'd say my main strength is debugging under pressure. For instance, last quarter I traced a payment failure that three teams had been stuck on — it turned out to be a race condition in a queue worker.",
+      "followUps": ["How has that strength helped your current team?", "What would your colleagues say about you?"]
+    },
+    {
+      "id": "gen-05",
+      "question": "What are your weaknesses?",
+      "questionPersian": "نقاط ضعف شما چیست؟",
+      "intention": "Self-awareness and whether you actively work on improving.",
+      "intentionPersian": "خودآگاهی و اینکه آیا برای بهتر شدن فعالانه تلاش می‌کنی.",
+      "vocabulary": [
+        { "english": "I tend to", "persian": "تمایل دارم که" },
+        { "english": "work on", "persian": "روی چیزی کار کردن" },
+        { "english": "overcommit", "persian": "بیش از توان تعهد دادن" },
+        { "english": "delegate", "persian": "واگذار کردن" }
+      ],
+      "structure": "A real (safe) weakness + what you concretely do about it. Never 'I'm a perfectionist' with no substance.",
+      "example": "I tend to overcommit — I say yes to too many things and then work late to deliver. I've started keeping a visible task board and discussing priorities with my manager before accepting new work, which has helped a lot.",
+      "followUps": ["Can you give an example of when that caused a problem?", "How is the improvement going?"]
+    },
+    {
+      "id": "gen-06",
+      "question": "Why should we hire you?",
+      "questionPersian": "چرا باید شما را استخدام کنیم؟",
+      "intention": "Your pitch: the intersection of their needs and your strengths.",
+      "intentionPersian": "فرصت ارائه خودت: نقطه تلاقی نیاز آن‌ها و توانایی تو.",
+      "vocabulary": [
+        { "english": "bring to the table", "persian": "با خود آوردن (ارزش افزودن)" },
+        { "english": "fit", "persian": "تناسب" },
+        { "english": "deliver results", "persian": "نتیجه تحویل دادن" },
+        { "english": "ramp up quickly", "persian": "سریع راه افتادن" }
+      ],
+      "structure": "Their top need → your matching proof → one differentiator. Confident, not arrogant.",
+      "example": "You need someone who can own the payment infrastructure from day one. I've built and operated exactly that for the past three years, so I can ramp up quickly — and I bring real production scars, not just theory.",
+      "followUps": ["What makes you different from other candidates?", "What would you do in your first month?"]
+    },
+    {
+      "id": "gen-07",
+      "question": "What motivates you?",
+      "questionPersian": "چه چیزی به شما انگیزه می‌دهد؟",
+      "intention": "Whether your natural motivation matches the day-to-day reality of the role.",
+      "intentionPersian": "آیا انگیزه طبیعی‌ات با واقعیت روزمره این شغل سازگار است؟",
+      "vocabulary": [
+        { "english": "drive", "persian": "انگیزه/پیش‌برنده" },
+        { "english": "solve problems", "persian": "حل مسئله" },
+        { "english": "see the impact", "persian": "دیدن اثر کار" },
+        { "english": "ownership", "persian": "مالکیت (مسئولیت‌پذیری کامل)" }
+      ],
+      "structure": "One genuine motivator + a short example of it in action. Honesty reads better than buzzwords.",
+      "example": "Seeing the impact of what I build. The best week of my last job was when we cut checkout failures by half and I could watch the support tickets drop day by day. Ownership of a problem from start to finish is what keeps me engaged.",
+      "followUps": ["What kind of work environment brings that out in you?", "When were you most motivated in your career?"]
+    },
+    {
+      "id": "gen-08",
+      "question": "Where do you see yourself in five years?",
+      "questionPersian": "خودتان را پنج سال دیگر کجا می‌بینید؟",
+      "intention": "Ambition, realism, and whether this role fits your direction (retention risk check).",
+      "intentionPersian": "جاه‌طلبی، واقع‌بینی و اینکه آیا این شغل در مسیر تو قرار دارد.",
+      "vocabulary": [
+        { "english": "grow into", "persian": "رشد کردن به سمت" },
+        { "english": "take on more responsibility", "persian": "مسئولیت بیشتر پذیرفتن" },
+        { "english": "deepen my expertise", "persian": "عمیق‌تر کردن تخصص" },
+        { "english": "mentor", "persian": "راهنمایی کردن (منتور بودن)" }
+      ],
+      "structure": "A realistic direction (deeper expertise or leadership), connected to growth THIS role offers. Avoid 'your job'.",
+      "example": "In five years I'd like to have grown into a senior role where I own architecture decisions and mentor other engineers. This position is a natural step — it already includes design ownership I can build on.",
+      "followUps": ["Are you more interested in a technical or management track?", "What skills do you still want to build?"]
+    },
+    {
+      "id": "gen-09",
+      "question": "Why are you leaving your current job?",
+      "questionPersian": "چرا شغل فعلی‌تان را ترک می‌کنید؟",
+      "intention": "Red-flag check: do you speak professionally about employers, and is your reason sound?",
+      "intentionPersian": "بررسی هشدارها: آیا درباره کارفرما حرفه‌ای صحبت می‌کنی و دلیلت منطقی است؟",
+      "vocabulary": [
+        { "english": "looking for new challenges", "persian": "به دنبال چالش‌های جدید" },
+        { "english": "outgrow", "persian": "بزرگ‌تر شدن از (ظرفیت فعلی)" },
+        { "english": "on good terms", "persian": "با رابطه خوب" },
+        { "english": "career move", "persian": "حرکت شغلی" }
+      ],
+      "structure": "Forward-looking reason (growth, scale, technology) — never complaints about people. Stay positive and brief.",
+      "example": "I've learned a lot there and we're on good terms, but I've outgrown the technical scope — the systems are stable and small. I'm looking for bigger scale and harder problems, which is exactly what this role offers.",
+      "followUps": ["What would make you stay at your current company?", "What did you enjoy most there?"]
+    },
+    {
+      "id": "gen-10",
+      "question": "What are your career goals?",
+      "questionPersian": "اهداف شغلی شما چیست؟",
+      "intention": "Direction and planning: do you drive your career or drift?",
+      "intentionPersian": "جهت‌گیری و برنامه‌ریزی: آیا مسیر شغلی‌ات را خودت هدایت می‌کنی؟",
+      "vocabulary": [
+        { "english": "short-term / long-term", "persian": "کوتاه‌مدت / بلندمدت" },
+        { "english": "milestone", "persian": "نقطه عطف" },
+        { "english": "broaden my skills", "persian": "گسترش مهارت‌ها" },
+        { "english": "work towards", "persian": "در مسیرِ ... تلاش کردن" }
+      ],
+      "structure": "One short-term goal (next 1-2 years) + one long-term direction, both plausible from this role.",
+      "example": "Short term, I want to get genuinely strong at distributed systems — that's the next gap in my skills. Long term I'm working towards a staff-level role where I set technical direction across teams.",
+      "followUps": ["How does this position fit those goals?", "What are you doing right now to work towards them?"]
+    },
+    {
+      "id": "gen-11",
+      "question": "How do you handle stress and pressure?",
+      "questionPersian": "با استرس و فشار چطور کنار می‌آیید؟",
+      "intention": "Whether you have real coping strategies or fall apart (or pretend stress doesn't exist).",
+      "intentionPersian": "آیا راهبرد واقعی برای مدیریت فشار داری یا وانمود می‌کنی استرس وجود ندارد.",
+      "vocabulary": [
+        { "english": "prioritize", "persian": "اولویت‌بندی کردن" },
+        { "english": "break it down", "persian": "به بخش‌های کوچک تقسیم کردن" },
+        { "english": "stay calm", "persian": "خونسرد ماندن" },
+        { "english": "under pressure", "persian": "تحت فشار" }
+      ],
+      "structure": "Your concrete method (prioritize, break down, communicate) + one quick example.",
+      "example": "I break the problem down and prioritize ruthlessly. During our worst outage, I listed what we knew, assigned one thread per person, and kept the status channel updated every fifteen minutes. Structure keeps me calm.",
+      "followUps": ["Tell me about the most stressful situation you've handled.", "How do you prevent burnout?"]
+    },
+    {
+      "id": "gen-12",
+      "question": "Do you prefer working alone or in a team?",
+      "questionPersian": "کار فردی را ترجیح می‌دهید یا تیمی؟",
+      "intention": "Team-fit check. The honest answer is almost always 'both, depending on the task'.",
+      "intentionPersian": "بررسی تناسب تیمی. جواب صادقانه تقریباً همیشه «هر دو، بسته به کار» است.",
+      "vocabulary": [
+        { "english": "collaborate", "persian": "همکاری کردن" },
+        { "english": "deep focus", "persian": "تمرکز عمیق" },
+        { "english": "bounce ideas off", "persian": "ایده‌ها را با کسی محک زدن" },
+        { "english": "depend on the task", "persian": "بسته به نوع کار" }
+      ],
+      "structure": "Both, with examples: when you seek the team, when you need focus. Show flexibility.",
+      "example": "Honestly, both — it depends on the task. For design decisions I want the team: I like bouncing ideas off people. For implementation I need blocks of deep focus. A good week has both.",
+      "followUps": ["How do you handle disagreements in a team?", "Describe your ideal team."]
+    },
+    {
+      "id": "gen-13",
+      "question": "How do you respond to criticism?",
+      "questionPersian": "به انتقاد چطور واکنش نشان می‌دهید؟",
+      "intention": "Coachability — can they give you feedback without drama?",
+      "intentionPersian": "قابلیت یادگیری — آیا می‌شود بدون حاشیه به تو بازخورد داد؟",
+      "vocabulary": [
+        { "english": "constructive feedback", "persian": "بازخورد سازنده" },
+        { "english": "take it personally", "persian": "به خود گرفتن" },
+        { "english": "act on", "persian": "عمل کردن بر اساس" },
+        { "english": "appreciate", "persian": "قدردانی کردن" }
+      ],
+      "structure": "Your attitude (welcome it, don't take it personally) + one example where feedback changed your behavior.",
+      "example": "I genuinely want it — vague praise teaches me nothing. In my last review my manager said my PR descriptions were too thin for reviewers. I built a small template, and review turnaround on my PRs dropped noticeably. I'd rather hear it early than late.",
+      "followUps": ["Tell me about feedback that was hard to hear.", "How do you give criticism to others?"]
+    },
+    {
+      "id": "gen-14",
+      "question": "What do you know about our company?",
+      "questionPersian": "درباره شرکت ما چه می‌دانید؟",
+      "intention": "Pure homework check. No research reads as no genuine interest.",
+      "intentionPersian": "بررسی تحقیق قبلی. تحقیق‌نکردن یعنی علاقه واقعی نداری.",
+      "vocabulary": [
+        { "english": "as far as I know", "persian": "تا جایی که می‌دانم" },
+        { "english": "founded", "persian": "تاسیس‌شده" },
+        { "english": "serve customers", "persian": "خدمت‌رسانی به مشتریان" },
+        { "english": "recently launched", "persian": "به‌تازگی عرضه کرده" }
+      ],
+      "structure": "2-3 specific facts (product, market, recent news) + one honest question you still have.",
+      "example": "You build logistics software for mid-size retailers — as far as I know, around two hundred customers across Europe — and you recently launched the route-optimization product. I'm curious how big the engineering team behind that launch was, actually.",
+      "followUps": ["What interests you about our market?", "Have you used our product?"]
+    },
+    {
+      "id": "gen-15",
+      "question": "What is your greatest professional achievement?",
+      "questionPersian": "بزرگ‌ترین دستاورد حرفه‌ای شما چیست؟",
+      "intention": "What you consider success, and whether you can tell a results-focused story.",
+      "intentionPersian": "تعریف تو از موفقیت و توانایی روایت نتیجه‌محور.",
+      "vocabulary": [
+        { "english": "proudest of", "persian": "بیشترین افتخار" },
+        { "english": "led to", "persian": "منجر شد به" },
+        { "english": "measurable", "persian": "قابل اندازه‌گیری" },
+        { "english": "from scratch", "persian": "از صفر" }
+      ],
+      "structure": "Mini-STAR: context in one sentence, what YOU did, measurable result. Your real achievement, modest numbers are fine.",
+      "example": "Rebuilding our deployment pipeline. Releases used to take a full day and fail often; I introduced staged rollouts and automated checks. Deploys went from weekly and scary to daily and boring — that 'boring' is what I'm proudest of.",
+      "followUps": ["What was the hardest part of that work?", "Who else was involved?"]
+    },
+    {
+      "id": "gen-16",
+      "question": "How would your colleagues describe you?",
+      "questionPersian": "همکارانتان شما را چطور توصیف می‌کنند؟",
+      "intention": "Self-awareness from an outside angle; consistency with the rest of your answers.",
+      "intentionPersian": "خودآگاهی از نگاه دیگران و هم‌خوانی با بقیه پاسخ‌هایت.",
+      "vocabulary": [
+        { "english": "reliable", "persian": "قابل اعتماد" },
+        { "english": "approachable", "persian": "خوش‌برخورد (قابل دسترس)" },
+        { "english": "go-to person", "persian": "آدمِ مرجع (برای یک موضوع)" },
+        { "english": "straightforward", "persian": "رک و روشن" }
+      ],
+      "structure": "2-3 adjectives with tiny proof ('I'm usually the go-to person for X'). Attribute them to colleagues, keep it humble.",
+      "example": "They'd probably say reliable and straightforward — if I commit to a date, it ships. I've also become the go-to person for anything queue-related, which I take as a compliment about being approachable.",
+      "followUps": ["What would they say you could improve?", "What role do you naturally take in a team?"]
+    },
+    {
+      "id": "gen-17",
+      "question": "What kind of work environment do you prefer?",
+      "questionPersian": "چه محیط کاری را ترجیح می‌دهید؟",
+      "intention": "Culture-fit: will you actually be happy and productive here?",
+      "intentionPersian": "تناسب فرهنگی: آیا واقعاً اینجا راضی و موثر خواهی بود؟",
+      "vocabulary": [
+        { "english": "autonomy", "persian": "استقلال عمل" },
+        { "english": "clear expectations", "persian": "انتظارات شفاف" },
+        { "english": "open communication", "persian": "ارتباط باز" },
+        { "english": "thrive", "persian": "شکوفا شدن" }
+      ],
+      "structure": "2-3 genuine conditions you work best in; ideally ones this company plausibly offers. Honesty protects you too.",
+      "example": "I thrive with autonomy plus clear expectations — tell me the outcome and the deadline, and trust me on the how. I also value open communication: problems discussed early, not hidden until the deadline.",
+      "followUps": ["How do you handle an environment that isn't like that?", "What's one thing your current team does well?"]
+    },
+    {
+      "id": "gen-18",
+      "question": "Do you have any questions for us?",
+      "questionPersian": "سوالی از ما دارید؟",
+      "intention": "'No' signals low interest. Good questions show how you think.",
+      "intentionPersian": "«نه» یعنی علاقه کم. سوال خوب نشان می‌دهد چطور فکر می‌کنی.",
+      "vocabulary": [
+        { "english": "I'd love to know", "persian": "خیلی دوست دارم بدانم" },
+        { "english": "day-to-day", "persian": "روزمره" },
+        { "english": "measure success", "persian": "سنجش موفقیت" },
+        { "english": "biggest challenge", "persian": "بزرگ‌ترین چالش" }
+      ],
+      "structure": "Always ask 2-3. Best topics: day-to-day reality, success criteria, team challenges — not salary (yet).",
+      "example": "Yes — I'd love to know what the first three months look like day-to-day, and how you measure success for this role at the one-year mark. Also, what's the team's biggest technical challenge right now?",
+      "followUps": []
+    },
+    {
+      "id": "gen-19",
+      "question": "When can you start?",
+      "questionPersian": "از کی می‌توانید شروع کنید؟",
+      "intention": "Practical logistics — and whether you treat your current employer professionally.",
+      "intentionPersian": "موضوع عملی — و اینکه با کارفرمای فعلی حرفه‌ای رفتار می‌کنی یا نه.",
+      "vocabulary": [
+        { "english": "notice period", "persian": "مهلت اطلاع قبلی (برای ترک کار)" },
+        { "english": "hand over", "persian": "تحویل دادن کارها" },
+        { "english": "available from", "persian": "آماده شروع از" },
+        { "english": "wrap up my commitments", "persian": "جمع کردن تعهدات فعلی" }
+      ],
+      "structure": "State your notice period plainly; a clean handover is a POSITIVE signal, don't apologize for it.",
+      "example": "I have a one-month notice period, and I'd want to hand over my projects properly — so I'd be available from the first of next month. If needed, I could start part-time earlier.",
+      "followUps": ["Is the notice period negotiable?", "Would you be open to starting earlier?"]
+    },
+    {
+      "id": "gen-20",
+      "question": "Tell me about a time you failed.",
+      "questionPersian": "از زمانی بگویید که شکست خوردید.",
+      "intention": "Honesty, accountability, and whether failure actually changed your behavior.",
+      "intentionPersian": "صداقت، مسئولیت‌پذیری و اینکه آیا شکست رفتارت را واقعاً تغییر داد.",
+      "vocabulary": [
+        { "english": "take responsibility", "persian": "مسئولیت پذیرفتن" },
+        { "english": "in hindsight", "persian": "در نگاه به گذشته" },
+        { "english": "underestimate", "persian": "دست‌کم گرفتن" },
+        { "english": "lesson learned", "persian": "درس گرفته‌شده" }
+      ],
+      "structure": "A real failure (yours, not the team's), what it cost, what you changed. Blame nobody else.",
+      "example": "I once shipped a schema migration without a rollback plan — I'd underestimated the data volume, and we had twenty minutes of downtime. Entirely my call. Since then every migration I write ships with a tested rollback, no exceptions.",
+      "followUps": ["How did your team react?", "What would you do differently today?"]
+    }
+  ]
+}

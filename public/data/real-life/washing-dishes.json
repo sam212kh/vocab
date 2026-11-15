@@ -1,0 +1,42 @@
+{
+  "id": "washing-dishes",
+  "title": "Washing the Dishes",
+  "titlePersian": "ظرف شستن",
+  "context": "After dinner: the sink, the sponge, drying, putting everything away. Tiny everyday actions — surprisingly hard to narrate in English the first time.",
+  "contextPersian": "بعد از شام: سینک، اسکاج، خشک کردن، سر جا گذاشتن. کارهای کوچک روزمره که بار اول گفتنشان به انگلیسی سخت‌تر از چیزی است که فکر می‌کنی.",
+  "expressions": [
+    { "english": "do the dishes", "persian": "ظرف شستن", "example": "You cooked, so I'll do the dishes.", "examplePersian": "تو آشپزی کردی، پس من ظرف‌ها را می‌شویم.", "note": "Also 'wash up' (BrE). 'Wash the dishes' is fine too; 'do the dishes' is most common." },
+    { "english": "rinse", "persian": "آب کشیدن", "example": "Rinse the plates before putting them in the rack.", "examplePersian": "بشقاب‌ها را قبل از گذاشتن در جاظرفی آب بکش." },
+    { "english": "scrub the pan", "persian": "ماهیتابه را سابیدن", "example": "This pan needs a good scrub — the rice stuck to it.", "examplePersian": "این قابلمه حسابی سابیدن می‌خواهد — برنج تهش چسبیده." },
+    { "english": "washing-up liquid", "persian": "مایع ظرفشویی", "example": "We're almost out of washing-up liquid.", "examplePersian": "مایع ظرفشویی‌مان تقریباً تمام شده.", "note": "US English: dish soap." },
+    { "english": "the sink is full", "persian": "سینک پر است", "example": "The sink is full of dishes again!", "examplePersian": "سینک دوباره پر از ظرف است!" },
+    { "english": "dry the dishes", "persian": "ظرف‌ها را خشک کردن", "example": "I'll wash and you dry the dishes.", "examplePersian": "من می‌شویم، تو ظرف‌ها را خشک کن." },
+    { "english": "put the dishes away", "persian": "ظرف‌ها را سر جایشان گذاشتن", "example": "Can you put the dishes away once they're dry?", "examplePersian": "می‌شود وقتی خشک شدند ظرف‌ها را سر جایشان بگذاری؟" },
+    { "english": "load the dishwasher", "persian": "ماشین ظرفشویی را پر کردن", "example": "Just load the dishwasher and I'll run it tonight.", "examplePersian": "فقط ماشین را پر کن، من شب روشنش می‌کنم.", "note": "Opposite: unload/empty the dishwasher." },
+    { "english": "leave it to soak", "persian": "گذاشتن که خیس بخورد", "example": "Leave the pot to soak overnight.", "examplePersian": "بگذار قابلمه یک شب خیس بخورد." }
+  ],
+  "exercises": [
+    { "id": "rl-dish-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 1, "prompt": "After dinner, it's your turn to ___.", "options": ["do the dishes", "make the dishes", "clean the eats", "wash the foods"], "correctIndex": 0, "explanation": "Do the dishes = ظرف شستن.", "explanationPersian": "ظرف شستن: do the dishes." },
+    { "id": "rl-dish-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "before": "The rice stuck to the pot — leave it to", "after": "overnight.", "acceptedAnswers": ["soak"], "explanation": "خیس خوردن: soak.", "explanationPersian": "خیس خوردن: soak." },
+    { "id": "rl-dish-3", "type": "sentence-ordering", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "segments": ["Can", "you", "put", "the", "dishes", "away?"], "explanation": "Put away = سر جا گذاشتن.", "explanationPersian": "سر جا گذاشتن: put away." },
+    { "id": "rl-dish-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "source": "من می‌شویم، تو خشک کن.", "sourceLang": "fa", "acceptedAnswers": ["I'll wash and you dry.", "I'll wash, you dry.", "I wash and you dry."], "explanation": "Wash and dry — شستن و خشک کردن.", "explanationPersian": "تقسیم کار: I'll wash and you dry." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe how you clean up after dinner, step by step.",
+    "instructionPersian": "مرحله به مرحله بگو بعد از شام چطور جمع‌وجور می‌کنی.",
+    "modelSentences": [
+      "After dinner I do the dishes.",
+      "I rinse the plates and scrub the pans.",
+      "I leave the big pot to soak.",
+      "Then I dry everything and put the dishes away."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "The learner's family member negotiating after-dinner cleanup",
+    "learnerRole": "You're organizing who washes, who dries, who puts away",
+    "objective": "Divide the cleanup naturally, including one objection",
+    "context": "The sink is full after a big dinner. Decide together who does what; the other person tries to get the easier job.",
+    "opening": "Wow, look at that sink. So... wash or dry — which one do you want?",
+    "vocabulary": ["do the dishes", "rinse", "scrub", "dry", "put away"]
+  }
+}

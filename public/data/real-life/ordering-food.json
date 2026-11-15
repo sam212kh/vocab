@@ -1,0 +1,44 @@
+{
+  "id": "ordering-food",
+  "title": "Ordering Food",
+  "titlePersian": "سفارش غذا",
+  "context": "At a restaurant or café: getting a table, ordering, asking about dishes, small problems, the bill. The highest-value travel-and-everyday English there is.",
+  "contextPersian": "در رستوران یا کافه: میز گرفتن، سفارش دادن، سوال درباره غذاها، مشکلات کوچک، صورتحساب. پرکاربردترین انگلیسی سفر و زندگی روزمره.",
+  "expressions": [
+    { "english": "a table for two", "persian": "یک میز دونفره", "example": "Hi, could we get a table for two, please?", "examplePersian": "سلام، می‌شود یک میز دونفره داشته باشیم؟" },
+    { "english": "Are you ready to order?", "persian": "آماده سفارش هستید؟", "example": "Are you ready to order, or do you need a few more minutes?", "examplePersian": "آماده سفارشید یا چند دقیقه دیگر لازم دارید؟" },
+    { "english": "I'll have...", "persian": "من ... می‌خورم (سفارش می‌دهم)", "example": "I'll have the grilled chicken, please.", "examplePersian": "من جوجه گریل می‌خورم، لطفاً.", "note": "The standard ordering phrase — much more natural than 'I want'." },
+    { "english": "What do you recommend?", "persian": "چه چیزی پیشنهاد می‌کنید؟", "example": "It's our first time here — what do you recommend?", "examplePersian": "بار اولمان است — چه پیشنهاد می‌کنید؟" },
+    { "english": "Does it come with...?", "persian": "همراهش ... هم هست؟", "example": "Does the steak come with fries?", "examplePersian": "استیک با سیب‌زمینی سرخ‌کرده سرو می‌شود؟" },
+    { "english": "on the side", "persian": "جداگانه (کنار غذا)", "example": "Could I get the sauce on the side?", "examplePersian": "می‌شود سس را جدا بدهید؟" },
+    { "english": "I'm allergic to...", "persian": "به ... حساسیت دارم", "example": "I'm allergic to nuts — is there any in this dish?", "examplePersian": "به آجیل حساسیت دارم — در این غذا هست؟" },
+    { "english": "This isn't what I ordered.", "persian": "این سفارش من نیست.", "example": "Sorry, this isn't what I ordered — I asked for the fish.", "examplePersian": "ببخشید، این سفارش من نیست — من ماهی خواسته بودم." },
+    { "english": "Could we get the bill?", "persian": "می‌شود صورتحساب را بیاورید؟", "example": "That was lovely. Could we get the bill, please?", "examplePersian": "عالی بود. می‌شود صورتحساب را بیاورید؟", "note": "US English: the check." },
+    { "english": "keep the change", "persian": "بقیه‌اش مال خودتان", "example": "Here you go — keep the change.", "examplePersian": "بفرمایید — بقیه‌اش مال خودتان." }
+  ],
+  "exercises": [
+    { "id": "rl-food-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 1, "prompt": "The most natural way to order is:", "options": ["I'll have the soup, please.", "I want soup.", "Give me the soup.", "Soup is my order."], "correctIndex": 0, "explanation": "'I'll have...' is polite and standard.", "explanationPersian": "عبارت استاندارد سفارش: ...I'll have" },
+    { "id": "rl-food-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "before": "Could I get the dressing", "after": "the side?", "acceptedAnswers": ["on"], "explanation": "On the side — جداگانه.", "explanationPersian": "جدا سرو شدن: on the side." },
+    { "id": "rl-food-3", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "You got the wrong dish. You say politely:", "options": ["Sorry, this isn't what I ordered.", "You made a mistake dish.", "This food is false.", "I refuse this plate."], "correctIndex": 0, "explanation": "Polite complaint: 'Sorry, this isn't what I ordered.'", "explanationPersian": "اعتراض مودبانه: Sorry, this isn't what I ordered." },
+    { "id": "rl-food-4", "type": "sentence-ordering", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "segments": ["Could", "we", "get", "the", "bill,", "please?"], "explanation": "Asking for the bill politely.", "explanationPersian": "درخواست صورتحساب: ?Could we get the bill, please" },
+    { "id": "rl-food-5", "type": "translation", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "source": "چه چیزی پیشنهاد می‌کنید؟", "sourceLang": "fa", "acceptedAnswers": ["What do you recommend?", "What would you recommend?"], "explanation": "پیشنهاد گرفتن از گارسون: ?What do you recommend", "explanationPersian": "سوال رایج از گارسون: ?What do you recommend" }
+  ],
+  "speakingTask": {
+    "instruction": "Order a full meal out loud: greet, ask a question about the menu, order a main and a drink, ask for the bill.",
+    "instructionPersian": "یک سفارش کامل را بلند بگو: سلام، یک سوال درباره منو، سفارش غذا و نوشیدنی، درخواست صورتحساب.",
+    "modelSentences": [
+      "Hi, could we get a table for two?",
+      "What do you recommend?",
+      "I'll have the grilled fish with rice, please.",
+      "Could we get the bill, please?"
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A friendly waiter at a casual restaurant",
+    "learnerRole": "A customer ordering dinner",
+    "objective": "Complete a full restaurant interaction incl. one small problem",
+    "context": "The learner orders dinner. One dish is unavailable; later the wrong drink arrives and they fix it politely; then they pay.",
+    "opening": "Good evening! Welcome. Here are the menus — can I start you off with something to drink?",
+    "vocabulary": ["I'll have", "recommend", "come with", "on the side", "the bill"]
+  }
+}

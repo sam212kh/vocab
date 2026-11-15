@@ -1,0 +1,46 @@
+{
+  "id": "daily-routine",
+  "title": "Describing Your Daily Routine",
+  "titlePersian": "توصیف برنامه روزانه",
+  "context": "Putting the whole day together: sequencing words and natural time expressions that turn a word list into fluent speech. This is the scenario that ties all the others together.",
+  "contextPersian": "کنار هم گذاشتن کل روز: کلمات ترتیب و عبارت‌های زمانی طبیعی که فهرست لغات را به صحبت روان تبدیل می‌کنند. این سناریو بقیه را به هم وصل می‌کند.",
+  "expressions": [
+    { "english": "first thing in the morning", "persian": "اول صبح", "example": "First thing in the morning, I check my messages.", "examplePersian": "اول صبح پیام‌هایم را چک می‌کنم." },
+    { "english": "after that", "persian": "بعد از آن", "example": "I have breakfast, and after that I head to work.", "examplePersian": "صبحانه می‌خورم و بعد از آن راهی سر کار می‌شوم." },
+    { "english": "by the time", "persian": "تا وقتی که / وقتی بالاخره", "example": "By the time I get home, it's usually dark.", "examplePersian": "تا وقتی به خانه می‌رسم معمولاً هوا تاریک شده.", "note": "Very natural for linking times: by the time X happens, Y has happened." },
+    { "english": "take a break", "persian": "استراحت کردن", "example": "I take a short break around eleven.", "examplePersian": "حدود ساعت یازده یک استراحت کوتاه می‌کنم." },
+    { "english": "grab lunch", "persian": "ناهار خوردن (سریع و راحت)", "example": "I usually grab lunch with a colleague at one.", "examplePersian": "معمولاً ساعت یک با یک همکار ناهار می‌خورم." },
+    { "english": "wrap up work", "persian": "کار را جمع کردن", "example": "I try to wrap up work by six.", "examplePersian": "سعی می‌کنم تا شش کار را جمع کنم.", "note": "Wrap up = finish. Also: let's wrap up the meeting." },
+    { "english": "wind down", "persian": "آرام گرفتن (آخر روز)", "example": "In the evening I wind down with a book or a show.", "examplePersian": "شب‌ها با کتاب یا سریال آرام می‌گیرم." },
+    { "english": "stay up late", "persian": "تا دیروقت بیدار ماندن", "example": "I stayed up late last night, so I'm exhausted.", "examplePersian": "دیشب تا دیروقت بیدار ماندم، برای همین خسته‌ام." },
+    { "english": "get a good night's sleep", "persian": "خواب خوب شبانه داشتن", "example": "I'm trying to get a good night's sleep before the interview.", "examplePersian": "سعی می‌کنم قبل از مصاحبه یک خواب شبانه خوب داشته باشم." },
+    { "english": "on weekdays / on weekends", "persian": "روزهای هفته / آخر هفته‌ها", "example": "On weekdays I'm very busy, but on weekends I relax.", "examplePersian": "روزهای هفته خیلی سرم شلوغ است اما آخر هفته‌ها استراحت می‌کنم." }
+  ],
+  "exercises": [
+    { "id": "rl-routine-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "You finish work at six. The most natural way to say it:", "options": ["I wrap up work by six.", "I conclude the work at six.", "I am closing works at six.", "I terminate working at six."], "correctIndex": 0, "explanation": "Wrap up = finish (informal, natural).", "explanationPersian": "جمع کردن کار: wrap up." },
+    { "id": "rl-routine-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "before": "I stayed", "after": "late watching the match, so I overslept.", "acceptedAnswers": ["up"], "explanation": "Stay up late — تا دیروقت بیدار ماندن.", "explanationPersian": "بیدار ماندن: stay up." },
+    { "id": "rl-routine-3", "type": "sentence-ordering", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "segments": ["By", "the", "time", "I", "get", "home,", "it's", "dark"], "explanation": "By the time + clause, main clause.", "explanationPersian": "ساختار by the time برای ربط دو زمان." },
+    { "id": "rl-routine-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "source": "شب‌ها با یک کتاب آرام می‌گیرم.", "sourceLang": "fa", "acceptedAnswers": ["In the evening I wind down with a book.", "In the evenings I wind down with a book.", "At night I wind down with a book."], "explanation": "Wind down — آرام گرفتن آخر روز.", "explanationPersian": "آرام گرفتن: wind down." },
+    { "id": "rl-routine-5", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "Which sentence sequences a day naturally?", "options": ["First thing in the morning I check email, and after that I start coding.", "Firstly morning I check email, secondly coding.", "At the first of morning email, then after codes.", "In morning one: email. In morning two: coding."], "correctIndex": 0, "explanation": "Natural sequencing: first thing in the morning..., after that...", "explanationPersian": "ترتیب طبیعی: first thing in the morning و after that." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe your whole day in 6-8 sentences, using at least three sequencing expressions.",
+    "instructionPersian": "کل روزت را در ۶ تا ۸ جمله توصیف کن و حداقل از سه عبارت ترتیبی استفاده کن.",
+    "modelSentences": [
+      "First thing in the morning, my alarm goes off at six.",
+      "After that, I take a quick shower and grab breakfast.",
+      "I take a break around eleven and grab lunch at one.",
+      "I try to wrap up work by six.",
+      "By the time I get home, I'm ready to wind down.",
+      "On weekends, I stay up late and sleep in."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A new online language partner getting to know the learner",
+    "learnerRole": "You're telling a new conversation partner about your typical day",
+    "objective": "Describe a full day fluently and answer follow-up questions",
+    "context": "First chat with a language partner who is curious about the learner's daily life — work, meals, evenings, weekends. They ask natural follow-ups.",
+    "opening": "So tell me — what does a typical day look like for you?",
+    "vocabulary": ["first thing in the morning", "after that", "wrap up", "wind down", "by the time"]
+  }
+}

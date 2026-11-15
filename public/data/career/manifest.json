@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "sections": [
+    { "id": "general", "title": "General Job Interviews", "titlePersian": "مصاحبه‌های عمومی", "icon": "🎯", "cefrLevel": "B1-B2", "skillTags": ["speaking", "vocabulary"], "domainTags": ["business"], "estimatedDuration": 5, "file": "./general.json" },
+    { "id": "behavioral", "title": "Behavioral Interviews (STAR)", "titlePersian": "مصاحبه‌های رفتاری", "icon": "⭐", "cefrLevel": "B1-B2", "skillTags": ["speaking", "writing"], "domainTags": ["business"], "estimatedDuration": 8, "file": "./behavioral.json" },
+    { "id": "salary", "title": "Salary & Negotiation", "titlePersian": "حقوق و مذاکره", "icon": "💰", "cefrLevel": "B2", "skillTags": ["speaking", "vocabulary"], "domainTags": ["business"], "estimatedDuration": 5, "file": "./salary.json" },
+    { "id": "remote", "title": "Remote Work Interviews", "titlePersian": "مصاحبه دورکاری", "icon": "🌍", "cefrLevel": "B1-B2", "skillTags": ["speaking", "vocabulary"], "domainTags": ["business", "technical"], "estimatedDuration": 5, "file": "./remote.json" },
+    { "id": "workplace", "title": "Workplace Communication", "titlePersian": "ارتباطات محیط کار", "icon": "🗣️", "cefrLevel": "B1-B2", "skillTags": ["speaking", "listening"], "domainTags": ["business"], "estimatedDuration": 6, "file": "./workplace.json" }
+  ]
+}

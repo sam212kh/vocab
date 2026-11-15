@@ -1,0 +1,43 @@
+{
+  "id": "cleaning-house",
+  "title": "Cleaning the House",
+  "titlePersian": "تمیز کردن خانه",
+  "context": "Sweeping, vacuuming, dusting, taking out the trash — chores have their own exact verbs in English, and 'clean' alone won't carry you far.",
+  "contextPersian": "جارو کردن، جاروبرقی کشیدن، گردگیری، بیرون بردن زباله — هر کار خانه فعل دقیق خودش را دارد و «clean» به تنهایی کافی نیست.",
+  "expressions": [
+    { "english": "do the housework", "persian": "کارهای خانه را انجام دادن", "example": "I spend Saturday mornings doing the housework.", "examplePersian": "صبح‌های شنبه را صرف کارهای خانه می‌کنم." },
+    { "english": "vacuum the carpet", "persian": "جاروبرقی کشیدن فرش", "example": "Can you vacuum the carpet in the living room?", "examplePersian": "می‌شود فرش پذیرایی را جاروبرقی بکشی؟", "note": "Also 'hoover' in British English." },
+    { "english": "sweep the floor", "persian": "زمین را جارو کردن", "example": "I'll sweep the kitchen floor after dinner.", "examplePersian": "بعد از شام کف آشپزخانه را جارو می‌کنم." },
+    { "english": "mop the floor", "persian": "زمین را تی کشیدن", "example": "The floor's sticky — it needs mopping.", "examplePersian": "زمین چسبناک است — باید تی کشیده شود." },
+    { "english": "dust the shelves", "persian": "گردگیری قفسه‌ها", "example": "I dusted the shelves and wiped down the table.", "examplePersian": "قفسه‌ها را گردگیری کردم و میز را دستمال کشیدم." },
+    { "english": "wipe down", "persian": "دستمال کشیدن (سطحی را تمیز کردن)", "example": "Wipe down the counters when you finish cooking.", "examplePersian": "وقتی آشپزی تمام شد، کابینت‌ها را دستمال بکش." },
+    { "english": "take out the trash", "persian": "زباله را بیرون بردن", "example": "Don't forget to take out the trash tonight.", "examplePersian": "یادت نرود امشب زباله را بیرون ببری.", "note": "British English: take out the rubbish/bins." },
+    { "english": "put things away", "persian": "وسایل را سر جایش گذاشتن", "example": "Let's put everything away before the guests arrive.", "examplePersian": "قبل از رسیدن مهمان‌ها همه چیز را سر جایش بگذاریم." },
+    { "english": "tidy up", "persian": "مرتب کردن", "example": "Give me twenty minutes to tidy up the living room.", "examplePersian": "بیست دقیقه وقت بده پذیرایی را مرتب کنم.", "note": "Tidy up = make neat; clean = remove dirt. A room can be tidy but not clean." },
+    { "english": "make the bed", "persian": "تخت را مرتب کردن", "example": "I make the bed as soon as I get up.", "examplePersian": "به محض اینکه بیدار می‌شوم تخت را مرتب می‌کنم." }
+  ],
+  "exercises": [
+    { "id": "rl-clean-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "prompt": "The carpet is dirty. You need to ___ it.", "options": ["vacuum", "sweep", "mop", "wash up"], "correctIndex": 0, "explanation": "Carpets → vacuum. Hard floors → sweep/mop.", "explanationPersian": "فرش → جاروبرقی (vacuum)؛ کف سخت → جارو یا تی." },
+    { "id": "rl-clean-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "before": "Don't forget to take", "after": "the trash before bed.", "acceptedAnswers": ["out"], "explanation": "Take out the trash — بیرون بردن زباله.", "explanationPersian": "بیرون بردن زباله: take out the trash." },
+    { "id": "rl-clean-3", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "prompt": "Your room is messy but not dirty. Before guests come you should ___.", "options": ["tidy up", "mop up", "dust off", "wipe out"], "correctIndex": 0, "explanation": "Messy → tidy up (make neat). Dirty → clean.", "explanationPersian": "به‌هم‌ریخته → tidy up؛ کثیف → clean." },
+    { "id": "rl-clean-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "source": "من هر روز صبح تختم را مرتب می‌کنم.", "sourceLang": "fa", "acceptedAnswers": ["I make my bed every morning.", "Every morning I make my bed.", "I make the bed every morning."], "explanation": "Make the bed — مرتب کردن تخت.", "explanationPersian": "مرتب کردن تخت: make the bed." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe how you clean your home — which chores you do, in what order.",
+    "instructionPersian": "توصیف کن چطور خانه‌ات را تمیز می‌کنی — چه کارهایی و به چه ترتیبی.",
+    "modelSentences": [
+      "On weekends I do the housework.",
+      "First I tidy up and put things away.",
+      "Then I vacuum the carpets and mop the kitchen floor.",
+      "Finally I wipe down the counters and take out the trash."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "The learner's flatmate planning weekend cleaning together",
+    "learnerRole": "You're dividing up the chores with your flatmate",
+    "objective": "Negotiate who does which chore, using the chore verbs naturally",
+    "context": "Saturday morning. The flat needs a proper clean before guests come tomorrow. Divide tasks, disagree a little, agree a plan.",
+    "opening": "Okay, this place is a mess and your friends come tomorrow. How do you want to split the cleaning?",
+    "vocabulary": ["vacuum", "mop", "tidy up", "wipe down", "take out the trash"]
+  }
+}

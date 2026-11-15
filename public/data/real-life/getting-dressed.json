@@ -1,0 +1,42 @@
+{
+  "id": "getting-dressed",
+  "title": "Getting Dressed",
+  "titlePersian": "لباس پوشیدن",
+  "context": "Choosing clothes, putting them on, taking them off — simple actions with very specific English verbs that don't translate word-for-word from Persian.",
+  "contextPersian": "انتخاب لباس، پوشیدن و درآوردن — کارهای ساده‌ای که فعل‌های انگلیسی مخصوص خودشان را دارند و ترجمه کلمه‌به‌کلمه از فارسی جواب نمی‌دهد.",
+  "expressions": [
+    { "english": "get dressed", "persian": "لباس پوشیدن", "example": "Give me ten minutes to get dressed.", "examplePersian": "ده دقیقه بهم وقت بده لباس بپوشم.", "note": "General act of dressing. For one item, use 'put on'." },
+    { "english": "put on", "persian": "پوشیدن (یک لباس خاص)", "example": "Put on a warm jacket — it's freezing outside.", "examplePersian": "یک کاپشن گرم بپوش — بیرون خیلی سرد است." },
+    { "english": "take off", "persian": "درآوردن", "example": "You can take off your shoes here.", "examplePersian": "می‌توانی کفش‌هایت را اینجا دربیاوری." },
+    { "english": "try on", "persian": "پرو کردن", "example": "Can I try on this shirt in a medium?", "examplePersian": "می‌توانم این پیراهن را سایز مدیوم پرو کنم؟" },
+    { "english": "it doesn't fit", "persian": "اندازه نیست", "example": "These jeans don't fit anymore — they're too tight.", "examplePersian": "این شلوار جین دیگر اندازه نیست — خیلی تنگ شده.", "note": "Fit = size. Suit = looks good on you: 'That color suits you.'" },
+    { "english": "that suits you", "persian": "بهت می‌آید", "example": "Blue really suits you.", "examplePersian": "آبی واقعاً بهت می‌آید." },
+    { "english": "get changed", "persian": "لباس عوض کردن", "example": "I'll get changed after work and meet you there.", "examplePersian": "بعد از کار لباس عوض می‌کنم و همان‌جا می‌بینمت." },
+    { "english": "do up the buttons", "persian": "دکمه‌ها را بستن", "example": "Hold on, let me do up my buttons.", "examplePersian": "صبر کن دکمه‌هایم را ببندم." },
+    { "english": "match", "persian": "ست بودن / هم‌خوانی داشتن", "example": "Does this shirt match these trousers?", "examplePersian": "این پیراهن با این شلوار هم‌خوانی دارد؟" }
+  ],
+  "exercises": [
+    { "id": "rl-dressed-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "prompt": "In a clothes shop, you want to test a jacket before buying. You ask: Can I ___ it ___?", "options": ["try / on", "put / up", "take / on", "wear / out"], "correctIndex": 0, "explanation": "Try on = پرو کردن.", "explanationPersian": "پرو کردن: try on." },
+    { "id": "rl-dressed-2", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "prompt": "The shirt is the wrong size. You say:", "options": ["It doesn't fit.", "It doesn't suit.", "It doesn't match me.", "It isn't my measure."], "correctIndex": 0, "explanation": "Wrong size → doesn't fit. Wrong look → doesn't suit you.", "explanationPersian": "اندازه نبودن: doesn't fit؛ نیامدن به کسی: doesn't suit." },
+    { "id": "rl-dressed-3", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 1, "before": "It's cold —", "after": "on a warm jacket. (put / take / try)", "acceptedAnswers": ["put"], "explanation": "Put on = پوشیدن.", "explanationPersian": "پوشیدن: put on." },
+    { "id": "rl-dressed-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "source": "این رنگ واقعاً بهت می‌آید.", "sourceLang": "fa", "acceptedAnswers": ["This color really suits you.", "This colour really suits you.", "That color really suits you."], "explanation": "به کسی آمدن: suit.", "explanationPersian": "بهت می‌آید: it suits you." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe what you're wearing today and what you put on this morning.",
+    "instructionPersian": "بگو امروز چه پوشیده‌ای و صبح چه لباسی تنت کردی.",
+    "modelSentences": [
+      "This morning I got dressed in about five minutes.",
+      "I put on a white shirt and dark trousers.",
+      "I tried on two jackets before choosing this one.",
+      "When I get home, I'll get changed into something comfortable."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A shop assistant in a clothes store",
+    "learnerRole": "A customer looking for a shirt for work",
+    "objective": "Ask to try things on, talk about size, fit and color",
+    "context": "The learner wants a work shirt. The first one doesn't fit; discuss sizes and whether colors suit them, then decide.",
+    "opening": "Hi there! Looking for anything in particular today?",
+    "vocabulary": ["try on", "fit", "suit", "size", "match"]
+  }
+}

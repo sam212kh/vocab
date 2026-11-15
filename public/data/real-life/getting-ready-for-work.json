@@ -1,0 +1,43 @@
+{
+  "id": "getting-ready-for-work",
+  "title": "Getting Ready for Work",
+  "titlePersian": "آماده شدن برای سر کار",
+  "context": "The morning rush: alarm, shower, coffee, running late, commuting. The phrases you'd use to tell a colleague why you're five minutes late.",
+  "contextPersian": "عجله صبح: زنگ ساعت، دوش، قهوه، دیر شدن، رفت‌وآمد. عبارت‌هایی که با آن به همکارت می‌گویی چرا پنج دقیقه دیر رسیدی.",
+  "expressions": [
+    { "english": "the alarm goes off", "persian": "زنگ ساعت به صدا درآمدن", "example": "My alarm goes off at six, but I never get up before six thirty.", "examplePersian": "ساعتم شش زنگ می‌زند ولی هیچ‌وقت قبل از شش‌ونیم بلند نمی‌شوم.", "note": "Goes off = rings. 'Turn off the alarm' = خاموش کردن." },
+    { "english": "hit snooze", "persian": "دکمه خاموشی موقت را زدن", "example": "I hit snooze three times this morning.", "examplePersian": "امروز صبح سه بار دکمه snooze را زدم." },
+    { "english": "take a quick shower", "persian": "یک دوش سریع گرفتن", "example": "I just have time to take a quick shower.", "examplePersian": "فقط وقت دارم یک دوش سریع بگیرم." },
+    { "english": "get ready", "persian": "آماده شدن", "example": "It takes me about forty minutes to get ready.", "examplePersian": "آماده شدنم حدود چهل دقیقه طول می‌کشد." },
+    { "english": "I'm running late", "persian": "دارم دیر می‌رسم", "example": "I'm running late — can we push the meeting fifteen minutes?", "examplePersian": "دارم دیر می‌رسم — می‌شود جلسه را پانزده دقیقه عقب بیندازیم؟", "note": "Running late = in the process of being late. More natural than 'I will be late' in the moment." },
+    { "english": "grab my keys", "persian": "کلیدها را برداشتن", "example": "Hang on, let me grab my keys and we can go.", "examplePersian": "صبر کن کلیدهایم را بردارم تا برویم." },
+    { "english": "head to work", "persian": "راهی سر کار شدن", "example": "I usually head to work around eight.", "examplePersian": "معمولاً حدود هشت راهی سر کار می‌شوم.", "note": "Head to = go towards. Very common: head home, head out." },
+    { "english": "catch the bus", "persian": "به اتوبوس رسیدن", "example": "If I leave now, I can still catch the 8:15 bus.", "examplePersian": "اگر الان راه بیفتم هنوز به اتوبوس ۸:۱۵ می‌رسم." },
+    { "english": "the traffic is terrible", "persian": "ترافیک وحشتناک است", "example": "Sorry I'm late — the traffic was terrible this morning.", "examplePersian": "ببخشید دیر کردم — ترافیک امروز صبح وحشتناک بود." },
+    { "english": "work from home", "persian": "دورکاری کردن", "example": "I work from home on Tuesdays, so no commute.", "examplePersian": "سه‌شنبه‌ها دورکارم، پس رفت‌وآمدی ندارم." }
+  ],
+  "exercises": [
+    { "id": "rl-work-1", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "before": "My alarm goes", "after": "at six every morning.", "acceptedAnswers": ["off"], "explanation": "The alarm goes off = زنگ می‌زند.", "explanationPersian": "زنگ زدن ساعت: goes off." },
+    { "id": "rl-work-2", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "You're going to arrive a bit late and want to tell a colleague now. The most natural message is:", "options": ["I'm running late.", "I'm being delayed person.", "My arrival will be postponed.", "I come lately."], "correctIndex": 0, "explanation": "'I'm running late' is THE phrase for this moment.", "explanationPersian": "عبارت رایج برای همین لحظه: I'm running late." },
+    { "id": "rl-work-3", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "If you leave now, you can still ___ the 8:15 bus.", "options": ["catch", "take up", "arrive", "reach to"], "correctIndex": 0, "explanation": "Catch the bus/train = به آن رسیدن.", "explanationPersian": "رسیدن به اتوبوس: catch the bus." },
+    { "id": "rl-work-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "source": "ببخشید دیر کردم — ترافیک وحشتناک بود.", "sourceLang": "fa", "acceptedAnswers": ["Sorry I'm late — the traffic was terrible.", "Sorry I'm late, the traffic was terrible.", "Sorry I am late — the traffic was terrible."], "explanation": "The standard apology for lateness.", "explanationPersian": "عذرخواهی رایج برای تاخیر." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe your morning from waking up to arriving at work.",
+    "instructionPersian": "صبح خودت را از بیدار شدن تا رسیدن به محل کار توصیف کن.",
+    "modelSentences": [
+      "My alarm goes off at six, and I usually hit snooze once.",
+      "I take a quick shower and get ready.",
+      "I grab my keys and head to work around eight.",
+      "When the traffic is terrible, I'm running late by ten minutes."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "The learner's colleague on a quick morning call",
+    "learnerRole": "You're running late and calling a colleague to manage it",
+    "objective": "Explain the delay, ask them to cover, agree next steps",
+    "context": "The learner is stuck in traffic before a 9:00 stand-up. Call a colleague: explain, ask them to share your update, promise an ETA.",
+    "opening": "Hey, morning! You're usually here by now — everything okay?",
+    "vocabulary": ["running late", "traffic", "catch", "head to", "cover for me"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "making-phone-call",
+  "title": "Making a Phone Call",
+  "titlePersian": "تماس تلفنی",
+  "context": "Phone English is its own little language: answering, asking for someone, bad connections, taking messages, ending politely.",
+  "contextPersian": "انگلیسیِ تلفن زبان کوچک خودش را دارد: جواب دادن، کسی را خواستن، آنتن بد، پیغام گرفتن، تمام کردن مودبانه.",
+  "expressions": [
+    { "english": "give someone a call", "persian": "به کسی زنگ زدن", "example": "I'll give you a call tomorrow morning.", "examplePersian": "فردا صبح بهت زنگ می‌زنم.", "note": "Natural alternative to 'call someone'. Also: give me a ring (BrE)." },
+    { "english": "Who's calling, please?", "persian": "شما؟ (چه کسی تماس می‌گیرد؟)", "example": "— Can I speak to Sara? — Who's calling, please?", "examplePersian": "— می‌توانم با سارا صحبت کنم؟ — شما؟" },
+    { "english": "speaking", "persian": "خودم هستم", "example": "— Could I speak to Mr. Karimi? — Speaking.", "examplePersian": "— می‌توانم با آقای کریمی صحبت کنم؟ — خودم هستم.", "note": "The one-word answer when the caller asks for you." },
+    { "english": "hold on a moment", "persian": "یک لحظه گوشی", "example": "Hold on a moment, I'll get her for you.", "examplePersian": "یک لحظه گوشی، صدایش می‌کنم." },
+    { "english": "put you through", "persian": "وصل کردن (تماس)", "example": "I'll put you through to the support team.", "examplePersian": "شما را به تیم پشتیبانی وصل می‌کنم." },
+    { "english": "leave a message", "persian": "پیغام گذاشتن", "example": "He's not in right now — would you like to leave a message?", "examplePersian": "الان نیستند — می‌خواهید پیغام بگذارید؟" },
+    { "english": "call back", "persian": "دوباره تماس گرفتن", "example": "Could you ask her to call me back when she's free?", "examplePersian": "می‌شود بگویید وقتی آزاد شد با من تماس بگیرد؟" },
+    { "english": "You're breaking up", "persian": "صدات قطع‌ووصل می‌شود", "example": "Sorry, you're breaking up — can you say that again?", "examplePersian": "ببخشید، صدات قطع‌ووصل می‌شود — دوباره می‌گویی؟" },
+    { "english": "I'll hang up and try again", "persian": "قطع می‌کنم و دوباره می‌گیرم", "example": "The line's bad — I'll hang up and try again.", "examplePersian": "خط خراب است — قطع می‌کنم و دوباره می‌گیرم." },
+    { "english": "Thanks for calling", "persian": "ممنون که تماس گرفتید", "example": "Thanks for calling — speak soon!", "examplePersian": "ممنون که زنگ زدی — به زودی صحبت می‌کنیم!" }
+  ],
+  "exercises": [
+    { "id": "rl-phone-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "Someone calls and asks for you. You answer with one word:", "options": ["Speaking.", "Me.", "Here.", "Present."], "correctIndex": 0, "explanation": "'Speaking.' = خودم هستم.", "explanationPersian": "خودم هستم (پشت تلفن): Speaking." },
+    { "id": "rl-phone-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "before": "He's in a meeting — would you like to leave a", "after": "?", "acceptedAnswers": ["message"], "explanation": "Leave a message — پیغام گذاشتن.", "explanationPersian": "پیغام گذاشتن: leave a message." },
+    { "id": "rl-phone-3", "type": "multiple-choice", "skill": "listening", "cefrLevel": "B1", "difficulty": 3, "prompt": "The connection is bad and you hear only parts of the sentence. You say:", "options": ["You're breaking up.", "You're cutting yourself.", "Your voice is broken down.", "The phone divides you."], "correctIndex": 0, "explanation": "Bad connection: you're breaking up.", "explanationPersian": "قطع‌ووصل شدن صدا: you're breaking up." },
+    { "id": "rl-phone-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 3, "source": "می‌شود بگویید با من تماس بگیرد؟", "sourceLang": "fa", "acceptedAnswers": ["Could you ask him to call me back?", "Could you ask her to call me back?", "Can you ask him to call me back?", "Can you ask her to call me back?"], "explanation": "Call back — دوباره تماس گرفتن.", "explanationPersian": "تماس مجدد: call back." }
+  ],
+  "speakingTask": {
+    "instruction": "Practice a short call out loud: answer, say the person isn't available, offer to take a message.",
+    "instructionPersian": "یک تماس کوتاه را بلند تمرین کن: جواب بده، بگو طرف نیست، پیشنهاد پیغام گرفتن بده.",
+    "modelSentences": [
+      "Hello, who's calling, please?",
+      "Hold on a moment, I'll check if she's in.",
+      "I'm sorry, she's not available right now.",
+      "Would you like to leave a message, or shall I ask her to call you back?"
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A receptionist at a company the learner is calling",
+    "learnerRole": "You're calling to speak to Ms. Rahimi about an invoice",
+    "objective": "Get through or leave a proper message with your details",
+    "context": "Ms. Rahimi is out. The learner must ask for her, understand she's unavailable, leave a clear message with name and callback number, and end politely. At one point the connection gets bad.",
+    "opening": "Good morning, Pars Trading, how can I help you?",
+    "vocabulary": ["speak to", "hold on", "leave a message", "call back", "breaking up"]
+  }
+}

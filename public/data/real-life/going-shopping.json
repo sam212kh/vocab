@@ -1,0 +1,43 @@
+{
+  "id": "going-shopping",
+  "title": "Going Shopping",
+  "titlePersian": "خرید رفتن",
+  "context": "Grocery shopping: the list, the aisles, asking where things are, paying. Short practical phrases you use at the supermarket every week.",
+  "contextPersian": "خرید خواربار: لیست خرید، قفسه‌ها، پرسیدن جای اجناس، پرداخت. عبارت‌های کوتاه و کاربردی که هر هفته در فروشگاه لازم داری.",
+  "expressions": [
+    { "english": "do the shopping", "persian": "خرید (هفتگی) کردن", "example": "I usually do the shopping on Friday afternoons.", "examplePersian": "معمولاً جمعه بعدازظهرها خرید می‌کنم.", "note": "'Do the shopping' = groceries routine; 'go shopping' = shopping as an outing (often clothes)." },
+    { "english": "make a shopping list", "persian": "لیست خرید نوشتن", "example": "Let me make a shopping list so we don't forget anything.", "examplePersian": "بگذار لیست خرید بنویسم که چیزی یادمان نرود." },
+    { "english": "run out of", "persian": "تمام شدن (چیزی)", "example": "We've run out of milk and eggs.", "examplePersian": "شیر و تخم‌مرغمان تمام شده.", "note": "Extremely common: run out of time, money, patience." },
+    { "english": "pick up", "persian": "(سر راه) گرفتن/خریدن", "example": "Can you pick up some bread on your way home?", "examplePersian": "می‌شود سر راه خانه نان بگیری؟" },
+    { "english": "Where can I find...?", "persian": "... کجاست؟ (در فروشگاه)", "example": "Excuse me, where can I find the rice?", "examplePersian": "ببخشید، برنج کجاست؟" },
+    { "english": "in aisle three", "persian": "در راهروی سه", "example": "The cooking oil is in aisle three, next to the pasta.", "examplePersian": "روغن در راهروی سه است، کنار پاستا." },
+    { "english": "How much is this?", "persian": "این چند است؟", "example": "How much is this cheese per kilo?", "examplePersian": "این پنیر کیلویی چند است؟" },
+    { "english": "it's on sale", "persian": "حراج است / تخفیف خورده", "example": "Grab two — they're on sale this week.", "examplePersian": "دو تا بردار — این هفته حراج‌اند." },
+    { "english": "pay by card", "persian": "با کارت پرداخت کردن", "example": "Can I pay by card, or is it cash only?", "examplePersian": "می‌توانم با کارت پرداخت کنم یا فقط نقدی است؟" },
+    { "english": "get a receipt", "persian": "رسید گرفتن", "example": "Could I get a receipt, please?", "examplePersian": "می‌شود رسید بدهید، لطفاً؟" }
+  ],
+  "exercises": [
+    { "id": "rl-shop-1", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "before": "We've run", "after": "of milk — can you pick some up?", "acceptedAnswers": ["out"], "explanation": "Run out of = تمام شدن.", "explanationPersian": "تمام شدن: run out of." },
+    { "id": "rl-shop-2", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "prompt": "You can't find the sugar in the supermarket. You ask:", "options": ["Where can I find the sugar?", "Where is existing the sugar?", "In which place stays sugar?", "Where do you put sugars?"], "correctIndex": 0, "explanation": "Natural question: Where can I find...?", "explanationPersian": "سوال طبیعی: ?...Where can I find" },
+    { "id": "rl-shop-3", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "B1", "difficulty": 2, "prompt": "The chocolate is cheaper this week because it's ___.", "options": ["on sale", "in sale", "on discount price", "under selling"], "correctIndex": 0, "explanation": "On sale = تخفیف‌خورده.", "explanationPersian": "تخفیف: on sale." },
+    { "id": "rl-shop-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "source": "می‌شود سر راه خانه نان بگیری؟", "sourceLang": "fa", "acceptedAnswers": ["Can you pick up some bread on your way home?", "Could you pick up some bread on your way home?", "Can you pick up bread on your way home?"], "explanation": "Pick up — سر راه گرفتن.", "explanationPersian": "سر راه خریدن: pick up." }
+  ],
+  "speakingTask": {
+    "instruction": "Say what you need to buy this week and ask two questions you'd ask in the shop.",
+    "instructionPersian": "بگو این هفته چه چیزهایی باید بخری و دو سوالی که در فروشگاه می‌پرسی را بگو.",
+    "modelSentences": [
+      "I need to do the shopping — we've run out of rice and milk.",
+      "Excuse me, where can I find the olive oil?",
+      "How much is this per kilo?",
+      "Can I pay by card?"
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A supermarket employee helping a customer",
+    "learnerRole": "A customer with a shopping list who can't find several items",
+    "objective": "Ask for locations and prices, respond to suggestions, pay at the end",
+    "context": "The learner is shopping for the week: can't find two items, asks prices, learns something is on sale, pays by card.",
+    "opening": "Hi, you look a bit lost — can I help you find something?",
+    "vocabulary": ["Where can I find", "aisle", "on sale", "pay by card", "receipt"]
+  }
+}

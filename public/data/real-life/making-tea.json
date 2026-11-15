@@ -1,0 +1,42 @@
+{
+  "id": "making-tea",
+  "title": "Making Tea",
+  "titlePersian": "چای درست کردن",
+  "context": "You're in the kitchen making tea — one of the most ordinary things you do every day. Can you describe each step in English without thinking hard?",
+  "contextPersian": "در آشپزخانه هستی و داری چای درست می‌کنی — یکی از عادی‌ترین کارهای هر روزت. می‌توانی هر مرحله را بدون فکر کردن به انگلیسی بگویی؟",
+  "expressions": [
+    { "english": "put the kettle on", "persian": "کتری را گذاشتن (روشن کردن)", "example": "I'll put the kettle on — do you want a cup?", "examplePersian": "کتری را می‌گذارم — یک فنجان می‌خوری؟", "note": "The most natural way to say you're starting to boil water. Nobody says 'I will boil the kettle machine'." },
+    { "english": "the water's boiling", "persian": "آب جوش آمده", "example": "The water's boiling — can you grab the teapot?", "examplePersian": "آب جوش آمده — می‌شود قوری را بیاوری؟" },
+    { "english": "let it steep", "persian": "بگذار دم بکشد", "example": "Pour the water in and let it steep for five minutes.", "examplePersian": "آب را بریز و بگذار پنج دقیقه دم بکشد.", "note": "'Steep' (or 'brew') is the word for دم کشیدن — 'let it sleep' is a common mistake." },
+    { "english": "a strong cup of tea", "persian": "چای پررنگ", "example": "I like a strong cup of tea in the morning.", "examplePersian": "صبح‌ها چای پررنگ دوست دارم.", "note": "Tea is strong or weak — not 'dark' or 'light' like colors." },
+    { "english": "weak tea", "persian": "چای کم‌رنگ", "example": "This tea is too weak — leave the next one to steep longer.", "examplePersian": "این چای خیلی کم‌رنگ است — بگذار بعدی بیشتر دم بکشد." },
+    { "english": "pour the tea", "persian": "چای ریختن", "example": "Could you pour the tea while I get the sugar?", "examplePersian": "می‌شود چای را بریزی تا من قند بیاورم؟" },
+    { "english": "a teaspoon of sugar", "persian": "یک قاشق چای‌خوری شکر", "example": "Just one teaspoon of sugar for me, please.", "examplePersian": "برای من فقط یک قاشق چای‌خوری شکر، لطفاً." },
+    { "english": "it's too hot to drink", "persian": "برای خوردن خیلی داغ است", "example": "Careful, it's too hot to drink — give it a minute.", "examplePersian": "مواظب باش، خیلی داغ است — یک دقیقه صبر کن." },
+    { "english": "top it up", "persian": "دوباره پر کردن (سر ریز کردن)", "example": "Your cup's half empty — shall I top it up?", "examplePersian": "فنجانت نصفه است — دوباره پرش کنم؟", "note": "Also used for phone credit and fuel: top up your phone." }
+  ],
+  "exercises": [
+    { "id": "rl-tea-1", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 1, "prompt": "Which is the most natural way to say you'll start boiling water for tea?", "options": ["I'll put the kettle on.", "I will make the water hot.", "I'll fire the kettle.", "I'll open the kettle."], "correctIndex": 0, "explanation": "'Put the kettle on' is the everyday expression.", "explanationPersian": "عبارت رایج روزمره: put the kettle on." },
+    { "id": "rl-tea-2", "type": "fill-blank", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "before": "Pour the water in and let the tea", "after": "for a few minutes.", "acceptedAnswers": ["steep", "brew"], "explanation": "دم کشیدن = steep or brew.", "explanationPersian": "دم کشیدن چای: steep یا brew." },
+    { "id": "rl-tea-3", "type": "multiple-choice", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "prompt": "Your tea has very little color and taste. It's ___.", "options": ["weak", "light", "thin", "soft"], "correctIndex": 0, "explanation": "Tea is strong ↔ weak.", "explanationPersian": "چای کم‌رنگ: weak (مقابل strong)." },
+    { "id": "rl-tea-4", "type": "translation", "skill": "vocabulary", "cefrLevel": "A2", "difficulty": 2, "source": "می‌شود چای را بریزی؟", "sourceLang": "fa", "acceptedAnswers": ["Could you pour the tea?", "Can you pour the tea?", "Would you pour the tea?"], "explanation": "Pour the tea — ریختن چای.", "explanationPersian": "چای ریختن: pour the tea." }
+  ],
+  "speakingTask": {
+    "instruction": "Describe how you make tea, step by step, out loud. Try to use 'put the kettle on' and 'let it steep'.",
+    "instructionPersian": "مرحله به مرحله بگو چطور چای درست می‌کنی. سعی کن از put the kettle on و let it steep استفاده کنی.",
+    "modelSentences": [
+      "First I put the kettle on.",
+      "When the water's boiling, I pour it over the tea.",
+      "I let it steep for about five minutes.",
+      "Then I pour the tea and add a teaspoon of sugar."
+    ]
+  },
+  "roleplay": {
+    "aiRole": "A friend visiting the learner's home while they make tea",
+    "learnerRole": "You're making tea for yourself and your guest",
+    "objective": "Talk through making the tea and offer it naturally",
+    "context": "A relaxed kitchen chat while the learner makes tea for both of you. Ask what they're making, how they make it, how strong you can have yours, and react naturally.",
+    "opening": "Mmm, are you making tea? I'd love a cup — how do you make yours?",
+    "vocabulary": ["put the kettle on", "steep", "strong", "pour", "top up"]
+  }
+}
