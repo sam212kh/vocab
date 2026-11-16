@@ -152,8 +152,8 @@ const QUICK = [
                 <div class="pointer-events-none absolute inset-0" aria-hidden="true">
                     <div class="absolute -right-16 -top-20 h-72 w-72 rounded-full bg-white/[0.06]" />
                     <div class="absolute -bottom-24 right-24 h-64 w-64 rounded-full bg-learn-500/20" />
-                    <div class="absolute right-10 top-1/2 hidden h-28 w-28 -translate-y-1/2 rounded-3xl border border-white/15 bg-white/[0.07] sm:block" />
-                    <div class="absolute right-24 top-10 hidden h-3 w-3 rounded-full bg-amber-200/80 sm:block" />
+                    <div class="absolute right-5 top-1/2 hidden h-24 w-24 lg:block -translate-y-1/2 rounded-3xl border border-white/15 bg-white/[0.07] sm:block" />
+                    <div class="absolute right-20 top-10 hidden h-3 w-3 rounded-full bg-amber-200/80 lg:block" />
                 </div>
 
                 <div class="relative max-w-md">

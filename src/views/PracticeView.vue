@@ -182,6 +182,7 @@ onMounted(async () => {
 
         <!-- ============ SESSION / RESULT ============ -->
         <section v-else class="mx-auto flex min-h-[calc(100svh-5.5rem)] max-w-xl flex-col md:min-h-[calc(100svh-4rem)]">
+            <h1 class="sr-only">Practice{{ selectedLesson ? `: ${selectedLesson.title}` : '' }}</h1>
             <header class="flex items-center gap-3">
                 <RouterLink
                     :to="lessonLink"

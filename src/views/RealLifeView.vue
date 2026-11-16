@@ -483,7 +483,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
         <!-- ==================== SCENARIO FLOW ==================== -->
         <template v-if="activeScenario">
             <div class="mb-4 flex items-center justify-between gap-3">
-                <button type="button" class="text-sm text-gray-500 hover:text-black" @click="closeScenario">
+                <button type="button" class="btn-ghost -ml-3" @click="closeScenario">
                     ← Real-Life English
                 </button>
                 <span class="shrink-0 text-xs text-gray-400">{{ activeManifest?.cefrLevel }}</span>

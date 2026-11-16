@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 
 import { useWordProgressStore } from '../stores/wordProgress'
@@ -581,9 +582,7 @@ onMounted(() => {
             "
             class="surface px-6 py-12 text-center text-gray-500"
         >
-            <div class="text-4xl">
-                🎉
-            </div>
+            <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
 
             <p
                 class="mt-4 text-lg font-medium"
@@ -603,9 +602,7 @@ onMounted(() => {
             v-else-if="isCompleted"
             class="mx-auto max-w-2xl rounded-2xl border bg-white p-12 text-center shadow-sm"
         >
-            <div class="text-5xl">
-                🎉
-            </div>
+            <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
 
             <h2
                 class="mt-6 text-2xl font-bold"
@@ -948,7 +945,7 @@ onMounted(() => {
                                 markDifficult
                             "
                         >
-                            😕 Still Difficult
+                            Still Difficult
                         </button>
                     </div>
                 </div>

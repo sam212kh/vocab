@@ -2,33 +2,33 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import { titleForRoute } from './titles'
 
-import DashboardView from "../views/DashboardView.vue";
-import NotFoundView from "../views/NotFoundView.vue";
-import PracticeView from "../views/PracticeView.vue";
-import ClozeView from "../views/ClozeView.vue";
-import ListenGuessView from "../views/ListenGuessView.vue";
-import MatchingView from "../views/MatchingView.vue";
-import QuizView from "../views/QuizView.vue";
-import LessonsView from "../views/LessonsView.vue"
-import LessonView from "../views/LessonView.vue"
-import CourseView from "../views/CourseView.vue";
+const DashboardView = () => import('../views/DashboardView.vue')
+const NotFoundView = () => import('../views/NotFoundView.vue')
+const PracticeView = () => import('../views/PracticeView.vue')
+const ClozeView = () => import('../views/ClozeView.vue')
+const ListenGuessView = () => import('../views/ListenGuessView.vue')
+const MatchingView = () => import('../views/MatchingView.vue')
+const QuizView = () => import('../views/QuizView.vue')
+const LessonsView = () => import('../views/LessonsView.vue')
+const LessonView = () => import('../views/LessonView.vue')
+const CourseView = () => import('../views/CourseView.vue')
 import ListenRepeat from '../views/ListenRepeatView.vue';
-import HardWordsView from '../views/HardWordsView.vue'
-import SpeakingPracticeView from '../views/SpeakingPracticeView.vue'
+const HardWordsView = () => import('../views/HardWordsView.vue')
+const SpeakingPracticeView = () => import('../views/SpeakingPracticeView.vue')
 import ReviewView from  '../views/ReviewView.vue'
-import SessionView from '../views/SessionView.vue'
-import ProfileView from '../views/ProfileView.vue'
-import SkillsView from '../views/SkillsView.vue'
-import GrammarView from '../views/GrammarView.vue'
-import ReadingView from '../views/ReadingView.vue'
-import WritingView from '../views/WritingView.vue'
-import ListeningView from '../views/ListeningView.vue'
-import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
-import AISettingsView from '../views/AISettingsView.vue'
-import ConversationView from '../views/ConversationView.vue'
-import RealLifeView from '../views/RealLifeView.vue'
-import CareerView from '../views/CareerView.vue'
-import JourneyView from '../views/JourneyView.vue'
+const SessionView = () => import('../views/SessionView.vue')
+const ProfileView = () => import('../views/ProfileView.vue')
+const SkillsView = () => import('../views/SkillsView.vue')
+const GrammarView = () => import('../views/GrammarView.vue')
+const ReadingView = () => import('../views/ReadingView.vue')
+const WritingView = () => import('../views/WritingView.vue')
+const ListeningView = () => import('../views/ListeningView.vue')
+const GuidedSpeakingView = () => import('../views/GuidedSpeakingView.vue')
+const AISettingsView = () => import('../views/AISettingsView.vue')
+const ConversationView = () => import('../views/ConversationView.vue')
+const RealLifeView = () => import('../views/RealLifeView.vue')
+const CareerView = () => import('../views/CareerView.vue')
+const JourneyView = () => import('../views/JourneyView.vue')
 
 /*
  * Lists load asynchronously, so on Back the saved position may be taller than

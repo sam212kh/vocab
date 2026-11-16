@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import AppIcon from '../ui/AppIcon.vue'
 import { useRoute } from 'vue-router'
 import {
@@ -149,9 +149,37 @@ watch(() => props.open, value => {
     document.body.style.overflow = value ? 'hidden' : ''
 })
 
-watch(() => route.path, () => closeMobile())
+/*
+ * Keep the active destination visible inside the scrolling nav. Adjusts scrollTop
+ * directly: scrollIntoView() would also move the browser's keyboard-focus starting
+ * point, so the first Tab would no longer reach the skip link.
+ */
+async function revealActive() {
+    await nextTick()
 
-onMounted(() => window.addEventListener('keydown', onKey))
+    const nav = document.querySelector<HTMLElement>('aside nav')
+    const link = nav?.querySelector<HTMLElement>('a[aria-current="page"]')
+
+    if (!nav || !link) return
+
+    const navBox = nav.getBoundingClientRect()
+    const linkBox = link.getBoundingClientRect()
+
+    if (linkBox.top < navBox.top) nav.scrollTop -= navBox.top - linkBox.top + 8
+    else if (linkBox.bottom > navBox.bottom) nav.scrollTop += linkBox.bottom - navBox.bottom + 8
+}
+
+watch(() => route.path, () => {
+    closeMobile()
+    void revealActive()
+})
+
+watch(() => props.open, value => { if (value) void revealActive() })
+
+onMounted(() => {
+    window.addEventListener('keydown', onKey)
+    void revealActive()
+})
 onBeforeUnmount(() => {
     window.removeEventListener('keydown', onKey)
     document.body.style.overflow = ''

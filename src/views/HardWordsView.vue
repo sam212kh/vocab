@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, ref } from 'vue'
 
 import { useHardWordsStore } from '../stores/hardWords'
@@ -311,9 +312,7 @@ function removeCurrentWord() {
             v-if="!currentWord"
             class="surface px-6 py-12 text-center text-gray-500"
         >
-            <div class="text-5xl">
-                🎉
-            </div>
+            <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
 
             <h2
                 class="mt-4 text-xl font-semibold"
@@ -666,7 +665,7 @@ function removeCurrentWord() {
                                 markDifficult
                             "
                         >
-                            😕 Still Difficult
+                            Still Difficult
                         </button>
                     </div>
                 </div>
