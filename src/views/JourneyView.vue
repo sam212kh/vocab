@@ -6,6 +6,8 @@ import { loadContentSnapshot } from '../services/journeyContent'
 import type { ContentSnapshot } from '../services/journeyContent'
 import { planJourney } from '../services/journeyPlanner'
 import {
+    countsForPerformance,
+    evaluatedProductionEvidence,
     performanceEventFor,
     productionEvidence,
     recognitionEvidence,
@@ -17,6 +19,9 @@ import {
 import { buildRoadmap, currentRoadmapStage } from '../services/roadmap'
 import { answersMatch } from '../services/textMatch'
 import { checkPronunciation } from '../services/pronunciation'
+import { evaluateSentence } from '../services/aiClient'
+import { resolveExplanationLanguage } from '../services/conversationService'
+import { buildSentenceRequest, requestSentenceEvaluation } from '../services/sentenceEvaluation'
 
 import { useJourneyStore } from '../stores/journey'
 import { useWordProgressStore } from '../stores/wordProgress'
@@ -24,11 +29,14 @@ import { useGrammarProgressStore } from '../stores/grammarProgress'
 import { useMistakesStore } from '../stores/mistakes'
 import { usePerformanceStore } from '../stores/performance'
 import { useSessionSettingsStore } from '../stores/sessionSettings'
+import { useAISettingsStore } from '../stores/aiSettings'
+import { useLearnerProfileStore } from '../stores/learnerProfile'
 
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 
 import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
 import SpeechButton from '../components/ui/SpeechButton.vue'
+import SentenceFeedback from '../components/journey/SentenceFeedback.vue'
 
 import { JOURNEY_LENGTH_MINUTES } from '../types/journey'
 import type {
@@ -39,6 +47,7 @@ import type {
     RetrievalItem,
 } from '../types/journey'
 import type { ExerciseResult } from '../types/exercise'
+import type { SentenceEvaluation } from '../types/sentenceEvaluation'
 
 const router = useRouter()
 
@@ -48,6 +57,8 @@ const grammarProgressStore = useGrammarProgressStore()
 const mistakesStore = useMistakesStore()
 const performanceStore = usePerformanceStore()
 const sessionSettingsStore = useSessionSettingsStore()
+const aiSettingsStore = useAISettingsStore()
+const learnerProfileStore = useLearnerProfileStore()
 
 const {
     isSupported: voiceSupported,
@@ -180,8 +191,20 @@ const revealed = ref(false)
 const lastCorrect = ref(false)
 const exerciseIndex = ref(0)
 const exerciseAnswered = ref(false)
-const constructionSubmitted = ref(false)
+type ConstructionPhase = 'writing' | 'evaluating' | 'feedback' | 'unavailable' | 'basic-done'
+
+const constructionPhase = ref<ConstructionPhase>('writing')
 const constructionUsed = ref<string[]>([])
+const constructionAttempt = ref(1)
+const constructionHint = ref('')
+const evaluation = ref<SentenceEvaluation | null>(null)
+const evaluationInfo = ref({ provider: '', model: '', fallbackUsed: false })
+const evaluationUnavailable = ref('')
+const correctionRevealed = ref(false)
+/** The correction from the previous attempt — "seen" only if it was actually shown. */
+const previousCorrection = ref('')
+
+const MAX_CONSTRUCTION_ATTEMPTS = 3
 const speakIndex = ref(0)
 const speakResult = ref<{ transcript: string; score: number } | null>(null)
 
@@ -193,8 +216,14 @@ function resetActivityState() {
     lastCorrect.value = false
     exerciseIndex.value = 0
     exerciseAnswered.value = false
-    constructionSubmitted.value = false
+    constructionPhase.value = 'writing'
     constructionUsed.value = []
+    constructionAttempt.value = 1
+    constructionHint.value = ''
+    evaluation.value = null
+    evaluationUnavailable.value = ''
+    correctionRevealed.value = false
+    previousCorrection.value = ''
     speakIndex.value = 0
     speakResult.value = null
     resetVoice()
@@ -215,9 +244,10 @@ function baseEvidence(activity: JourneyActivity, itemKey: string) {
 function emit(record: ReturnType<typeof retrievalEvidence>) {
     const stored = journeyStore.addEvidence(session.value!.id, record)
 
-    if (stored) performanceStore.record(performanceEventFor(record))
+    /* Only first attempts feed shared skill statistics; retries are practice. */
+    if (stored && countsForPerformance(record)) performanceStore.record(performanceEventFor(record))
 
-    if (!record.correct) wrongKeys.value.push(record.itemKey)
+    if (!record.correct && (record.attempt ?? 1) <= 1) wrongKeys.value.push(record.itemKey)
 }
 
 /* ---------- retrieval (typed recall → REAL SRS) ---------- */
@@ -308,25 +338,105 @@ function nextExercise() {
 
 /* ---------- sentence construction (production) ---------- */
 
-function submitConstruction() {
+const constructionTargets = computed(() => currentActivity.value?.construction?.targetExpressions ?? [])
+
+function attemptContext() {
+    return {
+        attempt: constructionAttempt.value,
+        hintUsed: constructionHint.value !== '',
+        /* Only a correction the learner actually saw can make an answer a "copy". */
+        seenCorrection: correctionRevealed.value && previousCorrection.value ? previousCorrection.value : null,
+    }
+}
+
+function showConstructionHint() {
+    const first = currentActivity.value?.construction?.modelSentences[0] ?? ''
+    const start = first.split(/\s+/).slice(0, 2).join(' ')
+
+    constructionHint.value = start ? `Starts like: "${start}…"` : 'Think of the target expressions above.'
+}
+
+/** Deterministic check — length + target use only. Never presented as a grammar evaluation. */
+function recordBasicCheck() {
     const activity = currentActivity.value
     const prompt = activity?.construction
 
-    if (!activity || !prompt || constructionSubmitted.value) return
+    if (!activity || !prompt) return
 
     const record = productionEvidence(
         baseEvidence(activity, prompt.id),
         answer.value,
-        prompt.targetExpressions
+        prompt.targetExpressions,
+        attemptContext()
     )
 
     constructionUsed.value = record.usedTargets
-    constructionSubmitted.value = true
+    constructionPhase.value = 'basic-done'
 
     const { usedTargets: _used, ...evidence } = record
 
     emit(evidence)
 }
+
+async function submitConstruction() {
+    const activity = currentActivity.value
+    const prompt = activity?.construction
+
+    if (!activity || !prompt || constructionPhase.value === 'evaluating') return
+    if (!answer.value.trim()) return
+
+    /* AI is optional: with it off, the journey uses the basic check. */
+    if (!aiSettingsStore.settings.enabled) {
+        recordBasicCheck()
+        return
+    }
+
+    constructionPhase.value = 'evaluating'
+    evaluationUnavailable.value = ''
+
+    const request = buildSentenceRequest(prompt, answer.value, {
+        provider: aiSettingsStore.settings.provider,
+        model: aiSettingsStore.settings.model,
+        allowFallback: aiSettingsStore.settings.allowFallback,
+        explanationLanguage: resolveExplanationLanguage(),
+        selfReportedLevel: learnerProfileStore.profile.selfReportedLevel ?? '',
+    })
+
+    const result = await requestSentenceEvaluation(evaluateSentence, request)
+
+    /* The learner may have skipped/ended while the provider was thinking. */
+    if (currentActivity.value?.id !== activity.id) return
+
+    if (result.source === 'ai') {
+        evaluation.value = result.evaluation
+        evaluationInfo.value = { provider: result.provider, model: result.model, fallbackUsed: result.fallbackUsed }
+        constructionPhase.value = 'feedback'
+
+        emit(evaluatedProductionEvidence(baseEvidence(activity, prompt.id), result.evaluation, attemptContext()))
+
+        /* After the last allowed attempt, show the correction rather than loop. */
+        if (!result.evaluation.passed && constructionAttempt.value >= MAX_CONSTRUCTION_ATTEMPTS) {
+            correctionRevealed.value = true
+        }
+
+        return
+    }
+
+    /* Provider failure: nothing is recorded, nothing is fabricated, the answer stays in the box. */
+    evaluationUnavailable.value = result.source === 'unavailable' ? result.message : ''
+    constructionPhase.value = result.source === 'unavailable' ? 'unavailable' : 'writing'
+}
+
+function retryConstruction() {
+    if (!evaluation.value) return
+
+    previousCorrection.value = evaluation.value.correctedSentence
+    constructionAttempt.value++
+    constructionPhase.value = 'writing'
+    /* The learner's text stays editable; the correction stays hidden unless they asked for it. */
+}
+
+const canRetryConstruction = computed(() => constructionAttempt.value < MAX_CONSTRUCTION_ATTEMPTS)
 
 /* ---------- speaking (voice-gated; transcript match only) ---------- */
 
@@ -601,24 +711,69 @@ onMounted(async () => {
                         v-model="answer"
                         rows="3"
                         dir="auto"
-                        :disabled="constructionSubmitted"
+                        data-testid="construction-input"
+                        :disabled="constructionPhase === 'evaluating' || constructionPhase === 'feedback' || constructionPhase === 'basic-done'"
                         placeholder="Write your own sentence(s) in English…"
                         class="mt-3 w-full rounded-xl border px-3 py-2.5 outline-none focus:border-gray-900"
                     />
 
-                    <button v-if="!constructionSubmitted" type="button" class="mt-3 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-40" :disabled="!answer.trim()" @click="submitConstruction">
-                        Submit
-                    </button>
+                    <p v-if="constructionAttempt > 1 && constructionPhase === 'writing'" class="mt-2 text-xs text-gray-500">
+                        Attempt {{ constructionAttempt }} — edit your sentence and try again. Retries count as practice, not as independent production.
+                    </p>
+                    <p v-if="constructionHint" class="mt-2 text-xs text-amber-700">💡 {{ constructionHint }} <span class="text-gray-400">(hint — this answer won't count as independent)</span></p>
 
-                    <div v-else class="mt-4 space-y-2 text-sm">
+                    <!-- writing -->
+                    <template v-if="constructionPhase === 'writing'">
+                        <button type="button" class="mt-3 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-40" data-testid="construction-submit" :disabled="!answer.trim()" @click="submitConstruction">
+                            {{ aiSettingsStore.settings.enabled ? 'Check my sentence' : 'Submit' }}
+                        </button>
+                        <button v-if="!constructionHint && constructionAttempt === 1" type="button" class="mt-2 w-full text-xs text-gray-400 hover:text-gray-700" @click="showConstructionHint">
+                            Need a hint?
+                        </button>
+                        <p v-if="!aiSettingsStore.settings.enabled" class="mt-2 text-xs text-gray-400">AI feedback is off in AI Settings — this will be a basic check (length and expression use only).</p>
+                    </template>
+
+                    <!-- evaluating -->
+                    <p v-else-if="constructionPhase === 'evaluating'" class="mt-3 text-center text-sm text-gray-500" data-testid="evaluating">Checking your sentence…</p>
+
+                    <!-- provider unavailable: answer preserved, nothing fabricated -->
+                    <div v-else-if="constructionPhase === 'unavailable'" class="mt-3 space-y-2 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm" data-testid="eval-unavailable">
+                        <p class="text-amber-800">{{ evaluationUnavailable }}</p>
+                        <p class="text-xs text-amber-700">Your answer is saved here. No feedback or score was recorded.</p>
+                        <button type="button" class="w-full rounded-xl bg-black px-4 py-2.5 font-semibold text-white hover:bg-gray-800" data-testid="eval-retry" @click="submitConstruction">Retry AI feedback</button>
+                        <button type="button" class="w-full rounded-xl border bg-white px-4 py-2.5 text-gray-700 hover:bg-gray-50" data-testid="basic-check" @click="recordBasicCheck">
+                            Continue with a basic check (length + expression use only)
+                        </button>
+                    </div>
+
+                    <!-- AI feedback -->
+                    <template v-else-if="constructionPhase === 'feedback' && evaluation">
+                        <SentenceFeedback
+                            :evaluation="evaluation"
+                            :provider="evaluationInfo.provider"
+                            :model="evaluationInfo.model"
+                            :fallback-used="evaluationInfo.fallbackUsed"
+                            :correction-visible="correctionRevealed"
+                            :can-retry="canRetryConstruction"
+                            :targets="constructionTargets"
+                            @reveal="correctionRevealed = true"
+                            @retry="retryConstruction"
+                        />
+                        <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="mt-4 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white" data-testid="construction-next" @click="finishActivity()">Next</button>
+                        <button v-else type="button" class="mt-3 w-full text-xs text-gray-400 hover:text-gray-700" @click="finishActivity()">Move on without retrying</button>
+                    </template>
+
+                    <!-- basic (deterministic) check -->
+                    <div v-else-if="constructionPhase === 'basic-done'" class="mt-4 space-y-2 text-sm" data-testid="basic-result">
+                        <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">Basic check — not a grammar evaluation</p>
                         <p :class="constructionUsed.length ? 'text-green-600' : 'text-amber-600'">
                             {{ constructionUsed.length ? `✓ You used: ${constructionUsed.join(', ')}` : 'Try to include one of the target expressions next time.' }}
                         </p>
-                        <p class="text-xs text-gray-400">This checks length and expression use only — it can't judge your grammar. Compare with these model sentences:</p>
+                        <p class="text-xs text-gray-400">This checks length and expression use only — it can't judge your grammar or meaning. Compare with these model sentences:</p>
                         <p v-for="model in currentActivity.construction.modelSentences" :key="model" class="rounded-lg bg-gray-50 p-2 text-gray-700">
                             {{ model }} <SpeechButton :text="model" lang="en-US" />
                         </p>
-                        <button type="button" class="mt-2 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white" @click="finishActivity()">Next</button>
+                        <button type="button" class="mt-2 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white" data-testid="construction-next" @click="finishActivity()">Next</button>
                     </div>
                 </div>
 
@@ -688,6 +843,9 @@ onMounted(async () => {
                 <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
                     <p class="text-xs text-gray-500">Sentences you built</p>
                     <p class="mt-1 text-2xl font-bold text-gray-900">{{ summary.productiveAttempts }}</p>
+                    <p v-if="summary.productiveAttempts" class="mt-1 text-xs text-gray-400" data-testid="production-breakdown">
+                        {{ summary.production.independent }} unaided<template v-if="summary.production.hintAssisted"> · {{ summary.production.hintAssisted }} with hint</template><template v-if="summary.production.afterFeedback"> · {{ summary.production.afterFeedback }} retried after feedback</template><template v-if="summary.production.basicCheckOnly"> · {{ summary.production.basicCheckOnly }} basic check only</template>
+                    </p>
                 </div>
                 <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
                     <p class="text-xs text-gray-500">Practice effort</p>

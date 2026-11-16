@@ -33,6 +33,8 @@ Success: `{ evaluation, meta }` where `meta` carries `provider`, `model`,
 `promptVersion`, `durationMs`, `fallbackUsed`, `warnings`. Errors are
 structured `{ error, code?, provider? }` — never stack traces.
 
+- `POST /api/ai/evaluate-sentence` — sentence-level production evaluator (`sentence-evaluation-v1`): grammar / meaning / vocabulary / word order / naturalness / target expression / context relevance, evaluated separately. Outcome and verdict fields are derived server-side from the validated dimensions; see `docs/PHASE8_1.md`.
+
 ## Assessment module (`/api/assessment/*`)
 
 Same service, independent of AI providers. Item banks WITH canonical answers
