@@ -28,7 +28,7 @@ import type { MistakeCategory, MistakeKind } from '../types/writing'
 /** Client-side context window — must not exceed the gateway's own cap. */
 const CONTEXT_MESSAGES = 16
 
-function resolveExplanationLanguage(): 'english' | 'persian' | 'bilingual' {
+export function resolveExplanationLanguage(): 'english' | 'persian' | 'bilingual' {
     const setting = useAISettingsStore().settings.explanationLanguage
 
     if (setting === 'persian') return 'persian'

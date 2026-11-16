@@ -3,6 +3,8 @@
  * frontend talks to AI infrastructure — Vue components and evaluators never
  * see provider-specific request formats.
  */
+import { SENTENCE_EVALUATION_SCHEMA } from '../types/sentenceEvaluation'
+import type { SentenceEvaluation, SentenceEvaluationRequest } from '../types/sentenceEvaluation'
 
 export interface AIProviderStatus {
     id: 'ollama' | 'cloud'
@@ -284,6 +286,24 @@ export function expressInEnglish(payload: {
     learner: { selfReportedLevel: string }
 }): Promise<GatewayExpressResponse> {
     return postJson<GatewayExpressResponse>('/express', payload, 'expression')
+}
+
+export interface GatewaySentenceEvaluationResponse {
+    evaluation: SentenceEvaluation
+    meta: GatewayEvaluationResponse['meta']
+}
+
+/** Sentence production evaluator (grammar / meaning / naturalness … evaluated separately). */
+export async function evaluateSentence(
+    payload: SentenceEvaluationRequest
+): Promise<GatewaySentenceEvaluationResponse> {
+    const result = await postJson<GatewaySentenceEvaluationResponse>('/evaluate-sentence', payload, 'evaluation')
+
+    if (result.evaluation.schemaVersion !== SENTENCE_EVALUATION_SCHEMA) {
+        throw new AIClientError('invalid-model-output', 'The AI service returned an unsupported evaluation format.')
+    }
+
+    return result
 }
 
 export async function evaluateWriting(

@@ -9,6 +9,7 @@ import {
   buildExpressPrompt,
   buildInterviewAnswerPrompt,
   buildRepairPrompt,
+  buildSentenceEvaluationPrompt,
   buildSummaryPrompt,
   buildWritingEvaluationPrompt,
 } from './prompts.mjs'
@@ -24,6 +25,8 @@ import {
   validateExpressResponse,
   validateInterviewAnswerRequest,
   validateInterviewAnswerResponse,
+  validateSentenceEvaluationRequest,
+  validateSentenceEvaluationResponse,
   validateSummaryResponse,
 } from './validation.mjs'
 import { createAssessmentModule } from './assessment/routes.mjs'
@@ -547,6 +550,46 @@ async function handleInterviewAnswer(req, res) {
   })
 }
 
+async function handleEvaluateSentence(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  const validation = validateSentenceEvaluationRequest(body, config)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+  const prompt = buildSentenceEvaluationPrompt(request)
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    maxTokens: 1500,
+    temperature: 0.2,
+    validate: raw => validateSentenceEvaluationResponse(raw, request),
+  })
+
+  if (!outcome) return
+
+  log('ai.evaluate-sentence.ok', {
+    provider: outcome.provider.id,
+    durationMs: Date.now() - started,
+    sentenceChars: request.learnerSentence.length,
+    outcome: outcome.value.outcome,
+    errors: outcome.value.errors.length,
+  })
+
+  reply(res, 200, {
+    evaluation: outcome.value,
+    meta: meta(outcome, prompt.promptVersion, started),
+  })
+}
+
 const POST_ROUTES = new Map([
   ['/api/ai/interview-answer', handleInterviewAnswer],
   ['/api/ai/evaluate-writing', handleEvaluateWriting],
@@ -554,6 +597,7 @@ const POST_ROUTES = new Map([
   ['/api/ai/conversation-summary', handleSummary],
   ['/api/ai/assist', handleAssist],
   ['/api/ai/express', handleExpress],
+  ['/api/ai/evaluate-sentence', handleEvaluateSentence],
 ])
 
 const server = createServer(async (req, res) => {

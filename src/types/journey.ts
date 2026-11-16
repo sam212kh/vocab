@@ -133,6 +133,15 @@ export interface PlannerInput {
 
 export type JourneyActivityStatus = 'pending' | 'completed' | 'skipped'
 
+/**
+ * How a production answer came about — only 'none' is independent production.
+ *  none              first attempt, no hint, no correction shown
+ *  hint              a hint was shown before the answer
+ *  after-feedback    a retry after seeing feedback (correction not copied)
+ *  copied-correction retry that reproduces the correction the learner was shown
+ */
+export type ProductionAssistance = 'none' | 'hint' | 'after-feedback' | 'copied-correction'
+
 export interface JourneyEvidenceRecord {
     id: string
     sessionId: string
@@ -151,6 +160,15 @@ export interface JourneyEvidenceRecord {
     /** Rough completeness 0-1 for productive answers (null otherwise). */
     completeness: number | null
     timestamp: number
+    /** Production only. Absent on older records (treated as deterministic / unassisted). */
+    evaluator?: 'ai' | 'deterministic'
+    assistance?: ProductionAssistance
+    /** 1 = first attempt at this prompt. */
+    attempt?: number
+    /** AI outcome label (e.g. 'needs-correction'); never a score or level. */
+    outcome?: string
+    /** AI-detected issue kinds, used only to tag error categories on first attempts. */
+    issues?: string[]
 }
 
 export interface JourneySession {
@@ -170,6 +188,15 @@ export interface JourneySummary {
     expressionsEncountered: number
     expressionsRecalledIndependently: number
     productiveAttempts: number
+    /** Honest split of sentence production — only "independent" shows unaided production. */
+    production: {
+        independent: number
+        hintAssisted: number
+        afterFeedback: number
+        copiedCorrection: number
+        aiEvaluated: number
+        basicCheckOnly: number
+    }
     skillsPracticed: SkillName[]
     stageBreakdown: Record<LearningStage, { attempts: number; correct: number }>
     mistakesWorthReviewing: string[]

@@ -59,6 +59,9 @@ function counts(evidence: JourneyEvidenceRecord[]) {
          * word is not the same as retrieving it. */
         if (record.stage === 'recall' && !record.independent) continue
 
+        /* Same for production: only unaided sentences count as "built". */
+        if (record.stage === 'production' && !record.independent) continue
+
         byStage[record.stage]++
     }
 

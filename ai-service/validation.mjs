@@ -1,4 +1,4 @@
-import { EVALUATION_DIMENSIONS, MISTAKE_CATEGORIES } from './prompts.mjs'
+import { EVALUATION_DIMENSIONS, MISTAKE_CATEGORIES, SENTENCE_DIMENSIONS } from './prompts.mjs'
 
 /**
  * Request + model-response validation. The model's output is untrusted
@@ -681,5 +681,303 @@ export function extractJson(content) {
     } catch {
       return null
     }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Sentence production evaluation                                      */
+/* ------------------------------------------------------------------ */
+
+export const SENTENCE_SCHEMA_VERSION = 'sentence-evaluation-v1'
+
+const SENTENCE_LIMITS = { sentenceChars: 600, targets: 5, references: 5, field: 300 }
+
+const DIMENSION_STATUSES = ['ok', 'minor', 'problem', 'not-applicable']
+
+/* Dimensions whose errors point at a concrete, verifiable fragment. */
+const FRAGMENT_REQUIRED = new Set(['grammar', 'vocabulary', 'wordOrder'])
+
+function normSentence(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s'-]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+/** Whole-word match of an expression, tolerating simple inflection (put → puts/putting). */
+export function usesExpression(sentence, expression) {
+  const tokens = normSentence(expression).split(' ').filter(Boolean)
+  if (!tokens.length) return false
+
+  const pattern = tokens
+    .map(token => `(?<![\\p{L}\\p{N}])${escapeRegExp(token)}(?:s|es|ed|d|ing)?(?![\\p{L}\\p{N}])`)
+    .join('\\s+')
+
+  return new RegExp(pattern, 'u').test(normSentence(sentence))
+}
+
+function dice(a, b) {
+  const left = new Set(normSentence(a).split(' ').filter(Boolean))
+  const right = new Set(normSentence(b).split(' ').filter(Boolean))
+  if (!left.size || !right.size) return 0
+
+  let shared = 0
+  for (const word of left) if (right.has(word)) shared++
+
+  return (2 * shared) / (left.size + right.size)
+}
+
+function stringList(value, limit, maxChars) {
+  return (Array.isArray(value) ? value : [])
+    .filter(item => typeof item === 'string' && item.trim())
+    .slice(0, limit)
+    .map(item => item.trim().slice(0, maxChars))
+}
+
+export function validateSentenceEvaluationRequest(body, config) {
+  if (!body || typeof body !== 'object') {
+    return { ok: false, errors: ['Body must be a JSON object'] }
+  }
+
+  const learnerSentence = typeof body.learnerSentence === 'string' ? body.learnerSentence.trim() : ''
+  const promptPersian = str(body.promptPersian, 500)
+  const promptEnglish = str(body.promptEnglish, 500)
+  const situation = str(body.situation, 300)
+
+  const errors = []
+
+  if (!learnerSentence) errors.push('learnerSentence is required')
+  if ([...learnerSentence].length > Math.min(SENTENCE_LIMITS.sentenceChars, config.maxSubmissionChars)) {
+    errors.push(`learnerSentence exceeds ${SENTENCE_LIMITS.sentenceChars} characters`)
+  }
+  if (!promptPersian && !promptEnglish && !situation) errors.push('a task (promptPersian, promptEnglish or situation) is required')
+  if (body.taskType !== undefined && !['open', 'translate'].includes(body.taskType)) errors.push('taskType must be open or translate')
+  if (body.provider !== undefined && !['ollama', 'cloud'].includes(body.provider)) errors.push('provider must be "ollama" or "cloud"')
+
+  if (errors.length) return { ok: false, errors }
+
+  const learner = body.learner && typeof body.learner === 'object' ? body.learner : {}
+
+  return {
+    ok: true,
+    value: {
+      learnerSentence,
+      taskType: body.taskType ?? 'open',
+      promptPersian,
+      promptEnglish,
+      situation,
+      targetExpressions: stringList(body.targetExpressions, SENTENCE_LIMITS.targets, 100),
+      referenceSentences: stringList(body.referenceSentences, SENTENCE_LIMITS.references, 300),
+      explanationLanguage: ['english', 'persian', 'bilingual'].includes(body.explanationLanguage) ? body.explanationLanguage : 'bilingual',
+      provider: body.provider,
+      model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
+      learner: { selfReportedLevel: clip(learner.selfReportedLevel, 10) },
+    },
+  }
+}
+
+/**
+ * The model reports per-dimension statuses and concrete errors; EVERYTHING
+ * decision-like (outcome, issues, language/content split, whether the
+ * target was used, matches-reference) is derived here, so the model cannot
+ * assert a verdict that contradicts its own dimensions, invent an error that
+ * is not in the learner's text, or skip a verifiable fact.
+ *
+ * @param raw   parsed model output (untrusted)
+ * @param ctx   { learnerSentence, targetExpressions, referenceSentences }
+ */
+export function validateSentenceEvaluationResponse(raw, ctx) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const warnings = []
+  const errors = []
+  const sentence = ctx.learnerSentence
+
+  if (typeof raw.complete !== 'boolean') errors.push('"complete" must be a boolean')
+
+  const rawDimensions = raw.dimensions && typeof raw.dimensions === 'object' ? raw.dimensions : {}
+  const dimensions = {}
+
+  for (const key of SENTENCE_DIMENSIONS) {
+    const item = rawDimensions[key]
+
+    if (!item || typeof item !== 'object' || !DIMENSION_STATUSES.includes(item.status)) {
+      errors.push(`dimensions.${key}.status must be one of ${DIMENSION_STATUSES.join(', ')}`)
+      continue
+    }
+
+    dimensions[key] = { status: item.status, note: str(item.note, SENTENCE_LIMITS.field) }
+  }
+
+  if (errors.length) return { ok: false, errors }
+
+  /* ---- errors: keep only verifiable, dimension-consistent ones ---- */
+  const normalizedSentence = ` ${normSentence(sentence)} `
+  const seen = new Set()
+  const verified = []
+
+  for (const item of Array.isArray(raw.errors) ? raw.errors : []) {
+    if (!item || typeof item !== 'object') continue
+    if (!SENTENCE_DIMENSIONS.includes(item.dimension)) continue
+
+    const explanation = str(item.explanation, 400)
+    if (!explanation) continue
+
+    const fragment = str(item.fragment, 200)
+
+    if (fragment) {
+      if (!normalizedSentence.includes(` ${normSentence(fragment)} `)) {
+        warnings.push(`dropped error: fragment "${fragment.slice(0, 40)}" is not in the learner's sentence`)
+        continue
+      }
+    } else if (FRAGMENT_REQUIRED.has(item.dimension)) {
+      warnings.push(`dropped ${item.dimension} error without a fragment`)
+      continue
+    }
+
+    if (dimensions[item.dimension].status === 'ok' || dimensions[item.dimension].status === 'not-applicable') {
+      warnings.push(`dropped ${item.dimension} error: that dimension was reported as ${dimensions[item.dimension].status}`)
+      continue
+    }
+
+    const key = `${item.dimension}:${normSentence(fragment)}`
+    if (seen.has(key)) continue
+    seen.add(key)
+
+    const index = fragment ? sentence.toLowerCase().indexOf(fragment.toLowerCase()) : -1
+
+    verified.push({
+      dimension: item.dimension,
+      fragment,
+      start: index >= 0 ? index : null,
+      end: index >= 0 ? index + fragment.length : null,
+      explanation,
+      explanationPersian: str(item.explanationPersian, 400),
+      suggestion: str(item.suggestion, 200),
+    })
+  }
+
+  const errorsList = verified.slice(0, 6)
+
+  /* ---- a "problem" must be backed by a verified error, else it is only "minor" ---- */
+  for (const key of SENTENCE_DIMENSIONS) {
+    if (dimensions[key].status === 'problem' && !errorsList.some(error => error.dimension === key)) {
+      dimensions[key].status = 'minor'
+      warnings.push(`${key}: "problem" had no verifiable supporting error — downgraded to "minor"`)
+    }
+  }
+
+  /* ---- target use is verified deterministically and is never an error ---- */
+  const targets = ctx.targetExpressions ?? []
+  const usedTargets = targets.filter(target => usesExpression(sentence, target))
+
+  if (!targets.length) {
+    dimensions.targetExpression = { status: 'not-applicable', note: '' }
+  } else {
+    if (!usedTargets.length && dimensions.targetExpression.status === 'ok') {
+      dimensions.targetExpression.status = 'minor'
+      if (!dimensions.targetExpression.note) dimensions.targetExpression.note = `Target not used: ${targets.join(', ')}`
+    }
+    if (dimensions.targetExpression.status === 'problem') dimensions.targetExpression.status = 'minor'
+  }
+
+  /* ---- derived decision ---- */
+  const status = key => dimensions[key].status
+  const issues = []
+
+  if (raw.complete === false) issues.push('incomplete')
+  if (status('meaning') === 'problem') issues.push('meaning')
+  if (status('contextRelevance') === 'problem') issues.push('off-topic')
+  if (status('grammar') === 'problem') issues.push('grammar')
+  if (status('wordOrder') === 'problem') issues.push('word-order')
+  if (status('vocabulary') === 'problem') issues.push('vocabulary')
+  if (status('naturalness') === 'problem') issues.push('unnatural')
+
+  const matchesReference = (ctx.referenceSentences ?? []).some(
+    reference => normSentence(reference) === normSentence(sentence)
+  )
+
+  let outcome
+
+  if (issues.includes('incomplete')) outcome = 'incomplete'
+  else if (issues.includes('meaning')) outcome = 'meaning-changed'
+  else if (issues.includes('off-topic')) outcome = 'off-topic'
+  else if (issues.some(issue => ['grammar', 'word-order', 'vocabulary'].includes(issue))) outcome = 'needs-correction'
+  else if (issues.includes('unnatural')) outcome = 'unnatural'
+  else outcome = matchesReference ? 'correct' : 'valid-alternative'
+
+  /* Language correctness and content quality are reported separately. */
+  const language = {
+    correct: !['grammar', 'wordOrder', 'vocabulary'].some(key => status(key) === 'problem'),
+    natural: status('naturalness') !== 'problem',
+  }
+  const content = {
+    complete: raw.complete !== false,
+    meaningPreserved: status('meaning') !== 'problem',
+    relevant: status('contextRelevance') !== 'problem',
+    targetUsed: targets.length ? usedTargets.length > 0 : null,
+    usedTargets,
+  }
+
+  /* "Passed" = a complete, relevant, meaning-preserving, language-correct
+   * sentence. Unnaturalness alone is feedback, not a failure. */
+  const passed = outcome === 'correct' || outcome === 'valid-alternative' || outcome === 'unnatural'
+
+  /* ---- corrected sentence ---- */
+  const needsFix = outcome !== 'correct' && outcome !== 'valid-alternative' && outcome !== 'incomplete'
+  let correctedSentence = needsFix ? str(raw.correctedSentence, 400) : ''
+  const unchanged = normSentence(correctedSentence) === normSentence(sentence)
+
+  if (needsFix && (!correctedSentence || unchanged)) {
+    errors.push('"correctedSentence" is required and must differ from the learner sentence when a problem is reported')
+  }
+
+  /* A correction that only fixes language must not rewrite the learner's idea. */
+  if (
+    correctedSentence &&
+    outcome === 'needs-correction' &&
+    dice(correctedSentence, sentence) < 0.4
+  ) {
+    errors.push('"correctedSentence" rewrites the learner\'s sentence instead of fixing it; keep the learner\'s own content')
+  }
+
+  if (errors.length) return { ok: false, errors }
+
+  const explanationPersian = str(raw.explanationPersian, 600)
+  if (needsFix && !explanationPersian && !errorsList.some(error => error.explanationPersian)) {
+    warnings.push('no Persian explanation supplied')
+  }
+
+  const alternatives = stringList(raw.alternatives, 3, 200).filter(
+    item => normSentence(item) !== normSentence(sentence)
+  )
+
+  return {
+    ok: true,
+    errors: warnings,
+    value: {
+      schemaVersion: SENTENCE_SCHEMA_VERSION,
+      learnerSentence: sentence,
+      outcome,
+      passed,
+      issues,
+      language,
+      content,
+      matchesReference,
+      dimensions,
+      errors: errorsList,
+      correctedSentence,
+      explanationPersian,
+      alternatives,
+      example: str(raw.example, 200),
+      nextPractice: str(raw.nextPractice, 200),
+    },
   }
 }

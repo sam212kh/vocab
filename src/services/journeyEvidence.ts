@@ -1,4 +1,7 @@
 import { LEARNING_STAGES } from '../types/journey'
+import { FIRST_ATTEMPT, classifyAssistance } from './productionAssistance'
+import type { ProductionAttemptContext } from './productionAssistance'
+import type { SentenceEvaluation } from '../types/sentenceEvaluation'
 
 import type {
     JourneyEvidenceRecord,
@@ -6,6 +9,7 @@ import type {
     LearningStage,
 } from '../types/journey'
 import type { RecordPerformanceInput } from '../stores/performance'
+import type { ErrorCategory } from '../types/performance'
 
 /**
  * Learning-stage evidence rules. PURE.
@@ -25,7 +29,13 @@ export function stageCountsFrom(records: JourneyEvidenceRecord[]): Record<Learni
     const counts = emptyStageCounts()
 
     for (const record of records) {
-        if (record.correct) counts[record.stage]++
+        if (!record.correct) continue
+
+        /* Production counts only when it was independent: a retry after
+         * feedback or a copied correction is practice, not unaided production. */
+        if (record.stage === 'production' && !record.independent) continue
+
+        counts[record.stage]++
     }
 
     return counts
@@ -76,7 +86,8 @@ export function recognitionEvidence(
 export function productionEvidence(
     base: Pick<JourneyEvidenceRecord, 'sessionId' | 'activityId' | 'kind' | 'skill' | 'itemKey' | 'timestamp'>,
     text: string,
-    targetExpressions: string[]
+    targetExpressions: string[],
+    context: ProductionAttemptContext = FIRST_ATTEMPT
 ): Omit<JourneyEvidenceRecord, 'id'> & { usedTargets: string[] } {
     const words = text.trim().split(/\s+/).filter(Boolean).length
     const normalized = text.toLowerCase()
@@ -85,15 +96,51 @@ export function productionEvidence(
 
     const completeness = Math.min(1, words / 8)
 
+    const assistance = classifyAssistance(text, context)
+
     return {
         ...base,
         stage: 'production',
-        correct: words >= 4 && usedTargets.length > 0,
-        independent: true,
-        hintsUsed: 0,
+        correct: assistance !== 'copied-correction' && words >= 4 && usedTargets.length > 0,
+        independent: assistance === 'none',
+        hintsUsed: context.hintUsed ? 1 : 0,
         modality: 'typed',
         completeness: Number(completeness.toFixed(2)),
+        evaluator: 'deterministic',
+        assistance,
+        attempt: context.attempt,
         usedTargets,
+    }
+}
+
+/**
+ * Production evidence from a validated AI sentence evaluation. `correct`
+ * is the evaluation's own verdict (complete, relevant, meaning-preserving,
+ * language-correct) — never a score and never a level. Whether the answer
+ * counts as INDEPENDENT production depends only on how it came about.
+ */
+export function evaluatedProductionEvidence(
+    base: Pick<JourneyEvidenceRecord, 'sessionId' | 'activityId' | 'kind' | 'skill' | 'itemKey' | 'timestamp'>,
+    evaluation: SentenceEvaluation,
+    context: ProductionAttemptContext = FIRST_ATTEMPT
+): Omit<JourneyEvidenceRecord, 'id'> {
+    const assistance = classifyAssistance(evaluation.learnerSentence, context)
+    const words = evaluation.learnerSentence.trim().split(/\s+/).filter(Boolean).length
+
+    return {
+        ...base,
+        stage: 'production',
+        correct: evaluation.passed && assistance !== 'copied-correction',
+        independent: assistance === 'none',
+        hintsUsed: context.hintUsed ? 1 : 0,
+        /* Typed. Never a speaking source. */
+        modality: 'typed',
+        completeness: Number(Math.min(1, words / 8).toFixed(2)),
+        evaluator: 'ai',
+        assistance,
+        attempt: context.attempt,
+        outcome: evaluation.outcome,
+        issues: evaluation.issues,
     }
 }
 
@@ -132,9 +179,34 @@ export function performanceEventFor(
         activityId: `journey-${record.kind}`,
         lessonId: record.itemKey,
         result: record.correct ? 'correct' : 'incorrect',
-        errorCategories: record.correct ? [] : [skill === 'grammar' ? 'grammar' : 'vocabulary'],
+        errorCategories: record.correct ? [] : errorCategoriesFor(record, skill),
         confidence: null,
     }
+}
+
+function errorCategoriesFor(
+    record: Omit<JourneyEvidenceRecord, 'id'>,
+    skill: string
+): ErrorCategory[] {
+    const mapped = new Set<ErrorCategory>()
+
+    for (const issue of record.issues ?? []) {
+        if (issue === 'grammar') mapped.add('grammar')
+        else if (issue === 'word-order') mapped.add('word-order')
+        else if (issue === 'vocabulary' || issue === 'unnatural') mapped.add('vocabulary')
+        else if (issue === 'meaning' || issue === 'off-topic' || issue === 'incomplete') mapped.add('task-constraints')
+    }
+
+    return mapped.size ? [...mapped] : [skill === 'grammar' ? 'grammar' : 'vocabulary']
+}
+
+/**
+ * Only a learner's FIRST attempt feeds the shared skill statistics. A retry
+ * after feedback (or a copied correction) is practice — counting it as
+ * another "correct" writing event would inflate accuracy.
+ */
+export function countsForPerformance(record: Omit<JourneyEvidenceRecord, 'id'>): boolean {
+    return (record.attempt ?? 1) <= 1 && record.assistance !== 'copied-correction'
 }
 
 /**
@@ -153,6 +225,8 @@ export function effortScore(records: JourneyEvidenceRecord[]): number {
 
         if (!record.correct) points = Math.ceil(points / 3)
         if (record.hintsUsed > 0) points = Math.max(1, points - record.hintsUsed)
+        /* Retyping a correction you were shown is minimal practice effort. */
+        if (record.assistance === 'copied-correction') points = 1
 
         score += points
     }
@@ -182,7 +256,17 @@ export function summarizeSession(
 
     const skills = [...new Set(records.map(record => record.skill))]
 
-    const production = records.filter(record => record.stage === 'production').length
+    const productionRecords = records.filter(record => record.stage === 'production')
+    const production = productionRecords.filter(record => record.assistance !== 'copied-correction').length
+
+    const productionBreakdown: JourneySummary['production'] = {
+        independent: productionRecords.filter(record => record.correct && record.independent).length,
+        hintAssisted: productionRecords.filter(record => record.assistance === 'hint').length,
+        afterFeedback: productionRecords.filter(record => record.assistance === 'after-feedback').length,
+        copiedCorrection: productionRecords.filter(record => record.assistance === 'copied-correction').length,
+        aiEvaluated: productionRecords.filter(record => record.evaluator === 'ai').length,
+        basicCheckOnly: productionRecords.filter(record => record.evaluator !== 'ai').length,
+    }
 
     let nextSuggestion = 'Come back tomorrow for a fresh journey.'
 
@@ -200,6 +284,7 @@ export function summarizeSession(
         expressionsEncountered: encountered.size,
         expressionsRecalledIndependently: independent.size,
         productiveAttempts: production,
+        production: productionBreakdown,
         skillsPracticed: skills,
         stageBreakdown,
         mistakesWorthReviewing: [...new Set(wrongItemKeys)].slice(0, 6),
