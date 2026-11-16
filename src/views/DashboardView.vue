@@ -2,25 +2,34 @@
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
+import AppIcon from '../components/ui/AppIcon.vue'
+import LearningIllustration from '../components/art/LearningIllustration.vue'
+import PageHeader from '../components/ui/PageHeader.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
+
 import { useWordProgressStore } from '../stores/wordProgress'
 import { useHardWordsStore } from '../stores/hardWords'
 import { useLearnerProfileStore } from '../stores/learnerProfile'
 import { useGrammarProgressStore } from '../stores/grammarProgress'
 import { usePerformanceStore } from '../stores/performance'
 import { useMistakesStore } from '../stores/mistakes'
+import { useJourneyStore } from '../stores/journey'
+import { useLearningPositionStore } from '../stores/learningPosition'
+
 import { buildDailyRecommendation } from '../services/learningRecommendation'
+import { recentActivity, relativeTime } from '../services/recentActivity'
 
-const wordProgressStore =
-    useWordProgressStore()
-
+const wordProgressStore = useWordProgressStore()
 const hardWordsStore = useHardWordsStore()
 const learnerProfileStore = useLearnerProfileStore()
 const grammarProgressStore = useGrammarProgressStore()
 const performanceStore = usePerformanceStore()
 const mistakesStore = useMistakesStore()
+const journeyStore = useJourneyStore()
+const positionStore = useLearningPositionStore()
 
-const recommendation = computed(() => {
-    return buildDailyRecommendation({
+const recommendation = computed(() =>
+    buildDailyRecommendation({
         studyDurationMinutes: learnerProfileStore.profile.studyDurationMinutes,
         dueWordsCount: wordProgressStore.getDueWords().length,
         hardWordsCount: hardWordsStore.hardWords.length,
@@ -29,700 +38,286 @@ const recommendation = computed(() => {
         skillSummaries: performanceStore.summarizeAll(),
         recurringWritingErrorCategories: mistakesStore.recurringErrorCategories(),
     })
-})
+)
 
-const recentMistakes = computed(() => performanceStore.recentMistakes(5))
+const progress = computed(() => wordProgressStore.progress)
+const totalWords = computed(() => progress.value.length)
+const dueWords = computed(() => wordProgressStore.getDueWords().length)
 
-const progress = computed(() => {
-    return wordProgressStore.progress
-})
+function count(status: string) {
+    return progress.value.filter(item => item.status === status).length
+}
 
-const totalWords = computed(() => {
-    return progress.value.length
-})
+const statusItems = computed(() => [
+    { label: 'New', value: count('new'), bar: 'bg-gray-300', dot: 'bg-gray-300' },
+    { label: 'Learning', value: count('learning'), bar: 'bg-amber-200', dot: 'bg-amber-200' },
+    { label: 'Reviewing', value: count('reviewing'), bar: 'bg-blue-600/70', dot: 'bg-blue-600/70' },
+    { label: 'Mastered', value: count('mastered'), bar: 'bg-learn-500', dot: 'bg-learn-500' },
+])
 
-const newWords = computed(() => {
-    return progress.value.filter(
-        item => item.status === 'new'
-    ).length
-})
+const totalCorrect = computed(() => progress.value.reduce((sum, item) => sum + item.correctAnswers, 0))
+const totalAnswers = computed(() => totalCorrect.value + progress.value.reduce((sum, item) => sum + item.wrongAnswers, 0))
+const accuracy = computed(() => (totalAnswers.value ? Math.round((totalCorrect.value / totalAnswers.value) * 100) : 0))
+const masteryPercent = computed(() => (totalWords.value ? Math.round((count('mastered') / totalWords.value) * 100) : 0))
 
-const learningWords = computed(() => {
-    return progress.value.filter(
-        item => item.status === 'learning'
-    ).length
-})
-
-const reviewingWords = computed(() => {
-    return progress.value.filter(
-        item => item.status === 'reviewing'
-    ).length
-})
-
-const masteredWords = computed(() => {
-    return progress.value.filter(
-        item => item.status === 'mastered'
-    ).length
-})
-
-const dueWords = computed(() => {
-    return wordProgressStore.getDueWords().length
-})
-
-const totalCorrect = computed(() => {
-    return progress.value.reduce(
-        (total, item) =>
-            total + item.correctAnswers,
-        0
-    )
-})
-
-const totalWrong = computed(() => {
-    return progress.value.reduce(
-        (total, item) =>
-            total + item.wrongAnswers,
-        0
-    )
-})
-
-const totalAnswers = computed(() => {
-    return (
-        totalCorrect.value +
-        totalWrong.value
-    )
-})
-
-const accuracy = computed(() => {
-    if (!totalAnswers.value) {
-        return 0
-    }
-
-    return Math.round(
-        (totalCorrect.value /
-            totalAnswers.value) *
-        100
-    )
-})
-
-const mastery = computed(() => {
-    if (!totalWords.value) {
-        return 0
-    }
-
-    return Math.round(
-        (masteredWords.value /
-            totalWords.value) *
-        100
-    )
-})
+function dateKey(date: Date): string {
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
 
 const currentStreak = computed(() => {
-    const reviewedDays =
-        new Set<string>()
+    const days = new Set<string>()
 
     for (const item of progress.value) {
-        if (
-            !item.lastReviewedAt
-        ) {
-            continue
-        }
-
-        const date =
-            new Date(
-                item.lastReviewedAt
-            )
-
-        const key =
-            getDateKey(date)
-
-        reviewedDays.add(key)
-    }
-
-    if (!reviewedDays.size) {
-        return 0
+        if (item.lastReviewedAt) days.add(dateKey(new Date(item.lastReviewedAt)))
     }
 
     let streak = 0
+    const cursor = new Date()
 
-    const today =
-        startOfDay(new Date())
+    cursor.setHours(0, 0, 0, 0)
 
-    for (;;) {
-        const date =
-            new Date(today)
-
-        date.setDate(
-            date.getDate() - streak
-        )
-
-        const key =
-            getDateKey(date)
-
-        if (
-            !reviewedDays.has(key)
-        ) {
-            break
-        }
-
+    while (days.has(dateKey(cursor))) {
         streak++
+        cursor.setDate(cursor.getDate() - 1)
     }
 
     return streak
 })
 
-const statusItems = computed(() => {
-    return [
-        {
-            label: 'New',
-            value: newWords.value,
-            percentage:
-                percentage(
-                    newWords.value,
-                    totalWords.value
-                ),
-        },
-        {
-            label: 'Learning',
-            value:
-            learningWords.value,
-            percentage:
-                percentage(
-                    learningWords.value,
-                    totalWords.value
-                ),
-        },
-        {
-            label: 'Reviewing',
-            value:
-            reviewingWords.value,
-            percentage:
-                percentage(
-                    reviewingWords.value,
-                    totalWords.value
-                ),
-        },
-        {
-            label: 'Mastered',
-            value:
-            masteredWords.value,
-            percentage:
-                percentage(
-                    masteredWords.value,
-                    totalWords.value
-                ),
-        },
-    ]
+/* Daily Journey: resume an interrupted one, otherwise offer a fresh start. */
+const activeJourney = computed(() => {
+    const session = journeyStore.activeSession
+
+    if (!session) return null
+
+    const total = session.plan.activities.length
+    const done = Object.values(session.statuses).filter(status => status !== 'pending').length
+
+    return { done, total, minutes: session.plan.totalEstimatedMinutes, percent: total ? Math.round((done / total) * 100) : 0 }
 })
 
-function percentage(
-    value: number,
-    total: number
-): number {
-    if (!total) {
-        return 0
-    }
+const lastLesson = computed(() => positionStore.last)
 
-    return Math.round(
-        (value / total) * 100
-    )
+const lastLessonLink = computed(() => {
+    const lesson = lastLesson.value
+
+    if (!lesson) return '/lessons'
+
+    return `/courses/${lesson.courseId}/lessons/${lesson.lessonId}${lesson.index > 0 ? `?w=${lesson.index + 1}` : ''}`
+})
+
+const activity = computed(() => recentActivity(performanceStore.events, 6))
+
+const ROUTE_ICON: Record<string, string> = {
+    '/session': 'bolt',
+    '/grammar': 'layers',
+    '/listening': 'headphones',
+    '/guided-speaking': 'mic',
+    '/reading': 'book',
+    '/writing': 'pen',
 }
 
-function startOfDay(
-    date: Date
-): Date {
-    const result =
-        new Date(date)
+const iconForRoute = (route: string) => ROUTE_ICON[route] ?? 'sparkle'
 
-    result.setHours(
-        0,
-        0,
-        0,
-        0
-    )
+const nextAction = computed(() => recommendation.value.activities[0] ?? null)
+const otherActions = computed(() => recommendation.value.activities.slice(1, 5))
 
-    return result
-}
+const now = new Date()
+const greeting = now.getHours() < 12 ? 'Good morning' : now.getHours() < 18 ? 'Good afternoon' : 'Good evening'
+const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })
 
-function getDateKey(
-    date: Date
-): string {
-    const year =
-        date.getFullYear()
-
-    const month =
-        String(
-            date.getMonth() + 1
-        ).padStart(2, '0')
-
-    const day =
-        String(
-            date.getDate()
-        ).padStart(2, '0')
-
-    return `${year}-${month}-${day}`
-}
+const QUICK = [
+    { label: 'Lessons', to: '/lessons', icon: 'book' },
+    { label: 'Review', to: '/review', icon: 'repeat' },
+    { label: 'Hard words', to: '/hard-words', icon: 'star' },
+    { label: 'Speaking', to: '/speaking-practice', icon: 'mic' },
+]
 </script>
 
 <template>
-    <div class="mx-auto max-w-7xl space-y-8">
-        <!-- Header -->
-
-        <div>
-            <h1
-                class="text-3xl font-bold text-gray-900"
+    <div class="mx-auto max-w-6xl space-y-6 sm:space-y-7">
+        <PageHeader :eyebrow="dateLabel" :title="greeting" serif>
+            <span
+                v-if="currentStreak"
+                class="inline-flex min-h-10 items-center gap-1.5 rounded-full border border-amber-200 bg-amber-50 px-3.5 text-sm font-semibold text-amber-700"
+                :title="`${currentStreak} day streak`"
             >
-                Dashboard
-            </h1>
+                <AppIcon name="bolt" :size="16" /> {{ currentStreak }} day{{ currentStreak === 1 ? '' : 's' }} in a row
+            </span>
+        </PageHeader>
 
-            <p
-                class="mt-2 text-gray-500"
-            >
-                Track your vocabulary progress
-                and review what needs attention.
-            </p>
-        </div>
-
-        <!-- Review Alert -->
-
-        <div
-            v-if="dueWords > 0"
-            class="flex flex-col gap-4 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between"
-        >
-            <div>
-                <h2
-                    class="text-lg font-semibold text-gray-900"
-                >
-                    {{ dueWords }} words
-                    are ready for review
-                </h2>
-
-                <p
-                    class="mt-1 text-sm text-gray-500"
-                >
-                    Review them now to
-                    strengthen your memory.
-                </p>
-            </div>
-
-            <RouterLink
-                to="/session"
-                class="inline-flex items-center justify-center rounded-xl bg-black px-5 py-3 text-sm font-medium text-white transition hover:bg-gray-800"
-            >
-                Start Daily Session
-            </RouterLink>
-        </div>
-
-        <div
-            v-else
-            class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-        >
-            <h2
-                class="text-lg font-semibold text-gray-900"
-            >
-                You're all caught up
-            </h2>
-
-            <p
-                class="mt-1 text-sm text-gray-500"
-            >
-                There are no words waiting
-                for review right now.
-            </p>
-        </div>
-
-        <!-- Daily Journey: the central daily experience -->
-
-        <RouterLink
-            to="/daily-journey"
-            class="block rounded-2xl border-2 border-gray-900 bg-white p-6 shadow-sm transition hover:bg-gray-50"
-        >
-            <p class="text-sm text-gray-500">Today</p>
-            <p class="mt-1 text-xl font-semibold text-gray-900">Start your Daily Journey 🌱</p>
-            <p class="mt-1 text-sm text-gray-500">A personalized session — recognize, recall, then use real English. 5, 15 or 40 minutes.</p>
-        </RouterLink>
-
-        <!-- Continue Learning -->
-
-        <RouterLink
-            v-if="recommendation.activities.length"
-            :to="recommendation.activities[0].route"
-            class="block rounded-2xl bg-gray-900 p-6 text-white shadow-sm transition hover:bg-gray-800"
-        >
-            <p class="text-sm text-gray-300">Continue learning</p>
-            <p class="mt-1 text-xl font-semibold">{{ recommendation.activities[0].label }}</p>
-            <p class="mt-1 text-sm text-gray-300">{{ recommendation.activities[0].reason }}</p>
-        </RouterLink>
-
-        <!-- Recommended for today -->
-
-        <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-            <div class="flex items-center justify-between">
-                <h2 class="text-lg font-semibold text-gray-900">
-                    Recommended for today
-                </h2>
-
-                <span class="text-sm text-gray-400">
-                    ~{{ recommendation.totalEstimatedMinutes }} min
-                </span>
-            </div>
-
-            <div class="mt-4 space-y-3">
-                <RouterLink
-                    v-for="activity in recommendation.activities"
-                    :key="activity.type"
-                    :to="activity.route"
-                    class="block rounded-xl border border-gray-100 p-4 transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                    <div class="flex items-center justify-between">
-                        <p class="font-medium text-gray-900">
-                            {{ activity.label }}
-                        </p>
-
-                        <span class="text-sm text-gray-400">
-                            ~{{ activity.estimatedMinutes }} min
-                        </span>
-                    </div>
-
-                    <p class="mt-1 text-sm text-gray-500">
-                        {{ activity.reason }}
-                    </p>
-                </RouterLink>
-            </div>
-        </div>
-
-        <!-- Main Stats -->
-
-        <div
-            class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
-        >
-            <!-- Total -->
-
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Studied Words
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ totalWords }}
-                </p>
-            </div>
-
-            <!-- Due -->
-
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Due Today
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ dueWords }}
-                </p>
-            </div>
-
-            <!-- Streak -->
-
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Learning Streak
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ currentStreak }}
-                </p>
-
-                <p
-                    class="mt-1 text-xs text-gray-400"
-                >
-                    {{
-                        currentStreak === 1
-                            ? 'day'
-                            : 'days'
-                    }}
-                </p>
-            </div>
-
-            <!-- Mastery -->
-
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Mastery
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ mastery }}%
-                </p>
-
-                <p
-                    class="mt-1 text-xs text-gray-400"
-                >
-                    {{ masteredWords }}
-                    mastered
-                </p>
-            </div>
-        </div>
-
-        <!-- Accuracy -->
-
-        <div
-            class="grid gap-4 lg:grid-cols-3"
-        >
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Accuracy
-                </p>
-
-                <div
-                    class="mt-3 flex items-end gap-2"
-                >
-                    <span
-                        class="text-4xl font-bold text-gray-900"
-                    >
-                        {{ accuracy }}%
-                    </span>
-
-                    <span
-                        class="pb-1 text-sm text-gray-400"
-                    >
-                        {{ totalAnswers }}
-                        answers
-                    </span>
+        <!-- Today: the journey (primary) + spaced review -->
+        <section class="grid gap-5 lg:grid-cols-[minmax(0,1.65fr)_minmax(0,1fr)]" aria-label="Today">
+            <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-6 text-white shadow-md sm:p-8">
+                <div class="pointer-events-none absolute inset-0" aria-hidden="true">
+                    <div class="absolute -right-16 -top-20 h-72 w-72 rounded-full bg-white/[0.06]" />
+                    <div class="absolute -bottom-24 right-24 h-64 w-64 rounded-full bg-learn-500/20" />
+                    <div class="absolute right-10 top-1/2 hidden h-28 w-28 -translate-y-1/2 rounded-3xl border border-white/15 bg-white/[0.07] sm:block" />
+                    <div class="absolute right-24 top-10 hidden h-3 w-3 rounded-full bg-amber-200/80 sm:block" />
                 </div>
-            </div>
 
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Correct Answers
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ totalCorrect }}
-                </p>
-            </div>
-
-            <div
-                class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-            >
-                <p
-                    class="text-sm text-gray-500"
-                >
-                    Wrong Answers
-                </p>
-
-                <p
-                    class="mt-2 text-3xl font-bold text-gray-900"
-                >
-                    {{ totalWrong }}
-                </p>
-            </div>
-        </div>
-
-        <!-- Status -->
-
-        <div
-            class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-        >
-            <div
-                class="flex items-center justify-between"
-            >
-                <div>
-                    <h2
-                        class="text-lg font-semibold text-gray-900"
-                    >
-                        Vocabulary Progress
+                <div class="relative max-w-md">
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">{{ activeJourney ? 'In progress' : "Today's journey" }}</p>
+                    <h2 class="font-display mt-2 text-[1.75rem] font-semibold leading-tight sm:text-4xl">
+                        {{ activeJourney ? 'Pick up where you left off' : 'Learn it, recall it, then use it' }}
                     </h2>
-
-                    <p
-                        class="mt-1 text-sm text-gray-500"
-                    >
-                        Current status of studied
-                        words.
+                    <p class="mt-2 text-[0.95rem] leading-relaxed text-white/75">
+                        <template v-if="activeJourney">{{ activeJourney.done }} of {{ activeJourney.total }} activities done · about {{ activeJourney.minutes }} minutes in total.</template>
+                        <template v-else>A session built around what you need today: recognition, retrieval, and real sentences. 5, 18 or 40 minutes.</template>
                     </p>
-                </div>
 
-                <span
-                    class="text-sm text-gray-400"
-                >
-                    {{ totalWords }} words
-                </span>
-            </div>
-
-            <div
-                class="mt-6 space-y-5"
-            >
-                <div
-                    v-for="item in statusItems"
-                    :key="item.label"
-                >
-                    <div
-                        class="mb-2 flex items-center justify-between text-sm"
-                    >
-                        <span
-                            class="font-medium text-gray-700"
-                        >
-                            {{ item.label }}
-                        </span>
-
-                        <span
-                            class="text-gray-400"
-                        >
-                            {{ item.value }}
-                            ·
-                            {{ item.percentage }}%
-                        </span>
+                    <div v-if="activeJourney" class="mt-4 h-1.5 overflow-hidden rounded-full bg-white/15" role="progressbar" :aria-valuenow="activeJourney.percent" aria-valuemin="0" aria-valuemax="100" aria-label="Journey progress">
+                        <div class="h-full rounded-full bg-white/80" :style="{ width: `${Math.max(activeJourney.percent, 4)}%` }" />
                     </div>
 
-                    <div
-                        class="h-2 overflow-hidden rounded-full bg-gray-100"
+                    <RouterLink
+                        to="/daily-journey"
+                        class="btn btn-lg mt-6 bg-white !text-[#243350] shadow-sm hover:bg-gray-100"
                     >
-                        <div
-                            class="h-full rounded-full bg-gray-900 transition-all"
-                            :style="{
-                                width:
-                                    `${item.percentage}%`,
-                            }"
-                        />
-                    </div>
+                        {{ activeJourney ? 'Resume journey' : 'Start today\'s journey' }}
+                        <AppIcon name="chevron-right" :size="18" />
+                    </RouterLink>
                 </div>
             </div>
-        </div>
 
-        <!-- Recent Mistakes -->
+            <div class="surface flex flex-col p-6">
+                <p class="label">Spaced review</p>
+                <p class="font-display mt-2 text-6xl font-semibold leading-none tabular-nums text-gray-900">{{ dueWords }}</p>
+                <p class="mt-2 text-sm text-gray-500">
+                    {{ dueWords ? `word${dueWords === 1 ? '' : 's'} ready for review. Short reviews keep them in memory.` : 'Nothing due — your reviews are up to date.' }}
+                </p>
+                <div class="mt-auto pt-5">
+                    <RouterLink v-if="dueWords" to="/session" class="btn-primary btn-lg w-full">Review now</RouterLink>
+                    <RouterLink v-else to="/lessons" class="btn-secondary btn-lg w-full">Learn new words</RouterLink>
+                </div>
+            </div>
+        </section>
 
-        <div v-if="recentMistakes.length" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-            <h2 class="text-lg font-semibold text-gray-900">Recent mistakes</h2>
-            <p class="mt-1 text-sm text-gray-500">
-                From your latest exercises across all modules.
-            </p>
+        <!-- Continue + recommended -->
+        <section class="grid gap-5 lg:grid-cols-2" aria-label="Next steps">
+            <div class="surface flex flex-col p-5 sm:p-6">
+                <p class="label">Continue learning</p>
 
-            <div class="mt-4 space-y-2">
-                <div
-                    v-for="mistake in recentMistakes"
-                    :key="mistake.id"
-                    class="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-3 text-sm"
+                <RouterLink v-if="lastLesson" :to="lastLessonLink" class="group mt-3 flex items-center gap-4 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30">
+                    <div class="h-16 w-24 shrink-0 overflow-hidden rounded-xl border border-gray-200/80" aria-hidden="true">
+                        <LearningIllustration :seed="`${lastLesson.courseId}/${lastLesson.lessonId}`" />
+                    </div>
+                    <div class="min-w-0 flex-1">
+                        <p class="wrap-anywhere font-display text-lg font-semibold leading-snug text-gray-900 group-hover:text-learn-700">{{ lastLesson.title }}</p>
+                        <p class="mt-0.5 text-sm text-gray-500">Expression {{ lastLesson.index + 1 }} of {{ lastLesson.total }}</p>
+                        <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
+                            <div class="h-full rounded-full bg-learn-500" :style="{ width: `${Math.round(((lastLesson.index + 1) / lastLesson.total) * 100)}%` }" />
+                        </div>
+                    </div>
+                    <AppIcon name="chevron-right" class="text-gray-300 group-hover:text-learn-600" />
+                </RouterLink>
+
+                <div v-else class="mt-3">
+                    <p class="text-sm text-gray-500">No lesson in progress. Open one to start building your vocabulary.</p>
+                </div>
+
+                <RouterLink to="/lessons" class="mt-auto inline-flex min-h-11 items-center gap-1.5 pt-4 text-sm font-semibold text-learn-700 hover:text-learn-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+                    {{ lastLesson ? 'Browse all lessons' : 'Browse lessons' }} <AppIcon name="chevron-right" :size="16" />
+                </RouterLink>
+            </div>
+
+            <div class="surface p-5 sm:p-6">
+                <div class="flex items-baseline justify-between">
+                    <p class="label">Recommended for you</p>
+                    <span class="text-xs text-gray-400">~{{ recommendation.totalEstimatedMinutes }} min</span>
+                </div>
+
+                <RouterLink
+                    v-if="nextAction"
+                    :to="nextAction.route"
+                    class="group mt-3 flex items-start gap-3.5 rounded-2xl bg-accent-soft p-3.5 transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
                 >
-                    <span class="font-medium text-gray-700">{{ mistake.activityId }}</span>
-                    <span class="text-gray-400">
-                        {{ mistake.skill }}
-                        <span v-if="mistake.errorCategories.length"> · {{ mistake.errorCategories.join(', ') }}</span>
+                    <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-accent-ink shadow-sm"><AppIcon :name="iconForRoute(nextAction.route)" /></span>
+                    <span class="min-w-0 flex-1">
+                        <span class="block font-semibold text-gray-900">{{ nextAction.label }}</span>
+                        <span class="mt-0.5 block text-sm leading-snug text-gray-500">{{ nextAction.reason }}</span>
                     </span>
-                </div>
+                    <span class="shrink-0 text-xs text-gray-400">~{{ nextAction.estimatedMinutes }} min</span>
+                </RouterLink>
+
+                <ul v-if="otherActions.length" class="mt-2 divide-y divide-gray-100">
+                    <li v-for="item in otherActions" :key="item.type">
+                        <RouterLink :to="item.route" class="flex min-h-12 items-center gap-3 rounded-lg px-1 text-sm text-gray-700 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+                            <AppIcon :name="iconForRoute(item.route)" :size="17" class="text-gray-400" />
+                            <span class="flex-1 truncate">{{ item.label }}</span>
+                            <span class="text-xs text-gray-400">~{{ item.estimatedMinutes }} min</span>
+                        </RouterLink>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </section>
 
-        <!-- Quick Actions -->
+        <!-- Progress + recent activity -->
+        <section class="grid gap-5 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]" aria-label="Progress">
+            <div class="surface p-5 sm:p-6">
+                <p class="label">Vocabulary</p>
 
-        <div>
-            <h2
-                class="text-lg font-semibold text-gray-900"
-            >
-                Quick Actions
-            </h2>
+                <StateBlock v-if="!totalWords" kind="empty" title="No words tracked yet" text="Words appear here once you practise them. Open a lesson, then practise it." class="mt-3 !shadow-none">
+                    <RouterLink to="/lessons" class="btn-primary mt-4">Open a lesson</RouterLink>
+                </StateBlock>
 
-            <div
-                class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
-            >
-                <RouterLink
-                    to="/lessons"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                    <p
-                        class="font-semibold text-gray-900"
-                    >
-                        Lessons
-                    </p>
+                <template v-else>
+                    <div class="mt-3 flex items-end justify-between gap-4">
+                        <p class="font-display text-4xl font-semibold tabular-nums text-gray-900">{{ totalWords }}<span class="ml-1.5 text-base font-normal text-gray-400">words tracked</span></p>
+                    </div>
 
-                    <p
-                        class="mt-1 text-sm text-gray-500"
-                    >
-                        Learn new vocabulary
-                    </p>
-                </RouterLink>
+                    <div class="mt-4 flex h-2.5 gap-0.5 overflow-hidden rounded-full bg-gray-100" role="img" :aria-label="statusItems.map(item => `${item.value} ${item.label}`).join(', ')">
+                        <span v-for="item in statusItems" :key="item.label" class="h-full first:rounded-l-full last:rounded-r-full" :class="item.bar" :style="{ width: `${(item.value / totalWords) * 100}%` }" />
+                    </div>
 
-                <RouterLink
-                    to="/review"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                    <p
-                        class="font-semibold text-gray-900"
-                    >
-                        Review
-                    </p>
+                    <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-4">
+                        <li v-for="item in statusItems" :key="item.label" class="flex items-center gap-2">
+                            <span class="h-2.5 w-2.5 shrink-0 rounded-full" :class="item.dot" />
+                            <span class="text-gray-500">{{ item.label }}</span>
+                            <span class="ml-auto font-semibold tabular-nums text-gray-900 sm:ml-0">{{ item.value }}</span>
+                        </li>
+                    </ul>
 
-                    <p
-                        class="mt-1 text-sm text-gray-500"
-                    >
-                        Practice due words
-                    </p>
-                </RouterLink>
-
-                <RouterLink
-                    to="/hard-words"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                    <p
-                        class="font-semibold text-gray-900"
-                    >
-                        Hard Words
-                    </p>
-
-                    <p
-                        class="mt-1 text-sm text-gray-500"
-                    >
-                        Practice difficult words
-                    </p>
-                </RouterLink>
-
-                <RouterLink
-                    to="/speaking-practice"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                    <p
-                        class="font-semibold text-gray-900"
-                    >
-                        Speaking
-                    </p>
-
-                    <p
-                        class="mt-1 text-sm text-gray-500"
-                    >
-                        Practice pronunciation
-                    </p>
-                </RouterLink>
+                    <dl class="mt-5 grid grid-cols-2 gap-3 border-t border-gray-100 pt-4">
+                        <div>
+                            <dt class="text-xs text-gray-400">Answer accuracy</dt>
+                            <dd class="font-display text-2xl font-semibold tabular-nums text-gray-900">{{ totalAnswers ? `${accuracy}%` : '—' }}</dd>
+                        </div>
+                        <div>
+                            <dt class="text-xs text-gray-400">Mastered</dt>
+                            <dd class="font-display text-2xl font-semibold tabular-nums text-gray-900">{{ masteryPercent }}%</dd>
+                        </div>
+                    </dl>
+                </template>
             </div>
-        </div>
+
+            <div class="surface p-5 sm:p-6">
+                <p class="label">Recent activity</p>
+
+                <StateBlock v-if="!activity.length" kind="empty" title="No activity yet" text="Finish an exercise and it shows up here." class="mt-3 !shadow-none" />
+
+                <ul v-else class="mt-2 divide-y divide-gray-100">
+                    <li v-for="row in activity" :key="row.id" class="flex items-center gap-3 py-2.5">
+                        <span
+                            class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full"
+                            :class="row.correct ? 'bg-green-50 text-green-600' : 'bg-red-50 text-red-600'"
+                            :aria-label="row.correct ? 'Correct' : 'Needs review'"
+                        ><AppIcon :name="row.correct ? 'check' : 'close'" :size="14" /></span>
+                        <span class="min-w-0 flex-1">
+                            <span class="block truncate text-sm font-medium text-gray-900">{{ row.title }}</span>
+                            <span class="block truncate text-xs text-gray-400">{{ row.skill }}<template v-if="!row.correct && row.detail"> · {{ row.detail }}</template></span>
+                        </span>
+                        <span class="shrink-0 text-xs text-gray-400">{{ relativeTime(row.at) }}</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Quick access -->
+        <nav class="flex flex-wrap gap-2 pb-2" aria-label="Quick access">
+            <RouterLink v-for="item in QUICK" :key="item.to" :to="item.to" class="btn-secondary gap-2 rounded-full">
+                <AppIcon :name="item.icon" :size="16" class="text-gray-400" /> {{ item.label }}
+            </RouterLink>
+        </nav>
     </div>
 </template>

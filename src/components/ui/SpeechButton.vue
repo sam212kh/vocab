@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+import AppIcon from './AppIcon.vue'
+
 import {
     speakAsync,
     getSpeechError,
@@ -71,25 +73,21 @@ async function handleClick() {
 </script>
 
 <template>
-    <button
-        type="button"
-        class="inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
-        :disabled="playing"
-        @click="handleClick"
-    >
-        <span v-if="playing">
-            🔊
-        </span>
+    <span class="inline-flex flex-col align-middle">
+        <button
+            type="button"
+            class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-accent-ink transition hover:bg-accent-soft focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 disabled:cursor-not-allowed disabled:opacity-60"
+            :aria-label="label && !/^[^\w]+$/.test(label) ? `Play: ${label}` : 'Play audio'"
+            :disabled="playing"
+            @click="handleClick"
+        >
+            <span class="flex h-8 w-8 items-center justify-center rounded-full bg-accent-soft" :class="playing ? 'ring-4 ring-accent/25' : ''">
+                <AppIcon name="volume" :size="17" />
+            </span>
+        </button>
 
-        <span v-else>
-            🔊
+        <span v-if="error" class="text-xs text-red-600" role="status">
+            {{ getSpeechError() || 'Pronunciation audio is unavailable.' }}
         </span>
-    </button>
-
-    <p
-        v-if="error"
-        class="mt-1 text-xs text-red-500"
-    >
-        {{ getSpeechError() || 'Pronunciation audio is unavailable.' }}
-    </p>
+    </span>
 </template>

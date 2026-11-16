@@ -70,7 +70,7 @@ const missedTarget = computed(() => props.evaluation.passed && props.evaluation.
 <template>
     <div class="mt-4 space-y-3 text-sm" data-testid="sentence-feedback">
         <p class="text-xs text-gray-400">
-            🤖 AI-assisted feedback · {{ provider }}<span v-if="fallbackUsed"> (fallback provider)</span>
+            AI-assisted feedback · {{ provider }}<span v-if="fallbackUsed"> (fallback provider)</span>
             · practice feedback, not a certified assessment
         </p>
 
@@ -142,7 +142,7 @@ const missedTarget = computed(() => props.evaluation.passed && props.evaluation.
         <p v-if="evaluation.nextPractice" class="text-xs text-gray-400">Next: {{ evaluation.nextPractice }}</p>
 
         <div v-if="!evaluation.passed" class="flex flex-col gap-2 sm:flex-row">
-            <button v-if="canRetry" type="button" class="flex-1 rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800" data-testid="retry" @click="emit('retry')">
+            <button v-if="canRetry" type="button" class="btn-primary btn-lg flex-1" data-testid="retry" @click="emit('retry')">
                 Try again{{ correctionVisible ? '' : ' (without the correction)' }}
             </button>
             <button v-if="!correctionVisible && evaluation.correctedSentence" type="button" class="flex-1 rounded-xl border px-4 py-3 text-gray-600 hover:bg-gray-50" data-testid="reveal" @click="emit('reveal')">

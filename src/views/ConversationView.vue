@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, nextTick, onMounted, ref } from 'vue'
 
 import { loadScenarios } from '../services/conversationContent'
@@ -419,7 +420,7 @@ onMounted(async () => {
         <!-- ============ SETUP ============ -->
         <div v-if="phase === 'setup'" class="overflow-y-auto">
             <div class="mb-6">
-                <h1 class="text-3xl font-bold text-gray-900">Conversation</h1>
+                <h1>Conversation</h1>
                 <p class="mt-2 text-gray-500">
                     Practice real English with an AI tutor — text, or voice when Speaking is on.
                 </p>
@@ -442,7 +443,7 @@ onMounted(async () => {
                     :key="mode.id"
                     type="button"
                     class="rounded-xl border p-3 text-left transition"
-                    :class="setupMode === mode.id ? 'border-gray-900 bg-gray-900 text-white' : 'border-gray-200 bg-white hover:bg-gray-50'"
+                    :class="setupMode === mode.id ? 'border-accent bg-accent text-white' : 'border-gray-200 bg-white hover:bg-gray-50'"
                     @click="setupMode = mode.id"
                 >
                     <p class="text-sm font-semibold">{{ mode.label }}</p>
@@ -459,7 +460,7 @@ onMounted(async () => {
                         :key="scenario.id"
                         type="button"
                         class="rounded-xl border p-3 text-left transition"
-                        :class="setupScenarioId === scenario.id ? 'border-gray-900 bg-gray-900 text-white' : 'border-gray-200 bg-white hover:bg-gray-50'"
+                        :class="setupScenarioId === scenario.id ? 'border-accent bg-accent text-white' : 'border-gray-200 bg-white hover:bg-gray-50'"
                         @click="setupScenarioId = scenario.id"
                     >
                         <div class="flex items-start justify-between gap-2">
@@ -485,7 +486,7 @@ onMounted(async () => {
                             :key="level"
                             type="button"
                             class="rounded-full border px-3 py-1.5 text-sm transition"
-                            :class="setupDifficulty === level ? 'border-gray-900 bg-gray-900 text-white' : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                            :class="setupDifficulty === level ? 'border-accent bg-accent text-white' : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                             @click="setupDifficulty = level"
                         >
                             {{ level }}
@@ -501,7 +502,7 @@ onMounted(async () => {
                             :key="mode.id"
                             type="button"
                             class="rounded-full border px-3 py-1.5 text-sm transition"
-                            :class="setupFeedbackMode === mode.id ? 'border-gray-900 bg-gray-900 text-white' : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                            :class="setupFeedbackMode === mode.id ? 'border-accent bg-accent text-white' : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                             :title="mode.hint"
                             @click="setupFeedbackMode = mode.id"
                         >
@@ -513,7 +514,7 @@ onMounted(async () => {
 
             <button
                 type="button"
-                class="mt-6 w-full rounded-xl bg-black px-6 py-3.5 font-semibold text-white hover:bg-gray-800"
+                class="btn-primary btn-lg mt-6 w-full"
                 @click="startConversation"
             >
                 Start conversation
@@ -570,7 +571,7 @@ onMounted(async () => {
                 <div class="flex items-center gap-2">
                     <select
                         :value="session.feedbackMode"
-                        class="rounded-lg border px-2 py-1 text-xs"
+                        class="field text-xs"
                         :disabled="session.endedAt !== null"
                         @change="changeFeedbackMode(($event.target as HTMLSelectElement).value as FeedbackMode)"
                     >
@@ -622,7 +623,7 @@ onMounted(async () => {
             <!-- Input -->
             <div v-if="session.endedAt === null" class="border-t pt-3">
                 <p v-if="draftFromVoice" class="mb-1 text-xs text-gray-400">
-                    🎙 Transcribed — edit before sending if the recognition made mistakes.
+                    Transcribed — edit before sending if the recognition made mistakes.
                 </p>
                 <p v-if="voiceError" class="mb-1 text-xs text-red-500">{{ voiceError }}</p>
 
@@ -630,21 +631,19 @@ onMounted(async () => {
                     <button
                         v-if="speakingEnabled && voiceSupported"
                         type="button"
-                        class="shrink-0 rounded-full p-3 text-lg transition"
-                        :class="isListening ? 'animate-pulse bg-red-100 text-red-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
+                        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+                        :class="isListening ? 'animate-pulse bg-red-100 text-red-600' : 'bg-accent-soft text-accent-ink hover:bg-gray-100'"
                         :title="isListening ? 'Listening…' : 'Speak your message'"
                         :disabled="waitingForTutor"
                         @click="recordVoice"
-                    >
-                        🎙
-                    </button>
+                    ><AppIcon name="mic" :size="20" /><span class="sr-only">Speak your message</span></button>
 
                     <textarea
                         v-model="draft"
                         rows="1"
                         dir="auto"
                         placeholder="Write in English…"
-                        class="max-h-32 flex-1 resize-y rounded-xl border px-3 py-2.5 outline-none focus:border-gray-900"
+                        class="field max-h-32 flex-1 resize-y"
                         :disabled="waitingForTutor"
                         @keydown.enter.exact.prevent="sendDraft"
                         @input="draftFromVoice = false"
@@ -652,7 +651,7 @@ onMounted(async () => {
 
                     <button
                         type="button"
-                        class="shrink-0 rounded-xl bg-black px-4 py-2.5 font-semibold text-white hover:bg-gray-800 disabled:opacity-40"
+                        class="btn-primary btn-lg shrink-0"
                         :disabled="!draft.trim() || waitingForTutor"
                         @click="sendDraft"
                     >
@@ -675,8 +674,8 @@ onMounted(async () => {
 
             <template v-else>
                 <div class="mb-6 text-center">
-                    <div class="text-5xl">💬</div>
-                    <h1 class="mt-3 text-2xl font-bold text-gray-900">Conversation complete</h1>
+                    <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="chat" :size="26" /></span>
+                    <h1 class="mt-3">Conversation complete</h1>
                     <p class="mt-1 text-sm text-gray-400">
                         {{ sessionDurationMinutes }} min ·
                         {{ session?.messages.filter(m => m.role === 'learner').length ?? 0 }} messages from you
@@ -756,7 +755,7 @@ onMounted(async () => {
 
                 <button
                     type="button"
-                    class="mt-6 w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800"
+                    class="btn-primary btn-lg mt-6 w-full"
                     @click="backToSetup"
                 >
                     Done

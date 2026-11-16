@@ -4,11 +4,16 @@ import { computed, onMounted, ref } from 'vue'
 import { loadReadingManifest, loadReadingPassage } from '../services/readingContent'
 import { usePerformanceStore } from '../stores/performance'
 
-import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
-import SpeechButton from '../components/ui/SpeechButton.vue'
 
 import type { ReadingPassage, ReadingPassageManifest } from '../types/reading'
 import type { ExerciseResult } from '../types/exercise'
+import ActivityPage from '../components/practice/ActivityPage.vue'
+import ActivityResult from '../components/practice/ActivityResult.vue'
+import ExerciseSession from '../components/practice/ExerciseSession.vue'
+import ItemList from '../components/practice/ItemList.vue'
+import AudioPlayer from '../components/learn/AudioPlayer.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 
 const performanceStore = usePerformanceStore()
 
@@ -117,168 +122,98 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="mx-auto max-w-3xl">
-        <div v-if="error" class="mb-6 rounded-xl border border-red-200 bg-red-50 p-4 text-red-700">
-            {{ error }}
-        </div>
+    <ActivityPage eyebrow="Reading" title="Reading" description="Read first, then answer. Translations unlock after you have tried." wide>
+        <StateBlock v-if="error" kind="error" :text="error" />
 
         <!-- LIST -->
-        <div v-if="phase === 'list'">
-            <div class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900">Reading</h1>
-                <p class="mt-2 text-gray-500">
-                    Read first, then answer — translations unlock after you've tried.
-                </p>
-            </div>
-
-            <div v-if="loading" class="py-12 text-center text-gray-500">Loading...</div>
-
-            <div class="grid gap-3">
-                <button
-                    v-for="passage in passages"
-                    :key="passage.id"
-                    type="button"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                    @click="openPassage(passage)"
-                >
-                    <div class="flex items-start justify-between gap-2">
-                        <p class="font-semibold text-gray-900">{{ passage.title }}</p>
-                        <span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
-                            {{ passage.cefrLevel }}
-                        </span>
-                    </div>
-                    <p class="mt-2 text-xs text-gray-400">
-                        {{ passage.kind }}
-                        <span v-if="passage.estimatedReadingTime"> · ~{{ passage.estimatedReadingTime }} min read</span>
-                        <span v-if="passage.domainTags?.length"> · {{ passage.domainTags.join(', ') }}</span>
-                    </p>
-                </button>
-            </div>
-        </div>
+        <template v-if="phase === 'list'">
+            <StateBlock v-if="loading" kind="loading" title="Loading passages" :rows="4" />
+            <ItemList
+                v-else
+                :items="passages.map(passage => ({
+                    id: passage.id,
+                    title: passage.title,
+                    badge: passage.cefrLevel ? { text: passage.cefrLevel, tone: 'neutral' } : null,
+                    meta: [passage.kind, passage.estimatedReadingTime ? `~${passage.estimatedReadingTime} min read` : '', passage.domainTags?.join(', ')].filter(Boolean).join(' · '),
+                }))"
+                @open="id => openPassage(passages.find(passage => passage.id === id)!)"
+            />
+        </template>
 
         <!-- READ -->
-        <div v-else-if="phase === 'read' && activePassage">
-            <button type="button" class="mb-6 text-sm text-gray-500 hover:text-black" @click="backToList">
-                ← All passages
-            </button>
+        <div v-else-if="phase === 'read' && activePassage" class="space-y-5">
+            <button type="button" class="btn-ghost -ml-3" @click="backToList"><AppIcon name="arrow-left" :size="16" /> All passages</button>
 
-            <h1 class="text-3xl font-bold text-gray-900">{{ activePassage.title }}</h1>
+            <article class="surface p-5 sm:p-8">
+                <h2 class="font-display text-2xl font-semibold text-gray-900 sm:text-3xl">{{ activePassage.title }}</h2>
 
-            <div class="mt-6 space-y-4 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <div v-for="(paragraph, index) in activePassage.paragraphs" :key="index">
-                    <p class="leading-relaxed text-gray-800">
-                        <span v-if="paragraph.speaker" class="font-semibold">{{ paragraph.speaker }}: </span>{{ paragraph.english }}
-                        <SpeechButton :text="paragraph.english" lang="en-US" />
-                    </p>
-                    <p
-                        v-if="showTranslation && paragraph.persian"
-                        class="mt-1 rounded-lg bg-gray-50 p-2 text-sm text-gray-600"
-                        dir="rtl"
-                    >
-                        {{ paragraph.persian }}
-                    </p>
-                </div>
-            </div>
-
-            <!-- Vocabulary (collapsible, available before attempting — it's a reading aid, not a translation) -->
-            <div class="mt-4">
-                <button
-                    type="button"
-                    class="text-sm font-medium text-gray-600 hover:text-black"
-                    @click="showVocabulary = !showVocabulary"
-                >
-                    {{ showVocabulary ? '▾' : '▸' }} Key vocabulary ({{ activePassage.vocabulary.length }})
-                </button>
-
-                <div v-if="showVocabulary" class="mt-2 space-y-2 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <div
-                        v-for="item in activePassage.vocabulary"
-                        :key="item.word"
-                        class="flex items-baseline justify-between gap-3 text-sm"
-                    >
-                        <span class="font-semibold text-gray-900">{{ item.word }}</span>
-                        <span class="text-gray-500">{{ item.meaning }}</span>
-                        <span v-if="item.persian" class="text-gray-500" dir="rtl">{{ item.persian }}</span>
+                <div class="mt-5 space-y-5">
+                    <div v-for="(paragraph, index) in activePassage.paragraphs" :key="index">
+                        <div class="flex items-start gap-2">
+                            <p class="wrap-anywhere min-w-0 flex-1 font-display text-[1.12rem] leading-8 text-gray-800 sm:text-[1.2rem] sm:leading-9" dir="ltr" lang="en">
+                                <span v-if="paragraph.speaker" class="mr-2 font-sans text-sm font-semibold uppercase tracking-wide text-accent-ink">{{ paragraph.speaker }}</span>{{ paragraph.english }}
+                            </p>
+                            <AudioPlayer :text="paragraph.english" size="sm" tone="practice" label="Read aloud" class="shrink-0" />
+                        </div>
+                        <p v-if="showTranslation && paragraph.persian" class="fa-text mt-1 rounded-xl bg-gray-50 p-3 text-sm text-gray-600" lang="fa">{{ paragraph.persian }}</p>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="mt-6 flex flex-col gap-3 sm:flex-row">
-                <button
-                    type="button"
-                    class="flex-1 rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="startQuestions"
-                >
+            <section v-if="activePassage.vocabulary.length" class="surface">
+                <button type="button" class="flex min-h-12 w-full items-center gap-2 px-5 text-left text-sm font-semibold text-gray-700" :aria-expanded="showVocabulary" @click="showVocabulary = !showVocabulary">
+                    Key vocabulary ({{ activePassage.vocabulary.length }})
+                    <AppIcon name="chevron-down" :size="16" class="ml-auto text-gray-400 transition-transform" :class="showVocabulary ? 'rotate-180' : ''" />
+                </button>
+                <ul v-if="showVocabulary" class="divide-y divide-gray-100 border-t border-gray-100 px-5">
+                    <li v-for="item in activePassage.vocabulary" :key="item.word" class="flex flex-wrap items-baseline justify-between gap-x-4 py-2.5 text-sm">
+                        <span class="font-semibold text-gray-900" dir="ltr">{{ item.word }}</span>
+                        <span class="text-gray-500">{{ item.meaning }}</span>
+                        <span v-if="item.persian" class="fa-text text-gray-500" lang="fa">{{ item.persian }}</span>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="flex flex-col gap-3 sm:flex-row">
+                <button type="button" class="btn-primary btn-lg flex-1" @click="startQuestions">
                     {{ attempted ? 'Back to questions' : `Start questions (${activePassage.exercises.length})` }}
                 </button>
-
-                <button
-                    v-if="attempted"
-                    type="button"
-                    class="rounded-xl border px-6 py-3 text-gray-600 hover:bg-gray-100"
-                    @click="showTranslation = !showTranslation"
-                >
+                <button v-if="attempted" type="button" class="btn-secondary btn-lg" @click="showTranslation = !showTranslation">
                     {{ showTranslation ? 'Hide translation' : 'Show translation' }}
                 </button>
             </div>
-
-            <p v-if="!attempted" class="mt-3 text-center text-xs text-gray-400">
-                The Persian translation unlocks after your first attempt at the questions.
-            </p>
+            <p v-if="!attempted" class="text-center text-xs text-gray-400">The Persian translation unlocks after your first attempt at the questions.</p>
         </div>
 
         <!-- EXERCISES -->
-        <div v-else-if="phase === 'exercises' && activePassage && currentExercise">
-            <div class="mb-6 flex items-center justify-between text-sm text-gray-500">
-                <button type="button" class="hover:text-black" @click="reviewPassage">
-                    ← Re-read passage
-                </button>
-                <span>{{ exerciseIndex + 1 }} / {{ activePassage.exercises.length }}</span>
-            </div>
-
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <ExercisePlayer
-                    :key="currentExercise.id"
-                    :exercise="currentExercise"
-                    @result="onExerciseResult"
-                />
-
-                <button
-                    v-if="currentAnswered"
-                    type="button"
-                    class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="nextExercise"
-                >
-                    {{ exerciseIndex === activePassage.exercises.length - 1 ? 'Finish' : 'Next' }}
-                </button>
-            </div>
-        </div>
+        <ExerciseSession
+            v-else-if="phase === 'exercises' && activePassage && currentExercise"
+            :exercise="currentExercise"
+            :index="exerciseIndex"
+            :total="activePassage.exercises.length"
+            :answered="currentAnswered"
+            :title="activePassage.title"
+            @result="onExerciseResult"
+            @next="nextExercise"
+        >
+            <template #footer>
+                <button type="button" class="btn-ghost -ml-3" @click="reviewPassage"><AppIcon name="arrow-left" :size="16" /> Re-read the passage</button>
+            </template>
+        </ExerciseSession>
 
         <!-- SUMMARY -->
-        <div v-else-if="phase === 'summary' && activePassage" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-            <div class="text-5xl">📖</div>
-            <h2 class="mt-4 text-2xl font-bold">
-                {{ correctCount }} / {{ sessionResults.length }} correct
-            </h2>
-            <p class="mt-2 text-gray-500">
-                You can now re-read the passage with the Persian translation visible.
-            </p>
-            <div class="mt-8 flex justify-center gap-3">
-                <button
-                    type="button"
-                    class="rounded-xl border px-5 py-3 text-gray-600 hover:bg-gray-100"
-                    @click="showTranslation = true; reviewPassage()"
-                >
-                    Re-read with translation
-                </button>
-                <button
-                    type="button"
-                    class="rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="backToList"
-                >
-                    All passages
-                </button>
-            </div>
-        </div>
-    </div>
+        <ActivityResult
+            v-else-if="phase === 'summary' && activePassage"
+            title="Reading complete"
+            :score="correctCount"
+            :total="sessionResults.length"
+            message="You can now re-read the passage with the Persian translation visible."
+            action-label="All passages"
+            @action="backToList"
+        >
+            <template #secondary>
+                <button type="button" class="btn-secondary btn-lg" @click="showTranslation = true; reviewPassage()">Re-read with translation</button>
+            </template>
+        </ActivityResult>
+    </ActivityPage>
 </template>

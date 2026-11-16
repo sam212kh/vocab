@@ -1,7 +1,11 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { loadManifest } from '../services/vocabulary'
+import { useWordProgressStore } from '../stores/wordProgress'
+import AppIcon from '../components/ui/AppIcon.vue'
+import PageHeader from '../components/ui/PageHeader.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 import type { CourseManifest } from '../types/vocabulary';
 
 const route = useRoute()
@@ -24,69 +28,74 @@ onMounted(async () => {
 
     } catch (e) {
         error.value = 'Failed to load course'
-        console.log(e)
+        console.error(e)
     } finally {
       loading.value = false
     }
 })
+
+const wordProgressStore = useWordProgressStore()
+const filter = ref('')
+
+/* Words practised per lesson in this course (existing progress store). */
+const practicedByLesson = computed(() => {
+    const counts = new Map<string, number>()
+
+    for (const item of wordProgressStore.progress) {
+        if (item.courseId === String(route.params.courseId)) {
+            counts.set(item.lessonId, (counts.get(item.lessonId) ?? 0) + 1)
+        }
+    }
+
+    return counts
+})
+
+const visibleLessons = computed(() => {
+    const query = filter.value.trim().toLowerCase()
+    const lessons = course.value?.lessons ?? []
+
+    if (!query) return lessons.map((lesson, index) => ({ lesson, number: index + 1 }))
+
+    return lessons
+        .map((lesson, index) => ({ lesson, number: index + 1 }))
+        .filter(({ lesson }) => `${lesson.title} ${lesson.subtitle ?? ''}`.toLowerCase().includes(query))
+})
 </script>
 <template>
-    <div class="mx-auto max-w-6xl space-y-6">
-    <div
-        v-if="loading"
-        class="rounded-2xl border bg-white p-8 text-center"
-    >
-        <p class="text-gray-500">Loading course...</p>
-    </div>
-    <div
-        v-else-if="error"
-        class="rounded-2xl border border-red-200 bg-red-50 p-6"
-    >
-        <p class="text-sm text-red-600">{{ error }}</p>
-    </div>
-    <template v-else-if="course">
-        <div>
-        <h1 class="text-3xl font-bold text-gray-900">
-            {{ course.title }}
-        </h1>
-        <p class="mt-2 text-gray-500">
-            {{ course.description }}
-        </p>
-        </div>
+    <div class="mx-auto max-w-3xl space-y-6">
+        <StateBlock v-if="loading" kind="loading" title="Loading course" :rows="4" />
+        <StateBlock v-else-if="error" kind="error" :text="error" />
 
-        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            <RouterLink
-                v-for="lesson in course.lessons"
-                :key="lesson.id"
-                :to="`/courses/${course.id}/lessons/${lesson.id}`"
-                class="block overflow-hidden rounded-xl border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-            >
-                <img
-                    v-if="lesson.images && lesson.images.length"
-                    :src="lesson.images[0]"
-                    :alt="lesson.title"
-                    class="h-32 w-full object-cover object-top"
-                    loading="lazy"
-                />
+        <template v-else-if="course">
+            <div>
+                <RouterLink to="/lessons" class="btn-ghost -ml-3 mb-1"><AppIcon name="arrow-left" :size="16" /> All courses</RouterLink>
+                <PageHeader eyebrow="Course" :title="course.title" serif :description="course.description" />
+            </div>
 
-                <div class="p-5">
-                <h2 class="font-semibold">
-                    {{ lesson.title }}
-                </h2>
-                <p
-                    v-if="lesson.subtitle"
-                    class="mt-2 text-sm text-gray-500"
-                >
-                    {{ lesson.subtitle }}
-                </p>
+            <div v-if="course.lessons.length > 12" class="relative">
+                <input v-model="filter" type="search" class="field pl-4" placeholder="Filter lessons…" aria-label="Filter lessons" />
+            </div>
 
-                <p class="mt-4 text-sm text-gray-500">
-                    {{ lesson.type }}
-                </p>
-                </div>
-            </RouterLink>
+            <StateBlock v-if="!visibleLessons.length" kind="empty" title="No lessons match" text="Try a different search." />
 
-        </div>
-    </template>
+            <ol v-else class="surface divide-y divide-gray-100 overflow-hidden">
+                <li v-for="{ lesson, number } in visibleLessons" :key="lesson.id">
+                    <RouterLink
+                        :to="`/courses/${course.id}/lessons/${lesson.id}`"
+                        class="group flex min-h-16 items-center gap-4 px-4 py-3 transition hover:bg-accent-soft focus-visible:bg-accent-soft focus-visible:outline-none sm:px-5"
+                    >
+                        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent-soft text-sm font-semibold tabular-nums text-accent-ink">{{ number }}</span>
+                        <span class="min-w-0 flex-1">
+                            <span class="wrap-anywhere block font-semibold text-gray-900">{{ lesson.title }}</span>
+                            <span v-if="lesson.subtitle" class="block truncate text-sm text-gray-500">{{ lesson.subtitle }}</span>
+                        </span>
+                        <span v-if="practicedByLesson.get(lesson.id)" class="hidden shrink-0 items-center gap-1 rounded-full bg-green-50 px-2.5 py-1 text-xs font-medium text-green-700 sm:inline-flex">
+                            <AppIcon name="check" :size="12" /> {{ practicedByLesson.get(lesson.id) }} practised
+                        </span>
+                        <AppIcon name="chevron-right" :size="18" class="shrink-0 text-gray-300 transition group-hover:translate-x-0.5 group-hover:text-accent" />
+                    </RouterLink>
+                </li>
+            </ol>
+        </template>
     </div>
 </template>

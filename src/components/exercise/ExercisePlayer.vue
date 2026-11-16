@@ -4,7 +4,8 @@ import { computed, ref, watch } from 'vue'
 import { shuffle, validateAnswer } from '../../services/exerciseEngine'
 import { annotateNumbers } from '../../services/numbers'
 import { analyzeTextAnswer } from '../../services/answerDiff'
-import SpeechButton from '../ui/SpeechButton.vue'
+import AppIcon from '../ui/AppIcon.vue'
+import AudioPlayer from '../learn/AudioPlayer.vue'
 
 import type { AnswerAnalysis } from '../../services/answerDiff'
 
@@ -203,10 +204,9 @@ function submitMatching() {
         <!-- Listening: play button instead of showing the text -->
         <div
             v-if="exercise.type === 'listening-comprehension' || exercise.type === 'dictation'"
-            class="mb-4 flex items-center justify-center gap-2 rounded-xl bg-gray-50 p-4"
+            class="mb-5 flex items-center justify-center rounded-2xl bg-practice-50 px-4 py-3"
         >
-            <span class="text-sm text-gray-500">Listen:</span>
-            <SpeechButton :text="exercise.audioText" lang="en-US" />
+            <AudioPlayer :text="exercise.audioText" lang="en-US" size="lg" slow tone="practice" label="Listen" />
         </div>
 
         <!-- Prompt (break-words: long sentences must wrap, never overflow
@@ -214,7 +214,7 @@ function submitMatching() {
         <div class="min-w-0 break-words text-center">
             <p v-if="exercise.type === 'fill-blank'" class="text-lg leading-relaxed">
                 {{ exercise.before }}
-                <span class="mx-1 inline-block min-w-24 rounded border-b-2 border-gray-400 px-2 font-semibold">
+                <span class="mx-1 inline-block min-w-24 rounded border-b-2 border-practice-500 px-2 font-semibold text-practice-700">
                     {{ answered ? result!.expected : '______' }}
                 </span>
                 {{ exercise.after }}
@@ -226,7 +226,7 @@ function submitMatching() {
 
             <p v-else-if="exercise.type === 'grammar-correction'" class="text-lg">
                 Correct this sentence:
-                <span class="mt-2 block rounded-xl bg-red-50 p-3 font-medium text-red-800">
+                <span class="mt-2 block rounded-2xl bg-bad-50 p-3 font-medium text-ink">
                     {{ exercise.incorrectSentence }}
                 </span>
             </p>
@@ -254,11 +254,11 @@ function submitMatching() {
                 v-for="(option, index) in choiceOptions"
                 :key="index"
                 type="button"
-                class="rounded-xl border p-4 text-left transition"
+                class="min-h-14 rounded-2xl border border-work-line bg-white p-4 text-left transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/30"
                 :class="{
-                    'border-green-500 bg-green-50': answered && index === correctChoiceIndex,
-                    'border-red-500 bg-red-50': answered && chosenIndex === index && index !== correctChoiceIndex,
-                    'hover:bg-gray-50': !answered,
+                    'border-good-600 bg-good-50': answered && index === correctChoiceIndex,
+                    'border-bad-600 bg-bad-50': answered && chosenIndex === index && index !== correctChoiceIndex,
+                    'hover:border-practice-500 hover:bg-practice-50': !answered,
                 }"
                 @click="chooseOption(index)"
             >
@@ -274,11 +274,11 @@ function submitMatching() {
                 :placeholder="exercise.type === 'grammar-correction'
                     ? 'Type the corrected sentence...'
                     : 'Type your answer...'"
-                class="w-full rounded-xl border px-4 py-3 text-center text-lg outline-none focus:border-gray-900"
+                class="field w-full border-work-line text-center text-lg focus:border-practice-500 focus:ring-practice-500/20"
             />
             <button
                 type="submit"
-                class="mt-4 w-full rounded-xl bg-gray-900 px-4 py-3 font-semibold text-white hover:bg-gray-700"
+                class="mt-4 w-full min-h-12 rounded-2xl bg-practice-600 px-4 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40"
             >
                 Check
             </button>
@@ -286,12 +286,12 @@ function submitMatching() {
 
         <!-- Sentence ordering -->
         <div v-else-if="exercise.type === 'sentence-ordering'" class="mt-6">
-            <div class="min-h-14 rounded-xl border-2 border-dashed border-gray-200 p-3">
+            <div class="min-h-14 rounded-xl border-2 border-dashed border-work-line p-3">
                 <button
                     v-for="(originalIndex, position) in pickedPositions"
                     :key="`picked-${originalIndex}`"
                     type="button"
-                    class="m-1 rounded-lg bg-gray-900 px-3 py-1.5 text-sm text-white"
+                    class="m-1 min-h-10 rounded-xl bg-practice-600 px-3.5 py-1.5 text-sm text-white"
                     @click="unpickSegment(position)"
                 >
                     {{ exercise.segments[originalIndex] }}
@@ -303,7 +303,7 @@ function submitMatching() {
                     v-for="originalIndex in shuffledSegmentIndexes"
                     :key="`pool-${originalIndex}`"
                     type="button"
-                    class="rounded-lg border px-3 py-1.5 text-sm transition hover:bg-gray-50 disabled:opacity-30"
+                    class="min-h-10 rounded-xl border border-work-line bg-white px-3.5 py-1.5 text-sm transition hover:border-practice-500 hover:bg-practice-50 disabled:opacity-30"
                     :disabled="pickedPositions.includes(originalIndex) || answered"
                     @click="pickSegment(originalIndex)"
                 >
@@ -319,12 +319,12 @@ function submitMatching() {
                 :key="leftIndex"
                 class="flex items-center gap-3"
             >
-                <span class="flex-1 rounded-lg bg-gray-50 px-3 py-2 text-sm font-medium">
+                <span class="flex-1 rounded-xl bg-practice-50 px-3 py-2 text-sm font-medium">
                     {{ pair.left }}
                 </span>
                 <select
                     v-model="matchSelection[leftIndex]"
-                    class="flex-1 rounded-lg border px-3 py-2 text-sm"
+                    class="field min-h-11 flex-1 border-work-line"
                     :disabled="answered"
                 >
                     <option :value="null">Choose...</option>
@@ -341,7 +341,7 @@ function submitMatching() {
             <button
                 v-if="!answered"
                 type="button"
-                class="w-full rounded-xl bg-gray-900 px-4 py-3 font-semibold text-white hover:bg-gray-700 disabled:opacity-50"
+                class="w-full min-h-12 rounded-2xl bg-practice-600 px-4 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40 disabled:bg-practice-600/40"
                 :disabled="matchSelection.some(selection => selection === null)"
                 @click="submitMatching"
             >
@@ -358,12 +358,12 @@ function submitMatching() {
             <textarea
                 v-model="textAnswer"
                 rows="6"
-                class="w-full rounded-xl border px-4 py-3 outline-none focus:border-gray-900"
+                class="field w-full border-work-line focus:border-practice-500 focus:ring-practice-500/20"
                 placeholder="Write your response..."
             />
             <button
                 type="submit"
-                class="mt-4 w-full rounded-xl bg-gray-900 px-4 py-3 font-semibold text-white hover:bg-gray-700"
+                class="mt-4 w-full min-h-12 rounded-2xl bg-practice-600 px-4 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40"
             >
                 Submit
             </button>
@@ -372,9 +372,10 @@ function submitMatching() {
         <!-- Result: the learner's EXACT submitted answer and the canonical
              expected answer are always shown separately — one is never
              substituted for the other. -->
-        <div v-if="answered" class="mt-6 rounded-xl p-4" :class="result!.correct ? 'bg-green-50' : 'bg-red-50'">
-            <p class="font-semibold" :class="result!.correct ? 'text-green-700' : 'text-red-700'">
-                {{ result!.correct ? '✅ Correct! Well done.' : '❌ Not quite' }}
+        <div v-if="answered" class="mt-6 rounded-2xl border p-4" :class="result!.correct ? 'border-good-600/25 bg-good-50' : 'border-bad-600/25 bg-bad-50'" role="status">
+            <p class="flex items-center gap-2 font-semibold" :class="result!.correct ? 'text-good-600' : 'text-bad-600'">
+                <AppIcon :name="result!.correct ? 'check' : 'close'" :size="18" />
+                {{ result!.correct ? 'Correct! Well done.' : 'Not quite' }}
             </p>
 
             <div class="mt-3 space-y-2 text-sm">

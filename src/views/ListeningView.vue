@@ -5,11 +5,16 @@ import { loadListeningManifest, loadListeningActivity } from '../services/listen
 import { usePerformanceStore } from '../stores/performance'
 import { speakAsync, stop as stopSpeech, getSpeechRate } from '../services/speech'
 
-import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
-import SpeechButton from '../components/ui/SpeechButton.vue'
 
 import type { ListeningActivity, ListeningActivityManifest } from '../types/listening'
 import type { ExerciseResult } from '../types/exercise'
+import ActivityPage from '../components/practice/ActivityPage.vue'
+import ActivityResult from '../components/practice/ActivityResult.vue'
+import ExerciseSession from '../components/practice/ExerciseSession.vue'
+import ItemList from '../components/practice/ItemList.vue'
+import AudioPlayer from '../components/learn/AudioPlayer.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 
 const performanceStore = usePerformanceStore()
 
@@ -134,161 +139,98 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="mx-auto max-w-3xl">
-        <div v-if="error" class="mb-6 rounded-xl border border-red-200 bg-red-50 p-4 text-red-700">
-            {{ error }}
-        </div>
+    <ActivityPage eyebrow="Listening" title="Listening" description="Dialogues and dictation in the app's voices. Transcripts stay hidden until you have answered." wide>
+        <StateBlock v-if="error" kind="error" :text="error" />
 
         <!-- LIST -->
-        <div v-if="phase === 'list'">
-            <div class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900">Listening</h1>
-                <p class="mt-2 text-gray-500">
-                    Dialogues and dictation using the app's text-to-speech voices. Transcripts
-                    stay hidden until after you answer.
-                </p>
-            </div>
-
-            <div v-if="loading" class="py-12 text-center text-gray-500">Loading...</div>
-
-            <div class="grid gap-3">
-                <button
-                    v-for="activity in activities"
-                    :key="activity.id"
-                    type="button"
-                    class="rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                    @click="openActivity(activity)"
-                >
-                    <div class="flex items-start justify-between gap-2">
-                        <p class="font-semibold text-gray-900">{{ activity.title }}</p>
-                        <span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
-                            {{ activity.cefrLevel }}
-                        </span>
-                    </div>
-                    <p class="mt-2 text-xs text-gray-400">
-                        {{ activity.kind }}
-                        <span v-if="activity.estimatedDuration"> · ~{{ activity.estimatedDuration }} min</span>
-                        <span v-if="activity.domainTags?.length"> · {{ activity.domainTags.join(', ') }}</span>
-                    </p>
-                </button>
-            </div>
-        </div>
+        <template v-if="phase === 'list'">
+            <StateBlock v-if="loading" kind="loading" title="Loading activities" :rows="4" />
+            <ItemList
+                v-else
+                :items="activities.map(activity => ({
+                    id: activity.id,
+                    title: activity.title,
+                    badge: activity.cefrLevel ? { text: activity.cefrLevel, tone: 'neutral' } : null,
+                    meta: [activity.kind, activity.estimatedDuration ? `~${activity.estimatedDuration} min` : '', activity.domainTags?.join(', ')].filter(Boolean).join(' · '),
+                }))"
+                @open="id => openActivity(activities.find(activity => activity.id === id)!)"
+            />
+        </template>
 
         <!-- LISTEN -->
-        <div v-else-if="phase === 'listen' && activeActivity">
-            <button type="button" class="mb-6 text-sm text-gray-500 hover:text-black" @click="backToList">
-                ← All activities
-            </button>
+        <div v-else-if="phase === 'listen' && activeActivity" class="space-y-5">
+            <button type="button" class="btn-ghost -ml-3" @click="backToList"><AppIcon name="arrow-left" :size="16" /> All activities</button>
 
-            <h1 class="text-3xl font-bold text-gray-900">{{ activeActivity.title }}</h1>
+            <article class="surface p-5 sm:p-8">
+                <h2 class="font-display text-2xl font-semibold text-gray-900 sm:text-3xl">{{ activeActivity.title }}</h2>
 
-            <div v-if="activeActivity.scenario" class="mt-4 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-                <p class="text-gray-700">{{ activeActivity.scenario }}</p>
-                <p v-if="activeActivity.scenarioPersian" class="mt-2 text-sm text-gray-500" dir="rtl">
-                    {{ activeActivity.scenarioPersian }}
-                </p>
-            </div>
+                <div v-if="activeActivity.scenario" class="mt-4">
+                    <p class="text-gray-700" dir="ltr" lang="en">{{ activeActivity.scenario }}</p>
+                    <p v-if="activeActivity.scenarioPersian" class="fa-text mt-1 text-sm text-gray-500" lang="fa">{{ activeActivity.scenarioPersian }}</p>
+                </div>
 
-            <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm">
-                <div class="text-5xl">🎧</div>
+                <div class="mt-7 flex flex-col items-center rounded-2xl bg-accent-soft px-4 py-8 text-center">
+                    <button
+                        v-if="!playingAll"
+                        type="button"
+                        class="flex h-20 w-20 items-center justify-center rounded-full bg-accent text-white shadow-md transition hover:bg-accent-strong focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+                        :aria-label="playedOnce ? 'Listen again' : 'Play the conversation'"
+                        @click="playAll"
+                    ><AppIcon name="play" :size="32" /></button>
+                    <button
+                        v-else
+                        type="button"
+                        class="flex h-20 w-20 items-center justify-center rounded-full border-2 border-accent bg-white text-accent shadow-md focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+                        aria-label="Stop"
+                        @click="stopPlayback"
+                    ><AppIcon name="stop" :size="30" /></button>
+                    <p class="mt-3 font-semibold text-gray-900">{{ playingAll ? 'Playing…' : playedOnce ? 'Listen again' : 'Play the conversation' }}</p>
+                    <p class="mt-1 text-xs text-gray-500">The transcript stays hidden until after the questions. Train your ears first.</p>
+                </div>
+            </article>
 
-                <button
-                    v-if="!playingAll"
-                    type="button"
-                    class="mt-6 rounded-full bg-black px-8 py-4 text-lg font-semibold text-white hover:bg-gray-800"
-                    @click="playAll"
-                >
-                    {{ playedOnce ? '▶ Listen again' : '▶ Play conversation' }}
-                </button>
-
-                <button
-                    v-else
-                    type="button"
-                    class="mt-6 rounded-full border px-8 py-4 text-lg text-gray-600 hover:bg-gray-100"
-                    @click="stopPlayback"
-                >
-                    ⏹ Stop
-                </button>
-
-                <p class="mt-4 text-xs text-gray-400">
-                    The transcript is hidden until after the questions — train your ears first.
-                </p>
-            </div>
-
-            <button
-                type="button"
-                class="mt-6 w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-50"
-                :disabled="hasLines && !playedOnce"
-                @click="startQuestions"
-            >
+            <button type="button" class="btn-primary btn-lg w-full" :disabled="hasLines && !playedOnce" @click="startQuestions">
                 Start questions ({{ activeActivity.exercises.length }})
             </button>
-            <p v-if="hasLines && !playedOnce" class="mt-2 text-center text-xs text-gray-400">
-                Listen to the conversation at least once first.
-            </p>
+            <p v-if="hasLines && !playedOnce" class="text-center text-xs text-gray-400">Listen to the conversation at least once first.</p>
         </div>
 
         <!-- EXERCISES -->
-        <div v-else-if="phase === 'exercises' && activeActivity && currentExercise">
-            <div class="mb-6 flex items-center justify-between text-sm text-gray-500">
-                <span>{{ activeActivity.title }}</span>
-                <span>{{ exerciseIndex + 1 }} / {{ activeActivity.exercises.length }}</span>
-            </div>
-
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <ExercisePlayer
-                    :key="currentExercise.id"
-                    :exercise="currentExercise"
-                    @result="onExerciseResult"
-                />
-
-                <button
-                    v-if="currentAnswered"
-                    type="button"
-                    class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="nextExercise"
-                >
-                    {{ exerciseIndex === activeActivity.exercises.length - 1 ? 'Finish' : 'Next' }}
-                </button>
-            </div>
-        </div>
+        <ExerciseSession
+            v-else-if="phase === 'exercises' && activeActivity && currentExercise"
+            :exercise="currentExercise"
+            :index="exerciseIndex"
+            :total="activeActivity.exercises.length"
+            :answered="currentAnswered"
+            :title="activeActivity.title"
+            @result="onExerciseResult"
+            @next="nextExercise"
+        />
 
         <!-- SUMMARY -->
-        <div v-else-if="phase === 'summary' && activeActivity">
-            <div class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-                <div class="text-5xl">🎧</div>
-                <h2 class="mt-4 text-2xl font-bold">
-                    {{ correctCount }} / {{ sessionResults.length }} correct
-                </h2>
+        <template v-else-if="phase === 'summary' && activeActivity">
+            <ActivityResult
+                title="Listening complete"
+                :score="correctCount"
+                :total="sessionResults.length"
+                action-label="All activities"
+                @action="backToList"
+            >
+                <template v-if="hasLines" #secondary>
+                    <button type="button" class="btn-secondary btn-lg" @click="showTranscript = !showTranscript">{{ showTranscript ? 'Hide transcript' : 'Show transcript' }}</button>
+                </template>
+            </ActivityResult>
 
-                <div class="mt-8 flex justify-center gap-3">
-                    <button
-                        v-if="hasLines"
-                        type="button"
-                        class="rounded-xl border px-5 py-3 text-gray-600 hover:bg-gray-100"
-                        @click="showTranscript = !showTranscript"
-                    >
-                        {{ showTranscript ? 'Hide transcript' : 'Show transcript' }}
-                    </button>
-                    <button
-                        type="button"
-                        class="rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800"
-                        @click="backToList"
-                    >
-                        All activities
-                    </button>
+            <section v-if="showTranscript && hasLines" class="surface divide-y divide-gray-100">
+                <h3 class="label px-5 pb-1 pt-4">Transcript</h3>
+                <div v-for="(line, index) in activeActivity.lines" :key="index" class="flex items-start gap-3 px-5 py-3">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-gray-900" dir="ltr" lang="en"><span v-if="line.speaker" class="mr-1 text-sm font-semibold text-accent-ink">{{ line.speaker }}</span>{{ line.english }}</p>
+                        <p v-if="line.persian" class="fa-text text-sm text-gray-500" lang="fa">{{ line.persian }}</p>
+                    </div>
+                    <AudioPlayer :text="line.english" size="sm" tone="practice" :label="line.english" />
                 </div>
-            </div>
-
-            <div v-if="showTranscript && hasLines" class="mt-6 space-y-3 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <div v-for="(line, index) in activeActivity.lines" :key="index">
-                    <p class="text-gray-800">
-                        <span v-if="line.speaker" class="font-semibold">{{ line.speaker }}: </span>{{ line.english }}
-                        <SpeechButton :text="line.english" lang="en-US" />
-                    </p>
-                    <p v-if="line.persian" class="mt-1 text-sm text-gray-500" dir="rtl">{{ line.persian }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
+            </section>
+        </template>
+    </ActivityPage>
 </template>

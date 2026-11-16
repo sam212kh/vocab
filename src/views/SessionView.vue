@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 
 import { useWordProgressStore } from '../stores/wordProgress'
@@ -361,7 +362,7 @@ onMounted(() => {
     <div>
         <div class="mb-8 flex flex-wrap items-start justify-between gap-4">
             <div>
-                <h1 class="text-3xl font-bold">Daily Session</h1>
+                <h1>Daily Session</h1>
                 <p class="mt-2 text-gray-500">
                     Due reviews mixed with a few new words — interleaved, not blocked.
                 </p>
@@ -371,14 +372,13 @@ onMounted(() => {
                 type="button"
                 class="flex items-center gap-2 rounded-xl border px-4 py-2 text-sm transition"
                 :class="sessionSettingsStore.settings.speakingEnabled
-                    ? 'border-gray-900 bg-gray-900 text-white hover:bg-gray-700'
+                    ? 'border-accent bg-accent text-white hover:bg-accent-strong'
                     : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
                 :title="sessionSettingsStore.settings.speakingEnabled
                     ? 'Speaking step is on — click to skip it in this session'
                     : 'Speaking step is off — click to include it again'"
                 @click="sessionSettingsStore.toggleSpeaking"
             >
-                🎙
                 <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
             </button>
         </div>
@@ -395,14 +395,14 @@ onMounted(() => {
             v-else-if="isCompleted"
             class="mx-auto max-w-2xl rounded-2xl border bg-white p-12 text-center shadow-sm"
         >
-            <div class="text-5xl">🎉</div>
+            <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
             <h2 class="mt-6 text-2xl font-bold">Session Complete</h2>
             <p class="mt-3 text-gray-500">
                 {{ dueCount }} due + {{ newCount }} new words covered.
             </p>
             <button
                 type="button"
-                class="mt-8 rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800"
+                class="btn-primary btn-lg mt-8"
                 @click="restart"
             >
                 Start another session
@@ -417,7 +417,7 @@ onMounted(() => {
                 </div>
                 <div class="h-2 overflow-hidden rounded-full bg-gray-200">
                     <div
-                        class="h-full rounded-full bg-black transition-all duration-300"
+                        class="h-full rounded-full bg-accent transition-all duration-300"
                         :style="{ width: `${progressPercent}%` }"
                     />
                 </div>
@@ -442,11 +442,11 @@ onMounted(() => {
                             autofocus
                             autocomplete="off"
                             placeholder="Type the English word..."
-                            class="w-full rounded-xl border px-4 py-4 text-center text-xl outline-none focus:border-gray-900"
+                            class="field w-full text-center text-xl"
                         />
                         <button
                             type="submit"
-                            class="mt-5 w-full rounded-xl bg-black px-8 py-3 text-white hover:bg-gray-800"
+                            class="btn-primary btn-lg mt-5 w-full"
                         >
                             Check
                         </button>
@@ -464,18 +464,18 @@ onMounted(() => {
                         >
                             {{
                                 recallCorrect
-                                    ? '✅ Correct!'
-                                    : `❌ You said: ${recallAnswer || '(nothing)'}`
+                                    ? 'Correct!'
+                                    : `You said: ${recallAnswer || '(nothing)'}`
                             }}
                         </p>
 
                         <button
                             type="button"
-                            class="mt-8 rounded-lg bg-black px-8 py-3 text-white hover:bg-gray-800"
+                            class="btn-primary btn-lg mt-8"
                             @click="proceedToSpeak"
                         >
                             {{ sessionSettingsStore.settings.speakingEnabled
-                                ? '🎙 Continue to speaking →'
+                                ? 'Continue to speaking →'
                                 : 'Continue →' }}
                         </button>
                     </div>
@@ -493,15 +493,15 @@ onMounted(() => {
                     <button
                         v-if="!isListening"
                         type="button"
-                        class="mt-10 rounded-full bg-black px-8 py-4 text-lg text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="mt-10 rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
                         :disabled="!isSupported"
                         @click="practiceCurrentWord"
                     >
-                        🎙 Start Speaking
+                        Start Speaking
                     </button>
 
                     <div v-else class="mt-10 rounded-lg bg-gray-100 px-8 py-4 text-gray-600">
-                        🎙 Listening...
+                        Listening...
                     </div>
 
                     <p v-if="!isSupported" class="mt-4 text-sm text-red-500">
@@ -531,10 +531,10 @@ onMounted(() => {
                             v-if="pronunciationCorrect"
                             class="mt-3 text-lg font-semibold text-green-600"
                         >
-                            ✅ Pronunciation good
+                            Pronunciation good
                         </p>
                         <p v-else class="mt-3 text-lg font-semibold text-red-600">
-                            ❌ Keep practicing pronunciation
+                            Keep practicing pronunciation
                         </p>
                     </div>
 
@@ -545,7 +545,7 @@ onMounted(() => {
 
                     <button
                         type="button"
-                        class="mt-8 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
+                        class="btn-primary btn-lg mt-8 w-full"
                         @click="nextWord"
                     >
                         {{ currentIndex === words.length - 1 ? 'Finish session' : 'Next word' }}

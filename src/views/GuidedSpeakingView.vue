@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
@@ -140,7 +141,7 @@ onMounted(async () => {
         <!-- LIST -->
         <div v-if="!activeTopic">
             <div class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900">Guided Speaking</h1>
+                <h1>Guided Speaking</h1>
                 <p class="mt-2 text-gray-500">
                     Topic-based speaking out loud: repeat model sentences, then answer open
                     questions. For word-by-word pronunciation drills, use
@@ -181,12 +182,12 @@ onMounted(async () => {
         <!-- SESSION COMPLETE -->
         <div v-else-if="finished">
             <div class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-                <div class="text-5xl">🎙️</div>
+                <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="mic" :size="26" /></span>
                 <h2 class="mt-4 text-2xl font-bold">Topic complete</h2>
                 <p class="mt-2 text-gray-500">Review what you said below.</p>
                 <button
                     type="button"
-                    class="mt-6 rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800"
+                    class="btn-primary btn-lg mt-6"
                     @click="backToList"
                 >
                     All topics
@@ -200,7 +201,7 @@ onMounted(async () => {
                     class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm"
                 >
                     <p class="text-sm text-gray-500">{{ record.step.prompt }}</p>
-                    <p class="mt-2 font-medium text-gray-900">🗣 {{ record.transcript || '(no transcript)' }}</p>
+                    <p class="mt-2 font-medium text-gray-900">{{ record.transcript || '(no transcript)' }}</p>
                     <p v-if="record.score !== null" class="mt-1 text-xs text-gray-400">
                         Transcript match: {{ record.score }}%
                     </p>
@@ -246,14 +247,14 @@ onMounted(async () => {
                     <button
                         v-if="!isListening"
                         type="button"
-                        class="rounded-full bg-black px-8 py-4 text-lg text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
                         :disabled="!isSupported"
                         @click="speakNow"
                     >
-                        🎙 Speak
+                        Speak
                     </button>
                     <div v-else class="rounded-lg bg-gray-100 px-8 py-4 text-gray-600">
-                        🎙 Listening...
+                        Listening...
                     </div>
 
                     <p v-if="speechError" class="mt-3 text-sm text-red-500">{{ speechError }}</p>
@@ -285,7 +286,7 @@ onMounted(async () => {
                         <button type="button" class="rounded-xl border px-5 py-3 text-gray-600 hover:bg-gray-100" @click="retry">
                             Try again
                         </button>
-                        <button type="button" class="rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800" @click="nextStep">
+                        <button type="button" class="btn-primary btn-lg" @click="nextStep">
                             {{ stepIndex === activeTopic.steps.length - 1 ? 'Finish' : 'Next' }}
                         </button>
                     </div>

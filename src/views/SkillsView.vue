@@ -50,7 +50,7 @@ function selfReport(skill: SkillName, level: CefrLevel) {
 <template>
     <div class="mx-auto max-w-4xl space-y-8">
         <div>
-            <h1 class="text-3xl font-bold text-gray-900">Skills</h1>
+            <h1>Skills</h1>
             <p class="mt-2 text-gray-500">
                 Six independent skills — a strong vocabulary score does not imply the same
                 level in speaking or writing. Levels shown as "Not yet assessed" simply mean
@@ -106,7 +106,7 @@ function selfReport(skill: SkillName, level: CefrLevel) {
                             type="button"
                             class="rounded-full border px-2.5 py-1 text-xs transition"
                             :class="skillProfileStore.profile.skills[skill].current?.level === level
-                                ? 'border-gray-900 bg-gray-900 text-white'
+                                ? 'border-accent bg-accent text-white'
                                 : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                             @click="selfReport(skill, level)"
                         >

@@ -4,8 +4,15 @@ import { useRoute } from 'vue-router'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
 import { answersMatch } from '../services/textMatch'
-import SpeechButton from '../components/ui/SpeechButton.vue'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
+import ActivityBar from '../components/practice/ActivityBar.vue'
+import ActivityPage from '../components/practice/ActivityPage.vue'
+import ActivityResult from '../components/practice/ActivityResult.vue'
+import AnswerFeedback from '../components/practice/AnswerFeedback.vue'
+import LessonPicker from '../components/practice/LessonPicker.vue'
+import AudioPlayer from '../components/learn/AudioPlayer.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 
 interface ClozeQuestion {
     word: Word
@@ -167,132 +174,71 @@ onMounted(async () => {
 </script>
 
 <template>
-    <section class="mx-auto max-w-4xl">
-        <div class="mb-8">
-            <p class="text-sm font-semibold uppercase tracking-wider text-gray-500">Cloze</p>
-            <h1 class="mt-1 text-3xl font-bold">Fill in the blank</h1>
-            <p class="mt-2 text-gray-500">
-                Read the real sentence, figure out the missing word from context.
-            </p>
-        </div>
+    <ActivityPage eyebrow="Cloze" title="Fill in the blank" description="Read the real sentence and work out the missing word from context." wide>
+        <StateBlock v-if="error" kind="error" :text="error" />
 
-        <div class="mb-6 grid gap-4 rounded-2xl border bg-white p-5 md:grid-cols-2">
-            <label class="text-sm font-medium">
-                Course
-                <select
-                    v-model="selectedCourseId"
-                    class="mt-2 w-full rounded-lg border px-3 py-2"
-                    @change="selectedLessonId = ''"
-                >
-                    <option v-for="course in courses" :key="course.id" :value="course.id">
-                        {{ course.title }}
-                    </option>
-                </select>
-            </label>
+        <LessonPicker
+            v-if="!started || (started && !questions.length && !loading)"
+            v-model:course-id="selectedCourseId"
+            v-model:lesson-id="selectedLessonId"
+            :courses="courses"
+            :loading="loading"
+            @start="startCloze"
+        />
 
-            <label class="text-sm font-medium">
-                Lesson
-                <select v-model="selectedLessonId" class="mt-2 w-full rounded-lg border px-3 py-2">
-                    <option value="">Select a lesson</option>
-                    <option v-for="lesson in availableLessons" :key="lesson.id" :value="lesson.id">
-                        {{ lesson.title }}
-                    </option>
-                </select>
-            </label>
-
-            <button
-                type="button"
-                class="rounded-lg bg-gray-900 px-4 py-3 text-sm font-semibold text-white hover:bg-gray-700 md:col-span-2"
-                :disabled="loading || !selectedLessonId"
-                @click="startCloze"
-            >
-                {{ loading ? 'Loading...' : 'Start' }}
-            </button>
-        </div>
-
-        <div v-if="error" class="mb-6 rounded-xl border border-red-200 bg-red-50 p-4 text-red-700">
-            {{ error }}
-        </div>
-
-        <div
+        <StateBlock
             v-if="started && !questions.length && !loading"
-            class="rounded-2xl border bg-white p-8 text-center text-gray-500"
-        >
-            No sentences in this lesson matched a single target word well enough for a
-            cloze exercise — try another lesson.
-        </div>
+            kind="empty"
+            title="No usable sentences"
+            text="No sentences in this lesson matched a single target word well enough for a cloze exercise. Try another lesson."
+        />
 
-        <div v-if="finished" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-            <p class="text-sm text-gray-500">Cloze complete</p>
-            <h2 class="mt-2 text-4xl font-bold">{{ score }} / {{ questions.length }}</h2>
-            <p class="mt-3 text-gray-500">Your answers were added to your review progress.</p>
-            <button
-                type="button"
-                class="mt-6 rounded-xl bg-gray-900 px-5 py-3 font-semibold text-white hover:bg-gray-700"
-                @click="restart"
-            >
-                Practice another lesson
-            </button>
-        </div>
+        <ActivityResult
+            v-else-if="finished"
+            title="Cloze complete"
+            :score="score"
+            :total="questions.length"
+            message="Your answers were added to your review progress."
+            action-label="Practice another lesson"
+            @action="restart"
+        />
 
-        <article v-else-if="current" class="rounded-2xl border bg-white p-6 shadow-sm">
-            <div class="flex items-center justify-between text-sm text-gray-500">
-                <span>{{ index + 1 }} / {{ questions.length }}</span>
-                <span>Score: {{ score }}</span>
-            </div>
+        <article v-else-if="current" class="surface mx-auto max-w-2xl p-5 sm:p-7">
+            <ActivityBar :current="index" :total="questions.length" :score="score" />
 
-            <div class="mt-10 text-center">
-                <p class="text-sm text-gray-500">Complete the sentence:</p>
-                <p class="mt-4 text-2xl leading-10">
+            <div class="mt-8 text-center">
+                <p class="eyebrow">Complete the sentence</p>
+                <p class="wrap-anywhere mt-4 text-2xl leading-[1.9] text-gray-900 sm:text-3xl sm:leading-[1.8]" dir="ltr" lang="en">
                     {{ current.before }}<span
-                        class="inline-block min-w-[6rem] border-b-2 border-gray-900 px-1 text-center font-semibold"
-                    >{{ revealed ? current.blank : '_____' }}</span>{{ current.after }}
+                        class="mx-1 inline-block min-w-[5.5rem] rounded-lg border-b-2 border-accent bg-accent-soft px-2 text-center font-semibold text-accent-ink"
+                    >{{ revealed ? current.blank : '&nbsp;' }}</span>{{ current.after }}
                 </p>
-                <p class="mt-3 text-sm text-gray-500">{{ current.persian }}</p>
+                <p v-if="current.persian" class="fa-text mt-2 text-sm text-gray-500" lang="fa">{{ current.persian }}</p>
             </div>
 
-            <form class="mt-8" @submit.prevent="checkAnswer">
+            <form class="mt-7" @submit.prevent="revealed ? next() : (answer.trim() && checkAnswer())">
                 <input
                     v-model="answer"
                     :disabled="revealed"
-                    autofocus
                     autocomplete="off"
-                    placeholder="Type the missing word..."
-                    class="w-full rounded-xl border px-4 py-4 text-center text-xl outline-none focus:border-gray-900"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    dir="ltr"
+                    aria-label="Type the missing word"
+                    placeholder="Type the missing word…"
+                    class="field !min-h-14 text-center text-xl"
+                    :class="revealed ? (result === 'correct' ? '!border-green-600 !bg-green-50' : '!border-red-600 !bg-red-50') : ''"
                 />
 
-                <div
-                    v-if="revealed"
-                    class="mt-4 rounded-xl p-4 text-center"
-                    :class="result === 'correct' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'"
-                >
-                    <strong>{{ result === 'correct' ? 'Correct!' : 'Not quite.' }}</strong>
-                    <div v-if="result === 'wrong'" class="mt-1">
-                        Correct answer: <strong>{{ current.blank }}</strong>
-                    </div>
-                    <div class="mt-2">
-                        <SpeechButton :text="current.before + current.blank + current.after" lang="en-US" />
-                    </div>
-                </div>
+                <AnswerFeedback v-if="revealed" class="mt-4" :correct="result === 'correct'" :answer="current.blank">
+                    <AudioPlayer :text="current.before + current.blank + current.after" size="md" slow label="Hear the sentence" tone="practice" />
+                </AnswerFeedback>
 
                 <div class="mt-5 flex gap-3">
-                    <button
-                        v-if="!revealed"
-                        type="submit"
-                        class="flex-1 rounded-xl bg-gray-900 px-4 py-3 font-semibold text-white hover:bg-gray-700"
-                    >
-                        Check answer
-                    </button>
-                    <button
-                        v-else
-                        type="button"
-                        class="flex-1 rounded-xl bg-gray-900 px-4 py-3 font-semibold text-white hover:bg-gray-700"
-                        @click="next"
-                    >
-                        Next
-                    </button>
+                    <button v-if="!revealed" type="submit" class="btn-primary btn-lg flex-1" :disabled="!answer.trim()">Check</button>
+                    <button v-else type="button" class="btn-primary btn-lg flex-1" @click="next">{{ index >= questions.length - 1 ? 'See results' : 'Continue' }}</button>
                 </div>
             </form>
         </article>
-    </section>
+    </ActivityPage>
 </template>

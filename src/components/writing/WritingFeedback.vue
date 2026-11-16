@@ -116,7 +116,7 @@ const practiceExercises = computed(() =>
                         :key="version"
                         type="button"
                         class="rounded-lg px-3 py-1.5 text-sm transition"
-                        :class="activeVersion === version ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-100'"
+                        :class="activeVersion === version ? 'bg-accent text-white' : 'text-gray-600 hover:bg-gray-100'"
                         @click="activeVersion = version"
                     >
                         {{ version === 'original' ? 'Your text' : version === 'corrected' ? 'Corrected' : 'Natural' }}
@@ -214,7 +214,7 @@ const practiceExercises = computed(() =>
             <div v-if="practiceIndex === null" class="mt-3">
                 <button
                     type="button"
-                    class="rounded-xl bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-gray-700"
+                    class="btn-primary btn-lg"
                     @click="practiceIndex = 0"
                 >
                     Start practice
@@ -230,14 +230,14 @@ const practiceExercises = computed(() =>
                 />
                 <button
                     type="button"
-                    class="mt-4 rounded-xl bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-gray-700"
+                    class="btn-primary btn-lg mt-4"
                     @click="practiceIndex!++"
                 >
                     {{ practiceIndex === practiceExercises.length - 1 ? 'Done' : 'Next' }}
                 </button>
             </div>
 
-            <p v-else class="mt-3 text-sm text-green-700">✅ Practice complete.</p>
+            <p v-else class="mt-3 text-sm text-green-700">Practice complete.</p>
         </div>
     </div>
 </template>

@@ -62,7 +62,7 @@ onMounted(() => refreshProviders())
 <template>
     <div class="mx-auto max-w-3xl space-y-6">
         <div>
-            <h1 class="text-3xl font-bold text-gray-900">AI Settings</h1>
+            <h1>AI Settings</h1>
             <p class="mt-2 text-gray-500">
                 Choose where AI feedback runs. Provider credentials live only on the server —
                 nothing secret is stored in this browser.
@@ -116,7 +116,7 @@ onMounted(() => refreshProviders())
                     type="button"
                     class="rounded-xl border p-4 text-left transition"
                     :class="settings.provider === provider.id
-                        ? 'border-gray-900 bg-gray-900 text-white'
+                        ? 'border-accent bg-accent text-white'
                         : 'border-gray-200 hover:bg-gray-50'"
                     @click="setProvider(provider.id)"
                 >
@@ -160,7 +160,7 @@ onMounted(() => refreshProviders())
             <label class="mt-4 block text-sm">
                 <span class="mb-1 block font-medium text-gray-700">Model</span>
                 <select
-                    class="w-full rounded-lg border px-3 py-2 sm:w-80"
+                    class="field w-full sm:w-80"
                     :value="settings.model"
                     @change="aiSettingsStore.update({ model: ($event.target as HTMLSelectElement).value })"
                 >
@@ -192,7 +192,7 @@ onMounted(() => refreshProviders())
             <label class="mt-4 block text-sm">
                 <span class="mb-1 block font-medium text-gray-700">Explanation language</span>
                 <select
-                    class="w-full rounded-lg border px-3 py-2 sm:w-80"
+                    class="field w-full sm:w-80"
                     :value="settings.explanationLanguage"
                     @change="aiSettingsStore.update({ explanationLanguage: ($event.target as HTMLSelectElement).value as 'persian' | 'english' | 'follow-profile' })"
                 >
@@ -205,7 +205,7 @@ onMounted(() => refreshProviders())
             <label class="mt-4 block text-sm">
                 <span class="mb-1 block font-medium text-gray-700">Feedback detail</span>
                 <select
-                    class="w-full rounded-lg border px-3 py-2 sm:w-80"
+                    class="field w-full sm:w-80"
                     :value="settings.feedbackDetail"
                     @change="aiSettingsStore.update({ feedbackDetail: ($event.target as HTMLSelectElement).value as 'concise' | 'standard' | 'detailed' })"
                 >

@@ -262,7 +262,7 @@ const practiceWords = computed(() => {
 <template>
     <div>
         <div class="mb-8">
-            <h1 class="text-3xl font-bold">
+            <h1>
                 Speaking Practice
             </h1>
 
@@ -285,7 +285,7 @@ const practiceWords = computed(() => {
             class="mb-6 rounded-lg border px-4 py-2 hover:bg-gray-50"
             @click="reviewMode = !reviewMode"
         >
-            {{ reviewMode ? '📚 All Words' : '🔁 Review Weak Words' }}
+            {{ reviewMode ? 'All Words' : 'Review Weak Words' }}
         </button>
         <div
             class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2"
@@ -384,7 +384,7 @@ const practiceWords = computed(() => {
                     class="h-2 overflow-hidden rounded-full bg-gray-200"
                 >
                     <div
-                        class="h-full rounded-full bg-black transition-all duration-300"
+                        class="h-full rounded-full bg-accent transition-all duration-300"
                         :style="{
                             width: `${progress}%`,
                         }"
@@ -411,7 +411,7 @@ const practiceWords = computed(() => {
                     <SpeechButton
                         :text="currentWord.word"
                         lang="en-US"
-                        label="🔊"
+                        label=""
                     />
                 </div>
 
@@ -448,7 +448,7 @@ const practiceWords = computed(() => {
                     <span
                         class="rounded-full bg-gray-100 px-3 py-1"
                     >
-                        🔥
+                        Streak
                         {{ currentProgress.streak }}
                     </span>
                 </div>
@@ -457,14 +457,14 @@ const practiceWords = computed(() => {
 
                 <button
                     type="button"
-                    class="mt-8 rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800 disabled:cursor-not-allowed disabled:opacity-50"
+                    class="btn-primary btn-lg mt-8 disabled:cursor-not-allowed"
                     :disabled="isListening"
                     @click="practiceWord"
                 >
                     {{
                         isListening
-                            ? '🎙 Listening...'
-                            : '🎙 Speak'
+                            ? 'Listening...'
+                            : 'Speak'
                     }}
                 </button>
 
@@ -571,7 +571,7 @@ const practiceWords = computed(() => {
 
         <div
             v-else
-            class="rounded-xl border border-dashed p-12 text-center text-gray-500"
+            class="surface px-6 py-12 text-center text-gray-500"
         >
             Select a course and lesson to start.
         </div>

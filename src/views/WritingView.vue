@@ -205,7 +205,7 @@ onMounted(async () => {
         <!-- PROMPT LIST -->
         <div v-if="!activePrompt">
             <div class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900">Writing</h1>
+                <h1>Writing</h1>
                 <p class="mt-2 text-gray-500">
                     Regular writing practice with saved history. Automated feedback is limited to
                     objective checks (length, required elements) — intelligent correction arrives
@@ -242,11 +242,11 @@ onMounted(async () => {
 
         <!-- EDITOR -->
         <div v-else>
-            <button type="button" class="mb-6 text-sm text-gray-500 hover:text-black" @click="backToList">
+            <button type="button" class="btn-ghost -ml-3 mb-2" @click="backToList">
                 ← All prompts
             </button>
 
-            <h1 class="text-2xl font-bold text-gray-900">{{ activePrompt.title }}</h1>
+            <h1>{{ activePrompt.title }}</h1>
 
             <div class="mt-4 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
                 <p class="text-gray-800">{{ activePrompt.instructions }}</p>
@@ -270,7 +270,7 @@ onMounted(async () => {
                 <textarea
                     v-model="draft"
                     rows="10"
-                    class="w-full rounded-2xl border border-gray-200 p-4 shadow-sm outline-none focus:border-gray-900"
+                    class="field w-full p-4 shadow-sm"
                     placeholder="Write here..."
                     dir="auto"
                 />
@@ -279,7 +279,7 @@ onMounted(async () => {
                     <span class="text-sm text-gray-400">{{ wordCount }} words</span>
                     <button
                         type="button"
-                        class="rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="btn-primary btn-lg"
                         :disabled="!draft.trim()"
                         @click="submit"
                     >
@@ -295,7 +295,7 @@ onMounted(async () => {
                     :class="constraintIssues.length ? 'border-amber-200 bg-amber-50' : 'border-green-200 bg-green-50'"
                 >
                     <p class="font-semibold" :class="constraintIssues.length ? 'text-amber-700' : 'text-green-700'">
-                        {{ constraintIssues.length ? 'Saved — with notes' : '✅ Saved' }}
+                        {{ constraintIssues.length ? 'Saved — with notes' : 'Saved' }}
                     </p>
                     <p v-for="issue in constraintIssues" :key="issue" class="mt-1 text-sm text-amber-700">
                         {{ issue }}
@@ -325,7 +325,7 @@ onMounted(async () => {
                         <p class="text-sm text-amber-800">{{ evaluationError }}</p>
                         <button
                             type="button"
-                            class="mt-3 rounded-xl bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-gray-700"
+                            class="btn-primary btn-lg mt-3"
                             @click="requestEvaluation"
                         >
                             Retry evaluation
@@ -338,7 +338,7 @@ onMounted(async () => {
                         class="w-full rounded-2xl border-2 border-dashed border-gray-300 p-5 text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
                         @click="requestEvaluation"
                     >
-                        🤖 Get AI feedback on this text
+                        Get AI feedback on this text
                     </button>
                 </div>
 
@@ -366,7 +366,7 @@ onMounted(async () => {
                     <button type="button" class="rounded-xl border px-5 py-3 text-gray-600 hover:bg-gray-100" @click="writeAgain">
                         Write another
                     </button>
-                    <button type="button" class="rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800" @click="backToList">
+                    <button type="button" class="btn-primary btn-lg" @click="backToList">
                         All prompts
                     </button>
                 </div>

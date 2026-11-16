@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+import { titleForRoute } from './titles'
+
 import DashboardView from "../views/DashboardView.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 import PracticeView from "../views/PracticeView.vue";
 import ClozeView from "../views/ClozeView.vue";
 import ListenGuessView from "../views/ListenGuessView.vue";
@@ -27,8 +30,40 @@ import RealLifeView from '../views/RealLifeView.vue'
 import CareerView from '../views/CareerView.vue'
 import JourneyView from '../views/JourneyView.vue'
 
+/*
+ * Lists load asynchronously, so on Back the saved position may be taller than
+ * the page is at that instant (the browser would clamp it to the top). Wait
+ * briefly for the content to exist before restoring.
+ */
+function whenTallEnough(position: { left?: number; top?: number }): Promise<{ left?: number; top?: number }> {
+    return new Promise(resolve => {
+        const started = Date.now()
+
+        const attempt = () => {
+            const needed = (position.top ?? 0) + window.innerHeight
+
+            if (document.documentElement.scrollHeight >= needed || Date.now() - started > 2000) resolve(position)
+            else requestAnimationFrame(attempt)
+        }
+
+        attempt()
+    })
+}
+
 const router = createRouter({
     history: createWebHistory(),
+
+    /*
+     * Back/forward restores the old position; a new page starts at the top;
+     * a query-only change on the same page (lesson ?w=, scenario step) keeps
+     * the reader where they are.
+     */
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) return whenTallEnough(savedPosition)
+        if (to.path === from.path) return false
+
+        return { top: 0 }
+    },
 
     routes: [
         {
@@ -44,7 +79,8 @@ const router = createRouter({
         {
             path: '/courses/:courseId/lessons/:lessonId',
             name: 'lesson',
-            component: LessonView
+            component: LessonView,
+            meta: { focusLayout: true }
         },
         {
             path: '/lessons',
@@ -59,6 +95,7 @@ const router = createRouter({
             path: '/practice',
             name: 'practice',
             component: PracticeView,
+            meta: { focusLayout: true },
         },
         {
             path: '/quiz',
@@ -165,6 +202,15 @@ const router = createRouter({
             name: 'daily-journey',
             component: JourneyView,
         },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'not-found',
+            component: NotFoundView,
+        },
     ]
 })
+router.afterEach(to => {
+    document.title = titleForRoute(to.name)
+})
+
 export default router

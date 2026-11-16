@@ -5,11 +5,16 @@ import { loadGrammarManifest, loadGrammarTopic } from '../services/grammarConten
 import { useGrammarProgressStore } from '../stores/grammarProgress'
 import { usePerformanceStore } from '../stores/performance'
 
-import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
-import SpeechButton from '../components/ui/SpeechButton.vue'
 
 import type { GrammarTopic, GrammarTopicManifest } from '../types/grammar'
 import type { ExerciseResult } from '../types/exercise'
+import ActivityPage from '../components/practice/ActivityPage.vue'
+import ActivityResult from '../components/practice/ActivityResult.vue'
+import ExerciseSession from '../components/practice/ExerciseSession.vue'
+import ItemList from '../components/practice/ItemList.vue'
+import AudioPlayer from '../components/learn/AudioPlayer.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 
 const PASS_THRESHOLD = 0.7
 
@@ -156,162 +161,78 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="mx-auto max-w-3xl">
-        <div v-if="error" class="mb-6 rounded-xl border border-red-200 bg-red-50 p-4 text-red-700">
-            {{ error }}
-        </div>
+    <ActivityPage eyebrow="Grammar" title="Grammar" description="Short, practical topics: learn the pattern, then use it in exercises." wide>
+        <StateBlock v-if="error" kind="error" :text="error" />
 
         <!-- TOPIC LIST -->
-        <div v-if="phase === 'list'">
-            <div class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900">Grammar</h1>
-                <p class="mt-2 text-gray-500">
-                    Short, practical topics — learn the pattern, then use it in exercises.
-                </p>
-            </div>
+        <template v-if="phase === 'list'">
+            <StateBlock v-if="loading" kind="loading" title="Loading topics" :rows="4" />
 
-            <div v-if="loading" class="py-12 text-center text-gray-500">Loading topics...</div>
-
-            <div v-for="group in groupedTopics" :key="group.level" class="mb-8">
-                <h2 class="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-400">
-                    {{ group.level }}
-                </h2>
-
-                <div class="grid gap-3 sm:grid-cols-2">
-                    <button
-                        v-for="topic in group.items"
-                        :key="topic.id"
-                        type="button"
-                        class="rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                        @click="openTopic(topic)"
-                    >
-                        <div class="flex items-start justify-between gap-2">
-                            <p class="font-semibold text-gray-900">{{ topic.title }}</p>
-                            <span
-                                v-if="isDue(topic.id)"
-                                class="shrink-0 rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700"
-                            >
-                                due
-                            </span>
-                            <span
-                                v-else-if="statusLabel(topic.id)"
-                                class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500"
-                            >
-                                {{ statusLabel(topic.id) }}
-                            </span>
-                        </div>
-
-                        <p v-if="topic.titlePersian" class="mt-1 text-sm text-gray-500" dir="rtl">
-                            {{ topic.titlePersian }}
-                        </p>
-
-                        <p class="mt-2 text-xs text-gray-400">
-                            {{ topic.category }}
-                            <span v-if="topic.estimatedDuration"> · ~{{ topic.estimatedDuration }} min</span>
-                        </p>
-                    </button>
-                </div>
-            </div>
-        </div>
+            <ItemList
+                v-for="group in groupedTopics"
+                :key="group.level"
+                :heading="group.level"
+                :items="group.items.map(topic => ({
+                    id: topic.id,
+                    title: topic.title,
+                    subtitlePersian: topic.titlePersian,
+                    badge: isDue(topic.id) ? { text: 'due', tone: 'warn' } : statusLabel(topic.id) ? { text: String(statusLabel(topic.id)), tone: 'neutral' } : null,
+                    meta: topic.category + (topic.estimatedDuration ? ` · ~${topic.estimatedDuration} min` : ''),
+                }))"
+                @open="id => openTopic(topics.find(topic => topic.id === id)!)"
+            />
+        </template>
 
         <!-- EXPLANATION + EXAMPLES -->
-        <div v-else-if="phase === 'explanation' && activeTopic">
-            <button type="button" class="mb-6 text-sm text-gray-500 hover:text-black" @click="backToList">
-                ← All topics
-            </button>
+        <div v-else-if="phase === 'explanation' && activeTopic" class="space-y-5">
+            <button type="button" class="btn-ghost -ml-3" @click="backToList"><AppIcon name="arrow-left" :size="16" /> All topics</button>
 
-            <h1 class="text-3xl font-bold text-gray-900">{{ activeTopic.title }}</h1>
+            <article class="surface p-5 sm:p-7">
+                <h2 class="font-display text-2xl font-semibold text-gray-900 sm:text-3xl">{{ activeTopic.title }}</h2>
+                <p class="mt-4 text-[1.05rem] leading-8 text-gray-800" dir="ltr" lang="en">{{ activeTopic.explanation }}</p>
+                <p v-if="activeTopic.explanationPersian" class="fa-text mt-4 rounded-2xl bg-gray-50 p-4 text-gray-700" lang="fa">{{ activeTopic.explanationPersian }}</p>
+            </article>
 
-            <div class="mt-6 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <p class="leading-relaxed text-gray-800">{{ activeTopic.explanation }}</p>
-
-                <p
-                    v-if="activeTopic.explanationPersian"
-                    class="mt-4 rounded-xl bg-gray-50 p-4 leading-relaxed text-gray-700"
-                    dir="rtl"
-                >
-                    {{ activeTopic.explanationPersian }}
-                </p>
-            </div>
-
-            <div class="mt-6 space-y-3">
-                <div
-                    v-for="(example, index) in activeTopic.examples"
-                    :key="index"
-                    class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm"
-                >
-                    <div class="flex items-center justify-between gap-3">
-                        <p class="font-medium text-gray-900">{{ example.english }}</p>
-                        <SpeechButton :text="example.english" lang="en-US" />
+            <section v-if="activeTopic.examples.length" class="surface divide-y divide-gray-100">
+                <h3 class="label px-5 pb-1 pt-4">Examples</h3>
+                <div v-for="(example, index) in activeTopic.examples" :key="index" class="flex items-start gap-3 px-5 py-3.5">
+                    <div class="min-w-0 flex-1">
+                        <p class="wrap-anywhere text-[1.02rem] text-gray-900" dir="ltr" lang="en">{{ example.english }}</p>
+                        <p v-if="example.persian" class="fa-text text-sm text-gray-500" lang="fa">{{ example.persian }}</p>
+                        <p v-if="example.note" class="mt-0.5 text-xs text-gray-400">{{ example.note }}</p>
                     </div>
-                    <p v-if="example.persian" class="mt-1 text-sm text-gray-500" dir="rtl">
-                        {{ example.persian }}
-                    </p>
-                    <p v-if="example.note" class="mt-1 text-xs text-gray-400">{{ example.note }}</p>
+                    <AudioPlayer :text="example.english" size="sm" tone="practice" :label="example.english" />
                 </div>
-            </div>
+            </section>
 
-            <button
-                type="button"
-                class="mt-8 w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800"
-                @click="startExercises"
-            >
-                Start exercises ({{ activeTopic.exercises.length }})
-            </button>
+            <button type="button" class="btn-primary btn-lg w-full" @click="startExercises">Start exercises ({{ activeTopic.exercises.length }})</button>
         </div>
 
         <!-- EXERCISES -->
-        <div v-else-if="phase === 'exercises' && activeTopic && currentExercise">
-            <div class="mb-6 flex items-center justify-between gap-3 text-sm text-gray-500">
-                <span class="min-w-0 truncate">{{ activeTopic.title }}</span>
-                <span class="shrink-0">{{ exerciseIndex + 1 }} / {{ activeTopic.exercises.length }}</span>
-            </div>
-
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <ExercisePlayer
-                    :key="currentExercise.id"
-                    :exercise="currentExercise"
-                    @result="onExerciseResult"
-                />
-
-                <button
-                    v-if="currentAnswered"
-                    type="button"
-                    class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="nextExercise"
-                >
-                    {{ exerciseIndex === activeTopic.exercises.length - 1 ? 'Finish' : 'Next' }}
-                </button>
-            </div>
-        </div>
+        <ExerciseSession
+            v-else-if="phase === 'exercises' && activeTopic && currentExercise"
+            :exercise="currentExercise"
+            :index="exerciseIndex"
+            :total="activeTopic.exercises.length"
+            :answered="currentAnswered"
+            :title="activeTopic.title"
+            @result="onExerciseResult"
+            @next="nextExercise"
+        />
 
         <!-- SUMMARY -->
-        <div v-else-if="phase === 'summary' && activeTopic" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-            <div class="text-5xl">{{ sessionPassed ? '🎉' : '💪' }}</div>
-            <h2 class="mt-4 text-2xl font-bold">
-                {{ correctCount }} / {{ sessionResults.length }} correct
-            </h2>
-            <p class="mt-2 text-gray-500">
-                {{ sessionPassed
-                    ? 'Session passed — this topic is scheduled for spaced review.'
-                    : 'Below the pass mark — the topic will come back soon for another try.' }}
-            </p>
-            <div class="mt-8 flex justify-center gap-3">
-                <button
-                    type="button"
-                    class="rounded-xl border px-5 py-3 text-gray-600 hover:bg-gray-100"
-                    @click="openTopic(topics.find(topic => topic.id === activeTopic!.id)!)"
-                >
-                    Practice again
-                </button>
-                <button
-                    type="button"
-                    class="rounded-xl bg-black px-5 py-3 font-semibold text-white hover:bg-gray-800"
-                    @click="backToList"
-                >
-                    All topics
-                </button>
-            </div>
-        </div>
-    </div>
+        <ActivityResult
+            v-else-if="phase === 'summary' && activeTopic"
+            :title="sessionPassed ? 'Session passed' : 'Keep going'"
+            :score="correctCount"
+            :total="sessionResults.length"
+            :message="sessionPassed ? 'This topic is scheduled for spaced review.' : 'Below the pass mark. The topic will come back soon for another try.'"
+            action-label="All topics"
+            @action="backToList"
+        >
+            <template #secondary>
+                <button type="button" class="btn-secondary btn-lg" @click="openTopic(topics.find(topic => topic.id === activeTopic!.id)!)">Practice again</button>
+            </template>
+        </ActivityResult>
+    </ActivityPage>
 </template>

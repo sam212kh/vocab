@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import AppIcon from '../ui/AppIcon.vue'
 import { useHardWordsStore } from '../../stores/hardWords'
 
 const props = defineProps<{
@@ -22,20 +23,13 @@ function handleToggle() {
 <template>
     <button
         type="button"
-        class="shrink-0 rounded-lg px-3 py-2 text-lg transition hover:bg-gray-100"
-        :class="hard ? 'text-yellow-500' : 'text-gray-400'"
-        :aria-label="
-            hard
-                ? 'Remove from Hard Words'
-                : 'Add to Hard Words'
-        "
-        :title="
-            hard
-                ? 'Remove from Hard Words'
-                : 'Add to Hard Words'
-        "
+        class="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+        :class="hard ? 'text-amber-600' : 'text-gray-400'"
+        :aria-label="hard ? 'Remove from Hard Words' : 'Add to Hard Words'"
+        :aria-pressed="hard"
+        :title="hard ? 'Remove from Hard Words' : 'Add to Hard Words'"
         @click="handleToggle"
     >
-        {{ hard ? '⭐' : '☆' }}
+        <AppIcon :name="hard ? 'star-fill' : 'star'" :size="20" />
     </button>
 </template>

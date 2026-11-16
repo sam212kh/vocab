@@ -37,6 +37,9 @@ import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
 import SpeechButton from '../components/ui/SpeechButton.vue'
 import SentenceFeedback from '../components/journey/SentenceFeedback.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
+import PageHeader from '../components/ui/PageHeader.vue'
+import StateBlock from '../components/ui/StateBlock.vue'
 
 import { JOURNEY_LENGTH_MINUTES } from '../types/journey'
 import type {
@@ -541,115 +544,172 @@ onMounted(async () => {
         phase.value = 'home'
     }
 })
+/* ---------- presentation helpers (no learning logic) ---------- */
+
+const doneCount = computed(() =>
+    session.value ? Object.values(session.value.statuses).filter(status => status !== 'pending').length : 0
+)
+
+const STAGE_TONE: Record<string, string> = {
+    recognition: 'bg-blue-50 text-blue-700',
+    recall: 'bg-practice-100 text-practice-700',
+    production: 'bg-learn-100 text-learn-700',
+    fluency: 'bg-amber-100 text-amber-700',
+}
+
+const STAGE_BAR: Record<string, string> = {
+    recognition: 'bg-blue-600/70',
+    recall: 'bg-practice-500',
+    production: 'bg-learn-500',
+    fluency: 'bg-amber-600/80',
+}
+
+const LENGTH_LABEL: Record<JourneyLength, string> = { quick: 'Quick', standard: 'Standard', extended: 'Extended' }
+
+const FLOW = [
+    { label: 'Recognize', icon: 'target' },
+    { label: 'Recall', icon: 'repeat' },
+    { label: 'Produce', icon: 'pen' },
+    { label: 'Speak', icon: 'mic' },
+]
+
 </script>
 
 <template>
     <div class="mx-auto max-w-2xl">
         <!-- ================= HOME ================= -->
-        <template v-if="phase === 'home'">
-            <div class="mb-6">
-                <h1 class="text-3xl font-bold text-gray-900">Daily Journey</h1>
-                <p class="mt-2 text-gray-500">
-                    Today's practice, built around what you need — recognize, recall, then use real English.
-                    <span class="block text-sm" dir="rtl">تمرین امروز، متناسب با نیاز تو.</span>
-                </p>
+        <div v-if="phase === 'home'" class="space-y-6" data-mode="overview">
+            <PageHeader
+                eyebrow="Daily Journey"
+                title="Your journey for today"
+                serif
+                description="Built around what you need: recognize it, recall it, then use real English."
+                description-persian="تمرین امروز، متناسب با نیاز تو."
+            />
+
+            <div v-if="session" class="surface flex flex-col gap-4 border-amber-200 bg-amber-50 p-5 sm:flex-row sm:items-center">
+                <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-amber-700 shadow-sm"><AppIcon name="clock" /></span>
+                <div class="min-w-0 flex-1">
+                    <p class="font-semibold text-amber-800">You have an unfinished journey</p>
+                    <p class="text-sm text-amber-700">{{ session.plan.objective }} · {{ doneCount }} of {{ session.plan.activities.length }} done</p>
+                </div>
+                <button type="button" class="btn bg-amber-600 text-white hover:bg-amber-700" @click="resumeJourney">Continue where you stopped</button>
             </div>
 
-            <div v-if="session" class="mb-6 rounded-2xl border border-amber-200 bg-amber-50 p-4">
-                <p class="font-semibold text-amber-800">You have an unfinished journey</p>
-                <p class="text-sm text-amber-700">
-                    {{ session.plan.objective }} · {{ Object.values(session.statuses).filter(s => s !== 'pending').length }} / {{ session.plan.activities.length }} done
-                </p>
-                <button type="button" class="mt-3 rounded-xl bg-amber-600 px-5 py-2 text-sm font-semibold text-white hover:bg-amber-700" @click="resumeJourney">
-                    Continue where you stopped
-                </button>
-            </div>
+            <StateBlock v-if="loadError" kind="error" :text="loadError" />
 
-            <p v-if="loadError" class="mb-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-800">{{ loadError }}</p>
-
-            <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-                <h2 class="text-sm font-semibold uppercase tracking-wider text-gray-400">How long today?</h2>
-                <div class="mt-3 grid grid-cols-3 gap-2">
-                    <button
-                        v-for="option in (['quick', 'standard', 'extended'] as JourneyLength[])"
-                        :key="option"
-                        type="button"
-                        class="rounded-xl border p-3 text-center transition"
-                        :class="length === option ? 'border-gray-900 bg-gray-900 text-white' : 'border-gray-200 hover:bg-gray-50'"
-                        @click="length = option"
-                    >
-                        <p class="font-semibold capitalize">{{ option }}</p>
-                        <p class="text-xs" :class="length === option ? 'text-gray-300' : 'text-gray-400'">~{{ JOURNEY_LENGTH_MINUTES[option] }} min</p>
-                    </button>
+            <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-5 text-white shadow-md sm:p-8" aria-label="Start a journey">
+                <div class="pointer-events-none absolute inset-0" aria-hidden="true">
+                    <div class="absolute -right-16 -top-24 h-72 w-72 rounded-full bg-white/[0.06]" />
+                    <div class="absolute -bottom-28 left-1/3 h-64 w-64 rounded-full bg-learn-500/15" />
                 </div>
 
-                <button
-                    type="button"
-                    class="mt-5 w-full rounded-xl bg-black px-6 py-3.5 font-semibold text-white hover:bg-gray-800 disabled:opacity-50"
-                    :disabled="loading"
-                    @click="startJourney"
-                >
-                    {{ loading ? 'Preparing your journey…' : 'Start today\'s journey' }}
-                </button>
-                <p v-if="session" class="mt-2 text-center text-xs text-gray-400">Starting a new journey replaces the unfinished one.</p>
-            </div>
+                <div class="relative">
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">How long today?</p>
 
-            <!-- Roadmap -->
-            <div class="mt-6">
-                <h2 class="mb-1 text-sm font-semibold uppercase tracking-wider text-gray-400">Your roadmap</h2>
-                <p class="mb-3 text-xs text-gray-400">
-                    Learning milestones based on what you've demonstrated — not certified CEFR levels. Nothing is locked out: every module stays open.
-                </p>
-
-                <div class="space-y-2">
-                    <div
-                        v-for="stage in roadmap"
-                        :key="stage.id"
-                        class="rounded-xl border bg-white p-3 shadow-sm"
-                        :class="stage.id === currentStage?.id ? 'border-gray-900' : 'border-gray-200'"
-                    >
-                        <div class="flex items-center justify-between gap-2">
-                            <p class="font-medium text-gray-900">{{ stage.title }}</p>
-                            <span
-                                class="shrink-0 rounded-full px-2 py-0.5 text-xs"
-                                :class="{
-                                    'bg-green-100 text-green-700': stage.state === 'completed',
-                                    'bg-blue-100 text-blue-700': stage.state === 'in-progress' || stage.state === 'available',
-                                    'bg-gray-100 text-gray-500': stage.state === 'locked',
-                                    'bg-amber-100 text-amber-700': stage.state === 'content-pending',
-                                }"
-                            >
-                                {{ stage.state === 'content-pending' ? 'content coming' : stage.state }}
-                            </span>
-                        </div>
-                        <p class="text-xs text-gray-500">{{ stage.description }}</p>
-                        <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
-                            <div class="h-full rounded-full bg-gray-900 transition-all" :style="{ width: `${Math.round(stage.progress * 100)}%` }" />
-                        </div>
-                        <p class="mt-1 text-xs text-gray-400">{{ stage.requirement }}</p>
+                    <div class="mt-3 grid grid-cols-3 gap-2" role="radiogroup" aria-label="Journey length">
+                        <button
+                            v-for="option in (['quick', 'standard', 'extended'] as JourneyLength[])"
+                            :key="option"
+                            type="button"
+                            role="radio"
+                            :aria-checked="length === option"
+                            class="min-h-16 rounded-2xl border px-2 py-3 text-center transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/40"
+                            :class="length === option ? 'border-white bg-white text-[#243350] shadow-sm' : 'border-white/20 bg-white/5 text-white hover:bg-white/10'"
+                            @click="length = option"
+                        >
+                            <span class="block font-semibold">{{ LENGTH_LABEL[option] }}</span>
+                            <span class="block text-xs" :class="length === option ? 'text-[#243350]/70' : 'text-white/60'">about {{ JOURNEY_LENGTH_MINUTES[option] }} min</span>
+                        </button>
                     </div>
+
+                    <!-- What a journey is made of -->
+                    <ol class="mt-6 flex items-center" aria-label="What a journey contains">
+                        <template v-for="(step, index) in FLOW" :key="step.label">
+                            <li class="flex flex-col items-center gap-1.5 text-center">
+                                <span class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white ring-1 ring-white/20"><AppIcon :name="step.icon" :size="18" /></span>
+                                <span class="text-[0.7rem] font-medium text-white/75 sm:text-xs">{{ step.label }}</span>
+                            </li>
+                            <li v-if="index < FLOW.length - 1" class="mb-5 h-px flex-1 bg-white/20" aria-hidden="true" />
+                        </template>
+                    </ol>
+
+                    <button type="button" class="btn btn-lg mt-7 w-full bg-white !text-[#243350] shadow-sm hover:bg-gray-100" :disabled="loading" @click="startJourney">
+                        {{ loading ? 'Preparing your journey…' : "Start today's journey" }}
+                        <AppIcon v-if="!loading" name="chevron-right" :size="18" />
+                    </button>
+                    <p v-if="session" class="mt-2 text-center text-xs text-white/60">Starting a new journey replaces the unfinished one.</p>
                 </div>
-            </div>
-        </template>
+            </section>
+
+            <!-- Roadmap: a path, not a pile of cards -->
+            <section aria-label="Your roadmap">
+                <h2 class="label">Your roadmap</h2>
+                <p class="mb-3 mt-1 text-xs text-gray-400">Milestones based on what you have demonstrated, not certified CEFR levels. Nothing is locked out: every module stays open.</p>
+
+                <ol class="surface p-4 sm:p-5">
+                    <li v-for="(stage, index) in roadmap" :key="stage.id" class="relative flex gap-4 pb-5 last:pb-0">
+                        <span v-if="index < roadmap.length - 1" class="absolute left-[0.95rem] top-8 bottom-0 w-px bg-gray-200" aria-hidden="true" />
+
+                        <span
+                            class="relative z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2"
+                            :class="{
+                                'border-green-600 bg-green-600 text-white': stage.state === 'completed',
+                                'border-accent bg-accent text-white ring-4 ring-accent/15': stage.id === currentStage?.id && stage.state !== 'completed',
+                                'border-accent/50 bg-white text-accent': stage.id !== currentStage?.id && (stage.state === 'in-progress' || stage.state === 'available'),
+                                'border-gray-200 bg-white text-gray-300': stage.state === 'locked',
+                                'border-dashed border-amber-300 bg-amber-50 text-amber-600': stage.state === 'content-pending',
+                            }"
+                        >
+                            <AppIcon v-if="stage.state === 'completed'" name="check" :size="15" />
+                            <AppIcon v-else-if="stage.state === 'locked'" name="lock" :size="13" />
+                            <span v-else class="text-xs font-semibold tabular-nums">{{ index + 1 }}</span>
+                        </span>
+
+                        <div class="min-w-0 flex-1 pt-0.5">
+                            <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                                <p class="font-semibold text-gray-900" :class="stage.state === 'locked' ? 'text-gray-500' : ''">{{ stage.title }}</p>
+                                <span v-if="stage.id === currentStage?.id" class="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent-ink">you are here</span>
+                                <span v-else-if="stage.state === 'content-pending'" class="rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700">content coming</span>
+                            </div>
+                            <p class="text-sm text-gray-500">{{ stage.description }}</p>
+                            <div v-if="stage.progress > 0" class="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
+                                <div class="h-full rounded-full bg-accent motion-safe-only transition-all" :style="{ width: `${Math.round(stage.progress * 100)}%` }" />
+                            </div>
+                            <p class="mt-1 text-xs text-gray-400">{{ stage.requirement }}</p>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+        </div>
 
         <!-- ================= RUNNING ================= -->
-        <template v-else-if="phase === 'running' && session && currentActivity">
-            <div class="mb-4">
-                <p class="text-xs font-medium uppercase tracking-wider text-gray-400">Today's objective</p>
-                <p class="text-gray-800">{{ session.plan.objective }}</p>
-            </div>
+        <div v-else-if="phase === 'running' && session && currentActivity" data-mode="practice">
+            <header class="mb-4">
+                <div class="flex items-center justify-between gap-3">
+                    <p class="eyebrow">Activity {{ Math.min(doneCount + 1, session.plan.activities.length) }} of {{ session.plan.activities.length }}</p>
+                    <span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold" :class="STAGE_TONE[currentActivity.stage]">
+                        <span class="capitalize">{{ currentActivity.stage }}</span> <span class="font-normal opacity-70">· ~{{ currentActivity.estimatedMinutes }} min</span>
+                    </span>
+                </div>
 
-            <div class="mb-4 flex items-center justify-between text-sm text-gray-500">
-                <span>Activity {{ progressLabel }}</span>
-                <span>~{{ currentActivity.estimatedMinutes }} min · <span class="capitalize">{{ currentActivity.stage }}</span></span>
-            </div>
-            <div class="mb-5 h-1.5 overflow-hidden rounded-full bg-gray-200">
-                <div class="h-full rounded-full bg-gray-900 transition-all" :style="{ width: `${(Object.values(session.statuses).filter(s => s !== 'pending').length / session.plan.activities.length) * 100}%` }" />
-            </div>
+                <ol class="mt-3 flex gap-1.5" aria-label="Journey progress">
+                    <li
+                        v-for="(activity, i) in session.plan.activities"
+                        :key="activity.id"
+                        class="h-1.5 flex-1 rounded-full motion-safe-only transition-colors"
+                        :class="i === session.currentIndex ? 'bg-accent' : session.statuses[activity.id] === 'completed' ? 'bg-accent/50' : session.statuses[activity.id] === 'skipped' ? 'bg-gray-300' : 'bg-gray-200'"
+                        :aria-current="i === session.currentIndex ? 'step' : undefined"
+                        :title="activity.title"
+                    />
+                </ol>
 
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <h2 class="text-lg font-semibold text-gray-900">{{ currentActivity.title }}</h2>
-                <p class="mt-1 text-xs text-gray-400">{{ currentActivity.reason }}</p>
+                <p class="mt-3 text-sm text-gray-500"><span class="font-semibold text-gray-700">Today:</span> {{ session.plan.objective }}</p>
+            </header>
+
+            <div class="surface p-5 sm:p-7">
+                <h2 class="text-xl font-bold tracking-tight text-gray-900">{{ currentActivity.title }}</h2>
+                <p class="mt-1 text-sm text-gray-400">{{ currentActivity.reason }}</p>
 
                 <!-- RETRIEVAL (typed recall) -->
                 <div v-if="currentActivity.kind === 'vocab-retrieval' && currentItem" class="mt-6 text-center">
@@ -662,12 +722,12 @@ onMounted(async () => {
                             autocomplete="off"
                             autocapitalize="off"
                             placeholder="Type the English…"
-                            class="w-full rounded-xl border px-4 py-3 text-center text-lg outline-none focus:border-gray-900"
+                            class="field w-full text-center text-lg"
                         />
                         <p v-if="hintShown" class="mt-2 text-sm text-gray-500">Starts with: <b>{{ currentItem.english.slice(0, 2) }}…</b></p>
                         <div class="mt-4 flex gap-2">
                             <button type="button" class="rounded-xl border px-4 py-3 text-sm text-gray-500 hover:bg-gray-50" @click="hint">Hint</button>
-                            <button type="submit" class="flex-1 rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800">Check</button>
+                            <button type="submit" class="btn-primary btn-lg flex-1">Check</button>
                         </div>
                     </form>
 
@@ -681,7 +741,7 @@ onMounted(async () => {
                             <p class="mt-2 text-xs text-gray-500">Correct answer</p>
                             <p class="font-medium text-gray-800">{{ currentItem.english }} <SpeechButton :text="currentItem.english" lang="en-US" /></p>
                         </div>
-                        <button type="button" class="mt-4 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800" @click="nextRetrieval">
+                        <button type="button" class="btn-primary btn-lg mt-4 w-full" @click="nextRetrieval">
                             Next
                         </button>
                     </div>
@@ -694,7 +754,7 @@ onMounted(async () => {
                     <button
                         v-if="exerciseAnswered"
                         type="button"
-                        class="mt-5 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
+                        class="btn-primary btn-lg mt-5 w-full"
                         @click="nextExercise"
                     >
                         Next
@@ -714,17 +774,17 @@ onMounted(async () => {
                         data-testid="construction-input"
                         :disabled="constructionPhase === 'evaluating' || constructionPhase === 'feedback' || constructionPhase === 'basic-done'"
                         placeholder="Write your own sentence(s) in English…"
-                        class="mt-3 w-full rounded-xl border px-3 py-2.5 outline-none focus:border-gray-900"
+                        class="field mt-3 w-full"
                     />
 
                     <p v-if="constructionAttempt > 1 && constructionPhase === 'writing'" class="mt-2 text-xs text-gray-500">
                         Attempt {{ constructionAttempt }} — edit your sentence and try again. Retries count as practice, not as independent production.
                     </p>
-                    <p v-if="constructionHint" class="mt-2 text-xs text-amber-700">💡 {{ constructionHint }} <span class="text-gray-400">(hint — this answer won't count as independent)</span></p>
+                    <p v-if="constructionHint" class="mt-2 text-xs text-amber-700">{{ constructionHint }} <span class="text-gray-400">(hint — this answer won't count as independent)</span></p>
 
                     <!-- writing -->
                     <template v-if="constructionPhase === 'writing'">
-                        <button type="button" class="mt-3 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-40" data-testid="construction-submit" :disabled="!answer.trim()" @click="submitConstruction">
+                        <button type="button" class="btn-primary btn-lg mt-3 w-full" data-testid="construction-submit" :disabled="!answer.trim()" @click="submitConstruction">
                             {{ aiSettingsStore.settings.enabled ? 'Check my sentence' : 'Submit' }}
                         </button>
                         <button v-if="!constructionHint && constructionAttempt === 1" type="button" class="mt-2 w-full text-xs text-gray-400 hover:text-gray-700" @click="showConstructionHint">
@@ -740,7 +800,7 @@ onMounted(async () => {
                     <div v-else-if="constructionPhase === 'unavailable'" class="mt-3 space-y-2 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm" data-testid="eval-unavailable">
                         <p class="text-amber-800">{{ evaluationUnavailable }}</p>
                         <p class="text-xs text-amber-700">Your answer is saved here. No feedback or score was recorded.</p>
-                        <button type="button" class="w-full rounded-xl bg-black px-4 py-2.5 font-semibold text-white hover:bg-gray-800" data-testid="eval-retry" @click="submitConstruction">Retry AI feedback</button>
+                        <button type="button" class="btn-primary btn-lg w-full" data-testid="eval-retry" @click="submitConstruction">Retry AI feedback</button>
                         <button type="button" class="w-full rounded-xl border bg-white px-4 py-2.5 text-gray-700 hover:bg-gray-50" data-testid="basic-check" @click="recordBasicCheck">
                             Continue with a basic check (length + expression use only)
                         </button>
@@ -759,7 +819,7 @@ onMounted(async () => {
                             @reveal="correctionRevealed = true"
                             @retry="retryConstruction"
                         />
-                        <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="mt-4 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white" data-testid="construction-next" @click="finishActivity()">Next</button>
+                        <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="btn-primary btn-lg mt-4 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
                         <button v-else type="button" class="mt-3 w-full text-xs text-gray-400 hover:text-gray-700" @click="finishActivity()">Move on without retrying</button>
                     </template>
 
@@ -773,7 +833,7 @@ onMounted(async () => {
                         <p v-for="model in currentActivity.construction.modelSentences" :key="model" class="rounded-lg bg-gray-50 p-2 text-gray-700">
                             {{ model }} <SpeechButton :text="model" lang="en-US" />
                         </p>
-                        <button type="button" class="mt-2 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white" data-testid="construction-next" @click="finishActivity()">Next</button>
+                        <button type="button" class="btn-primary btn-lg mt-2 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
                     </div>
                 </div>
 
@@ -790,8 +850,8 @@ onMounted(async () => {
                         Read it aloud on your own — no speaking evidence is recorded.
                     </div>
                     <template v-else>
-                        <button v-if="!isListening && !speakResult" type="button" class="mt-5 rounded-full bg-black px-8 py-3 text-white hover:bg-gray-800" @click="speakCurrent">🎙 Speak</button>
-                        <p v-else-if="isListening" class="mt-5 text-gray-500">🎙 Listening…</p>
+                        <button v-if="!isListening && !speakResult" type="button" class="mt-5 rounded-full bg-accent px-8 py-3 text-white hover:bg-accent-strong" @click="speakCurrent">Speak</button>
+                        <p v-else-if="isListening" class="mt-5 text-gray-500">Listening…</p>
                         <p v-if="voiceError" class="mt-2 text-xs text-red-500">{{ voiceError }}</p>
                         <div v-if="speakResult" class="mt-4 rounded-xl bg-gray-50 p-3 text-left text-sm">
                             <p class="text-xs text-gray-500">You said</p>
@@ -800,7 +860,7 @@ onMounted(async () => {
                         </div>
                     </template>
 
-                    <button type="button" class="mt-5 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800" @click="nextSpeak">
+                    <button type="button" class="btn-primary btn-lg mt-5 w-full" @click="nextSpeak">
                         {{ speakIndex === currentActivity.speakingSentences.length - 1 ? 'Finish' : 'Next' }}
                     </button>
                 </div>
@@ -808,7 +868,7 @@ onMounted(async () => {
                 <!-- HAND-OFF (roleplay / career live in their own modules) -->
                 <div v-else-if="currentActivity.route" class="mt-5 text-center">
                     <p class="text-sm text-gray-600">This activity runs in its own module so you get the full experience.</p>
-                    <button type="button" class="mt-4 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800" @click="openHandoff">
+                    <button type="button" class="btn-primary btn-lg mt-4 w-full" @click="openHandoff">
                         Open it →
                     </button>
                     <button type="button" class="mt-2 w-full rounded-xl border px-4 py-3 text-gray-600 hover:bg-gray-50" @click="confirmHandoffDone">
@@ -817,64 +877,67 @@ onMounted(async () => {
                 </div>
             </div>
 
-            <div class="mt-4 flex justify-between text-sm text-gray-400">
-                <button type="button" class="hover:text-gray-700" @click="skipActivity">Skip this activity</button>
-                <button type="button" class="hover:text-gray-700" @click="endEarly">End journey</button>
+            <div class="mt-3 flex justify-between text-sm text-gray-400">
+                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="skipActivity">Skip this activity</button>
+                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="endEarly">End journey</button>
             </div>
-        </template>
+        </div>
 
         <!-- ================= SUMMARY ================= -->
-        <template v-else-if="phase === 'summary' && summary">
-            <div class="mb-6 pt-2 text-center">
-                <div class="text-5xl leading-none">🌱</div>
-                <h1 class="mt-3 text-2xl font-bold text-gray-900">Journey complete</h1>
-                <p class="mt-1 text-sm text-gray-400">{{ summary.activitiesCompleted }} / {{ summary.activitiesTotal }} activities</p>
-            </div>
+        <div v-else-if="phase === 'summary' && summary" class="space-y-5" data-mode="overview">
+            <header class="pt-2 text-center">
+                <span class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="30" /></span>
+                <h1 class="font-display mt-4 font-semibold">Journey complete</h1>
+                <p class="mt-1 text-sm text-gray-500">{{ summary.activitiesCompleted }} of {{ summary.activitiesTotal }} activities completed</p>
+            </header>
 
             <div class="grid grid-cols-2 gap-3">
-                <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <p class="text-xs text-gray-500">Expressions met</p>
-                    <p class="mt-1 text-2xl font-bold text-gray-900">{{ summary.expressionsEncountered }}</p>
+                <div class="surface p-4">
+                    <p class="text-xs text-gray-400">Expressions met</p>
+                    <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.expressionsEncountered }}</p>
                 </div>
-                <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <p class="text-xs text-gray-500">Recalled independently</p>
-                    <p class="mt-1 text-2xl font-bold text-gray-900">{{ summary.expressionsRecalledIndependently }}</p>
+                <div class="surface p-4">
+                    <p class="text-xs text-gray-400">Recalled independently</p>
+                    <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.expressionsRecalledIndependently }}</p>
                 </div>
-                <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <p class="text-xs text-gray-500">Sentences you built</p>
-                    <p class="mt-1 text-2xl font-bold text-gray-900">{{ summary.productiveAttempts }}</p>
+                <div class="surface p-4">
+                    <p class="text-xs text-gray-400">Sentences you built</p>
+                    <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.productiveAttempts }}</p>
                     <p v-if="summary.productiveAttempts" class="mt-1 text-xs text-gray-400" data-testid="production-breakdown">
                         {{ summary.production.independent }} unaided<template v-if="summary.production.hintAssisted"> · {{ summary.production.hintAssisted }} with hint</template><template v-if="summary.production.afterFeedback"> · {{ summary.production.afterFeedback }} retried after feedback</template><template v-if="summary.production.basicCheckOnly"> · {{ summary.production.basicCheckOnly }} basic check only</template>
                     </p>
                 </div>
-                <div class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <p class="text-xs text-gray-500">Practice effort</p>
-                    <p class="mt-1 text-2xl font-bold text-gray-900">{{ summary.effortScore }}</p>
+                <div class="surface p-4">
+                    <p class="text-xs text-gray-400">Practice effort</p>
+                    <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.effortScore }}</p>
                 </div>
             </div>
 
-            <div class="mt-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">By learning stage</p>
-                <div v-for="(stats, stage) in summary.stageBreakdown" :key="stage" class="mt-2 flex items-center justify-between text-sm">
-                    <span class="capitalize text-gray-700">{{ stage }}</span>
-                    <span class="text-gray-500">{{ stats.correct }} / {{ stats.attempts }}</span>
+            <section class="surface p-5">
+                <h2 class="label">By learning stage</h2>
+                <div v-for="(stats, stage) in summary.stageBreakdown" :key="stage" class="mt-3">
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="capitalize text-gray-700">{{ stage }}</span>
+                        <span class="tabular-nums text-gray-400">{{ stats.attempts ? `${stats.correct} of ${stats.attempts}` : 'not practiced' }}</span>
+                    </div>
+                    <div class="mt-1 h-1.5 overflow-hidden rounded-full bg-gray-100">
+                        <div class="h-full rounded-full" :class="STAGE_BAR[stage]" :style="{ width: stats.attempts ? `${Math.round((stats.correct / stats.attempts) * 100)}%` : '0%' }" />
+                    </div>
                 </div>
-                <p class="mt-2 text-xs text-gray-400">Recognition (choosing) and recall/production (you retrieving or writing) are tracked separately on purpose.</p>
-            </div>
+                <p class="mt-4 text-xs text-gray-400">Recognition (choosing) and recall or production (you retrieving or writing) are tracked separately on purpose.</p>
+            </section>
 
-            <p v-if="summary.skillsPracticed.length" class="mt-4 text-sm text-gray-600">
-                Skills practiced: <b>{{ summary.skillsPracticed.join(', ') }}</b>
-            </p>
+            <p v-if="summary.skillsPracticed.length" class="text-sm text-gray-600">Skills practiced: <b>{{ summary.skillsPracticed.join(', ') }}</b></p>
 
-            <div v-if="summary.mistakesWorthReviewing.length" class="mt-4 rounded-2xl border border-amber-100 bg-amber-50/50 p-4 text-sm">
-                <p class="font-medium text-amber-800">Worth reviewing</p>
+            <section v-if="summary.mistakesWorthReviewing.length" class="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm">
+                <p class="font-semibold text-amber-800">Worth reviewing</p>
                 <p class="mt-1 text-gray-700">{{ summary.mistakesWorthReviewing.join(' · ') }}</p>
-                <p class="mt-1 text-xs text-gray-400">Missed words are already rescheduled by spaced repetition.</p>
-            </div>
+                <p class="mt-1 text-xs text-gray-500">Missed words are already rescheduled by spaced repetition.</p>
+            </section>
 
-            <p class="mt-4 rounded-xl bg-gray-50 p-3 text-sm text-gray-600"><b>Next:</b> {{ summary.nextSuggestion }}</p>
+            <p class="rounded-2xl bg-accent-soft p-4 text-sm leading-relaxed text-accent-ink"><b>Next:</b> {{ summary.nextSuggestion }}</p>
 
-            <button type="button" class="mt-6 w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800" @click="backHome">Done</button>
-        </template>
+            <button type="button" class="btn-primary btn-lg w-full" @click="backHome">Done</button>
+        </div>
     </div>
 </template>

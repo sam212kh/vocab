@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
@@ -23,6 +24,10 @@ import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 
 import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
 import SpeechButton from '../components/ui/SpeechButton.vue'
+import LearnStage from '../components/learn/LearnStage.vue'
+import LearningIllustration from '../components/art/LearningIllustration.vue'
+import { itemFromExpression } from '../services/learnItems'
+import type { LearnItem } from '../services/learnItems'
 
 import type { Exercise, ExerciseResult } from '../types/exercise'
 import type {
@@ -104,6 +109,18 @@ function closeScenario() {
 
 function saveExpression(english: string, persian: string) {
     savedExpressionsStore.saveExpression(english, '', persian, null)
+}
+
+/* Learn step: same Learn experience as vocabulary lessons; "save" is the existing saved-expressions store. */
+const learnItems = computed<LearnItem[]>(() => activeScenario.value?.expressions.map(itemFromExpression) ?? [])
+
+function isExpressionSaved(item: LearnItem): boolean {
+    return savedExpressionsStore.expressions.some(saved => saved.expression.toLowerCase() === item.text.trim().toLowerCase())
+}
+
+function toggleExpressionSaved(item: LearnItem) {
+    if (isExpressionSaved(item)) savedExpressionsStore.removeExpression(item.text.trim())
+    else savedExpressionsStore.saveExpression(item.text, '', item.meaning, null)
 }
 
 /* ---------- practice step ---------- */
@@ -479,7 +496,9 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     :key="key"
                     type="button"
                     class="shrink-0 rounded-full px-3 py-1.5 transition"
-                    :class="step === key ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'"
+                    :class="step === key
+                        ? (key === 'see' || key === 'learn' ? 'bg-learn-600 text-white' : 'bg-practice-600 text-white')
+                        : 'bg-gray-100 text-gray-500 hover:bg-gray-200'"
                     @click="step = key as Step"
                 >
                     {{ label }}
@@ -488,8 +507,10 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
 
             <!-- SEE -->
             <div v-if="step === 'see'" class="rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm">
-                <div class="text-6xl">{{ activeManifest?.icon }}</div>
-                <h1 class="mt-4 text-2xl font-bold text-gray-900">{{ activeScenario.title }}</h1>
+                <div class="mx-auto aspect-[16/9] w-full max-w-sm overflow-hidden rounded-2xl border border-gray-200">
+                    <LearningIllustration :scene="activeScenario.id" :seed="activeScenario.id" :label="activeScenario.title" />
+                </div>
+                <h1 class="mt-5">{{ activeScenario.title }}</h1>
                 <p class="text-gray-500" dir="rtl">{{ activeScenario.titlePersian }}</p>
 
                 <p class="mx-auto mt-5 max-w-md text-gray-700">{{ activeScenario.context }}</p>
@@ -497,64 +518,44 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     {{ activeScenario.contextPersian }}
                 </p>
 
-                <button type="button" class="mt-6 rounded-xl bg-black px-8 py-3 font-semibold text-white hover:bg-gray-800" @click="step = 'learn'">
+                <button type="button" class="btn-primary btn-lg mt-6" @click="step = 'learn'">
                     Learn the expressions ({{ activeScenario.expressions.length }})
                 </button>
             </div>
 
-            <!-- LEARN (+ Listen) -->
-            <div v-else-if="step === 'learn'">
-                <div class="space-y-3">
-                    <div
-                        v-for="expression in activeScenario.expressions"
-                        :key="expression.english"
-                        class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm"
-                    >
-                        <div class="flex items-start justify-between gap-2">
-                            <div class="min-w-0">
-                                <p class="font-semibold text-gray-900">
-                                    {{ expression.english }}
-                                    <SpeechButton :text="expression.english" lang="en-US" />
-                                </p>
-                                <p class="text-sm text-gray-500" dir="rtl">{{ expression.persian }}</p>
-                            </div>
-                            <button
-                                type="button"
-                                class="shrink-0 rounded-lg border px-2 py-1 text-xs text-gray-500 hover:bg-gray-100"
-                                @click="saveExpression(expression.english, expression.persian)"
-                            >
-                                ☆ Save
-                            </button>
-                        </div>
-
-                        <p class="mt-2 break-words text-sm text-gray-700">
-                            {{ expression.example }}
-                            <SpeechButton :text="expression.example" lang="en-US" />
-                        </p>
-                        <p class="text-sm text-gray-500" dir="rtl">{{ expression.examplePersian }}</p>
-                        <p v-if="expression.note" class="mt-1 text-xs text-amber-600">💡 {{ expression.note }}</p>
-                    </div>
-                </div>
-
-                <button type="button" class="mt-6 w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800" @click="finishLearn">
-                    Practice →
-                </button>
-            </div>
+            <!-- LEARN: the shared Learn experience (explanations first, everything visible) -->
+            <LearnStage
+                v-else-if="step === 'learn'"
+                :items="learnItems"
+                :title="activeScenario.title"
+                :subtitle="activeScenario.titlePersian"
+                :meta="[activeManifest?.cefrLevel ?? '', `${learnItems.length} expressions`].filter(Boolean)"
+                :scene="activeScenario.id"
+                :seed="activeScenario.id"
+                hide-back
+                framed
+                :is-saved="isExpressionSaved"
+                save-label="saved expressions"
+                :actions="[{ key: 'practice', label: 'Continue to Practice', primary: true }]"
+                finish-label="Finish"
+                @save="toggleExpressionSaved"
+                @action="finishLearn"
+            />
 
             <!-- PRACTICE -->
-            <div v-else-if="step === 'practice' && currentExercise">
-                <div class="mb-4 flex justify-between text-sm text-gray-500">
-                    <span>Practice</span>
-                    <span>{{ exerciseIndex + 1 }} / {{ activeScenario.exercises.length }}</span>
+            <div data-mode="practice" v-else-if="step === 'practice' && currentExercise">
+                <div class="mb-4 flex items-center justify-between text-sm">
+                    <span class="rounded-full bg-practice-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.1em] text-practice-700">Practice</span>
+                    <span class="tabular-nums text-ink-soft">{{ exerciseIndex + 1 }} / {{ activeScenario.exercises.length }}</span>
                 </div>
 
-                <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                <div class="rounded-3xl border border-work-line bg-work p-5 shadow-soft sm:p-6">
                     <ExercisePlayer :key="currentExercise.id" :exercise="currentExercise" @result="onExerciseResult" />
 
                     <button
                         v-if="exerciseAnswered"
                         type="button"
-                        class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
+                        class="mt-6 min-h-12 w-full rounded-2xl bg-practice-600 px-4 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40"
                         @click="nextExercise"
                     >
                         {{ exerciseIndex === activeScenario.exercises.length - 1 ? 'Continue to speaking' : 'Next' }}
@@ -563,8 +564,8 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
             </div>
 
             <!-- SPEAK -->
-            <div v-else-if="step === 'speak'" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-                <h2 class="font-semibold text-gray-900">🎙 Say it out loud</h2>
+            <div data-mode="practice" v-else-if="step === 'speak'" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                <h2 class="font-semibold text-gray-900">Say it out loud</h2>
                 <p class="mt-2 text-gray-700">{{ activeScenario.speakingTask.instruction }}</p>
                 <p class="mt-1 rounded-xl bg-gray-50 p-3 text-sm text-gray-600" dir="rtl">
                     {{ activeScenario.speakingTask.instructionPersian }}
@@ -585,13 +586,13 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                         <button
                             v-if="!isListening"
                             type="button"
-                            class="rounded-full bg-black px-8 py-3 text-white hover:bg-gray-800 disabled:opacity-50"
+                            class="rounded-full bg-accent px-8 py-3 text-white hover:bg-accent-strong disabled:opacity-50"
                             :disabled="!voiceSupported"
                             @click="recordSpeaking"
                         >
-                            🎙 Speak
+                            Speak
                         </button>
-                        <div v-else class="inline-block rounded-lg bg-gray-100 px-8 py-3 text-gray-600">🎙 Listening…</div>
+                        <div v-else class="inline-block rounded-lg bg-gray-100 px-8 py-3 text-gray-600">Listening…</div>
                         <p v-if="!voiceSupported" class="mt-2 text-xs text-red-500">Speech recognition is not supported in this browser.</p>
                         <p v-if="voiceError" class="mt-2 text-xs text-red-500">{{ voiceError }}</p>
                     </div>
@@ -612,13 +613,13 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     </div>
                 </template>
 
-                <button type="button" class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800" @click="finishSpeak">
+                <button type="button" class="btn-primary btn-lg mt-6 w-full" @click="finishSpeak">
                     Continue to roleplay →
                 </button>
             </div>
 
             <!-- USE: embedded roleplay -->
-            <div v-else-if="step === 'use'" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div data-mode="practice" v-else-if="step === 'use'" class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
                 <h2 class="font-semibold text-gray-900">💬 Use it: {{ activeScenario.roleplay.objective }}</h2>
                 <p class="mt-1 text-sm text-gray-500">
                     You: {{ activeScenario.roleplay.learnerRole }} · AI: {{ activeScenario.roleplay.aiRole }}
@@ -627,7 +628,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                 <button
                     v-if="!roleplayMessages.length"
                     type="button"
-                    class="mt-4 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white hover:bg-gray-800"
+                    class="btn-primary btn-lg mt-4 w-full"
                     @click="startRoleplay"
                 >
                     Start roleplay
@@ -643,7 +644,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                         >
                             <div
                                 class="max-w-[85%] rounded-2xl px-3 py-2 text-sm"
-                                :class="message.role === 'learner' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'"
+                                :class="message.role === 'learner' ? 'bg-accent text-white' : 'bg-gray-100 text-gray-800'"
                             >
                                 {{ message.text }}
                                 <SpeechButton v-if="message.role === 'tutor'" :text="message.text" lang="en-US" />
@@ -658,13 +659,13 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                             v-model="roleplayDraft"
                             dir="auto"
                             placeholder="Reply in English…"
-                            class="min-w-0 flex-1 rounded-xl border px-3 py-2 outline-none focus:border-gray-900"
+                            class="field min-w-0 flex-1"
                             :disabled="roleplayWaiting"
                             @keydown.enter.prevent="sendRoleplayMessage"
                         />
                         <button
                             type="button"
-                            class="shrink-0 rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-gray-800 disabled:opacity-40"
+                            class="btn-primary shrink-0"
                             :disabled="!roleplayDraft.trim() || roleplayWaiting"
                             @click="sendRoleplayMessage"
                         >
@@ -679,14 +680,14 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
             </div>
 
             <!-- DONE -->
-            <div v-else-if="step === 'done'" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
-                <div class="text-5xl">✅</div>
+            <div data-mode="practice" v-else-if="step === 'done'" class="rounded-2xl border bg-white p-10 text-center shadow-sm">
+                <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
                 <h2 class="mt-4 text-2xl font-bold">{{ activeScenario.title }} — done</h2>
                 <p class="mt-2 text-sm text-gray-500">
                     {{ progressStore.stepCount(activeScenario.id) }} / 4 steps completed.
                     Saved expressions are waiting in your review queue.
                 </p>
-                <button type="button" class="mt-6 rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800" @click="closeScenario">
+                <button type="button" class="btn-primary btn-lg mt-6" @click="closeScenario">
                     Back to scenarios
                 </button>
             </div>
@@ -695,7 +696,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
         <!-- ==================== HOME ==================== -->
         <template v-else>
             <div class="mb-6">
-                <h1 class="text-3xl font-bold text-gray-900">Real-Life English</h1>
+                <h1>Real-Life English</h1>
                 <p class="mt-2 text-gray-500">
                     Say everyday things the way people actually say them.
                     <span dir="rtl" class="block text-sm">انگلیسی را همان‌طور که در زندگی واقعی استفاده می‌شود یاد بگیر.</span>
@@ -708,7 +709,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     :key="key"
                     type="button"
                     class="shrink-0 rounded-full px-4 py-2 transition"
-                    :class="tab === key ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
+                    :class="tab === key ? 'bg-accent text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
                     @click="tab = key as Tab"
                 >
                     {{ label }}
@@ -721,19 +722,23 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     v-for="scenario in scenarios"
                     :key="scenario.id"
                     type="button"
-                    class="rounded-2xl border border-gray-200 bg-white p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                    class="overflow-hidden rounded-2xl border border-gray-200 bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-teal-500/30"
                     @click="openScenario(scenario)"
                 >
-                    <div class="flex items-start justify-between gap-2">
-                        <span class="text-3xl">{{ scenario.icon }}</span>
-                        <span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">{{ scenario.cefrLevel }}</span>
+                    <div class="aspect-[16/9] w-full overflow-hidden" aria-hidden="true">
+                        <LearningIllustration :scene="scenario.id || scenario.category" :seed="scenario.id" />
                     </div>
-                    <p class="mt-2 font-semibold text-gray-900">{{ scenario.title }}</p>
-                    <p class="text-sm text-gray-500" dir="rtl">{{ scenario.titlePersian }}</p>
-                    <p class="mt-1 text-xs text-gray-400">
-                        ~{{ scenario.estimatedDuration }} min
-                        <span v-if="progressStore.stepCount(scenario.id)"> · {{ progressStore.stepCount(scenario.id) }}/4 steps</span>
-                    </p>
+                    <div class="p-4">
+                        <div class="flex items-start justify-between gap-2">
+                            <p class="font-semibold text-gray-900">{{ scenario.title }}</p>
+                            <span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">{{ scenario.cefrLevel }}</span>
+                        </div>
+                        <p class="text-sm text-gray-500" dir="rtl">{{ scenario.titlePersian }}</p>
+                        <p class="mt-1 text-xs text-gray-400">
+                            ~{{ scenario.estimatedDuration }} min
+                            <span v-if="progressStore.stepCount(scenario.id)"> · {{ progressStore.stepCount(scenario.id) }}/4 steps</span>
+                        </p>
+                    </div>
                 </button>
             </div>
 
@@ -750,13 +755,13 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                             v-model="myLifeInput"
                             dir="auto"
                             placeholder="مثلاً: دارم چای درست می‌کنم / I am making tea"
-                            class="min-w-0 flex-1 rounded-xl border px-3 py-2.5 outline-none focus:border-gray-900"
+                            class="field min-w-0 flex-1"
                             :disabled="myLifeLoading"
                             @keydown.enter.prevent="expressMyLife"
                         />
                         <button
                             type="button"
-                            class="shrink-0 rounded-xl bg-black px-4 py-2.5 font-semibold text-white hover:bg-gray-800 disabled:opacity-40"
+                            class="btn-primary btn-lg shrink-0"
                             :disabled="!myLifeInput.trim() || myLifeLoading"
                             @click="expressMyLife"
                         >
@@ -827,7 +832,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                         <button
                             v-if="myLifePracticeIndex === null"
                             type="button"
-                            class="mt-2 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-700"
+                            class="btn-primary mt-2"
                             @click="myLifePracticeIndex = 0"
                         >
                             Practice it ({{ myLifeExercises.length }})
@@ -838,22 +843,22 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                                 :exercise="myLifeExercises[myLifePracticeIndex]"
                                 @result="() => {}"
                             />
-                            <button type="button" class="mt-3 rounded-xl bg-gray-900 px-4 py-2 text-sm font-semibold text-white" @click="myLifePracticeIndex!++">
+                            <button type="button" class="btn-primary mt-3" @click="myLifePracticeIndex!++">
                                 {{ myLifePracticeIndex === myLifeExercises.length - 1 ? 'Done' : 'Next' }}
                             </button>
                         </div>
-                        <p v-else class="mt-2 text-sm text-green-700">✅ Done.</p>
+                        <p v-else class="mt-2 text-sm text-green-700">Done.</p>
                     </div>
                 </div>
             </div>
 
             <!-- QUICK PRACTICE -->
-            <div v-else-if="tab === 'quick'">
+            <div data-mode="practice" v-else-if="tab === 'quick'">
                 <div v-if="!quickExercises.length" class="rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm">
                     <p class="text-gray-600">Five random exercises from everyday scenarios — about 3 minutes.</p>
                     <button
                         type="button"
-                        class="mt-4 rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="btn-primary btn-lg mt-4"
                         :disabled="quickLoading || !scenarios.length"
                         @click="startQuickPractice"
                     >
@@ -875,7 +880,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                         <button
                             v-if="quickResults.length > quickIndex"
                             type="button"
-                            class="mt-6 w-full rounded-xl bg-black px-4 py-3 font-semibold text-white"
+                            class="btn-primary btn-lg mt-6 w-full"
                             @click="quickIndex++"
                         >
                             {{ quickIndex === quickExercises.length - 1 ? 'Finish' : 'Next' }}
@@ -884,9 +889,9 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                 </div>
 
                 <div v-else class="rounded-2xl border bg-white p-8 text-center shadow-sm">
-                    <div class="text-4xl">⚡</div>
+                    <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="sparkle" :size="26" /></span>
                     <p class="mt-3 text-xl font-bold">{{ quickResults.filter(r => r.correct).length }} / {{ quickResults.length }}</p>
-                    <button type="button" class="mt-4 rounded-xl bg-black px-5 py-2.5 font-semibold text-white" @click="quickExercises = []">
+                    <button type="button" class="btn-primary btn-lg mt-4" @click="quickExercises = []">
                         Again
                     </button>
                 </div>
@@ -899,7 +904,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                     <p class="mt-4 text-lg text-gray-700" dir="rtl">{{ reviewCurrent.meaningPersian || reviewCurrent.meaning || '—' }}</p>
 
                     <template v-if="!reviewRevealed">
-                        <button type="button" class="mt-6 rounded-xl bg-black px-6 py-3 font-semibold text-white" @click="reviewRevealed = true">
+                        <button type="button" class="btn-primary btn-lg mt-6" @click="reviewRevealed = true">
                             Show English
                         </button>
                     </template>
@@ -927,7 +932,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                         </p>
                         <button
                             type="button"
-                            class="rounded-xl bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 disabled:opacity-40"
+                            class="btn-primary"
                             :disabled="!savedExpressionsStore.expressions.length"
                             @click="startReview"
                         >

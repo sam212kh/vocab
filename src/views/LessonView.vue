@@ -1,102 +1,110 @@
 <script setup lang="ts">
-import {
-    computed,
-    onMounted,
-    ref,
-} from 'vue'
+import { computed, onMounted, ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 
-import { useRoute } from 'vue-router'
+import LearnStage from '../components/learn/LearnStage.vue'
 
-import {
-    loadManifest,
-    loadLesson,
-} from '../services/vocabulary'
+import { loadLesson, loadManifest } from '../services/vocabulary'
+import { calculateLessonProgress } from '../services/lessonProgress'
+import { itemFromWord, parseWordIndex } from '../services/learnItems'
+import type { LearnItem } from '../services/learnItems'
 
-import type {
-    LessonManifest,
-    Word,
-} from '../types/vocabulary'
+import { useHardWordsStore } from '../stores/hardWords'
+import { useLearningPositionStore } from '../stores/learningPosition'
+import { useWordProgressStore } from '../stores/wordProgress'
 
-import WordCard from '../components/vocabulary/WordCard.vue'
-
-import {
-    useWordProgressStore,
-} from '../stores/wordProgress'
-
-import {
-    calculateLessonProgress,
-} from '../services/lessonProgress'
+import type { LessonManifest, Word } from '../types/vocabulary'
 
 const route = useRoute()
+const router = useRouter()
 
-const lesson =
-    ref<LessonManifest | null>(null)
+const hardWordsStore = useHardWordsStore()
+const wordProgressStore = useWordProgressStore()
+const positionStore = useLearningPositionStore()
 
-const words =
-    ref<Word[]>([])
+const lesson = ref<LessonManifest | null>(null)
+const words = ref<Word[]>([])
+const loading = ref(true)
+const error = ref('')
 
-const loading =
-    ref(true)
+const items = computed<LearnItem[]>(() => words.value.map(itemFromWord))
 
-const error =
-    ref('')
+const startIndex = ref(0)
 
-const wordProgressStore =
-    useWordProgressStore()
+const lessonProgress = computed(() => calculateLessonProgress(words.value, wordProgressStore.progress))
 
-const lessonProgress = computed(() => {
-    return calculateLessonProgress(
-        words.value,
-        wordProgressStore.progress
-    )
+const stats = computed(() => ({
+    studied: lessonProgress.value.studiedWords,
+    total: lessonProgress.value.totalWords,
+    mastered: lessonProgress.value.masteredWords,
+}))
+
+const meta = computed(() => [
+    lesson.value?.cefrLevel,
+    `${words.value.length} expressions`,
+].filter((value): value is string => !!value))
+
+const courseId = computed(() => String(route.params.courseId))
+const lessonId = computed(() => String(route.params.lessonId))
+
+const actions = computed(() => {
+    const query = `courseId=${courseId.value}&lessonId=${lessonId.value}`
+
+    return [
+        { key: 'practice', label: 'Start practice', to: `/practice?${query}`, primary: true },
+        { key: 'cloze', label: 'Fill in the blank', to: `/cloze?${query}` },
+        { key: 'matching', label: 'Match pairs', to: `/matching?${query}` },
+        { key: 'quiz', label: 'Quiz', to: `/quiz?${query}` },
+    ]
 })
+
+/* Hard Words is the existing "save" for vocabulary — same store, same behaviour. */
+function isSaved(item: LearnItem): boolean {
+    return hardWordsStore.isHardWord(item.id)
+}
+
+function toggleSave(item: LearnItem) {
+    hardWordsStore.toggleWord(item.id, item.meaning)
+}
+
+/* Keep the position in the URL (?w=3) so refresh and shared links resume — optional, additive. */
+function syncPosition(index: number) {
+    const { w: _previous, ...rest } = route.query
+
+    if (lesson.value) {
+        positionStore.record({
+            courseId: courseId.value,
+            lessonId: lessonId.value,
+            title: lesson.value.title,
+            index,
+            total: words.value.length,
+        })
+    }
+
+    void router.replace({ query: index > 0 ? { ...rest, w: String(index + 1) } : rest })
+}
+
+function onComplete() {
+    positionStore.clearIfLesson(courseId.value, lessonId.value)
+}
 
 onMounted(async () => {
     try {
-        const manifest =
-            await loadManifest()
+        const manifest = await loadManifest()
+        const course = manifest.courses.find(item => item.id === courseId.value)
 
-        const courseId =
-            String(route.params.courseId)
+        if (!course) throw new Error('Course not found')
 
-        const lessonId =
-            String(route.params.lessonId)
+        lesson.value = course.lessons.find(item => item.id === lessonId.value) ?? null
 
-        const course =
-            manifest.courses.find(
-                item =>
-                    item.id === courseId
-            )
+        if (!lesson.value) throw new Error('Lesson not found')
 
-        if (!course) {
-            throw new Error(
-                'Course not found'
-            )
-        }
-
-        lesson.value =
-            course.lessons.find(
-                item =>
-                    item.id === lessonId
-            ) ?? null
-
-        if (!lesson.value) {
-            throw new Error(
-                'Lesson not found'
-            )
-        }
-
-        words.value =
-            await loadLesson(
-                lesson.value
-            )
+        words.value = await loadLesson(lesson.value)
+        startIndex.value = parseWordIndex(route.query.w, words.value.length)
+        syncPosition(startIndex.value)
     } catch (e) {
         console.error(e)
-
-        error.value =
-            e instanceof Error
-                ? e.message
-                : 'Failed to load lesson'
+        error.value = e instanceof Error ? e.message : 'Failed to load lesson'
     } finally {
         loading.value = false
     }
@@ -104,213 +112,43 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div
-        class="mx-auto max-w-5xl space-y-6"
-    >
-        <!-- Loading -->
+    <div>
+        <div class="mx-auto max-w-6xl">
+            <div v-if="loading" class="rounded-3xl border border-line bg-white p-10 text-center text-sm text-ink-soft shadow-soft" role="status">
+                Loading lesson…
+            </div>
 
-        <div
-            v-if="loading"
-            class="rounded-2xl border bg-white p-8 text-center"
-        >
-            <p
-                class="text-gray-500"
-            >
-                Loading lesson...
-            </p>
+            <div v-else-if="error" class="rounded-3xl border border-bad-600/20 bg-bad-50 p-6" role="alert">
+                <h2 class="font-semibold text-bad-600">Couldn't open this lesson</h2>
+                <p class="mt-1 text-sm text-ink-soft">{{ error }}</p>
+                <RouterLink :to="`/courses/${courseId}`" class="mt-3 inline-flex min-h-11 items-center text-sm font-medium text-learn-700">← Back to the course</RouterLink>
+            </div>
+
+            <div v-else-if="lesson && !items.length" class="rounded-3xl border border-line bg-white p-10 text-center text-sm text-ink-soft shadow-soft">
+                No expressions found in this lesson.
+            </div>
+
+            <LearnStage
+                v-else-if="lesson"
+                :items="items"
+                :title="lesson.title"
+                :subtitle="lesson.subtitle"
+                :meta="meta"
+                :seed="`${courseId}/${lessonId}`"
+                :back-to="`/courses/${courseId}`"
+                back-label="Course"
+                :initial-index="startIndex"
+                :is-saved="isSaved"
+                save-label="Hard Words"
+                persian-audio
+                :stats="stats"
+                :book-images="lesson.images"
+                :actions="actions"
+                finish-label="Finish"
+                @save="toggleSave"
+                @update:index="syncPosition"
+                @complete="onComplete"
+            />
         </div>
-
-        <!-- Error -->
-
-        <div
-            v-else-if="error"
-            class="rounded-2xl border border-red-200 bg-red-50 p-6"
-        >
-            <h2
-                class="font-semibold text-red-800"
-            >
-                Failed to load lesson
-            </h2>
-
-            <p
-                class="mt-2 text-sm text-red-600"
-            >
-                {{ error }}
-            </p>
-        </div>
-
-        <!-- Lesson -->
-
-        <template v-else-if="lesson">
-            <!-- Header -->
-
-            <div>
-                <h1
-                    class="text-3xl font-bold text-gray-900"
-                >
-                    {{ lesson.title }}
-                </h1>
-
-                <p
-                    v-if="lesson.subtitle"
-                    class="mt-2 text-gray-500"
-                >
-                    {{ lesson.subtitle }}
-                </p>
-            </div>
-
-            <!-- Book page -->
-
-            <div
-                v-if="lesson.images && lesson.images.length"
-                class="overflow-hidden rounded-2xl border bg-white shadow-sm"
-            >
-                <img
-                    v-for="image in lesson.images"
-                    :key="image"
-                    :src="image"
-                    :alt="lesson.title"
-                    class="w-full"
-                    loading="lazy"
-                />
-            </div>
-
-            <!-- Progress -->
-
-            <div
-                v-if="words.length"
-                class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm"
-            >
-                <div
-                    class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
-                >
-                    <div>
-                        <p
-                            class="text-sm font-medium text-gray-700"
-                        >
-                            Lesson Progress
-                        </p>
-
-                        <p
-                            class="mt-1 text-sm text-gray-500"
-                        >
-                            {{
-                                lessonProgress.studiedWords
-                            }}
-                            /
-                            {{
-                                lessonProgress.totalWords
-                            }}
-                            words studied
-                        </p>
-                    </div>
-
-                    <div
-                        class="text-left sm:text-right"
-                    >
-                        <p
-                            class="text-2xl font-bold text-gray-900"
-                        >
-                            {{
-                                lessonProgress.completionPercent
-                            }}%
-                        </p>
-
-                        <p
-                            class="text-xs text-gray-400"
-                        >
-                            {{
-                                lessonProgress.masteredWords
-                            }}
-                            mastered
-                        </p>
-                    </div>
-                </div>
-
-                <div
-                    class="mt-4 h-2 overflow-hidden rounded-full bg-gray-100"
-                >
-                    <div
-                        class="h-full rounded-full bg-gray-900 transition-all duration-500"
-                        :style="{
-                            width:
-                                `${lessonProgress.completionPercent}%`,
-                        }"
-                    />
-                </div>
-            </div>
-
-            <!-- Empty -->
-
-            <div
-                v-if="!words.length"
-                class="rounded-2xl border bg-white p-8 text-center"
-            >
-                <p
-                    class="text-gray-500"
-                >
-                    No words found in this
-                    lesson.
-                </p>
-            </div>
-
-            <!-- Words -->
-
-            <div
-                v-else
-                class="space-y-6"
-            >
-                <WordCard
-                    v-for="(
-                        word,
-                        index
-                    ) in words"
-                    :key="word.word"
-                    :word="word"
-                    :index="index"
-                />
-            </div>
-
-            <!-- Next step -->
-
-            <div
-                v-if="words.length"
-                class="rounded-2xl border bg-white p-6 text-center shadow-sm"
-            >
-                <p class="text-sm font-medium text-gray-700">
-                    Done reading? Put these words to the test.
-                </p>
-
-                <div class="mt-4 flex flex-col justify-center gap-3 sm:flex-row">
-                    <RouterLink
-                        :to="`/practice?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
-                        class="rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white hover:bg-gray-700"
-                    >
-                        Practice this lesson
-                    </RouterLink>
-
-                    <RouterLink
-                        :to="`/cloze?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
-                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
-                    >
-                        Fill in the blank
-                    </RouterLink>
-
-                    <RouterLink
-                        :to="`/matching?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
-                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
-                    >
-                        Match pairs
-                    </RouterLink>
-
-                    <RouterLink
-                        :to="`/quiz?courseId=${lesson.courseId}&lessonId=${lesson.id}`"
-                        class="rounded-xl border px-5 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-50"
-                    >
-                        Quiz this lesson
-                    </RouterLink>
-                </div>
-            </div>
-        </template>
     </div>
 </template>

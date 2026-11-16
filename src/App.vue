@@ -1,9 +1,18 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, nextTick, onMounted, onUnmounted } from 'vue'
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { modeForPath } from './router/modes'
 import AppSidebar from './components/layout/AppSidebar.vue'
 import AppToast from './components/ui/AppToast.vue'
+import AppIcon from './components/ui/AppIcon.vue'
+
+const route = useRoute()
+const router = useRouter()
+const mode = computed(() => modeForPath(route.path))
 
 const scrolled = ref(false)
+const mainEl = ref<HTMLElement | null>(null)
 
 /*
  * Chrome on Android resizes the viewport when the keyboard opens, which
@@ -14,6 +23,14 @@ const scrolled = ref(false)
 const editingText = ref(false)
 
 const sidebarOpen = ref(false)
+
+/* In-app navigation to a different page moves focus to the content. Not on the first load
+ * (the skip link must stay first in tab order) and not on query-only changes. */
+const stopFocusHook = router.afterEach((to, from) => {
+    if (from.matched.length === 0 || to.path === from.path) return
+
+    void nextTick(() => mainEl.value?.focus({ preventScroll: true }))
+})
 
 function handleScroll() {
     scrolled.value = window.scrollY > 300
@@ -43,6 +60,7 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
+    stopFocusHook()
     window.removeEventListener('scroll', handleScroll)
     window.removeEventListener('focusin', handleFocusIn)
     window.removeEventListener('focusout', handleFocusOut)
@@ -50,30 +68,31 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="min-h-screen bg-gray-50 text-gray-900">
+    <div class="min-h-screen bg-surface text-gray-900" :data-mode="mode">
+        <a href="#main" class="sr-only z-50 rounded-xl bg-white px-4 py-2 font-semibold text-gray-900 shadow-md focus:not-sr-only focus:fixed focus:left-3 focus:top-3" @click.prevent="mainEl?.focus()">Skip to content</a>
         <AppToast />
 
         <!-- Mobile header: a real sticky bar that OWNS layout space, so page
              titles can never scroll underneath a floating button. -->
         <header
-            class="sticky top-0 z-40 flex h-14 items-center gap-3 border-b border-gray-200 bg-gray-50/95 px-4 backdrop-blur md:hidden"
+            class="sticky top-0 z-40 flex h-14 items-center gap-3 border-b border-gray-200/80 bg-surface/95 px-4 backdrop-blur md:hidden"
             style="padding-top: env(safe-area-inset-top)"
         >
             <button
                 type="button"
-                class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border bg-white shadow-sm"
+                class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white text-gray-700 shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
                 aria-label="Open menu"
                 @click="sidebarOpen = true"
             >
-                ☰
+                <AppIcon name="menu" />
             </button>
-            <span class="truncate font-semibold">English Upgrade</span>
+            <span class="font-display truncate text-lg font-semibold">English Upgrade</span>
         </header>
 
         <div class="flex min-h-screen">
             <AppSidebar :open="sidebarOpen" @close="sidebarOpen = false" />
 
-            <main class="min-w-0 flex-1 p-4 md:p-8">
+            <main id="main" ref="mainEl" tabindex="-1" class="min-w-0 flex-1 p-4 pb-10 outline-none md:p-8 md:pb-12">
                 <RouterView />
             </main>
         </div>
@@ -85,7 +104,7 @@ onUnmounted(() => {
             leave-to-class="opacity-0 translate-y-2"
         >
             <button
-                v-if="scrolled && !editingText"
+                v-if="scrolled && !editingText && !route.meta.focusLayout"
                 type="button"
                 class="fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full bg-gray-900 text-white shadow-lg hover:bg-gray-700"
                 aria-label="Back to top"

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 
 import { loadCareerManifest, loadCareerSection } from '../services/careerContent'
@@ -380,6 +381,9 @@ onMounted(async () => {
         loadError.value = err instanceof Error ? err.message : 'Failed to load Career English'
     }
 })
+
+const SECTION_ICON: Record<string, string> = { general: 'target', behavioral: 'star', salary: 'chart', remote: 'compass', workplace: 'chat' }
+const sectionIcon = (id: string) => SECTION_ICON[id] ?? 'briefcase'
 </script>
 
 <template>
@@ -388,13 +392,13 @@ onMounted(async () => {
 
         <!-- ================= ITEM VIEW ================= -->
         <template v-if="activeQuestion || activeScenario || activeDialogue">
-            <button type="button" class="mb-4 text-sm text-gray-500 hover:text-black" @click="closeItem">
+            <button type="button" class="btn-ghost -ml-3 mb-2" @click="closeItem">
                 ← {{ activeSection?.title }}
             </button>
 
             <!-- Dialogue -->
             <div v-if="activeDialogue" class="space-y-3">
-                <h1 class="text-2xl font-bold text-gray-900">{{ activeDialogue.title }}</h1>
+                <h1>{{ activeDialogue.title }}</h1>
                 <p class="text-gray-500" dir="rtl">{{ activeDialogue.titlePersian }}</p>
 
                 <div class="space-y-2 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -422,7 +426,7 @@ onMounted(async () => {
             <!-- Question / behavioral scenario -->
             <div v-else class="space-y-4">
                 <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-                    <h1 class="text-xl font-bold text-gray-900">
+                    <h1 class="text-xl">
                         {{ currentPromptText }}
                         <SpeechButton :text="currentPromptText" lang="en-US" />
                     </h1>
@@ -456,7 +460,7 @@ onMounted(async () => {
                         <textarea
                             rows="2"
                             dir="auto"
-                            class="mt-1 w-full rounded-xl border px-3 py-2 text-sm outline-none focus:border-gray-900"
+                            class="field mt-1 w-full"
                             :value="workingAnswer.star[key]"
                             placeholder="Write in Persian or English…"
                             @input="updateStar(key, ($event.target as HTMLTextAreaElement).value)"
@@ -472,7 +476,7 @@ onMounted(async () => {
                         <label class="text-xs font-semibold uppercase tracking-wider text-gray-400">Persian notes</label>
                         <textarea
                             rows="2" dir="rtl"
-                            class="mt-1 w-full rounded-xl border px-3 py-2 text-sm outline-none focus:border-gray-900"
+                            class="field mt-1 w-full"
                             :value="workingAnswer.persianNotes"
                             @input="savedAnswersStore.update(workingAnswer!.id, { persianNotes: ($event.target as HTMLTextAreaElement).value })"
                         />
@@ -482,7 +486,7 @@ onMounted(async () => {
                         <label class="text-xs font-semibold uppercase tracking-wider text-gray-400">Your English answer</label>
                         <textarea
                             rows="5" dir="auto"
-                            class="mt-1 w-full rounded-xl border px-3 py-2 text-sm outline-none focus:border-gray-900"
+                            class="field mt-1 w-full"
                             :value="workingAnswer.finalAnswer"
                             placeholder="Combine your STAR parts into a spoken-style answer…"
                             @input="savedAnswersStore.update(workingAnswer!.id, { finalAnswer: ($event.target as HTMLTextAreaElement).value })"
@@ -498,7 +502,7 @@ onMounted(async () => {
                         v-model="answerDraft"
                         rows="5"
                         dir="auto"
-                        class="mt-2 w-full rounded-xl border px-3 py-2 outline-none focus:border-gray-900"
+                        class="field mt-2 w-full"
                         placeholder="Answer as if you were in the interview…"
                         @input="answerFromVoice = false"
                     />
@@ -511,24 +515,24 @@ onMounted(async () => {
                             :class="isListening ? 'animate-pulse bg-red-100 text-red-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
                             @click="recordAnswerVoice"
                         >
-                            🎙 {{ isListening ? 'Listening…' : 'Answer by voice' }}
+                            {{ isListening ? 'Listening…' : 'Answer by voice' }}
                         </button>
                         <span v-else class="text-xs text-gray-400">
                             {{ speakingEnabled ? 'Voice not supported here' : 'Voice answers off (Speaking disabled)' }}
                         </span>
                     </div>
-                    <p v-if="answerFromVoice" class="mt-1 text-xs text-gray-400">🎙 Transcribed — edit before evaluating.</p>
+                    <p v-if="answerFromVoice" class="mt-1 text-xs text-gray-400">Transcribed — edit before evaluating.</p>
                     <p v-if="voiceError" class="mt-1 text-xs text-red-500">{{ voiceError }}</p>
                 </div>
 
                 <!-- Evaluate -->
                 <button
                     type="button"
-                    class="w-full rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-40"
+                    class="btn-primary btn-lg w-full"
                     :disabled="evaluating || !textToEvaluate()"
                     @click="evaluateCurrent"
                 >
-                    {{ evaluating ? 'Evaluating…' : '🤖 Evaluate my answer' }}
+                    {{ evaluating ? 'Evaluating…' : 'Evaluate my answer' }}
                 </button>
                 <p v-if="evaluationError" class="rounded-xl bg-amber-50 p-3 text-sm text-amber-700">{{ evaluationError }}</p>
 
@@ -612,10 +616,10 @@ onMounted(async () => {
 
         <!-- ================= SECTION LIST ================= -->
         <template v-else-if="activeSection && SECTION_ITEMS">
-            <button type="button" class="mb-4 text-sm text-gray-500 hover:text-black" @click="activeSection = null; content = null">
+            <button type="button" class="btn-ghost -ml-3 mb-2" @click="activeSection = null; content = null">
                 ← Career English
             </button>
-            <h1 class="text-2xl font-bold text-gray-900">{{ activeSection.icon }} {{ activeSection.title }}</h1>
+            <h1>{{ activeSection.title }}</h1>
             <p class="mb-4 text-gray-500" dir="rtl">{{ activeSection.titlePersian }}</p>
 
             <div class="space-y-2">
@@ -659,7 +663,7 @@ onMounted(async () => {
         <!-- ================= HOME ================= -->
         <template v-else>
             <div class="mb-6">
-                <h1 class="text-3xl font-bold text-gray-900">Career English</h1>
+                <h1>Career English</h1>
                 <p class="mt-2 text-gray-500">
                     Interviews and professional communication — answer in your own words, with your own real experience.
                     <span class="block text-sm" dir="rtl">برای مصاحبه‌های شغلی و ارتباطات حرفه‌ای — با تجربه واقعی خودت.</span>
@@ -672,7 +676,7 @@ onMounted(async () => {
                     :key="key"
                     type="button"
                     class="shrink-0 rounded-full px-4 py-2 transition"
-                    :class="tab === key ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
+                    :class="tab === key ? 'bg-accent text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
                     @click="tab = key as Tab"
                 >
                     {{ label }}
@@ -688,7 +692,7 @@ onMounted(async () => {
                     class="rounded-2xl border border-gray-200 bg-white p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
                     @click="openSection(section)"
                 >
-                    <span class="text-3xl">{{ section.icon }}</span>
+                    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-accent-soft text-accent-ink"><AppIcon :name="sectionIcon(section.id)" :size="22" /></span>
                     <p class="mt-2 font-semibold text-gray-900">{{ section.title }}</p>
                     <p class="text-sm text-gray-500" dir="rtl">{{ section.titlePersian }}</p>
                     <p class="mt-1 text-xs text-gray-400">{{ section.cefrLevel }} · ~{{ section.estimatedDuration }} min each</p>
@@ -700,7 +704,7 @@ onMounted(async () => {
                 <div v-if="!mockSessionId" class="rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm">
                     <p class="text-gray-700">A full AI-led interview: one question at a time, with follow-ups. No hints — answer like the real thing.</p>
                     <p v-if="aiSettingsStore.settings.provider === 'cloud'" class="mt-2 text-xs text-amber-600">Cloud provider selected — your answers are sent to the configured cloud API.</p>
-                    <button type="button" class="mt-4 rounded-xl bg-black px-6 py-3 font-semibold text-white hover:bg-gray-800 disabled:opacity-50" :disabled="mockWaiting" @click="startMock">
+                    <button type="button" class="btn-primary btn-lg mt-4" :disabled="mockWaiting" @click="startMock">
                         {{ mockWaiting ? 'Starting…' : 'Start mock interview' }}
                     </button>
                     <p v-if="mockError" class="mt-3 rounded-lg bg-amber-50 p-2 text-sm text-amber-700">{{ mockError }}</p>
@@ -709,38 +713,36 @@ onMounted(async () => {
                 <div v-else class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
                     <div class="max-h-96 space-y-2 overflow-y-auto">
                         <div v-for="(message, index) in mockMessages" :key="index" class="flex" :class="message.role === 'learner' ? 'justify-end' : 'justify-start'">
-                            <div class="max-w-[85%] rounded-2xl px-3 py-2 text-sm" :class="message.role === 'learner' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'">
+                            <div class="max-w-[85%] rounded-2xl px-3 py-2 text-sm" :class="message.role === 'learner' ? 'bg-accent text-white' : 'bg-gray-100 text-gray-800'">
                                 {{ message.text }}
                                 <SpeechButton v-if="message.role === 'tutor'" :text="message.text" lang="en-US" />
-                                <span v-if="message.voice" class="ml-1 text-xs opacity-60">🎙</span>
+                                <span v-if="message.voice" class="ml-1 text-xs opacity-60"><AppIcon name="mic" :size="22" /></span>
                             </div>
                         </div>
                         <p v-if="mockWaiting" class="text-sm text-gray-400">interviewer is thinking…</p>
                         <p v-if="mockError" class="rounded-lg bg-amber-50 p-2 text-sm text-amber-700">{{ mockError }}</p>
                     </div>
 
-                    <p v-if="mockFromVoice" class="mt-2 text-xs text-gray-400">🎙 Transcribed — edit before sending.</p>
+                    <p v-if="mockFromVoice" class="mt-2 text-xs text-gray-400">Transcribed — edit before sending.</p>
                     <div class="mt-2 flex items-end gap-2">
                         <button
                             v-if="speakingEnabled && voiceSupported"
                             type="button"
-                            class="shrink-0 rounded-full p-3 transition"
-                            :class="isListening ? 'animate-pulse bg-red-100 text-red-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'"
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+                            :class="isListening ? 'animate-pulse bg-red-100 text-red-600' : 'bg-accent-soft text-accent-ink hover:bg-gray-100'"
                             :disabled="mockWaiting"
                             @click="recordMockVoice"
-                        >
-                            🎙
-                        </button>
+                        ><AppIcon name="mic" :size="20" /><span class="sr-only">Speak your message</span></button>
                         <textarea
                             v-model="mockDraft"
                             rows="2"
                             dir="auto"
                             placeholder="Your answer…"
-                            class="min-w-0 flex-1 rounded-xl border px-3 py-2 outline-none focus:border-gray-900"
+                            class="field min-w-0 flex-1"
                             :disabled="mockWaiting"
                             @input="mockFromVoice = false"
                         />
-                        <button type="button" class="shrink-0 rounded-xl bg-black px-4 py-2.5 font-semibold text-white disabled:opacity-40" :disabled="!mockDraft.trim() || mockWaiting" @click="sendMock">
+                        <button type="button" class="btn-primary btn-lg shrink-0" :disabled="!mockDraft.trim() || mockWaiting" @click="sendMock">
                             Send
                         </button>
                     </div>

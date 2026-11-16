@@ -1,1 +1,211 @@
 @import "tailwindcss";
+
+/*
+ * Learning UI design tokens. Two deliberate modes:
+ *   LEARN    — warm paper, serif display type, teal accent: calm and explanatory.
+ *   PRACTICE — cool workspace, sans type, indigo accent: focused and interactive.
+ * No external fonts: everything resolves to system faces that exist offline.
+ */
+@theme {
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Noto Serif", Georgia, ui-serif, serif;
+  --font-fa: "Vazirmatn", "Noto Naskh Arabic", "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+
+  --color-paper: #faf8f3;
+  --color-paper-deep: #f2eee5;
+  --color-line: #e7e1d4;
+  --color-ink: #1c2230;
+  --color-ink-soft: #596273;
+  --color-ink-faint: #8b93a3;
+
+  --color-learn-50: #effaf7;
+  --color-learn-100: #d6f1ea;
+  --color-learn-200: #aee3d6;
+  --color-learn-500: #17917f;
+  --color-learn-600: #0f7a6a;
+  --color-learn-700: #0c6256;
+  --color-learn-900: #0a3d36;
+
+  --color-work: #f3f5fa;
+  --color-work-line: #dde2ee;
+  --color-practice-50: #eef0ff;
+  --color-practice-100: #dfe3ff;
+  --color-practice-500: #5560e8;
+  --color-practice-600: #4650d6;
+  --color-practice-700: #3a43b4;
+
+  --color-good-50: #ecf8ef;
+  --color-good-600: #1f8a4c;
+  --color-bad-50: #fdf0f0;
+  --color-bad-600: #c43d3d;
+
+  --shadow-soft: 0 1px 2px rgb(28 34 48 / 0.04), 0 8px 24px -12px rgb(28 34 48 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(28 34 48 / 0.05), 0 18px 40px -18px rgb(28 34 48 / 0.22);
+
+  /* ---- Product-wide neutrals: legacy gray-* / black now resolve to the ink scale ---- */
+  --color-black: #1c2230;
+  --color-gray-50: #f7f8fa;
+  --color-gray-100: #eef0f4;
+  --color-gray-200: #e0e4ea;
+  --color-gray-300: #cdd2db;
+  --color-gray-400: #98a0b0;
+  --color-gray-500: #6b7488;
+  --color-gray-600: #535d72;
+  --color-gray-700: #414a5e;
+  --color-gray-800: #2b3446;
+  --color-gray-900: #1c2230;
+  --color-gray-950: #12161f;
+
+  /* ---- Status tones, aligned with good/bad tokens ---- */
+  --color-green-50: #ecf8ef;
+  --color-green-100: #d6f0de;
+  --color-green-200: #b3e1c1;
+  --color-green-500: #2c9d5f;
+  --color-green-600: #1f8a4c;
+  --color-green-700: #1b7442;
+  --color-green-800: #175d37;
+  --color-red-50: #fdf0f0;
+  --color-red-100: #fadcdc;
+  --color-red-200: #f3bcbc;
+  --color-red-500: #d34f4f;
+  --color-red-600: #c43d3d;
+  --color-red-700: #a83232;
+  --color-red-800: #862a2a;
+  --color-amber-50: #fdf6e7;
+  --color-amber-100: #f9e8c4;
+  --color-amber-200: #f1d08c;
+  --color-amber-600: #b8730f;
+  --color-amber-700: #94590b;
+  --color-yellow-500: #d99a1e;
+  --color-blue-50: #eef3fb;
+  --color-blue-100: #dbe6f6;
+  --color-blue-600: #3a64b4;
+  --color-blue-700: #2f5195;
+
+  /* ---- Softer elevation for every legacy shadow-* ---- */
+  --shadow-sm: 0 1px 2px rgb(28 34 48 / 0.05), 0 4px 14px -8px rgb(28 34 48 / 0.14);
+  --shadow-md: 0 2px 4px rgb(28 34 48 / 0.05), 0 12px 28px -14px rgb(28 34 48 / 0.2);
+  --shadow-xl: 0 4px 8px rgb(28 34 48 / 0.06), 0 24px 48px -20px rgb(28 34 48 / 0.28);
+}
+
+/*
+ * Section modes. A page sets data-mode; semantic utilities (bg-accent,
+ * text-accent-ink, ring-accent …) then resolve to that section's identity.
+ *   overview  navy   — Dashboard, Journey home, profile
+ *   learn     teal   — lessons, Real-Life learning
+ *   practice  indigo — exercises and every interactive check
+ *   career    bronze — Career English
+ */
+@theme inline {
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-surface: var(--surface);
+}
+
+:root,
+[data-mode="overview"] {
+  --accent: #243350;
+  --accent-strong: #19243b;
+  --accent-soft: #eceff6;
+  --accent-ink: #243350;
+  --surface: #faf8f3;
+}
+[data-mode="learn"] {
+  --accent: #0f7a6a;
+  --accent-strong: #0c6256;
+  --accent-soft: #effaf7;
+  --accent-ink: #0c6256;
+  --surface: #faf8f3;
+}
+[data-mode="practice"] {
+  --accent: #4650d6;
+  --accent-strong: #3a43b4;
+  --accent-soft: #eef0ff;
+  --accent-ink: #3a43b4;
+  --surface: #f3f5fa;
+}
+[data-mode="career"] {
+  --accent: #9a5b13;
+  --accent-strong: #7e4a0f;
+  --accent-soft: #fbf3e6;
+  --accent-ink: #7e4a0f;
+  --surface: #faf6ef;
+}
+
+/* Persian text: right-to-left, roomier leading, never clipped. */
+.fa-text {
+  font-family: var(--font-fa);
+  direction: rtl;
+  line-height: 1.9;
+}
+
+/* Keep long English/Persian strings from forcing horizontal scroll. */
+.wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe-only {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+
+/* ---------------- Shared components ---------------- */
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-4 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 disabled:cursor-not-allowed disabled:opacity-45;
+}
+@utility btn-primary { @apply btn bg-accent text-white hover:bg-accent-strong; }
+@utility btn-secondary { @apply btn border border-gray-200 bg-white text-gray-700 hover:bg-gray-50; }
+@utility btn-ghost { @apply btn text-accent-ink hover:bg-accent-soft; }
+@utility btn-lg { @apply min-h-12 rounded-2xl px-5 text-base; }
+
+@utility field {
+  @apply min-h-12 w-full rounded-xl border border-gray-200 bg-white px-3.5 text-base text-gray-900 outline-none transition placeholder:text-gray-400 focus:border-accent focus:ring-4 focus:ring-accent/20 disabled:bg-gray-50;
+}
+
+/* Selectable pill (difficulty, mode, filters). aria-pressed drives the state. */
+@utility chip {
+  @apply inline-flex min-h-10 items-center justify-center rounded-full border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition hover:border-gray-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30;
+  &[aria-pressed="true"] { @apply border-transparent bg-accent text-white; }
+}
+@utility chip-active { @apply border-transparent bg-accent text-white; }
+
+/* Answer option / tile used by quizzes and matching. State classes are added by the view. */
+@utility choice {
+  @apply flex min-h-14 w-full items-center rounded-2xl border border-gray-200 bg-white p-4 text-left text-base transition hover:border-accent hover:bg-accent-soft focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 disabled:cursor-default;
+}
+@utility choice-correct { @apply !border-green-600 !bg-green-50 text-green-800; }
+@utility choice-wrong { @apply !border-red-600 !bg-red-50 text-red-800; }
+@utility choice-selected { @apply !border-accent !bg-accent text-white; }
+
+@utility surface { @apply rounded-2xl border border-gray-200/80 bg-white shadow-sm; }
+@utility eyebrow { @apply text-xs font-semibold uppercase tracking-[0.1em] text-accent-ink; }
+@utility label { @apply text-xs font-semibold uppercase tracking-[0.08em] text-gray-400; }
+
+/* Shimmer for loading skeletons */
+@keyframes shimmer { 100% { transform: translateX(100%); } }
+.skeleton { position: relative; overflow: hidden; background: var(--color-gray-100); border-radius: 0.75rem; }
+.skeleton::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.65), transparent); animation: shimmer 1.4s infinite; }
+@media (prefers-reduced-motion: reduce) { .skeleton::after { animation: none; } }
+
+
+/* ---------------- Base ---------------- */
+@layer base {
+  h1 { font-size: 1.75rem; font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; color: var(--color-gray-900); }
+  @media (min-width: 640px) { h1 { font-size: 2.25rem; } }
+  button:not(:disabled), [role="button"], summary { cursor: pointer; }
+  :focus-visible { outline-color: var(--accent); }
+}
+
+/* Touch devices: every control in the page body is at least 44px tall. */
+@media (pointer: coarse) {
+  main button[class*="rounded"]:not([class*="h-"]):not([class*="min-h-"]),
+  main select,
+  main input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
+    min-height: 2.75rem;
+  }
+  main input[type="checkbox"], main input[type="radio"] { width: 1.25rem; height: 1.25rem; }
+}

@@ -108,7 +108,7 @@ function reset() {
 <template>
     <div class="mx-auto max-w-3xl space-y-8">
         <div>
-            <h1 class="text-3xl font-bold text-gray-900">Profile</h1>
+            <h1>Profile</h1>
             <p class="mt-2 text-gray-500">
                 These settings describe how you learn — nothing here is hardcoded into the
                 learning logic, and everything is editable at any time.
@@ -125,7 +125,7 @@ function reset() {
                         <input
                             v-model="form.nativeLanguage"
                             type="text"
-                            class="w-full rounded-lg border px-3 py-2"
+                            class="field w-full"
                         />
                     </label>
 
@@ -134,14 +134,14 @@ function reset() {
                         <input
                             v-model="form.targetLanguage"
                             type="text"
-                            class="w-full rounded-lg border px-3 py-2"
+                            class="field w-full"
                         />
                     </label>
                 </div>
 
                 <label class="mt-4 block text-sm">
                     <span class="mb-1 block font-medium text-gray-700">Explanation language</span>
-                    <select v-model="form.explanationLanguage" class="w-full rounded-lg border px-3 py-2">
+                    <select v-model="form.explanationLanguage" class="field w-full">
                         <option value="bilingual">Bilingual (Persian + English)</option>
                         <option value="persian">Persian</option>
                         <option value="english">English only</option>
@@ -160,7 +160,7 @@ function reset() {
                         type="button"
                         class="rounded-full border px-3 py-1.5 text-sm transition"
                         :class="form.selectedGoals.includes(goal)
-                            ? 'border-gray-900 bg-gray-900 text-white'
+                            ? 'border-accent bg-accent text-white'
                             : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                         @click="toggleGoal(goal)"
                     >
@@ -174,7 +174,7 @@ function reset() {
 
                 <label class="mt-4 block text-sm">
                     <span class="mb-1 block font-medium text-gray-700">Daily session length</span>
-                    <select v-model.number="form.studyDurationMinutes" class="w-full rounded-lg border px-3 py-2 sm:w-48">
+                    <select v-model.number="form.studyDurationMinutes" class="field w-full sm:w-48">
                         <option v-for="duration in DURATIONS" :key="duration" :value="duration">
                             {{ duration }} minutes
                         </option>
@@ -190,7 +190,7 @@ function reset() {
                             type="button"
                             class="rounded-full border px-3 py-1.5 text-sm transition"
                             :class="form.selectedDays.includes(day)
-                                ? 'border-gray-900 bg-gray-900 text-white'
+                                ? 'border-accent bg-accent text-white'
                                 : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                             @click="toggleDay(day)"
                         >
@@ -208,7 +208,7 @@ function reset() {
                     v-model="form.interestsText"
                     type="text"
                     placeholder="e.g. software engineering, travel, football"
-                    class="mt-3 w-full rounded-lg border px-3 py-2"
+                    class="field mt-3 w-full"
                 />
             </section>
 
@@ -226,7 +226,7 @@ function reset() {
                         type="button"
                         class="rounded-full border px-3 py-1.5 text-sm transition"
                         :class="form.selfReportedLevel === level
-                            ? 'border-gray-900 bg-gray-900 text-white'
+                            ? 'border-accent bg-accent text-white'
                             : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
                         @click="form.selfReportedLevel = level"
                     >
@@ -254,7 +254,7 @@ function reset() {
             <div class="flex items-center gap-3">
                 <button
                     type="submit"
-                    class="rounded-xl bg-black px-6 py-3 text-white hover:bg-gray-800"
+                    class="btn-primary btn-lg"
                 >
                     Save profile
                 </button>

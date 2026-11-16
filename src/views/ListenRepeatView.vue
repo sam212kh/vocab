@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 
 import {
@@ -354,7 +355,7 @@ onMounted(async () => {
         ========================================================== -->
 
         <div class="mb-8">
-            <h1 class="text-3xl font-bold">
+            <h1>
                 Listen & Repeat
             </h1>
 
@@ -395,7 +396,7 @@ onMounted(async () => {
                     class="rounded-xl border p-4 text-left transition"
                     :class="
                         mode === 'lesson'
-                            ? 'border-black bg-black text-white'
+                            ? 'border-accent bg-accent text-white'
                             : 'border-gray-200 bg-white hover:bg-gray-50'
                     "
                     @click="changeMode('lesson')"
@@ -403,9 +404,7 @@ onMounted(async () => {
                     <div
                         class="flex items-center gap-3"
                     >
-                        <span class="text-2xl">
-                            📖
-                        </span>
+                        <span class="text-2xl"><AppIcon name="book" :size="22" /></span>
 
                         <div>
                             <div
@@ -443,9 +442,7 @@ onMounted(async () => {
                     <div
                         class="flex items-center gap-3"
                     >
-                        <span class="text-2xl">
-                            ⭐
-                        </span>
+                        <span class="text-2xl"><AppIcon name="star" :size="22" /></span>
 
                         <div>
                             <div
@@ -490,7 +487,7 @@ onMounted(async () => {
 
                 <select
                     v-model="selectedCourseId"
-                    class="w-full rounded-lg border bg-white px-4 py-3"
+                    class="field w-full"
                     @change="changeCourse"
                 >
                     <option value="">
@@ -518,7 +515,7 @@ onMounted(async () => {
 
                 <select
                     v-model="selectedLessonId"
-                    class="w-full rounded-lg border bg-white px-4 py-3 disabled:bg-gray-100"
+                    class="field w-full disabled:bg-gray-100"
                     :disabled="
                         !selectedCourseId
                     "
@@ -556,7 +553,7 @@ onMounted(async () => {
                     <p
                         class="font-semibold text-yellow-800"
                     >
-                        ⭐ Hard Words
+                        Hard Words
                     </p>
 
                     <p
@@ -636,7 +633,7 @@ onMounted(async () => {
                 class="h-2 overflow-hidden rounded-full bg-gray-200"
             >
                 <div
-                    class="h-full rounded-full bg-black transition-all duration-300"
+                    class="h-full rounded-full bg-accent transition-all duration-300"
                     :style="{
                         width: `${progressPercent}%`
                     }"
@@ -689,8 +686,8 @@ onMounted(async () => {
                 >
                     {{
                         mode === 'hard'
-                            ? '⭐ Hard Words'
-                            : '📖 Lesson Words'
+                            ? 'Hard Words'
+                            : 'Lesson Words'
                     }}
                 </p>
 
@@ -733,7 +730,7 @@ onMounted(async () => {
                             'word'
                         "
                     >
-                        🔊 Playing word...
+                        Playing word...
                     </span>
 
                     <span
@@ -777,7 +774,7 @@ onMounted(async () => {
                     <button
                         v-if="!isPlaying"
                         type="button"
-                        class="rounded-lg bg-black px-6 py-2 text-white hover:bg-gray-800"
+                        class="btn-primary"
                         @click="start"
                     >
                         ▶ Play
@@ -837,7 +834,7 @@ onMounted(async () => {
                 !loading &&
                 mode === 'hard'
             "
-            class="rounded-xl border border-dashed p-12 text-center"
+            class="surface px-6 py-12 text-center text-gray-500"
         >
             <div class="text-5xl">
                 ⭐
@@ -853,13 +850,13 @@ onMounted(async () => {
                 class="mx-auto mt-2 max-w-md text-sm text-gray-500"
             >
                 You don't have any hard words yet.
-                Click the ⭐ button next to a word
+                Click the button next to a word
                 to add it to your Hard Words.
             </p>
 
             <button
                 type="button"
-                class="mt-6 rounded-lg bg-black px-5 py-2 text-sm text-white hover:bg-gray-800"
+                class="btn-primary mt-6"
                 @click="
                     changeMode('lesson')
                 "
@@ -877,7 +874,7 @@ onMounted(async () => {
                 !loading &&
                 mode === 'lesson'
             "
-            class="rounded-xl border border-dashed p-12 text-center text-gray-500"
+            class="surface px-6 py-12 text-center text-gray-500"
         >
             Select a course and lesson to start.
         </div>

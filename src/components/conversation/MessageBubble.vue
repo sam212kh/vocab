@@ -75,7 +75,7 @@ function saveExpression() {
             <div
                 class="rounded-2xl px-4 py-2.5"
                 :class="message.role === 'learner'
-                    ? 'rounded-br-sm bg-gray-900 text-white'
+                    ? 'rounded-br-sm bg-accent text-white'
                     : 'rounded-bl-sm border border-gray-200 bg-white text-gray-900 shadow-sm'"
             >
                 <p class="whitespace-pre-wrap leading-relaxed" dir="auto">{{ message.text }}</p>
@@ -84,7 +84,7 @@ function saveExpression() {
                     v-if="message.role === 'learner' && message.inputMethod === 'voice'"
                     class="mt-1 text-xs text-gray-400"
                 >
-                    🎙 spoken
+                    spoken
                 </p>
             </div>
 

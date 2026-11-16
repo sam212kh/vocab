@@ -294,7 +294,6 @@ function removeCurrentWord() {
         <!-- Header -->
         <div class="mb-8">
             <h1
-                class="text-3xl font-bold"
             >
                 Hard Words Practice
             </h1>
@@ -310,7 +309,7 @@ function removeCurrentWord() {
         <!-- Empty -->
         <div
             v-if="!currentWord"
-            class="rounded-xl border border-dashed p-12 text-center"
+            class="surface px-6 py-12 text-center text-gray-500"
         >
             <div class="text-5xl">
                 🎉
@@ -356,7 +355,7 @@ function removeCurrentWord() {
                     class="h-2 overflow-hidden rounded-full bg-gray-200"
                 >
                     <div
-                        class="h-full rounded-full bg-black transition-all"
+                        class="h-full rounded-full bg-accent transition-all"
                         :style="{
                             width:
                                 `${progressPercent}%`,
@@ -421,7 +420,7 @@ function removeCurrentWord() {
                     >
                         <button
                             type="button"
-                            class="rounded-lg bg-black px-7 py-3 text-white hover:bg-gray-800"
+                            class="btn-primary btn-lg"
                             @click="
                                 startThinking
                             "
@@ -476,12 +475,12 @@ function removeCurrentWord() {
 
                     <button
                         type="button"
-                        class="mt-8 rounded-lg bg-black px-7 py-3 text-white hover:bg-gray-800"
+                        class="btn-primary btn-lg mt-8"
                         @click="
                             startSpeaking
                         "
                     >
-                        🎙 Speak →
+                        Speak →
                     </button>
                 </div>
 
@@ -523,20 +522,20 @@ function removeCurrentWord() {
                     <button
                         v-if="!isListening"
                         type="button"
-                        class="mt-10 rounded-full bg-black px-8 py-4 text-lg text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="mt-10 rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
                         :disabled="!isSupported"
                         @click="
                             practiceWord
                         "
                     >
-                        🎙 Start Speaking
+                        Start Speaking
                     </button>
 
                     <div
                         v-else
                         class="mt-10 rounded-lg bg-gray-100 px-8 py-4 text-gray-600"
                     >
-                        🎙 Listening...
+                        Listening...
                     </div>
 
                     <p
@@ -605,14 +604,14 @@ function removeCurrentWord() {
                                 "
                                 class="mt-3 text-lg font-semibold text-green-600"
                             >
-                                ✅ Correct!
+                                Correct!
                             </p>
 
                             <p
                                 v-else
                                 class="mt-3 text-lg font-semibold text-red-600"
                             >
-                                ❌ Try again
+                                Try again
                             </p>
                         </div>
 
@@ -647,12 +646,12 @@ function removeCurrentWord() {
                                 tryAgain
                             "
                         >
-                            🔁 Try Again
+                            Try Again
                         </button>
 
                         <button
                             type="button"
-                            class="rounded-lg bg-black px-5 py-2 text-white hover:bg-gray-800"
+                            class="btn-primary"
                             @click="
                                 markKnown
                             "

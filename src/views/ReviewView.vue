@@ -534,7 +534,6 @@ onMounted(() => {
             >
                 <div>
                     <h1
-                        class="text-3xl font-bold"
                     >
                         Review Words
                     </h1>
@@ -580,7 +579,7 @@ onMounted(() => {
                 !currentWord &&
                 !isCompleted
             "
-            class="rounded-xl border border-dashed p-12 text-center"
+            class="surface px-6 py-12 text-center text-gray-500"
         >
             <div class="text-4xl">
                 🎉
@@ -623,7 +622,7 @@ onMounted(() => {
 
             <button
                 type="button"
-                class="mt-8 rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800"
+                class="btn-primary btn-lg mt-8"
                 @click="refresh"
             >
                 Check Again
@@ -656,7 +655,7 @@ onMounted(() => {
                     class="h-2 overflow-hidden rounded-full bg-gray-200"
                 >
                     <div
-                        class="h-full rounded-full bg-black transition-all duration-300"
+                        class="h-full rounded-full bg-accent transition-all duration-300"
                         :style="{
                             width:
                                 `${progressPercent}%`,
@@ -712,12 +711,12 @@ onMounted(() => {
                             autofocus
                             autocomplete="off"
                             placeholder="Type the English word..."
-                            class="w-full rounded-xl border px-4 py-4 text-center text-xl outline-none focus:border-gray-900"
+                            class="field w-full text-center text-xl"
                         />
 
                         <button
                             type="submit"
-                            class="mt-5 w-full rounded-xl bg-black px-8 py-3 text-white hover:bg-gray-800"
+                            class="btn-primary btn-lg mt-5 w-full"
                         >
                             Check
                         </button>
@@ -754,19 +753,19 @@ onMounted(() => {
                         >
                             {{
                                 recallCorrect
-                                    ? '✅ Correct!'
-                                    : `❌ You said: ${recallAnswer || '(nothing)'}`
+                                    ? 'Correct!'
+                                    : `You said: ${recallAnswer || '(nothing)'}`
                             }}
                         </p>
 
                         <button
                             type="button"
-                            class="mt-8 rounded-lg bg-black px-8 py-3 text-white hover:bg-gray-800"
+                            class="btn-primary btn-lg mt-8"
                             @click="
                                 proceedToSpeak
                             "
                         >
-                            🎙 Continue to speaking →
+                            Continue to speaking →
                         </button>
                     </div>
                 </div>
@@ -804,20 +803,20 @@ onMounted(() => {
                     <button
                         v-if="!isListening"
                         type="button"
-                        class="mt-10 rounded-full bg-black px-8 py-4 text-lg text-white hover:bg-gray-800 disabled:opacity-50"
+                        class="mt-10 rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
                         :disabled="!isSupported"
                         @click="
                             practiceCurrentWord
                         "
                     >
-                        🎙 Start Speaking
+                        Start Speaking
                     </button>
 
                     <div
                         v-else
                         class="mt-10 rounded-lg bg-gray-100 px-8 py-4 text-gray-600"
                     >
-                        🎙 Listening...
+                        Listening...
                     </div>
 
                     <p
@@ -888,14 +887,14 @@ onMounted(() => {
                             "
                             class="mt-3 text-lg font-semibold text-green-600"
                         >
-                            ✅ Correct!
+                            Correct!
                         </p>
 
                         <p
                             v-else
                             class="mt-3 text-lg font-semibold text-red-600"
                         >
-                            ❌ Try again
+                            Try again
                         </p>
                     </div>
 
@@ -929,12 +928,12 @@ onMounted(() => {
                                 tryAgain
                             "
                         >
-                            🔁 Try Again
+                            Try Again
                         </button>
 
                         <button
                             type="button"
-                            class="rounded-lg bg-black px-5 py-2 text-white hover:bg-gray-800"
+                            class="btn-primary"
                             @click="
                                 markKnown
                             "
