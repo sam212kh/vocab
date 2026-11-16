@@ -42,6 +42,7 @@ const menuSections = [
         title: '',
         items: [
             { label: 'Dashboard', icon: '🏠', route: '/' },
+            { label: 'Daily Journey', icon: '🌱', route: '/daily-journey' },
             { label: 'Daily Session', icon: '⚡', route: '/session' },
         ],
     },
@@ -49,6 +50,7 @@ const menuSections = [
         title: 'Skills',
         items: [
             { label: 'Real-Life English', icon: '🏡', route: '/real-life' },
+            { label: 'Career English', icon: '💼', route: '/career-english' },
             { label: 'Conversation', icon: '💬', route: '/conversation' },
             { label: 'Grammar', icon: '🧱', route: '/grammar' },
             { label: 'Listening', icon: '🎧', route: '/listening' },

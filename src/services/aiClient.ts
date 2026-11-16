@@ -220,6 +220,42 @@ export function assistWithMessage(payload: {
     return postJson<{ reply: string }>('/assist', payload, 'reply')
 }
 
+export interface InterviewAnswerEvaluation {
+    overall: string
+    correctedAnswer: string
+    professionalVersion: string
+    dimensions: {
+        dimension: string
+        /** language = grammar/vocab/tone; content = relevance/structure. Kept separate on purpose. */
+        kind: 'language' | 'content'
+        assessment: string
+        suggestion: string
+    }[]
+    languageIssues: {
+        original: string
+        corrected: string
+        category: string
+        explanation: string
+        explanationPersian: string
+    }[]
+    alternativeExpressions: { insteadOf: string; try: string }[]
+    contentSuggestions: string[]
+    followUpPractice: string[]
+}
+
+export function evaluateInterviewAnswer(payload: {
+    question: string
+    answer: string
+    answerMode: 'text' | 'voice'
+    explanationLanguage: 'english' | 'persian' | 'bilingual'
+    provider?: 'ollama' | 'cloud'
+    model?: string
+    allowFallback: boolean
+    learner: { selfReportedLevel: string }
+}): Promise<{ evaluation: InterviewAnswerEvaluation; meta: GatewayEvaluationResponse['meta'] }> {
+    return postJson('/interview-answer', payload, 'evaluation')
+}
+
 export interface GatewayExpressResponse {
     expression: {
         literal: string

@@ -147,7 +147,7 @@ export const CONVERSATION_MODES = {
   free: 'Free conversation. Pick natural, engaging topics based on the learner context. Keep the conversation flowing with genuine questions.',
   'daily-life': 'Everyday life conversation: routines, food, family, plans, weather, hobbies. Keep it practical and relatable.',
   professional: 'Professional English conversation: work, projects, colleagues, plans, career. Business-appropriate but friendly tone.',
-  interview: 'Job interview practice. Ask realistic interview questions one at a time, follow up on answers like a real interviewer.',
+  interview: 'Job interview practice (non-technical or general). You are the INTERVIEWER: ask ONE question at a time, wait for the learner\'s answer, then ask a relevant follow-up or the next question like a real interviewer. NEVER suggest or reveal model answers, and never answer your own questions. Keep a professional but human tone. Do not mention evaluation criteria.',
   workplace: 'Workplace communication: meetings, status updates, asking for help, disagreeing politely, small talk with colleagues.',
   technical: 'Technical discussion for a software developer: architecture, debugging, code review, system design, explaining technical ideas clearly.',
   travel: 'Travel and everyday situations abroad: airport, hotel, restaurant, directions, shopping, small problems.',
@@ -288,6 +288,67 @@ export function buildSummaryPrompt({ messages, mode, scenarioTitle, explanationL
   const user = `Conversation mode: ${scenarioTitle ?? mode}.\n\nTranscript:\n${transcript}\n\nWrite the summary as JSON.`
 
   return { system, user, promptVersion: CONVERSATION_SUMMARY_PROMPT_VERSION }
+}
+
+/* ------------------------------------------------------------------ */
+/* Career: interview answer evaluation                                 */
+/* ------------------------------------------------------------------ */
+
+export const INTERVIEW_ANSWER_PROMPT_VERSION = 'interview-answer-v1'
+
+export const INTERVIEW_DIMENSIONS = [
+  'grammar',
+  'vocabulary',
+  'fluency',
+  'naturalness',
+  'clarity',
+  'relevance',
+  'structure',
+  'professional-tone',
+]
+
+const INTERVIEW_ANSWER_SCHEMA = `Respond with ONLY a single JSON object:
+{
+  "overall": string,                      // 2-3 honest, encouraging sentences
+  "correctedAnswer": string,              // the learner's answer with ONLY real language errors fixed; same facts, same meaning
+  "professionalVersion": string,          // a more natural, professional phrasing of THE SAME CONTENT — never add facts
+  "dimensions": [                         // exactly one entry per dimension below
+    { "dimension": string, "kind": "language" | "content", "assessment": string, "suggestion": string }
+  ],
+  "languageIssues": [                     // actual language mistakes; [] if none
+    { "original": string, "corrected": string, "category": string, "explanation": string, "explanationPersian": string }
+  ],
+  "alternativeExpressions": [ { "instead_of": string, "try": string } ],   // max 4
+  "contentSuggestions": [ string ],       // max 3: how to make the CONTENT stronger (structure, specificity) — never invent experience
+  "followUpPractice": [ string ]          // max 2 follow-up questions an interviewer might ask next
+}
+Required "dimension" values (each once): ${INTERVIEW_DIMENSIONS.join(', ')}.
+"kind": grammar/vocabulary/fluency/naturalness/professional-tone are "language"; relevance/structure/clarity-of-content are "content".
+Allowed "category" values: ${MISTAKE_CATEGORIES.join(', ')}.`
+
+export function buildInterviewAnswerPrompt({ question, answer, answerMode, learner, explanationLanguage }) {
+  const system = [
+    `You are an interview coach for a non-native English speaker. You evaluate an interview ANSWER on two separate axes: LANGUAGE (grammar, vocabulary, naturalness, tone) and CONTENT (relevance, structure, specificity). Keep them strictly separate.
+Critical rules:
+- A SHORT answer is not an INCORRECT answer. Judge language correctness separately from how much content it has.
+- NEVER invent experiences, metrics, achievements, employers or personal facts. If the content is thin, tell the learner what kind of detail to add — do not add it yourself.
+- "professionalVersion" rephrases the learner's OWN content only.
+- Do not comment on pronunciation: ${answerMode === 'voice' ? 'the answer is a speech-recognition transcript, which may contain recognition errors — do not treat transcript oddities as learner mistakes unless clearly grammatical.' : 'the answer was typed.'}
+- This is practice feedback, not a certified assessment and never a CEFR level.`,
+    INTERVIEW_ANSWER_SCHEMA,
+    explanationLanguage === 'english'
+      ? 'Write explanations in English; set explanationPersian to "".'
+      : 'Fill "explanationPersian" with clear Persian (Farsi) for each language issue.',
+    learner?.selfReportedLevel
+      ? `Learner level (self-reported, unverified): ${learner.selfReportedLevel}. Keep suggestions at a reachable level.`
+      : '',
+  ].filter(Boolean).join('\n\n')
+
+  return {
+    system,
+    user: `Interview question: "${question}"\n\nLearner's answer:\n"""\n${answer}\n"""`,
+    promptVersion: INTERVIEW_ANSWER_PROMPT_VERSION,
+  }
 }
 
 /* ------------------------------------------------------------------ */

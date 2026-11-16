@@ -330,6 +330,17 @@ function getDateKey(
             </p>
         </div>
 
+        <!-- Daily Journey: the central daily experience -->
+
+        <RouterLink
+            to="/daily-journey"
+            class="block rounded-2xl border-2 border-gray-900 bg-white p-6 shadow-sm transition hover:bg-gray-50"
+        >
+            <p class="text-sm text-gray-500">Today</p>
+            <p class="mt-1 text-xl font-semibold text-gray-900">Start your Daily Journey 🌱</p>
+            <p class="mt-1 text-sm text-gray-500">A personalized session — recognize, recall, then use real English. 5, 15 or 40 minutes.</p>
+        </RouterLink>
+
         <!-- Continue Learning -->
 
         <RouterLink

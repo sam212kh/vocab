@@ -420,6 +420,122 @@ export function validateSummaryResponse(raw) {
   }
 }
 
+const INTERVIEW_DIMENSIONS = ['grammar', 'vocabulary', 'fluency', 'naturalness', 'clarity', 'relevance', 'structure', 'professional-tone']
+
+export function validateInterviewAnswerRequest(body, config) {
+  if (!body || typeof body !== 'object') {
+    return { ok: false, errors: ['Body must be a JSON object'] }
+  }
+
+  const question = typeof body.question === 'string' ? body.question.trim() : ''
+  const answer = typeof body.answer === 'string' ? body.answer.trim() : ''
+
+  const errors = []
+
+  if (!question) errors.push('question is required')
+  if (question.length > 500) errors.push('question exceeds 500 characters')
+  if (!answer) errors.push('answer is required')
+  if ([...answer].length > config.maxSubmissionChars) errors.push(`answer exceeds ${config.maxSubmissionChars} characters`)
+  if (body.answerMode !== undefined && !['text', 'voice'].includes(body.answerMode)) errors.push('answerMode must be text or voice')
+  if (body.provider !== undefined && !['ollama', 'cloud'].includes(body.provider)) errors.push('provider must be "ollama" or "cloud"')
+
+  if (errors.length) return { ok: false, errors }
+
+  const learner = body.learner && typeof body.learner === 'object' ? body.learner : {}
+
+  return {
+    ok: true,
+    value: {
+      question,
+      answer,
+      answerMode: body.answerMode ?? 'text',
+      explanationLanguage: ['english', 'persian', 'bilingual'].includes(body.explanationLanguage) ? body.explanationLanguage : 'bilingual',
+      provider: body.provider,
+      model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
+      learner: { selfReportedLevel: clip(learner.selfReportedLevel, 10) },
+    },
+  }
+}
+
+/**
+ * Interview answer validation. Language vs content separation is enforced:
+ * every dimension carries a kind; unknown kinds are derived from the
+ * dimension name (never trusted blindly).
+ */
+export function validateInterviewAnswerResponse(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+    return { ok: false, errors: ['response is not a JSON object'] }
+  }
+
+  const overall = str(raw.overall, 2000)
+  const correctedAnswer = str(raw.correctedAnswer, 8000)
+  const professionalVersion = str(raw.professionalVersion, 8000)
+
+  const errors = []
+  if (!overall) errors.push('missing "overall"')
+  if (!correctedAnswer) errors.push('missing "correctedAnswer"')
+  if (!professionalVersion) errors.push('missing "professionalVersion"')
+  if (errors.length) return { ok: false, errors }
+
+  const CONTENT_DIMENSIONS = new Set(['relevance', 'structure'])
+
+  const seen = new Set()
+  const dimensions = []
+
+  for (const item of Array.isArray(raw.dimensions) ? raw.dimensions : []) {
+    if (!item || typeof item !== 'object') continue
+    if (!INTERVIEW_DIMENSIONS.includes(item.dimension) || seen.has(item.dimension)) continue
+    if (!str(item.assessment)) continue
+
+    seen.add(item.dimension)
+    dimensions.push({
+      dimension: item.dimension,
+      /* kind derived from the dimension itself — the model cannot relabel
+       * a content weakness as a language mistake or vice versa. */
+      kind: CONTENT_DIMENSIONS.has(item.dimension) ? 'content' : 'language',
+      assessment: str(item.assessment, 600),
+      suggestion: str(item.suggestion, 600),
+    })
+  }
+
+  const languageIssues = (Array.isArray(raw.languageIssues) ? raw.languageIssues : [])
+    .filter(item => item && typeof item === 'object' && str(item.original) && str(item.corrected) && str(item.explanation))
+    .slice(0, 10)
+    .map(item => ({
+      original: str(item.original, 500),
+      corrected: str(item.corrected, 500),
+      category: MISTAKE_CATEGORIES.includes(item.category) ? item.category : 'other',
+      explanation: str(item.explanation, 800),
+      explanationPersian: str(item.explanationPersian, 800),
+    }))
+
+  const alternativeExpressions = (Array.isArray(raw.alternativeExpressions) ? raw.alternativeExpressions : [])
+    .filter(item => item && typeof item === 'object' && str(item.instead_of) && str(item.try))
+    .slice(0, 4)
+    .map(item => ({ insteadOf: str(item.instead_of, 200), try: str(item.try, 200) }))
+
+  const strings = (value, limit) =>
+    (Array.isArray(value) ? value : [])
+      .filter(item => typeof item === 'string' && item.trim())
+      .slice(0, limit)
+      .map(item => item.slice(0, 400))
+
+  return {
+    ok: true,
+    errors: [],
+    value: {
+      overall,
+      correctedAnswer,
+      professionalVersion,
+      dimensions,
+      languageIssues,
+      alternativeExpressions,
+      contentSuggestions: strings(raw.contentSuggestions, 3),
+      followUpPractice: strings(raw.followUpPractice, 2),
+    },
+  }
+}
+
 export function validateExpressRequest(body) {
   if (!body || typeof body !== 'object') {
     return { ok: false, errors: ['Body must be a JSON object'] }

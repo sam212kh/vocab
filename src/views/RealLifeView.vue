@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 
 import { loadRealLifeManifest, loadRealLifeScenario } from '../services/realLifeContent'
 import { expressInEnglish, AIClientError } from '../services/aiClient'
 import { requestTutorTurn } from '../services/conversationService'
-import { checkPronunciation } from '../services/pronunciation'
+import { evaluateRealLifeSpeaking } from '../services/realLifeSpeaking'
+import { resolveRealLifeRoute } from '../services/realLifeRoute'
 import { analyzeTextAnswer } from '../services/answerDiff'
 import { shuffle } from '../services/exerciseEngine'
 
@@ -29,6 +31,9 @@ import type {
     RealLifeScenarioManifest,
 } from '../types/realLife'
 import type { ConversationSession } from '../types/conversation'
+
+const route = useRoute()
+const router = useRouter()
 
 const progressStore = useRealLifeProgressStore()
 const savedExpressionsStore = useSavedExpressionsStore()
@@ -68,13 +73,13 @@ const step = ref<Step>('see')
 const exerciseIndex = ref(0)
 const exerciseResults = ref<ExerciseResult[]>([])
 
-async function openScenario(manifest: RealLifeScenarioManifest) {
+async function openScenario(manifest: RealLifeScenarioManifest, initialStep: Step = 'see') {
     loadError.value = ''
 
     try {
         activeScenario.value = await loadRealLifeScenario(manifest)
         activeManifest.value = manifest
-        step.value = 'see'
+        step.value = initialStep
         exerciseIndex.value = 0
         exerciseResults.value = []
         progressStore.touch(manifest.id)
@@ -84,6 +89,12 @@ async function openScenario(manifest: RealLifeScenarioManifest) {
 }
 
 function closeScenario() {
+    /* Drop ?scenario/&step so a refresh doesn't reopen what the learner closed. */
+    if (route.query.scenario !== undefined || route.query.step !== undefined) {
+        const { scenario: _scenario, step: _step, ...rest } = route.query
+        void router.replace({ query: rest })
+    }
+
     activeScenario.value = null
     activeManifest.value = null
     roleplayMessages.value = []
@@ -146,23 +157,18 @@ async function recordSpeaking() {
 
     /* Compare against the BEST-matching model sentence — transcript match,
      * never phoneme-level pronunciation. */
-    let best = { score: -1, sentence: scenario.speakingTask.modelSentences[0] ?? '' }
+    const outcome = evaluateRealLifeSpeaking(
+        scenario.id,
+        scenario.speakingTask.modelSentences,
+        transcript.value,
+        confidence.value || null
+    )
 
-    for (const sentence of scenario.speakingTask.modelSentences) {
-        const { score } = checkPronunciation(sentence, transcript.value)
-        if (score > best.score) best = { score, sentence }
-    }
+    speakRecord.value = { transcript: transcript.value, score: outcome.score, closest: outcome.closest }
 
-    speakRecord.value = { transcript: transcript.value, score: best.score, closest: best.sentence }
-
-    /* Voice evidence → speaking event (honesty rules from conversations). */
-    performanceStore.record({
-        skill: 'speaking',
-        activityId: `real-life-${scenario.id}`,
-        lessonId: scenario.id,
-        result: 'correct',
-        confidence: confidence.value || null,
-    })
+    /* Voice evidence only; correct only when the shared transcript-match
+     * threshold (same as Guided Speaking) is met. */
+    if (outcome.event) performanceStore.record(outcome.event)
 }
 
 const speakDiff = computed(() =>
@@ -420,13 +426,35 @@ function reviewAnswer(correct: boolean) {
     }
 }
 
+/* Deep links (Daily Journey, refresh, shared URL): ?scenario=<id>&step=<step>.
+ * Validated against the real manifest; anything invalid falls back to the home view. */
+async function applyRouteQuery() {
+    if (!scenarios.value.length) return
+
+    const target = resolveRealLifeRoute(route.query, scenarios.value.map(item => item.id))
+
+    if (!target || activeManifest.value?.id === target.scenarioId) {
+        if (target && activeManifest.value?.id === target.scenarioId) step.value = target.step
+        return
+    }
+
+    const manifest = scenarios.value.find(item => item.id === target.scenarioId)
+
+    if (manifest) await openScenario(manifest, target.step)
+}
+
 onMounted(async () => {
     try {
         scenarios.value = await loadRealLifeManifest()
     } catch (err) {
         loadError.value = err instanceof Error ? err.message : 'Failed to load scenarios'
+        return
     }
+
+    await applyRouteQuery()
 })
+
+watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQuery() })
 </script>
 
 <template>

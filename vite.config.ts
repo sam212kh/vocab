@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => {
         '/api/tts': env.TTS_PROXY_TARGET ?? 'http://127.0.0.1:8787',
         '/health': env.TTS_PROXY_TARGET ?? 'http://127.0.0.1:8787',
         '/api/ai': env.AI_PROXY_TARGET ?? 'http://127.0.0.1:8788',
+        '/api/assessment': env.AI_PROXY_TARGET ?? 'http://127.0.0.1:8788',
       },
     },
   }

@@ -498,6 +498,64 @@ test('express endpoint returns validated expression help; requires natural + Per
   assert.equal((await post('/api/ai/express', { input: 'x'.repeat(600) })).status, 400)
 })
 
+const INTERVIEW_DIMENSIONS_FIXTURE = ['grammar', 'vocabulary', 'fluency', 'naturalness', 'clarity', 'relevance', 'structure', 'professional-tone']
+
+test('interview-answer: validated, language vs content kind derived server-side (model cannot relabel)', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({
+    overall: 'A clear start; the language is mostly fine and the content needs a concrete example.',
+    correctedAnswer: 'I work as a backend developer.',
+    professionalVersion: 'I work as a backend developer, mainly on payment systems.',
+    dimensions: INTERVIEW_DIMENSIONS_FIXTURE.map(dimension => ({
+      dimension,
+      kind: 'language',   /* model claims EVERYTHING is language — server must correct content dims */
+      assessment: `${dimension} assessment`,
+      suggestion: 'keep going',
+    })),
+    languageIssues: [{ original: 'I am work', corrected: 'I work', category: 'tense', explanation: 'Present simple.', explanationPersian: 'حال ساده.' }],
+    alternativeExpressions: [{ instead_of: 'I am good at', try: 'My strength is' }],
+    contentSuggestions: ['Add one concrete project example'],
+    followUpPractice: ['Which project are you proudest of?'],
+  })
+
+  const response = await post('/api/ai/interview-answer', {
+    question: 'Tell me about yourself.', answer: 'I am work as backend developer.', answerMode: 'text',
+  })
+  const body = await response.json()
+
+  assert.equal(response.status, 200)
+  assert.equal(body.meta.promptVersion, 'interview-answer-v1')
+
+  const kinds = Object.fromEntries(body.evaluation.dimensions.map(d => [d.dimension, d.kind]))
+  assert.equal(kinds.relevance, 'content')
+  assert.equal(kinds.structure, 'content')
+  assert.equal(kinds.grammar, 'language')
+  assert.equal(body.evaluation.alternativeExpressions[0].insteadOf, 'I am good at')
+  assert.ok(body.evaluation.languageIssues[0].explanationPersian.length > 0)
+})
+
+test('interview-answer: request validation + missing correctedAnswer fails safely', async () => {
+  assert.equal((await post('/api/ai/interview-answer', { question: 'Q' })).status, 400)
+  assert.equal((await post('/api/ai/interview-answer', { answer: 'A' })).status, 400)
+  assert.equal((await post('/api/ai/interview-answer', { question: 'Q', answer: 'A', answerMode: 'telepathy' })).status, 400)
+
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ overall: 'x', professionalVersion: 'y' })
+  const invalid = await post('/api/ai/interview-answer', { question: 'Q', answer: 'A' })
+  assert.equal(invalid.status, 502)
+})
+
+test('interview mode chat uses the interviewer behavior (accepted mode, no suggested answers in prompt contract)', async () => {
+  process.env.AI_TEST_RESPONSE = JSON.stringify({ reply: 'Thanks for coming in. Could you start by telling me about yourself?', corrections: [] })
+
+  const response = await post('/api/ai/chat', {
+    messages: [{ role: 'learner', text: 'Hello, I am ready for the interview.' }],
+    mode: 'interview',
+    feedbackMode: 'natural',
+  })
+
+  assert.equal(response.status, 200)
+  assert.match((await response.json()).reply, /telling me about yourself/)
+})
+
 test('chat provider failure returns safe error and respects no-silent-fallback', async () => {
   process.env.AI_TEST_FAILURE = 'unreachable'
   process.env.AI_TEST_FAILURE_PROVIDER = 'ollama'

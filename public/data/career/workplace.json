@@ -1,0 +1,105 @@
+{
+  "id": "workplace",
+  "dialogues": [
+    {
+      "id": "wp-01", "title": "Giving a status update", "titlePersian": "ارائه گزارش وضعیت",
+      "lines": [
+        { "speaker": "Manager", "english": "Can you give me a quick update on the invoice export?", "persian": "می‌شود یک گزارش کوتاه از خروجی فاکتورها بدهی؟" },
+        { "speaker": "You", "english": "Sure. The export logic is done and tested. I'm now working on the PDF formatting, which should take another day.", "persian": "حتماً. منطق خروجی تمام و تست شده. الان روی قالب PDF کار می‌کنم که یک روز دیگر طول می‌کشد." },
+        { "speaker": "Manager", "english": "Any blockers?", "persian": "مانعی هست؟" },
+        { "speaker": "You", "english": "One small one — I'm waiting on the final template from design. Otherwise we're on track for Friday.", "persian": "یک مورد کوچک — منتظر قالب نهایی از طراحی‌ام. غیر از این برای جمعه طبق برنامه هستیم." }
+      ],
+      "vocabulary": [{ "english": "on track", "persian": "طبق برنامه" }, { "english": "blocker", "persian": "مانع" }, { "english": "wrapped up", "persian": "تمام‌شده" }]
+    },
+    {
+      "id": "wp-02", "title": "Asking for clarification", "titlePersian": "درخواست توضیح",
+      "lines": [
+        { "speaker": "Colleague", "english": "Can you make the dashboard faster before the demo?", "persian": "می‌شود داشبورد را قبل از دمو سریع‌تر کنی؟" },
+        { "speaker": "You", "english": "Just to make sure I understand — do you mean the initial page load, or the filters?", "persian": "فقط برای اینکه مطمئن شوم درست فهمیده‌ام — منظورت بارگذاری اولیه صفحه است یا فیلترها؟" },
+        { "speaker": "Colleague", "english": "Mostly the filters. They take about five seconds.", "persian": "بیشتر فیلترها. حدود پنج ثانیه طول می‌کشند." },
+        { "speaker": "You", "english": "Got it. I'll look into the filter queries first and let you know what I find by tomorrow.", "persian": "متوجه شدم. اول کوئری‌های فیلتر را بررسی می‌کنم و فردا نتیجه را خبر می‌دهم." }
+      ],
+      "vocabulary": [{ "english": "just to make sure I understand", "persian": "فقط برای اطمینان از فهمیدن" }, { "english": "do you mean...", "persian": "منظورت ... است؟" }, { "english": "look into", "persian": "بررسی کردن" }]
+    },
+    {
+      "id": "wp-03", "title": "Disagreeing politely", "titlePersian": "مخالفت مودبانه",
+      "lines": [
+        { "speaker": "Colleague", "english": "I think we should rewrite the whole module before the release.", "persian": "فکر می‌کنم باید قبل از ریلیز کل ماژول را بازنویسی کنیم." },
+        { "speaker": "You", "english": "I see your point, and the code is messy. My concern is the timeline — a full rewrite would put the release at risk.", "persian": "نظرت را می‌فهمم و کد واقعاً به‌هم‌ریخته است. نگرانی من زمان‌بندی است — بازنویسی کامل ریلیز را به خطر می‌اندازد." },
+        { "speaker": "Colleague", "english": "So what would you suggest?", "persian": "پس پیشنهادت چیست؟" },
+        { "speaker": "You", "english": "What if we fix the two worst parts now and schedule the rest for the next sprint?", "persian": "چطور است دو بخش بدتر را الان درست کنیم و بقیه را برای اسپرینت بعدی بگذاریم؟" }
+      ],
+      "vocabulary": [{ "english": "I see your point, but...", "persian": "نظرت را می‌فهمم اما..." }, { "english": "my concern is", "persian": "نگرانی من ... است" }, { "english": "what if we...", "persian": "چطور است اگر..." }]
+    },
+    {
+      "id": "wp-04", "title": "Explaining a delay", "titlePersian": "توضیح تاخیر",
+      "lines": [
+        { "speaker": "Manager", "english": "The report was due yesterday. What happened?", "persian": "گزارش دیروز موعد داشت. چه شد؟" },
+        { "speaker": "You", "english": "I apologize — I underestimated the data cleanup. I should have flagged it earlier.", "persian": "عذرخواهی می‌کنم — پاک‌سازی داده‌ها را دست‌کم گرفتم. باید زودتر اطلاع می‌دادم." },
+        { "speaker": "Manager", "english": "When can I expect it?", "persian": "کی انتظارش را داشته باشم؟" },
+        { "speaker": "You", "english": "I'll have it to you by noon tomorrow, and I'll send a short progress note this afternoon.", "persian": "تا ظهر فردا تحویلت می‌دهم و امروز بعدازظهر یک گزارش پیشرفت کوتاه می‌فرستم." }
+      ],
+      "vocabulary": [{ "english": "I apologize for the delay", "persian": "بابت تاخیر عذرخواهی می‌کنم" }, { "english": "underestimate", "persian": "دست‌کم گرفتن" }, { "english": "I'll have it to you by", "persian": "تا فلان موقع تحویل می‌دهم" }]
+    },
+    {
+      "id": "wp-05", "title": "Requesting help", "titlePersian": "درخواست کمک",
+      "lines": [
+        { "speaker": "You", "english": "Do you have a few minutes? I'm stuck on a deployment error and could use a second pair of eyes.", "persian": "چند دقیقه وقت داری؟ روی یک خطای دیپلوی گیر کرده‌ام و یک جفت چشم دیگر لازم دارم." },
+        { "speaker": "Colleague", "english": "Sure, what have you tried so far?", "persian": "حتماً، تا الان چه کار کرده‌ای؟" },
+        { "speaker": "You", "english": "I've checked the logs and rolled back the config, but the error is still there.", "persian": "لاگ‌ها را چک کرده‌ام و کانفیگ را برگردانده‌ام ولی خطا هنوز هست." },
+        { "speaker": "Colleague", "english": "Let's share screens and take a look together.", "persian": "صفحه را به اشتراک بگذار با هم نگاه کنیم." }
+      ],
+      "vocabulary": [{ "english": "a second pair of eyes", "persian": "یک جفت چشم دیگر (نظر دوم)" }, { "english": "I could use some help with", "persian": "به کمک در ... نیاز دارم" }, { "english": "what have you tried so far", "persian": "تا الان چه امتحان کرده‌ای" }]
+    },
+    {
+      "id": "wp-06", "title": "Giving feedback", "titlePersian": "دادن بازخورد",
+      "lines": [
+        { "speaker": "You", "english": "Do you have a minute? I wanted to share some feedback on your pull request.", "persian": "یک دقیقه وقت داری؟ می‌خواستم درباره پول‌ریکوئست‌ات بازخورد بدهم." },
+        { "speaker": "Colleague", "english": "Of course, go ahead.", "persian": "البته، بفرما." },
+        { "speaker": "You", "english": "The logic is solid — I really like the error handling. One thing that would help reviewers is a short description of the approach at the top.", "persian": "منطق کار محکم است — از مدیریت خطا واقعاً خوشم آمد. چیزی که به بازبین‌ها کمک می‌کند یک توضیح کوتاه درباره رویکرد در ابتدای آن است." },
+        { "speaker": "Colleague", "english": "Good point, I'll add that. Thanks for flagging it.", "persian": "نکته خوبی است، اضافه می‌کنم. ممنون که گفتی." }
+      ],
+      "vocabulary": [{ "english": "one thing that would help", "persian": "چیزی که کمک می‌کند" }, { "english": "I really like how", "persian": "واقعاً خوشم آمد که" }, { "english": "thanks for flagging it", "persian": "ممنون که گوشزد کردی" }]
+    },
+    {
+      "id": "wp-07", "title": "Reporting a problem", "titlePersian": "گزارش یک مشکل",
+      "lines": [
+        { "speaker": "You", "english": "I need to flag an issue: some customers aren't receiving their confirmation emails.", "persian": "باید یک مشکل را گزارش کنم: بعضی مشتریان ایمیل تاییدیه‌شان را دریافت نمی‌کنند." },
+        { "speaker": "Manager", "english": "How many people are affected?", "persian": "چند نفر تحت تاثیرند؟" },
+        { "speaker": "You", "english": "Around two hundred since this morning. I've identified the cause — a misconfigured queue — and I'm deploying a fix now.", "persian": "از صبح حدود دویست نفر. علت را پیدا کرده‌ام — یک صف اشتباه تنظیم‌شده — و الان فیکس را دیپلوی می‌کنم." },
+        { "speaker": "Manager", "english": "Keep me posted.", "persian": "مرا در جریان بگذار." }
+      ],
+      "vocabulary": [{ "english": "flag an issue", "persian": "مشکلی را گزارش دادن" }, { "english": "affected", "persian": "تحت تاثیر" }, { "english": "keep me posted", "persian": "مرا در جریان بگذار" }]
+    },
+    {
+      "id": "wp-08", "title": "Participating in a meeting", "titlePersian": "مشارکت در جلسه",
+      "lines": [
+        { "speaker": "Lead", "english": "Any thoughts on the new release schedule?", "persian": "نظری درباره برنامه ریلیز جدید هست؟" },
+        { "speaker": "You", "english": "If I may add something — QA needs at least two days after code freeze, so I'd suggest moving the freeze up.", "persian": "اگر اجازه بدهید چیزی اضافه کنم — QA بعد از فریز کد حداقل دو روز لازم دارد، پس پیشنهاد می‌کنم فریز را جلو بیندازیم." },
+        { "speaker": "Lead", "english": "That's a fair point. Can you put the details in the channel?", "persian": "نکته منصفانه‌ای است. جزئیات را در کانال می‌نویسی؟" },
+        { "speaker": "You", "english": "Will do. I'll summarize it right after this meeting.", "persian": "حتماً. بلافاصله بعد از این جلسه خلاصه‌اش را می‌نویسم." }
+      ],
+      "vocabulary": [{ "english": "if I may add something", "persian": "اگر اجازه بدهید چیزی اضافه کنم" }, { "english": "I'd suggest", "persian": "پیشنهاد می‌کنم" }, { "english": "will do", "persian": "حتماً انجام می‌دهم" }]
+    },
+    {
+      "id": "wp-09", "title": "Talking to your manager about workload", "titlePersian": "صحبت با مدیر درباره حجم کار",
+      "lines": [
+        { "speaker": "You", "english": "Do you have a moment to talk about priorities? I have three urgent tasks due this week.", "persian": "یک لحظه وقت دارید درباره اولویت‌ها صحبت کنیم؟ سه کار فوری برای این هفته دارم." },
+        { "speaker": "Manager", "english": "Sure. Which ones are they?", "persian": "حتماً. کدام‌ها؟" },
+        { "speaker": "You", "english": "The API migration, the client report, and the security review. I can realistically deliver two well — which one should I move?", "persian": "مهاجرت API، گزارش مشتری و بازبینی امنیتی. واقع‌بینانه می‌توانم دو تا را خوب تحویل بدهم — کدام را جابه‌جا کنم؟" },
+        { "speaker": "Manager", "english": "Let's push the security review to next week. Thanks for raising it early.", "persian": "بازبینی امنیتی را به هفته بعد ببریم. ممنون که زود گفتی." }
+      ],
+      "vocabulary": [{ "english": "realistically", "persian": "واقع‌بینانه" }, { "english": "push to next week", "persian": "به هفته بعد موکول کردن" }, { "english": "raise it early", "persian": "زود مطرح کردن" }]
+    },
+    {
+      "id": "wp-10", "title": "Small talk with a colleague", "titlePersian": "گپ دوستانه با همکار",
+      "lines": [
+        { "speaker": "Colleague", "english": "Hey, how was your weekend?", "persian": "سلام، آخر هفته‌ات چطور بود؟" },
+        { "speaker": "You", "english": "Pretty relaxed, thanks. We went hiking on Saturday. How about you?", "persian": "کاملاً آرام، ممنون. شنبه کوهنوردی رفتیم. تو چی؟" },
+        { "speaker": "Colleague", "english": "Not bad — I finally caught up on sleep. Ready for the sprint planning?", "persian": "بد نبود — بالاخره خوابم را جبران کردم. برای برنامه‌ریزی اسپرینت آماده‌ای؟" },
+        { "speaker": "You", "english": "As ready as I'll ever be. Let's grab a coffee first.", "persian": "آماده‌تر از این نمی‌شوم. اول یک قهوه بخوریم." }
+      ],
+      "vocabulary": [{ "english": "how was your weekend", "persian": "آخر هفته‌ات چطور بود" }, { "english": "catch up on sleep", "persian": "خواب عقب‌افتاده را جبران کردن" }, { "english": "grab a coffee", "persian": "یک قهوه خوردن" }]
+    }
+  ]
+}

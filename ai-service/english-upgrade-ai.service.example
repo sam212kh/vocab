@@ -16,6 +16,11 @@ UMask=0027
 NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
+# The assessment module persists session files here; with ProtectSystem=strict
+# the service can write NOWHERE else. Must match ASSESSMENT_STATE_DIR, and the
+# directory must exist and be owned by the service user:
+#   sudo install -d -o english-ai -g english-ai -m 0750 /var/lib/english-upgrade-assessment
+ReadWritePaths=/var/lib/english-upgrade-assessment
 ProtectHome=true
 MemoryMax=256M
 TasksMax=64

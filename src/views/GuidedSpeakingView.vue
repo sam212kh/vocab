@@ -3,7 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import { loadSpeakingManifest } from '../services/speakingContent'
-import { checkPronunciation } from '../services/pronunciation'
+import { checkPronunciation, SPEAKING_PASS_SCORE } from '../services/pronunciation'
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 import { usePerformanceStore } from '../stores/performance'
 
@@ -86,7 +86,7 @@ async function speakNow() {
             activityId: `${activeTopic.value?.id}-step-${stepIndex.value}`,
             lessonId: activeTopic.value?.id ?? null,
             difficulty: activeTopic.value?.difficulty ?? null,
-            result: score >= 80 ? 'correct' : 'incorrect',
+            result: score >= SPEAKING_PASS_SCORE ? 'correct' : 'incorrect',
             confidence: score / 100,
         })
     }

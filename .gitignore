@@ -26,5 +26,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*.zip.assessment-state/
 *.zip
+
+# AI gateway runtime assessment session state (server data, never commit)
+.assessment-state/
+ai-service/.assessment-state/
+
+# Test-runner reporter output
+.vitest/

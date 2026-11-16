@@ -1,3 +1,6 @@
+/** Single source of truth for "counts as correct" transcript matches (Guided Speaking, Real-Life). */
+export const SPEAKING_PASS_SCORE = 80
+
 export interface PronunciationResult {
     score: number
     normalizedTarget: string
@@ -97,6 +100,6 @@ export function checkPronunciation(
         score,
         normalizedTarget,
         normalizedTranscript,
-        correct: score >= 80,
+        correct: score >= SPEAKING_PASS_SCORE,
     }
 }

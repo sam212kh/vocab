@@ -7,6 +7,7 @@ import {
   buildAssistPrompt,
   buildConversationPrompt,
   buildExpressPrompt,
+  buildInterviewAnswerPrompt,
   buildRepairPrompt,
   buildSummaryPrompt,
   buildWritingEvaluationPrompt,
@@ -21,6 +22,8 @@ import {
   validateEvaluation,
   validateExpressRequest,
   validateExpressResponse,
+  validateInterviewAnswerRequest,
+  validateInterviewAnswerResponse,
   validateSummaryResponse,
 } from './validation.mjs'
 import { createAssessmentModule } from './assessment/routes.mjs'
@@ -503,7 +506,49 @@ async function handleExpress(req, res) {
   })
 }
 
+async function handleInterviewAnswer(req, res) {
+  const body = await readBody(req, res)
+  if (body === null) return
+
+  const validation = validateInterviewAnswerRequest(body, config)
+
+  if (!validation.ok) {
+    return reply(res, 400, { error: validation.errors.join('; ') })
+  }
+
+  const request = validation.value
+
+  const prompt = buildInterviewAnswerPrompt(request)
+
+  const started = Date.now()
+
+  const outcome = await runGeneration(res, {
+    body,
+    requestedProvider: request.provider,
+    requestedModel: request.model,
+    prompt,
+    temperature: 0.3,
+    validate: validateInterviewAnswerResponse,
+  })
+
+  if (!outcome) return
+
+  log('ai.interview-answer.ok', {
+    provider: outcome.provider.id,
+    durationMs: Date.now() - started,
+    answerChars: request.answer.length,
+    answerMode: request.answerMode,
+    issues: outcome.value.languageIssues.length,
+  })
+
+  reply(res, 200, {
+    evaluation: outcome.value,
+    meta: meta(outcome, prompt.promptVersion, started),
+  })
+}
+
 const POST_ROUTES = new Map([
+  ['/api/ai/interview-answer', handleInterviewAnswer],
   ['/api/ai/evaluate-writing', handleEvaluateWriting],
   ['/api/ai/chat', handleChat],
   ['/api/ai/conversation-summary', handleSummary],

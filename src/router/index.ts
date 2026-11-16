@@ -24,6 +24,8 @@ import GuidedSpeakingView from '../views/GuidedSpeakingView.vue'
 import AISettingsView from '../views/AISettingsView.vue'
 import ConversationView from '../views/ConversationView.vue'
 import RealLifeView from '../views/RealLifeView.vue'
+import CareerView from '../views/CareerView.vue'
+import JourneyView from '../views/JourneyView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -152,6 +154,16 @@ const router = createRouter({
             path: '/real-life',
             name: 'real-life',
             component: RealLifeView,
+        },
+        {
+            path: '/career-english',
+            name: 'career-english',
+            component: CareerView,
+        },
+        {
+            path: '/daily-journey',
+            name: 'daily-journey',
+            component: JourneyView,
         },
     ]
 })

@@ -33,6 +33,19 @@ Success: `{ evaluation, meta }` where `meta` carries `provider`, `model`,
 `promptVersion`, `durationMs`, `fallbackUsed`, `warnings`. Errors are
 structured `{ error, code?, provider? }` — never stack traces.
 
+## Assessment module (`/api/assessment/*`)
+
+Same service, independent of AI providers. Item banks WITH canonical answers
+live ONLY on the server in `ai-service/assessment/banks/*.json` — deploy them
+with the service, never under `public/`. Session state is persisted as JSON
+files in `ASSESSMENT_STATE_DIR` (default `./.assessment-state`; production:
+`/var/lib/english-upgrade-assessment`). Deployment requirements:
+
+- the nginx `location ^~ /api/assessment` block (see `nginx-location.example.conf`) — without it the SPA's assessment calls hit `index.html`
+- the state directory must exist, be owned by the service user, and be listed in the systemd `ReadWritePaths` (the unit uses `ProtectSystem=strict`)
+- `ASSESSMENT_*` variables in the env file (see `.env.example`)
+- contract + security model: `docs/PHASE6.md`. No authentication exists — see "Security model" below.
+
 ## Providers
 
 - **ollama** — local; `OLLAMA_BASE_URL` + `OLLAMA_MODEL(S)`. Uses `/api/chat`

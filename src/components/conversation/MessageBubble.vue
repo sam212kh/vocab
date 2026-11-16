@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 import { requestAssist } from '../../services/conversationService'
+import { describeAIError } from '../../services/aiErrorMessages'
 import { useSavedExpressionsStore } from '../../stores/savedExpressions'
 import { useConversationsStore } from '../../stores/conversations'
 import SpeechButton from '../ui/SpeechButton.vue'
@@ -33,7 +34,7 @@ async function translate() {
         const translation = await requestAssist('translate', props.message.text)
         conversationsStore.setTranslation(props.sessionId, props.message.id, translation)
     } catch (err) {
-        assistError.value = err instanceof Error ? err.message : 'Translation failed'
+        assistError.value = describeAIError(err)
     } finally {
         assistLoading.value = false
     }
@@ -55,7 +56,7 @@ async function assist(kind: 'explain' | 'simplify') {
     try {
         assistReply.value = await requestAssist(kind, props.message.text)
     } catch (err) {
-        assistError.value = err instanceof Error ? err.message : 'Request failed'
+        assistError.value = describeAIError(err)
         assistKind.value = null
     } finally {
         assistLoading.value = false
