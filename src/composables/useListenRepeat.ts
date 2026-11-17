@@ -3,6 +3,7 @@ import { computed, ref } from 'vue'
 import {
     playPersianPronunciation,
     stopPersianPronunciation,
+    unlockPersianAudio,
 } from '../services/persianPronunciation'
 import {
     getSpeechRate,
@@ -105,7 +106,12 @@ export function useListenRepeat(
         // Persian meaning × 1
         playbackStep.value = 'meaning'
 
-        await playPersianPronunciation(currentWord.word)
+        try {
+            await playPersianPronunciation(currentWord.word)
+        } catch {
+            // Some words do not have a Persian recording. English practice
+            // must still finish instead of leaving the session stuck playing.
+        }
 
 
 
@@ -134,6 +140,16 @@ export function useListenRepeat(
             !words.value.length
         ) {
             return
+        }
+
+        // Unlock HTML audio while this function is still running directly
+        // from the Play tap. Mobile browsers otherwise block the later
+        // Persian pronunciation after the async TTS work completes.
+        const firstWord = words.value[currentIndex.value]
+        if (firstWord) {
+            void unlockPersianAudio(firstWord.word).catch(() => {
+                // Missing Persian audio must not prevent English playback.
+            })
         }
 
         isPlaying.value = true

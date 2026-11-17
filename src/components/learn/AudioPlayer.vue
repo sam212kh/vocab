@@ -97,6 +97,16 @@ const accent = {
         <button
             v-else
             type="button"
+
+
+
+
+
+
+
+
+
+
             class="group inline-flex min-h-11 min-w-11 items-center justify-center gap-3 rounded-full focus-visible:outline-none"
             :class="size === 'lg' || showLabel ? 'pr-3' : ''"
             :aria-label="playing === 'normal' ? 'Stop audio' : `Play audio${label ? `: ${label}` : ''}`"

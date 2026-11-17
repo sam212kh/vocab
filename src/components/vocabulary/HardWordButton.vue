@@ -23,13 +23,14 @@ function handleToggle() {
 <template>
     <button
         type="button"
-        class="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
+        class="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-xl px-3 transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
         :class="hard ? 'text-amber-600' : 'text-gray-400'"
-        :aria-label="hard ? 'Remove from Hard Words' : 'Add to Hard Words'"
+        :aria-label="hard ? 'Remove word from Hard Words' : 'Save word to Hard Words'"
         :aria-pressed="hard"
         :title="hard ? 'Remove from Hard Words' : 'Add to Hard Words'"
-        @click="handleToggle"
+        @click.stop="handleToggle"
     >
         <AppIcon :name="hard ? 'star-fill' : 'star'" :size="20" />
+        <span class="text-sm font-medium">{{ hard ? 'Saved' : 'Save word' }}</span>
     </button>
 </template>

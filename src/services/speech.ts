@@ -186,6 +186,12 @@ function chooseVoice(lang: string): SpeechSynthesisVoice | undefined {
         candidates.find(v => v.lang.toLowerCase() === lang.toLowerCase()) ?? candidates[0]
 }
 
+function prefersSystemSpeechOnTouchDevice(): boolean {
+    return typeof window !== 'undefined' &&
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(pointer: coarse)').matches
+}
+
 async function systemSpeak(text: string, options: SpeechOptions = {}): Promise<boolean> {
     if (typeof window === 'undefined' || !('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') return Promise.resolve(false)
     try {
@@ -320,6 +326,16 @@ export async function speakAsync(text: string, lang = 'en-US', options: Omit<Spe
     const settings = { rate: speechRate, ...options, lang }
     if (!lang.toLowerCase().startsWith('en')) return systemVoiceProvider.speak(cleanText, settings)
     const provider = settings.provider ?? preference
+
+    // Mobile browsers reject HTMLAudioElement.play() when it happens after an
+    // awaited network request. Prefer the browser's speech engine for the
+    // automatic mode on touch devices; it is allowed to speak from the user
+    // gesture that started the session and still has neural as a fallback.
+    if (provider === 'automatic' && prefersSystemSpeechOnTouchDevice()) {
+        const spoken = await systemVoiceProvider.speak(cleanText, settings)
+        if (spoken) return true
+    }
+
     if (provider !== 'system') {
         const played = neuralVoiceProvider.supports(lang)
             ? await neuralVoiceProvider.speak(cleanText, settings)
