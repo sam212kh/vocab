@@ -26,6 +26,7 @@ const emit = defineEmits<{
 const result = ref<ExerciseResult | null>(null)
 const textAnswer = ref('')
 const chosenIndex = ref<number | null>(null)
+const hintShown = ref(false)
 
 /* sentence-ordering state: display order is shuffled; pickedPositions holds
  * indexes into the ORIGINAL segments array, in the order the learner clicked. */
@@ -46,6 +47,7 @@ function resetState() {
     result.value = null
     textAnswer.value = ''
     chosenIndex.value = null
+    hintShown.value = false
     pickedPositions.value = []
 
     if (props.exercise.type === 'sentence-ordering') {
@@ -63,6 +65,13 @@ function resetState() {
 }
 
 const answered = computed(() => result.value !== null)
+
+/* Only typed exercises that author a hint offer one; revealing it makes the answer hint-assisted. */
+const hint = computed(() => {
+    const exercise = props.exercise
+
+    return 'hint' in exercise && exercise.hint ? { english: exercise.hint, persian: 'hintPersian' in exercise ? exercise.hintPersian : undefined } : null
+})
 
 const isChoiceType = computed(() =>
     ['multiple-choice', 'listening-comprehension', 'reading-comprehension'].includes(
@@ -107,7 +116,7 @@ const correctChoiceIndex = computed<number>(() => {
 function submit(answer: ExerciseAnswer) {
     if (answered.value) return
 
-    const validation = validateAnswer(props.exercise, answer)
+    const validation = { ...validateAnswer(props.exercise, answer), ...(hintShown.value ? { hintUsed: true } : {}) }
 
     result.value = validation
 
@@ -282,6 +291,23 @@ function submitMatching() {
             >
                 Check
             </button>
+
+            <div v-if="hint" class="mt-2 text-center">
+                <button
+                    v-if="!hintShown"
+                    type="button"
+                    class="inline-flex min-h-11 items-center px-3 text-sm text-gray-500 hover:text-gray-800"
+                    data-testid="hint-button"
+                    @click="hintShown = true"
+                >
+                    Need a hint?
+                </button>
+                <div v-else class="rounded-xl bg-amber-50 p-3 text-sm text-amber-800" data-testid="hint-text">
+                    <p>{{ hint.english }}</p>
+                    <p v-if="hint.persian" class="mt-1" dir="rtl" lang="fa">{{ hint.persian }}</p>
+                    <p class="mt-1 text-xs text-amber-700">With a hint, this answer is practice, not independent recall.</p>
+                </div>
+            </div>
         </form>
 
         <!-- Sentence ordering -->
@@ -426,6 +452,19 @@ function submitMatching() {
                     </div>
                 </div>
             </div>
+
+            <p v-if="result!.naturalness === 'acceptable'" class="mt-3 rounded-xl bg-amber-50 p-3 text-sm text-amber-800" data-testid="naturalness-note">
+                Correct, but a native speaker would more likely say it differently.
+                <span class="block">{{ result!.naturalnessNote }}</span>
+                <span v-if="result!.naturalnessNotePersian" class="mt-1 block" dir="rtl" lang="fa">{{ result!.naturalnessNotePersian }}</span>
+            </p>
+
+            <div v-if="result!.errorFeedback" class="mt-3 rounded-xl bg-white/70 p-3 text-sm text-gray-700" data-testid="error-feedback">
+                <p>{{ result!.errorFeedback.english }}</p>
+                <p class="mt-1" dir="rtl" lang="fa">{{ result!.errorFeedback.persian }}</p>
+            </div>
+
+            <p v-if="result!.hintUsed" class="mt-2 text-xs text-gray-500">You used the hint, so this answer does not count as independent.</p>
 
             <p v-if="result!.feedback" class="mt-2 text-sm text-gray-600">
                 <span v-if="answerAnalysis" class="text-xs text-gray-500">Topic note: </span>{{ result!.feedback }}

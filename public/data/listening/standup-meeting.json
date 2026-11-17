@@ -11,13 +11,10 @@
     { "speaker": "Sara", "english": "Quick one from me: the staging deploy failed last night because of a missing environment variable. I've fixed the config and redeployed — everything is green now. Today I'm on code review and the performance dashboard.", "persian": "من کوتاه می‌گویم: دیپلوی staging دیشب به خاطر یک متغیر محیطی جاافتاده شکست خورد. تنظیمات را درست و دوباره دیپلوی کردم — الان همه چیز سبز است. امروز روی بازبینی کد و داشبورد کارایی کار می‌کنم." },
     { "speaker": "Lead", "english": "Great. Reminder: feature freeze is Thursday, so anything for the release needs to be in review by Wednesday afternoon.", "persian": "عالی. یادآوری: فریز قابلیت‌ها پنجشنبه است، پس هر چیزی برای ریلیز باید تا بعدازظهر چهارشنبه در بازبینی باشد." }
   ],
-  "learningObjectives": [
-    "Follow a software-team standup",
-    "Understand workplace status updates and blockers"
-  ],
   "exercises": [
     {
       "id": "standup-1",
+      "objectiveId": "su-follow",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B2",
@@ -26,10 +23,12 @@
       "prompt": "What is Dana working on today?",
       "options": ["The search endpoint", "Pagination", "Code review", "The login test"],
       "correctIndex": 1,
-      "explanation": "'Today I'm starting on pagination.'"
+      "explanation": "'Today I'm starting on pagination.'",
+      "explanationPersian": "دانا می‌گوید «Today I'm starting on pagination»: امروز روی صفحه‌بندی شروع می‌کند."
     },
     {
       "id": "standup-2",
+      "objectiveId": "su-follow",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B2",
@@ -43,10 +42,12 @@
         "A broken search endpoint"
       ],
       "correctIndex": 2,
-      "explanation": "'It turned out to be a timing issue with the mock server.'"
+      "explanation": "'It turned out to be a timing issue with the mock server.'",
+      "explanationPersian": "او می‌گوید «It turned out to be a timing issue with the mock server»: مشکل زمان‌بندی در سرور آزمایشی بود."
     },
     {
       "id": "standup-3",
+      "objectiveId": "su-blockers",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B2",
@@ -60,10 +61,12 @@
         "The feature freeze"
       ],
       "correctIndex": 1,
-      "explanation": "'I'm blocked on the email service credentials.'"
+      "explanation": "'I'm blocked on the email service credentials.'",
+      "explanationPersian": "او می‌گوید «I'm blocked on the email service credentials»: منتظر اطلاعات ورود سرویس ایمیل است."
     },
     {
       "id": "standup-4",
+      "objectiveId": "su-blockers",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B2",
@@ -77,10 +80,12 @@
         "Rolled back to last week's version"
       ],
       "correctIndex": 1,
-      "explanation": "'I've fixed the config and redeployed — everything is green now.'"
+      "explanation": "'I've fixed the config and redeployed — everything is green now.'",
+      "explanationPersian": "او می‌گوید «I've fixed the config and redeployed — everything is green now»: تنظیمات درست شد و همه چیز سالم است."
     },
     {
       "id": "standup-5",
+      "objectiveId": "su-follow",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B2",
@@ -94,7 +99,56 @@
         "Before lunch today"
       ],
       "correctIndex": 1,
-      "explanation": "Freeze Thursday → review by Wednesday afternoon."
+      "explanation": "Freeze Thursday → review by Wednesday afternoon.",
+      "explanationPersian": "فریز ویژگی‌ها پنجشنبه است، پس کد باید تا چهارشنبه بعدازظهر در بازبینی باشد."
+    },
+    {
+      "id": "standup-6",
+      "type": "short-answer",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 2,
+      "objectiveId": "su-follow",
+      "prompt": "What day is the feature freeze?",
+      "acceptedAnswers": [
+        "Thursday",
+        "On Thursday",
+        "It is on Thursday"
+      ],
+      "explanation": "The lead says: 'feature freeze is Thursday'.",
+      "explanationPersian": "سرپرست می‌گوید: «feature freeze is Thursday»."
+    },
+    {
+      "id": "standup-7",
+      "type": "short-answer",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 2,
+      "objectiveId": "su-blockers",
+      "prompt": "Why did the staging deploy fail last night?",
+      "acceptedAnswers": [
+        "A missing environment variable",
+        "Because of a missing environment variable",
+        "Missing environment variable",
+        "There was a missing environment variable",
+        "Because a variable was missing"
+      ],
+      "explanation": "It failed because of a missing environment variable.",
+      "explanationPersian": "به‌خاطر نبود یک متغیر محیطی شکست خورد."
+    },
+    {
+      "id": "standup-8",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "B2",
+      "difficulty": 2,
+      "objectiveId": "su-follow",
+      "audioText": "Quick round — yesterday, today, blockers.",
+      "acceptedAnswers": [
+        "Quick round — yesterday, today, blockers.",
+        "Quick round, yesterday, today, blockers.",
+        "Quick round yesterday today blockers"
+      ]
     }
   ]
 }

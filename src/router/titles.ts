@@ -16,6 +16,7 @@ const TITLES: Record<string, string> = {
     review: 'Review',
     profile: 'Profile',
     skills: 'Skill Levels',
+    progress: 'Learning Progress',
     grammar: 'Grammar',
     reading: 'Reading',
     writing: 'Writing',

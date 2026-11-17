@@ -6,13 +6,25 @@
       "title": "Everyday Sentences — Dictation",
       "kind": "sentences",
       "cefrLevel": "A2",
-      "skillTags": ["listening"],
-      "domainTags": ["general"],
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "difficulty": 1,
       "estimatedDuration": 8,
       "learningObjectives": [
-        "Catch common everyday sentences at natural speed",
-        "Write down exactly what you hear"
+        {
+          "id": "es-catch",
+          "text": "Catch common everyday sentences at natural speed",
+          "textPersian": "جمله‌های رایج روزمره را با سرعت طبیعی بگیر"
+        },
+        {
+          "id": "es-write",
+          "text": "Write down exactly what you hear",
+          "textPersian": "دقیقاً آنچه می‌شنوی را بنویس"
+        }
       ],
       "file": "./everyday-sentences.json"
     },
@@ -21,13 +33,25 @@
       "title": "At the Doctor's Office",
       "kind": "dialogue",
       "cefrLevel": "B1",
-      "skillTags": ["listening"],
-      "domainTags": ["general"],
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "difficulty": 2,
       "estimatedDuration": 10,
       "learningObjectives": [
-        "Follow a two-person conversation",
-        "Pick out specific details from speech"
+        {
+          "id": "doc-follow",
+          "text": "Follow a two-person conversation",
+          "textPersian": "یک مکالمهٔ دونفره را دنبال کن"
+        },
+        {
+          "id": "doc-details",
+          "text": "Pick out specific details from speech",
+          "textPersian": "جزئیات مشخص را از گفتار بیرون بکش"
+        }
       ],
       "file": "./at-the-doctor.json"
     },
@@ -36,15 +60,190 @@
       "title": "Daily Standup Meeting",
       "kind": "dialogue",
       "cefrLevel": "B2",
-      "skillTags": ["listening"],
-      "domainTags": ["technical", "business"],
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "technical",
+        "business"
+      ],
       "difficulty": 3,
       "estimatedDuration": 10,
       "learningObjectives": [
-        "Follow a software-team standup",
-        "Understand workplace status updates and blockers"
+        {
+          "id": "su-follow",
+          "text": "Follow a software-team standup",
+          "textPersian": "یک جلسهٔ استندآپ تیم نرم‌افزاری را دنبال کن"
+        },
+        {
+          "id": "su-blockers",
+          "text": "Understand workplace status updates and blockers",
+          "textPersian": "گزارش وضعیت کار و موانع را در محیط کار بفهم"
+        }
       ],
       "file": "./standup-meeting.json"
+    },
+    {
+      "id": "introductions-in-class",
+      "title": "Introductions in an English Class",
+      "kind": "dialogue",
+      "cefrLevel": "A1",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 1,
+      "estimatedDuration": 8,
+      "learningObjectives": [
+        {
+          "id": "ic-gist",
+          "text": "Follow a simple introduction dialogue",
+          "textPersian": "یک دیالوگ ساده معرفی را دنبال کن"
+        },
+        {
+          "id": "ic-details",
+          "text": "Catch names, places and jobs",
+          "textPersian": "نام‌ها، مکان‌ها و شغل‌ها را بگیر"
+        }
+      ],
+      "file": "./introductions-in-class.json"
+    },
+    {
+      "id": "numbers-times-and-dates",
+      "title": "Numbers, Times and Dates: Dictation",
+      "kind": "sentences",
+      "cefrLevel": "A1",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 1,
+      "estimatedDuration": 8,
+      "learningObjectives": [
+        {
+          "id": "nt-times",
+          "text": "Write down times and days you hear",
+          "textPersian": "ساعت‌ها و روزهایی که می‌شنوی را بنویس"
+        },
+        {
+          "id": "nt-numbers",
+          "text": "Write down numbers, ages and dates you hear",
+          "textPersian": "عددها، سن‌ها و تاریخ‌هایی که می‌شنوی را بنویس"
+        }
+      ],
+      "file": "./numbers-times-and-dates.json"
+    },
+    {
+      "id": "appointment-phone-call",
+      "title": "Booking an Appointment by Phone",
+      "kind": "dialogue",
+      "cefrLevel": "A2",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "learningObjectives": [
+        {
+          "id": "pa-gist",
+          "text": "Follow a phone call to book an appointment",
+          "textPersian": "یک تماس تلفنی برای گرفتن وقت را دنبال کن"
+        },
+        {
+          "id": "pa-details",
+          "text": "Catch days, times and names",
+          "textPersian": "روزها، ساعت‌ها و نام‌ها را بگیر"
+        }
+      ],
+      "file": "./appointment-phone-call.json"
+    },
+    {
+      "id": "street-directions",
+      "title": "Asking for Directions in the Street",
+      "kind": "dialogue",
+      "cefrLevel": "A2",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "learningObjectives": [
+        {
+          "id": "sd-gist",
+          "text": "Follow simple directions",
+          "textPersian": "راهنمایی‌های ساده را دنبال کن"
+        },
+        {
+          "id": "sd-details",
+          "text": "Catch distances, directions and landmarks",
+          "textPersian": "فاصله‌ها، جهت‌ها و نشانه‌ها را بگیر"
+        }
+      ],
+      "file": "./street-directions.json"
+    },
+    {
+      "id": "cancelled-flight-desk",
+      "title": "A Cancelled Flight at the Help Desk",
+      "kind": "dialogue",
+      "cefrLevel": "B1",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 3,
+      "estimatedDuration": 12,
+      "learningObjectives": [
+        {
+          "id": "cfd-gist",
+          "text": "Follow a service conversation when something goes wrong",
+          "textPersian": "مکالمهٔ خدمات را وقتی مشکلی پیش آمده دنبال کن"
+        },
+        {
+          "id": "cfd-details",
+          "text": "Pick out options, times and conditions",
+          "textPersian": "گزینه‌ها، ساعت‌ها و شرط‌ها را بیرون بکش"
+        }
+      ],
+      "file": "./cancelled-flight-desk.json"
+    },
+    {
+      "id": "price-negotiation",
+      "title": "A Price Negotiation",
+      "kind": "dialogue",
+      "cefrLevel": "B2",
+      "skillTags": [
+        "listening"
+      ],
+      "domainTags": [
+        "business"
+      ],
+      "difficulty": 4,
+      "estimatedDuration": 12,
+      "learningObjectives": [
+        {
+          "id": "pn-gist",
+          "text": "Follow a business negotiation",
+          "textPersian": "یک مذاکرهٔ کاری را دنبال کن"
+        },
+        {
+          "id": "pn-details",
+          "text": "Catch figures, conditions and compromises",
+          "textPersian": "عددها، شرط‌ها و مصالحه‌ها را بگیر"
+        }
+      ],
+      "file": "./price-negotiation.json"
     }
   ]
 }

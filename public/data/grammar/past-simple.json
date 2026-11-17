@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "past-simple-1",
+      "objectiveId": "pas-forms",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -19,10 +20,12 @@
       "before": "They",
       "after": "to London last summer. (go)",
       "acceptedAnswers": ["went"],
-      "explanation": "Go is irregular: go → went."
+      "explanation": "Go is irregular: go → went.",
+      "explanationPersian": "go بی‌قاعده است: go → went."
     },
     {
       "id": "past-simple-2",
+      "objectiveId": "pas-did",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -34,6 +37,7 @@
     },
     {
       "id": "past-simple-3",
+      "objectiveId": "pas-forms",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -41,19 +45,23 @@
       "prompt": "She ___ her keys this morning.",
       "options": ["lose", "losed", "lost", "loses"],
       "correctIndex": 2,
-      "explanation": "Lose is irregular: lose → lost."
+      "explanation": "Lose is irregular: lose → lost.",
+      "explanationPersian": "lose بی‌قاعده است: lose → lost."
     },
     {
       "id": "past-simple-4",
+      "objectiveId": "pas-did",
       "type": "sentence-ordering",
       "skill": "grammar",
       "cefrLevel": "A2",
       "difficulty": 2,
       "segments": ["Did", "you", "call", "her", "yesterday?"],
-      "explanation": "Past questions: Did + subject + base verb."
+      "explanation": "Past questions: Did + subject + base verb.",
+      "explanationPersian": "سؤال گذشته: Did + فاعل + فعل ساده."
     },
     {
       "id": "past-simple-5",
+      "objectiveId": "pas-forms",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -61,10 +69,12 @@
       "before": "He",
       "after": "for the exam all week. (study)",
       "acceptedAnswers": ["studied"],
-      "explanation": "Study → studied (y changes to i before -ed)."
+      "explanation": "Study → studied (y changes to i before -ed).",
+      "explanationPersian": "study → studied (قبل از -ed حرف y به i تبدیل می‌شود)."
     },
     {
       "id": "past-simple-6",
+      "objectiveId": "pas-forms",
       "type": "translation",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -75,7 +85,78 @@
         "I bought a book yesterday.",
         "Yesterday I bought a book."
       ],
-      "explanation": "Buy is irregular: buy → bought."
+      "explanation": "Buy is irregular: buy → bought.",
+      "explanationPersian": "buy بی‌قاعده است: buy → bought."
+    },
+    {
+      "id": "past-simple-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "pas-forms",
+      "source": "دیروز به سینما رفتیم و یک فیلم خوب دیدیم.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "We went to the cinema yesterday and saw a good film.",
+        "Yesterday we went to the cinema and saw a good film.",
+        "We went to the cinema yesterday and watched a good film.",
+        "We went to the cinema yesterday and saw a good movie.",
+        "Yesterday we went to the cinema and saw a good movie."
+      ],
+      "commonErrors": [
+        {
+          "match": "\\bgoed\\b|\\bseed\\b|\\bsawed\\b",
+          "feedback": "'go' → went, 'see' → saw (irregular).",
+          "feedbackPersian": "go → went و see → saw (بی‌قاعده)."
+        }
+      ],
+      "explanation": "went (go) + saw (see): irregular past",
+      "explanationPersian": "went (از go) و saw (از see): گذشتهٔ بی‌قاعده"
+    },
+    {
+      "id": "past-simple-8",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 1,
+      "objectiveId": "pas-did",
+      "before": "Did you",
+      "after": "the match last night? (see)",
+      "acceptedAnswers": [
+        "see"
+      ],
+      "commonErrors": [
+        {
+          "match": "^saw$",
+          "feedback": "After 'Did' use the base verb: see.",
+          "feedbackPersian": "بعد از Did فعل ساده می‌آید: see."
+        }
+      ],
+      "explanation": "did + base verb",
+      "explanationPersian": "did + فعل ساده"
+    },
+    {
+      "id": "past-simple-9",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "pas-did",
+      "prompt": "Make it negative: \"I watched TV last night.\"",
+      "acceptedAnswers": [
+        "I didn't watch TV last night.",
+        "I did not watch TV last night."
+      ],
+      "commonErrors": [
+        {
+          "match": "didn'?t watched",
+          "feedback": "After didn't use the base verb: watch.",
+          "feedbackPersian": "بعد از didn't فعل ساده می‌آید: watch."
+        }
+      ],
+      "explanation": "didn't + base verb",
+      "explanationPersian": "didn't + فعل ساده"
     }
   ]
 }

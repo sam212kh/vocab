@@ -13,6 +13,7 @@ const SKILL_LABEL: Record<string, string> = {
 
 const ID_LABEL: [RegExp, string][] = [
     [/^journey-sentence-construction/, 'Sentence building'],
+    [/^journey-contextual-application/, 'New-situation sentence'],
     [/^journey-vocab-retrieval/, 'Word recall'],
     [/^journey-recognition-quiz/, 'Recognition quiz'],
     [/^journey-grammar/, 'Grammar in context'],

@@ -4,13 +4,10 @@
   "scenario": "You will hear six everyday sentences, one per exercise. Listen as many times as you need, then type exactly what you hear.",
   "scenarioPersian": "شش جمله روزمره می‌شنوی. هر بار که لازم بود گوش بده و دقیقاً همان را بنویس.",
   "lines": [],
-  "learningObjectives": [
-    "Catch common everyday sentences at natural speed",
-    "Write down exactly what you hear"
-  ],
   "exercises": [
     {
       "id": "dictation-1",
+      "objectiveId": "es-catch",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",
@@ -20,6 +17,7 @@
     },
     {
       "id": "dictation-2",
+      "objectiveId": "es-write",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",
@@ -29,6 +27,7 @@
     },
     {
       "id": "dictation-3",
+      "objectiveId": "es-write",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",
@@ -38,6 +37,7 @@
     },
     {
       "id": "dictation-4",
+      "objectiveId": "es-catch",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",
@@ -47,6 +47,7 @@
     },
     {
       "id": "dictation-5",
+      "objectiveId": "es-catch",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",
@@ -56,6 +57,7 @@
     },
     {
       "id": "dictation-6",
+      "objectiveId": "es-write",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "A2",

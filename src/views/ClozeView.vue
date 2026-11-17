@@ -119,13 +119,15 @@ function checkAnswer() {
         progressStore.recordCorrect(
             current.value.word.word,
             current.value.word.courseId,
-            current.value.word.lessonId
+            current.value.word.lessonId,
+            { mode: 'recall', ctx: 'cloze' }
         )
     } else {
         progressStore.recordWrong(
             current.value.word.word,
             current.value.word.courseId,
-            current.value.word.lessonId
+            current.value.word.lessonId,
+            { mode: 'recall', ctx: 'cloze' }
         )
     }
 }

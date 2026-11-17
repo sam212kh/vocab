@@ -47,12 +47,46 @@ const MINUTES = {
     speaking: 3,
     roleplay: 8,
     career: 6,
+    intro: 2,
+    transfer: 4,
+}
+
+const STAGE_RANK = ['exposed', 'recognized', 'recalled', 'produced', 'applied', 'retained']
+
+const normalizeText = (text: string) => text.trim().toLowerCase().replace(/\s+/g, ' ')
+
+/** Dimension → how the plan reacts when evidence CONFIRMS a weakness (never on insufficient evidence). */
+const WEAKNESS_LABEL: Record<string, string> = {
+    vocabRecall: 'active recall',
+    sentenceConstruction: 'building sentences',
+    naturalExpression: 'natural phrasing',
+    grammarAccuracy: 'grammar accuracy',
+    listening: 'listening',
+    speakingFluency: 'speaking',
+    contextualUsage: 'using language in new situations',
+    vocabRecognition: 'word recognition',
 }
 
 export function planJourney(input: PlannerInput): JourneyPlan {
     const budget = BUDGET[input.length]
     const notes: string[] = []
     const recent = new Set(input.recentlyCompleted)
+
+    /*
+     * ADAPTIVE RULES (only when the caller supplies evidence — otherwise the
+     * planner behaves exactly as before):
+     *  E1 Items never shown are INTRODUCED before anything asks the learner to recall them.
+     *  E2 Retention checkpoints (due/missed) order the due SRS words first — the SRS still decides WHAT is due.
+     *  E3 Recognition only for items still below "recognized"; recall only for items below "recalled".
+     *  E4 After recall and production comes a contextual-application (transfer) step.
+     *  E5 A CONFIRMED weakness (never insufficient evidence) lets its activity into short sessions
+     *     and is named in the objective.
+     *  E6 Recognition never dominates: at most one recognition step and ≤ 35% of the planned time.
+     */
+    const ev = input.evidence
+    const introduced = new Set(ev?.introduced ?? [])
+    const weak = new Set((ev?.gaps ?? []).filter(gap => gap.classification === 'weakness').map(gap => gap.dimension))
+    const stageOf = (text: string) => STAGE_RANK.indexOf(ev?.stages[normalizeText(text)] ?? '')
 
     const activities: JourneyActivity[] = []
     let minutesUsed = 0
@@ -84,8 +118,16 @@ export function planJourney(input: PlannerInput): JourneyPlan {
         notes.push('All Real-Life scenarios were practiced recently — no theme today.')
     }
 
-    /* ---- R1: due SRS retrieval first ---- */
-    const dueItems = input.dueWords.slice(0, budget.dueCap)
+    /* ---- R1 (+E2): due SRS retrieval first ---- */
+    const retentionRank = new Map((ev?.retentionDue ?? []).map((key, index) => [key, index]))
+    const orderedDue = ev
+        ? [...input.dueWords].sort((a, b) =>
+            (retentionRank.get(normalizeText(a.english)) ?? Infinity) - (retentionRank.get(normalizeText(b.english)) ?? Infinity)
+        )
+        : input.dueWords
+
+    const dueItems = orderedDue.slice(0, budget.dueCap)
+    const checkpointCount = ev ? dueItems.filter(item => retentionRank.has(normalizeText(item.english))).length : 0
 
     if (dueItems.length && fits(MINUTES.retrieval)) {
         const batch = dueItems.slice(0, input.length === 'quick' ? 4 : 6)
@@ -97,13 +139,13 @@ export function planJourney(input: PlannerInput): JourneyPlan {
             skill: 'vocabulary',
             title: 'Recall your due words',
             estimatedMinutes: MINUTES.retrieval,
-            reason: `${input.dueWords.length} word${input.dueWords.length === 1 ? ' is' : 's are'} due for spaced review — retrieval without options strengthens memory most.`,
+            reason: `${input.dueWords.length} word${input.dueWords.length === 1 ? ' is' : 's are'} due for spaced review — retrieval without options strengthens memory most.${checkpointCount ? ` ${checkpointCount} of them also check whether you still remember after several days.` : ''}`,
             sourceId: 'due-words',
             retrievalItems: batch,
         })
     }
 
-    /* ---- Theme block: recognition warm-up → recall → production → speaking ---- */
+    /* ---- Theme block: intro → recognition → recall → production → application → speaking ---- */
     if (theme) {
         const expressionItems: RetrievalItem[] = theme.expressions.slice(0, 5).map(expression => ({
             english: expression.english,
@@ -115,7 +157,49 @@ export function planJourney(input: PlannerInput): JourneyPlan {
 
         const mcExercises = theme.exercises.filter(isRecognitionExercise).slice(0, 3)
 
-        if (mcExercises.length && fits(MINUTES.recognition)) {
+        /* E1: introduce what the learner has never been shown. */
+        let recallable = expressionItems
+
+        if (ev) {
+            const unseen = theme.expressions.slice(0, 5).filter(expression => !introduced.has(normalizeText(expression.english)))
+
+            if (unseen.length && fits(MINUTES.intro)) {
+                const shown = unseen.slice(0, 4)
+
+                push({
+                    id: `new-material-intro:${theme.id}:0`,
+                    kind: 'new-material-intro',
+                    stage: 'recognition',
+                    skill: 'vocabulary',
+                    title: `Meet new phrases: ${theme.title}`,
+                    estimatedMinutes: MINUTES.intro,
+                    reason: `${shown.length} phrase${shown.length === 1 ? '' : 's'} in today's theme ${shown.length === 1 ? 'is' : 'are'} new to you — look and listen first; recall comes after you have seen them.`,
+                    sourceId: `${theme.id}:intro`,
+                    introItems: shown.map(expression => ({
+                        english: expression.english,
+                        persian: expression.persian,
+                        example: expression.example,
+                        examplePersian: expression.examplePersian,
+                    })),
+                })
+
+                const shownKeys = new Set(shown.map(expression => normalizeText(expression.english)))
+
+                recallable = expressionItems.filter(item => introduced.has(normalizeText(item.english)) || shownKeys.has(normalizeText(item.english)))
+            } else {
+                recallable = expressionItems.filter(item => introduced.has(normalizeText(item.english)))
+
+                if (unseen.length) notes.push('There was no time left to introduce the new phrases in this theme, so they were not tested.')
+            }
+        }
+
+        /* E3: recognition only where recognition is still the right level. */
+        const needsRecognition = !ev || expressionItems.some(item => stageOf(item.english) < STAGE_RANK.indexOf('recognized'))
+
+        /* E5: in a short session a CONFIRMED weakness gets the time that recognition would use. */
+        const weakPriority = input.length === 'quick' && ['sentenceConstruction', 'naturalExpression', 'contextualUsage', 'listening', 'speakingFluency'].some(dimension => weak.has(dimension))
+
+        if (mcExercises.length && needsRecognition && !weakPriority && fits(MINUTES.recognition)) {
             push({
                 id: `recognition-quiz:${theme.id}:0`,
                 kind: 'recognition-quiz',
@@ -127,9 +211,16 @@ export function planJourney(input: PlannerInput): JourneyPlan {
                 sourceId: `${theme.id}:recognition`,
                 exercises: mcExercises,
             })
+        } else if (ev && mcExercises.length && weakPriority) {
+            notes.push('Recognition warm-up skipped in this short session so time goes to the skill your evidence shows needs work.')
+        } else if (ev && mcExercises.length && !needsRecognition) {
+            notes.push('Recognition warm-up skipped: you already recognize this theme\'s phrases, so time goes to recall and use.')
         }
 
-        if (expressionItems.length && fits(MINUTES.retrieval)) {
+        /* E3: recall only items that still need recall evidence. */
+        const recallItems = ev ? recallable.filter(item => stageOf(item.english) < STAGE_RANK.indexOf('recalled')) : recallable
+
+        if (recallItems.length && fits(MINUTES.retrieval)) {
             push({
                 id: `vocab-retrieval:${theme.id}:1`,
                 kind: 'vocab-retrieval',
@@ -139,11 +230,15 @@ export function planJourney(input: PlannerInput): JourneyPlan {
                 estimatedMinutes: MINUTES.retrieval,
                 reason: 'Typing the English from the Persian meaning is recall — a stronger memory signal than choosing from options.',
                 sourceId: `${theme.id}:recall`,
-                retrievalItems: expressionItems,
+                retrievalItems: recallItems,
             })
+        } else if (ev && recallable.length && !recallItems.length) {
+            notes.push('Recall step skipped: you already recall this theme\'s phrases independently.')
         }
 
-        if (theme.constructionPrompt && input.length !== 'quick' && fits(MINUTES.construction)) {
+        const allowProduction = input.length !== 'quick' || weak.has('sentenceConstruction') || weak.has('naturalExpression')
+
+        if (theme.constructionPrompt && allowProduction && fits(MINUTES.construction)) {
             push({
                 id: `sentence-construction:${theme.id}:2`,
                 kind: 'sentence-construction',
@@ -151,13 +246,44 @@ export function planJourney(input: PlannerInput): JourneyPlan {
                 skill: 'writing',
                 title: 'Build your own sentence',
                 estimatedMinutes: MINUTES.construction,
-                reason: 'Production: you construct a sentence using the theme language — the step multiple-choice cannot replace.',
+                reason: weak.has('sentenceConstruction')
+                    ? 'Building sentences is where your evidence shows the biggest gap — the step multiple-choice cannot replace.'
+                    : 'Production: you construct a sentence using the theme language — the step multiple-choice cannot replace.',
                 sourceId: `${theme.id}:construction`,
                 construction: theme.constructionPrompt,
             })
         }
 
-        if (input.speakingEnabled && theme.speakingSentences.length && input.length !== 'quick' && fits(MINUTES.speaking)) {
+        /* E4: contextual application — the same pattern in a situation the learner has not practised. */
+        const transferTask = ev?.transfer.task ?? null
+
+        if (ev && transferTask && (input.length !== 'quick' || weak.has('contextualUsage')) && fits(MINUTES.transfer)) {
+            push({
+                id: `contextual-application:${transferTask.contextId}:3`,
+                kind: 'contextual-application',
+                stage: 'production',
+                skill: 'writing',
+                title: 'Use it in a new situation',
+                estimatedMinutes: MINUTES.transfer,
+                reason: `You already know "${transferTask.anchorExpression}". Now use the same kind of language in a situation you have not practised.`,
+                sourceId: `transfer:${transferTask.patternId}:${transferTask.contextId}`,
+                construction: transferTask.prompt,
+                transfer: {
+                    patternId: transferTask.patternId,
+                    contextId: transferTask.contextId,
+                    level: transferTask.level,
+                    anchorExpression: transferTask.anchorExpression,
+                    matches: transferTask.matches ?? [],
+                    learn: transferTask.learn,
+                },
+            })
+        } else if (ev && !transferTask && input.length !== 'quick' && ev.transfer.reason === 'no-acquired-expression') {
+            notes.push('New-situation practice unlocks once you can recall an expression built on a reusable pattern (for example "Could I have…?").')
+        }
+
+        const allowSpeaking = input.length !== 'quick' || weak.has('speakingFluency')
+
+        if (input.speakingEnabled && theme.speakingSentences.length && allowSpeaking && fits(MINUTES.speaking)) {
             push({
                 id: `speaking:${theme.id}:3`,
                 kind: 'speaking',
@@ -173,6 +299,24 @@ export function planJourney(input: PlannerInput): JourneyPlan {
     } else if (!dueItems.length) {
         /* No theme and nothing due: fall back to NEW words so the session isn't empty. */
         const fresh = input.newWords.filter(word => !recent.has(`new:${word.english}`)).slice(0, 5)
+
+        if (ev && fresh.length && fits(MINUTES.intro)) {
+            const unseen = fresh.filter(word => !introduced.has(normalizeText(word.english)))
+
+            if (unseen.length) {
+                push({
+                    id: 'new-material-intro:new:0',
+                    kind: 'new-material-intro',
+                    stage: 'recognition',
+                    skill: 'vocabulary',
+                    title: 'Meet new words',
+                    estimatedMinutes: MINUTES.intro,
+                    reason: 'Nothing is due for review, so today introduces a few new words — look and listen before recalling them.',
+                    sourceId: 'new-words-intro',
+                    introItems: unseen.map(word => ({ english: word.english, persian: word.persian })),
+                })
+            }
+        }
 
         if (fresh.length && fits(MINUTES.retrieval)) {
             push({
@@ -192,6 +336,7 @@ export function planJourney(input: PlannerInput): JourneyPlan {
     /* ---- R4: grammar in context, biased by weakness ---- */
     const weakGrammar =
         input.weakSkills.includes('grammar') ||
+        weak.has('grammarAccuracy') ||
         input.recurringMistakeCategories.length > 0 ||
         input.dueGrammarTopics.length > 0
 
@@ -224,7 +369,7 @@ export function planJourney(input: PlannerInput): JourneyPlan {
     /* ---- Dictation (listening) ---- */
     const dictationPool = input.dictationExercises.filter(exercise => !recent.has(exercise.id))
 
-    if (dictationPool.length && input.length !== 'quick' && fits(MINUTES.dictation)) {
+    if (dictationPool.length && (input.length !== 'quick' || weak.has('listening')) && fits(MINUTES.dictation)) {
         const picks = dictationPool.slice(0, 2)
 
         push({
@@ -234,7 +379,9 @@ export function planJourney(input: PlannerInput): JourneyPlan {
             skill: 'listening',
             title: 'Listen and write',
             estimatedMinutes: MINUTES.dictation,
-            reason: 'Dictation trains listening and independent spelling in one step — no options to guess from.',
+            reason: weak.has('listening')
+                ? 'Your listening evidence is below target — dictation trains it with no options to guess from.'
+                : 'Dictation trains listening and independent spelling in one step — no options to guess from.',
             sourceId: picks.map(exercise => exercise.id).join('+'),
             exercises: picks,
         })
@@ -273,6 +420,22 @@ export function planJourney(input: PlannerInput): JourneyPlan {
         }
     }
 
+    /* ---- E6: recognition never dominates ---- */
+    if (ev) {
+        const recognitionSteps = activities.filter(a => a.kind === 'recognition-quiz' || a.kind === 'grammar-in-context')
+        const recognitionMinutes = recognitionSteps.reduce((sum, a) => sum + a.estimatedMinutes, 0)
+
+        if (activities.length >= 3 && recognitionMinutes / Math.max(minutesUsed, 1) > 0.35) {
+            const drop = recognitionSteps.find(a => a.kind === 'recognition-quiz')
+
+            if (drop) {
+                activities.splice(activities.indexOf(drop), 1)
+                minutesUsed -= drop.estimatedMinutes
+                notes.push('A recognition step was removed so the session is not dominated by easy multiple-choice work.')
+            }
+        }
+    }
+
     /* ---- R3: stage balance guard ---- */
     const hasRecallOrBetter = activities.some(a => a.stage !== 'recognition')
 
@@ -284,9 +447,13 @@ export function planJourney(input: PlannerInput): JourneyPlan {
         notes.push('No learning content is available right now — check that lesson data is deployed.')
     }
 
+    if (ev && activities.length && minutesUsed < budget.minutes * 0.6) {
+        notes.push(`Only ${minutesUsed} of ${budget.minutes} minutes could be filled with suitable material today.`)
+    }
+
     return {
         length: input.length,
-        objective: buildObjective(theme, dueItems.length, input),
+        objective: buildObjective(theme, dueItems.length, input, ev ? [...weak] : []),
         theme: theme ? { id: theme.id, title: theme.title, titlePersian: theme.titlePersian } : null,
         activities,
         totalEstimatedMinutes: minutesUsed,
@@ -331,21 +498,26 @@ function chooseTheme(
 function buildObjective(
     theme: ThemeCandidate | null,
     dueCount: number,
-    input: PlannerInput
+    input: PlannerInput,
+    weakDimensions: string[] = []
 ): string {
+    const focus = weakDimensions.length
+        ? ` Focus: ${weakDimensions.map(dimension => WEAKNESS_LABEL[dimension] ?? dimension).slice(0, 2).join(' and ')}, where your evidence shows the biggest gap.`
+        : ''
+
     if (theme) {
-        return `Talk about "${theme.title}" in natural English — recognize it, recall it, then use it yourself.`
+        return `Talk about "${theme.title}" in natural English — recognize it, recall it, then use it yourself.${focus}`
     }
 
     if (dueCount) {
-        return `Strengthen ${dueCount} word${dueCount === 1 ? '' : 's'} that are due, then practice using them.`
+        return `Strengthen ${dueCount} word${dueCount === 1 ? '' : 's'} that are due, then practice using them.${focus}`
     }
 
     if (input.newWords.length) {
-        return 'Learn a few new words and practice recalling them.'
+        return `Learn a few new words and practice recalling them.${focus}`
     }
 
-    return 'Keep your English active with a short mixed practice.'
+    return `Keep your English active with a short mixed practice.${focus}`
 }
 
 export function stageOrder(stage: LearningStage): number {

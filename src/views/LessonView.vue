@@ -11,6 +11,7 @@ import type { LearnItem } from '../services/learnItems'
 
 import { useHardWordsStore } from '../stores/hardWords'
 import { useLearningPositionStore } from '../stores/learningPosition'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import { useWordProgressStore } from '../stores/wordProgress'
 
 import type { LessonManifest, Word } from '../types/vocabulary'
@@ -21,6 +22,11 @@ const router = useRouter()
 const hardWordsStore = useHardWordsStore()
 const wordProgressStore = useWordProgressStore()
 const positionStore = useLearningPositionStore()
+const evidenceRecorder = useEvidenceRecorder()
+
+function onView(item: LearnItem) {
+    evidenceRecorder.expose(item.id, 'word', `${courseId.value}/${lessonId.value}`)
+}
 
 const lesson = ref<LessonManifest | null>(null)
 const words = ref<Word[]>([])
@@ -148,6 +154,7 @@ onMounted(async () => {
                 @save="toggleSave"
                 @update:index="syncPosition"
                 @complete="onComplete"
+                @view="onView"
             />
         </div>
     </div>

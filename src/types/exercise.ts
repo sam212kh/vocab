@@ -30,10 +30,37 @@ export interface ExerciseBase {
     cefrLevel?: string
     /** 1 (easiest) – 5 (hardest). Relative within its module, not a CEFR claim. */
     difficulty?: number
-    learningObjective?: string
+    /** Id of the learning objective (declared in the topic's manifest entry) this exercise assesses. */
+    objectiveId?: string
+    /** Expressions this exercise gives evidence for. Recorded against the Phase 9 ledger as `lex:` items. */
+    targets?: string[]
     /** Shown after answering, regardless of correctness. */
     explanation?: string
     explanationPersian?: string
+}
+
+/** Optional help and feedback for exercises the learner answers by typing. */
+export interface TypedExtras {
+    /** Shown on request. Using it makes the answer hint-assisted, not independent. */
+    hint?: string
+    hintPersian?: string
+    /** Grammatical and understandable, but less natural than acceptedAnswers: counts as correct with a note. */
+    acceptableAnswers?: AcceptableAnswer[]
+    /** Targeted feedback for a specific wrong answer (matched case-insensitively against what was typed). */
+    commonErrors?: CommonError[]
+}
+
+export interface AcceptableAnswer {
+    text: string
+    note: string
+    notePersian?: string
+}
+
+export interface CommonError {
+    /** Regular-expression source, tested case-insensitively against the learner's answer. */
+    match: string
+    feedback: string
+    feedbackPersian: string
 }
 
 export interface MultipleChoiceExercise extends ExerciseBase {
@@ -44,17 +71,16 @@ export interface MultipleChoiceExercise extends ExerciseBase {
     correctIndex: number
 }
 
-export interface FillBlankExercise extends ExerciseBase {
+export interface FillBlankExercise extends ExerciseBase, TypedExtras {
     type: 'fill-blank'
     /** Text before/after the blank. */
     before: string
     after: string
     /** Any of these count as correct (first is the canonical display answer). */
     acceptedAnswers: string[]
-    hint?: string
 }
 
-export interface TranslationExercise extends ExerciseBase {
+export interface TranslationExercise extends ExerciseBase, TypedExtras {
     type: 'translation'
     /** Source text (usually Persian). */
     source: string
@@ -73,7 +99,7 @@ export interface MatchingExercise extends ExerciseBase {
     pairs: { left: string; right: string }[]
 }
 
-export interface ShortAnswerExercise extends ExerciseBase {
+export interface ShortAnswerExercise extends ExerciseBase, TypedExtras {
     type: 'short-answer'
     prompt: string
     acceptedAnswers: string[]
@@ -96,7 +122,7 @@ export interface DictationExercise extends ExerciseBase {
     acceptedAnswers: string[]
 }
 
-export interface GrammarCorrectionExercise extends ExerciseBase {
+export interface GrammarCorrectionExercise extends ExerciseBase, TypedExtras {
     type: 'grammar-correction'
     incorrectSentence: string
     acceptedAnswers: string[]
@@ -151,6 +177,14 @@ export interface ExerciseResult {
     correct: boolean
     /** Canonical correct answer for display. */
     expected: string
+    /** The learner asked for the hint before answering. Such an answer is not independent. */
+    hintUsed?: boolean
+    /** Correct but a less natural wording than the canonical answer. */
+    naturalness?: 'natural' | 'acceptable'
+    naturalnessNote?: string
+    naturalnessNotePersian?: string
+    /** Targeted feedback for a recognised wrong answer. */
+    errorFeedback?: { english: string; persian: string }
     /** What the learner's answer looked like, normalized for display. */
     received: string
     feedback?: string

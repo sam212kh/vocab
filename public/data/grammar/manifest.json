@@ -7,11 +7,21 @@
       "titlePersian": "حال ساده",
       "category": "Tenses",
       "cefrLevel": "A1",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 1,
       "learningObjectives": [
-        "Use present simple for habits, routines and facts",
-        "Use the -s ending correctly with he/she/it"
+        {
+          "id": "ps-habits",
+          "text": "Use present simple for habits, routines and facts",
+          "textPersian": "حال ساده را برای عادت‌ها، روال روزانه و واقعیت‌ها به کار ببر"
+        },
+        {
+          "id": "ps-s-ending",
+          "text": "Use the -s ending correctly with he/she/it",
+          "textPersian": "پایانهٔ s را با he/she/it درست به کار ببر"
+        }
       ],
       "estimatedDuration": 10,
       "file": "./present-simple.json"
@@ -22,11 +32,21 @@
       "titlePersian": "حروف تعریف",
       "category": "Articles",
       "cefrLevel": "A1",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 1,
       "learningObjectives": [
-        "Choose between a and an",
-        "Use the for specific things and no article for general plurals"
+        {
+          "id": "art-a-an",
+          "text": "Choose between a and an",
+          "textPersian": "بین a و an درست انتخاب کن"
+        },
+        {
+          "id": "art-the",
+          "text": "Use the for specific things and no article for general plurals",
+          "textPersian": "the را برای چیزهای مشخص و بدون حرف تعریف را برای جمع‌های کلی به کار ببر"
+        }
       ],
       "estimatedDuration": 10,
       "file": "./articles.json"
@@ -37,11 +57,21 @@
       "titlePersian": "گذشته ساده",
       "category": "Tenses",
       "cefrLevel": "A2",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 2,
       "learningObjectives": [
-        "Form regular and common irregular past forms",
-        "Use did/didn't in questions and negatives"
+        {
+          "id": "pas-forms",
+          "text": "Form regular and common irregular past forms",
+          "textPersian": "شکل گذشتهٔ فعل‌های باقاعده و بی‌قاعدهٔ رایج را بساز"
+        },
+        {
+          "id": "pas-did",
+          "text": "Use did/didn't in questions and negatives",
+          "textPersian": "did و didn't را در سؤال و منفی به کار ببر"
+        }
       ],
       "estimatedDuration": 10,
       "file": "./past-simple.json"
@@ -52,11 +82,21 @@
       "titlePersian": "صفات تفضیلی و عالی",
       "category": "Adjectives",
       "cefrLevel": "A2",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 2,
       "learningObjectives": [
-        "Form -er/-est and more/most comparisons",
-        "Use than and the correctly in comparisons"
+        {
+          "id": "comp-forms",
+          "text": "Form -er/-est and more/most comparisons",
+          "textPersian": "مقایسه با -er/-est و more/most را بساز"
+        },
+        {
+          "id": "comp-than",
+          "text": "Use than and the correctly in comparisons",
+          "textPersian": "than و the را در مقایسه درست به کار ببر"
+        }
       ],
       "estimatedDuration": 10,
       "file": "./comparatives-superlatives.json"
@@ -67,11 +107,21 @@
       "titlePersian": "حال کامل",
       "category": "Tenses",
       "cefrLevel": "B1",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 3,
       "learningObjectives": [
-        "Use present perfect for experiences and unfinished time",
-        "Choose between present perfect and past simple"
+        {
+          "id": "pp-experience",
+          "text": "Use present perfect for experiences and unfinished time",
+          "textPersian": "حال کامل را برای تجربه‌ها و زمان ناتمام به کار ببر"
+        },
+        {
+          "id": "pp-vs-past",
+          "text": "Choose between present perfect and past simple",
+          "textPersian": "بین حال کامل و گذشتهٔ ساده درست انتخاب کن"
+        }
       ],
       "estimatedDuration": 12,
       "file": "./present-perfect.json"
@@ -82,11 +132,21 @@
       "titlePersian": "شرطی نوع اول",
       "category": "Conditionals",
       "cefrLevel": "B1",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 3,
       "learningObjectives": [
-        "Form if + present simple, will + base verb",
-        "Talk about real future possibilities"
+        {
+          "id": "fc-form",
+          "text": "Form if + present simple, will + base verb",
+          "textPersian": "ساختار if + حال ساده، will + فعل ساده را بساز"
+        },
+        {
+          "id": "fc-future",
+          "text": "Talk about real future possibilities",
+          "textPersian": "دربارهٔ احتمال‌های واقعی آینده صحبت کن"
+        }
       ],
       "estimatedDuration": 10,
       "file": "./first-conditional.json"
@@ -97,14 +157,174 @@
       "titlePersian": "جمله مجهول",
       "category": "Sentence Structure",
       "cefrLevel": "B2",
-      "skillTags": ["grammar"],
+      "skillTags": [
+        "grammar"
+      ],
       "difficulty": 4,
       "learningObjectives": [
-        "Form passive sentences in present and past",
-        "Choose passive when the agent is unknown or unimportant"
+        {
+          "id": "pv-form",
+          "text": "Form passive sentences in present and past",
+          "textPersian": "جمله‌های مجهول را در حال و گذشته بساز"
+        },
+        {
+          "id": "pv-when",
+          "text": "Choose passive when the agent is unknown or unimportant",
+          "textPersian": "وقتی فاعل ناشناخته یا بی‌اهمیت است مجهول را انتخاب کن"
+        }
       ],
       "estimatedDuration": 12,
       "file": "./passive-voice.json"
+    },
+    {
+      "id": "be-and-questions",
+      "title": "Verb To Be and Basic Questions",
+      "titlePersian": "فعل to be و سؤال‌های ساده",
+      "category": "Basics",
+      "cefrLevel": "A1",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 1,
+      "learningObjectives": [
+        {
+          "id": "be-forms",
+          "text": "Use am / is / are in statements and negatives",
+          "textPersian": "am / is / are را در جمله‌های مثبت و منفی به کار ببر"
+        },
+        {
+          "id": "be-questions",
+          "text": "Ask and answer simple questions with be and question words",
+          "textPersian": "با be و کلمه‌های پرسشی سؤال ساده بپرس و جواب بده"
+        }
+      ],
+      "estimatedDuration": 10,
+      "file": "./be-and-questions.json"
+    },
+    {
+      "id": "modal-verbs-requests-advice",
+      "title": "Modal Verbs: Requests, Permission and Advice",
+      "titlePersian": "افعال مُدال: درخواست، اجازه و توصیه",
+      "category": "Modal verbs",
+      "cefrLevel": "A2",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 2,
+      "learningObjectives": [
+        {
+          "id": "modal-requests",
+          "text": "Make polite requests and ask for permission with can, could and would",
+          "textPersian": "با can، could و would مؤدبانه درخواست کن و اجازه بخواه"
+        },
+        {
+          "id": "modal-advice",
+          "text": "Give advice and say what is necessary with should, must and have to",
+          "textPersian": "با should، must و have to توصیه کن و ضرورت را بگو"
+        }
+      ],
+      "estimatedDuration": 12,
+      "file": "./modal-verbs-requests-advice.json"
+    },
+    {
+      "id": "future-forms",
+      "title": "Talking About the Future: going to, Present Continuous and will",
+      "titlePersian": "صحبت دربارهٔ آینده: going to، حال استمراری و will",
+      "category": "Tenses",
+      "cefrLevel": "A2",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 2,
+      "learningObjectives": [
+        {
+          "id": "future-plans",
+          "text": "Talk about plans and arrangements with going to and the present continuous",
+          "textPersian": "با going to و حال استمراری دربارهٔ برنامه‌ها و قرارها صحبت کن"
+        },
+        {
+          "id": "future-will",
+          "text": "Make decisions, offers and predictions with will",
+          "textPersian": "با will تصمیم‌های لحظه‌ای، پیشنهاد و پیش‌بینی بگو"
+        }
+      ],
+      "estimatedDuration": 12,
+      "file": "./future-forms.json"
+    },
+    {
+      "id": "second-conditional",
+      "title": "Second Conditional: Unreal and Unlikely Situations",
+      "titlePersian": "شرطی نوع دوم: موقعیت‌های غیرواقعی و بعید",
+      "category": "Conditionals",
+      "cefrLevel": "B1",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 3,
+      "learningObjectives": [
+        {
+          "id": "sc-form",
+          "text": "Form if + past simple, would + base verb",
+          "textPersian": "ساختار if + گذشتهٔ ساده، would + فعل ساده را بساز"
+        },
+        {
+          "id": "sc-use",
+          "text": "Talk about unreal or unlikely situations and give advice",
+          "textPersian": "دربارهٔ موقعیت‌های غیرواقعی یا بعید صحبت کن و توصیه کن"
+        }
+      ],
+      "estimatedDuration": 12,
+      "file": "./second-conditional.json"
+    },
+    {
+      "id": "used-to-and-past-habits",
+      "title": "Used To: Past Habits and States",
+      "titlePersian": "used to: عادت‌ها و وضعیت‌های گذشته",
+      "category": "Tenses",
+      "cefrLevel": "B1",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 3,
+      "learningObjectives": [
+        {
+          "id": "ut-habits",
+          "text": "Talk about past habits and states with used to",
+          "textPersian": "دربارهٔ عادت‌ها و وضعیت‌های گذشته با used to صحبت کن"
+        },
+        {
+          "id": "ut-contrast",
+          "text": "Contrast the past with the present",
+          "textPersian": "گذشته را با حال مقایسه کن"
+        }
+      ],
+      "estimatedDuration": 12,
+      "file": "./used-to-and-past-habits.json"
+    },
+    {
+      "id": "advanced-sentence-patterns",
+      "title": "Advanced Sentence Patterns for Emphasis",
+      "titlePersian": "الگوهای جمله‌ای پیشرفته برای تأکید",
+      "category": "Sentence structure",
+      "cefrLevel": "B2",
+      "skillTags": [
+        "grammar"
+      ],
+      "difficulty": 4,
+      "learningObjectives": [
+        {
+          "id": "asp-emphasis",
+          "text": "Add emphasis with not only … but also, so … that and such … that",
+          "textPersian": "با not only … but also، so … that و such … that تأکید اضافه کن"
+        },
+        {
+          "id": "asp-proportion",
+          "text": "Express proportional change with the more … the more …",
+          "textPersian": "با the more … the more … تغییر متناسب را بیان کن"
+        }
+      ],
+      "estimatedDuration": 15,
+      "file": "./advanced-sentence-patterns.json"
     }
   ]
 }

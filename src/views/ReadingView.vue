@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 
 import { loadReadingManifest, loadReadingPassage } from '../services/readingContent'
 import { usePerformanceStore } from '../stores/performance'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 
 
 import type { ReadingPassage, ReadingPassageManifest } from '../types/reading'
@@ -72,8 +73,17 @@ function startQuestions() {
     phase.value = 'exercises'
 }
 
+const evidenceRecorder = useEvidenceRecorder()
+
 function onExerciseResult(result: ExerciseResult) {
     sessionResults.value.push(result)
+
+    const exercise = currentExercise.value
+
+    if (exercise && activePassage.value) evidenceRecorder.recordExercise(exercise, result, `reading/${activePassage.value.id}`)
+
+    /* A hint-assisted answer is practice, not evidence of the skill. */
+    if (result.hintUsed) return
 
     performanceStore.record({
         skill: 'reading',

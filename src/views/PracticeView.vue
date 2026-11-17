@@ -88,9 +88,9 @@ async function checkAnswer() {
     results.value.push(result.value)
 
     if (result.value === 'correct') {
-        progressStore.recordCorrect(word.word, word.courseId, word.lessonId)
+        progressStore.recordCorrect(word.word, word.courseId, word.lessonId, { mode: 'recall', ctx: 'practice' })
     } else {
-        progressStore.recordWrong(word.word, word.courseId, word.lessonId)
+        progressStore.recordWrong(word.word, word.courseId, word.lessonId, { mode: 'recall', ctx: 'practice' })
         missed.value.push({ word, answer: answer.value.trim() })
     }
 

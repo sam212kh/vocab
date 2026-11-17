@@ -17,13 +17,10 @@
     { "word": "coverage", "meaning": "the extent to which tests check the code", "persian": "پوشش تست" },
     { "word": "urgency", "meaning": "the need for fast action", "persian": "فوریت" }
   ],
-  "learningObjectives": [
-    "Read a professional software-team email",
-    "Infer tone and intent in workplace communication"
-  ],
   "exercises": [
     {
       "id": "review-1",
+      "objectiveId": "cr-read",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -37,10 +34,12 @@
         "To announce that PR #482 has been merged"
       ],
       "correctIndex": 1,
-      "explanation": "It's a review request with specific guidance (backoff strategy, shared client change)."
+      "explanation": "It's a review request with specific guidance (backoff strategy, shared client change).",
+      "explanationPersian": "ایمیل درخواست بازبینی است و راهنمایی مشخصی دارد (استراتژی تلاش مجدد و تغییر کلاینت مشترک)."
     },
     {
       "id": "review-2",
+      "objectiveId": "cr-read",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -54,10 +53,12 @@
         "Arman wrote the original code"
       ],
       "correctIndex": 1,
-      "explanation": "'Given that other services depend on that client, a second opinion would make me more comfortable.'"
+      "explanation": "'Given that other services depend on that client, a second opinion would make me more comfortable.'",
+      "explanationPersian": "چون سرویس‌های دیگر به آن کلاینت وابسته‌اند، نظر دوم او را مطمئن‌تر می‌کند."
     },
     {
       "id": "review-3",
+      "objectiveId": "cr-tone",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -71,10 +72,12 @@
         "She thinks the feature should be removed"
       ],
       "correctIndex": 1,
-      "explanation": "She signals genuine uncertainty about one decision and directs the reviewer's attention there — collaborative, not defensive."
+      "explanation": "She signals genuine uncertainty about one decision and directs the reviewer's attention there — collaborative, not defensive.",
+      "explanationPersian": "او دربارهٔ یک تصمیم مشخص تردید واقعی دارد و توجه بازبین را به آن جلب می‌کند: همکارانه است، نه تدافعی."
     },
     {
       "id": "review-4",
+      "objectiveId": "cr-read",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -88,10 +91,12 @@
         "to reject a pull request"
       ],
       "correctIndex": 2,
-      "explanation": "'One thing to flag' introduces information the reviewer needs before diving in."
+      "explanation": "'One thing to flag' introduces information the reviewer needs before diving in.",
+      "explanationPersian": "عبارت «One thing to flag» اطلاعاتی را معرفی می‌کند که بازبین باید پیش از شروع بداند."
     },
     {
       "id": "review-5",
+      "objectiveId": "cr-tone",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -105,10 +110,12 @@
         "Apologetic and insecure"
       ],
       "correctIndex": 2,
-      "explanation": "'When you get a chance', 'no urgency', offering a call — considerate of the reader's time while staying clear."
+      "explanation": "'When you get a chance', 'no urgency', offering a call — considerate of the reader's time while staying clear.",
+      "explanationPersian": "عباراتی مثل «When you get a chance» و «no urgency» لحن را مؤدبانه و بدون فشار نگه می‌دارند و در عین حال روشن‌اند."
     },
     {
       "id": "review-6",
+      "objectiveId": "cr-read",
       "type": "short-answer",
       "skill": "reading",
       "cefrLevel": "B2",
@@ -116,7 +123,27 @@
       "comprehensionKind": "specific-information",
       "prompt": "What retry strategy did Neda implement? (two words)",
       "acceptedAnswers": ["exponential backoff"],
-      "explanation": "'I went with exponential backoff capped at five attempts.'"
+      "explanation": "'I went with exponential backoff capped at five attempts.'",
+      "explanationPersian": "او می‌نویسد «I went with exponential backoff capped at five attempts»: exponential backoff."
+    },
+    {
+      "id": "review-7",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "B2",
+      "difficulty": 2,
+      "objectiveId": "cr-tone",
+      "prompt": "Is the tone of the email demanding or considerate? (one word)",
+      "acceptedAnswers": [
+        "considerate",
+        "polite",
+        "respectful",
+        "friendly",
+        "collaborative",
+        "courteous"
+      ],
+      "explanation": "'When you get a chance' and 'no urgency' make the tone considerate.",
+      "explanationPersian": "عبارت‌هایی مثل «When you get a chance» و «no urgency» لحن را ملاحظه‌کارانه می‌کنند."
     }
   ]
 }

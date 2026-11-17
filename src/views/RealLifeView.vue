@@ -27,6 +27,7 @@ import SpeechButton from '../components/ui/SpeechButton.vue'
 import LearnStage from '../components/learn/LearnStage.vue'
 import LearningIllustration from '../components/art/LearningIllustration.vue'
 import { itemFromExpression } from '../services/learnItems'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import type { LearnItem } from '../services/learnItems'
 
 import type { Exercise, ExerciseResult } from '../types/exercise'
@@ -48,6 +49,7 @@ const aiSettingsStore = useAISettingsStore()
 const learnerProfileStore = useLearnerProfileStore()
 const sessionSettingsStore = useSessionSettingsStore()
 const toastStore = useToastStore()
+const evidenceRecorder = useEvidenceRecorder()
 
 const {
     isSupported: voiceSupported,
@@ -133,6 +135,13 @@ const exerciseAnswered = computed(() => exerciseResults.value.length > exerciseI
 
 function onExerciseResult(result: ExerciseResult) {
     exerciseResults.value.push(result)
+
+    const exercise = currentExercise.value
+
+    if (exercise && activeScenario.value) evidenceRecorder.recordExercise(exercise, result, `real-life/${activeScenario.value.id}`)
+
+    /* A hint-assisted answer is practice, not evidence of the skill. */
+    if (result.hintUsed) return
 
     performanceStore.record({
         skill: 'vocabulary',
@@ -540,6 +549,7 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                 finish-label="Finish"
                 @save="toggleExpressionSaved"
                 @action="finishLearn"
+                @view="item => evidenceRecorder.expose(item.id, 'expression', activeScenario?.id)"
             />
 
             <!-- PRACTICE -->

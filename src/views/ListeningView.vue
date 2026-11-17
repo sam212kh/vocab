@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 
 import { loadListeningManifest, loadListeningActivity } from '../services/listeningContent'
 import { usePerformanceStore } from '../stores/performance'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import { speakAsync, stop as stopSpeech, getSpeechRate } from '../services/speech'
 
 
@@ -91,8 +92,17 @@ function startQuestions() {
     phase.value = 'exercises'
 }
 
+const evidenceRecorder = useEvidenceRecorder()
+
 function onExerciseResult(result: ExerciseResult) {
     sessionResults.value.push(result)
+
+    const exercise = currentExercise.value
+
+    if (exercise && activeActivity.value) evidenceRecorder.recordExercise(exercise, result, `listening/${activeActivity.value.id}`)
+
+    /* A hint-assisted answer is practice, not evidence of the skill. */
+    if (result.hintUsed) return
 
     performanceStore.record({
         skill: 'listening',

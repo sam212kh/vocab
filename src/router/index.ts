@@ -4,6 +4,7 @@ import { titleForRoute } from './titles'
 
 const DashboardView = () => import('../views/DashboardView.vue')
 const NotFoundView = () => import('../views/NotFoundView.vue')
+const ProgressView = () => import('../views/ProgressView.vue')
 const PracticeView = () => import('../views/PracticeView.vue')
 const ClozeView = () => import('../views/ClozeView.vue')
 const ListenGuessView = () => import('../views/ListenGuessView.vue')
@@ -201,6 +202,11 @@ const router = createRouter({
             path: '/daily-journey',
             name: 'daily-journey',
             component: JourneyView,
+        },
+        {
+            path: '/progress',
+            name: 'progress',
+            component: ProgressView,
         },
         {
             path: '/:pathMatch(.*)*',

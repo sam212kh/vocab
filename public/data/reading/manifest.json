@@ -6,13 +6,25 @@
       "title": "Coffee with a Friend",
       "kind": "dialogue",
       "cefrLevel": "A2",
-      "skillTags": ["reading"],
-      "domainTags": ["general"],
+      "skillTags": [
+        "reading"
+      ],
+      "domainTags": [
+        "general"
+      ],
       "difficulty": 1,
       "estimatedReadingTime": 3,
       "learningObjectives": [
-        "Follow a simple everyday conversation",
-        "Find specific information in a dialogue"
+        {
+          "id": "cf-follow",
+          "text": "Follow a simple everyday conversation",
+          "textPersian": "یک گفتگوی ساده روزمره را دنبال کن"
+        },
+        {
+          "id": "cf-details",
+          "text": "Find specific information in a dialogue",
+          "textPersian": "اطلاعات مشخص را در یک دیالوگ پیدا کن"
+        }
       ],
       "file": "./coffee-with-a-friend.json"
     },
@@ -21,13 +33,25 @@
       "title": "The Rise of Remote Work",
       "kind": "article",
       "cefrLevel": "B1",
-      "skillTags": ["reading"],
-      "domainTags": ["business"],
+      "skillTags": [
+        "reading"
+      ],
+      "domainTags": [
+        "business"
+      ],
       "difficulty": 3,
       "estimatedReadingTime": 5,
       "learningObjectives": [
-        "Identify the main idea of a short article",
-        "Understand vocabulary about work in context"
+        {
+          "id": "rw-main",
+          "text": "Identify the main idea of a short article",
+          "textPersian": "ایدهٔ اصلی یک مقالهٔ کوتاه را تشخیص بده"
+        },
+        {
+          "id": "rw-vocab",
+          "text": "Understand vocabulary about work in context",
+          "textPersian": "واژگان مربوط به کار را در بافت بفهم"
+        }
       ],
       "file": "./remote-work.json"
     },
@@ -36,15 +60,82 @@
       "title": "A Code Review Request",
       "kind": "professional",
       "cefrLevel": "B2",
-      "skillTags": ["reading"],
-      "domainTags": ["technical", "business"],
+      "skillTags": [
+        "reading"
+      ],
+      "domainTags": [
+        "technical",
+        "business"
+      ],
       "difficulty": 4,
       "estimatedReadingTime": 4,
       "learningObjectives": [
-        "Read a professional software-team email",
-        "Infer tone and intent in workplace communication"
+        {
+          "id": "cr-read",
+          "text": "Read a professional software-team email",
+          "textPersian": "یک ایمیل حرفهٔ تیم نرم‌افزاری را بخوان"
+        },
+        {
+          "id": "cr-tone",
+          "text": "Infer tone and intent in workplace communication",
+          "textPersian": "لحن و قصد را در ارتباط محیط کار حدس بزن"
+        }
       ],
       "file": "./code-review-email.json"
+    },
+    {
+      "id": "a-message-from-nina",
+      "title": "A Message from Nina",
+      "kind": "passage",
+      "cefrLevel": "A1",
+      "skillTags": [
+        "reading"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 1,
+      "estimatedReadingTime": 2,
+      "learningObjectives": [
+        {
+          "id": "mn-gist",
+          "text": "Understand a short personal message",
+          "textPersian": "یک پیام شخصی کوتاه را بفهم"
+        },
+        {
+          "id": "mn-details",
+          "text": "Find simple facts: places, times and people",
+          "textPersian": "واقعیت‌های ساده را پیدا کن: مکان‌ها، ساعت‌ها و آدم‌ها"
+        }
+      ],
+      "file": "./a-message-from-nina.json"
+    },
+    {
+      "id": "a-year-abroad",
+      "title": "My First Year Abroad",
+      "kind": "story",
+      "cefrLevel": "B1",
+      "skillTags": [
+        "reading"
+      ],
+      "domainTags": [
+        "general"
+      ],
+      "difficulty": 3,
+      "estimatedReadingTime": 4,
+      "learningObjectives": [
+        {
+          "id": "ya-main",
+          "text": "Understand the main ideas of a personal blog post",
+          "textPersian": "ایده‌های اصلی یک پست وبلاگ شخصی را بفهم"
+        },
+        {
+          "id": "ya-inference",
+          "text": "Infer feelings and changes over time",
+          "textPersian": "احساسات و تغییرها در طول زمان را حدس بزن"
+        }
+      ],
+      "file": "./a-year-abroad.json"
     }
   ]
 }

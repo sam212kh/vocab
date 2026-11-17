@@ -3,6 +3,8 @@ import { loadGrammarManifest, loadGrammarTopic } from './grammarContent'
 import { loadListeningActivity, loadListeningManifest } from './listeningContent'
 import { loadRealLifeManifest, loadRealLifeScenario } from './realLifeContent'
 import { loadCareerManifest, loadCareerSection } from './careerContent'
+import { loadTransferPatterns } from './transferContent'
+import type { TransferPattern } from '../types/transfer'
 
 import type { ContentSource } from './roadmap'
 import type {
@@ -28,6 +30,8 @@ export interface ContentSnapshot {
     dictationExercises: Exercise[]
     careerQuestions: PlannerInput['careerQuestions']
     availableSources: ContentSource[]
+    /** Optional: transfer patterns (empty when the content is not deployed). */
+    transferPatterns: TransferPattern[]
     /** word → retrieval item, used to turn due SRS records into prompts. */
     wordIndex: Map<string, RetrievalItem>
 }
@@ -158,6 +162,7 @@ export async function loadContentSnapshot(
                 english: expression.english,
                 persian: expression.persian,
                 example: expression.example,
+                examplePersian: expression.examplePersian,
             })),
             exercises: scenario.exercises,
             speakingSentences: scenario.speakingTask.modelSentences,
@@ -201,6 +206,8 @@ export async function loadContentSnapshot(
     /* Conversation scenarios ship with the app; treat as available when the AI-free content exists. */
     if (themes.length) available.add('conversation')
 
+    const transferPatterns = await safe(loadTransferPatterns, [] as TransferPattern[])
+
     return {
         newWords,
         grammarExercises,
@@ -208,6 +215,7 @@ export async function loadContentSnapshot(
         dictationExercises,
         careerQuestions,
         availableSources: [...available],
+        transferPatterns,
         wordIndex,
     }
 }

@@ -3,6 +3,7 @@ import { ref, nextTick, onMounted, onUnmounted } from 'vue'
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { modeForPath } from './router/modes'
+import { useEvidenceRecorder } from './composables/useEvidenceRecorder'
 import AppSidebar from './components/layout/AppSidebar.vue'
 import AppToast from './components/ui/AppToast.vue'
 import AppIcon from './components/ui/AppIcon.vue'
@@ -54,6 +55,7 @@ function goToTop() {
 }
 
 onMounted(() => {
+    useEvidenceRecorder().ensureBackfill()
     window.addEventListener('scroll', handleScroll)
     window.addEventListener('focusin', handleFocusIn)
     window.addEventListener('focusout', handleFocusOut)

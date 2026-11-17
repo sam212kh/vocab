@@ -54,6 +54,7 @@ const emit = defineEmits<{
     action: [key: string]
     'update:index': [index: number]
     complete: []
+    view: [item: LearnItem]
     back: []
 }>()
 
@@ -68,6 +69,9 @@ const showBook = ref(false)
 const lexicon = computed(() => buildLexicon(props.items))
 const current = computed(() => props.items[index.value])
 const lookup = computed<LearnItem | null>(() => (lookupIndex.value === null ? null : props.items[lookupIndex.value] ?? null))
+
+/* Every expression shown is reported once (exposure — never proof of learning). */
+watch(current, item => { if (item && !done.value) emit('view', item) }, { immediate: true })
 
 watch(() => props.items.length, count => {
     index.value = clampIndex(index.value, count)

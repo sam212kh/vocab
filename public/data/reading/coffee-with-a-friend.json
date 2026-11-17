@@ -17,13 +17,10 @@
     { "word": "nervous", "meaning": "worried about something", "persian": "نگران، مضطرب" },
     { "word": "experience", "meaning": "knowledge from doing something before", "persian": "تجربه" }
   ],
-  "learningObjectives": [
-    "Follow a simple everyday conversation",
-    "Find specific information in a dialogue"
-  ],
   "exercises": [
     {
       "id": "coffee-1",
+      "objectiveId": "cf-follow",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "A2",
@@ -37,10 +34,12 @@
         "Two friends planning a holiday"
       ],
       "correctIndex": 0,
-      "explanation": "They meet at a café, order drinks and catch up — the interview is one topic, not the whole point."
+      "explanation": "They meet at a café, order drinks and catch up — the interview is one topic, not the whole point.",
+      "explanationPersian": "آن‌ها در کافه می‌نشینند، سفارش می‌دهند و حال هم را می‌پرسند؛ مصاحبه فقط یکی از موضوع‌هاست."
     },
     {
       "id": "coffee-2",
+      "objectiveId": "cf-details",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "A2",
@@ -54,10 +53,12 @@
         "She couldn't find the café"
       ],
       "correctIndex": 1,
-      "explanation": "She says: 'The traffic was terrible this morning.'"
+      "explanation": "She says: 'The traffic was terrible this morning.'",
+      "explanationPersian": "سارا می‌گوید «The traffic was terrible this morning»: ترافیک وحشتناک بود."
     },
     {
       "id": "coffee-3",
+      "objectiveId": "cf-details",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "A2",
@@ -71,10 +72,12 @@
         "The café has no coffee"
       ],
       "correctIndex": 2,
-      "explanation": "'I drank too much coffee yesterday and I couldn't sleep.'"
+      "explanation": "'I drank too much coffee yesterday and I couldn't sleep.'",
+      "explanationPersian": "مریم می‌گوید «I drank too much coffee yesterday and I couldn't sleep»: دیروز زیاد قهوه خورده و خوابش نبرده."
     },
     {
       "id": "coffee-4",
+      "objectiveId": "cf-follow",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "A2",
@@ -83,10 +86,12 @@
       "prompt": "In this dialogue, 'nervous' is closest in meaning to:",
       "options": ["excited", "worried", "angry", "tired"],
       "correctIndex": 1,
-      "explanation": "Nervous = worried about something that may happen."
+      "explanation": "Nervous = worried about something that may happen.",
+      "explanationPersian": "nervous یعنی نگران چیزی که ممکن است اتفاق بیفتد."
     },
     {
       "id": "coffee-5",
+      "objectiveId": "cf-follow",
       "type": "reading-comprehension",
       "skill": "reading",
       "cefrLevel": "A2",
@@ -100,7 +105,62 @@
         "They will meet at the same café"
       ],
       "correctIndex": 1,
-      "explanation": "'They will call me next week' — the result is coming, not the job itself yet."
+      "explanation": "'They will call me next week' — the result is coming, not the job itself yet.",
+      "explanationPersian": "«They will call me next week» یعنی نتیجه در راه است، نه این‌که هنوز شغل را گرفته باشد."
+    },
+    {
+      "id": "coffee-6",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "cf-details",
+      "prompt": "What does Maryam order?",
+      "acceptedAnswers": [
+        "Tea",
+        "A tea",
+        "Just a tea",
+        "She orders tea",
+        "Maryam orders tea"
+      ],
+      "explanation": "She says: 'Just a tea for me.'",
+      "explanationPersian": "او می‌گوید: «Just a tea for me»."
+    },
+    {
+      "id": "coffee-7",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "cf-details",
+      "prompt": "When did Maryam have her job interview?",
+      "acceptedAnswers": [
+        "On Monday",
+        "Monday",
+        "On Monday."
+      ],
+      "explanation": "Sara asks about 'your job interview on Monday'.",
+      "explanationPersian": "سارا دربارهٔ «مصاحبه کاری‌ات روز دوشنبه» می‌پرسد."
+    },
+    {
+      "id": "coffee-8",
+      "type": "short-answer",
+      "skill": "reading",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "cf-follow",
+      "prompt": "Why is Maryam a little nervous?",
+      "acceptedAnswers": [
+        "She is waiting for the result of her job interview",
+        "Because of her job interview",
+        "She is waiting for a phone call about the job",
+        "About the job interview",
+        "She is waiting for the interview result"
+      ],
+      "hint": "Think about next week.",
+      "hintPersian": "به هفتهٔ بعد فکر کن.",
+      "explanation": "She is waiting for the result of her job interview.",
+      "explanationPersian": "او منتظر نتیجهٔ مصاحبه‌اش است."
     }
   ]
 }

@@ -124,7 +124,7 @@ function selectTile(tile: Tile) {
 
             const word = roundWords.value.find(w => w.word === first.wordKey)
             if (word) {
-                progressStore.recordCorrect(word.word, word.courseId, word.lessonId)
+                progressStore.recordCorrect(word.word, word.courseId, word.lessonId, { mode: 'recognition', ctx: 'matching' })
             }
         } else {
             wrongPairIds.value = [firstId, secondId]

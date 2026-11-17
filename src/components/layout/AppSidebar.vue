@@ -109,7 +109,8 @@ const menuSections: NavSection[] = [
         key: 'me',
         title: 'Me',
         items: [
-            { label: 'Skill Levels', icon: 'chart', route: '/skills' },
+            { label: 'Learning Progress', icon: 'chart', route: '/progress' },
+            { label: 'Skill Levels', icon: 'target', route: '/skills' },
             { label: 'Profile', icon: 'user', route: '/profile' },
             { label: 'AI Settings', icon: 'sliders', route: '/ai-settings' },
         ],

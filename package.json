@@ -12,7 +12,11 @@
     "start:tts": "node tts-service/server.mjs",
     "test:ai": "node --test ai-service/server.test.mjs",
     "test:assessment": "node --test ai-service/assessment/assessment.test.mjs ai-service/assessment/banks.test.mjs",
-    "start:ai": "node ai-service/server.mjs"
+    "start:ai": "node ai-service/server.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "report:content": "node scripts/content-gap-report.mjs --out docs/CONTENT_GAPS.md",
+    "build:objectives": "node scripts/build-objective-index.mjs",
+    "check:content": "node scripts/validate-content.mjs && node scripts/build-objective-index.mjs --check"
   },
   "dependencies": {
     "pinia": "^3.0.3",

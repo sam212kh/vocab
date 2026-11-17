@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "present-simple-1",
+      "objectiveId": "ps-s-ending",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -24,6 +25,7 @@
     },
     {
       "id": "present-simple-2",
+      "objectiveId": "ps-s-ending",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -31,10 +33,12 @@
       "before": "My brother",
       "after": "TV in the evening. (watch)",
       "acceptedAnswers": ["watches"],
-      "explanation": "Third person singular: watch → watches."
+      "explanation": "Third person singular: watch → watches.",
+      "explanationPersian": "سوم‌شخص مفرد: watch → watches."
     },
     {
       "id": "present-simple-3",
+      "objectiveId": "ps-s-ending",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -46,15 +50,18 @@
     },
     {
       "id": "present-simple-4",
+      "objectiveId": "ps-habits",
       "type": "sentence-ordering",
       "skill": "grammar",
       "cefrLevel": "A1",
       "difficulty": 1,
       "segments": ["Does", "she", "speak", "English", "at", "work?"],
-      "explanation": "Questions with he/she/it start with Does + subject + base verb."
+      "explanation": "Questions with he/she/it start with Does + subject + base verb.",
+      "explanationPersian": "سؤال با he/she/it با Does + فاعل + فعل ساده شروع می‌شود."
     },
     {
       "id": "present-simple-5",
+      "objectiveId": "ps-habits",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -67,10 +74,12 @@
         "I going to the gym on Mondays."
       ],
       "correctIndex": 2,
-      "explanation": "With I, use the base verb: I go."
+      "explanation": "With I, use the base verb: I go.",
+      "explanationPersian": "با I از فعل ساده استفاده می‌کنیم: I go."
     },
     {
       "id": "present-simple-6",
+      "objectiveId": "ps-s-ending",
       "type": "translation",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -81,7 +90,90 @@
         "She studies English every day.",
         "He studies English every day."
       ],
-      "explanation": "Third person singular: study → studies."
+      "explanation": "Third person singular: study → studies.",
+      "explanationPersian": "سوم‌شخص مفرد: study → studies."
+    },
+    {
+      "id": "present-simple-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "objectiveId": "ps-s-ending",
+      "source": "او هر روز صبح ساعت هفت از خواب بیدار می‌شود.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "She gets up at seven every morning.",
+        "He gets up at seven every morning.",
+        "She wakes up at seven every morning.",
+        "He wakes up at seven every morning.",
+        "She gets up at 7 every morning.",
+        "He gets up at 7 every morning.",
+        "Every morning she gets up at seven.",
+        "Every morning he gets up at seven."
+      ],
+      "commonErrors": [
+        {
+          "match": "\\b(she|he) (get|wake) up\\b",
+          "feedback": "With he / she / it the verb needs -s: gets, wakes.",
+          "feedbackPersian": "با he / she / it فعل s می‌گیرد: gets، wakes."
+        }
+      ],
+      "explanation": "he / she / it + verb + s",
+      "explanationPersian": "با he / she / it به فعل s اضافه می‌شود."
+    },
+    {
+      "id": "present-simple-8",
+      "type": "fill-blank",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 1,
+      "objectiveId": "ps-s-ending",
+      "before": "My sister",
+      "after": "coffee. (not like)",
+      "acceptedAnswers": [
+        "doesn't like",
+        "does not like"
+      ],
+      "hint": "Use doesn't + base verb.",
+      "hintPersian": "doesn't + فعل ساده.",
+      "commonErrors": [
+        {
+          "match": "don'?t like|do not like",
+          "feedback": "With 'my sister' (she) use doesn't, not don't.",
+          "feedbackPersian": "با my sister (she) باید doesn't بیاید، نه don't."
+        },
+        {
+          "match": "doesn'?t likes",
+          "feedback": "After doesn't use the base verb: like.",
+          "feedbackPersian": "بعد از doesn't فعل ساده می‌آید: like."
+        }
+      ],
+      "explanation": "does not + base verb: the -s moves to 'does'.",
+      "explanationPersian": "در منفی s به does می‌رود و فعل ساده می‌ماند."
+    },
+    {
+      "id": "present-simple-9",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "objectiveId": "ps-habits",
+      "prompt": "Make this a question: \"She speaks English at work.\"",
+      "acceptedAnswers": [
+        "Does she speak English at work?"
+      ],
+      "hint": "Start with \"Does\".",
+      "hintPersian": "با Does شروع کن.",
+      "commonErrors": [
+        {
+          "match": "does she speaks",
+          "feedback": "After 'Does' use the base verb: speak.",
+          "feedbackPersian": "بعد از Does فعل ساده می‌آید: speak."
+        }
+      ],
+      "explanation": "Does + subject + base verb?",
+      "explanationPersian": "Does + فاعل + فعل ساده؟"
     }
   ]
 }

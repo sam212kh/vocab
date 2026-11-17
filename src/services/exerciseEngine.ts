@@ -1,6 +1,7 @@
 import { answersMatch, normalizeAnswer } from './textMatch'
 
 import type {
+    CommonError,
     Exercise,
     ExerciseAnswer,
     ExerciseResult,
@@ -68,9 +69,14 @@ export function validateAnswer(
              */
             const exact = exercise.type === 'grammar-correction'
 
-            const correct = accepted.some(candidate =>
-                answersMatch(candidate, answer.text, { numberEquivalence, exact })
-            )
+            /* Open-ended typed answers accept "I'm" for "I am". Dictation (what was heard) and correction (the exact fix) stay literal. */
+            const contractions = exercise.type === 'translation' || exercise.type === 'short-answer' || exercise.type === 'fill-blank'
+
+            const matches = (candidate: string) => answersMatch(candidate, answer.text, { numberEquivalence, exact, contractions })
+
+            const natural = accepted.some(matches)
+            const acceptable = natural || exercise.type === 'dictation' ? undefined : exercise.acceptableAnswers?.find(item => matches(item.text))
+            const correct = natural || !!acceptable
 
             return {
                 exerciseId: exercise.id,
@@ -78,6 +84,9 @@ export function validateAnswer(
                 expected,
                 received: answer.text.trim() || '(no answer)',
                 feedback: exercise.explanation,
+                ...(correct && exercise.type !== 'dictation' ? { naturalness: acceptable ? ('acceptable' as const) : ('natural' as const) } : {}),
+                ...(acceptable ? { naturalnessNote: acceptable.note, naturalnessNotePersian: acceptable.notePersian } : {}),
+                ...(!correct && exercise.type !== 'dictation' ? errorFeedbackFor(exercise.commonErrors, answer.text) : {}),
             }
         }
 
@@ -162,6 +171,19 @@ export function validateAnswer(
             }
         }
     }
+}
+
+/** First targeted note whose pattern matches the wrong answer. A malformed pattern is skipped, never thrown. */
+function errorFeedbackFor(errors: CommonError[] | undefined, text: string): { errorFeedback?: { english: string; persian: string } } {
+    for (const error of errors ?? []) {
+        try {
+            if (new RegExp(error.match, 'i').test(text)) return { errorFeedback: { english: error.feedback, persian: error.feedbackPersian } }
+        } catch {
+            continue
+        }
+    }
+
+    return {}
 }
 
 function wrongShape(exerciseId: string, expected: string): ExerciseResult {

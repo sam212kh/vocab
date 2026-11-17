@@ -1,4 +1,4 @@
-import type { ContentMetadata } from './vocabulary'
+import type { ContentMetadata, Objective } from './vocabulary'
 import type { Exercise } from './exercise'
 
 export type ReadingKind =
@@ -47,5 +47,5 @@ export interface ReadingPassage {
     paragraphs: ReadingParagraph[]
     vocabulary: ReadingVocabularyItem[]
     exercises: Exercise[]
-    learningObjectives?: string[]
+    learningObjectives?: Objective[]
 }

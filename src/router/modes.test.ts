@@ -4,7 +4,7 @@ import { modeForPath } from './modes'
 
 describe('modeForPath', () => {
     it.each([
-        ['/', 'overview'], ['/daily-journey', 'overview'], ['/skills', 'overview'], ['/profile', 'overview'], ['/ai-settings', 'overview'],
+        ['/', 'overview'], ['/daily-journey', 'overview'], ['/skills', 'overview'], ['/progress', 'overview'], ['/profile', 'overview'], ['/ai-settings', 'overview'],
         ['/lessons', 'learn'], ['/courses/upgrade', 'learn'], ['/courses/upgrade/lessons/batch-01', 'learn'], ['/real-life', 'learn'],
         ['/practice', 'practice'], ['/quiz', 'practice'], ['/cloze', 'practice'], ['/matching', 'practice'], ['/listening', 'practice'],
         ['/grammar', 'practice'], ['/reading', 'practice'], ['/conversation', 'practice'], ['/session', 'practice'], ['/writing', 'practice'],

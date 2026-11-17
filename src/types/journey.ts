@@ -1,5 +1,6 @@
 import type { Exercise } from './exercise'
 import type { SkillName } from './skillProfile'
+import type { TransferLearn } from './transfer'
 
 /**
  * Daily Learning Journey domain types.
@@ -33,6 +34,10 @@ export type JourneyActivityKind =
     | 'roleplay'
     | 'career-question'
     | 'spaced-review'
+    /** Short introduction of expressions the learner has not been shown yet (exposure only). */
+    | 'new-material-intro'
+    /** Using a previously acquired pattern in a new situation (transfer). */
+    | 'contextual-application'
 
 /** One word/expression to retrieve (typed recall against real SRS). */
 export interface RetrievalItem {
@@ -57,6 +62,13 @@ export interface ConstructionPrompt {
     modelSentences: string[]
 }
 
+export interface IntroItem {
+    english: string
+    persian: string
+    example?: string
+    examplePersian?: string
+}
+
 export interface JourneyActivity {
     /** Stable within a plan: `${kind}:${sourceId}:${index}`. */
     id: string
@@ -75,6 +87,10 @@ export interface JourneyActivity {
     exercises?: Exercise[]
     construction?: ConstructionPrompt
     speakingSentences?: string[]
+    /** new-material-intro: what is being introduced. */
+    introItems?: IntroItem[]
+    /** contextual-application: which pattern / situation this transfer task uses. */
+    transfer?: { patternId: string; contextId: string; level: 1 | 2 | 3; anchorExpression: string; matches: string[]; learn?: TransferLearn }
     /** Hand-off target for activities that run in an existing module. */
     route?: { path: string; query?: Record<string, string> }
 }
@@ -98,13 +114,42 @@ export interface ThemeCandidate {
     title: string
     titlePersian: string
     cefrLevel?: string
-    expressions: { english: string; persian: string; example: string }[]
+    expressions: { english: string; persian: string; example: string; examplePersian?: string }[]
     exercises: Exercise[]
     speakingSentences: string[]
     constructionPrompt: ConstructionPrompt | null
 }
 
+/** Evidence-derived facts the adaptive planner may use. All optional: without them the planner behaves as before. */
+export interface PlannerEvidence {
+    /** Normalized lexical keys (lowercase text) the learner has been shown or has attempted. */
+    introduced: string[]
+    /** Highest evidence stage per normalized key; absent / null = no evidence. */
+    stages: Record<string, 'exposed' | 'recognized' | 'recalled' | 'produced' | 'applied' | 'retained' | null>
+    /** Normalized keys whose delayed-retention check is due or missed, most urgent first. */
+    retentionDue: string[]
+    /** Skill-gap classification per dimension (only 'weakness' changes the plan). */
+    gaps: { dimension: string; classification: 'strength' | 'developing' | 'weakness' | 'insufficient'; estimate: number | null; why: string }[]
+    /** Ready-made transfer task, or why none exists. */
+    transfer: {
+        task: {
+            patternId: string
+            contextId: string
+            level: 1 | 2 | 3
+            patternTitle: string
+            anchorExpression: string
+            /** Pattern regexes for the basic (non-AI) check; absent = target phrases only. */
+            matches?: string[]
+            learn?: TransferLearn
+            prompt: ConstructionPrompt
+        } | null
+        reason: 'no-content' | 'no-acquired-expression' | 'all-contexts-done' | null
+    }
+}
+
 export interface PlannerInput {
+    /** Evidence ledger summaries. Present → adaptive rules apply. */
+    evidence?: PlannerEvidence
     length: JourneyLength
     /** Words due for SRS review RIGHT NOW (from wordProgress.getDueWords + loaded Word data). */
     dueWords: RetrievalItem[]
@@ -169,6 +214,8 @@ export interface JourneyEvidenceRecord {
     outcome?: string
     /** AI-detected issue kinds, used only to tag error categories on first attempts. */
     issues?: string[]
+    /** Set for contextual-application (transfer) answers. */
+    transfer?: { patternId: string; contextId: string; level: number }
 }
 
 export interface JourneySession {

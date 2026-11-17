@@ -12,13 +12,10 @@
     { "speaker": "Patient", "english": "How long should I take them?", "persian": "چند روز باید مصرف کنم؟" },
     { "speaker": "Doctor", "english": "For seven days, even if you feel better earlier. And drink plenty of warm fluids.", "persian": "هفت روز، حتی اگر زودتر بهتر شدی. مایعات گرم هم زیاد بنوش." }
   ],
-  "learningObjectives": [
-    "Follow a two-person conversation",
-    "Pick out specific details from speech"
-  ],
   "exercises": [
     {
       "id": "doctor-1",
+      "objectiveId": "doc-details",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B1",
@@ -27,10 +24,12 @@
       "prompt": "How long has the patient had symptoms?",
       "options": ["Two days", "About a week", "A month", "Since yesterday"],
       "correctIndex": 1,
-      "explanation": "'...for about a week now.'"
+      "explanation": "'...for about a week now.'",
+      "explanationPersian": "بیمار می‌گوید «... for about a week now» یعنی حدود یک هفته."
     },
     {
       "id": "doctor-2",
+      "objectiveId": "doc-details",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B1",
@@ -44,10 +43,12 @@
         "The fever started today"
       ],
       "correctIndex": 2,
-      "explanation": "'I had a slight fever two days ago, but it's gone now.'"
+      "explanation": "'I had a slight fever two days ago, but it's gone now.'",
+      "explanationPersian": "بیمار می‌گوید «I had a slight fever two days ago, but it's gone now»: تب خفیف دو روز پیش بود و حالا رفته است."
     },
     {
       "id": "doctor-3",
+      "objectiveId": "doc-details",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B1",
@@ -61,10 +62,12 @@
         "Two tablets twice a day"
       ],
       "correctIndex": 2,
-      "explanation": "'Take one tablet twice a day after meals.'"
+      "explanation": "'Take one tablet twice a day after meals.'",
+      "explanationPersian": "پزشک می‌گوید «Take one tablet twice a day after meals»: روزی دو بار، بعد از غذا."
     },
     {
       "id": "doctor-4",
+      "objectiveId": "doc-details",
       "type": "listening-comprehension",
       "skill": "listening",
       "cefrLevel": "B1",
@@ -78,16 +81,68 @@
         "The doctor didn't say"
       ],
       "correctIndex": 1,
-      "explanation": "Finish the full course: seven days regardless of feeling better."
+      "explanation": "Finish the full course: seven days regardless of feeling better.",
+      "explanationPersian": "دوره را باید کامل کرد: هفت روز، حتی اگر زودتر بهتر شدی."
     },
     {
       "id": "doctor-5",
+      "objectiveId": "doc-details",
       "type": "dictation",
       "skill": "listening",
       "cefrLevel": "B1",
       "difficulty": 3,
       "audioText": "And drink plenty of warm fluids.",
       "acceptedAnswers": ["And drink plenty of warm fluids."]
+    },
+    {
+      "id": "doctor-6",
+      "type": "short-answer",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "doc-follow",
+      "prompt": "What is the conversation mainly about? Answer in a few words.",
+      "acceptedAnswers": [
+        "A patient visits a doctor",
+        "A patient with a sore throat",
+        "A visit to the doctor",
+        "A sore throat and a cough",
+        "Going to the doctor",
+        "A patient at the doctor",
+        "Seeing a doctor"
+      ],
+      "explanation": "A patient visits a doctor about a sore throat and a cough.",
+      "explanationPersian": "یک بیمار به‌خاطر گلودرد و سرفه نزد پزشک می‌رود."
+    },
+    {
+      "id": "doctor-7",
+      "type": "short-answer",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "doc-details",
+      "prompt": "How many times a day should the patient take the tablets?",
+      "acceptedAnswers": [
+        "Twice a day",
+        "Two times a day",
+        "Twice",
+        "2 times a day",
+        "Two times"
+      ],
+      "explanation": "The doctor says: 'twice a day after meals'.",
+      "explanationPersian": "پزشک می‌گوید: «twice a day after meals»."
+    },
+    {
+      "id": "doctor-8",
+      "type": "dictation",
+      "skill": "listening",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "doc-details",
+      "audioText": "Any fever or difficulty breathing?",
+      "acceptedAnswers": [
+        "Any fever or difficulty breathing?"
+      ]
     }
   ]
 }

@@ -91,13 +91,15 @@ function checkAnswer() {
         progressStore.recordCorrect(
             currentWord.value.word,
             currentWord.value.courseId,
-            currentWord.value.lessonId
+            currentWord.value.lessonId,
+            { mode: 'recall', ctx: 'listen-guess', skill: 'listening' }
         )
     } else {
         progressStore.recordWrong(
             currentWord.value.word,
             currentWord.value.courseId,
-            currentWord.value.lessonId
+            currentWord.value.lessonId,
+            { mode: 'recall', ctx: 'listen-guess', skill: 'listening' }
         )
     }
 }

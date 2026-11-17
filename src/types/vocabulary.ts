@@ -68,8 +68,20 @@ export interface ContentMetadata {
     skillTags?: SkillTag[]
     domainTags?: DomainTag[]
     difficulty?: number
-    learningObjectives?: string[]
+    learningObjectives?: Objective[]
     estimatedDuration?: number
+}
+
+/**
+ * A learning objective. A plain string (legacy) gets a derived id; the object form carries an
+ * explicit id so exercises can point at it (`Exercise.objectiveId`) without relying on wording.
+ */
+export type Objective = string | ObjectiveDef
+
+export interface ObjectiveDef {
+    id: string
+    text: string
+    textPersian?: string
 }
 
 export interface LessonManifest extends ContentMetadata {

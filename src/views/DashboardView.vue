@@ -131,6 +131,7 @@ const QUICK = [
     { label: 'Review', to: '/review', icon: 'repeat' },
     { label: 'Hard words', to: '/hard-words', icon: 'star' },
     { label: 'Speaking', to: '/speaking-practice', icon: 'mic' },
+    { label: 'Progress', to: '/progress', icon: 'chart' },
 ]
 </script>
 

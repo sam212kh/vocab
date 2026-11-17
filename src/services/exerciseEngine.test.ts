@@ -4,6 +4,7 @@ import { countWords, validateAnswer } from './exerciseEngine'
 
 import type {
     Exercise,
+    ExerciseAnswer,
     FillBlankExercise,
     GrammarCorrectionExercise,
     MatchingExercise,
@@ -222,5 +223,98 @@ describe('countWords', () => {
         expect(countWords('  hello   world  ')).toBe(2)
         expect(countWords('')).toBe(0)
         expect(countWords('one')).toBe(1)
+    })
+})
+
+describe('typed-answer extras (Phase 10)', () => {
+    const translation: Exercise = {
+        id: 't1', type: 'translation', skill: 'vocabulary', source: 'می‌شود به من کمک کنی؟', sourceLang: 'fa',
+        acceptedAnswers: ['Could you help me?', 'Can you help me?'],
+        acceptableAnswers: [{ text: 'Are you able to help me?', note: 'Correct, but it sounds formal for a casual request.', notePersian: 'درست است، اما برای درخواست دوستانه رسمی است.' }],
+        commonErrors: [{ match: 'can you to help', feedback: 'After "can you" use the base verb, without "to".', feedbackPersian: 'بعد از can you فعل ساده می‌آید، بدون to.' }, { match: '([unclosed', feedback: 'x', feedbackPersian: 'x' }],
+    }
+    const text = (value: string): ExerciseAnswer => ({ kind: 'text', text: value })
+
+    it('accepts any listed alternative, not only the canonical wording', () => {
+        expect(validateAnswer(translation, text('Can you help me?')).correct).toBe(true)
+        expect(validateAnswer(translation, text('could you help me')).correct).toBe(true)
+    })
+
+    it('a grammatical but less natural answer is correct and flagged, with Persian note', () => {
+        const result = validateAnswer(translation, text('Are you able to help me?'))
+
+        expect(result.correct).toBe(true)
+        expect(result.naturalness).toBe('acceptable')
+        expect(result.naturalnessNote).toMatch(/formal/)
+        expect(result.naturalnessNotePersian).toMatch(/[؀-ۿ]/)
+    })
+
+    it('a natural answer is marked natural and carries no note', () => {
+        const result = validateAnswer(translation, text('Could you help me?'))
+
+        expect(result.naturalness).toBe('natural')
+        expect(result.naturalnessNote).toBeUndefined()
+    })
+
+    it('a recognised wrong answer gets targeted bilingual feedback and keeps the learner’s original text', () => {
+        const result = validateAnswer(translation, text('  Can you to help me?  '))
+
+        expect(result.correct).toBe(false)
+        expect(result.errorFeedback?.persian).toMatch(/[؀-ۿ]/)
+        expect(result.received).toBe('Can you to help me?')
+    })
+
+    it('an unrecognised wrong answer has no targeted feedback, and a malformed pattern never throws', () => {
+        const result = validateAnswer(translation, text('Help me now'))
+
+        expect(result.correct).toBe(false)
+        expect(result.errorFeedback).toBeUndefined()
+    })
+
+    it('a correct answer never carries error feedback', () => {
+        expect(validateAnswer(translation, text('Could you help me?')).errorFeedback).toBeUndefined()
+    })
+
+    it('dictation is unaffected (no naturalness concept)', () => {
+        const dictation: Exercise = { id: 'd', type: 'dictation', skill: 'listening', audioText: 'See you soon.', acceptedAnswers: ['See you soon.'] }
+
+        expect(validateAnswer(dictation, text('see you soon')).naturalness).toBeUndefined()
+    })
+})
+
+describe('contraction equivalence (Phase 10)', () => {
+    const translation = (acceptedAnswers: string[]): Exercise => ({ id: 'c', type: 'translation', skill: 'vocabulary', source: 'دیر کردم', sourceLang: 'fa', acceptedAnswers })
+    const answer = (exercise: Exercise, text: string) => validateAnswer(exercise, { kind: 'text', text }).correct
+
+    it('accepts a contraction for its full form and the reverse', () => {
+        expect(answer(translation(["I'm running late."]), 'I am running late')).toBe(true)
+        expect(answer(translation(['I am running late.']), "I'm running late")).toBe(true)
+        expect(answer(translation(["I don't know."]), 'I do not know')).toBe(true)
+        expect(answer(translation(["I can't come."]), 'I cannot come')).toBe(true)
+        expect(answer(translation(["I won't go."]), 'I will not go')).toBe(true)
+        expect(answer(translation(["That's fine, we'll wait."]), 'That is fine, we will wait.')).toBe(true)
+        expect(answer(translation(["Let's go."]), 'Let us go')).toBe(true)
+    })
+
+    it('handles curly apostrophes from phone keyboards', () => {
+        expect(answer(translation(["I'm late."]), 'I’m late.')).toBe(true)
+    })
+
+    it('does not make different sentences equal', () => {
+        expect(answer(translation(["I'm late."]), 'I am not late')).toBe(false)
+        expect(answer(translation(["I can't come."]), 'I can come')).toBe(false)
+    })
+
+    it('leaves possessives alone', () => {
+        expect(answer(translation(["Sara's bag is red."]), 'Sara is bag is red')).toBe(false)
+        expect(answer(translation(["That's Sara's bag."]), "That is Sara's bag")).toBe(true)
+    })
+
+    it('dictation and grammar-correction stay literal', () => {
+        const dictation: Exercise = { id: 'd', type: 'dictation', skill: 'listening', audioText: "I'm late.", acceptedAnswers: ["I'm late."] }
+        const correction: Exercise = { id: 'g', type: 'grammar-correction', skill: 'grammar', incorrectSentence: 'He go home.', acceptedAnswers: ["He's going home."] }
+
+        expect(answer(dictation, 'I am late')).toBe(false)
+        expect(answer(correction, 'He is going home')).toBe(false)
     })
 })

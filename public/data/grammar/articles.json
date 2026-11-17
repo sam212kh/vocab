@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "articles-1",
+      "objectiveId": "art-a-an",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -19,10 +20,12 @@
       "prompt": "She is ___ engineer.",
       "options": ["a", "an", "the", "(no article)"],
       "correctIndex": 1,
-      "explanation": "Engineer starts with a vowel sound, so use an."
+      "explanation": "Engineer starts with a vowel sound, so use an.",
+      "explanationPersian": "engineer با صدای مصوت شروع می‌شود، پس an می‌آید: an engineer."
     },
     {
       "id": "articles-2",
+      "objectiveId": "art-a-an",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -35,6 +38,7 @@
     },
     {
       "id": "articles-3",
+      "objectiveId": "art-the",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -42,20 +46,24 @@
       "before": "Can you close",
       "after": "door, please?",
       "acceptedAnswers": ["the"],
-      "explanation": "Both people know which door — use the."
+      "explanation": "Both people know which door — use the.",
+      "explanationPersian": "هر دو نفر می‌دانند کدام در است، پس the می‌آید."
     },
     {
       "id": "articles-4",
+      "objectiveId": "art-a-an",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "A1",
       "difficulty": 2,
       "incorrectSentence": "I saw an movie last night.",
       "acceptedAnswers": ["I saw a movie last night."],
-      "explanation": "Movie starts with a consonant sound — a movie."
+      "explanation": "Movie starts with a consonant sound — a movie.",
+      "explanationPersian": "movie با صدای صامت شروع می‌شود، پس a می‌آید: a movie."
     },
     {
       "id": "articles-5",
+      "objectiveId": "art-the",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -68,10 +76,12 @@
         "An life is beautiful."
       ],
       "correctIndex": 1,
-      "explanation": "General, abstract ideas take no article: Life is beautiful."
+      "explanation": "General, abstract ideas take no article: Life is beautiful.",
+      "explanationPersian": "برای مفهوم‌های کلی و انتزاعی حرف تعریف نمی‌آید: Life is beautiful."
     },
     {
       "id": "articles-6",
+      "objectiveId": "art-a-an",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A1",
@@ -79,7 +89,68 @@
       "before": "We waited for",
       "after": "hour. (a / an / the)",
       "acceptedAnswers": ["an"],
-      "explanation": "The h in hour is silent — it starts with a vowel sound."
+      "explanation": "The h in hour is silent — it starts with a vowel sound.",
+      "explanationPersian": "h در hour خوانده نمی‌شود و کلمه با صدای مصوت شروع می‌شود، پس an می‌آید."
+    },
+    {
+      "id": "articles-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "objectiveId": "art-a-an",
+      "source": "او مهندس است و در یک شرکت بزرگ کار می‌کند.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "He is an engineer and works for a big company.",
+        "She is an engineer and works for a big company.",
+        "He is an engineer and works at a big company.",
+        "She is an engineer and works at a big company.",
+        "He is an engineer and he works for a big company.",
+        "She is an engineer and she works for a big company.",
+        "He is an engineer and he works at a big company.",
+        "She is an engineer and she works at a big company."
+      ],
+      "commonErrors": [
+        {
+          "match": "\\ba engineer\\b",
+          "feedback": "'engineer' starts with a vowel sound: an engineer.",
+          "feedbackPersian": "engineer با صدای مصوت شروع می‌شود: an engineer."
+        }
+      ],
+      "explanation": "an + vowel sound: an engineer. a + big company.",
+      "explanationPersian": "قبل از صدای مصوت an: an engineer. a big company."
+    },
+    {
+      "id": "articles-8",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "objectiveId": "art-a-an",
+      "incorrectSentence": "She is teacher.",
+      "acceptedAnswers": [
+        "She is a teacher."
+      ],
+      "explanation": "Jobs need a / an.",
+      "explanationPersian": "قبل از شغل a یا an لازم است."
+    },
+    {
+      "id": "articles-9",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "A1",
+      "difficulty": 2,
+      "objectiveId": "art-the",
+      "prompt": "Complete with articles: \"___ sun is ___ star.\" (write the full sentence)",
+      "acceptedAnswers": [
+        "The sun is a star.",
+        "The Sun is a star."
+      ],
+      "hint": "Which one is unique?",
+      "hintPersian": "کدام‌یک منحصربه‌فرد است؟",
+      "explanation": "the sun (only one) + a star (one of many)",
+      "explanationPersian": "the sun (فقط یکی است) + a star (یکی از چندتا)"
     }
   ]
 }

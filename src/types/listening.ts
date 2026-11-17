@@ -1,4 +1,4 @@
-import type { ContentMetadata } from './vocabulary'
+import type { ContentMetadata, Objective } from './vocabulary'
 import type { Exercise } from './exercise'
 
 export type ListeningKind = 'sentences' | 'dialogue' | 'monologue'
@@ -31,5 +31,5 @@ export interface ListeningActivity {
     scenarioPersian?: string
     lines: ListeningLine[]
     exercises: Exercise[]
-    learningObjectives?: string[]
+    learningObjectives?: Objective[]
 }

@@ -279,13 +279,15 @@ function submitRecall() {
         wordProgressStore.recordCorrect(
             currentWord.value.word,
             progress.courseId,
-            progress.lessonId
+            progress.lessonId,
+            { mode: 'recall', ctx: 'session' }
         )
     } else {
         wordProgressStore.recordWrong(
             currentWord.value.word,
             progress.courseId,
-            progress.lessonId
+            progress.lessonId,
+            { mode: 'recall', ctx: 'session' }
         )
     }
 

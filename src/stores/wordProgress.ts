@@ -10,6 +10,10 @@ import {
 } from '../persistence/versionedStorage'
 
 import { useToastStore } from './toast'
+import { useLearningEvidenceStore } from './learningEvidence'
+import { lexKey } from '../services/evidenceBridge'
+import type { EvidenceMode } from '../types/evidence'
+import type { SkillName } from '../types/skillProfile'
 
 import type {
     WordProgress,
@@ -34,6 +38,35 @@ const repository = createVersionedRepository<WordProgress[]>({
     defaultValue: () => [],
     migrate: migrateStoredProgress,
 })
+
+/**
+ * Optional description of HOW an SRS answer was produced. When supplied, the
+ * attempt is also written to the learning-evidence ledger. Without it nothing is
+ * recorded there (speech read-aloud and self-rated buttons are not evidence).
+ * The SM-2 scheduling below is unaffected either way.
+ */
+export interface SrsEvidence {
+    mode: Exclude<EvidenceMode, 'view'>
+    /** false when a hint / shown answer helped (default true). */
+    independent?: boolean
+    ctx?: string
+    skill?: SkillName
+}
+
+function writeEvidence(word: string, courseId: string, correct: boolean, evidence?: SrsEvidence) {
+    if (!evidence) return
+
+    useLearningEvidenceStore().record({
+        key: lexKey(word),
+        kind: courseId === 'real-life' ? 'expression' : 'word',
+        mode: evidence.mode,
+        ok: correct,
+        independent: evidence.independent ?? true,
+        verified: true,
+        ctx: evidence.ctx,
+        skill: evidence.skill ?? 'vocabulary',
+    })
+}
 
 export const useWordProgressStore =
     defineStore(
@@ -156,7 +189,8 @@ export const useWordProgressStore =
             function recordCorrect(
                 word: string,
                 courseId = '',
-                lessonId = ''
+                lessonId = '',
+                evidence?: SrsEvidence
             ) {
                 const item =
                     getProgress(
@@ -222,13 +256,16 @@ export const useWordProgressStore =
                 item.nextReviewAt =
                     schedule.nextReviewAt
 
+                writeEvidence(word, item.courseId || courseId, true, evidence)
+
                 save()
             }
 
             function recordWrong(
                 word: string,
                 courseId = '',
-                lessonId = ''
+                lessonId = '',
+                evidence?: SrsEvidence
             ) {
                 const item =
                     getProgress(
@@ -263,6 +300,8 @@ export const useWordProgressStore =
 
                 item.nextReviewAt =
                     schedule.nextReviewAt
+
+                writeEvidence(word, item.courseId || courseId, false, evidence)
 
                 save()
             }

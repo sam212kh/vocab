@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "comparatives-1",
+      "objectiveId": "comp-forms",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -19,10 +20,12 @@
       "prompt": "This exercise is ___ than the last one.",
       "options": ["easyer", "easier", "more easy", "easiest"],
       "correctIndex": 1,
-      "explanation": "Easy → easier (y changes to i)."
+      "explanation": "Easy → easier (y changes to i).",
+      "explanationPersian": "easy → easier (y به i تبدیل می‌شود)."
     },
     {
       "id": "comparatives-2",
+      "objectiveId": "comp-than",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -30,10 +33,12 @@
       "before": "Mount Damavand is the",
       "after": "mountain in Iran. (high)",
       "acceptedAnswers": ["highest"],
-      "explanation": "Superlative of a short adjective: the highest."
+      "explanation": "Superlative of a short adjective: the highest.",
+      "explanationPersian": "برتری صفت کوتاه: the highest."
     },
     {
       "id": "comparatives-3",
+      "objectiveId": "comp-forms",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -45,6 +50,7 @@
     },
     {
       "id": "comparatives-4",
+      "objectiveId": "comp-than",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -52,19 +58,23 @@
       "prompt": "It was ___ movie I have ever seen.",
       "options": ["the worst", "the worse", "worst", "more bad"],
       "correctIndex": 0,
-      "explanation": "Superlative of bad: the worst."
+      "explanation": "Superlative of bad: the worst.",
+      "explanationPersian": "صفت عالی bad می‌شود the worst."
     },
     {
       "id": "comparatives-5",
+      "objectiveId": "comp-than",
       "type": "sentence-ordering",
       "skill": "grammar",
       "cefrLevel": "A2",
       "difficulty": 2,
       "segments": ["Tehran", "is", "bigger", "than", "Isfahan"],
-      "explanation": "Comparative + than: bigger than."
+      "explanation": "Comparative + than: bigger than.",
+      "explanationPersian": "تفضیلی + than: bigger than."
     },
     {
       "id": "comparatives-6",
+      "objectiveId": "comp-forms",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "A2",
@@ -72,7 +82,65 @@
       "before": "Online meetings are",
       "after": "convenient than travelling. (more / most)",
       "acceptedAnswers": ["more"],
-      "explanation": "Long adjective + than → more convenient than."
+      "explanation": "Long adjective + than → more convenient than.",
+      "explanationPersian": "صفت بلند + than یعنی more convenient than."
+    },
+    {
+      "id": "comparatives-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "comp-forms",
+      "source": "این کتاب از آن یکی جالب‌تر است.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "This book is more interesting than that one.",
+        "This book is more interesting than that book.",
+        "This book is more interesting than the other one."
+      ],
+      "commonErrors": [
+        {
+          "match": "interestinger",
+          "feedback": "Long adjectives use 'more': more interesting.",
+          "feedbackPersian": "صفت‌های بلند more می‌گیرند: more interesting."
+        }
+      ],
+      "explanation": "long adjective: more + adjective + than",
+      "explanationPersian": "صفت بلند: more + صفت + than"
+    },
+    {
+      "id": "comparatives-8",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "comp-forms",
+      "incorrectSentence": "She is more taller than me.",
+      "acceptedAnswers": [
+        "She is taller than me.",
+        "She is taller than I am.",
+        "She is taller than I."
+      ],
+      "explanation": "tall → taller (not 'more taller')",
+      "explanationPersian": "tall → taller (نه more taller)"
+    },
+    {
+      "id": "comparatives-9",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "A2",
+      "difficulty": 2,
+      "objectiveId": "comp-than",
+      "prompt": "Rewrite with \"not as … as\": \"London is bigger than Isfahan.\"",
+      "acceptedAnswers": [
+        "Isfahan is not as big as London.",
+        "Isfahan isn't as big as London."
+      ],
+      "hint": "Start with Isfahan.",
+      "hintPersian": "با Isfahan شروع کن.",
+      "explanation": "A is bigger than B = B is not as big as A.",
+      "explanationPersian": "A is bigger than B یعنی B is not as big as A."
     }
   ]
 }

@@ -108,6 +108,348 @@
           "usefulPhrases": ["My goal is to...", "I'd like to grow into...", "Ideally, I will have..."]
         }
       ]
+    },
+    {
+      "id": "greetings-and-names",
+      "title": "Greetings and Names",
+      "description": "Say hello, give your name and country, and say what you do.",
+      "cefrLevel": "A1",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "estimatedDuration": 8,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "Hello, my name is Ali. Nice to meet you.",
+          "promptPersian": "سلام، اسم من علی است. از آشنایی با شما خوشبختم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I'm from Iran and I live in Tehran.",
+          "promptPersian": "من اهل ایران هستم و در تهران زندگی می‌کنم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "How are you? — I'm fine, thanks. And you?",
+          "promptPersian": "حالت چطور است؟ — خوبم، ممنون. تو چطور؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Could you repeat that, please?",
+          "promptPersian": "لطفاً می‌شود دوباره بگویید؟"
+        },
+        {
+          "kind": "open",
+          "prompt": "What's your name, and where are you from?",
+          "promptPersian": "اسمت چیست و اهل کجا هستی؟",
+          "usefulPhrases": ["My name is...", "I'm from...", "I live in..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "What do you do?",
+          "promptPersian": "چه کاری می‌کنی؟",
+          "usefulPhrases": ["I'm a ...", "I work in ...", "I'm a student."]
+        }
+      ]
+    },
+    {
+      "id": "family-and-home",
+      "title": "My Family and My Home",
+      "description": "Talk about the people you live with and the place where you live.",
+      "cefrLevel": "A1",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "estimatedDuration": 8,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "I have two brothers and one sister.",
+          "promptPersian": "من دو برادر و یک خواهر دارم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "My father works as a teacher.",
+          "promptPersian": "پدرم معلم است."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I live in a flat on the second floor.",
+          "promptPersian": "من در یک آپارتمان در طبقهٔ دوم زندگی می‌کنم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "There are two bedrooms and a small kitchen.",
+          "promptPersian": "دو اتاق خواب و یک آشپزخانهٔ کوچک هست."
+        },
+        {
+          "kind": "open",
+          "prompt": "Tell me about your family.",
+          "promptPersian": "دربارهٔ خانواده‌ات بگو.",
+          "usefulPhrases": ["I have...", "This is my...", "He works as..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Describe your home.",
+          "promptPersian": "خانه‌ات را توصیف کن.",
+          "usefulPhrases": ["There is...", "There are...", "It has..."]
+        }
+      ]
+    },
+    {
+      "id": "help-and-directions",
+      "title": "Asking for Help and Directions",
+      "description": "Ask politely for help, ask the way and explain a simple problem.",
+      "cefrLevel": "A2",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "Excuse me, could you help me, please?",
+          "promptPersian": "ببخشید، می‌شود کمکم کنید؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Is it far from here?",
+          "promptPersian": "از این‌جا دور است؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Can you show me on the map?",
+          "promptPersian": "می‌توانید روی نقشه نشانم بدهید؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I've lost my wallet. It happened this morning.",
+          "promptPersian": "کیف پولم را گم کرده‌ام. امروز صبح اتفاق افتاد."
+        },
+        {
+          "kind": "open",
+          "prompt": "You are lost in a new city. Ask someone how to get to the station and how long it takes.",
+          "promptPersian": "در یک شهر جدید گم شده‌ای. از کسی بپرس چطور به ایستگاه برسی و چقدر طول می‌کشد.",
+          "usefulPhrases": ["Excuse me,...", "How long does it take?", "Turn left..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Something is wrong in your hotel room. Explain the problem and ask for help.",
+          "promptPersian": "در اتاق هتلت مشکلی هست. مشکل را توضیح بده و کمک بخواه.",
+          "usefulPhrases": ["There's a problem with...", "It doesn't work.", "Could you help me, please?"]
+        }
+      ]
+    },
+    {
+      "id": "weekend-and-plans",
+      "title": "The Weekend and Making Plans",
+      "description": "Say what you did, suggest a plan and accept or decline politely.",
+      "cefrLevel": "A2",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 2,
+      "estimatedDuration": 10,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "What did you do at the weekend?",
+          "promptPersian": "آخر هفته چه کردی؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I went to the mountains with some friends.",
+          "promptPersian": "با چند دوست به کوه رفتم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Why don't we go to the cinema tonight?",
+          "promptPersian": "چرا امشب به سینما نرویم؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I'd love to, but I can't. I have to work.",
+          "promptPersian": "خیلی دوست دارم ولی نمی‌توانم. باید کار کنم."
+        },
+        {
+          "kind": "open",
+          "prompt": "Tell me what you did last weekend.",
+          "promptPersian": "بگو آخر هفتهٔ گذشته چه کردی.",
+          "usefulPhrases": ["I went to...", "We had a really good time.", "It was..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Suggest a plan to a friend for next Saturday and agree on a time.",
+          "promptPersian": "برای شنبهٔ بعد به یک دوست برنامه‌ای پیشنهاد بده و دربارهٔ ساعت توافق کن.",
+          "usefulPhrases": ["Why don't we...?", "Shall we meet at...?", "How about...?"]
+        }
+      ]
+    },
+    {
+      "id": "giving-your-opinion",
+      "title": "Giving Your Opinion and Reasons",
+      "description": "State an opinion, give a reason and show when you are not sure.",
+      "cefrLevel": "B1",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 3,
+      "estimatedDuration": 12,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "In my opinion, working from home is more productive.",
+          "promptPersian": "به نظر من، کار کردن در خانه بهره‌وری بیشتری دارد."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "The reason is that I don't lose time travelling.",
+          "promptPersian": "دلیلش این است که وقتم در رفت‌وآمد تلف نمی‌شود."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "It depends on the job.",
+          "promptPersian": "بستگی به شغل دارد."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "I'm not sure whether it suits everyone.",
+          "promptPersian": "مطمئن نیستم برای همه مناسب باشد."
+        },
+        {
+          "kind": "open",
+          "prompt": "Do you prefer studying alone or with other people? Explain why.",
+          "promptPersian": "تنها درس خواندن را ترجیح می‌دهی یا با دیگران؟ دلیلش را توضیح بده.",
+          "usefulPhrases": ["In my opinion,...", "The reason is that...", "For example,..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Is it better to live in a city or in a village?",
+          "promptPersian": "زندگی در شهر بهتر است یا در روستا؟",
+          "usefulPhrases": ["It depends on...", "On the one hand...", "On balance,..."]
+        }
+      ]
+    },
+    {
+      "id": "a-story-from-your-life",
+      "title": "A Story From Your Life",
+      "description": "Tell a short story in order and talk about things you used to do.",
+      "cefrLevel": "B1",
+      "skillTags": ["speaking"],
+      "domainTags": ["general"],
+      "difficulty": 3,
+      "estimatedDuration": 12,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "It all started when I missed the last bus.",
+          "promptPersian": "همه چیز از وقتی شروع شد که آخرین اتوبوس را از دست دادم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "While I was walking home, it started to rain.",
+          "promptPersian": "وقتی داشتم پیاده به خانه می‌رفتم، باران شروع شد."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "In the end, I got home safely.",
+          "promptPersian": "در نهایت، سالم به خانه رسیدم."
+        },
+        {
+          "kind": "open",
+          "prompt": "Tell a short story about a day when something unexpected happened.",
+          "promptPersian": "یک داستان کوتاه دربارهٔ روزی که اتفاقی غیرمنتظره افتاد تعریف کن.",
+          "usefulPhrases": ["It all started when...", "Suddenly,...", "In the end,..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "What did you use to do as a child that you do not do now?",
+          "promptPersian": "وقتی بچه بودی چه کارهایی می‌کردی که الان نمی‌کنی؟",
+          "usefulPhrases": ["I used to...", "We used to...", "Now I..."]
+        }
+      ]
+    },
+    {
+      "id": "disagreeing-and-negotiating",
+      "title": "Disagreeing Politely and Negotiating",
+      "description": "Disagree without being rude, ask for clarification and look for a compromise.",
+      "cefrLevel": "B2",
+      "skillTags": ["speaking"],
+      "domainTags": ["business"],
+      "difficulty": 4,
+      "estimatedDuration": 14,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "I see your point, but I think we should wait for the data.",
+          "promptPersian": "نکتهٔ شما را می‌فهمم، اما فکر می‌کنم باید منتظر داده‌ها بمانیم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Could you meet us halfway on the price?",
+          "promptPersian": "می‌توانید در مورد قیمت کمی کوتاه بیایید؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "What if we split the cost?",
+          "promptPersian": "اگر هزینه را نصف کنیم چطور است؟"
+        },
+        {
+          "kind": "repeat",
+          "prompt": "Let's agree to disagree.",
+          "promptPersian": "قبول کنیم که نظرمان فرق دارد."
+        },
+        {
+          "kind": "open",
+          "prompt": "Your manager wants to move a deadline earlier. Disagree politely and propose a compromise.",
+          "promptPersian": "مدیرت می‌خواهد موعدی را جلوتر بیاورد. مؤدبانه مخالفت کن و یک مصالحه پیشنهاد بده.",
+          "usefulPhrases": ["I see your point, but...", "What if we...?", "As long as..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Ask a colleague to clarify something you did not understand.",
+          "promptPersian": "از یک همکار بخواه چیزی را که نفهمیدی روشن کند.",
+          "usefulPhrases": ["Could you clarify what you mean by...?", "If I understand you correctly,...", "Let me rephrase that."]
+        }
+      ]
+    },
+    {
+      "id": "a-one-minute-presentation",
+      "title": "A One-Minute Presentation",
+      "description": "Open, signpost and close a short talk and answer a question politely.",
+      "cefrLevel": "B2",
+      "skillTags": ["speaking"],
+      "domainTags": ["business"],
+      "difficulty": 4,
+      "estimatedDuration": 14,
+      "steps": [
+        {
+          "kind": "repeat",
+          "prompt": "Let me start by thanking you all for coming.",
+          "promptPersian": "اجازه بدهید با تشکر از همهٔ شما برای حضورتان شروع کنم."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "As you can see on this slide, sales grew by twelve percent.",
+          "promptPersian": "همان‌طور که در این اسلاید می‌بینید، فروش دوازده درصد رشد کرده است."
+        },
+        {
+          "kind": "repeat",
+          "prompt": "To sum up, we need more time and a clear plan.",
+          "promptPersian": "برای جمع‌بندی، به زمان بیشتر و یک برنامهٔ روشن نیاز داریم."
+        },
+        {
+          "kind": "open",
+          "prompt": "Give a one-minute talk about a project you are proud of.",
+          "promptPersian": "یک سخنرانی یک‌دقیقه‌ای دربارهٔ پروژه‌ای که به آن افتخار می‌کنی ارائه بده.",
+          "usefulPhrases": ["Let me start by...", "The key point is...", "To sum up,..."]
+        },
+        {
+          "kind": "open",
+          "prompt": "Answer a difficult question from the audience politely.",
+          "promptPersian": "مؤدبانه به یک سؤال سخت از طرف حضار پاسخ بده.",
+          "usefulPhrases": ["That's a good question.", "I'll come back to that later.", "The main reason is..."]
+        }
+      ]
     }
   ]
 }

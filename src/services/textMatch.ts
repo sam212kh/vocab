@@ -6,6 +6,28 @@ export function normalizeAnswer(value: string): string {
         .replace(/\s+/g, ' ')
 }
 
+/**
+ * Writes common English contractions out in full, so "I'm late" and "I am late" compare equal.
+ * `'s` is read as "is" only after words where that is the usual meaning (it's, that's, there's …);
+ * possessives ("Sara's bag") are left alone. Ambiguous `'d` is read as "would".
+ */
+export function expandContractions(value: string): string {
+    return value
+        .replace(/[’‘]/g, "'")
+        .replace(/\bcan't\b/gi, 'cannot')
+        .replace(/\bwon't\b/gi, 'will not')
+        .replace(/\bshan't\b/gi, 'shall not')
+        .replace(/\b(\w+)n't\b/gi, '$1 not')
+        .replace(/\b(it|he|she|that|there|here|what|who|where|how|when)'s\b/gi, '$1 is')
+        .replace(/\blet's\b/gi, 'let us')
+        .replace(/\b(\w+)'m\b/gi, '$1 am')
+        .replace(/\b(\w+)'re\b/gi, '$1 are')
+        .replace(/\b(\w+)'ve\b/gi, '$1 have')
+        .replace(/\b(\w+)'ll\b/gi, '$1 will')
+        .replace(/\b(\w+)'d\b/gi, '$1 would')
+        .replace(/\bcan not\b/gi, 'cannot')
+}
+
 function levenshtein(a: string, b: string): number {
     const matrix: number[][] = []
 
@@ -52,6 +74,8 @@ export interface AnswersMatchOptions {
      * tolerance would accept the uncorrected original.
      */
     exact?: boolean
+    /** Treat contractions and their full forms as equal ("I'm" ≡ "I am"). Meant for open-ended typed answers, not dictation. */
+    contractions?: boolean
 }
 
 /**
@@ -65,6 +89,11 @@ export function answersMatch(
     answer: string,
     options: AnswersMatchOptions = {}
 ): boolean {
+    if (options.contractions) {
+        target = expandContractions(target)
+        answer = expandContractions(answer)
+    }
+
     const normalizedTarget = options.numberEquivalence
         ? normalizeNumbersInText(target)
         : normalizeAnswer(target)

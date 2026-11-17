@@ -85,6 +85,74 @@
       "minWords": 30,
       "maxWords": 100,
       "estimatedDuration": 15
+    },
+    {
+      "id": "about-yourself",
+      "title": "About Yourself",
+      "promptType": "paragraph",
+      "cefrLevel": "A1",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 1,
+      "instructions": "Write five short sentences about yourself: your name, your country, your job or study, and your family. Use I am, I live and I have.",
+      "instructionsPersian": "پنج جملهٔ کوتاه دربارهٔ خودت بنویس: اسم، کشور، شغل یا درس و خانواده. از I am، I live و I have استفاده کن.",
+      "minWords": 20,
+      "requiredElements": ["I am"],
+      "estimatedDuration": 8
+    },
+    {
+      "id": "message-to-a-friend",
+      "title": "A Message to a Friend",
+      "promptType": "email",
+      "cefrLevel": "A2",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 2,
+      "instructions": "Write a short message to a friend. Suggest a plan for Saturday: what to do, when and where to meet. Use at least two suggestions such as Why don't we, Shall we or How about.",
+      "instructionsPersian": "یک پیام کوتاه به یک دوست بنویس. برای شنبه یک برنامه پیشنهاد بده: چه کاری، چه ساعتی و کجا. دست‌کم از دو پیشنهاد مثل Why don't we، Shall we یا How about استفاده کن.",
+      "minWords": 35,
+      "estimatedDuration": 10
+    },
+    {
+      "id": "reply-to-a-colleague",
+      "title": "Reply to a Colleague",
+      "promptType": "email",
+      "cefrLevel": "B1",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 3,
+      "instructions": "A colleague writes: \"Could you send me the report by Friday? I need it for the meeting.\" Write a polite reply. Say whether you can do it, give a reason if there is a problem, and promise a time to get back to them.",
+      "instructionsPersian": "یک همکار می‌نویسد: «Could you send me the report by Friday? I need it for the meeting.» یک پاسخ مؤدبانه بنویس. بگو می‌توانی یا نه، اگر مشکلی هست دلیلش را بگو و قول بده چه زمانی خبرش می‌کنی.",
+      "minWords": 45,
+      "estimatedDuration": 12
+    },
+    {
+      "id": "remote-work-opinion",
+      "title": "Remote Work: Your Opinion",
+      "promptType": "opinion",
+      "cefrLevel": "B1-B2",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 3,
+      "instructions": "Is remote work better than working in an office? Write a short paragraph. Give your opinion, two reasons and one example. Say what it depends on.",
+      "instructionsPersian": "آیا کار از راه دور بهتر از کار در دفتر است؟ یک پاراگراف کوتاه بنویس. نظرت، دو دلیل و یک مثال را بگو. بگو به چه چیزی بستگی دارد.",
+      "minWords": 70,
+      "requiredElements": ["because", "for example"],
+      "estimatedDuration": 15
+    },
+    {
+      "id": "complaint-email",
+      "title": "An Email About a Problem",
+      "promptType": "email",
+      "cefrLevel": "B2",
+      "skillTags": ["writing"],
+      "domainTags": ["general"],
+      "difficulty": 4,
+      "instructions": "You stayed in a hotel and there was a problem. Write an email to the manager. Describe what happened, say what you expected and ask politely for a solution. Keep the tone professional.",
+      "instructionsPersian": "در یک هتل اقامت داشتی و مشکلی پیش آمد. به مدیر ایمیل بنویس. بگو چه اتفاقی افتاد، چه انتظاری داشتی و مؤدبانه راه‌حل بخواه. لحن را حرفه‌ای نگه دار.",
+      "minWords": 90,
+      "requiredElements": ["I would appreciate"],
+      "estimatedDuration": 18
     }
   ]
 }

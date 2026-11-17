@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "present-perfect-1",
+      "objectiveId": "pp-experience",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -19,10 +20,12 @@
       "prompt": "I ___ here for five years.",
       "options": ["work", "worked", "have worked", "am working"],
       "correctIndex": 2,
-      "explanation": "For + a period continuing to now → present perfect."
+      "explanation": "For + a period continuing to now → present perfect.",
+      "explanationPersian": "for + مدتی که تا الان ادامه دارد → حال کامل."
     },
     {
       "id": "present-perfect-2",
+      "objectiveId": "pp-vs-past",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -34,6 +37,7 @@
     },
     {
       "id": "present-perfect-3",
+      "objectiveId": "pp-experience",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -41,10 +45,12 @@
       "before": "She has",
       "after": "her homework already. (do)",
       "acceptedAnswers": ["done"],
-      "explanation": "Past participle of do is done."
+      "explanation": "Past participle of do is done.",
+      "explanationPersian": "اسم مفعول do می‌شود done."
     },
     {
       "id": "present-perfect-4",
+      "objectiveId": "pp-experience",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -57,19 +63,23 @@
         "Have you ever eat sushi?"
       ],
       "correctIndex": 1,
-      "explanation": "Present perfect needs the past participle: eaten."
+      "explanation": "Present perfect needs the past participle: eaten.",
+      "explanationPersian": "حال کامل اسم مفعول می‌خواهد: eaten."
     },
     {
       "id": "present-perfect-5",
+      "objectiveId": "pp-experience",
       "type": "sentence-ordering",
       "skill": "grammar",
       "cefrLevel": "B1",
       "difficulty": 2,
       "segments": ["We", "have", "never", "missed", "a", "deadline"],
-      "explanation": "Never goes between have and the past participle."
+      "explanation": "Never goes between have and the past participle.",
+      "explanationPersian": "never بین have و اسم مفعول می‌آید."
     },
     {
       "id": "present-perfect-6",
+      "objectiveId": "pp-experience",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -77,7 +87,68 @@
       "before": "I have known her",
       "after": "2019. (for / since)",
       "acceptedAnswers": ["since"],
-      "explanation": "Since + a starting point (2019); for + a length of time (five years)."
+      "explanation": "Since + a starting point (2019); for + a length of time (five years).",
+      "explanationPersian": "since + نقطهٔ شروع (2019)؛ for + مدت زمان (five years)."
+    },
+    {
+      "id": "present-perfect-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "pp-experience",
+      "source": "من تا حالا هیچ‌وقت سوشی نخورده‌ام.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "I have never eaten sushi.",
+        "I've never eaten sushi.",
+        "I have never tried sushi.",
+        "I've never tried sushi.",
+        "I have never had sushi.",
+        "I've never had sushi."
+      ],
+      "commonErrors": [
+        {
+          "match": "never ate|never eat\\b",
+          "feedback": "For life experience use present perfect: have never eaten.",
+          "feedbackPersian": "برای تجربهٔ زندگی از حال کامل استفاده کن: have never eaten."
+        }
+      ],
+      "explanation": "have never + past participle",
+      "explanationPersian": "have never + اسم مفعول"
+    },
+    {
+      "id": "present-perfect-8",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "pp-experience",
+      "prompt": "Answer in a full sentence: \"Have you ever been to London?\" (your answer is no)",
+      "acceptedAnswers": [
+        "No, I have never been to London.",
+        "No, I've never been to London.",
+        "No, I haven't been to London.",
+        "No, I have not been to London.",
+        "No, I haven't.",
+        "No, I have not."
+      ],
+      "explanation": "have never been / haven't been",
+      "explanationPersian": "برای تجربهٔ زندگی از حال کامل استفاده می‌کنیم: have never been یا haven't been."
+    },
+    {
+      "id": "present-perfect-9",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "pp-vs-past",
+      "incorrectSentence": "I have lost my keys last night.",
+      "acceptedAnswers": [
+        "I lost my keys last night."
+      ],
+      "explanation": "With a finished time (last night) use the past simple.",
+      "explanationPersian": "با زمان تمام‌شده (last night) از گذشتهٔ ساده استفاده کن."
     }
   ]
 }

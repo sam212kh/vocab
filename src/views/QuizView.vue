@@ -91,13 +91,15 @@ function choose(option: string) {
         progressStore.recordCorrect(
             current.value.word.word,
             current.value.word.courseId,
-            current.value.word.lessonId
+            current.value.word.lessonId,
+            { mode: 'recognition', ctx: 'quiz' }
         )
     } else {
         progressStore.recordWrong(
             current.value.word.word,
             current.value.word.courseId,
-            current.value.word.lessonId
+            current.value.word.lessonId,
+            { mode: 'recognition', ctx: 'quiz' }
         )
     }
 }

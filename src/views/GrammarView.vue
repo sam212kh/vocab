@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import { computed, onMounted, ref } from 'vue'
 
 import { loadGrammarManifest, loadGrammarTopic } from '../services/grammarContent'
@@ -99,10 +100,20 @@ function startExercises() {
     phase.value = 'exercises'
 }
 
+const evidenceRecorder = useEvidenceRecorder()
+
 function onExerciseResult(result: ExerciseResult) {
     sessionResults.value.push(result)
 
     const exercise = currentExercise.value
+
+    if (activeTopic.value && exercise) {
+        evidenceRecorder.recordGrammar(activeTopic.value.id, exercise.type, result.correct, result.hintUsed !== true)
+        evidenceRecorder.recordExercise(exercise, result, `grammar/${activeTopic.value.id}`)
+    }
+
+    /* A hint-assisted answer is practice, not evidence of the skill. */
+    if (result.hintUsed) return
 
     performanceStore.record({
         skill: 'grammar',

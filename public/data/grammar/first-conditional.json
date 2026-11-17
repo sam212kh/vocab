@@ -12,6 +12,7 @@
   "exercises": [
     {
       "id": "first-conditional-1",
+      "objectiveId": "fc-form",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -19,10 +20,12 @@
       "prompt": "If it ___ tomorrow, we will cancel the picnic.",
       "options": ["will rain", "rains", "rained", "raining"],
       "correctIndex": 1,
-      "explanation": "The if-clause takes present simple: if it rains."
+      "explanation": "The if-clause takes present simple: if it rains.",
+      "explanationPersian": "در بخش if زمان حال ساده می‌آید: if it rains."
     },
     {
       "id": "first-conditional-2",
+      "objectiveId": "fc-form",
       "type": "grammar-correction",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -34,6 +37,7 @@
     },
     {
       "id": "first-conditional-3",
+      "objectiveId": "fc-future",
       "type": "fill-blank",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -41,19 +45,23 @@
       "before": "If he doesn't leave now, he",
       "after": "the train. (miss)",
       "acceptedAnswers": ["will miss", "'ll miss"],
-      "explanation": "Main clause: will + base verb."
+      "explanation": "Main clause: will + base verb.",
+      "explanationPersian": "در بخش اصلی will + فعل ساده می‌آید."
     },
     {
       "id": "first-conditional-4",
+      "objectiveId": "fc-future",
       "type": "sentence-ordering",
       "skill": "grammar",
       "cefrLevel": "B1",
       "difficulty": 2,
       "segments": ["If", "the", "meeting", "runs", "late,", "I", "will", "call", "you"],
-      "explanation": "If + present simple, will + base verb."
+      "explanation": "If + present simple, will + base verb.",
+      "explanationPersian": "if + حال ساده، will + فعل ساده."
     },
     {
       "id": "first-conditional-5",
+      "objectiveId": "fc-form",
       "type": "multiple-choice",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -66,10 +74,12 @@
         "If it stop raining, I will go out."
       ],
       "correctIndex": 2,
-      "explanation": "Will in the main clause, present simple after if."
+      "explanation": "Will in the main clause, present simple after if.",
+      "explanationPersian": "will در بخش اصلی و حال ساده بعد از if."
     },
     {
       "id": "first-conditional-6",
+      "objectiveId": "fc-future",
       "type": "translation",
       "skill": "grammar",
       "cefrLevel": "B1",
@@ -80,7 +90,69 @@
         "If you work hard, you will succeed.",
         "You will succeed if you work hard."
       ],
-      "explanation": "If + present simple, will + base verb."
+      "explanation": "If + present simple, will + base verb.",
+      "explanationPersian": "if + حال ساده، will + فعل ساده."
+    },
+    {
+      "id": "first-conditional-7",
+      "type": "translation",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "fc-form",
+      "source": "اگر باران ببارد، در خانه می‌مانیم.",
+      "sourceLang": "fa",
+      "acceptedAnswers": [
+        "If it rains, we will stay at home.",
+        "If it rains, we will stay home.",
+        "If it rains, we'll stay at home.",
+        "If it rains, we'll stay home.",
+        "We will stay at home if it rains.",
+        "We'll stay at home if it rains."
+      ],
+      "commonErrors": [
+        {
+          "match": "if it will rain",
+          "feedback": "After 'if' use the present simple (no will).",
+          "feedbackPersian": "بعد از if حال ساده می‌آید (بدون will)."
+        }
+      ],
+      "explanation": "if + present simple, will + base verb",
+      "explanationPersian": "if + حال ساده، will + فعل ساده"
+    },
+    {
+      "id": "first-conditional-8",
+      "type": "grammar-correction",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "fc-form",
+      "incorrectSentence": "If I will see him, I will tell him.",
+      "acceptedAnswers": [
+        "If I see him, I will tell him.",
+        "If I see him, I'll tell him."
+      ],
+      "explanation": "no will after if",
+      "explanationPersian": "بعد از if، will نمی‌آید."
+    },
+    {
+      "id": "first-conditional-9",
+      "type": "short-answer",
+      "skill": "grammar",
+      "cefrLevel": "B1",
+      "difficulty": 2,
+      "objectiveId": "fc-future",
+      "prompt": "Rewrite with \"if\": \"Hurry up, or you will miss the bus.\"",
+      "acceptedAnswers": [
+        "If you don't hurry up, you will miss the bus.",
+        "If you do not hurry up, you will miss the bus.",
+        "If you don't hurry, you will miss the bus.",
+        "If you do not hurry, you will miss the bus.",
+        "If you don't hurry up, you'll miss the bus.",
+        "If you don't hurry, you'll miss the bus."
+      ],
+      "explanation": "if + negative present, will + base verb",
+      "explanationPersian": "if + حال ساده منفی، will + فعل ساده"
     }
   ]
 }

@@ -30,6 +30,12 @@ import { useMistakesStore } from '../stores/mistakes'
 import { usePerformanceStore } from '../stores/performance'
 import { useSessionSettingsStore } from '../stores/sessionSettings'
 import { useAISettingsStore } from '../stores/aiSettings'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
+import { useLearningEvidenceStore } from '../stores/learningEvidence'
+import { computeIntelligence } from '../services/learningIntelligence'
+import { basicTransferCheck, matchedPhrases } from '../services/transfer'
+import { lexKey } from '../services/evidenceBridge'
+import type { JourneyExtras } from '../services/evidenceBridge'
 import { useLearnerProfileStore } from '../stores/learnerProfile'
 
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
@@ -39,6 +45,7 @@ import SpeechButton from '../components/ui/SpeechButton.vue'
 import SentenceFeedback from '../components/journey/SentenceFeedback.vue'
 import AppIcon from '../components/ui/AppIcon.vue'
 import PageHeader from '../components/ui/PageHeader.vue'
+import TransferInsight from '../components/journey/TransferInsight.vue'
 import StateBlock from '../components/ui/StateBlock.vue'
 
 import { JOURNEY_LENGTH_MINUTES } from '../types/journey'
@@ -61,6 +68,8 @@ const mistakesStore = useMistakesStore()
 const performanceStore = usePerformanceStore()
 const sessionSettingsStore = useSessionSettingsStore()
 const aiSettingsStore = useAISettingsStore()
+const evidenceRecorder = useEvidenceRecorder()
+const ledgerStore = useLearningEvidenceStore()
 const learnerProfileStore = useLearnerProfileStore()
 
 const {
@@ -132,6 +141,14 @@ async function ensureSnapshot() {
     }
 }
 
+/** Transfer situations used in the last journeys (no-repeat). */
+function recentTransferContexts(): string[] {
+    return journeyStore.sessions
+        .slice(-6)
+        .flatMap(item => item.plan.activities.map(activity => activity.transfer?.contextId))
+        .filter((id): id is string => !!id)
+}
+
 function buildPlannerInput(chosen: JourneyLength): PlannerInput {
     const content = snapshot.value!
 
@@ -159,6 +176,14 @@ function buildPlannerInput(chosen: JourneyLength): PlannerInput {
         recentlyCompleted: journeyStore.recentlyCompletedSourceIds(),
         speakingEnabled: sessionSettingsStore.settings.speakingEnabled,
         stageCounts: stageCountsFrom(journeyStore.evidence),
+        evidence: computeIntelligence({
+            now: Date.now(),
+            items: Object.values(ledgerStore.items),
+            events: performanceStore.events,
+            srs: wordProgressStore.progress.map(item => ({ key: lexKey(item.wordId), status: item.status, nextReviewAt: item.nextReviewAt })),
+            patterns: content.transferPatterns,
+            recentContextIds: recentTransferContexts(),
+        }).plannerEvidence,
     }
 }
 
@@ -244,13 +269,15 @@ function baseEvidence(activity: JourneyActivity, itemKey: string) {
 }
 
 /** Record evidence in the journey store AND the existing performance store. */
-function emit(record: ReturnType<typeof retrievalEvidence>) {
+function emit(record: ReturnType<typeof retrievalEvidence>, extras?: JourneyExtras) {
     const stored = journeyStore.addEvidence(session.value!.id, record)
+
+    if (stored) evidenceRecorder.recordJourney(stored, extras)
 
     /* Only first attempts feed shared skill statistics; retries are practice. */
     if (stored && countsForPerformance(record)) performanceStore.record(performanceEventFor(record))
 
-    if (!record.correct && (record.attempt ?? 1) <= 1) wrongKeys.value.push(record.itemKey)
+    if (!record.correct && (record.attempt ?? 1) <= 1 && !record.transfer) wrongKeys.value.push(record.itemKey)
 }
 
 /* ---------- retrieval (typed recall → REAL SRS) ---------- */
@@ -339,6 +366,23 @@ function nextExercise() {
     finishActivity()
 }
 
+/** A contextual-application answer is APPLICATION evidence for its pattern and situation. */
+function withTransfer<T extends object>(record: T, activity: JourneyActivity): T & { transfer?: { patternId: string; contextId: string; level: number } } {
+    if (!activity.transfer) return record
+
+    return { ...record, transfer: { patternId: activity.transfer.patternId, contextId: activity.transfer.contextId, level: activity.transfer.level } }
+}
+
+/* ---------- new-material introduction (exposure only) ---------- */
+
+function completeIntro() {
+    const activity = currentActivity.value
+
+    for (const intro of activity?.introItems ?? []) evidenceRecorder.expose(intro.english, 'expression', activity?.sourceId)
+
+    finishActivity('completed')
+}
+
 /* ---------- sentence construction (production) ---------- */
 
 const constructionTargets = computed(() => currentActivity.value?.construction?.targetExpressions ?? [])
@@ -373,12 +417,20 @@ function recordBasicCheck() {
         attemptContext()
     )
 
+    /* A new-situation answer may use ANY wording of the pattern, not just the two target phrases. Still unverified. */
+    if (activity.transfer) {
+        const pattern = { matches: activity.transfer.matches }
+
+        record.correct = record.assistance !== 'copied-correction' && basicTransferCheck(answer.value, pattern, { targetPhrases: prompt.targetExpressions })
+        record.usedTargets = [...new Set([...record.usedTargets, ...matchedPhrases(pattern, answer.value)])]
+    }
+
     constructionUsed.value = record.usedTargets
     constructionPhase.value = 'basic-done'
 
-    const { usedTargets: _used, ...evidence } = record
+    const { usedTargets, ...evidence } = record
 
-    emit(evidence)
+    emit(withTransfer(evidence, activity), { usedTargets })
 }
 
 async function submitConstruction() {
@@ -415,7 +467,10 @@ async function submitConstruction() {
         evaluationInfo.value = { provider: result.provider, model: result.model, fallbackUsed: result.fallbackUsed }
         constructionPhase.value = 'feedback'
 
-        emit(evaluatedProductionEvidence(baseEvidence(activity, prompt.id), result.evaluation, attemptContext()))
+        emit(
+            withTransfer(evaluatedProductionEvidence(baseEvidence(activity, prompt.id), result.evaluation, attemptContext()), activity),
+            { usedTargets: result.evaluation.content.usedTargets }
+        )
 
         /* After the last allowed attempt, show the correction rather than loop. */
         if (!result.evaluation.passed && constructionAttempt.value >= MAX_CONSTRUCTION_ATTEMPTS) {
@@ -549,6 +604,9 @@ onMounted(async () => {
 const doneCount = computed(() =>
     session.value ? Object.values(session.value.statuses).filter(status => status !== 'pending').length : 0
 )
+
+/* Introduction is exposure and application is transfer: neither should wear a recognition / production label. */
+const KIND_LABEL: Record<string, string> = { 'new-material-intro': 'Introduction', 'contextual-application': 'New situation' }
 
 const STAGE_TONE: Record<string, string> = {
     recognition: 'bg-blue-50 text-blue-700',
@@ -689,7 +747,7 @@ const FLOW = [
                 <div class="flex items-center justify-between gap-3">
                     <p class="eyebrow">Activity {{ Math.min(doneCount + 1, session.plan.activities.length) }} of {{ session.plan.activities.length }}</p>
                     <span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold" :class="STAGE_TONE[currentActivity.stage]">
-                        <span class="capitalize">{{ currentActivity.stage }}</span> <span class="font-normal opacity-70">· ~{{ currentActivity.estimatedMinutes }} min</span>
+                        <span class="capitalize">{{ KIND_LABEL[currentActivity.kind] ?? currentActivity.stage }}</span> <span class="font-normal opacity-70">· ~{{ currentActivity.estimatedMinutes }} min</span>
                     </span>
                 </div>
 
@@ -711,8 +769,29 @@ const FLOW = [
                 <h2 class="text-xl font-bold tracking-tight text-gray-900">{{ currentActivity.title }}</h2>
                 <p class="mt-1 text-sm text-gray-400">{{ currentActivity.reason }}</p>
 
+                <!-- NEW MATERIAL: introduction only (exposure — nothing is tested or scored) -->
+                <div v-if="currentActivity.kind === 'new-material-intro' && currentActivity.introItems" class="mt-5" data-testid="intro">
+                    <p class="text-sm text-gray-500">Look and listen. Nothing is tested yet — recall comes after you have seen these.</p>
+
+                    <ul class="mt-4 space-y-3">
+                        <li v-for="intro in currentActivity.introItems" :key="intro.english" class="rounded-2xl bg-gray-50 p-4">
+                            <div class="flex items-start gap-2">
+                                <div class="min-w-0 flex-1">
+                                    <p class="font-display wrap-anywhere text-xl font-semibold text-gray-900" dir="ltr" lang="en">{{ intro.english }}</p>
+                                    <p class="fa-text text-gray-600" lang="fa">{{ intro.persian }}</p>
+                                    <p v-if="intro.example" class="mt-2 text-sm text-gray-700" dir="ltr" lang="en">{{ intro.example }}</p>
+                                    <p v-if="intro.examplePersian" class="fa-text text-sm text-gray-500" lang="fa">{{ intro.examplePersian }}</p>
+                                </div>
+                                <SpeechButton :text="intro.english" lang="en-US" />
+                            </div>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn-primary btn-lg mt-5 w-full" data-testid="intro-done" @click="completeIntro">I've looked at these</button>
+                </div>
+
                 <!-- RETRIEVAL (typed recall) -->
-                <div v-if="currentActivity.kind === 'vocab-retrieval' && currentItem" class="mt-6 text-center">
+                <div v-else-if="currentActivity.kind === 'vocab-retrieval' && currentItem" class="mt-6 text-center">
                     <p class="text-xs text-gray-400">{{ itemIndex + 1 }} / {{ currentActivity.retrievalItems!.length }} — type the English</p>
                     <p class="mt-3 break-words text-2xl font-semibold text-gray-900" dir="rtl">{{ currentItem.persian }}</p>
 
@@ -762,9 +841,12 @@ const FLOW = [
                 </div>
 
                 <!-- CONSTRUCTION (production) -->
-                <div v-else-if="currentActivity.kind === 'sentence-construction' && currentActivity.construction" class="mt-5">
+                <div v-else-if="(currentActivity.kind === 'sentence-construction' || currentActivity.kind === 'contextual-application') && currentActivity.construction" class="mt-5">
                     <p class="text-gray-800">{{ currentActivity.construction.promptEnglish }}</p>
                     <p class="mt-1 rounded-xl bg-gray-50 p-3 text-sm text-gray-600" dir="rtl">{{ currentActivity.construction.promptPersian }}</p>
+                    <p v-if="currentActivity.transfer" class="mt-3 rounded-xl bg-accent-soft p-3 text-sm text-accent-ink" data-testid="transfer-note">
+                        New situation. You already know “{{ currentActivity.transfer.anchorExpression }}” — use the same kind of language here, in your own words.
+                    </p>
                     <p class="mt-3 text-xs text-gray-500">Try to use: <b>{{ currentActivity.construction.targetExpressions.join(', ') }}</b></p>
 
                     <textarea
@@ -787,7 +869,7 @@ const FLOW = [
                         <button type="button" class="btn-primary btn-lg mt-3 w-full" data-testid="construction-submit" :disabled="!answer.trim()" @click="submitConstruction">
                             {{ aiSettingsStore.settings.enabled ? 'Check my sentence' : 'Submit' }}
                         </button>
-                        <button v-if="!constructionHint && constructionAttempt === 1" type="button" class="mt-2 w-full text-xs text-gray-400 hover:text-gray-700" @click="showConstructionHint">
+                        <button v-if="!constructionHint && constructionAttempt === 1" type="button" class="mt-1 inline-flex min-h-11 w-full items-center justify-center text-sm text-gray-500 hover:text-gray-800" @click="showConstructionHint">
                             Need a hint?
                         </button>
                         <p v-if="!aiSettingsStore.settings.enabled" class="mt-2 text-xs text-gray-400">AI feedback is off in AI Settings — this will be a basic check (length and expression use only).</p>
@@ -819,6 +901,7 @@ const FLOW = [
                             @reveal="correctionRevealed = true"
                             @retry="retryConstruction"
                         />
+                        <TransferInsight v-if="currentActivity.transfer?.learn" :learn="currentActivity.transfer.learn" />
                         <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="btn-primary btn-lg mt-4 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
                         <button v-else type="button" class="mt-3 w-full text-xs text-gray-400 hover:text-gray-700" @click="finishActivity()">Move on without retrying</button>
                     </template>
@@ -833,6 +916,7 @@ const FLOW = [
                         <p v-for="model in currentActivity.construction.modelSentences" :key="model" class="rounded-lg bg-gray-50 p-2 text-gray-700">
                             {{ model }} <SpeechButton :text="model" lang="en-US" />
                         </p>
+                        <TransferInsight v-if="currentActivity.transfer?.learn" :learn="currentActivity.transfer.learn" />
                         <button type="button" class="btn-primary btn-lg mt-2 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
                     </div>
                 </div>
