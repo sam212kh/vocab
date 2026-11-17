@@ -1,0 +1,24 @@
+{
+  "id": "price-negotiation",
+  "title": "A Price Negotiation",
+  "scenario": "A buyer and a seller discuss the price and the delivery of a large order. Listen to the whole conversation, then answer the questions.",
+  "scenarioPersian": "یک خریدار و یک فروشنده دربارهٔ قیمت و تحویل یک سفارش بزرگ صحبت می‌کنند. کل مکالمه را گوش بده، بعد به سؤال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Seller", "english": "Our price for the full order is fifty thousand euros, delivered in four weeks.", "persian": "قیمت ما برای کل سفارش پنجاه هزار یورو است، با تحویل در چهار هفته." },
+    { "speaker": "Buyer", "english": "That's more than we had in mind. Our budget is forty-five thousand.", "persian": "این بیشتر از چیزی است که در نظر داشتیم. بودجهٔ ما چهل و پنج هزار است." },
+    { "speaker": "Seller", "english": "I'm afraid we can't go that low. But we could offer a five percent discount, provided that you pay within ten days.", "persian": "متأسفانه تا آن حد نمی‌توانیم پایین بیاییم. اما می‌توانیم پنج درصد تخفیف بدهیم، به شرط آن‌که ظرف ده روز پرداخت کنید." },
+    { "speaker": "Buyer", "english": "Could you meet us halfway on the delivery? Four weeks is too long for us.", "persian": "در مورد تحویل کوتاه می‌آیید؟ چهار هفته برای ما خیلی طولانی است." },
+    { "speaker": "Seller", "english": "What if we split the order? Half in two weeks, half in four.", "persian": "اگر سفارش را تقسیم کنیم چطور است؟ نصفش در دو هفته، نصف دیگر در چهار هفته." },
+    { "speaker": "Buyer", "english": "That works for us. And if we pay within ten days, the price is...?", "persian": "برای ما خوب است. و اگر ظرف ده روز پرداخت کنیم، قیمت می‌شود ...؟" },
+    { "speaker": "Seller", "english": "Forty-seven thousand five hundred.", "persian": "چهل و هفت هزار و پانصد." },
+    { "speaker": "Buyer", "english": "Then it's a deal.", "persian": "پس توافق شد." }
+  ],
+  "exercises": [
+    { "id": "li-neg-1", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B2", "difficulty": 1, "objectiveId": "pn-details", "audioText": "That's more than we had in mind. Our budget is forty-five thousand.", "prompt": "What is the buyer's budget?", "options": ["Forty-five thousand euros", "Fifty thousand euros", "Forty-seven thousand euros", "Four thousand five hundred euros"], "correctIndex": 0, "explanation": "The buyer's budget is 45,000.", "explanationPersian": "بودجهٔ خریدار ۴۵٬۰۰۰ است." },
+    { "id": "li-neg-2", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B2", "difficulty": 1, "objectiveId": "pn-details", "audioText": "I'm afraid we can't go that low. But we could offer a five percent discount, provided that you pay within ten days.", "prompt": "What is the condition for the discount?", "options": ["Paying within ten days", "Ordering more", "Collecting the goods", "Paying in cash"], "correctIndex": 0, "explanation": "provided that you pay within ten days", "explanationPersian": "شرط تخفیف این است که ظرف ده روز پرداخت کنید (provided that you pay within ten days)." },
+    { "id": "li-neg-3", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B2", "difficulty": 1, "objectiveId": "pn-details", "audioText": "What if we split the order? Half in two weeks, half in four.", "prompt": "How does the seller solve the delivery problem?", "options": ["By splitting the order into two deliveries", "By lowering the price", "By refusing the buyer", "By delivering everything in two weeks"], "correctIndex": 0, "explanation": "Half in two weeks, half in four.", "explanationPersian": "نصف در دو هفته، نصف در چهار هفته." },
+    { "id": "li-neg-4", "type": "short-answer", "skill": "listening", "cefrLevel": "B2", "difficulty": 2, "objectiveId": "pn-details", "prompt": "What is the final price?", "acceptedAnswers": ["47,500 euros", "47500 euros", "47,500", "47500", "Forty-seven thousand five hundred euros", "Forty-seven thousand five hundred", "47.500 euros"], "explanation": "50,000 − 5% = 47,500.", "explanationPersian": "۵۰٬۰۰۰ − ۵٪ = ۴۷٬۵۰۰." },
+    { "id": "li-neg-5", "type": "short-answer", "skill": "listening", "cefrLevel": "B2", "difficulty": 2, "objectiveId": "pn-gist", "prompt": "Do the two sides reach an agreement? Answer yes or no and say how you know.", "acceptedAnswers": ["Yes, the buyer says it is a deal", "Yes, it is a deal", "Yes, they agree", "Yes, the buyer says then it is a deal", "Yes"], "explanation": "The buyer says: 'Then it's a deal.'", "explanationPersian": "خریدار می‌گوید: «Then it's a deal»." },
+    { "id": "li-neg-6", "type": "dictation", "skill": "listening", "cefrLevel": "B2", "difficulty": 2, "objectiveId": "pn-details", "targets": ["I'm afraid that's not something we can do."], "audioText": "I'm afraid we can't go that low.", "acceptedAnswers": ["I'm afraid we can't go that low.", "I'm afraid we cannot go that low.", "I am afraid we can't go that low."] }
+  ]
+}

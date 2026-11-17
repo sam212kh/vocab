@@ -1,0 +1,23 @@
+{
+  "id": "be-and-questions",
+  "title": "Verb To Be and Basic Questions",
+  "explanation": "Use am with I, is with he, she and it, and are with you, we and they. For a negative add not (I'm not, she isn't, they aren't). For a question, put the verb before the subject: Are you a student? Add a question word at the start: Where are you from?",
+  "explanationPersian": "با I از am، با he / she / it از is و با you / we / they از are استفاده کن. برای منفی not اضافه کن (I'm not، she isn't، they aren't). برای سؤال فعل را قبل از فاعل بگذار: Are you a student؟ کلمهٔ پرسشی را اول بیاور: Where are you from؟",
+  "examples": [
+    { "english": "I am a student.", "persian": "من دانشجو هستم." },
+    { "english": "She isn't at home.", "persian": "او خانه نیست." },
+    { "english": "Are you from Iran?", "persian": "تو اهل ایران هستی؟" },
+    { "english": "Where is the station?", "persian": "ایستگاه کجاست؟" }
+  ],
+  "exercises": [
+    { "id": "be-1", "type": "multiple-choice", "skill": "grammar", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "be-forms", "prompt": "She ___ a teacher.", "options": ["is", "am", "are", "be"], "correctIndex": 0, "explanation": "she + is", "explanationPersian": "با she از is استفاده می‌کنیم." },
+    { "id": "be-2", "type": "multiple-choice", "skill": "grammar", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "be-questions", "prompt": "___ is your name?", "options": ["What", "Where", "Who is", "How"], "correctIndex": 0, "explanation": "What is your name?", "explanationPersian": "What is your name؟" },
+    { "id": "be-3", "type": "fill-blank", "skill": "grammar", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "be-forms", "before": "They", "after": "from Italy.", "acceptedAnswers": ["are", "aren't"], "hint": "The form for they.", "hintPersian": "شکل مربوط به they.", "commonErrors": [{"match": "^(is|am)$", "feedback": "With 'they' use 'are'.", "feedbackPersian": "با they از are استفاده کن."}], "explanation": "they + are", "explanationPersian": "با they از are استفاده می‌کنیم." },
+    { "id": "be-4", "type": "fill-blank", "skill": "grammar", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "be-questions", "before": "", "after": "you from Iran?", "acceptedAnswers": ["Are"], "hint": "Start with A.", "hintPersian": "با A شروع کن.", "explanation": "Question: Are + you …?", "explanationPersian": "سؤال: Are + you …؟" },
+    { "id": "be-5", "type": "grammar-correction", "skill": "grammar", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "be-forms", "incorrectSentence": "He are my brother.", "acceptedAnswers": ["He is my brother.", "He's my brother."], "commonErrors": [{"match": "he are", "feedback": "With 'he' use 'is'.", "feedbackPersian": "با he از is استفاده کن."}], "explanation": "he + is", "explanationPersian": "با he از is استفاده می‌کنیم." },
+    { "id": "be-6", "type": "short-answer", "skill": "grammar", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "be-questions", "prompt": "Make this a question: \"You are a student.\"", "acceptedAnswers": ["Are you a student?"], "explanation": "Put the verb first: Are you …?", "explanationPersian": "فعل را اول بگذار: Are you …؟" },
+    { "id": "be-7", "type": "translation", "skill": "grammar", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "be-forms", "source": "من گرسنه نیستم.", "sourceLang": "fa", "acceptedAnswers": ["I'm not hungry.", "I am not hungry."], "commonErrors": [{"match": "^i not hungry|i amn't", "feedback": "We say: I am not / I'm not.", "feedbackPersian": "می‌گوییم I am not یا I'm not."}], "explanation": "I am not = I'm not", "explanationPersian": "I am not و I'm not هر دو درست‌اند و تفاوتی ندارند." },
+    { "id": "be-8", "type": "translation", "skill": "grammar", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "be-questions", "source": "تو اهل کجا هستی؟", "sourceLang": "fa", "acceptedAnswers": ["Where are you from?", "Where are you from"], "commonErrors": [{"match": "where you are from", "feedback": "In a question the verb comes before the subject: Where are you …?", "feedbackPersian": "در سؤال فعل قبل از فاعل می‌آید: Where are you …؟"}], "explanation": "Where + are + you from?", "explanationPersian": "Where + are + you from؟" },
+    { "id": "be-9", "type": "sentence-ordering", "skill": "grammar", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "be-questions", "segments": ["Where", "is", "the", "station?"], "explanation": "Question word + is + the + noun?", "explanationPersian": "کلمهٔ پرسشی + is + the + اسم؟" }
+  ]
+}

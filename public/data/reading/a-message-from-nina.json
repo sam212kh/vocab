@@ -1,0 +1,24 @@
+{
+  "id": "a-message-from-nina",
+  "title": "A Message from Nina",
+  "paragraphs": [
+    { "english": "Hi Sam! My name is Nina. I'm from Brazil, but I live in Berlin now.", "persian": "سلام سم! اسم من نینا است. من اهل برزیل هستم اما الان در برلین زندگی می‌کنم." },
+    { "english": "I live in a small flat with my sister. We have a kitchen, a living room and two bedrooms.", "persian": "من با خواهرم در یک آپارتمان کوچک زندگی می‌کنم. یک آشپزخانه، یک اتاق نشیمن و دو اتاق خواب داریم." },
+    { "english": "I work in a café. I start work at eight and I finish at four. I usually have lunch at twelve.", "persian": "من در یک کافه کار می‌کنم. ساعت هشت کار را شروع می‌کنم و ساعت چهار تمام می‌کنم. معمولاً ساعت دوازده ناهار می‌خورم." },
+    { "english": "On weekends I like walking in the park, and I often meet friends. Can we meet on Saturday at two o'clock? See you soon! Nina", "persian": "آخر هفته‌ها دوست دارم در پارک قدم بزنم و اغلب با دوستانم قرار می‌گذارم. می‌شود شنبه ساعت دو همدیگر را ببینیم؟ به زودی می‌بینمت! نینا" }
+  ],
+  "vocabulary": [
+    { "word": "flat", "meaning": "a home in a building with other homes", "persian": "آپارتمان" },
+    { "word": "usually", "meaning": "most days", "persian": "معمولاً" },
+    { "word": "often", "meaning": "many times", "persian": "اغلب" }
+  ],
+  "exercises": [
+    { "id": "nina-1", "type": "reading-comprehension", "skill": "reading", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "mn-gist", "comprehensionKind": "main-idea", "prompt": "Why is Nina writing to Sam?", "options": ["She wants to meet him on Saturday.", "She wants a new job.", "She wants to sell her flat.", "She wants to study English."], "correctIndex": 0, "explanation": "At the end she asks: 'Can we meet on Saturday?'", "explanationPersian": "در آخر می‌پرسد: «Can we meet on Saturday؟»" },
+    { "id": "nina-2", "type": "reading-comprehension", "skill": "reading", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "mn-details", "comprehensionKind": "specific-information", "prompt": "Where is Nina from?", "options": ["Brazil", "Berlin", "Iran", "Spain"], "correctIndex": 0, "explanation": "'I'm from Brazil, but I live in Berlin now.'", "explanationPersian": "او می‌گوید «I'm from Brazil, but I live in Berlin now»؛ یعنی اهل برزیل است و حالا در برلین زندگی می‌کند." },
+    { "id": "nina-3", "type": "reading-comprehension", "skill": "reading", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "mn-details", "comprehensionKind": "vocabulary-in-context", "prompt": "In this message, 'often' is closest in meaning to:", "options": ["many times", "never", "only once", "every minute"], "correctIndex": 0, "explanation": "often = many times", "explanationPersian": "often یعنی اغلب / بارها." },
+    { "id": "nina-4", "type": "short-answer", "skill": "reading", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "mn-details", "prompt": "What time does Nina finish work?", "acceptedAnswers": ["At four", "Four", "At 4", "4", "At four o'clock", "4 pm", "At 4 pm"], "explanation": "She finishes at four.", "explanationPersian": "ساعت چهار تمام می‌کند." },
+    { "id": "nina-5", "type": "short-answer", "skill": "reading", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "mn-details", "prompt": "Who does Nina live with?", "acceptedAnswers": ["Her sister", "With her sister", "Sister", "Nina lives with her sister", "She lives with her sister"], "explanation": "She lives with her sister.", "explanationPersian": "با خواهرش زندگی می‌کند." },
+    { "id": "nina-6", "type": "short-answer", "skill": "reading", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "mn-details", "prompt": "When does Nina want to meet Sam? (day and time)", "acceptedAnswers": ["Saturday at two", "On Saturday at two", "Saturday at 2", "Saturday at two o'clock", "On Saturday at two o'clock", "Saturday at 2 o'clock", "Saturday 2 o'clock"], "explanation": "She suggests Saturday at two o'clock.", "explanationPersian": "او شنبه ساعت دو را پیشنهاد می‌کند." },
+    { "id": "nina-7", "type": "short-answer", "skill": "reading", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "mn-gist", "prompt": "Why is Nina writing to Sam? Answer in a few words.", "acceptedAnswers": ["To meet him", "To meet on Saturday", "She wants to meet him", "To invite him", "To arrange a meeting", "She wants to meet on Saturday", "To ask him to meet", "To meet Sam"], "explanation": "At the end Nina asks: 'Can we meet on Saturday at two?'", "explanationPersian": "در پایان نینا می‌پرسد: «Can we meet on Saturday at two؟»" }
+  ]
+}

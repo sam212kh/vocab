@@ -1,0 +1,24 @@
+{
+  "id": "cancelled-flight-desk",
+  "title": "A Cancelled Flight at the Help Desk",
+  "scenario": "A passenger speaks to an airline agent because the flight has been cancelled. Listen to the whole conversation, then answer the questions.",
+  "scenarioPersian": "یک مسافر با مأمور ایرلاین صحبت می‌کند چون پروازش لغو شده است. کل مکالمه را گوش بده، بعد به سؤال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Passenger", "english": "Excuse me, my flight to Istanbul has been cancelled. What are my options?", "persian": "ببخشید، پروازم به استانبول لغو شده است. چه گزینه‌هایی دارم؟" },
+    { "speaker": "Agent", "english": "I'm very sorry. I can put you on the nine o'clock flight tomorrow morning, or I can give you a full refund.", "persian": "بسیار متأسفم. می‌توانم شما را روی پرواز ساعت ۹ فردا صبح بگذارم یا بازپرداخت کامل بدهم." },
+    { "speaker": "Passenger", "english": "I need to be in Istanbul tomorrow for a meeting. Is there anything earlier?", "persian": "فردا برای یک جلسه باید در استانبول باشم. چیز زودتری هست؟" },
+    { "speaker": "Agent", "english": "Let me check... There's a flight at six tomorrow morning, but it's almost full.", "persian": "اجازه بدهید بررسی کنم ... فردا ساعت ۶ صبح یک پرواز هست، اما تقریباً پر است." },
+    { "speaker": "Passenger", "english": "I'd appreciate it if you could book me on that one.", "persian": "ممنون می‌شوم اگر همان را برایم رزرو کنید." },
+    { "speaker": "Agent", "english": "I'll do my best. In the meantime, I can arrange a hotel for tonight, free of charge.", "persian": "تمام تلاشم را می‌کنم. در این فاصله می‌توانم برای امشب یک هتل رایگان ترتیب بدهم." },
+    { "speaker": "Passenger", "english": "That would be great. Could you let me know as soon as the booking is confirmed?", "persian": "عالی می‌شود. می‌شود به محض تأیید رزرو خبرم کنید؟" },
+    { "speaker": "Agent", "english": "Of course. I'll send you a text message within the hour.", "persian": "حتماً. ظرف یک ساعت برایتان پیامک می‌فرستم." }
+  ],
+  "exercises": [
+    { "id": "li-flight-1", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "cfd-details", "audioText": "I'm very sorry. I can put you on the nine o'clock flight tomorrow morning, or I can give you a full refund.", "prompt": "What two options does the agent offer first?", "options": ["A later flight or a refund", "A hotel or a taxi", "A free ticket or a hotel", "A new airline or a refund"], "correctIndex": 0, "explanation": "A flight at 9 tomorrow, or a full refund.", "explanationPersian": "پرواز ساعت ۹ فردا یا بازپرداخت کامل." },
+    { "id": "li-flight-2", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "cfd-details", "audioText": "Let me check... There's a flight at six tomorrow morning, but it's almost full.", "prompt": "What is the problem with the earlier flight?", "options": ["It is almost full", "It is very expensive", "It goes to another city", "It leaves tonight"], "correctIndex": 0, "explanation": "The agent says it is almost full.", "explanationPersian": "مأمور می‌گوید تقریباً پر است." },
+    { "id": "li-flight-3", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "cfd-details", "audioText": "I'll do my best. In the meantime, I can arrange a hotel for tonight, free of charge.", "prompt": "What does the agent offer for tonight?", "options": ["A free hotel", "A free dinner", "A taxi to the city", "A free ticket"], "correctIndex": 0, "explanation": "A hotel for tonight, free of charge.", "explanationPersian": "یک هتل رایگان برای امشب." },
+    { "id": "li-flight-4", "type": "short-answer", "skill": "listening", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "cfd-details", "prompt": "When will the agent send a text message?", "acceptedAnswers": ["Within the hour", "Within an hour", "In an hour", "In one hour", "Within one hour", "Within the next hour"], "explanation": "The agent says: 'within the hour'.", "explanationPersian": "مأمور می‌گوید: «within the hour»." },
+    { "id": "li-flight-5", "type": "short-answer", "skill": "listening", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "cfd-gist", "prompt": "Why does the passenger need to be in Istanbul tomorrow?", "acceptedAnswers": ["For a meeting", "He has a meeting", "She has a meeting", "Because of a meeting", "To go to a meeting", "He needs to go to a meeting", "She needs to go to a meeting"], "explanation": "The passenger says: 'for a meeting'.", "explanationPersian": "مسافر می‌گوید: «for a meeting»." },
+    { "id": "li-flight-6", "type": "dictation", "skill": "listening", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "cfd-details", "targets": ["Could you let me know...?"], "audioText": "Could you let me know as soon as the booking is confirmed?", "acceptedAnswers": ["Could you let me know as soon as the booking is confirmed?"] }
+  ]
+}

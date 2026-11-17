@@ -1,0 +1,17 @@
+{
+  "id": "numbers-times-and-dates",
+  "title": "Numbers, Times and Dates: Dictation",
+  "scenario": "Listen to each sentence and type exactly what you hear. You may write numbers as digits or as words.",
+  "scenarioPersian": "هر جمله را گوش بده و دقیقاً همان را تایپ کن. عددها را می‌توانی با رقم یا با حروف بنویسی.",
+  "lines": [],
+  "exercises": [
+    { "id": "li-num-1", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-times", "audioText": "What time is it?", "acceptedAnswers": ["What time is it?", "What time is it", "What's the time?"] },
+    { "id": "li-num-2", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-times", "audioText": "It's half past three.", "acceptedAnswers": ["It's half past three.", "It is half past three.", "It's half past three", "It's half past 3."] },
+    { "id": "li-num-3", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-times", "audioText": "The class starts at nine o'clock on Monday.", "acceptedAnswers": ["The class starts at nine o'clock on Monday.", "The class starts at 9 o'clock on Monday.", "The class starts at nine o'clock on Monday"] },
+    { "id": "li-num-4", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-times", "audioText": "The bus leaves at a quarter to eight.", "acceptedAnswers": ["The bus leaves at a quarter to eight.", "The bus leaves at a quarter to 8.", "The bus leaves at quarter to eight."] },
+    { "id": "li-num-5", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-numbers", "audioText": "My birthday is on the fifth of May.", "acceptedAnswers": ["My birthday is on the fifth of May.", "My birthday is on the 5th of May.", "My birthday is on May the fifth.", "My birthday is on May 5th."] },
+    { "id": "li-num-6", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-numbers", "audioText": "I'm twenty-five years old.", "acceptedAnswers": ["I'm twenty-five years old.", "I am twenty-five years old.", "I'm 25 years old.", "I am 25 years old.", "I'm twenty five years old."] },
+    { "id": "li-num-7", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-numbers", "audioText": "I have two brothers and one sister.", "acceptedAnswers": ["I have two brothers and one sister.", "I have 2 brothers and 1 sister.", "I've got two brothers and one sister."] },
+    { "id": "li-num-8", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "nt-numbers", "audioText": "It costs thirty euros.", "acceptedAnswers": ["It costs thirty euros.", "It costs 30 euros.", "It costs thirty euro."] }
+  ]
+}

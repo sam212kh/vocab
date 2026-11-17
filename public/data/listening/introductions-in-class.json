@@ -1,0 +1,26 @@
+{
+  "id": "introductions-in-class",
+  "title": "Introductions in an English Class",
+  "scenario": "It is the first day of an English class. The teacher talks to a new student. Listen to the whole conversation first, then answer the questions.",
+  "scenarioPersian": "روز اول کلاس انگلیسی است. معلم با یک دانشجوی جدید صحبت می‌کند. اول کل مکالمه را گوش بده، بعد به سؤال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Teacher", "english": "Good morning, everyone. Welcome to English class.", "persian": "صبح بخیر همه. به کلاس انگلیسی خوش آمدید." },
+    { "speaker": "Teacher", "english": "My name is Emma. What's your name?", "persian": "اسم من اما است. اسم تو چیست؟" },
+    { "speaker": "Ali", "english": "Hello, I'm Ali. Nice to meet you.", "persian": "سلام، من علی هستم. از آشنایی با شما خوشبختم." },
+    { "speaker": "Teacher", "english": "Nice to meet you too, Ali. Where are you from?", "persian": "من هم خوشبختم علی. اهل کجا هستی؟" },
+    { "speaker": "Ali", "english": "I'm from Iran. I live in Tehran.", "persian": "من اهل ایران هستم. در تهران زندگی می‌کنم." },
+    { "speaker": "Teacher", "english": "Great! And what do you do?", "persian": "عالی! و شغلت چیست؟" },
+    { "speaker": "Ali", "english": "I'm a nurse. I work in a hospital.", "persian": "من پرستار هستم. در بیمارستان کار می‌کنم." },
+    { "speaker": "Teacher", "english": "How do you spell your surname?", "persian": "نام خانوادگی‌ات را چطور هجی می‌کنی؟" },
+    { "speaker": "Ali", "english": "K-A-R-I-M-I. Karimi.", "persian": "ک-ا-ر-ی-م-ی. کریمی." },
+    { "speaker": "Teacher", "english": "Thank you, Ali. Please sit down.", "persian": "ممنون علی. لطفاً بنشین." }
+  ],
+  "exercises": [
+    { "id": "li-intro-1", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "ic-details", "audioText": "Hello, I'm Ali. Nice to meet you.", "prompt": "What is the student's first name?", "options": ["Ali", "Emma", "Karimi", "Tehran"], "correctIndex": 0, "explanation": "He says: 'I'm Ali.'", "explanationPersian": "او می‌گوید: «I'm Ali»." },
+    { "id": "li-intro-2", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "ic-details", "audioText": "I'm from Iran. I live in Tehran.", "prompt": "Where does Ali live?", "options": ["In Tehran", "In Iran, in a village", "In a hospital", "In Emma's house"], "correctIndex": 0, "explanation": "He says: 'I live in Tehran.'", "explanationPersian": "او می‌گوید: «I live in Tehran»." },
+    { "id": "li-intro-3", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A1", "difficulty": 1, "objectiveId": "ic-details", "audioText": "I'm a nurse. I work in a hospital.", "prompt": "What is Ali's job?", "options": ["A nurse", "A teacher", "A student", "A doctor"], "correctIndex": 0, "explanation": "He says: 'I'm a nurse.'", "explanationPersian": "او می‌گوید: «I'm a nurse»." },
+    { "id": "li-intro-4", "type": "short-answer", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "ic-details", "prompt": "What is Ali's surname? (write it)", "acceptedAnswers": ["Karimi"], "hint": "He spells it: K-A-R-I-M-I.", "hintPersian": "او آن را هجی می‌کند: K-A-R-I-M-I.", "explanation": "The surname is Karimi.", "explanationPersian": "نام خانوادگی کریمی است." },
+    { "id": "li-intro-5", "type": "short-answer", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "ic-gist", "prompt": "Where is this conversation? Answer in a few words.", "acceptedAnswers": ["In an English class", "English class", "In a class", "In a classroom", "At an English class", "In the classroom", "At school"], "commonErrors": [{"match": "hospital|airport|restaurant", "feedback": "Listen again: the teacher says 'Welcome to English class'.", "feedbackPersian": "دوباره گوش بده: معلم می‌گوید «Welcome to English class»."}], "explanation": "It is the first day of English class.", "explanationPersian": "روز اول کلاس انگلیسی است." },
+    { "id": "li-intro-6", "type": "dictation", "skill": "listening", "cefrLevel": "A1", "difficulty": 2, "objectiveId": "ic-details", "targets": ["How do you spell that?"], "audioText": "How do you spell your surname?", "acceptedAnswers": ["How do you spell your surname?", "How do you spell your surname"] }
+  ]
+}

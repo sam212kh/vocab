@@ -1,0 +1,24 @@
+{
+  "id": "street-directions",
+  "title": "Asking for Directions in the Street",
+  "scenario": "A tourist asks a passer-by for directions. Listen to the whole conversation, then answer the questions.",
+  "scenarioPersian": "یک گردشگر از یک رهگذر آدرس می‌پرسد. کل مکالمه را گوش بده، بعد به سؤال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Tourist", "english": "Excuse me, could you help me? I'm looking for the museum.", "persian": "ببخشید، می‌توانید کمکم کنید؟ دنبال موزه می‌گردم." },
+    { "speaker": "Passer-by", "english": "Of course. Go straight on for two hundred metres.", "persian": "البته. دویست متر مستقیم بروید." },
+    { "speaker": "Tourist", "english": "Is it far from here?", "persian": "از این‌جا دور است؟" },
+    { "speaker": "Passer-by", "english": "No, it's about a five-minute walk. Turn left at the traffic lights.", "persian": "نه، حدود پنج دقیقه پیاده‌روی است. سر چراغ‌راهنما به چپ بپیچید." },
+    { "speaker": "Tourist", "english": "Turn left at the traffic lights. OK.", "persian": "سر چراغ‌راهنما به چپ. باشه." },
+    { "speaker": "Passer-by", "english": "Then you'll see a bank on your right. The museum is opposite the bank.", "persian": "بعد یک بانک سمت راستتان می‌بینید. موزه روبه‌روی بانک است." },
+    { "speaker": "Tourist", "english": "Thank you very much!", "persian": "خیلی ممنون!" },
+    { "speaker": "Passer-by", "english": "You're welcome. Enjoy your visit!", "persian": "خواهش می‌کنم. از بازدیدتان لذت ببرید!" }
+  ],
+  "exercises": [
+    { "id": "li-dir-1", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "sd-details", "audioText": "Of course. Go straight on for two hundred metres.", "prompt": "How far does the tourist go straight?", "options": ["Two hundred metres", "Twelve metres", "Two kilometres", "Five minutes"], "correctIndex": 0, "explanation": "The passer-by says: 'two hundred metres'.", "explanationPersian": "رهگذر می‌گوید: «two hundred metres»." },
+    { "id": "li-dir-2", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "sd-details", "audioText": "No, it's about a five-minute walk. Turn left at the traffic lights.", "prompt": "Where does the tourist turn left?", "options": ["At the traffic lights", "At the bank", "At the park", "At the station"], "correctIndex": 0, "explanation": "Turn left at the traffic lights.", "explanationPersian": "سر چراغ‌راهنما به چپ." },
+    { "id": "li-dir-3", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "sd-details", "audioText": "Then you'll see a bank on your right. The museum is opposite the bank.", "prompt": "Where is the museum?", "options": ["Opposite the bank", "Next to the bank", "Behind the bank", "Inside the bank"], "correctIndex": 0, "explanation": "The museum is opposite the bank.", "explanationPersian": "موزه روبه‌روی بانک است." },
+    { "id": "li-dir-4", "type": "short-answer", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "sd-details", "prompt": "How long is the walk to the museum?", "acceptedAnswers": ["Five minutes", "About five minutes", "A five-minute walk", "5 minutes", "About 5 minutes"], "explanation": "It is about a five-minute walk.", "explanationPersian": "حدود پنج دقیقه پیاده‌روی است." },
+    { "id": "li-dir-5", "type": "short-answer", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "sd-gist", "prompt": "What is the tourist looking for?", "acceptedAnswers": ["The museum", "A museum", "The museum."], "explanation": "The tourist is looking for the museum.", "explanationPersian": "گردشگر دنبال موزه می‌گردد." },
+    { "id": "li-dir-6", "type": "dictation", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "sd-details", "audioText": "Is it far from here?", "acceptedAnswers": ["Is it far from here?", "Is it far from here"] }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "used-to-and-past-habits",
+  "title": "Used To: Past Habits and States",
+  "explanation": "Use used to + base verb for habits and states in the past that are not true now: I used to play football every weekend (but I don't now). The negative is didn't use to and the question is Did you use to …? Do not use used to for something that happened once.",
+  "explanationPersian": "از used to + فعل ساده برای عادت‌ها و وضعیت‌های گذشته‌ای استفاده کن که الان درست نیستند: I used to play football every weekend (اما الان نمی‌کنم). منفی‌اش didn't use to و سؤالش Did you use to …؟ است. برای اتفاقی که فقط یک‌بار افتاده used to به کار نمی‌رود.",
+  "examples": [
+    { "english": "I used to play football every weekend.", "persian": "قبلاً هر آخر هفته فوتبال بازی می‌کردم." },
+    { "english": "She used to live in Shiraz.", "persian": "او قبلاً در شیراز زندگی می‌کرد." },
+    { "english": "I didn't use to like coffee.", "persian": "قبلاً قهوه را دوست نداشتم." },
+    { "english": "Did you use to walk to school?", "persian": "قبلاً پیاده به مدرسه می‌رفتی؟" }
+  ],
+  "exercises": [
+    { "id": "ut-1", "type": "multiple-choice", "skill": "grammar", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "ut-habits", "prompt": "I ___ play football every weekend, but now I don't have time.", "options": ["used to", "use to", "am used to", "was used to"], "correctIndex": 0, "explanation": "used to + base verb", "explanationPersian": "used to + فعل ساده" },
+    { "id": "ut-2", "type": "multiple-choice", "skill": "grammar", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "ut-habits", "prompt": "Which sentence is about something that happened ONCE?", "options": ["Last year I went to Canada.", "I used to go to Canada.", "I used to going to Canada.", "I am used to Canada."], "correctIndex": 0, "explanation": "used to is for repeated habits, not a single event.", "explanationPersian": "used to برای عادت تکراری است، نه یک رویداد." },
+    { "id": "ut-3", "type": "fill-blank", "skill": "grammar", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "ut-contrast", "before": "She", "after": "to live in Shiraz, but now she lives in Tehran.", "acceptedAnswers": ["used"], "commonErrors": [{"match": "^use$", "feedback": "For the past it is 'used to' (with -d).", "feedbackPersian": "برای گذشته used to (با d) درست است."}], "explanation": "used to + base verb", "explanationPersian": "used to + فعل ساده" },
+    { "id": "ut-4", "type": "fill-blank", "skill": "grammar", "cefrLevel": "B1", "difficulty": 1, "objectiveId": "ut-habits", "before": "Did you", "after": "to play the piano?", "acceptedAnswers": ["use"], "commonErrors": [{"match": "^used$", "feedback": "After 'Did' we write 'use to'.", "feedbackPersian": "بعد از Did می‌نویسیم use to."}], "explanation": "In questions and negatives: use to (no -d).", "explanationPersian": "در سؤال و منفی: use to (بدون d)." },
+    { "id": "ut-5", "type": "grammar-correction", "skill": "grammar", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "ut-habits", "incorrectSentence": "I use to walk to school.", "acceptedAnswers": ["I used to walk to school."], "explanation": "used to (with -d)", "explanationPersian": "used to (با d)" },
+    { "id": "ut-6", "type": "grammar-correction", "skill": "grammar", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "ut-habits", "incorrectSentence": "I used to played football.", "acceptedAnswers": ["I used to play football."], "explanation": "used to + base verb", "explanationPersian": "used to + فعل ساده" },
+    { "id": "ut-7", "type": "translation", "skill": "grammar", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "ut-habits", "source": "قبلاً قهوه را دوست نداشتم.", "sourceLang": "fa", "acceptedAnswers": ["I didn't use to like coffee.", "I did not use to like coffee.", "I never used to like coffee.", "I used to hate coffee."], "commonErrors": [{"match": "didn'?t used to", "feedback": "After didn't write \"use to\" (no -d).", "feedbackPersian": "بعد از didn't بنویس use to (بدون d)."}], "explanation": "didn't use to + base verb", "explanationPersian": "didn't use to + فعل ساده" },
+    { "id": "ut-8", "type": "short-answer", "skill": "grammar", "cefrLevel": "B1", "difficulty": 2, "objectiveId": "ut-contrast", "prompt": "Now I live in Tehran. Before, I lived in Shiraz. Say the second sentence with \"used to\".", "acceptedAnswers": ["I used to live in Shiraz."], "explanation": "used to + base verb", "explanationPersian": "used to + فعل ساده" }
+  ]
+}

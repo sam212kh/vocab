@@ -1,0 +1,27 @@
+{
+  "id": "appointment-phone-call",
+  "title": "Booking an Appointment by Phone",
+  "scenario": "A patient phones a dental clinic to make an appointment. Listen to the whole call, then answer the questions.",
+  "scenarioPersian": "یک بیمار به کلینیک دندان‌پزشکی زنگ می‌زند تا وقت بگیرد. کل تماس را گوش بده، بعد به سؤال‌ها جواب بده.",
+  "lines": [
+    { "speaker": "Receptionist", "english": "Good morning, Smile Dental Clinic. How can I help you?", "persian": "صبح بخیر، کلینیک دندان‌پزشکی اسمایل. چه کمکی از من برمی‌آید؟" },
+    { "speaker": "Caller", "english": "Hello, I'd like to make an appointment, please.", "persian": "سلام، می‌خواهم وقت بگیرم." },
+    { "speaker": "Receptionist", "english": "Of course. Do you prefer the morning or the afternoon?", "persian": "البته. صبح را ترجیح می‌دهید یا بعدازظهر؟" },
+    { "speaker": "Caller", "english": "The afternoon, please. I finish work at four.", "persian": "بعدازظهر، لطفاً. ساعت چهار کارم تمام می‌شود." },
+    { "speaker": "Receptionist", "english": "I have a free time on Thursday at half past four.", "persian": "پنجشنبه ساعت چهار و نیم وقت خالی دارم." },
+    { "speaker": "Caller", "english": "I'm afraid I can't make it on Thursday. I'm working late. Do you have anything on Friday?", "persian": "متأسفانه پنجشنبه نمی‌توانم بیایم. تا دیروقت کار می‌کنم. جمعه چیزی دارید؟" },
+    { "speaker": "Receptionist", "english": "Yes, Friday at five. Is that OK for you?", "persian": "بله، جمعه ساعت پنج. برایتان خوب است؟" },
+    { "speaker": "Caller", "english": "Yes, that's perfect.", "persian": "بله، عالی است." },
+    { "speaker": "Receptionist", "english": "Can I have your name, please?", "persian": "اسمتان را بگویید، لطفاً؟" },
+    { "speaker": "Caller", "english": "It's Rezaei. R-E-Z-A-E-I.", "persian": "رضایی است. ر-ض-ا-ی-ی." },
+    { "speaker": "Receptionist", "english": "Thank you, Mr Rezaei. See you on Friday at five.", "persian": "ممنون آقای رضایی. جمعه ساعت پنج می‌بینمتان." }
+  ],
+  "exercises": [
+    { "id": "li-appt-1", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "pa-details", "audioText": "The afternoon, please. I finish work at four.", "prompt": "Why does the caller want the afternoon?", "options": ["They finish work at four", "They are tired in the morning", "The clinic is closed in the morning", "They live far away"], "correctIndex": 0, "explanation": "The caller says: 'I finish work at four.'", "explanationPersian": "تماس‌گیرنده می‌گوید: «I finish work at four»." },
+    { "id": "li-appt-2", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "pa-details", "audioText": "I'm afraid I can't make it on Thursday. I'm working late. Do you have anything on Friday?", "prompt": "Why can't the caller come on Thursday?", "options": ["They are working late", "They are ill", "They are on holiday", "The clinic is closed"], "correctIndex": 0, "explanation": "The caller says: 'I'm working late.'", "explanationPersian": "او می‌گوید: «I'm working late»." },
+    { "id": "li-appt-3", "type": "listening-comprehension", "skill": "listening", "cefrLevel": "A2", "difficulty": 1, "objectiveId": "pa-details", "audioText": "Yes, Friday at five. Is that OK for you?", "prompt": "What day and time is the appointment?", "options": ["Friday at five", "Thursday at half past four", "Friday at four", "Thursday at five"], "correctIndex": 0, "explanation": "The receptionist offers Friday at five and the caller agrees.", "explanationPersian": "منشی جمعه ساعت پنج را پیشنهاد می‌دهد و تماس‌گیرنده قبول می‌کند." },
+    { "id": "li-appt-4", "type": "short-answer", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "pa-details", "prompt": "What is the caller's surname?", "acceptedAnswers": ["Rezaei"], "explanation": "The caller spells R-E-Z-A-E-I.", "explanationPersian": "او R-E-Z-A-E-I را هجی می‌کند." },
+    { "id": "li-appt-5", "type": "short-answer", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "pa-gist", "prompt": "What is the caller doing? Answer in a few words.", "acceptedAnswers": ["Making an appointment", "He is making an appointment", "She is making an appointment", "Booking an appointment", "Making an appointment at the clinic", "Booking a dentist appointment", "Making a dentist appointment"], "explanation": "The caller wants to book an appointment.", "explanationPersian": "تماس‌گیرنده می‌خواهد وقت بگیرد." },
+    { "id": "li-appt-6", "type": "dictation", "skill": "listening", "cefrLevel": "A2", "difficulty": 2, "objectiveId": "pa-details", "audioText": "Can I have your name, please?", "acceptedAnswers": ["Can I have your name, please?", "Can I have your name please?"] }
+  ]
+}

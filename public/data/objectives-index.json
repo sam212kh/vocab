@@ -1,0 +1,2597 @@
+{
+ "version": 1,
+ "objectives": [
+  {
+   "topic": "grammar/present-simple",
+   "area": "grammar",
+   "topicTitle": "Present Simple",
+   "topicTitlePersian": "حال ساده",
+   "cefr": "A1",
+   "id": "ps-habits",
+   "text": "Use present simple for habits, routines and facts",
+   "textPersian": "حال ساده را برای عادت‌ها، روال روزانه و واقعیت‌ها به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "grammar/present-simple",
+   "area": "grammar",
+   "topicTitle": "Present Simple",
+   "topicTitlePersian": "حال ساده",
+   "cefr": "A1",
+   "id": "ps-s-ending",
+   "text": "Use the -s ending correctly with he/she/it",
+   "textPersian": "پایانهٔ s را با he/she/it درست به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/articles",
+   "area": "grammar",
+   "topicTitle": "Articles: a, an, the",
+   "topicTitlePersian": "حروف تعریف",
+   "cefr": "A1",
+   "id": "art-a-an",
+   "text": "Choose between a and an",
+   "textPersian": "بین a و an درست انتخاب کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/articles",
+   "area": "grammar",
+   "topicTitle": "Articles: a, an, the",
+   "topicTitlePersian": "حروف تعریف",
+   "cefr": "A1",
+   "id": "art-the",
+   "text": "Use the for specific things and no article for general plurals",
+   "textPersian": "the را برای چیزهای مشخص و بدون حرف تعریف را برای جمع‌های کلی به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "grammar/past-simple",
+   "area": "grammar",
+   "topicTitle": "Past Simple",
+   "topicTitlePersian": "گذشته ساده",
+   "cefr": "A2",
+   "id": "pas-forms",
+   "text": "Form regular and common irregular past forms",
+   "textPersian": "شکل گذشتهٔ فعل‌های باقاعده و بی‌قاعدهٔ رایج را بساز",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/past-simple",
+   "area": "grammar",
+   "topicTitle": "Past Simple",
+   "topicTitlePersian": "گذشته ساده",
+   "cefr": "A2",
+   "id": "pas-did",
+   "text": "Use did/didn't in questions and negatives",
+   "textPersian": "did و didn't را در سؤال و منفی به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/comparatives-superlatives",
+   "area": "grammar",
+   "topicTitle": "Comparatives and Superlatives",
+   "topicTitlePersian": "صفات تفضیلی و عالی",
+   "cefr": "A2",
+   "id": "comp-forms",
+   "text": "Form -er/-est and more/most comparisons",
+   "textPersian": "مقایسه با -er/-est و more/most را بساز",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/comparatives-superlatives",
+   "area": "grammar",
+   "topicTitle": "Comparatives and Superlatives",
+   "topicTitlePersian": "صفات تفضیلی و عالی",
+   "cefr": "A2",
+   "id": "comp-than",
+   "text": "Use than and the correctly in comparisons",
+   "textPersian": "than و the را در مقایسه درست به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "grammar/present-perfect",
+   "area": "grammar",
+   "topicTitle": "Present Perfect",
+   "topicTitlePersian": "حال کامل",
+   "cefr": "B1",
+   "id": "pp-experience",
+   "text": "Use present perfect for experiences and unfinished time",
+   "textPersian": "حال کامل را برای تجربه‌ها و زمان ناتمام به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/present-perfect",
+   "area": "grammar",
+   "topicTitle": "Present Perfect",
+   "topicTitlePersian": "حال کامل",
+   "cefr": "B1",
+   "id": "pp-vs-past",
+   "text": "Choose between present perfect and past simple",
+   "textPersian": "بین حال کامل و گذشتهٔ ساده درست انتخاب کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/first-conditional",
+   "area": "grammar",
+   "topicTitle": "First Conditional",
+   "topicTitlePersian": "شرطی نوع اول",
+   "cefr": "B1",
+   "id": "fc-form",
+   "text": "Form if + present simple, will + base verb",
+   "textPersian": "ساختار if + حال ساده، will + فعل ساده را بساز",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/first-conditional",
+   "area": "grammar",
+   "topicTitle": "First Conditional",
+   "topicTitlePersian": "شرطی نوع اول",
+   "cefr": "B1",
+   "id": "fc-future",
+   "text": "Talk about real future possibilities",
+   "textPersian": "دربارهٔ احتمال‌های واقعی آینده صحبت کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/passive-voice",
+   "area": "grammar",
+   "topicTitle": "Passive Voice",
+   "topicTitlePersian": "جمله مجهول",
+   "cefr": "B2",
+   "id": "pv-form",
+   "text": "Form passive sentences in present and past",
+   "textPersian": "جمله‌های مجهول را در حال و گذشته بساز",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 2,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/passive-voice",
+   "area": "grammar",
+   "topicTitle": "Passive Voice",
+   "topicTitlePersian": "جمله مجهول",
+   "cefr": "B2",
+   "id": "pv-when",
+   "text": "Choose passive when the agent is unknown or unimportant",
+   "textPersian": "وقتی فاعل ناشناخته یا بی‌اهمیت است مجهول را انتخاب کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "grammar/be-and-questions",
+   "area": "grammar",
+   "topicTitle": "Verb To Be and Basic Questions",
+   "topicTitlePersian": "فعل to be و سؤال‌های ساده",
+   "cefr": "A1",
+   "id": "be-forms",
+   "text": "Use am / is / are in statements and negatives",
+   "textPersian": "am / is / are را در جمله‌های مثبت و منفی به کار ببر",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/be-and-questions",
+   "area": "grammar",
+   "topicTitle": "Verb To Be and Basic Questions",
+   "topicTitlePersian": "فعل to be و سؤال‌های ساده",
+   "cefr": "A1",
+   "id": "be-questions",
+   "text": "Ask and answer simple questions with be and question words",
+   "textPersian": "با be و کلمه‌های پرسشی سؤال ساده بپرس و جواب بده",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/modal-verbs-requests-advice",
+   "area": "grammar",
+   "topicTitle": "Modal Verbs: Requests, Permission and Advice",
+   "topicTitlePersian": "افعال مُدال: درخواست، اجازه و توصیه",
+   "cefr": "A2",
+   "id": "modal-requests",
+   "text": "Make polite requests and ask for permission with can, could and would",
+   "textPersian": "با can، could و would مؤدبانه درخواست کن و اجازه بخواه",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/modal-verbs-requests-advice",
+   "area": "grammar",
+   "topicTitle": "Modal Verbs: Requests, Permission and Advice",
+   "topicTitlePersian": "افعال مُدال: درخواست، اجازه و توصیه",
+   "cefr": "A2",
+   "id": "modal-advice",
+   "text": "Give advice and say what is necessary with should, must and have to",
+   "textPersian": "با should، must و have to توصیه کن و ضرورت را بگو",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/future-forms",
+   "area": "grammar",
+   "topicTitle": "Talking About the Future: going to, Present Continuous and will",
+   "topicTitlePersian": "صحبت دربارهٔ آینده: going to، حال استمراری و will",
+   "cefr": "A2",
+   "id": "future-plans",
+   "text": "Talk about plans and arrangements with going to and the present continuous",
+   "textPersian": "با going to و حال استمراری دربارهٔ برنامه‌ها و قرارها صحبت کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/future-forms",
+   "area": "grammar",
+   "topicTitle": "Talking About the Future: going to, Present Continuous and will",
+   "topicTitlePersian": "صحبت دربارهٔ آینده: going to، حال استمراری و will",
+   "cefr": "A2",
+   "id": "future-will",
+   "text": "Make decisions, offers and predictions with will",
+   "textPersian": "با will تصمیم‌های لحظه‌ای، پیشنهاد و پیش‌بینی بگو",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/second-conditional",
+   "area": "grammar",
+   "topicTitle": "Second Conditional: Unreal and Unlikely Situations",
+   "topicTitlePersian": "شرطی نوع دوم: موقعیت‌های غیرواقعی و بعید",
+   "cefr": "B1",
+   "id": "sc-form",
+   "text": "Form if + past simple, would + base verb",
+   "textPersian": "ساختار if + گذشتهٔ ساده، would + فعل ساده را بساز",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/second-conditional",
+   "area": "grammar",
+   "topicTitle": "Second Conditional: Unreal and Unlikely Situations",
+   "topicTitlePersian": "شرطی نوع دوم: موقعیت‌های غیرواقعی و بعید",
+   "cefr": "B1",
+   "id": "sc-use",
+   "text": "Talk about unreal or unlikely situations and give advice",
+   "textPersian": "دربارهٔ موقعیت‌های غیرواقعی یا بعید صحبت کن و توصیه کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/used-to-and-past-habits",
+   "area": "grammar",
+   "topicTitle": "Used To: Past Habits and States",
+   "topicTitlePersian": "used to: عادت‌ها و وضعیت‌های گذشته",
+   "cefr": "B1",
+   "id": "ut-habits",
+   "text": "Talk about past habits and states with used to",
+   "textPersian": "دربارهٔ عادت‌ها و وضعیت‌های گذشته با used to صحبت کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "grammar/used-to-and-past-habits",
+   "area": "grammar",
+   "topicTitle": "Used To: Past Habits and States",
+   "topicTitlePersian": "used to: عادت‌ها و وضعیت‌های گذشته",
+   "cefr": "B1",
+   "id": "ut-contrast",
+   "text": "Contrast the past with the present",
+   "textPersian": "گذشته را با حال مقایسه کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "grammar/advanced-sentence-patterns",
+   "area": "grammar",
+   "topicTitle": "Advanced Sentence Patterns for Emphasis",
+   "topicTitlePersian": "الگوهای جمله‌ای پیشرفته برای تأکید",
+   "cefr": "B2",
+   "id": "asp-emphasis",
+   "text": "Add emphasis with not only … but also, so … that and such … that",
+   "textPersian": "با not only … but also، so … that و such … that تأکید اضافه کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "grammar/advanced-sentence-patterns",
+   "area": "grammar",
+   "topicTitle": "Advanced Sentence Patterns for Emphasis",
+   "topicTitlePersian": "الگوهای جمله‌ای پیشرفته برای تأکید",
+   "cefr": "B2",
+   "id": "asp-proportion",
+   "text": "Express proportional change with the more … the more …",
+   "textPersian": "با the more … the more … تغییر متناسب را بیان کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/everyday-sentences",
+   "area": "listening",
+   "topicTitle": "Everyday Sentences — Dictation",
+   "cefr": "A2",
+   "id": "es-catch",
+   "text": "Catch common everyday sentences at natural speed",
+   "textPersian": "جمله‌های رایج روزمره را با سرعت طبیعی بگیر",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "listening/everyday-sentences",
+   "area": "listening",
+   "topicTitle": "Everyday Sentences — Dictation",
+   "cefr": "A2",
+   "id": "es-write",
+   "text": "Write down exactly what you hear",
+   "textPersian": "دقیقاً آنچه می‌شنوی را بنویس",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "listening/at-the-doctor",
+   "area": "listening",
+   "topicTitle": "At the Doctor's Office",
+   "cefr": "B1",
+   "id": "doc-follow",
+   "text": "Follow a two-person conversation",
+   "textPersian": "یک مکالمهٔ دونفره را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/at-the-doctor",
+   "area": "listening",
+   "topicTitle": "At the Doctor's Office",
+   "cefr": "B1",
+   "id": "doc-details",
+   "text": "Pick out specific details from speech",
+   "textPersian": "جزئیات مشخص را از گفتار بیرون بکش",
+   "targets": [],
+   "exercises": {
+    "recognition": 4,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "listening/standup-meeting",
+   "area": "listening",
+   "topicTitle": "Daily Standup Meeting",
+   "cefr": "B2",
+   "id": "su-follow",
+   "text": "Follow a software-team standup",
+   "textPersian": "یک جلسهٔ استندآپ تیم نرم‌افزاری را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/standup-meeting",
+   "area": "listening",
+   "topicTitle": "Daily Standup Meeting",
+   "cefr": "B2",
+   "id": "su-blockers",
+   "text": "Understand workplace status updates and blockers",
+   "textPersian": "گزارش وضعیت کار و موانع را در محیط کار بفهم",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/introductions-in-class",
+   "area": "listening",
+   "topicTitle": "Introductions in an English Class",
+   "cefr": "A1",
+   "id": "ic-gist",
+   "text": "Follow a simple introduction dialogue",
+   "textPersian": "یک دیالوگ ساده معرفی را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/introductions-in-class",
+   "area": "listening",
+   "topicTitle": "Introductions in an English Class",
+   "cefr": "A1",
+   "id": "ic-details",
+   "text": "Catch names, places and jobs",
+   "textPersian": "نام‌ها، مکان‌ها و شغل‌ها را بگیر",
+   "targets": [
+    "How do you spell that?"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/numbers-times-and-dates",
+   "area": "listening",
+   "topicTitle": "Numbers, Times and Dates: Dictation",
+   "cefr": "A1",
+   "id": "nt-times",
+   "text": "Write down times and days you hear",
+   "textPersian": "ساعت‌ها و روزهایی که می‌شنوی را بنویس",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "listening/numbers-times-and-dates",
+   "area": "listening",
+   "topicTitle": "Numbers, Times and Dates: Dictation",
+   "cefr": "A1",
+   "id": "nt-numbers",
+   "text": "Write down numbers, ages and dates you hear",
+   "textPersian": "عددها، سن‌ها و تاریخ‌هایی که می‌شنوی را بنویس",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "listening/appointment-phone-call",
+   "area": "listening",
+   "topicTitle": "Booking an Appointment by Phone",
+   "cefr": "A2",
+   "id": "pa-gist",
+   "text": "Follow a phone call to book an appointment",
+   "textPersian": "یک تماس تلفنی برای گرفتن وقت را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/appointment-phone-call",
+   "area": "listening",
+   "topicTitle": "Booking an Appointment by Phone",
+   "cefr": "A2",
+   "id": "pa-details",
+   "text": "Catch days, times and names",
+   "textPersian": "روزها، ساعت‌ها و نام‌ها را بگیر",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/street-directions",
+   "area": "listening",
+   "topicTitle": "Asking for Directions in the Street",
+   "cefr": "A2",
+   "id": "sd-gist",
+   "text": "Follow simple directions",
+   "textPersian": "راهنمایی‌های ساده را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/street-directions",
+   "area": "listening",
+   "topicTitle": "Asking for Directions in the Street",
+   "cefr": "A2",
+   "id": "sd-details",
+   "text": "Catch distances, directions and landmarks",
+   "textPersian": "فاصله‌ها، جهت‌ها و نشانه‌ها را بگیر",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/cancelled-flight-desk",
+   "area": "listening",
+   "topicTitle": "A Cancelled Flight at the Help Desk",
+   "cefr": "B1",
+   "id": "cfd-gist",
+   "text": "Follow a service conversation when something goes wrong",
+   "textPersian": "مکالمهٔ خدمات را وقتی مشکلی پیش آمده دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/cancelled-flight-desk",
+   "area": "listening",
+   "topicTitle": "A Cancelled Flight at the Help Desk",
+   "cefr": "B1",
+   "id": "cfd-details",
+   "text": "Pick out options, times and conditions",
+   "textPersian": "گزینه‌ها، ساعت‌ها و شرط‌ها را بیرون بکش",
+   "targets": [
+    "Could you let me know...?"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "listening/price-negotiation",
+   "area": "listening",
+   "topicTitle": "A Price Negotiation",
+   "cefr": "B2",
+   "id": "pn-gist",
+   "text": "Follow a business negotiation",
+   "textPersian": "یک مذاکرهٔ کاری را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "listening/price-negotiation",
+   "area": "listening",
+   "topicTitle": "A Price Negotiation",
+   "cefr": "B2",
+   "id": "pn-details",
+   "text": "Catch figures, conditions and compromises",
+   "textPersian": "عددها، شرط‌ها و مصالحه‌ها را بگیر",
+   "targets": [
+    "I'm afraid that's not something we can do."
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "reading/coffee-with-a-friend",
+   "area": "reading",
+   "topicTitle": "Coffee with a Friend",
+   "cefr": "A2",
+   "id": "cf-follow",
+   "text": "Follow a simple everyday conversation",
+   "textPersian": "یک گفتگوی ساده روزمره را دنبال کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/coffee-with-a-friend",
+   "area": "reading",
+   "topicTitle": "Coffee with a Friend",
+   "cefr": "A2",
+   "id": "cf-details",
+   "text": "Find specific information in a dialogue",
+   "textPersian": "اطلاعات مشخص را در یک دیالوگ پیدا کن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "reading/remote-work",
+   "area": "reading",
+   "topicTitle": "The Rise of Remote Work",
+   "cefr": "B1",
+   "id": "rw-main",
+   "text": "Identify the main idea of a short article",
+   "textPersian": "ایدهٔ اصلی یک مقالهٔ کوتاه را تشخیص بده",
+   "targets": [],
+   "exercises": {
+    "recognition": 4,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/remote-work",
+   "area": "reading",
+   "topicTitle": "The Rise of Remote Work",
+   "cefr": "B1",
+   "id": "rw-vocab",
+   "text": "Understand vocabulary about work in context",
+   "textPersian": "واژگان مربوط به کار را در بافت بفهم",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/code-review-email",
+   "area": "reading",
+   "topicTitle": "A Code Review Request",
+   "cefr": "B2",
+   "id": "cr-read",
+   "text": "Read a professional software-team email",
+   "textPersian": "یک ایمیل حرفهٔ تیم نرم‌افزاری را بخوان",
+   "targets": [],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/code-review-email",
+   "area": "reading",
+   "topicTitle": "A Code Review Request",
+   "cefr": "B2",
+   "id": "cr-tone",
+   "text": "Infer tone and intent in workplace communication",
+   "textPersian": "لحن و قصد را در ارتباط محیط کار حدس بزن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/a-message-from-nina",
+   "area": "reading",
+   "topicTitle": "A Message from Nina",
+   "cefr": "A1",
+   "id": "mn-gist",
+   "text": "Understand a short personal message",
+   "textPersian": "یک پیام شخصی کوتاه را بفهم",
+   "targets": [],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/a-message-from-nina",
+   "area": "reading",
+   "topicTitle": "A Message from Nina",
+   "cefr": "A1",
+   "id": "mn-details",
+   "text": "Find simple facts: places, times and people",
+   "textPersian": "واقعیت‌های ساده را پیدا کن: مکان‌ها، ساعت‌ها و آدم‌ها",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "reading/a-year-abroad",
+   "area": "reading",
+   "topicTitle": "My First Year Abroad",
+   "cefr": "B1",
+   "id": "ya-main",
+   "text": "Understand the main ideas of a personal blog post",
+   "textPersian": "ایده‌های اصلی یک پست وبلاگ شخصی را بفهم",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "reading/a-year-abroad",
+   "area": "reading",
+   "topicTitle": "My First Year Abroad",
+   "cefr": "B1",
+   "id": "ya-inference",
+   "text": "Infer feelings and changes over time",
+   "textPersian": "احساسات و تغییرها در طول زمان را حدس بزن",
+   "targets": [],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/making-tea",
+   "area": "real-life",
+   "topicTitle": "Making Tea",
+   "topicTitlePersian": "چای درست کردن",
+   "cefr": "A2",
+   "id": "tea-steps",
+   "text": "Describe making tea step by step",
+   "textPersian": "مراحل درست کردن چای را قدم‌به‌قدم توصیف کن",
+   "targets": [
+    "pour the tea",
+    "put the kettle on",
+    "a teaspoon of sugar"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/making-tea",
+   "area": "real-life",
+   "topicTitle": "Making Tea",
+   "topicTitlePersian": "چای درست کردن",
+   "cefr": "A2",
+   "id": "tea-collocations",
+   "text": "Use kettle/steep/pour naturally",
+   "textPersian": "از عبارت‌های kettle، steep و pour طبیعی استفاده کن",
+   "targets": [
+    "put the kettle on",
+    "let it steep",
+    "weak tea",
+    "it's too hot to drink"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/preparing-breakfast",
+   "area": "real-life",
+   "topicTitle": "Preparing Breakfast",
+   "topicTitlePersian": "آماده کردن صبحانه",
+   "cefr": "A2",
+   "id": "breakfast-talk",
+   "text": "Talk about breakfast food and preparation",
+   "textPersian": "دربارهٔ غذاهای صبحانه و آماده‌کردنش صحبت کن",
+   "targets": [
+    "make breakfast",
+    "skip breakfast",
+    "set the table",
+    "fry an egg"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/getting-dressed",
+   "area": "real-life",
+   "topicTitle": "Getting Dressed",
+   "topicTitlePersian": "لباس پوشیدن",
+   "cefr": "A2",
+   "id": "clothes-getting-ready",
+   "text": "Describe clothes and getting ready",
+   "textPersian": "لباس‌ها و آماده‌شدن را توصیف کن",
+   "targets": [
+    "try on",
+    "it doesn't fit",
+    "put on",
+    "that suits you"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/cleaning-house",
+   "area": "real-life",
+   "topicTitle": "Cleaning the House",
+   "topicTitlePersian": "تمیز کردن خانه",
+   "cefr": "A2-B1",
+   "id": "household-chores",
+   "text": "Describe household chores naturally",
+   "textPersian": "کارهای خانه را طبیعی توصیف کن",
+   "targets": [
+    "vacuum the carpet",
+    "take out the trash",
+    "tidy up",
+    "make the bed"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/going-shopping",
+   "area": "real-life",
+   "topicTitle": "Going Shopping",
+   "topicTitlePersian": "خرید رفتن",
+   "cefr": "A2-B1",
+   "id": "grocery-shopping",
+   "text": "Shop for groceries, ask about prices",
+   "textPersian": "خرید مواد غذایی کن و قیمت بپرس",
+   "targets": [
+    "run out of",
+    "Where can I find...?",
+    "it's on sale",
+    "pick up",
+    "How much is this?"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/ordering-food",
+   "area": "real-life",
+   "topicTitle": "Ordering Food",
+   "topicTitlePersian": "سفارش غذا",
+   "cefr": "A2-B1",
+   "id": "order-food",
+   "text": "Order food and handle restaurant talk",
+   "textPersian": "غذا سفارش بده و در رستوران صحبت کن",
+   "targets": [
+    "I'll have...",
+    "on the side",
+    "This isn't what I ordered.",
+    "Could we get the bill?",
+    "What do you recommend?"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/washing-dishes",
+   "area": "real-life",
+   "topicTitle": "Washing the Dishes",
+   "topicTitlePersian": "ظرف شستن",
+   "cefr": "A2",
+   "id": "kitchen-cleanup",
+   "text": "Talk about washing up and kitchen cleanup",
+   "textPersian": "دربارهٔ ظرف‌شستن و مرتب‌کردن آشپزخانه صحبت کن",
+   "targets": [
+    "do the dishes",
+    "leave it to soak",
+    "put the dishes away",
+    "dry the dishes",
+    "the sink is full"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/getting-ready-for-work",
+   "area": "real-life",
+   "topicTitle": "Getting Ready for Work",
+   "topicTitlePersian": "آماده شدن برای سر کار",
+   "cefr": "B1",
+   "id": "morning-work-routine",
+   "text": "Describe the morning work routine",
+   "textPersian": "روال صبحِ قبل از کار را توصیف کن",
+   "targets": [
+    "the alarm goes off",
+    "I'm running late",
+    "catch the bus",
+    "the traffic is terrible",
+    "take a quick shower"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/making-phone-call",
+   "area": "real-life",
+   "topicTitle": "Making a Phone Call",
+   "topicTitlePersian": "تماس تلفنی",
+   "cefr": "B1",
+   "id": "phone-calls",
+   "text": "Start, manage and end phone calls politely",
+   "textPersian": "تماس تلفنی را مودبانه شروع کن، پیش ببر و تمام کن",
+   "targets": [
+    "speaking",
+    "leave a message",
+    "You're breaking up",
+    "call back",
+    "hold on a moment"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/daily-routine",
+   "area": "real-life",
+   "topicTitle": "Describing Your Daily Routine",
+   "topicTitlePersian": "توصیف برنامه روزانه",
+   "cefr": "B1",
+   "id": "describe-day",
+   "text": "Describe a full day naturally with sequencing words",
+   "textPersian": "یک روز کامل را با کلمه‌های ترتیب طبیعی توصیف کن",
+   "targets": [
+    "wrap up work",
+    "stay up late",
+    "by the time",
+    "wind down",
+    "first thing in the morning",
+    "after that"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/greetings-and-introductions",
+   "area": "real-life",
+   "topicTitle": "Greetings and Introductions",
+   "topicTitlePersian": "احوال‌پرسی و معرفی",
+   "cefr": "A1",
+   "id": "say-who-you-are",
+   "text": "Say your name, where you are from and what you do",
+   "textPersian": "اسم، محل زندگی و شغلت را بگو",
+   "targets": [
+    "What do you do?",
+    "My name is...",
+    "I'm from...",
+    "I live in..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/greetings-and-introductions",
+   "area": "real-life",
+   "topicTitle": "Greetings and Introductions",
+   "topicTitlePersian": "احوال‌پرسی و معرفی",
+   "cefr": "A1",
+   "id": "greet-and-ask",
+   "text": "Greet people and ask how they are",
+   "textPersian": "سلام و احوال‌پرسی کن",
+   "targets": [
+    "Nice to meet you.",
+    "I'm fine, thanks. And you?",
+    "How are you?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/greetings-and-introductions",
+   "area": "real-life",
+   "topicTitle": "Greetings and Introductions",
+   "topicTitlePersian": "احوال‌پرسی و معرفی",
+   "cefr": "A1",
+   "id": "fix-misunderstanding",
+   "text": "Ask someone to repeat or spell something",
+   "textPersian": "از کسی بخواه تکرار کند یا هجی کند",
+   "targets": [
+    "Could you repeat that, please?",
+    "How do you spell that?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/time-and-dates",
+   "area": "real-life",
+   "topicTitle": "Time, Days and Dates",
+   "topicTitlePersian": "ساعت، روزها و تاریخ",
+   "cefr": "A1",
+   "id": "tell-the-time",
+   "text": "Ask for and tell the time",
+   "textPersian": "ساعت را بپرس و بگو",
+   "targets": [
+    "It's half past three.",
+    "What time does it start?",
+    "in the morning",
+    "What time is it?",
+    "It's a quarter to nine."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/time-and-dates",
+   "area": "real-life",
+   "topicTitle": "Time, Days and Dates",
+   "topicTitlePersian": "ساعت، روزها و تاریخ",
+   "cefr": "A1",
+   "id": "days-and-dates",
+   "text": "Talk about days, dates and birthdays",
+   "textPersian": "دربارهٔ روزها، تاریخ و تولد صحبت کن",
+   "targets": [
+    "on Monday",
+    "at six o'clock",
+    "How old are you?",
+    "My birthday is on..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/time-and-dates",
+   "area": "real-life",
+   "topicTitle": "Time, Days and Dates",
+   "topicTitlePersian": "ساعت، روزها و تاریخ",
+   "cefr": "A1",
+   "id": "arrange-a-time",
+   "text": "Say when something starts and agree on a time",
+   "textPersian": "بگو چیزی کِی شروع می‌شود و دربارهٔ زمان توافق کن",
+   "targets": [
+    "at six o'clock",
+    "Can we meet at...?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/family-and-friends",
+   "area": "real-life",
+   "topicTitle": "Talking About Your Family",
+   "topicTitlePersian": "صحبت دربارهٔ خانواده",
+   "cefr": "A1",
+   "id": "describe-family",
+   "text": "Say who is in your family and how many people there are",
+   "textPersian": "بگو چه کسانی در خانواده‌ات هستند و چند نفرند",
+   "targets": [
+    "This is my...",
+    "my parents",
+    "I have two brothers."
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/family-and-friends",
+   "area": "real-life",
+   "topicTitle": "Talking About Your Family",
+   "topicTitlePersian": "صحبت دربارهٔ خانواده",
+   "cefr": "A1",
+   "id": "describe-a-person",
+   "text": "Say who someone is, how old they are and what they do",
+   "textPersian": "بگو یک نفر کیست، چند ساله است و چه کار می‌کند",
+   "targets": [
+    "He works as...",
+    "my best friend",
+    "I have two brothers."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/family-and-friends",
+   "area": "real-life",
+   "topicTitle": "Talking About Your Family",
+   "topicTitlePersian": "صحبت دربارهٔ خانواده",
+   "cefr": "A1",
+   "id": "ask-about-family",
+   "text": "Ask someone about their family",
+   "textPersian": "دربارهٔ خانوادهٔ کسی سؤال بپرس",
+   "targets": [
+    "How old is she?",
+    "Do you have any children?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/my-day",
+   "area": "real-life",
+   "topicTitle": "My Day: Simple Routines",
+   "topicTitlePersian": "یک روز من: کارهای روزمره",
+   "cefr": "A1",
+   "id": "say-your-routine",
+   "text": "Say what you usually do at different times of the day",
+   "textPersian": "بگو معمولاً در ساعت‌های مختلف روز چه می‌کنی",
+   "targets": [
+    "I usually get up at...",
+    "I go to work by bus.",
+    "I have breakfast at...",
+    "I go to bed at...",
+    "On weekends, I...",
+    "I finish work at...",
+    "I never..."
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 3,
+    "sentence": 5
+   }
+  },
+  {
+   "topic": "real-life/my-day",
+   "area": "real-life",
+   "topicTitle": "My Day: Simple Routines",
+   "topicTitlePersian": "یک روز من: کارهای روزمره",
+   "cefr": "A1",
+   "id": "ask-about-routine",
+   "text": "Ask someone about their day",
+   "textPersian": "دربارهٔ روز کسی سؤال بپرس",
+   "targets": [
+    "I start work at..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/asking-for-directions",
+   "area": "real-life",
+   "topicTitle": "Asking for Directions",
+   "topicTitlePersian": "پرسیدن آدرس",
+   "cefr": "A1",
+   "id": "ask-the-way",
+   "text": "Ask where a place is and how to get there",
+   "textPersian": "بپرس یک مکان کجاست و چطور می‌شود به آن رسید",
+   "targets": [
+    "Excuse me, where is the station?",
+    "Is it far from here?",
+    "Can you show me on the map?"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/asking-for-directions",
+   "area": "real-life",
+   "topicTitle": "Asking for Directions",
+   "topicTitlePersian": "پرسیدن آدرس",
+   "cefr": "A1",
+   "id": "follow-directions",
+   "text": "Understand simple directions",
+   "textPersian": "راهنمایی‌های ساده را بفهم",
+   "targets": [
+    "It's next to...",
+    "Go straight on.",
+    "Turn left / Turn right.",
+    "It's opposite...",
+    "at the traffic lights"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 3,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/food-and-drinks",
+   "area": "real-life",
+   "topicTitle": "Food and Drinks: Ordering Simply",
+   "topicTitlePersian": "غذا و نوشیدنی: سفارش ساده",
+   "cefr": "A1",
+   "id": "order-simply",
+   "text": "Order food and drinks politely with 'I'd like…'",
+   "textPersian": "با «I'd like…» مؤدبانه غذا و نوشیدنی سفارش بده",
+   "targets": [
+    "I'd like a coffee, please.",
+    "A glass of water, please.",
+    "Can I have the menu, please?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/food-and-drinks",
+   "area": "real-life",
+   "topicTitle": "Food and Drinks: Ordering Simply",
+   "topicTitlePersian": "غذا و نوشیدنی: سفارش ساده",
+   "cefr": "A1",
+   "id": "say-likes",
+   "text": "Say what you like, what you do not like and what you need",
+   "textPersian": "بگو چه چیزی دوست داری، چه چیزی دوست نداری و به چه چیزی نیاز داری",
+   "targets": [
+    "I like... / I don't like...",
+    "I'm vegetarian."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/food-and-drinks",
+   "area": "real-life",
+   "topicTitle": "Food and Drinks: Ordering Simply",
+   "topicTitlePersian": "غذا و نوشیدنی: سفارش ساده",
+   "cefr": "A1",
+   "id": "ask-what-is-available",
+   "text": "Ask if something is available",
+   "textPersian": "بپرس چیزی موجود است یا نه",
+   "targets": [
+    "Do you have any juice?",
+    "Is there any bread?"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 0
+   }
+  },
+  {
+   "topic": "real-life/shopping-for-clothes",
+   "area": "real-life",
+   "topicTitle": "Shopping for Clothes",
+   "topicTitlePersian": "خرید لباس",
+   "cefr": "A1",
+   "id": "ask-for-what-you-need",
+   "text": "Ask for a size, a colour or another item",
+   "textPersian": "سایز، رنگ یا یک مدل دیگر بخواه",
+   "targets": [
+    "It's too big. / It's too small.",
+    "Can I try it on?",
+    "Do you have this in blue?",
+    "Do you have a smaller size?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/shopping-for-clothes",
+   "area": "real-life",
+   "topicTitle": "Shopping for Clothes",
+   "topicTitlePersian": "خرید لباس",
+   "cefr": "A1",
+   "id": "talk-about-price",
+   "text": "Ask about the price and say if something is too expensive",
+   "textPersian": "قیمت را بپرس و بگو چیزی گران است",
+   "targets": [
+    "How much does it cost?",
+    "It's too expensive."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/shopping-for-clothes",
+   "area": "real-life",
+   "topicTitle": "Shopping for Clothes",
+   "topicTitlePersian": "خرید لباس",
+   "cefr": "A1",
+   "id": "decide-and-pay",
+   "text": "Decide, say you will take it and pay",
+   "textPersian": "تصمیم بگیر، بگو آن را می‌خری و پرداخت کن",
+   "targets": [
+    "Do you take cards?",
+    "I'll take it.",
+    "I'm just looking, thanks."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/my-home",
+   "area": "real-life",
+   "topicTitle": "My Home",
+   "topicTitlePersian": "خانهٔ من",
+   "cefr": "A1",
+   "id": "describe-your-home",
+   "text": "Say where you live and describe the rooms",
+   "textPersian": "بگو کجا زندگی می‌کنی و اتاق‌ها را توصیف کن",
+   "targets": [
+    "There is a... / There are...",
+    "on the second floor",
+    "I live in a flat.",
+    "It has a balcony."
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/my-home",
+   "area": "real-life",
+   "topicTitle": "My Home",
+   "topicTitlePersian": "خانهٔ من",
+   "cefr": "A1",
+   "id": "say-where-things-are",
+   "text": "Say where things are in a house",
+   "textPersian": "بگو وسایل کجای خانه هستند",
+   "targets": [
+    "on the table",
+    "in the fridge",
+    "next to the window",
+    "turn on / turn off the light"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 3,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/my-home",
+   "area": "real-life",
+   "topicTitle": "My Home",
+   "topicTitlePersian": "خانهٔ من",
+   "cefr": "A1",
+   "id": "ask-about-a-home",
+   "text": "Ask simple questions about a house or flat",
+   "textPersian": "دربارهٔ یک خانه یا آپارتمان سؤال‌های ساده بپرس",
+   "targets": [
+    "Is there a washing machine?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/making-an-appointment",
+   "area": "real-life",
+   "topicTitle": "Making an Appointment",
+   "topicTitlePersian": "گرفتن وقت قبلی",
+   "cefr": "A2",
+   "id": "book-a-time",
+   "text": "Ask for an appointment and agree on a day and time",
+   "textPersian": "وقت بگیر و دربارهٔ روز و ساعت توافق کن",
+   "targets": [
+    "I'd like to make an appointment.",
+    "Do you have anything available on Thursday?",
+    "What time suits you?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/making-an-appointment",
+   "area": "real-life",
+   "topicTitle": "Making an Appointment",
+   "topicTitlePersian": "گرفتن وقت قبلی",
+   "cefr": "A2",
+   "id": "change-or-cancel",
+   "text": "Change or cancel an appointment politely",
+   "textPersian": "وقت را مؤدبانه تغییر بده یا لغو کن",
+   "targets": [
+    "I'm afraid I can't make it on Monday.",
+    "I need to cancel my appointment.",
+    "Can we change it to...?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/making-an-appointment",
+   "area": "real-life",
+   "topicTitle": "Making an Appointment",
+   "topicTitlePersian": "گرفتن وقت قبلی",
+   "cefr": "A2",
+   "id": "confirm-details",
+   "text": "Give your name and check the details",
+   "textPersian": "نامت را بگو و جزئیات را تأیید کن",
+   "targets": [
+    "It's under the name...",
+    "How long will it take?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/booking-a-hotel",
+   "area": "real-life",
+   "topicTitle": "Booking a Hotel Room",
+   "topicTitlePersian": "رزرو اتاق هتل",
+   "cefr": "A2",
+   "id": "book-a-room",
+   "text": "Book a room and ask about price and breakfast",
+   "textPersian": "اتاق رزرو کن و دربارهٔ قیمت و صبحانه بپرس",
+   "targets": [
+    "I'm looking for a cheap hotel near the station.",
+    "Is breakfast included?",
+    "Do you have any rooms available?",
+    "I'd like to book a room for two nights.",
+    "How much is a double room per night?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 3,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/booking-a-hotel",
+   "area": "real-life",
+   "topicTitle": "Booking a Hotel Room",
+   "topicTitlePersian": "رزرو اتاق هتل",
+   "cefr": "A2",
+   "id": "check-in-and-ask",
+   "text": "Check in and ask about the hotel",
+   "textPersian": "پذیرش انجام بده و دربارهٔ هتل بپرس",
+   "targets": [
+    "I have a reservation under the name...",
+    "Could you call a taxi for me?",
+    "Is there Wi-Fi in the room?",
+    "What time is check-out?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/booking-a-hotel",
+   "area": "real-life",
+   "topicTitle": "Booking a Hotel Room",
+   "topicTitlePersian": "رزرو اتاق هتل",
+   "cefr": "A2",
+   "id": "report-a-problem",
+   "text": "Report a problem with the room politely",
+   "textPersian": "مشکل اتاق را مؤدبانه اعلام کن",
+   "targets": [
+    "The air conditioning doesn't work.",
+    "Could I have a quieter room, please?"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/at-the-pharmacy",
+   "area": "real-life",
+   "topicTitle": "At the Pharmacy: Health Problems",
+   "topicTitlePersian": "در داروخانه: مشکلات سلامتی",
+   "cefr": "A2",
+   "id": "describe-symptoms",
+   "text": "Say what is wrong and how long you have felt like this",
+   "textPersian": "بگو چه مشکلی داری و از کِی",
+   "targets": [
+    "I've got a headache.",
+    "I've had a cough for three days."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/at-the-pharmacy",
+   "area": "real-life",
+   "topicTitle": "At the Pharmacy: Health Problems",
+   "topicTitlePersian": "در داروخانه: مشکلات سلامتی",
+   "cefr": "A2",
+   "id": "ask-for-medicine",
+   "text": "Ask for medicine and understand how to take it",
+   "textPersian": "دارو بخواه و طرز مصرف را بفهم",
+   "targets": [
+    "Take two tablets three times a day.",
+    "Do you have anything for a sore throat?",
+    "How often should I take it?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/at-the-pharmacy",
+   "area": "real-life",
+   "topicTitle": "At the Pharmacy: Health Problems",
+   "topicTitlePersian": "در داروخانه: مشکلات سلامتی",
+   "cefr": "A2",
+   "id": "understand-advice",
+   "text": "Understand simple health advice",
+   "textPersian": "توصیه‌های ساده سلامتی را بفهم",
+   "targets": [
+    "You should rest and drink plenty of water.",
+    "I need to see a doctor."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/talking-about-last-weekend",
+   "area": "real-life",
+   "topicTitle": "Talking About Last Weekend",
+   "topicTitlePersian": "صحبت دربارهٔ آخر هفتهٔ گذشته",
+   "cefr": "A2",
+   "id": "say-what-you-did",
+   "text": "Say what you did at the weekend",
+   "textPersian": "بگو آخر هفته چه کردی",
+   "targets": [
+    "I went to...",
+    "I didn't do much.",
+    "We met some friends for lunch.",
+    "I stayed at home."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 5
+   }
+  },
+  {
+   "topic": "real-life/talking-about-last-weekend",
+   "area": "real-life",
+   "topicTitle": "Talking About Last Weekend",
+   "topicTitlePersian": "صحبت دربارهٔ آخر هفتهٔ گذشته",
+   "cefr": "A2",
+   "id": "say-how-it-was",
+   "text": "Say how something was and whether you enjoyed it",
+   "textPersian": "بگو چیزی چطور بود و از آن لذت بردی یا نه",
+   "targets": [
+    "It was a bit boring.",
+    "I had a really good time."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 0
+   }
+  },
+  {
+   "topic": "real-life/talking-about-last-weekend",
+   "area": "real-life",
+   "topicTitle": "Talking About Last Weekend",
+   "topicTitlePersian": "صحبت دربارهٔ آخر هفتهٔ گذشته",
+   "cefr": "A2",
+   "id": "ask-about-past",
+   "text": "Ask someone about their weekend",
+   "textPersian": "دربارهٔ آخر هفتهٔ کسی سؤال بپرس",
+   "targets": [
+    "What did you do at the weekend?",
+    "How was your trip?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/making-plans",
+   "area": "real-life",
+   "topicTitle": "Making Plans with Friends",
+   "topicTitlePersian": "برنامه‌ریزی با دوستان",
+   "cefr": "A2",
+   "id": "suggest-a-plan",
+   "text": "Suggest an activity and a time",
+   "textPersian": "یک فعالیت و زمان پیشنهاد بده",
+   "targets": [
+    "Why don't we go to the cinema?",
+    "Shall we meet at six?",
+    "How about Sunday?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/making-plans",
+   "area": "real-life",
+   "topicTitle": "Making Plans with Friends",
+   "topicTitlePersian": "برنامه‌ریزی با دوستان",
+   "cefr": "A2",
+   "id": "accept-or-decline",
+   "text": "Accept or politely say no to a plan",
+   "textPersian": "یک برنامه را بپذیر یا مؤدبانه رد کن",
+   "targets": [
+    "I'd love to, but I can't.",
+    "Maybe another time.",
+    "I'm afraid I can't. I have to work."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/making-plans",
+   "area": "real-life",
+   "topicTitle": "Making Plans with Friends",
+   "topicTitlePersian": "برنامه‌ریزی با دوستان",
+   "cefr": "A2",
+   "id": "talk-about-plans",
+   "text": "Say what you are going to do",
+   "textPersian": "بگو قصد داری چه کار کنی",
+   "targets": [
+    "I'm going to visit my parents.",
+    "I'm planning to..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/something-is-wrong",
+   "area": "real-life",
+   "topicTitle": "Explaining a Problem and Asking for Help",
+   "topicTitlePersian": "توضیح مشکل و کمک خواستن",
+   "cefr": "A2",
+   "id": "explain-the-problem",
+   "text": "Say clearly what the problem is",
+   "textPersian": "مشکل را روشن بیان کن",
+   "targets": [
+    "It doesn't work.",
+    "I've lost my wallet."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/something-is-wrong",
+   "area": "real-life",
+   "topicTitle": "Explaining a Problem and Asking for Help",
+   "topicTitlePersian": "توضیح مشکل و کمک خواستن",
+   "cefr": "A2",
+   "id": "ask-for-help-politely",
+   "text": "Ask someone for help and understand their answer",
+   "textPersian": "مؤدبانه کمک بخواه و جواب را بفهم",
+   "targets": [
+    "Could you help me, please?",
+    "Who can I talk to?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/something-is-wrong",
+   "area": "real-life",
+   "topicTitle": "Explaining a Problem and Asking for Help",
+   "topicTitlePersian": "توضیح مشکل و کمک خواستن",
+   "cefr": "A2",
+   "id": "report-lost-or-broken",
+   "text": "Report something lost or broken",
+   "textPersian": "گم‌شدن یا خراب‌شدن چیزی را اعلام کن",
+   "targets": [
+    "I can't find my keys.",
+    "I've lost my wallet.",
+    "I need to report..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/small-talk-and-opinions",
+   "area": "real-life",
+   "topicTitle": "Small Talk and Simple Opinions",
+   "topicTitlePersian": "گپ دوستانه و نظرهای ساده",
+   "cefr": "A2",
+   "id": "start-small-talk",
+   "text": "Start and keep a friendly conversation going",
+   "textPersian": "یک گفتگوی دوستانه را شروع کن و ادامه بده",
+   "targets": [
+    "What do you like doing in your free time?",
+    "How about you?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/small-talk-and-opinions",
+   "area": "real-life",
+   "topicTitle": "Small Talk and Simple Opinions",
+   "topicTitlePersian": "گپ دوستانه و نظرهای ساده",
+   "cefr": "A2",
+   "id": "give-simple-opinions",
+   "text": "Say what you think and what you like",
+   "textPersian": "بگو چه فکر می‌کنی و چه چیزی را دوست داری",
+   "targets": [
+    "I think it's...",
+    "I'm into...",
+    "What do you think of...?",
+    "I really like..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 3,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/small-talk-and-opinions",
+   "area": "real-life",
+   "topicTitle": "Small Talk and Simple Opinions",
+   "topicTitlePersian": "گپ دوستانه و نظرهای ساده",
+   "cefr": "A2",
+   "id": "react-to-others",
+   "text": "React to what another person says",
+   "textPersian": "به حرف طرف مقابل واکنش نشان بده",
+   "targets": [
+    "Me too.",
+    "Really? Tell me more."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/giving-opinions-and-reasons",
+   "area": "real-life",
+   "topicTitle": "Giving Opinions and Explaining Reasons",
+   "topicTitlePersian": "بیان نظر و توضیح دلیل",
+   "cefr": "B1",
+   "id": "state-an-opinion",
+   "text": "Say what you think and give a reason",
+   "textPersian": "بگو چه فکر می‌کنی و دلیلش را توضیح بده",
+   "targets": [
+    "I think... because...",
+    "That's why...",
+    "The reason is that...",
+    "In my opinion,..."
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/giving-opinions-and-reasons",
+   "area": "real-life",
+   "topicTitle": "Giving Opinions and Explaining Reasons",
+   "topicTitlePersian": "بیان نظر و توضیح دلیل",
+   "cefr": "B1",
+   "id": "give-examples",
+   "text": "Support an opinion with an example",
+   "textPersian": "نظرت را با یک مثال پشتیبانی کن",
+   "targets": [
+    "For example,..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/giving-opinions-and-reasons",
+   "area": "real-life",
+   "topicTitle": "Giving Opinions and Explaining Reasons",
+   "topicTitlePersian": "بیان نظر و توضیح دلیل",
+   "cefr": "B1",
+   "id": "express-uncertainty",
+   "text": "Say you are not sure or that it depends",
+   "textPersian": "بگو مطمئن نیستی یا بستگی دارد",
+   "targets": [
+    "It depends on...",
+    "I'm not sure whether..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/telling-a-story",
+   "area": "real-life",
+   "topicTitle": "Telling a Story About Something That Happened",
+   "topicTitlePersian": "تعریف کردن یک ماجرا",
+   "cefr": "B1",
+   "id": "structure-a-story",
+   "text": "Tell a story in order, from start to finish",
+   "textPersian": "یک ماجرا را به ترتیب از ابتدا تا انتها تعریف کن",
+   "targets": [
+    "While I was walking home,...",
+    "It all started when...",
+    "Luckily, / Unfortunately,...",
+    "In the end,..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/telling-a-story",
+   "area": "real-life",
+   "topicTitle": "Telling a Story About Something That Happened",
+   "topicTitlePersian": "تعریف کردن یک ماجرا",
+   "cefr": "B1",
+   "id": "talk-about-the-past",
+   "text": "Talk about past habits and past states",
+   "textPersian": "دربارهٔ عادت‌ها و وضعیت‌های گذشته صحبت کن",
+   "targets": [
+    "I used to..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/telling-a-story",
+   "area": "real-life",
+   "topicTitle": "Telling a Story About Something That Happened",
+   "topicTitlePersian": "تعریف کردن یک ماجرا",
+   "cefr": "B1",
+   "id": "react-to-a-story",
+   "text": "React to someone else's story",
+   "textPersian": "به ماجرای دیگران واکنش نشان بده",
+   "targets": [
+    "I couldn't believe it."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/unexpected-situations",
+   "area": "real-life",
+   "topicTitle": "Handling Unexpected Situations",
+   "topicTitlePersian": "مواجهه با موقعیت‌های غیرمنتظره",
+   "cefr": "B1",
+   "id": "explain-what-happened",
+   "text": "Explain what has happened and what you expected",
+   "textPersian": "توضیح بده چه اتفاقی افتاده و چه انتظاری داشتی",
+   "targets": [
+    "My flight has been cancelled.",
+    "I've been trying to...",
+    "I'm afraid there's been a mistake."
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/unexpected-situations",
+   "area": "real-life",
+   "topicTitle": "Handling Unexpected Situations",
+   "topicTitlePersian": "مواجهه با موقعیت‌های غیرمنتظره",
+   "cefr": "B1",
+   "id": "ask-for-options",
+   "text": "Ask what your options are and make a polite request",
+   "textPersian": "بپرس چه گزینه‌هایی داری و مؤدبانه درخواست کن",
+   "targets": [
+    "Is it possible to...?",
+    "I'd appreciate it if you could...",
+    "What are my options?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 2,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/unexpected-situations",
+   "area": "real-life",
+   "topicTitle": "Handling Unexpected Situations",
+   "topicTitlePersian": "مواجهه با موقعیت‌های غیرمنتظره",
+   "cefr": "B1",
+   "id": "stay-calm-and-clear",
+   "text": "Stay polite and clear when things go wrong",
+   "textPersian": "وقتی کارها خراب می‌شود مؤدب و روشن بمان",
+   "targets": [
+    "Would it be possible to speak to a manager?"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/workplace-requests",
+   "area": "real-life",
+   "topicTitle": "Polite Requests and Promises at Work",
+   "topicTitlePersian": "درخواست و قول مؤدبانه در محیط کار",
+   "cefr": "B1",
+   "id": "make-polite-requests",
+   "text": "Ask colleagues for things politely and indirectly",
+   "textPersian": "مؤدبانه و غیرمستقیم از همکاران چیزی بخواه",
+   "targets": [
+    "Would you mind sending me the file?",
+    "Would you mind if I opened the window?"
+   ],
+   "exercises": {
+    "recognition": 2,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/workplace-requests",
+   "area": "real-life",
+   "topicTitle": "Polite Requests and Promises at Work",
+   "topicTitlePersian": "درخواست و قول مؤدبانه در محیط کار",
+   "cefr": "B1",
+   "id": "manage-deadlines",
+   "text": "Say what you can and cannot do by a deadline",
+   "textPersian": "بگو تا یک موعد چه کاری می‌توانی انجام بدهی و چه کاری نه",
+   "targets": [
+    "I'm not sure whether I can finish it by Monday.",
+    "I'm afraid I won't be able to...",
+    "I'll get back to you by Friday."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/workplace-requests",
+   "area": "real-life",
+   "topicTitle": "Polite Requests and Promises at Work",
+   "topicTitlePersian": "درخواست و قول مؤدبانه در محیط کار",
+   "cefr": "B1",
+   "id": "follow-up",
+   "text": "Promise to follow up and confirm what you understood",
+   "textPersian": "قول پیگیری بده و آنچه فهمیدی را تأیید کن",
+   "targets": [
+    "I'll get back to you by Friday.",
+    "Let me check and get back to you."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/goals-and-advice",
+   "area": "real-life",
+   "topicTitle": "Talking About Goals and Giving Advice",
+   "topicTitlePersian": "صحبت دربارهٔ هدف‌ها و توصیه کردن",
+   "cefr": "B1",
+   "id": "describe-your-goals",
+   "text": "Say what you are working towards and why",
+   "textPersian": "بگو به چه چیزی می‌رسی و چرا",
+   "targets": [
+    "My goal is to...",
+    "I've been working on...",
+    "I want to get better at..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/goals-and-advice",
+   "area": "real-life",
+   "topicTitle": "Talking About Goals and Giving Advice",
+   "topicTitlePersian": "صحبت دربارهٔ هدف‌ها و توصیه کردن",
+   "cefr": "B1",
+   "id": "give-advice",
+   "text": "Give friendly advice in different ways",
+   "textPersian": "به شکل‌های مختلف توصیهٔ دوستانه بده",
+   "targets": [
+    "If I were you, I'd...",
+    "I'd recommend...",
+    "You should..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/goals-and-advice",
+   "area": "real-life",
+   "topicTitle": "Talking About Goals and Giving Advice",
+   "topicTitlePersian": "صحبت دربارهٔ هدف‌ها و توصیه کردن",
+   "cefr": "B1",
+   "id": "respond-to-advice",
+   "text": "Respond to advice politely",
+   "textPersian": "مؤدبانه به توصیه پاسخ بده",
+   "targets": [
+    "I'll think about it.",
+    "That's good advice."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/comparing-alternatives",
+   "area": "real-life",
+   "topicTitle": "Comparing Options and Choosing",
+   "topicTitlePersian": "مقایسهٔ گزینه‌ها و انتخاب",
+   "cefr": "B1",
+   "id": "compare-two-options",
+   "text": "Compare two things with their advantages and disadvantages",
+   "textPersian": "دو چیز را با مزایا و معایب‌شان مقایسه کن",
+   "targets": [
+    "It's cheaper, but it's slower.",
+    "The main difference is...",
+    "It's not as ... as..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/comparing-alternatives",
+   "area": "real-life",
+   "topicTitle": "Comparing Options and Choosing",
+   "topicTitlePersian": "مقایسهٔ گزینه‌ها و انتخاب",
+   "cefr": "B1",
+   "id": "explain-a-choice",
+   "text": "Explain why you choose one thing",
+   "textPersian": "توضیح بده چرا یکی را انتخاب می‌کنی",
+   "targets": [
+    "I prefer... to...",
+    "I'd rather...",
+    "It's worth it."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/comparing-alternatives",
+   "area": "real-life",
+   "topicTitle": "Comparing Options and Choosing",
+   "topicTitlePersian": "مقایسهٔ گزینه‌ها و انتخاب",
+   "cefr": "B1",
+   "id": "ask-for-a-recommendation",
+   "text": "Ask for and give recommendations",
+   "textPersian": "توصیه بخواه و توصیه بده",
+   "targets": [
+    "Which one would you recommend?",
+    "I'm looking for something..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/disagreeing-politely",
+   "area": "real-life",
+   "topicTitle": "Disagreeing and Clarifying Politely",
+   "topicTitlePersian": "مخالفت و روشن‌سازی مؤدبانه",
+   "cefr": "B2",
+   "id": "disagree-diplomatically",
+   "text": "Disagree without sounding rude",
+   "textPersian": "بدون بی‌ادبی مخالفت کن",
+   "targets": [
+    "I see your point, but...",
+    "I'm not convinced that...",
+    "I'm afraid I don't agree."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 3
+   }
+  },
+  {
+   "topic": "real-life/disagreeing-politely",
+   "area": "real-life",
+   "topicTitle": "Disagreeing and Clarifying Politely",
+   "topicTitlePersian": "مخالفت و روشن‌سازی مؤدبانه",
+   "cefr": "B2",
+   "id": "clarify-meaning",
+   "text": "Check that you have understood and ask for clarification",
+   "textPersian": "بررسی کن درست فهمیده‌ای و توضیح بخواه",
+   "targets": [
+    "If I understand you correctly,...",
+    "Could you clarify what you mean by...?"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/disagreeing-politely",
+   "area": "real-life",
+   "topicTitle": "Disagreeing and Clarifying Politely",
+   "topicTitlePersian": "مخالفت و روشن‌سازی مؤدبانه",
+   "cefr": "B2",
+   "id": "manage-a-discussion",
+   "text": "Take your turn and keep a discussion under control",
+   "textPersian": "نوبتت را بگیر و بحث را مدیریت کن",
+   "targets": [
+    "Let's agree to disagree.",
+    "I'd like to add something."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/negotiating",
+   "area": "real-life",
+   "topicTitle": "Negotiating a Deal",
+   "topicTitlePersian": "مذاکره و رسیدن به توافق",
+   "cefr": "B2",
+   "id": "make-offers",
+   "text": "Make an offer and state your conditions",
+   "textPersian": "پیشنهاد بده و شرایطت را بگو",
+   "targets": [
+    "We can offer... provided that...",
+    "We'd be willing to...",
+    "What if we...?",
+    "as long as"
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/negotiating",
+   "area": "real-life",
+   "topicTitle": "Negotiating a Deal",
+   "topicTitlePersian": "مذاکره و رسیدن به توافق",
+   "cefr": "B2",
+   "id": "respond-to-offers",
+   "text": "Respond to an offer: accept, refuse or counter",
+   "textPersian": "به یک پیشنهاد پاسخ بده: بپذیر، رد کن یا پیشنهاد متقابل بده",
+   "targets": [
+    "Could you meet us halfway?",
+    "We can offer... provided that..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/negotiating",
+   "area": "real-life",
+   "topicTitle": "Negotiating a Deal",
+   "topicTitlePersian": "مذاکره و رسیدن به توافق",
+   "cefr": "B2",
+   "id": "close-the-deal",
+   "text": "Reach and confirm an agreement",
+   "textPersian": "به توافق برس و آن را تأیید کن",
+   "targets": [
+    "Let's find a middle ground.",
+    "It's a deal."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/presenting-your-ideas",
+   "area": "real-life",
+   "topicTitle": "Presenting Your Ideas",
+   "topicTitlePersian": "ارائهٔ ایده‌ها",
+   "cefr": "B2",
+   "id": "structure-a-presentation",
+   "text": "Open, signpost and close a short presentation",
+   "textPersian": "یک ارائهٔ کوتاه را شروع کن، مسیرش را نشان بده و تمامش کن",
+   "targets": [
+    "To sum up,...",
+    "Let me start by...",
+    "This brings me to..."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 2,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/presenting-your-ideas",
+   "area": "real-life",
+   "topicTitle": "Presenting Your Ideas",
+   "topicTitlePersian": "ارائهٔ ایده‌ها",
+   "cefr": "B2",
+   "id": "refer-to-visuals",
+   "text": "Refer to slides, charts and key points",
+   "textPersian": "به اسلایدها، نمودارها و نکات کلیدی ارجاع بده",
+   "targets": [
+    "As you can see on this slide,...",
+    "The key point is...",
+    "Moving on to..."
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 1,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/presenting-your-ideas",
+   "area": "real-life",
+   "topicTitle": "Presenting Your Ideas",
+   "topicTitlePersian": "ارائهٔ ایده‌ها",
+   "cefr": "B2",
+   "id": "handle-questions",
+   "text": "Handle questions from the audience",
+   "textPersian": "به سؤال‌های حضار پاسخ بده",
+   "targets": [
+    "I'll come back to that later."
+   ],
+   "exercises": {
+    "recognition": 1,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/natural-collocations",
+   "area": "real-life",
+   "topicTitle": "Natural Collocations",
+   "topicTitlePersian": "هم‌نشینی‌های طبیعی واژه‌ها",
+   "cefr": "B2",
+   "id": "use-verb-noun-collocations",
+   "text": "Choose the verb that natural English uses with a noun",
+   "textPersian": "فعلی را انتخاب کن که انگلیسی طبیعی با یک اسم به کار می‌برد",
+   "targets": [
+    "make a decision",
+    "heavy traffic",
+    "meet a deadline",
+    "take a risk",
+    "reach an agreement",
+    "make progress"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 3,
+    "sentence": 2
+   }
+  },
+  {
+   "topic": "real-life/natural-collocations",
+   "area": "real-life",
+   "topicTitle": "Natural Collocations",
+   "topicTitlePersian": "هم‌نشینی‌های طبیعی واژه‌ها",
+   "cefr": "B2",
+   "id": "use-collocations-in-sentences",
+   "text": "Use collocations in your own sentences at work and in life",
+   "textPersian": "هم‌نشینی‌ها را در جمله‌های خودت در کار و زندگی به کار ببر",
+   "targets": [
+    "make a decision",
+    "reach an agreement",
+    "have an impact on",
+    "break a habit"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 0,
+    "sentence": 4
+   }
+  },
+  {
+   "topic": "real-life/phrasal-verbs-in-context",
+   "area": "real-life",
+   "topicTitle": "Phrasal Verbs in Context",
+   "topicTitlePersian": "افعال عبارتی در بافت",
+   "cefr": "B2",
+   "id": "understand-phrasal-verbs",
+   "text": "Understand common phrasal verbs from context",
+   "textPersian": "افعال عبارتی رایج را از بافت بفهم",
+   "targets": [
+    "put off",
+    "turn down",
+    "look into",
+    "bring up"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/phrasal-verbs-in-context",
+   "area": "real-life",
+   "topicTitle": "Phrasal Verbs in Context",
+   "topicTitlePersian": "افعال عبارتی در بافت",
+   "cefr": "B2",
+   "id": "use-phrasal-verbs",
+   "text": "Use phrasal verbs correctly in your own sentences",
+   "textPersian": "افعال عبارتی را در جمله‌های خودت درست به کار ببر",
+   "targets": [
+    "come up with",
+    "find out",
+    "give up",
+    "put off",
+    "look into",
+    "turn down"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 3,
+    "sentence": 5
+   }
+  },
+  {
+   "topic": "real-life/idioms-for-everyday-talk",
+   "area": "real-life",
+   "topicTitle": "Idioms for Everyday Talk",
+   "topicTitlePersian": "اصطلاح‌های روزمره",
+   "cefr": "B2",
+   "id": "understand-common-idioms",
+   "text": "Understand common idioms from the situation",
+   "textPersian": "اصطلاح‌های رایج را از موقعیت بفهم",
+   "targets": [
+    "It's a piece of cake.",
+    "be on the same page",
+    "cost an arm and a leg",
+    "get the hang of it"
+   ],
+   "exercises": {
+    "recognition": 3,
+    "recall": 0,
+    "sentence": 1
+   }
+  },
+  {
+   "topic": "real-life/idioms-for-everyday-talk",
+   "area": "real-life",
+   "topicTitle": "Idioms for Everyday Talk",
+   "topicTitlePersian": "اصطلاح‌های روزمره",
+   "cefr": "B2",
+   "id": "use-idioms-naturally",
+   "text": "Use an idiom naturally and not too often",
+   "textPersian": "یک اصطلاح را طبیعی و نه زیاد به کار ببر",
+   "targets": [
+    "call it a day",
+    "break the ice",
+    "The ball is in your court.",
+    "It's a piece of cake.",
+    "hit the nail on the head",
+    "under the weather"
+   ],
+   "exercises": {
+    "recognition": 0,
+    "recall": 3,
+    "sentence": 5
+   }
+  }
+ ]
+}

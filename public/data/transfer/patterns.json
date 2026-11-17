@@ -1,0 +1,1863 @@
+{
+ "version": 1,
+ "patterns": [
+  {
+   "id": "polite-request",
+   "title": "Polite requests",
+   "titlePersian": "درخواست مودبانه",
+   "frame": "Could I have … / I'd like … / I'll have …",
+   "matches": [
+    "\\b(could|can) (i|we) (have|get)\\b",
+    "\\bi'?d like\\b",
+    "\\bi'?ll have\\b"
+   ],
+   "contexts": [
+    {
+     "id": "cafe-water",
+     "level": 1,
+     "situation": "You are in a café and you are thirsty.",
+     "situationPersian": "در یک کافه هستی و تشنه‌ای.",
+     "goal": "Ask politely for a glass of water.",
+     "goalPersian": "مودبانه یک لیوان آب بخواه.",
+     "targetPhrases": [
+      "could i",
+      "i'd like"
+     ],
+     "references": [
+      "Could I have a glass of water, please?",
+      "Can I get a glass of water, please?",
+      "I'd like a glass of water, please."
+     ],
+     "feedback": "'Could I have …?' is polite because it asks instead of telling.",
+     "feedbackPersian": "Could I have …؟ مؤدبانه است چون می‌پرسد، نه دستور می‌دهد."
+    },
+    {
+     "id": "bakery-croissants",
+     "level": 1,
+     "situation": "You are in a bakery and you want something for breakfast.",
+     "situationPersian": "در نانوایی هستی و برای صبحانه چیزی می‌خواهی.",
+     "goal": "Order two croissants.",
+     "goalPersian": "دو کروسان سفارش بده.",
+     "targetPhrases": [
+      "i'll have",
+      "could i"
+     ],
+     "references": [
+      "I'll have two croissants, please.",
+      "Could I have two croissants, please?",
+      "I'd like two croissants, please."
+     ],
+     "feedback": "'I'll have …' is the natural way to order when you have decided.",
+     "feedbackPersian": "I'll have … روش طبیعی سفارش دادن است وقتی تصمیم گرفته‌ای."
+    },
+    {
+     "id": "hotel-quiet-room",
+     "level": 2,
+     "situation": "You are at a hotel reception. Your room is very noisy at night.",
+     "situationPersian": "در پذیرش یک هتل هستی. اتاقت شب‌ها خیلی شلوغ و پرسروصداست.",
+     "goal": "Ask for a quieter room.",
+     "goalPersian": "یک اتاق ساکت‌تر بخواه.",
+     "targetPhrases": [
+      "could i",
+      "i'd like"
+     ],
+     "references": [
+      "Could I have a quieter room, please?",
+      "I'd like to move to a quieter room, please.",
+      "Can I get a different room? This one is very noisy."
+     ],
+     "feedback": "With a problem, stay polite: 'Could I have a quieter room?' is better than 'Give me another room.'",
+     "feedbackPersian": "وقتی مشکلی هست هم مؤدب بمان: Could I have a quieter room؟ بهتر از Give me another room است."
+    },
+    {
+     "id": "pharmacy-headache",
+     "level": 2,
+     "situation": "You are in a pharmacy. You have had a headache all day.",
+     "situationPersian": "در یک داروخانه هستی. از صبح سردرد داری.",
+     "goal": "Ask for something for your headache.",
+     "goalPersian": "برای سردردت چیزی بخواه.",
+     "targetPhrases": [
+      "could i",
+      "i'd like"
+     ],
+     "references": [
+      "Could I have something for a headache, please?",
+      "I'd like some tablets for a headache, please.",
+      "Can I get something for my headache?"
+     ],
+     "feedback": "Say what you need after 'Could I have': something for a headache.",
+     "feedbackPersian": "بعد از Could I have بگو چه می‌خواهی: چیزی برای سردرد."
+    },
+    {
+     "id": "own-place",
+     "level": 3,
+     "situation": "Think of a place you really go to: a shop, an office, a clinic or a school.",
+     "situationPersian": "به جایی فکر کن که واقعاً به آن می‌روی: مغازه، اداره، کلینیک یا مدرسه.",
+     "goal": "Write a polite request you could really make there.",
+     "goalPersian": "درخواستی مودبانه بنویس که واقعاً می‌توانی آنجا بکنی.",
+     "targetPhrases": [
+      "could i",
+      "i'd like",
+      "can i get"
+     ],
+     "references": [
+      "Could I have an appointment for next week, please?",
+      "I'd like to change my seat, please."
+     ],
+     "open": true,
+     "feedback": "Use the same pattern for a real request. Add 'please' and one clear detail.",
+     "feedbackPersian": "همین الگو را برای یک درخواست واقعی به کار ببر. please و یک جزئیات روشن اضافه کن."
+    }
+   ],
+   "cefrLevel": "A1",
+   "explanation": "Use Could I have …? / I'd like … / I'll have … to ask for things politely. 'I want' is correct but sounds direct. Add 'please' and keep the sentence short.",
+   "explanationPersian": "برای درخواست مؤدبانه از Could I have …؟ / I'd like … / I'll have … استفاده کن. «I want» درست است اما تند به نظر می‌رسد. please اضافه کن و جمله را کوتاه نگه دار.",
+   "example": "Could I have a glass of water, please?",
+   "examplePersian": "می‌توانم یک لیوان آب داشته باشم؟"
+  },
+  {
+   "id": "ask-for-help",
+   "title": "Asking for help",
+   "titlePersian": "کمک خواستن",
+   "frame": "Can you … ? / Could you … , please?",
+   "matches": [
+    "\\b(can|could|would) you\\b"
+   ],
+   "contexts": [
+    {
+     "id": "class-word",
+     "level": 1,
+     "situation": "You are in class and you do not understand a word.",
+     "situationPersian": "در کلاس هستی و معنی یک کلمه را نمی‌فهمی.",
+     "goal": "Ask your teacher to help you.",
+     "goalPersian": "از معلمت بخواه کمکت کند.",
+     "targetPhrases": [
+      "could you",
+      "can you"
+     ],
+     "references": [
+      "Could you explain this word, please?",
+      "Can you help me with this word?",
+      "Could you say that again, please?"
+     ],
+     "feedback": "A teacher expects a polite request: 'Could you explain this word, please?'",
+     "feedbackPersian": "معلم یک درخواست مؤدبانه انتظار دارد: Could you explain this word, please؟"
+    },
+    {
+     "id": "street-station",
+     "level": 1,
+     "situation": "You are lost in a new city and you need the railway station.",
+     "situationPersian": "در یک شهر جدید گم شده‌ای و ایستگاه قطار را می‌خواهی.",
+     "goal": "Ask a stranger to show you the way.",
+     "goalPersian": "از یک غریبه بخواه راه را نشانت بدهد.",
+     "targetPhrases": [
+      "could you",
+      "can you"
+     ],
+     "references": [
+      "Could you tell me how to get to the station, please?",
+      "Can you show me the way to the station?",
+      "Excuse me, could you help me? I'm looking for the station."
+     ],
+     "feedback": "With a stranger, start with 'Excuse me' and then ask: 'Could you tell me …?'",
+     "feedbackPersian": "با غریبه با Excuse me شروع کن و بعد بپرس: Could you tell me …؟"
+    },
+    {
+     "id": "office-laptop",
+     "level": 2,
+     "situation": "At work your laptop will not connect to the network and you have a meeting soon.",
+     "situationPersian": "سر کار لپ‌تاپت به شبکه وصل نمی‌شود و به‌زودی جلسه داری.",
+     "goal": "Ask a colleague to help you quickly.",
+     "goalPersian": "از همکارت بخواه سریع کمکت کند.",
+     "targetPhrases": [
+      "can you",
+      "could you"
+     ],
+     "references": [
+      "Can you help me with my laptop? It won't connect and I have a meeting soon.",
+      "Could you take a quick look at my laptop, please?"
+     ],
+     "feedback": "At work, explain the reason in a few words: it makes help easier to give.",
+     "feedbackPersian": "در محیط کار دلیل را در چند کلمه بگو؛ کمک کردن را آسان‌تر می‌کند."
+    },
+    {
+     "id": "airport-suitcase",
+     "level": 2,
+     "situation": "At the airport your suitcase is very heavy and you cannot lift it.",
+     "situationPersian": "در فرودگاه چمدانت خیلی سنگین است و نمی‌توانی آن را بلند کنی.",
+     "goal": "Ask someone nearby to help you.",
+     "goalPersian": "از کسی که نزدیک است بخواه کمکت کند.",
+     "targetPhrases": [
+      "could you",
+      "can you"
+     ],
+     "references": [
+      "Could you help me lift this suitcase, please?",
+      "Excuse me, can you give me a hand with this suitcase?"
+     ],
+     "feedback": "Ask for a specific action: 'help me lift this suitcase' is clearer than only 'help me'.",
+     "feedbackPersian": "یک کار مشخص بخواه: help me lift this suitcase روشن‌تر از فقط help me است."
+    },
+    {
+     "id": "own-help",
+     "level": 3,
+     "situation": "Think of a real task this week where you needed someone's help.",
+     "situationPersian": "به کاری واقعی در این هفته فکر کن که به کمک کسی نیاز داشتی.",
+     "goal": "Write how you would ask for that help in English.",
+     "goalPersian": "بنویس چطور آن کمک را به انگلیسی می‌خواستی.",
+     "targetPhrases": [
+      "could you",
+      "can you",
+      "would you"
+     ],
+     "references": [
+      "Could you check my CV before Friday, please?",
+      "Can you show me how this machine works?"
+     ],
+     "open": true,
+     "feedback": "Use the same pattern for a real request. Name the task and the time.",
+     "feedbackPersian": "همین الگو را برای یک درخواست واقعی به کار ببر. کار و زمان را بگو."
+    }
+   ],
+   "cefrLevel": "A1",
+   "explanation": "Use Can you …? or Could you …? to ask for help; 'Could' is more polite. Use the base verb and add 'please'. With strangers start with 'Excuse me'.",
+   "explanationPersian": "برای کمک خواستن از Can you …؟ یا Could you …؟ استفاده کن؛ Could مؤدبانه‌تر است. فعل ساده بیاور و please اضافه کن. با غریبه‌ها با Excuse me شروع کن.",
+   "example": "Could you tell me how to get to the station, please?",
+   "examplePersian": "می‌توانید بگویید چطور به ایستگاه برسم؟"
+  },
+  {
+   "id": "ask-existence",
+   "title": "Asking whether something is available",
+   "titlePersian": "پرسیدن اینکه چیزی موجود است یا نه",
+   "frame": "Do you have … ? / Is there … ? / Are there … ?",
+   "matches": [
+    "\\b(is|are) there\\b",
+    "\\bdo you have\\b",
+    "\\bdo they have\\b"
+   ],
+   "contexts": [
+    {
+     "id": "shop-milk",
+     "level": 1,
+     "situation": "You are in a small shop and you need milk.",
+     "situationPersian": "در یک مغازهٔ کوچک هستی و شیر لازم داری.",
+     "goal": "Ask whether the shop has any.",
+     "goalPersian": "بپرس آیا مغازه شیر دارد.",
+     "targetPhrases": [
+      "do you have",
+      "is there"
+     ],
+     "references": [
+      "Do you have any milk?",
+      "Is there any milk?",
+      "Excuse me, do you sell milk?"
+     ],
+     "feedback": "'Do you have any milk?' asks about availability. 'Any' fits questions.",
+     "feedbackPersian": "Do you have any milk؟ موجود بودن را می‌پرسد. any برای سؤال مناسب است."
+    },
+    {
+     "id": "restaurant-vegetarian",
+     "level": 1,
+     "situation": "You are in a restaurant and you do not eat meat.",
+     "situationPersian": "در یک رستوران هستی و گوشت نمی‌خوری.",
+     "goal": "Ask whether there is a vegetarian dish.",
+     "goalPersian": "بپرس آیا غذای گیاهی دارند.",
+     "targetPhrases": [
+      "is there",
+      "do you have"
+     ],
+     "references": [
+      "Is there a vegetarian option?",
+      "Do you have any vegetarian dishes?"
+     ],
+     "feedback": "'Is there a vegetarian option?' is natural when you want to know if one exists.",
+     "feedbackPersian": "Is there a vegetarian option؟ وقتی می‌خواهی بدانی وجود دارد یا نه طبیعی است."
+    },
+    {
+     "id": "hotel-wifi",
+     "level": 2,
+     "situation": "You are checking into a hotel and you need to work online.",
+     "situationPersian": "در حال پذیرش در هتل هستی و باید آنلاین کار کنی.",
+     "goal": "Ask whether there is Wi-Fi in the rooms.",
+     "goalPersian": "بپرس آیا در اتاق‌ها وای‌فای هست.",
+     "targetPhrases": [
+      "is there",
+      "do you have"
+     ],
+     "references": [
+      "Is there Wi-Fi in the rooms?",
+      "Do you have Wi-Fi in the rooms?"
+     ],
+     "feedback": "For one thing use 'Is there …?', for several things 'Are there …?'",
+     "feedbackPersian": "برای یک چیز Is there …؟ و برای چند چیز Are there …؟"
+    },
+    {
+     "id": "library-beginners",
+     "level": 2,
+     "situation": "You are in a library and you are learning English.",
+     "situationPersian": "در یک کتابخانه هستی و انگلیسی یاد می‌گیری.",
+     "goal": "Ask whether there are English books for beginners.",
+     "goalPersian": "بپرس آیا کتاب انگلیسی برای مبتدی‌ها هست.",
+     "targetPhrases": [
+      "are there",
+      "do you have"
+     ],
+     "references": [
+      "Are there any English books for beginners?",
+      "Do you have books for beginners?"
+     ],
+     "feedback": "'Are there any …?' is for plural nouns: English books.",
+     "feedbackPersian": "Are there any …؟ برای اسم جمع است: English books."
+    },
+    {
+     "id": "own-available",
+     "level": 3,
+     "situation": "Think of something you often look for and cannot always find.",
+     "situationPersian": "به چیزی فکر کن که اغلب دنبالش می‌گردی و همیشه پیدایش نمی‌کنی.",
+     "goal": "Write the question you would ask a shop assistant or colleague.",
+     "goalPersian": "سؤالی بنویس که از فروشنده یا همکارت می‌پرسیدی.",
+     "targetPhrases": [
+      "do you have",
+      "is there",
+      "are there"
+     ],
+     "references": [
+      "Do you have this in a larger size?",
+      "Is there a quiet room I can use for a call?",
+      "Are there any seats left for tonight?"
+     ],
+     "open": true,
+     "feedback": "Use the same pattern for a real question. Name the thing you are looking for.",
+     "feedbackPersian": "همین الگو را برای یک سؤال واقعی به کار ببر. چیزی را که دنبالش هستی نام ببر."
+    }
+   ],
+   "cefrLevel": "A1",
+   "explanation": "Ask whether something is available with Do you have …? or Is there … / Are there …? Use 'any' in questions with plural or uncountable nouns.",
+   "explanationPersian": "برای پرسیدن موجود بودن چیزی از Do you have …؟ یا Is there … / Are there …؟ استفاده کن. در سؤال با اسم جمع یا غیرقابل‌شمارش از any استفاده کن.",
+   "example": "Do you have any vegetarian dishes?",
+   "examplePersian": "غذای گیاهی دارید؟"
+  },
+  {
+   "id": "ask-quantity",
+   "title": "Asking about price, amount and time",
+   "titlePersian": "پرسیدن قیمت، تعداد و زمان",
+   "frame": "How much … ? / How many … ? / How long … ?",
+   "matches": [
+    "\\bhow (much|many|long)\\b"
+   ],
+   "contexts": [
+    {
+     "id": "market-apples",
+     "level": 1,
+     "situation": "You are at a market and you like some apples.",
+     "situationPersian": "در بازار هستی و سیب‌ها را دوست داری.",
+     "goal": "Ask for the price.",
+     "goalPersian": "قیمت را بپرس.",
+     "targetPhrases": [
+      "how much"
+     ],
+     "references": [
+      "How much are these apples?",
+      "How much is a kilo of apples?"
+     ],
+     "feedback": "Price → 'How much'.",
+     "feedbackPersian": "قیمت ← How much."
+    },
+    {
+     "id": "taxi-airport",
+     "level": 1,
+     "situation": "You are in a taxi going to the airport.",
+     "situationPersian": "در تاکسی هستی و به فرودگاه می‌روی.",
+     "goal": "Ask the driver about the travel time.",
+     "goalPersian": "از راننده دربارهٔ مدت سفر بپرس.",
+     "targetPhrases": [
+      "how long"
+     ],
+     "references": [
+      "How long does it take to get to the airport?",
+      "How long will the trip take?"
+     ],
+     "feedback": "Time → 'How long does it take …?'",
+     "feedbackPersian": "مدت زمان ← How long does it take …؟"
+    },
+    {
+     "id": "gym-membership",
+     "level": 2,
+     "situation": "You are visiting a gym and thinking about joining.",
+     "situationPersian": "از یک باشگاه ورزشی بازدید می‌کنی و به عضویت فکر می‌کنی.",
+     "goal": "Ask about the monthly price.",
+     "goalPersian": "قیمت ماهانه را بپرس.",
+     "targetPhrases": [
+      "how much"
+     ],
+     "references": [
+      "How much is a monthly membership?",
+      "How much does it cost to join for a month?"
+     ],
+     "feedback": "Monthly price → 'How much is …?' or 'How much does it cost …?'",
+     "feedbackPersian": "قیمت ماهانه ← How much is …؟ یا How much does it cost …؟"
+    },
+    {
+     "id": "course-students",
+     "level": 2,
+     "situation": "You are interested in an English course and you want a small group.",
+     "situationPersian": "به یک دورهٔ انگلیسی علاقه داری و گروه کوچک می‌خواهی.",
+     "goal": "Find out the size of a class.",
+     "goalPersian": "بپرس هر کلاس چند نفر است.",
+     "targetPhrases": [
+      "how many"
+     ],
+     "references": [
+      "How many students are there in a class?",
+      "How many people are in each group?"
+     ],
+     "feedback": "People you can count → 'How many'.",
+     "feedbackPersian": "چیزهایی که می‌شود شمرد ← How many."
+    },
+    {
+     "id": "own-quantity",
+     "level": 3,
+     "situation": "Think of a decision you are making now: a trip, a purchase or a course.",
+     "situationPersian": "به تصمیمی فکر کن که الان می‌گیری: سفر، خرید یا یک دوره.",
+     "goal": "Write two questions about price, amount or time that you would really ask.",
+     "goalPersian": "دو سؤال دربارهٔ قیمت، تعداد یا زمان بنویس که واقعاً می‌پرسیدی.",
+     "targetPhrases": [
+      "how much",
+      "how many",
+      "how long"
+     ],
+     "references": [
+      "How much does the course cost, and how long does it last?",
+      "How many students are there in a class, and how much is the fee?"
+     ],
+     "open": true,
+     "feedback": "Use the pattern for your own decision: ask about price, number or time.",
+     "feedbackPersian": "الگو را برای تصمیم واقعی خودت به کار ببر: دربارهٔ قیمت، تعداد یا زمان بپرس."
+    }
+   ],
+   "cefrLevel": "A1",
+   "explanation": "How much asks about price or an uncountable amount, How many about a countable number, and How long about time: How much is a ticket? How many people are coming? How long does it take?",
+   "explanationPersian": "How much برای قیمت یا مقدار غیرقابل‌شمارش، How many برای تعداد، و How long برای مدت زمان: How much is a ticket؟ How many people are coming؟ How long does it take؟",
+   "example": "How long does it take to get to the airport?",
+   "examplePersian": "رسیدن به فرودگاه چقدر طول می‌کشد؟"
+  },
+  {
+   "id": "usual-habit",
+   "title": "Talking about habits",
+   "titlePersian": "صحبت دربارهٔ عادت‌ها",
+   "frame": "I usually … / I tend to … / I normally …",
+   "matches": [
+    "\\bi (usually|normally|always|tend to)\\b"
+   ],
+   "contexts": [
+    {
+     "id": "habit-breakfast",
+     "level": 1,
+     "situation": "A friend asks what a normal morning looks like for you.",
+     "situationPersian": "دوستی می‌پرسد صبح عادی تو چطور است.",
+     "goal": "Say what you usually have for breakfast.",
+     "goalPersian": "بگو معمولاً صبحانه چه می‌خوری.",
+     "targetPhrases": [
+      "i usually",
+      "i normally"
+     ],
+     "references": [
+      "I usually have bread, cheese and tea for breakfast.",
+      "I normally eat something light in the morning."
+     ],
+     "feedback": "Use 'I usually' + a verb for what happens most days.",
+     "feedbackPersian": "برای کاری که بیشتر روزها انجام می‌دهی از I usually + فعل استفاده کن."
+    },
+    {
+     "id": "habit-friday",
+     "level": 1,
+     "situation": "A colleague asks about your weekend plans.",
+     "situationPersian": "همکاری دربارهٔ برنامهٔ آخر هفته‌ات می‌پرسد.",
+     "goal": "Say what you usually do on Fridays.",
+     "goalPersian": "بگو معمولاً جمعه‌ها چه می‌کنی.",
+     "targetPhrases": [
+      "i usually",
+      "i tend to"
+     ],
+     "references": [
+      "I usually visit my family on Fridays.",
+      "On Fridays I tend to relax at home."
+     ],
+     "feedback": "'I tend to' is a softer way to say 'I usually'.",
+     "feedbackPersian": "I tend to شکل ملایم‌تر I usually است."
+    },
+    {
+     "id": "habit-workday",
+     "level": 2,
+     "situation": "A new teammate asks how you organise your work.",
+     "situationPersian": "یک هم‌تیمی جدید می‌پرسد کارهایت را چطور سازمان می‌دهی.",
+     "goal": "Explain how you usually start your workday.",
+     "goalPersian": "توضیح بده معمولاً روز کاری‌ات را چطور شروع می‌کنی.",
+     "targetPhrases": [
+      "i usually",
+      "i tend to",
+      "i normally"
+     ],
+     "references": [
+      "I usually start by checking my emails and planning my tasks.",
+      "I tend to do the hardest work first."
+     ],
+     "feedback": "Say what you do first and in what order: 'I usually start by …'",
+     "feedbackPersian": "بگو اول چه می‌کنی و به چه ترتیب: I usually start by …"
+    },
+    {
+     "id": "habit-commute",
+     "level": 2,
+     "situation": "Someone asks how you get to work or school.",
+     "situationPersian": "کسی می‌پرسد چطور به سر کار یا مدرسه می‌روی.",
+     "goal": "Say how you usually travel and how long it takes.",
+     "goalPersian": "بگو معمولاً چطور رفت‌وآمد می‌کنی و چقدر طول می‌کشد.",
+     "targetPhrases": [
+      "i usually",
+      "i normally"
+     ],
+     "references": [
+      "I usually take the bus, and it takes about forty minutes.",
+      "I normally walk because it's only ten minutes away."
+     ],
+     "feedback": "Give the means and the time: 'I usually take the bus, and it takes …'",
+     "feedbackPersian": "وسیله و زمان را بگو: I usually take the bus, and it takes …"
+    },
+    {
+     "id": "own-habit",
+     "level": 3,
+     "situation": "Think of a habit you have, or one you want to build.",
+     "situationPersian": "به عادتی فکر کن که داری یا می‌خواهی بسازی.",
+     "goal": "Describe it in two sentences, using your own real life.",
+     "goalPersian": "آن را در دو جمله و از زندگی واقعی خودت توضیح بده.",
+     "targetPhrases": [
+      "i usually",
+      "i tend to",
+      "i normally"
+     ],
+     "references": [
+      "I usually study English for twenty minutes before bed. I tend to forget on busy days.",
+      "I normally go for a walk after dinner. On weekends I tend to walk for longer."
+     ],
+     "open": true,
+     "feedback": "Use two sentences: one habit and one detail about it.",
+     "feedbackPersian": "دو جمله بنویس: یک عادت و یک جزئیات دربارهٔ آن."
+    }
+   ],
+   "cefrLevel": "A1",
+   "explanation": "Use I usually / I normally / I tend to + base verb to talk about routines. 'Usually' goes before the main verb: I usually get up at seven.",
+   "explanationPersian": "برای صحبت دربارهٔ روال‌ها از I usually / I normally / I tend to + فعل ساده استفاده کن. usually قبل از فعل اصلی می‌آید: I usually get up at seven.",
+   "example": "I usually have bread, cheese and tea for breakfast.",
+   "examplePersian": "معمولاً برای صبحانه نان، پنیر و چای می‌خورم."
+  },
+  {
+   "id": "looking-for",
+   "title": "Saying what you want to find",
+   "titlePersian": "گفتن اینکه دنبال چه چیزی هستی",
+   "cefrLevel": "A2",
+   "frame": "I'm looking for + what you want",
+   "matches": [
+    "\\bi'?m looking for\\b",
+    "\\bi am looking for\\b"
+   ],
+   "explanation": "Use I'm looking for + noun to say what you want to find or buy. It is more natural than 'I search' and it is polite with shop assistants. You can add details: I'm looking for a cheap hotel near the station.",
+   "explanationPersian": "از I'm looking for + اسم استفاده کن تا بگویی دنبال چه چیزی هستی یا چه چیزی می‌خواهی بخری. طبیعی‌تر از I search است و با فروشنده مؤدبانه است. می‌توانی جزئیات اضافه کنی: I'm looking for a cheap hotel near the station.",
+   "example": "I'm looking for a black jacket in a size medium.",
+   "examplePersian": "دنبال یک کت مشکی با سایز مدیوم می‌گردم.",
+   "contexts": [
+    {
+     "id": "bookshop-dictionary",
+     "level": 1,
+     "situation": "You are in a bookshop. You want a dictionary to help you learn English.",
+     "situationPersian": "در یک کتاب‌فروشی هستی. برای یادگیری انگلیسی یک فرهنگ لغت می‌خواهی.",
+     "goal": "Tell the assistant what you want.",
+     "goalPersian": "به فروشنده بگو چه می‌خواهی.",
+     "targetPhrases": [
+      "i'm looking for"
+     ],
+     "references": [
+      "I'm looking for an English-Persian dictionary.",
+      "I'm looking for a dictionary, please.",
+      "Hi, I'm looking for a good dictionary for learners."
+     ],
+     "feedback": "'I'm looking for' + the thing: short and clear.",
+     "feedbackPersian": "I'm looking for + چیز مورد نظر: کوتاه و روشن."
+    },
+    {
+     "id": "shoe-shop",
+     "level": 1,
+     "situation": "You are in a shoe shop. You want black sports shoes in size forty-two.",
+     "situationPersian": "در یک کفش‌فروشی هستی. کفش ورزشی مشکی سایز چهل و دو می‌خواهی.",
+     "goal": "Say exactly what you want.",
+     "goalPersian": "دقیقاً بگو چه می‌خواهی.",
+     "targetPhrases": [
+      "i'm looking for"
+     ],
+     "references": [
+      "I'm looking for black sports shoes in size 42.",
+      "I'm looking for sports shoes. Do you have black ones in 42?"
+     ],
+     "feedback": "Add the details after the noun: colour, type and size.",
+     "feedbackPersian": "جزئیات را بعد از اسم اضافه کن: رنگ، نوع و سایز."
+    },
+    {
+     "id": "cheap-room",
+     "level": 2,
+     "situation": "You have just arrived in a city. You need a cheap place to sleep for two nights.",
+     "situationPersian": "تازه به یک شهر رسیده‌ای. برای دو شب جای ارزانی برای خوابیدن لازم داری.",
+     "goal": "Explain to the receptionist what you need.",
+     "goalPersian": "به مسئول پذیرش بگو چه لازم داری.",
+     "targetPhrases": [
+      "i'm looking for"
+     ],
+     "references": [
+      "I'm looking for a cheap hotel for two nights.",
+      "I'm looking for a cheap room for two nights, please."
+     ],
+     "feedback": "State the thing, the price level and the time.",
+     "feedbackPersian": "چیز، سطح قیمت و مدت را بگو."
+    },
+    {
+     "id": "part-time-job",
+     "level": 2,
+     "situation": "You talk to a recruiter. You want a part-time job in an office, in the afternoons.",
+     "situationPersian": "با یک کارجو صحبت می‌کنی. یک کار پاره‌وقت اداری برای بعدازظهرها می‌خواهی.",
+     "goal": "Say what kind of job you want.",
+     "goalPersian": "بگو چه نوع شغلی می‌خواهی.",
+     "targetPhrases": [
+      "i'm looking for"
+     ],
+     "references": [
+      "I'm looking for a part-time office job.",
+      "I'm looking for a part-time job in an office in the afternoons."
+     ],
+     "feedback": "The same pattern works for jobs, flats and services, not only for things.",
+     "feedbackPersian": "همین الگو برای شغل، خانه و خدمات هم کار می‌کند، نه فقط برای اشیا."
+    },
+    {
+     "id": "own-search",
+     "level": 3,
+     "situation": "Think of something you are really looking for now: a book, a flat, a course or a gift.",
+     "situationPersian": "به چیزی فکر کن که الان واقعاً دنبالش هستی: کتاب، خانه، دوره یا هدیه.",
+     "goal": "Write what you would say to a shop assistant or a friend.",
+     "goalPersian": "بنویس به فروشنده یا دوستت چه می‌گفتی.",
+     "targetPhrases": [
+      "i'm looking for"
+     ],
+     "references": [
+      "I'm looking for an English course in the evenings.",
+      "I'm looking for a small flat near my work."
+     ],
+     "feedback": "Add two details after the noun: size, price, place or time.",
+     "feedbackPersian": "بعد از اسم دو جزئیات اضافه کن: اندازه، قیمت، مکان یا زمان.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "need-to",
+   "title": "Saying what is necessary",
+   "titlePersian": "گفتن آنچه لازم است",
+   "cefrLevel": "A2",
+   "frame": "I need to + verb / I have to + verb",
+   "matches": [
+    "\\bi need to\\b",
+    "\\bi have to\\b",
+    "\\bi'?ve got to\\b"
+   ],
+   "explanation": "Use I need to + verb for something necessary. It sounds more neutral and polite than 'I must'. Add the reason with because or so: I need to cancel my appointment because I'm ill.",
+   "explanationPersian": "برای چیزی که ضروری است از I need to + فعل استفاده کن. از I must بی‌طرف‌تر و مؤدبانه‌تر است. دلیل را با because یا so اضافه کن: I need to cancel my appointment because I'm ill.",
+   "example": "I need to cancel my appointment because I'm ill.",
+   "examplePersian": "باید وقتم را لغو کنم چون مریضم.",
+   "contexts": [
+    {
+     "id": "cancel-appointment",
+     "level": 1,
+     "situation": "You are ill and cannot go to your dentist appointment tomorrow.",
+     "situationPersian": "مریض هستی و نمی‌توانی فردا به وقت دندان‌پزشکی‌ات بروی.",
+     "goal": "Tell the clinic what you must do.",
+     "goalPersian": "به کلینیک بگو چه کاری باید بکنی.",
+     "targetPhrases": [
+      "i need to"
+     ],
+     "references": [
+      "I need to cancel my appointment for tomorrow.",
+      "I need to cancel tomorrow's appointment. I'm ill."
+     ],
+     "feedback": "'I need to' + verb states the necessary action. Add a short reason.",
+     "feedbackPersian": "I need to + فعل کار ضروری را بیان می‌کند. یک دلیل کوتاه اضافه کن."
+    },
+    {
+     "id": "catch-train",
+     "level": 1,
+     "situation": "You are in a meeting. Your train leaves at six and the meeting may last until six.",
+     "situationPersian": "در یک جلسه هستی. قطار تو ساعت شش حرکت می‌کند و جلسه ممکن است تا شش طول بکشد.",
+     "goal": "Tell the group when you have to go.",
+     "goalPersian": "به گروه بگو کِی باید بروی.",
+     "targetPhrases": [
+      "i need to",
+      "i have to"
+     ],
+     "references": [
+      "I need to leave at five to catch my train.",
+      "I have to leave at five because I have a train to catch."
+     ],
+     "feedback": "'I have to' and 'I need to' are both fine. Say the time and the reason.",
+     "feedbackPersian": "I have to و I need to هر دو درست‌اند. زمان و دلیل را بگو."
+    },
+    {
+     "id": "lost-card",
+     "level": 2,
+     "situation": "You have lost your bank card and you are at the bank counter.",
+     "situationPersian": "کارت بانکی‌ات را گم کرده‌ای و پشت باجهٔ بانک هستی.",
+     "goal": "Explain to the clerk what you must do.",
+     "goalPersian": "به کارمند بگو چه کاری باید بکنی.",
+     "targetPhrases": [
+      "i need to"
+     ],
+     "references": [
+      "I need to report a lost card.",
+      "I need to block my card. I've lost it."
+     ],
+     "feedback": "State the action first, then explain: 'I need to block my card. I've lost it.'",
+     "feedbackPersian": "اول کار را بگو، بعد توضیح بده: I need to block my card. I've lost it."
+    },
+    {
+     "id": "ask-teacher",
+     "level": 2,
+     "situation": "You did not understand the homework and the lesson starts in ten minutes.",
+     "situationPersian": "تکلیف را نفهمیده‌ای و درس ده دقیقه دیگر شروع می‌شود.",
+     "goal": "Tell your teacher that you must ask a question.",
+     "goalPersian": "به معلمت بگو باید یک سؤال بپرسی.",
+     "targetPhrases": [
+      "i need to"
+     ],
+     "references": [
+      "I need to ask you about the homework.",
+      "I need to ask a question about the homework before the lesson."
+     ],
+     "feedback": "'I need to ask' is a polite way to start a question that matters.",
+     "feedbackPersian": "I need to ask روش مؤدبانهٔ شروع یک سؤال مهم است."
+    },
+    {
+     "id": "own-must",
+     "level": 3,
+     "situation": "Think of something you really have to do this week: a task, a visit or a payment.",
+     "situationPersian": "به کاری فکر کن که این هفته واقعاً باید انجام بدهی: یک کار، یک دیدار یا یک پرداخت.",
+     "goal": "Write what you would say to explain it to someone.",
+     "goalPersian": "بنویس برای توضیح دادن آن به کسی چه می‌گفتی.",
+     "targetPhrases": [
+      "i need to",
+      "i have to"
+     ],
+     "references": [
+      "I need to renew my passport this week because it expires next month.",
+      "I have to finish my report by Friday."
+     ],
+     "feedback": "Add the reason or the deadline to make it clear.",
+     "feedbackPersian": "دلیل یا موعد را اضافه کن تا روشن شود.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "making-suggestions",
+   "title": "Suggesting a plan",
+   "titlePersian": "پیشنهاد دادن یک برنامه",
+   "cefrLevel": "A2",
+   "frame": "Why don't we …? / Shall we …? / How about …? / Let's …",
+   "matches": [
+    "\\bwhy don'?t we\\b",
+    "\\bshall we\\b",
+    "\\bhow about\\b",
+    "\\blet'?s\\b"
+   ],
+   "explanation": "Use these to suggest an activity for you and other people together. Why don't we / Let's + base verb; How about + noun or -ing; Shall we + base verb?",
+   "explanationPersian": "از این‌ها برای پیشنهاد یک فعالیت به خودت و دیگران استفاده کن. Why don't we / Let's + فعل ساده؛ How about + اسم یا -ing؛ Shall we + فعل ساده؟",
+   "example": "Why don't we go for a walk?",
+   "examplePersian": "چرا قدم نزنیم؟",
+   "contexts": [
+    {
+     "id": "sunny-saturday",
+     "level": 1,
+     "situation": "It is a sunny Saturday and you and a friend have no plans.",
+     "situationPersian": "شنبهٔ آفتابی است و تو و دوستت برنامه‌ای ندارید.",
+     "goal": "Suggest doing something outside.",
+     "goalPersian": "پیشنهاد کن کاری بیرون انجام دهید.",
+     "targetPhrases": [
+      "why don't we",
+      "shall we",
+      "let's"
+     ],
+     "references": [
+      "Why don't we go for a walk in the park?",
+      "Shall we go for a walk?",
+      "Let's go to the park.",
+      "How about a walk in the park?"
+     ],
+     "feedback": "All four patterns work. Keep the verb in the base form after 'Why don't we', 'Shall we' and 'Let's'.",
+     "feedbackPersian": "هر چهار الگو درست‌اند. بعد از Why don't we، Shall we و Let's فعل ساده بیاور."
+    },
+    {
+     "id": "lunch-choice",
+     "level": 1,
+     "situation": "It is lunchtime and a colleague cannot decide where to eat.",
+     "situationPersian": "وقت ناهار است و یک همکار نمی‌تواند تصمیم بگیرد کجا بخورد.",
+     "goal": "Suggest a place.",
+     "goalPersian": "یک مکان پیشنهاد بده.",
+     "targetPhrases": [
+      "how about",
+      "why don't we"
+     ],
+     "references": [
+      "Why don't we try the new Italian place?",
+      "How about the Italian restaurant?",
+      "Shall we go to the cafe downstairs?"
+     ],
+     "feedback": "'How about' + a noun is the shortest way to suggest.",
+     "feedbackPersian": "How about + اسم کوتاه‌ترین راه پیشنهاد دادن است."
+    },
+    {
+     "id": "team-behind",
+     "level": 2,
+     "situation": "Your team is behind schedule and nobody knows how to start.",
+     "situationPersian": "تیم شما از برنامه عقب است و کسی نمی‌داند از کجا شروع کند.",
+     "goal": "Suggest a way to organise the work.",
+     "goalPersian": "راهی برای سازماندهی کار پیشنهاد بده.",
+     "targetPhrases": [
+      "why don't we",
+      "let's",
+      "how about"
+     ],
+     "references": [
+      "Why don't we split the tasks between us?",
+      "Let's make a list of what we have to do.",
+      "How about starting with the most urgent task?"
+     ],
+     "feedback": "'How about' can be followed by -ing: How about starting with …?",
+     "feedbackPersian": "بعد از How about می‌توان -ing آورد: How about starting with …؟"
+    },
+    {
+     "id": "trip-date",
+     "level": 2,
+     "situation": "Two friends are planning a trip but cannot choose a date.",
+     "situationPersian": "دو دوست در حال برنامه‌ریزی یک سفرند و نمی‌توانند تاریخی انتخاب کنند.",
+     "goal": "Suggest a date that works for you both.",
+     "goalPersian": "تاریخی پیشنهاد بده که برای هر دو مناسب باشد.",
+     "targetPhrases": [
+      "how about",
+      "shall we",
+      "why don't we"
+     ],
+     "references": [
+      "How about the first weekend of May?",
+      "Shall we go in May?",
+      "Why don't we go in the first week of May?"
+     ],
+     "feedback": "A concrete suggestion (a date) is better than 'when you want'.",
+     "feedbackPersian": "پیشنهاد مشخص (یک تاریخ) بهتر از «هر وقت دوست داری» است."
+    },
+    {
+     "id": "own-suggestion",
+     "level": 3,
+     "situation": "Think of something you would like to do with a friend or your family soon.",
+     "situationPersian": "به کاری فکر کن که می‌خواهی به‌زودی با یک دوست یا خانواده‌ات انجام دهی.",
+     "goal": "Write your suggestion in one or two sentences.",
+     "goalPersian": "پیشنهادت را در یک یا دو جمله بنویس.",
+     "targetPhrases": [
+      "why don't we",
+      "shall we",
+      "how about",
+      "let's"
+     ],
+     "references": [
+      "Why don't we have dinner at that new restaurant on Friday?",
+      "Shall we visit Grandma this weekend? How about Sunday afternoon?"
+     ],
+     "feedback": "Say what and when: it makes the suggestion easy to accept.",
+     "feedbackPersian": "بگو چه کاری و کِی: پذیرفتن پیشنهاد را آسان می‌کند.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "intention",
+   "title": "Talking about plans and hopes",
+   "titlePersian": "صحبت دربارهٔ برنامه‌ها و امیدها",
+   "cefrLevel": "A2",
+   "frame": "I'm going to … / I'm planning to … / I'm hoping to …",
+   "matches": [
+    "\\bi'?m (going to|planning to|hoping to)\\b",
+    "\\bi am (going to|planning to|hoping to)\\b"
+   ],
+   "explanation": "Use these for plans and intentions. Going to = you have already decided; planning to = you are thinking about how; hoping to = you want it but you are not sure. All are followed by the base verb.",
+   "explanationPersian": "از این‌ها برای برنامه و قصد استفاده کن. going to = قبلاً تصمیم گرفته‌ای؛ planning to = داری دربارهٔ چگونگی‌اش فکر می‌کنی؛ hoping to = می‌خواهی اما مطمئن نیستی. بعد از همه فعل ساده می‌آید.",
+   "example": "I'm planning to learn to drive this year.",
+   "examplePersian": "قصد دارم امسال رانندگی یاد بگیرم.",
+   "contexts": [
+    {
+     "id": "plan-tomorrow",
+     "level": 1,
+     "situation": "A friend asks what you will do tomorrow.",
+     "situationPersian": "یک دوست می‌پرسد فردا چه می‌کنی.",
+     "goal": "Say one thing you have decided to do.",
+     "goalPersian": "یک کاری را بگو که تصمیم گرفته‌ای انجام بدهی.",
+     "targetPhrases": [
+      "i'm going to"
+     ],
+     "references": [
+      "I'm going to visit my parents tomorrow.",
+      "I'm going to stay at home and rest."
+     ],
+     "feedback": "'I'm going to' + verb: a decision you have already made.",
+     "feedbackPersian": "I'm going to + فعل: تصمیمی که قبلاً گرفته‌ای."
+    },
+    {
+     "id": "summer-plans",
+     "level": 1,
+     "situation": "A colleague asks what you will do in your summer holiday.",
+     "situationPersian": "یک همکار می‌پرسد در تعطیلات تابستان چه می‌کنی.",
+     "goal": "Say what you are planning.",
+     "goalPersian": "بگو چه برنامه‌ای داری.",
+     "targetPhrases": [
+      "i'm planning to",
+      "i'm going to"
+     ],
+     "references": [
+      "I'm planning to travel to the north for a week.",
+      "I'm going to visit some friends in Shiraz."
+     ],
+     "feedback": "'Planning to' suggests you are still organising the details.",
+     "feedbackPersian": "planning to نشان می‌دهد هنوز جزئیات را سازمان می‌دهی."
+    },
+    {
+     "id": "career-year",
+     "level": 2,
+     "situation": "In a job interview you are asked where you want to be next year.",
+     "situationPersian": "در یک مصاحبهٔ شغلی می‌پرسند سال بعد کجا می‌خواهی باشی.",
+     "goal": "Say something you hope to achieve at work.",
+     "goalPersian": "چیزی را بگو که امیدواری در کار به آن برسی.",
+     "targetPhrases": [
+      "i'm hoping to",
+      "i'm planning to"
+     ],
+     "references": [
+      "I'm hoping to lead a small team next year.",
+      "I'm planning to get a professional certificate."
+     ],
+     "feedback": "'Hoping to' is honest about the goal without promising it.",
+     "feedbackPersian": "hoping to بدون قول دادن دربارهٔ هدف صادقانه صحبت می‌کند."
+    },
+    {
+     "id": "study-plan",
+     "level": 2,
+     "situation": "Your English teacher asks how you will practise this month.",
+     "situationPersian": "معلم انگلیسی‌ات می‌پرسد این ماه چطور تمرین می‌کنی.",
+     "goal": "Say your plan.",
+     "goalPersian": "برنامه‌ات را بگو.",
+     "targetPhrases": [
+      "i'm going to",
+      "i'm planning to"
+     ],
+     "references": [
+      "I'm going to practise speaking every day for ten minutes.",
+      "I'm planning to join a conversation club."
+     ],
+     "feedback": "Make the plan concrete: how often and for how long.",
+     "feedbackPersian": "برنامه را مشخص کن: هر چند وقت یک بار و چقدر."
+    },
+    {
+     "id": "own-plan",
+     "level": 3,
+     "situation": "Think of a real plan or hope you have for the next year.",
+     "situationPersian": "به یک برنامه یا امید واقعی برای سال آینده فکر کن.",
+     "goal": "Write it in two sentences, one with a plan and one with a hope.",
+     "goalPersian": "آن را در دو جمله بنویس: یک جمله برنامه و یک جمله امید.",
+     "targetPhrases": [
+      "i'm going to",
+      "i'm planning to",
+      "i'm hoping to"
+     ],
+     "references": [
+      "I'm going to change my job in the spring. I'm hoping to find something closer to home.",
+      "I'm planning to start a small online course in September. I'm going to study for an hour every evening."
+     ],
+     "feedback": "Use two different forms to show the difference between plan and hope.",
+     "feedbackPersian": "از دو شکل مختلف استفاده کن تا تفاوت برنامه و امید را نشان بدهی.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "giving-reasons",
+   "title": "Giving reasons",
+   "titlePersian": "دلیل آوردن",
+   "cefrLevel": "B1",
+   "frame": "… because … / The reason is that … / That's why …",
+   "matches": [
+    "\\bthe reason is\\b",
+    "\\bthat'?s why\\b",
+    "\\bbecause\\b",
+    "\\bthe reason why\\b"
+   ],
+   "explanation": "Give a reason with because + clause, or with The reason is that …. Use That's why … for the result: The prices are high. That's why many people leave the city.",
+   "explanationPersian": "دلیل را با because + جمله یا The reason is that … بگو. برای نتیجه از That's why … استفاده کن: The prices are high. That's why many people leave the city.",
+   "example": "I prefer trains because they are more comfortable.",
+   "examplePersian": "قطار را ترجیح می‌دهم چون راحت‌تر است.",
+   "contexts": [
+    {
+     "id": "tea-or-coffee",
+     "level": 1,
+     "situation": "A friend asks why you prefer tea in the morning.",
+     "situationPersian": "یک دوست می‌پرسد چرا صبح‌ها چای را ترجیح می‌دهی.",
+     "goal": "Say what you prefer and give a reason.",
+     "goalPersian": "بگو چه چیزی را ترجیح می‌دهی و دلیلش را بگو.",
+     "targetPhrases": [
+      "because"
+     ],
+     "references": [
+      "I prefer tea because it is lighter than coffee.",
+      "I prefer tea in the morning because coffee makes me nervous."
+     ],
+     "feedback": "'Because' is followed by a full clause: subject + verb.",
+     "feedbackPersian": "بعد از because جملهٔ کامل می‌آید: فاعل + فعل."
+    },
+    {
+     "id": "take-the-bus",
+     "level": 1,
+     "situation": "A colleague asks why you take the bus instead of driving.",
+     "situationPersian": "یک همکار می‌پرسد چرا به جای رانندگی با اتوبوس می‌روی.",
+     "goal": "Explain your reason.",
+     "goalPersian": "دلیلت را توضیح بده.",
+     "targetPhrases": [
+      "the reason is",
+      "because"
+     ],
+     "references": [
+      "The reason is that parking is expensive.",
+      "I take the bus because parking is very expensive and the traffic is heavy."
+     ],
+     "feedback": "'The reason is that …' is a clear way to introduce one main reason.",
+     "feedbackPersian": "The reason is that … راه روشنی برای معرفی دلیل اصلی است."
+    },
+    {
+     "id": "late-meeting",
+     "level": 2,
+     "situation": "You arrived late to a meeting and your manager is waiting for an explanation.",
+     "situationPersian": "دیر به جلسه رسیده‌ای و مدیرت منتظر توضیح است.",
+     "goal": "Explain the reason briefly and politely.",
+     "goalPersian": "دلیل را کوتاه و مؤدبانه توضیح بده.",
+     "targetPhrases": [
+      "the reason is",
+      "because"
+     ],
+     "references": [
+      "The reason is that my train was delayed.",
+      "I'm sorry I'm late. The reason is that the traffic was terrible."
+     ],
+     "feedback": "Apologise first, then give the reason in one sentence.",
+     "feedbackPersian": "اول عذرخواهی کن، بعد دلیل را در یک جمله بگو."
+    },
+    {
+     "id": "remote-result",
+     "level": 2,
+     "situation": "You explain to a visitor why many people in your city work from home.",
+     "situationPersian": "برای یک مهمان توضیح می‌دهی چرا بسیاری از مردم شهرتان در خانه کار می‌کنند.",
+     "goal": "Give a reason and a result.",
+     "goalPersian": "یک دلیل و یک نتیجه بگو.",
+     "targetPhrases": [
+      "that's why",
+      "because"
+     ],
+     "references": [
+      "Travelling is slow and expensive. That's why many people work from home.",
+      "Offices are expensive, so that's why more companies allow remote work."
+     ],
+     "feedback": "The reason comes first; 'That's why' introduces the result.",
+     "feedbackPersian": "اول دلیل می‌آید؛ That's why نتیجه را معرفی می‌کند."
+    },
+    {
+     "id": "own-reason",
+     "level": 3,
+     "situation": "Think of a choice you made recently: a job, a course, a purchase or a trip.",
+     "situationPersian": "به انتخابی فکر کن که اخیراً کرده‌ای: شغل، دوره، خرید یا سفر.",
+     "goal": "Write what you chose and why.",
+     "goalPersian": "بنویس چه چیزی را انتخاب کردی و چرا.",
+     "targetPhrases": [
+      "because",
+      "the reason is",
+      "that's why"
+     ],
+     "references": [
+      "I chose this course because the classes are in the evening. The reason is that I work during the day.",
+      "I bought a used car because new ones are too expensive."
+     ],
+     "feedback": "One choice, one clear reason. A second reason with 'also' is a bonus.",
+     "feedbackPersian": "یک انتخاب، یک دلیل روشن. دلیل دوم با also امتیاز اضافه است.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "it-depends",
+   "title": "Saying it depends",
+   "titlePersian": "گفتن اینکه بستگی دارد",
+   "cefrLevel": "B1",
+   "frame": "It depends on …",
+   "matches": [
+    "\\bit depends on\\b",
+    "\\bit all depends\\b",
+    "\\bthat depends\\b"
+   ],
+   "explanation": "When the answer is not simple, say what it depends on. Use it depends on + noun, or it depends on whether / how + clause. It is more helpful than just 'maybe'.",
+   "explanationPersian": "وقتی جواب ساده نیست بگو به چه چیزی بستگی دارد. از it depends on + اسم یا it depends on whether / how + جمله استفاده کن. از «شاید» تنها مفیدتر است.",
+   "example": "Is the course expensive? — It depends on the level.",
+   "examplePersian": "دوره گران است؟ — بستگی به سطح دارد.",
+   "contexts": [
+    {
+     "id": "taxi-price",
+     "level": 1,
+     "situation": "A tourist asks you how much a taxi to the airport costs.",
+     "situationPersian": "یک گردشگر می‌پرسد تاکسی تا فرودگاه چقدر می‌شود.",
+     "goal": "Explain that the price changes and say what it changes with.",
+     "goalPersian": "توضیح بده قیمت تغییر می‌کند و بگو به چه چیزی بستگی دارد.",
+     "targetPhrases": [
+      "it depends on"
+     ],
+     "references": [
+      "It depends on the traffic and the time of day.",
+      "It depends on the time. At night it costs more."
+     ],
+     "feedback": "Say what it depends on: it gives the listener something useful.",
+     "feedbackPersian": "بگو به چه چیزی بستگی دارد: به شنونده اطلاعات مفیدی می‌دهد."
+    },
+    {
+     "id": "picnic",
+     "level": 1,
+     "situation": "A friend asks if you are free on Saturday for a picnic.",
+     "situationPersian": "یک دوست می‌پرسد شنبه برای پیک‌نیک آزاد هستی یا نه.",
+     "goal": "Say that your answer depends on the weather.",
+     "goalPersian": "بگو جوابت به آب‌وهوا بستگی دارد.",
+     "targetPhrases": [
+      "it depends on",
+      "it depends"
+     ],
+     "references": [
+      "It depends on the weather.",
+      "It depends on whether it rains."
+     ],
+     "feedback": "'It depends on whether + clause' is useful for yes/no conditions.",
+     "feedbackPersian": "it depends on whether + جمله برای شرط‌های بله/خیر مفید است."
+    },
+    {
+     "id": "job-offer",
+     "level": 2,
+     "situation": "A friend asks if you will accept a new job offer.",
+     "situationPersian": "یک دوست می‌پرسد پیشنهاد کار جدید را می‌پذیری یا نه.",
+     "goal": "Say what your decision depends on.",
+     "goalPersian": "بگو تصمیمت به چه چیزی بستگی دارد.",
+     "targetPhrases": [
+      "it depends on"
+     ],
+     "references": [
+      "It depends on the salary and the team.",
+      "It depends on how much they pay and where the office is."
+     ],
+     "feedback": "Give two things it depends on to sound thoughtful.",
+     "feedbackPersian": "دو چیز را بگو که به آن بستگی دارد تا سنجیده به نظر برسی."
+    },
+    {
+     "id": "exam-difficulty",
+     "level": 2,
+     "situation": "A new colleague asks whether the English exam is difficult.",
+     "situationPersian": "یک همکار جدید می‌پرسد آزمون انگلیسی سخت است یا نه.",
+     "goal": "Explain that the answer is different for each person, and what it changes with.",
+     "goalPersian": "توضیح بده جواب برای هر شخص فرق می‌کند و بگو با چه چیزی فرق می‌کند.",
+     "targetPhrases": [
+      "it depends on"
+     ],
+     "references": [
+      "It depends on how much you study.",
+      "It depends on your level of English."
+     ],
+     "feedback": "After 'depends on' use a noun or 'how / whether + clause', not an infinitive.",
+     "feedbackPersian": "بعد از depends on اسم یا how / whether + جمله بیاور، نه مصدر."
+    },
+    {
+     "id": "own-depends",
+     "level": 3,
+     "situation": "Think of a real question people often ask you, where the answer is not simple.",
+     "situationPersian": "به سؤالی واقعی فکر کن که مردم اغلب از تو می‌پرسند و جوابش ساده نیست.",
+     "goal": "Write the question and an honest answer that is not simple.",
+     "goalPersian": "سؤال و یک جواب صادقانه بنویس که ساده نیست.",
+     "targetPhrases": [
+      "it depends on"
+     ],
+     "references": [
+      "Is it easy to find a job in my field? It depends on the city and on your experience.",
+      "Is it expensive to live here? It depends on the neighbourhood."
+     ],
+     "feedback": "Add one example after 'it depends on' to make your answer clear.",
+     "feedbackPersian": "بعد از it depends on یک مثال اضافه کن تا جوابت روشن شود.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "used-to",
+   "title": "Talking about the past: used to",
+   "titlePersian": "صحبت دربارهٔ گذشته: used to",
+   "cefrLevel": "B1",
+   "frame": "I used to + verb",
+   "matches": [
+    "\\b(i|we|he|she|they|there|it|this \\w+|that \\w+) used to\\b"
+   ],
+   "explanation": "Used to + base verb describes habits and states in the past that are not true now. It is not for one-time events. It often contrasts with now: I used to smoke, but I stopped.",
+   "explanationPersian": "used to + فعل ساده عادت‌ها و وضعیت‌های گذشته‌ای را توصیف می‌کند که الان درست نیستند. برای یک رویداد یک‌باره نیست. اغلب با حال مقایسه می‌شود: I used to smoke, but I stopped.",
+   "example": "I used to play football every weekend, but now I don't have time.",
+   "examplePersian": "قبلاً هر آخر هفته فوتبال بازی می‌کردم اما الان وقت ندارم.",
+   "contexts": [
+    {
+     "id": "childhood",
+     "level": 1,
+     "situation": "A friend asks what you liked doing as a child.",
+     "situationPersian": "یک دوست می‌پرسد وقتی بچه بودی چه کاری را دوست داشتی.",
+     "goal": "Say a habit you had in your childhood.",
+     "goalPersian": "عادتی را بگو که در بچگی داشتی.",
+     "targetPhrases": [
+      "i used to"
+     ],
+     "references": [
+      "I used to play outside with my cousins every afternoon.",
+      "I used to collect stamps when I was a child."
+     ],
+     "feedback": "'Used to' is for repeated past habits. A single event uses the past simple.",
+     "feedbackPersian": "used to برای عادت‌های تکراری گذشته است. رویداد یک‌باره گذشتهٔ ساده می‌گیرد."
+    },
+    {
+     "id": "old-photo",
+     "level": 1,
+     "situation": "You show an old photo of your street and a visitor is curious.",
+     "situationPersian": "یک عکس قدیمی از خیابانتان نشان می‌دهی و مهمان کنجکاو است.",
+     "goal": "Say how the place was different in the past.",
+     "goalPersian": "بگو آن مکان در گذشته چه فرقی داشت.",
+     "targetPhrases": [
+      "used to"
+     ],
+     "references": [
+      "There used to be a small cinema here.",
+      "This street used to be much quieter."
+     ],
+     "feedback": "'There used to be' describes things that existed before.",
+     "feedbackPersian": "There used to be چیزهایی را توصیف می‌کند که قبلاً وجود داشتند."
+    },
+    {
+     "id": "old-job",
+     "level": 2,
+     "situation": "A colleague asks about your previous job.",
+     "situationPersian": "یک همکار دربارهٔ شغل قبلی‌ات می‌پرسد.",
+     "goal": "Say something you used to do there and do not do now.",
+     "goalPersian": "کاری را بگو که آنجا انجام می‌دادی و الان نمی‌دهی.",
+     "targetPhrases": [
+      "i used to"
+     ],
+     "references": [
+      "I used to travel a lot for my old job.",
+      "I used to work night shifts."
+     ],
+     "feedback": "Contrast with the present to make the meaning clear.",
+     "feedbackPersian": "با حال مقایسه کن تا معنی روشن شود."
+    },
+    {
+     "id": "cooking",
+     "level": 2,
+     "situation": "A friend is surprised that you now cook very well.",
+     "situationPersian": "یک دوست تعجب کرده که حالا خیلی خوب آشپزی می‌کنی.",
+     "goal": "Say that you were different before.",
+     "goalPersian": "بگو قبلاً فرق داشتی.",
+     "targetPhrases": [
+      "i used to"
+     ],
+     "references": [
+      "I used to burn everything, but now I cook every day.",
+      "I used to hate cooking, but I learned."
+     ],
+     "feedback": "'Used to … but now …' is the natural contrast pattern.",
+     "feedbackPersian": "used to … but now … الگوی طبیعی مقایسه است."
+    },
+    {
+     "id": "own-past",
+     "level": 3,
+     "situation": "Think of something that was part of your life before and is not any more.",
+     "situationPersian": "به چیزی فکر کن که قبلاً بخشی از زندگی‌ات بود و الان نیست.",
+     "goal": "Write about it in two sentences.",
+     "goalPersian": "دربارهٔ آن در دو جمله بنویس.",
+     "targetPhrases": [
+      "i used to"
+     ],
+     "references": [
+      "I used to live near the sea. Now I live in the middle of the country.",
+      "I used to read a lot, but I rarely have time now."
+     ],
+     "feedback": "Use 'used to' for the past and the present simple for how it is now.",
+     "feedbackPersian": "برای گذشته از used to و برای وضعیت فعلی از حال ساده استفاده کن.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "giving-advice",
+   "title": "Giving advice",
+   "titlePersian": "توصیه کردن",
+   "cefrLevel": "B1",
+   "frame": "You should … / Why don't you …? / If I were you, I'd … / I'd recommend …",
+   "matches": [
+    "\\byou should\\b",
+    "\\bwhy don'?t you\\b",
+    "\\bif i were you\\b",
+    "\\bi'?d recommend\\b",
+    "\\bi would recommend\\b"
+   ],
+   "explanation": "Give friendly advice with should + base verb, Why don't you + base verb?, If I were you, I'd + base verb, or I'd recommend + -ing. Use were (not was) after If I in advice.",
+   "explanationPersian": "با should + فعل ساده، Why don't you + فعل ساده؟، If I were you, I'd + فعل ساده یا I'd recommend + -ing توصیهٔ دوستانه بده. در توصیه بعد از If I از were استفاده کن (نه was).",
+   "example": "If I were you, I'd talk to your manager first.",
+   "examplePersian": "اگر جای تو بودم، اول با مدیرت صحبت می‌کردم.",
+   "contexts": [
+    {
+     "id": "sleep-problem",
+     "level": 1,
+     "situation": "A friend says they cannot sleep well at night.",
+     "situationPersian": "یک دوست می‌گوید شب‌ها خوب نمی‌خوابد.",
+     "goal": "Give one piece of advice.",
+     "goalPersian": "یک توصیه بده.",
+     "targetPhrases": [
+      "you should",
+      "why don't you",
+      "if i were you"
+     ],
+     "references": [
+      "You should go to bed earlier.",
+      "Why don't you stop drinking coffee after lunch?",
+      "If I were you, I'd turn off my phone before bed."
+     ],
+     "feedback": "Choose a gentle pattern: 'You should …' is direct, 'Why don't you …?' is softer.",
+     "feedbackPersian": "یک الگوی ملایم انتخاب کن: You should … مستقیم است و Why don't you …؟ نرم‌تر."
+    },
+    {
+     "id": "learn-english",
+     "level": 1,
+     "situation": "A colleague wants to improve their English quickly.",
+     "situationPersian": "یک همکار می‌خواهد انگلیسی‌اش را سریع بهتر کند.",
+     "goal": "Recommend something that could help.",
+     "goalPersian": "چیزی را که ممکن است کمک کند پیشنهاد بده.",
+     "targetPhrases": [
+      "i'd recommend",
+      "you should"
+     ],
+     "references": [
+      "I'd recommend watching short videos every day.",
+      "You should join a conversation club."
+     ],
+     "feedback": "After 'I'd recommend' use the -ing form.",
+     "feedbackPersian": "بعد از I'd recommend شکل -ing می‌آید."
+    },
+    {
+     "id": "job-interview",
+     "level": 2,
+     "situation": "A friend has a job interview tomorrow and is very nervous.",
+     "situationPersian": "یک دوست فردا مصاحبهٔ شغلی دارد و خیلی استرس دارد.",
+     "goal": "Give two pieces of advice.",
+     "goalPersian": "دو توصیه بده.",
+     "targetPhrases": [
+      "you should",
+      "if i were you",
+      "why don't you"
+     ],
+     "references": [
+      "You should prepare answers for common questions.",
+      "If I were you, I'd arrive fifteen minutes early.",
+      "Why don't you practise with a friend?"
+     ],
+     "feedback": "Two different patterns make the advice natural, not repetitive.",
+     "feedbackPersian": "دو الگوی متفاوت توصیه را طبیعی و غیرتکراری می‌کند."
+    },
+    {
+     "id": "food-delivery",
+     "level": 2,
+     "situation": "A friend spends too much money on food delivery.",
+     "situationPersian": "یک دوست خیلی زیاد برای سفارش غذا خرج می‌کند.",
+     "goal": "Advise them gently.",
+     "goalPersian": "به نرمی به او توصیه کن.",
+     "targetPhrases": [
+      "why don't you",
+      "if i were you",
+      "you should"
+     ],
+     "references": [
+      "Why don't you cook at home twice a week?",
+      "If I were you, I'd set a monthly budget for food."
+     ],
+     "feedback": "With a sensitive topic, a question like 'Why don't you …?' sounds kinder.",
+     "feedbackPersian": "در موضوع حساس، سؤالی مثل Why don't you …؟ مهربان‌تر به نظر می‌رسد."
+    },
+    {
+     "id": "own-advice",
+     "level": 3,
+     "situation": "Think of a person you know who has a real problem or goal.",
+     "situationPersian": "به کسی فکر کن که مشکل یا هدفی واقعی دارد.",
+     "goal": "Write the advice you would give.",
+     "goalPersian": "توصیه‌ای را بنویس که به او می‌دادی.",
+     "targetPhrases": [
+      "you should",
+      "if i were you",
+      "i'd recommend",
+      "why don't you"
+     ],
+     "references": [
+      "If I were you, I'd ask for feedback every month. You should also write down your goals.",
+      "I'd recommend starting with a small goal. Why don't you try for two weeks first?"
+     ],
+     "feedback": "Give one clear action and, if you can, one reason.",
+     "feedbackPersian": "یک کار روشن و در صورت امکان یک دلیل بگو.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "would-you-mind",
+   "title": "Asking very politely",
+   "titlePersian": "درخواست بسیار مؤدبانه",
+   "cefrLevel": "B1",
+   "frame": "Would you mind + -ing …? / Would you mind if I + past …?",
+   "matches": [
+    "\\bwould you mind\\b",
+    "\\bwould it be possible\\b"
+   ],
+   "explanation": "A very polite way to ask someone to do something or to ask permission. Use -ing after 'mind': Would you mind closing the door? For permission: Would you mind if I opened the window? The polite answer 'no problem' is 'Not at all.'",
+   "explanationPersian": "روشی بسیار مؤدبانه برای درخواست یا اجازه گرفتن. بعد از mind شکل -ing می‌آید: Would you mind closing the door؟ برای اجازه: Would you mind if I opened the window؟ جواب مؤدبانهٔ «مشکلی نیست» می‌شود Not at all.",
+   "example": "Would you mind sending me the file before lunch?",
+   "examplePersian": "ممکن است قبل از ناهار فایل را برایم بفرستید؟",
+   "contexts": [
+    {
+     "id": "office-printer",
+     "level": 1,
+     "situation": "You are in an office. A colleague is standing next to the printer.",
+     "situationPersian": "در یک دفتر هستی. یک همکار کنار چاپگر ایستاده است.",
+     "goal": "Ask them politely to print one page for you.",
+     "goalPersian": "مؤدبانه از او بخواه یک صفحه برایت چاپ کند.",
+     "targetPhrases": [
+      "would you mind"
+     ],
+     "references": [
+      "Would you mind printing this page for me?",
+      "Would you mind printing one page for me, please?",
+      "Would it be possible to print this page?"
+     ],
+     "feedback": "'Would you mind + -ing' is indirect, so it sounds polite even for a small favour.",
+     "feedbackPersian": "Would you mind + -ing غیرمستقیم است، برای همین حتی برای یک خواهش کوچک مؤدبانه به نظر می‌رسد."
+    },
+    {
+     "id": "train-window",
+     "level": 1,
+     "situation": "You are on a train. The window next to you is open and it is cold.",
+     "situationPersian": "در قطار هستی. پنجرهٔ کنار تو باز است و هوا سرد است.",
+     "goal": "Ask the passenger if it is OK to close it.",
+     "goalPersian": "از مسافر بپرس بستن آن مشکلی دارد یا نه.",
+     "targetPhrases": [
+      "would you mind"
+     ],
+     "references": [
+      "Would you mind if I closed the window?",
+      "Would you mind closing the window? It is a bit cold.",
+      "Do you mind if I close the window?"
+     ],
+     "feedback": "After 'Would you mind if I' use the past simple: closed. With 'mind' + -ing you ask THEM to do it.",
+     "feedbackPersian": "بعد از Would you mind if I گذشتهٔ ساده می‌آید: closed. با mind + -ing از طرف مقابل می‌خواهی کاری بکند."
+    },
+    {
+     "id": "leave-early",
+     "level": 2,
+     "situation": "It is Thursday. You have a doctor appointment at four, but your working day ends at five.",
+     "situationPersian": "پنجشنبه است. ساعت چهار نزد پزشک وقت داری اما کار تو ساعت پنج تمام می‌شود.",
+     "goal": "Ask your manager for permission to leave early.",
+     "goalPersian": "از مدیرت برای زودتر رفتن اجازه بگیر.",
+     "targetPhrases": [
+      "would you mind if"
+     ],
+     "references": [
+      "Would you mind if I left a bit early today?",
+      "Would you mind if I left at three thirty? I have a doctor appointment.",
+      "Would it be OK if I left early today?"
+     ],
+     "feedback": "For permission, use 'if I' + past simple. Give the reason in a few words.",
+     "feedbackPersian": "برای اجازه از if I + گذشتهٔ ساده استفاده کن. دلیل را در چند کلمه بگو."
+    },
+    {
+     "id": "loud-music",
+     "level": 2,
+     "situation": "Your neighbour is playing loud music at eleven o'clock at night. You have to get up early.",
+     "situationPersian": "همسایه‌ات ساعت یازده شب موسیقی بلند گذاشته است. تو باید صبح زود بیدار شوی.",
+     "goal": "Ask them nicely to turn it down.",
+     "goalPersian": "مؤدبانه از او بخواه صدا را کم کند.",
+     "targetPhrases": [
+      "would you mind"
+     ],
+     "references": [
+      "Would you mind turning the music down a little?",
+      "Would you mind turning it down, please? It is quite late.",
+      "Would you mind keeping the music down? I have to get up early."
+     ],
+     "feedback": "A polite request with a reason is more likely to get a positive answer than an order.",
+     "feedbackPersian": "درخواست مؤدبانه همراه با دلیل بیشتر احتمال پاسخ مثبت دارد تا یک دستور."
+    },
+    {
+     "id": "own-favour",
+     "level": 3,
+     "situation": "Think of a favour you would like to ask someone in your life: a friend, a neighbour or a colleague.",
+     "situationPersian": "به خواهشی فکر کن که می‌خواهی از کسی در زندگی‌ات بکنی: دوست، همسایه یا همکار.",
+     "goal": "Write a polite request for it.",
+     "goalPersian": "برای آن یک درخواست مؤدبانه بنویس.",
+     "targetPhrases": [
+      "would you mind"
+     ],
+     "references": [
+      "Would you mind watering my plants while I am away next week?",
+      "Would you mind giving me a lift to the station on Friday?"
+     ],
+     "feedback": "Use the same pattern for a real favour. Name the action and the time.",
+     "feedbackPersian": "همین الگو را برای یک خواهش واقعی به کار ببر. کار و زمان را بگو.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "been-trying",
+   "title": "Talking about an effort that is still going on",
+   "titlePersian": "صحبت دربارهٔ تلاشی که هنوز ادامه دارد",
+   "cefrLevel": "B1",
+   "frame": "I've been trying to … / I've been working on …",
+   "matches": [
+    "\\bi'?ve been (trying|working|meaning)\\b",
+    "\\bi have been (trying|working|meaning)\\b"
+   ],
+   "explanation": "The present perfect continuous (have been + -ing) shows an effort that started in the past and is still going on: I've been trying to reach you all morning. Use for + a period or since + a starting point.",
+   "explanationPersian": "حال کامل استمراری (have been + -ing) تلاشی را نشان می‌دهد که در گذشته شروع شده و هنوز ادامه دارد: I've been trying to reach you all morning. با for + مدت یا since + نقطهٔ شروع به کار می‌رود.",
+   "example": "I've been trying to learn ten new words every day.",
+   "examplePersian": "مدتی است سعی می‌کنم هر روز ده کلمهٔ جدید یاد بگیرم.",
+   "contexts": [
+    {
+     "id": "bank-phone",
+     "level": 1,
+     "situation": "You have called the bank all morning and nobody answers.",
+     "situationPersian": "تمام صبح به بانک زنگ زده‌ای و کسی جواب نمی‌دهد.",
+     "goal": "Tell the clerk about your effort.",
+     "goalPersian": "به کارمند بگو چه تلاشی کرده‌ای.",
+     "targetPhrases": [
+      "i've been trying"
+     ],
+     "references": [
+      "I've been trying to call you all morning.",
+      "I've been trying to reach someone in your department since nine o'clock."
+     ],
+     "feedback": "Use 'I've been trying to' for an attempt that is still going on.",
+     "feedbackPersian": "I've been trying to را برای تلاشی که هنوز ادامه دارد به کار ببر."
+    },
+    {
+     "id": "locked-account",
+     "level": 1,
+     "situation": "Your online account is locked and you cannot enter it.",
+     "situationPersian": "حساب آنلاین تو قفل شده و نمی‌توانی وارد شوی.",
+     "goal": "Explain to the support agent what you have tried.",
+     "goalPersian": "به مأمور پشتیبانی بگو چه کاری کرده‌ای.",
+     "targetPhrases": [
+      "i've been trying"
+     ],
+     "references": [
+      "I've been trying to log in for an hour, but it doesn't work.",
+      "I've been trying to reset my password since this morning."
+     ],
+     "feedback": "Add 'for + time' or 'since + moment' to show how long.",
+     "feedbackPersian": "for + مدت یا since + لحظه اضافه کن تا نشان بدهی چقدر طول کشیده."
+    },
+    {
+     "id": "new-habit",
+     "level": 2,
+     "situation": "A friend notices that you are drinking more water.",
+     "situationPersian": "یک دوست متوجه می‌شود آب بیشتری می‌نوشی.",
+     "goal": "Say what you have been trying to do recently.",
+     "goalPersian": "بگو اخیراً چه کاری را سعی می‌کنی انجام بدهی.",
+     "targetPhrases": [
+      "i've been trying"
+     ],
+     "references": [
+      "I've been trying to drink more water.",
+      "I've been trying to go to bed earlier."
+     ],
+     "feedback": "'Been trying to' fits habits you are still building.",
+     "feedbackPersian": "been trying to برای عادت‌هایی است که هنوز در حال ساختنشان هستی."
+    },
+    {
+     "id": "slow-project",
+     "level": 2,
+     "situation": "A colleague asks why the project is slow.",
+     "situationPersian": "یک همکار می‌پرسد چرا پروژه کند است.",
+     "goal": "Explain what you have been working on and for how long.",
+     "goalPersian": "توضیح بده روی چه چیزی و چه مدت کار کرده‌ای.",
+     "targetPhrases": [
+      "i've been working",
+      "i've been trying"
+     ],
+     "references": [
+      "I've been working on the data for two weeks, but it is not clean.",
+      "I've been trying to fix a bug since Monday."
+     ],
+     "feedback": "'Been working on' + noun + 'for / since' explains the delay clearly.",
+     "feedbackPersian": "been working on + اسم + for / since تأخیر را روشن توضیح می‌دهد."
+    },
+    {
+     "id": "own-effort",
+     "level": 3,
+     "situation": "Think of something you have been trying to do or improve recently.",
+     "situationPersian": "به چیزی فکر کن که اخیراً سعی کرده‌ای انجام بدهی یا بهتر کنی.",
+     "goal": "Write about it in two sentences.",
+     "goalPersian": "دربارهٔ آن در دو جمله بنویس.",
+     "targetPhrases": [
+      "i've been trying",
+      "i've been working"
+     ],
+     "references": [
+      "I've been trying to write a short English text every day. I've been doing it since January.",
+      "I've been working on my fitness for three months. I've been trying to run twice a week."
+     ],
+     "feedback": "One sentence for the effort, one for how long or why.",
+     "feedbackPersian": "یک جمله برای تلاش، یک جمله برای مدت یا دلیل.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "polite-disagreement",
+   "title": "Disagreeing politely",
+   "titlePersian": "مخالفت مؤدبانه",
+   "cefrLevel": "B2",
+   "frame": "I see your point, but … / I'm afraid I don't agree / I'm not convinced that …",
+   "matches": [
+    "\\bi see your point\\b",
+    "\\bi'?m afraid i don'?t agree\\b",
+    "\\bi'?m not convinced\\b",
+    "\\bthat'?s a fair point\\b"
+   ],
+   "explanation": "Acknowledge the other person first, then give your view: I see your point, but …. Soften a 'no' with I'm afraid I don't agree, or show doubt with I'm not convinced that …. Avoid 'You are wrong'.",
+   "explanationPersian": "اول طرف مقابل را تأیید کن، بعد نظرت را بگو: I see your point, but …. «نه» را با I'm afraid I don't agree نرم کن یا تردید را با I'm not convinced that … نشان بده. از «You are wrong» پرهیز کن.",
+   "example": "I see your point, but I think we should wait for the data.",
+   "examplePersian": "نکتهٔ شما را می‌فهمم، اما فکر می‌کنم باید منتظر داده‌ها بمانیم.",
+   "contexts": [
+    {
+     "id": "report-deadline",
+     "level": 1,
+     "situation": "A colleague suggests finishing the report by tomorrow, but that is not realistic.",
+     "situationPersian": "یک همکار پیشنهاد می‌کند گزارش را تا فردا تمام کنید، اما این واقع‌بینانه نیست.",
+     "goal": "Disagree politely and say why.",
+     "goalPersian": "مؤدبانه مخالفت کن و دلیلش را بگو.",
+     "targetPhrases": [
+      "i see your point",
+      "i'm afraid i don't agree"
+     ],
+     "references": [
+      "I see your point, but I don't think we can finish by tomorrow.",
+      "I'm afraid I don't agree. We need at least two more days."
+     ],
+     "feedback": "Acknowledge first, then give the reason, not just 'no'.",
+     "feedbackPersian": "اول تأیید کن، بعد دلیل را بگو، نه فقط «نه»."
+    },
+    {
+     "id": "restaurant-price",
+     "level": 1,
+     "situation": "Your friends want to eat at a restaurant that you think is too expensive.",
+     "situationPersian": "دوستانت می‌خواهند در رستورانی غذا بخورند که به نظر تو خیلی گران است.",
+     "goal": "Politely say you disagree.",
+     "goalPersian": "مؤدبانه بگو موافق نیستی.",
+     "targetPhrases": [
+      "i see your point",
+      "i'm not convinced"
+     ],
+     "references": [
+      "I see your point, but it's a bit expensive for me.",
+      "I'm not convinced it's worth the price. Could we try somewhere cheaper?"
+     ],
+     "feedback": "Offer an alternative: it turns disagreement into a plan.",
+     "feedbackPersian": "یک جایگزین پیشنهاد بده: مخالفت را به یک برنامه تبدیل می‌کند."
+    },
+    {
+     "id": "weekly-meeting",
+     "level": 2,
+     "situation": "Your manager wants to remove the weekly team meeting, but you think it is useful.",
+     "situationPersian": "مدیرت می‌خواهد جلسهٔ هفتگی تیم را حذف کند اما به نظر تو مفید است.",
+     "goal": "Disagree and offer an alternative.",
+     "goalPersian": "مخالفت کن و یک جایگزین پیشنهاد بده.",
+     "targetPhrases": [
+      "i see your point",
+      "i'm afraid i don't agree"
+     ],
+     "references": [
+      "I see your point, but I think the meeting helps us stay aligned. Could we make it shorter?",
+      "I'm afraid I don't agree. What if we reduce it to fifteen minutes?"
+     ],
+     "feedback": "With a manager, use 'I'm afraid I don't agree' and propose a compromise.",
+     "feedbackPersian": "با مدیر از I'm afraid I don't agree استفاده کن و یک مصالحه پیشنهاد بده."
+    },
+    {
+     "id": "online-courses",
+     "level": 2,
+     "situation": "A friend says online courses are always better than classroom courses.",
+     "situationPersian": "یک دوست می‌گوید دوره‌های آنلاین همیشه از کلاس‌های حضوری بهترند.",
+     "goal": "Respond to the claim with doubt.",
+     "goalPersian": "با تردید به این ادعا پاسخ بده.",
+     "targetPhrases": [
+      "i'm not convinced",
+      "that's a fair point"
+     ],
+     "references": [
+      "I'm not convinced that's always true. It depends on the person.",
+      "That's a fair point, but I think classroom courses have advantages too."
+     ],
+     "feedback": "'Not convinced that …' questions a claim without attacking the person.",
+     "feedbackPersian": "not convinced that … ادعا را زیر سؤال می‌برد بدون حمله به شخص."
+    },
+    {
+     "id": "own-disagree",
+     "level": 3,
+     "situation": "Think of an opinion you do not share, in a conversation at work or with friends.",
+     "situationPersian": "به نظری فکر کن که با آن موافق نیستی، در یک گفتگوی کاری یا دوستانه.",
+     "goal": "Write how you would disagree politely.",
+     "goalPersian": "بنویس چطور مؤدبانه مخالفت می‌کردی.",
+     "targetPhrases": [
+      "i see your point",
+      "i'm afraid i don't agree",
+      "i'm not convinced"
+     ],
+     "references": [
+      "I see your point, but I think remote work is not for everyone. It depends on the job.",
+      "I'm not convinced that longer meetings are better. I think shorter ones keep people focused."
+     ],
+     "feedback": "Acknowledge, disagree, give one reason.",
+     "feedbackPersian": "تأیید کن، مخالفت کن، یک دلیل بگو.",
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "conditional-offers",
+   "title": "Making an offer with a condition",
+   "titlePersian": "پیشنهاد مشروط دادن",
+   "cefrLevel": "B2",
+   "frame": "… provided that … / … as long as … / We'd be willing to …",
+   "matches": [
+    "\\bprovided that\\b",
+    "\\bas long as\\b",
+    "\\bwe'?d be willing\\b",
+    "\\bon condition that\\b"
+   ],
+   "explanation": "To make a conditional offer, state what you can give and the condition: We can offer a discount, provided that you pay today. As long as and on condition that mean the same. After them use the present simple (no will).",
+   "explanationPersian": "برای پیشنهاد مشروط بگو چه چیزی می‌دهی و شرطش چیست: We can offer a discount, provided that you pay today. as long as و on condition that هم‌معنی‌اند. بعد از آن‌ها حال ساده می‌آید (بدون will).",
+   "example": "We'll agree as long as the delivery is on time.",
+   "examplePersian": "قبول می‌کنیم به شرط آن‌که تحویل به موقع باشد.",
+   "contexts": [
+    {
+     "id": "freelance-website",
+     "level": 1,
+     "situation": "A client asks you to finish a website in one week. You can do it if they send the texts today.",
+     "situationPersian": "مشتری می‌خواهد وب‌سایت را در یک هفته تمام کنی. اگر امروز متن‌ها را بفرستد می‌توانی.",
+     "goal": "Agree, but state your condition.",
+     "goalPersian": "قبول کن اما شرطت را بگو.",
+     "targetPhrases": [
+      "provided that",
+      "as long as"
+     ],
+     "references": [
+      "I can finish it in a week, provided that you send me the texts today.",
+      "I can do it as long as you send the texts by tonight."
+     ],
+     "feedback": "Give the offer first, then the condition after 'provided that / as long as'.",
+     "feedbackPersian": "اول پیشنهاد را بگو، بعد شرط را بعد از provided that / as long as بیاور."
+    },
+    {
+     "id": "flat-rent",
+     "level": 1,
+     "situation": "You want to rent a flat. The landlord asks for a higher price.",
+     "situationPersian": "می‌خواهی آپارتمانی اجاره کنی. صاحبخانه قیمت بیشتری می‌خواهد.",
+     "goal": "Offer to pay more only if something changes.",
+     "goalPersian": "پیشنهاد بده فقط در صورت تغییر چیزی بیشتر بپردازی.",
+     "targetPhrases": [
+      "as long as",
+      "provided that",
+      "we'd be willing"
+     ],
+     "references": [
+      "I'd be willing to pay more, as long as you include the internet.",
+      "We'd be willing to pay a bit more, provided that the contract is for two years."
+     ],
+     "feedback": "After 'as long as' use the present simple: 'you include', not 'you will include'.",
+     "feedbackPersian": "بعد از as long as حال ساده بیاور: you include، نه you will include."
+    },
+    {
+     "id": "supplier-payment",
+     "level": 2,
+     "situation": "A supplier wants a quick payment. You need a discount in return.",
+     "situationPersian": "یک تأمین‌کننده پرداخت سریع می‌خواهد. تو در عوض تخفیف می‌خواهی.",
+     "goal": "Offer quick payment with a condition.",
+     "goalPersian": "پرداخت سریع را با یک شرط پیشنهاد بده.",
+     "targetPhrases": [
+      "provided that",
+      "as long as",
+      "we'd be willing"
+     ],
+     "references": [
+      "We can pay within seven days, provided that you give us a five percent discount.",
+      "We'd be willing to pay in a week, as long as the price is lower."
+     ],
+     "feedback": "In negotiation, every offer has a condition: give something, ask for something.",
+     "feedbackPersian": "در مذاکره هر پیشنهاد شرطی دارد: چیزی بده، چیزی بخواه."
+    },
+    {
+     "id": "cover-shift",
+     "level": 2,
+     "situation": "A colleague asks you to cover their shift on Saturday.",
+     "situationPersian": "یک همکار از تو می‌خواهد شنبه جای او شیفت بگذاری.",
+     "goal": "Agree, but ask for something in return.",
+     "goalPersian": "قبول کن اما در عوض چیزی بخواه.",
+     "targetPhrases": [
+      "as long as",
+      "provided that"
+     ],
+     "references": [
+      "I can cover your shift, as long as you take mine next week.",
+      "Sure, provided that you take my Sunday shift."
+     ],
+     "feedback": "A friendly condition keeps things fair.",
+     "feedbackPersian": "یک شرط دوستانه همه چیز را منصفانه نگه می‌دارد."
+    },
+    {
+     "id": "own-condition",
+     "level": 3,
+     "situation": "Think of something you would agree to do, but only under a condition.",
+     "situationPersian": "به چیزی فکر کن که قبول می‌کنی انجام بدهی اما فقط با یک شرط.",
+     "goal": "Write your offer with the condition.",
+     "goalPersian": "پیشنهادت را با شرط بنویس.",
+     "targetPhrases": [
+      "as long as",
+      "provided that",
+      "we'd be willing"
+     ],
+     "references": [
+      "I'd be happy to work on Saturdays, provided that I can take a day off during the week.",
+      "I'll take the project, as long as I can choose my own team."
+     ],
+     "feedback": "Offer + condition: one sentence is enough.",
+     "feedbackPersian": "پیشنهاد + شرط: یک جمله کافی است.",
+     "open": true
+    }
+   ]
+  }
+ ]
+}
