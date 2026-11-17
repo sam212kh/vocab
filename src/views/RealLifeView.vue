@@ -37,6 +37,7 @@ import type {
     RealLifeScenarioManifest,
 } from '../types/realLife'
 import type { ConversationSession } from '../types/conversation'
+import AudioPlayer from "../components/learn/AudioPlayer.vue";
 
 const route = useRoute()
 const router = useRouter()
@@ -522,7 +523,9 @@ watch(() => [route.query.scenario, route.query.step], () => { void applyRouteQue
                 <h1 class="mt-5">{{ activeScenario.title }}</h1>
                 <p class="text-gray-500" dir="rtl">{{ activeScenario.titlePersian }}</p>
 
-                <p class="mx-auto mt-5 max-w-md text-gray-700">{{ activeScenario.context }}</p>
+                <p class="mx-auto mt-5 max-w-md text-gray-700">{{ activeScenario.context }}
+                    <AudioPlayer :text="activeScenario.context" size="md"   tone="practice" />
+                </p>
                 <p class="mx-auto mt-3 max-w-md rounded-xl bg-gray-50 p-3 text-sm text-gray-600" dir="rtl">
                     {{ activeScenario.contextPersian }}
                 </p>
