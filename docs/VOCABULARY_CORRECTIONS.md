@@ -33,10 +33,10 @@ placeholder records in these two files.
 
 ## Follow-up repository-wide repair
 
-The same placeholder pair was also found in 36 entries across `hard/batch-06`,
+The same placeholder pair was also found in 35 entries across `hard/batch-06`,
 `hard/batch-09`, `hard-v2/batch-02`, and `hard-v2/batch-09`. One additional
 `relevant` record used `related` as a generic synonym, and Oxford's
-`comparable` entry had only one synonym. These 38 records were corrected using
+`comparable` entry had only one synonym. These 37 records were corrected using
 the same headword, part-of-speech, meaning, and example-context review. The
 exact placeholder pair now occurs **zero** times under `public/data`.
 
