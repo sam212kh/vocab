@@ -7,9 +7,11 @@ import { useEvidenceRecorder } from './composables/useEvidenceRecorder'
 import AppSidebar from './components/layout/AppSidebar.vue'
 import AppToast from './components/ui/AppToast.vue'
 import AppIcon from './components/ui/AppIcon.vue'
+import { installLocaleDomBridge, useLocale } from './services/locale'
 
 const route = useRoute()
 const router = useRouter()
+const { t, isPersian } = useLocale()
 const mode = computed(() => modeForPath(route.path))
 
 const scrolled = ref(false)
@@ -24,6 +26,7 @@ const mainEl = ref<HTMLElement | null>(null)
 const editingText = ref(false)
 
 const sidebarOpen = ref(false)
+let localeDomBridge: ReturnType<typeof installLocaleDomBridge> | null = null
 
 /* In-app navigation to a different page moves focus to the content. Not on the first load
  * (the skip link must stay first in tab order) and not on query-only changes. */
@@ -56,12 +59,14 @@ function goToTop() {
 
 onMounted(() => {
     useEvidenceRecorder().ensureBackfill()
+    localeDomBridge = installLocaleDomBridge(document.body)
     window.addEventListener('scroll', handleScroll)
     window.addEventListener('focusin', handleFocusIn)
     window.addEventListener('focusout', handleFocusOut)
 })
 
 onUnmounted(() => {
+    localeDomBridge?.stop()
     stopFocusHook()
     window.removeEventListener('scroll', handleScroll)
     window.removeEventListener('focusin', handleFocusIn)
@@ -70,8 +75,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="min-h-screen bg-surface text-gray-900" :data-mode="mode">
-        <a href="#main" class="sr-only z-50 rounded-xl bg-white px-4 py-2 font-semibold text-gray-900 shadow-md focus:not-sr-only focus:fixed focus:left-3 focus:top-3" @click.prevent="mainEl?.focus()">Skip to content</a>
+    <div class="min-h-screen bg-surface text-gray-900" :data-mode="mode" :dir="isPersian ? 'rtl' : 'ltr'">
+        <a href="#main" class="sr-only z-50 rounded-xl bg-white px-4 py-2 font-semibold text-gray-900 shadow-md focus:not-sr-only focus:fixed focus:start-3 focus:top-3" @click.prevent="mainEl?.focus()">{{ t('app.skipToContent') }}</a>
         <AppToast />
 
         <!-- Mobile header: a real sticky bar that OWNS layout space, so page
@@ -83,12 +88,12 @@ onUnmounted(() => {
             <button
                 type="button"
                 class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white text-gray-700 shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
-                aria-label="Open menu"
+                :aria-label="t('app.openMenu')"
                 @click="sidebarOpen = true"
             >
                 <AppIcon name="menu" />
             </button>
-            <span class="font-display truncate text-lg font-semibold">English Upgrade</span>
+            <span class="font-display truncate text-lg font-semibold">{{ t('app.name') }}</span>
         </header>
 
         <div class="flex min-h-screen">
@@ -109,7 +114,7 @@ onUnmounted(() => {
                 v-if="scrolled && !editingText && !route.meta.focusLayout"
                 type="button"
                 class="fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full bg-gray-900 text-white shadow-lg hover:bg-gray-700"
-                aria-label="Back to top"
+                :aria-label="t('app.backToTop')"
                 @click="goToTop"
             >
                 ↑

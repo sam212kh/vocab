@@ -13,6 +13,7 @@ import {
     setSpeechVoice,
 } from '../../services/speech'
 import type { SpeechRate } from '../../services/speech'
+import { useLocale } from '../../services/locale'
 
 const props = defineProps<{
     /** Mobile drawer visibility — owned by App.vue's sticky header. */
@@ -24,6 +25,7 @@ const emit = defineEmits<{
 }>()
 
 const route = useRoute()
+const { t, isPersian, locale, setLocale } = useLocale()
 const speechProvider = ref(getSpeechProvider())
 watch(speechProvider, setSpeechProvider)
 const speechRate = ref<SpeechRate>(getSpeechRate())
@@ -41,7 +43,7 @@ onMounted(async () => {
 type SectionKey = 'today' | 'learn' | 'practice' | 'career' | 'me'
 
 interface NavItem {
-    label: string
+    labelKey: string
     icon: string
     route: string
     /** Extra path prefixes that keep this item highlighted (e.g. lesson pages under Lessons). */
@@ -50,7 +52,7 @@ interface NavItem {
 
 interface NavSection {
     key: SectionKey
-    title: string
+    titleKey: string
     items: NavItem[]
 }
 
@@ -58,61 +60,61 @@ interface NavSection {
 const menuSections: NavSection[] = [
     {
         key: 'today',
-        title: 'Today',
+        titleKey: 'nav.today',
         items: [
-            { label: 'Dashboard', icon: 'home', route: '/' },
-            { label: 'Daily Journey', icon: 'compass', route: '/daily-journey' },
-            { label: 'Daily Session', icon: 'bolt', route: '/session' },
+            { labelKey: 'nav.dashboard', icon: 'home', route: '/' },
+            { labelKey: 'nav.dailyJourney', icon: 'compass', route: '/daily-journey' },
+            { labelKey: 'nav.dailySession', icon: 'bolt', route: '/session' },
         ],
     },
     {
         key: 'learn',
-        title: 'Learn',
+        titleKey: 'nav.learn',
         items: [
-            { label: 'Lessons', icon: 'book', route: '/lessons', also: ['/courses'] },
-            { label: 'Real-Life English', icon: 'sun', route: '/real-life' },
+            { labelKey: 'nav.lessons', icon: 'book', route: '/lessons', also: ['/courses'] },
+            { labelKey: 'nav.realLife', icon: 'sun', route: '/real-life' },
         ],
     },
     {
         key: 'practice',
-        title: 'Practice',
+        titleKey: 'nav.practice',
         items: [
-            { label: 'Practice', icon: 'pen', route: '/practice' },
-            { label: 'Cloze', icon: 'blank', route: '/cloze' },
-            { label: 'Matching', icon: 'link', route: '/matching' },
-            { label: 'Quiz', icon: 'help', route: '/quiz' },
-            { label: 'Grammar', icon: 'layers', route: '/grammar' },
-            { label: 'Reading', icon: 'book', route: '/reading' },
-            { label: 'Listening', icon: 'headphones', route: '/listening' },
-            { label: 'Listen & Repeat', icon: 'repeat', route: '/listen-repeat' },
-            { label: 'Listen & Guess', icon: 'ear', route: '/listen-guess' },
-            { label: 'Review', icon: 'refresh', route: '/review' },
-            { label: 'Hard Words', icon: 'star', route: '/hard-words' },
+            { labelKey: 'nav.practicePage', icon: 'pen', route: '/practice' },
+            { labelKey: 'nav.cloze', icon: 'blank', route: '/cloze' },
+            { labelKey: 'nav.matching', icon: 'link', route: '/matching' },
+            { labelKey: 'nav.quiz', icon: 'help', route: '/quiz' },
+            { labelKey: 'nav.grammar', icon: 'layers', route: '/grammar' },
+            { labelKey: 'nav.reading', icon: 'book', route: '/reading' },
+            { labelKey: 'nav.listening', icon: 'headphones', route: '/listening' },
+            { labelKey: 'nav.listenRepeat', icon: 'repeat', route: '/listen-repeat' },
+            { labelKey: 'nav.listenGuess', icon: 'ear', route: '/listen-guess' },
+            { labelKey: 'nav.review', icon: 'refresh', route: '/review' },
+            { labelKey: 'nav.hardWords', icon: 'star', route: '/hard-words' },
         ],
     },
     {
         key: 'practice',
-        title: 'Speak & write',
+        titleKey: 'nav.speakWrite',
         items: [
-            { label: 'Conversation', icon: 'chat', route: '/conversation' },
-            { label: 'Guided Speaking', icon: 'mic', route: '/guided-speaking' },
-            { label: 'Speaking Practice', icon: 'volume', route: '/speaking-practice' },
-            { label: 'Writing', icon: 'pen', route: '/writing' },
+            { labelKey: 'nav.conversation', icon: 'chat', route: '/conversation' },
+            { labelKey: 'nav.guidedSpeaking', icon: 'mic', route: '/guided-speaking' },
+            { labelKey: 'nav.speakingPractice', icon: 'volume', route: '/speaking-practice' },
+            { labelKey: 'nav.writing', icon: 'pen', route: '/writing' },
         ],
     },
     {
         key: 'career',
-        title: 'Career',
-        items: [{ label: 'Career English', icon: 'briefcase', route: '/career-english' }],
+        titleKey: 'nav.career',
+        items: [{ labelKey: 'nav.careerEnglish', icon: 'briefcase', route: '/career-english' }],
     },
     {
         key: 'me',
-        title: 'Me',
+        titleKey: 'nav.me',
         items: [
-            { label: 'Learning Progress', icon: 'chart', route: '/progress' },
-            { label: 'Skill Levels', icon: 'target', route: '/skills' },
-            { label: 'Profile', icon: 'user', route: '/profile' },
-            { label: 'AI Settings', icon: 'sliders', route: '/ai-settings' },
+            { labelKey: 'nav.progress', icon: 'chart', route: '/progress' },
+            { labelKey: 'nav.skills', icon: 'target', route: '/skills' },
+            { labelKey: 'nav.profile', icon: 'user', route: '/profile' },
+            { labelKey: 'nav.aiSettings', icon: 'sliders', route: '/ai-settings' },
         ],
     },
 ]
@@ -196,9 +198,13 @@ onBeforeUnmount(() => {
     />
 
     <aside
-        class="fixed inset-y-0 left-0 z-50 flex h-dvh w-[min(20rem,88vw)] -translate-x-full flex-col border-r border-gray-200/80 bg-white shadow-xl transition-transform duration-200 motion-reduce:transition-none md:sticky md:top-0 md:h-screen md:w-[17rem] md:shrink-0 md:translate-x-0 md:shadow-none"
-        :class="{ 'translate-x-0': open }"
-        aria-label="Main navigation"
+        class="fixed inset-y-0 z-50 flex h-dvh w-[min(20rem,88vw)] flex-col bg-white shadow-xl transition-transform duration-200 motion-reduce:transition-none md:sticky md:top-0 md:h-screen md:w-[17rem] md:shrink-0 md:translate-x-0 md:shadow-none"
+        :class="[
+            isPersian
+                ? `right-0 border-l border-gray-200/80 ${open ? 'translate-x-0' : 'translate-x-full'}`
+                : `left-0 border-r border-gray-200/80 ${open ? 'translate-x-0' : '-translate-x-full'}`,
+        ]"
+        :aria-label="t('app.mainNavigation')"
     >
         <!-- Brand -->
         <div class="flex items-center justify-between gap-3 px-5 pb-3 pt-[calc(1.25rem+env(safe-area-inset-top))] md:pt-5">
@@ -207,15 +213,15 @@ onBeforeUnmount(() => {
                     <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17l4-4 3 3 7-8" /><path d="M14 8h5v5" /></svg>
                 </span>
                 <span class="min-w-0">
-                    <span class="font-display block truncate text-lg font-semibold leading-tight text-gray-900">English Upgrade</span>
-                    <span class="block text-xs text-gray-400">Learn · Practice · Speak</span>
+                    <span class="font-display block truncate text-lg font-semibold leading-tight text-gray-900">{{ t('app.name') }}</span>
+                    <span class="block text-xs text-gray-400">{{ t('app.tagline') }}</span>
                 </span>
             </RouterLink>
 
             <button
                 type="button"
                 class="-mr-2 flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-gray-500 hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#243350]/25 md:hidden"
-                aria-label="Close menu"
+                :aria-label="t('app.closeMenu')"
                 @click="closeMobile"
             >
                 <AppIcon name="close" />
@@ -223,11 +229,11 @@ onBeforeUnmount(() => {
         </div>
 
         <!-- Navigation: the only scrolling region, so it always keeps its room -->
-        <nav class="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain px-3 pb-4 pt-2" aria-label="Sections">
-            <div v-for="section in menuSections" :key="section.title">
+        <nav class="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain px-3 pb-4 pt-2" :aria-label="t('app.sections')">
+            <div v-for="section in menuSections" :key="section.titleKey">
                 <p class="mb-1 flex items-center gap-2 px-3 text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-gray-400">
                     <span class="h-1.5 w-1.5 rounded-full" :class="THEME[section.key].dot" />
-                    {{ section.title }}
+                    {{ t(section.titleKey) }}
                 </p>
 
                 <ul class="space-y-0.5">
@@ -239,14 +245,38 @@ onBeforeUnmount(() => {
                             :aria-current="isActive(item) ? 'page' : undefined"
                             @click="closeMobile"
                         >
-                            <span v-if="isActive(item)" class="absolute -left-3 top-2 bottom-2 w-1 rounded-r-full" :class="THEME[section.key].bar" aria-hidden="true" />
+                            <span v-if="isActive(item)" class="absolute -start-3 top-2 bottom-2 w-1 rounded-e-full" :class="THEME[section.key].bar" aria-hidden="true" />
                             <AppIcon :name="item.icon" :size="19" :class="isActive(item) ? '' : 'text-gray-400 group-hover:text-gray-600'" />
-                            <span class="truncate">{{ item.label }}</span>
+                            <span class="truncate">{{ t(item.labelKey) }}</span>
                         </RouterLink>
                     </li>
                 </ul>
             </div>
         </nav>
+
+        <div class="border-t border-gray-200/80 px-3 pt-2">
+            <div class="flex items-center gap-3 rounded-xl px-3 py-1 text-sm font-medium text-gray-600">
+                <span class="flex-1">{{ t('language.label') }}</span>
+                <div class="flex rounded-lg border border-gray-200 bg-gray-50 p-0.5" role="group" :aria-label="t('language.label')">
+                    <button
+                        type="button"
+                        class="min-h-9 rounded-md px-2.5 text-xs font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                        :class="locale === 'en' ? 'bg-white text-accent-ink shadow-sm' : 'text-gray-500 hover:text-gray-900'"
+                        :aria-pressed="locale === 'en'"
+                        :aria-label="t('language.switchTo', { language: t('language.english') })"
+                        @click="setLocale('en')"
+                    >EN</button>
+                    <button
+                        type="button"
+                        class="min-h-9 rounded-md px-2.5 text-xs font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                        :class="locale === 'fa' ? 'bg-white text-accent-ink shadow-sm' : 'text-gray-500 hover:text-gray-900'"
+                        :aria-pressed="locale === 'fa'"
+                        :aria-label="t('language.switchTo', { language: t('language.persian') })"
+                        @click="setLocale('fa')"
+                    >فا</button>
+                </div>
+            </div>
+        </div>
 
         <!-- Voice settings: available, but collapsed so they never crowd the navigation -->
         <div class="border-t border-gray-200/80 px-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-2">
@@ -258,34 +288,34 @@ onBeforeUnmount(() => {
                 @click="voiceOpen = !voiceOpen"
             >
                 <AppIcon name="volume" :size="19" class="text-gray-400" />
-                <span class="flex-1 text-left">Voice settings</span>
+                <span class="flex-1 text-start">{{ t('voice.settings') }}</span>
                 <AppIcon name="chevron-down" :size="16" class="text-gray-400 transition-transform" :class="voiceOpen ? 'rotate-180' : ''" />
             </button>
 
             <div v-show="voiceOpen" id="voice-settings" class="space-y-3 px-3 pb-2 pt-2">
                 <div>
-                    <label for="speech-provider" class="mb-1 block text-xs font-medium text-gray-500">Pronunciation voice</label>
+                    <label for="speech-provider" class="mb-1 block text-xs font-medium text-gray-500">{{ t('voice.provider') }}</label>
                     <select id="speech-provider" v-model="speechProvider" class="field !min-h-10 !text-sm">
-                        <option value="automatic">Automatic</option>
-                        <option value="neural">Neural Voice</option>
-                        <option value="system">System Voice</option>
+                        <option value="automatic">{{ t('voice.automatic') }}</option>
+                        <option value="neural">{{ t('voice.neural') }}</option>
+                        <option value="system">{{ t('voice.system') }}</option>
                     </select>
                 </div>
                 <div>
-                    <label for="speech-voice" class="mb-1 block text-xs font-medium text-gray-500">Voice</label>
+                    <label for="speech-voice" class="mb-1 block text-xs font-medium text-gray-500">{{ t('voice.voice') }}</label>
                     <select id="speech-voice" v-model="speechVoice" class="field !min-h-10 !text-sm">
                         <option v-for="voice in speechVoices" :key="voice.id" :value="voice.id">{{ voice.label }}</option>
                     </select>
                 </div>
                 <div>
-                    <label for="speech-rate" class="mb-1 block text-xs font-medium text-gray-500">Speech speed</label>
+                    <label for="speech-rate" class="mb-1 block text-xs font-medium text-gray-500">{{ t('voice.speed') }}</label>
                     <select id="speech-rate" v-model="speechRate" class="field !min-h-10 !text-sm">
-                        <option :value="0.6">Very slow</option>
-                        <option :value="0.75">Slow</option>
-                        <option :value="0.9">Normal</option>
-                        <option :value="1">Fast</option>
-                        <option :value="1.15">Very fast</option>
-                        <option :value="1.3">Extra fast</option>
+                        <option :value="0.6">{{ t('voice.verySlow') }}</option>
+                        <option :value="0.75">{{ t('voice.slow') }}</option>
+                        <option :value="0.9">{{ t('voice.normal') }}</option>
+                        <option :value="1">{{ t('voice.fast') }}</option>
+                        <option :value="1.15">{{ t('voice.veryFast') }}</option>
+                        <option :value="1.3">{{ t('voice.extraFast') }}</option>
                     </select>
                 </div>
             </div>

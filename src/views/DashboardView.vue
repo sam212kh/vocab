@@ -18,6 +18,7 @@ import { useLearningPositionStore } from '../stores/learningPosition'
 
 import { buildDailyRecommendation } from '../services/learningRecommendation'
 import { recentActivity, relativeTime } from '../services/recentActivity'
+import { useLocale } from '../services/locale'
 
 const wordProgressStore = useWordProgressStore()
 const hardWordsStore = useHardWordsStore()
@@ -27,6 +28,7 @@ const performanceStore = usePerformanceStore()
 const mistakesStore = useMistakesStore()
 const journeyStore = useJourneyStore()
 const positionStore = useLearningPositionStore()
+const { locale } = useLocale()
 
 const recommendation = computed(() =>
     buildDailyRecommendation({
@@ -124,7 +126,10 @@ const otherActions = computed(() => recommendation.value.activities.slice(1, 5))
 
 const now = new Date()
 const greeting = now.getHours() < 12 ? 'Good morning' : now.getHours() < 18 ? 'Good afternoon' : 'Good evening'
-const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })
+const dateLabel = computed(() => now.toLocaleDateString(
+    locale.value === 'fa' ? 'fa-IR' : 'en-US',
+    { weekday: 'long', month: 'long', day: 'numeric' },
+))
 
 const QUICK = [
     { label: 'Lessons', to: '/lessons', icon: 'book' },

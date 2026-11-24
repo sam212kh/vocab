@@ -25,7 +25,7 @@
     "word": "document",
     "meaning": "سند؛ مستندسازی کردن",
     "level": "504",
-    "pos": "noun",
+    "pos": "noun / verb",
     "synonyms": [],
     "examples": [
       [
@@ -162,7 +162,7 @@
     "examples": [
       [
         "This recipe will lack flavor if you forget to add salt.",
-        "اگر نمک اضافه کردن را فراموش کنی، این دستور غذا کمبود طعم خواهد داشت."
+        "اگر نمک اضافه نکنی، این دستور غذا طعم خوبی نخواهد داشت."
       ],
       [
         "Many rural schools lack the basic equipment that city schools take for granted.",
@@ -201,7 +201,7 @@
     "word": "rage",
     "meaning": "خشم شدید",
     "level": "504",
-    "pos": "noun",
+    "pos": "noun / verb",
     "synonyms": [],
     "examples": [
       [
@@ -214,7 +214,7 @@
       ],
       [
         "Fans began to rage on social media after the team's referee controversy.",
-        "طرفداران بعد از جنجال داوری تیم، در شبکه‌های اجتماعی با خشم واکنش نشان دادند."
+        "طرفداران بعد از جنجال داوری تیم، خشم خود را در شبکه‌های اجتماعی ابراز کردند."
       ]
     ],
     "miniContext": "Rage is an intense, often uncontrollable anger that can take over a person's actions. He felt a surge of rage when he learned his idea had been stolen without credit. Storms can also rage, with wind and rain hitting a coastline for days without pause. Learning to manage rage, rather than suppress it completely, is considered healthier in the long run."

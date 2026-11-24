@@ -608,7 +608,7 @@
     "examples": [
       [
         "We need to protect the integrity of the data.",
-        "باید از صحت Data محافظت کنیم."
+        "باید از صحت داده‌ها محافظت کنیم."
       ],
       [
         "The system maintains data integrity.",
@@ -756,7 +756,7 @@
         "ماندگار"
       ],
       [
-        "persistent",
+        "continuous",
         "مداوم"
       ]
     ],
