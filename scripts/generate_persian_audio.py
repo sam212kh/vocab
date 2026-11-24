@@ -151,7 +151,7 @@ async def main():
                 total += 1
 
                 # Resume-safe
-                if output_file.exists():
+                if output_file.exists() and output_file.stat().st_size > 0:
 
                     skipped += 1
 
@@ -163,10 +163,9 @@ async def main():
 
                 try:
 
-                    await generate_audio(
-                        meaning,
-                        output_file,
-                    )
+                    temporary_file = output_file.with_suffix('.tmp.mp3')
+                    await generate_audio(meaning, temporary_file)
+                    temporary_file.replace(output_file)
 
                     generated += 1
 
@@ -175,6 +174,12 @@ async def main():
                     )
 
                 except Exception as e:
+
+                    temporary_file = output_file.with_suffix('.tmp.mp3')
+                    if temporary_file.exists():
+                        temporary_file.unlink()
+                    if output_file.exists() and output_file.stat().st_size == 0:
+                        output_file.unlink()
 
                     failed += 1
 

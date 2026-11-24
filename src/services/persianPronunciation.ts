@@ -1,3 +1,5 @@
+import { speakAsync } from './speech'
+
 const AUDIO_BASE_PATH = '/audio/fa'
 
 let currentAudio: HTMLAudioElement | null = null
@@ -106,11 +108,13 @@ export function playPersianPronunciation(
                 resolveCurrentAudio = null
             }
 
-            reject(
-                new Error(
-                    `Persian audio not found: ${url}`
-                )
-            )
+            // Pre-recorded files are preferred, but a missing/corrupt asset
+            // must not make Persian pronunciation unavailable. Fall back to
+            // the browser/system Persian voice for that word.
+            void speakAsync(word, 'fa-IR').then(ok => {
+                if (ok) resolve()
+                else reject(new Error(`Persian audio not found: ${url}`))
+            })
         }
 
         audio.play().catch(error => {
