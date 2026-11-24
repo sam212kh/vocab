@@ -18,6 +18,10 @@ interface RawWord {
     icon?: unknown
 }
 
+// Bump `public/data/manifest.json` version whenever published content changes.
+// Lesson JSON is static and otherwise can remain cached by a production CDN.
+let contentVersion = '1'
+
 function normalizeExample(value: unknown): Example {
     if (Array.isArray(value)) {
         return {
@@ -102,6 +106,8 @@ export async function loadManifest(): Promise<Manifest> {
     const manifest =
         (await response.json()) as Manifest
 
+    contentVersion = String(manifest.version ?? '1')
+
     if (
         !manifest ||
         !Array.isArray(manifest.courses)
@@ -133,7 +139,10 @@ export async function loadLesson(
         .replace(/^\.\//, '')
         .replace(/^\//, '')
 
-    const response = await fetch(`/data/${file}`)
+    const response = await fetch(
+        `/data/${file}?v=${encodeURIComponent(contentVersion)}`,
+        { cache: 'no-store' },
+    )
 
     if (!response.ok) {
         throw new Error(

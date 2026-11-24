@@ -409,7 +409,7 @@ function removeCurrentWord() {
 
                     <SpeechButton
                         :text="
-                            currentWord.meaning
+                            currentWord.word
                         "
                         lang="fa-IR"
                     />

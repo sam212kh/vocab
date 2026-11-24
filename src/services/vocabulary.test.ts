@@ -63,17 +63,22 @@ describe('loadLesson', () => {
     }
 
     it('normalizes examples given as [english, persian] tuples', async () => {
-        vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
+        const fetchMock = vi.fn().mockResolvedValue(jsonResponse([
             {
                 word: 'abundant',
                 meaning: 'فراوان',
                 examples: [['There is abundant evidence.', 'شواهد فراوانی وجود دارد.']],
                 synonyms: ['plentiful'],
             },
-        ])))
+        ]))
+        vi.stubGlobal('fetch', fetchMock)
 
         const words = await loadLesson(lesson)
 
+        expect(fetchMock).toHaveBeenCalledWith(
+            '/data/lesson-1.json?v=1',
+            { cache: 'no-store' },
+        )
         expect(words).toHaveLength(1)
         expect(words[0].examples[0]).toEqual({
             english: 'There is abundant evidence.',
