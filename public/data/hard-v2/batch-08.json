@@ -5,26 +5,26 @@
     "word": "temerity",
     "meaning": "گستاخی و جسارت",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "noun",
     "synonyms": [
       "audacity",
       "boldness"
     ],
     "examples": [
       {
-        "english": "His temerity approach helped him deal with the situation calmly.",
-        "persian": "رویکرد گستاخی و جسارت او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "He had the temerity to question the CEO's decision in front of the entire board.",
+        "persian": "او این گستاخی و جسارت را داشت که در حضور تمام اعضای هیئت‌مدیره، تصمیم مدیرعامل را به چالش بکشد."
       },
       {
-        "english": "The decision seemed temerity, but the reasons became clearer later.",
-        "persian": "این تصمیم گستاخی و جسارت به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Few junior lawyers possess the temerity to challenge a senior partner openly.",
+        "persian": "کمتر وکیل تازه‌کاری چنین جسارتی دارد که آشکارا با یک شریک ارشد مخالفت کند."
       },
       {
-        "english": "A temerity attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش گستاخی و جسارت می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Only someone with real temerity would interrupt a head of state mid-speech.",
+        "persian": "فقط کسی با جسارت واقعی می‌تواند میان سخنرانی یک رئیس‌دولت حرفش را قطع کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “temerity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Temerity is a bold, almost reckless confidence that pushes someone to take risks most people would avoid, especially by defying authority or convention. The word usually carries a slightly critical edge, suggesting the boldness verges on disrespect or foolishness rather than simple courage. Phrases like 'he had the temerity to...' introduce an action that shocked onlookers with its audacity."
   },
   {
     "courseId": "upgrade",
@@ -39,19 +39,19 @@
     ],
     "examples": [
       {
-        "english": "His tenacious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد سمج و پیگیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The tenacious reporter spent three years tracking down the missing documents.",
+        "persian": "آن خبرنگار سمج سه سال وقت صرف پیدا کردن اسناد گم‌شده کرد."
       },
       {
-        "english": "The decision seemed tenacious, but the reasons became clearer later.",
-        "persian": "این تصمیم سمج و پیگیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Ivy is a tenacious plant that can crack through concrete over time.",
+        "persian": "پیچک گیاهی سمج است که در طول زمان می‌تواند بتن را هم بشکافد."
       },
       {
-        "english": "A tenacious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش سمج و پیگیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her tenacious grip on the rope kept her from falling during the climb.",
+        "persian": "چنگ زدن سمجانه‌ی او به طناب، او را از سقوط در طول صعود نجات داد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “tenacious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "A tenacious person or thing holds on firmly and refuses to give up, whether that means pursuing a goal for years or physically gripping something tightly. The word applies equally to determined investigators, stubborn weeds, and athletes who won't quit despite exhaustion. Tenacity implies that persistence itself, not talent or luck, is what eventually wins out."
   },
   {
     "courseId": "upgrade",
@@ -66,19 +66,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a tirade that required careful judgment.",
-        "persian": "این موقعیت به یک سخنرانی یا حمله کلامی تند تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "The coach launched into a furious tirade after the team's third missed penalty.",
+        "persian": "مربی پس از سومین پنالتی از دست‌رفته‌ی تیم، یک سخنرانی تند و خشمگینانه را آغاز کرد."
       },
       {
-        "english": "Her explanation helped everyone understand the tirade more clearly.",
-        "persian": "توضیح او به همه کمک کرد سخنرانی یا حمله کلامی تند را بهتر درک کنند."
+        "english": "Her email turned into a five-paragraph tirade about the company's broken promises.",
+        "persian": "ایمیل او به یک انتقاد تند و پنج‌پاراگرافی درباره‌ی وعده‌های شکسته‌شده‌ی شرکت تبدیل شد."
       },
       {
-        "english": "The discussion revealed an important tirade that had been overlooked.",
-        "persian": "بحث یک سخنرانی یا حمله کلامی تند مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The senator's tirade against the press lasted nearly ten uninterrupted minutes.",
+        "persian": "حمله‌ی کلامی تند آن سناتور علیه رسانه‌ها نزدیک به ده دقیقه بدون وقفه طول کشید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “tirade” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "A tirade is a long, angry outburst of criticism or complaint, usually delivered without interruption and with considerable emotional force. The word suggests the speaker has lost some composure, venting frustration at length rather than making a measured argument. Tirades are common in heated arguments, political outbursts, and furious emails that go on far longer than the situation requires."
   },
   {
     "courseId": "upgrade",
@@ -93,19 +93,19 @@
     ],
     "examples": [
       {
-        "english": "His torpid approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌حال و کند او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The torpid bear barely moved from its den throughout the coldest weeks of winter.",
+        "persian": "آن خرس بی‌حال در سردترین هفته‌های زمستان به‌ندرت از لانه‌اش بیرون می‌آمد."
       },
       {
-        "english": "The decision seemed torpid, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌حال و کند به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "After the heavy lunch, the whole office felt torpid and unable to concentrate.",
+        "persian": "پس از آن ناهار سنگین، کل دفتر احساس کندی و بی‌حالی می‌کرد و نمی‌توانست تمرکز کند."
       },
       {
-        "english": "A torpid attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌حال و کند می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The region's torpid economy showed no growth for nearly a decade.",
+        "persian": "اقتصاد کند و بی‌رمق آن منطقه، نزدیک به یک دهه هیچ رشدی نشان نداد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “torpid” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Torpid describes a state of sluggishness or near-dormancy, whether in a hibernating animal, a drowsy afternoon, or a stagnant economy. It suggests energy that has slowed almost to a stop, not through rest but through a kind of heaviness or inactivity. Torpor can be literal, as with hibernating animals, or figurative, as with an economy or a mind that refuses to get moving."
   },
   {
     "courseId": "upgrade",
@@ -120,19 +120,19 @@
     ],
     "examples": [
       {
-        "english": "His transient approach helped him deal with the situation calmly.",
-        "persian": "رویکرد موقتی و زودگذر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The pain was transient, lasting only a few seconds before fading completely.",
+        "persian": "آن درد موقتی بود و فقط چند ثانیه طول کشید و سپس کاملاً از بین رفت."
       },
       {
-        "english": "The decision seemed transient, but the reasons became clearer later.",
-        "persian": "این تصمیم موقتی و زودگذر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Fame in this industry is often transient, gone within a single news cycle.",
+        "persian": "شهرت در این صنعت غالباً زودگذر است و در یک چرخه‌ی خبری ساده از بین می‌رود."
       },
       {
-        "english": "A transient attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش موقتی و زودگذر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The hotel mostly serves transient guests passing through on business trips.",
+        "persian": "آن هتل بیشتر به مسافران موقتی خدمت می‌دهد که در سفرهای کاری از آنجا عبور می‌کنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “transient” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Transient describes anything that lasts only a short time before disappearing or moving on, whether that's a feeling, a trend, or a person passing through. It's often used in medicine for brief symptoms, in sociology for people without a permanent residence, and in everyday speech for fleeting emotions or fashions. Something transient is defined by its impermanence."
   },
   {
     "courseId": "upgrade",
@@ -147,19 +147,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a trepidation that required careful judgment.",
-        "persian": "این موقعیت به یک ترس و اضطراب تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "She opened the exam results with considerable trepidation.",
+        "persian": "او با اضطراب و ترس زیادی نتایج امتحان را باز کرد."
       },
       {
-        "english": "Her explanation helped everyone understand the trepidation more clearly.",
-        "persian": "توضیح او به همه کمک کرد ترس و اضطراب را بهتر درک کنند."
+        "english": "The young surgeon approached his first solo operation with visible trepidation.",
+        "persian": "آن جراح جوان با اضطرابی آشکار به اولین عمل جراحی مستقلش نزدیک شد."
       },
       {
-        "english": "The discussion revealed an important trepidation that had been overlooked.",
-        "persian": "بحث یک ترس و اضطراب مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "We watched the storm approach the coast with growing trepidation.",
+        "persian": "ما با اضطرابی روبه‌رشد شاهد نزدیک شدن طوفان به ساحل بودیم."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “trepidation” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Trepidation is a feeling of anxious fear about something that is about to happen, especially an event whose outcome is uncertain. It's commonly paired with phrases like 'with trepidation' or 'a sense of trepidation,' describing nervousness before an exam, a medical procedure, or any high-stakes moment. The word suggests apprehension rather than outright terror — a nervous dread rather than panic."
   },
   {
     "courseId": "upgrade",
@@ -174,19 +174,19 @@
     ],
     "examples": [
       {
-        "english": "His truculent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد خشن و ستیزه‌جو او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The truculent customer refused to lower his voice even after security intervened.",
+        "persian": "آن مشتری ستیزه‌جو حتی پس از دخالت نگهبانی هم حاضر نشد صدایش را پایین بیاورد."
       },
       {
-        "english": "The decision seemed truculent, but the reasons became clearer later.",
-        "persian": "این تصمیم خشن و ستیزه‌جو به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His truculent response to mild criticism surprised everyone at the meeting.",
+        "persian": "واکنش خشن و پرخاشگرانه‌ی او به یک انتقاد ملایم، همه را در جلسه شگفت‌زده کرد."
       },
       {
-        "english": "A truculent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش خشن و ستیزه‌جو می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The truculent teenager slammed the door and refused to discuss the curfew.",
+        "persian": "آن نوجوان ستیزه‌جو در را کوبید و حاضر به بحث درباره‌ی ساعت منع رفت‌وآمد نشد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “truculent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "A truculent person is eager to argue or fight, responding to even minor disagreements with hostility and aggression. The word suggests a readiness for confrontation that goes beyond simple stubbornness, bordering on belligerence. Truculent behavior often appears in disputes with authority figures, from angry customers to defiant teenagers."
   },
   {
     "courseId": "upgrade",
@@ -201,19 +201,19 @@
     ],
     "examples": [
       {
-        "english": "His ubiquitous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد همه‌جا حاضر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Smartphones have become ubiquitous, even in some of the most remote villages.",
+        "persian": "گوشی‌های هوشمند همه‌جا حاضر شده‌اند، حتی در برخی از دورافتاده‌ترین روستاها."
       },
       {
-        "english": "The decision seemed ubiquitous, but the reasons became clearer later.",
-        "persian": "این تصمیم همه‌جا حاضر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Plastic packaging is so ubiquitous that avoiding it entirely is almost impossible.",
+        "persian": "بسته‌بندی پلاستیکی آن‌قدر همه‌جا حاضر است که اجتناب کامل از آن تقریباً غیرممکن است."
       },
       {
-        "english": "A ubiquitous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش همه‌جا حاضر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "During the campaign, the candidate's face was ubiquitous on billboards across the city.",
+        "persian": "در طول آن کمپین، چهره‌ی نامزد روی بیلبوردهای سراسر شهر همه‌جا دیده می‌شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ubiquitous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Something ubiquitous seems to be everywhere at once, so common that it becomes part of the everyday background. The word is frequently used for technology, advertising, and cultural trends that have spread so widely they feel unavoidable. Calling something ubiquitous often implies a mix of admiration for its reach and mild exhaustion at its sheer prevalence."
   },
   {
     "courseId": "upgrade",
@@ -228,19 +228,19 @@
     ],
     "examples": [
       {
-        "english": "His unassuming approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌ادعا و متواضع او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The unassuming scientist never mentioned his Nobel nomination to his neighbors.",
+        "persian": "آن دانشمند متواضع و بی‌ادعا هیچ‌گاه درباره‌ی نامزدی‌اش برای نوبل به همسایه‌هایش چیزی نگفت."
       },
       {
-        "english": "The decision seemed unassuming, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌ادعا و متواضع به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Behind the restaurant's unassuming storefront was one of the city's best-kept culinary secrets.",
+        "persian": "پشت آن نمای بی‌ادعا و ساده‌ی رستوران، یکی از بهترین اسرار آشپزی شهر پنهان بود."
       },
       {
-        "english": "A unassuming attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌ادعا و متواضع می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "She remained unassuming even after becoming the company's youngest vice president.",
+        "persian": "او حتی پس از تبدیل شدن به جوان‌ترین معاون شرکت، همچنان متواضع و بی‌ادعا باقی ماند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unassuming” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An unassuming person or place doesn't draw attention to itself, despite often hiding considerable talent, wealth, or quality underneath a modest exterior. The word frequently appears as a pleasant surprise — an unassuming restaurant that turns out to be excellent, or an unassuming colleague who turns out to be brilliant. It suggests humility that isn't performed but simply lived."
   },
   {
     "courseId": "upgrade",
@@ -255,19 +255,19 @@
     ],
     "examples": [
       {
-        "english": "His unfathomable approach helped him deal with the situation calmly.",
-        "persian": "رویکرد درک‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The scale of the universe remains largely unfathomable to the human mind.",
+        "persian": "وسعت جهان همچنان تا حد زیادی برای ذهن انسان درک‌ناپذیر باقی مانده است."
       },
       {
-        "english": "The decision seemed unfathomable, but the reasons became clearer later.",
-        "persian": "این تصمیم درک‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Losing a child is an unfathomable grief that few can truly understand.",
+        "persian": "از دست دادن یک فرزند، اندوهی درک‌ناپذیر است که کمتر کسی می‌تواند واقعاً آن را بفهمد."
       },
       {
-        "english": "A unfathomable attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش درک‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The ocean trench plunges to unfathomable depths rarely explored by humans.",
+        "persian": "آن گودال اقیانوسی تا عمق‌هایی درک‌ناپذیر و به‌ندرت کاوش‌شده توسط انسان پیش می‌رود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unfathomable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Something unfathomable is so vast, deep, or complex that it defies ordinary human understanding, whether that's the scale of outer space or the depth of personal grief. The word originally referred to water too deep to measure ('fathom'), and it retains that sense of something beyond measurement. It's used for ideas, emotions, and distances that overwhelm normal comprehension."
   },
   {
     "courseId": "upgrade",
@@ -282,19 +282,19 @@
     ],
     "examples": [
       {
-        "english": "His unequivocal approach helped him deal with the situation calmly.",
-        "persian": "رویکرد کاملاً صریح و بدون ابهام او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The CEO gave an unequivocal denial of the rumors during the press conference.",
+        "persian": "مدیرعامل در آن کنفرانس خبری یک تکذیب کاملاً صریح و بدون ابهام از شایعات ارائه داد."
       },
       {
-        "english": "The decision seemed unequivocal, but the reasons became clearer later.",
-        "persian": "این تصمیم کاملاً صریح و بدون ابهام به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Her answer was unequivocal: she would not be returning to the project.",
+        "persian": "پاسخ او کاملاً صریح بود: او به آن پروژه بازنخواهد گشت."
       },
       {
-        "english": "A unequivocal attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش کاملاً صریح و بدون ابهام می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The evidence points to an unequivocal conclusion that the bridge was unsafe.",
+        "persian": "شواهد به یک نتیجه‌گیری کاملاً روشن و بدون ابهام اشاره می‌کند: آن پل ایمن نبود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unequivocal” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Unequivocal describes a statement, answer, or piece of evidence that leaves absolutely no room for doubt or multiple interpretations. It's frequently used in legal, political, and journalistic contexts when someone wants to emphasize that a denial, confirmation, or conclusion is completely clear-cut. An unequivocal statement cannot be reasonably misunderstood."
   },
   {
     "courseId": "upgrade",
@@ -309,19 +309,19 @@
     ],
     "examples": [
       {
-        "english": "His unprecedented approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌سابقه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The flooding reached unprecedented levels, surpassing every previous record.",
+        "persian": "سیل به سطحی بی‌سابقه رسید و از هر رکورد قبلی فراتر رفت."
       },
       {
-        "english": "The decision seemed unprecedented, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌سابقه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The pandemic forced schools to adopt remote learning on an unprecedented scale.",
+        "persian": "همه‌گیری، مدارس را مجبور کرد تا آموزش از راه دور را در مقیاسی بی‌سابقه به کار گیرند."
       },
       {
-        "english": "A unprecedented attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌سابقه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her election marked an unprecedented moment in the country's political history.",
+        "persian": "انتخاب او لحظه‌ای بی‌سابقه در تاریخ سیاسی آن کشور به شمار می‌رفت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unprecedented” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Unprecedented describes something that has never happened before, breaking from every known pattern or record. The word appears constantly in news coverage of disasters, records, and historic firsts, signaling that past experience offers little guidance for what comes next. Calling a situation unprecedented raises the stakes, implying that old solutions may no longer apply."
   },
   {
     "courseId": "upgrade",
@@ -336,19 +336,19 @@
     ],
     "examples": [
       {
-        "english": "His unctuous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد چاپلوسانه و بیش از حد صمیمی او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The unctuous salesman complimented everything about my car before quoting an absurd price.",
+        "persian": "آن فروشنده‌ی چاپلوس پیش از اعلام قیمتی نامعقول، از همه‌چیز درباره‌ی ماشینم تعریف کرد."
       },
       {
-        "english": "The decision seemed unctuous, but the reasons became clearer later.",
-        "persian": "این تصمیم چاپلوسانه و بیش از حد صمیمی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His unctuous apology felt rehearsed rather than sincere.",
+        "persian": "عذرخواهی چاپلوسانه‌ی او بیشتر از‌پیش‌تمرین‌شده به نظر می‌رسید تا صادقانه."
       },
       {
-        "english": "A unctuous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش چاپلوسانه و بیش از حد صمیمی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Guests found the host's unctuous manner more irritating than welcoming.",
+        "persian": "میهمانان رفتار بیش‌ازحد صمیمی و چاپلوسانه‌ی میزبان را آزاردهنده‌تر از خوش‌آمدگویی یافتند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “unctuous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Unctuous describes a manner so excessively flattering, smooth, and ingratiating that it feels insincere or even slippery, much like its literal meaning of being oily. The word is almost always critical, used for salespeople, hosts, or flatterers whose warmth seems calculated rather than genuine. An unctuous compliment tends to make the listener suspicious rather than pleased."
   },
   {
     "courseId": "upgrade",
@@ -363,19 +363,19 @@
     ],
     "examples": [
       {
-        "english": "His untenable approach helped him deal with the situation calmly.",
-        "persian": "رویکرد غیرقابل دفاع یا ادامه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The minister's position became untenable after the leaked documents surfaced.",
+        "persian": "موقعیت آن وزیر پس از افشای اسناد محرمانه، غیرقابل دفاع شد."
       },
       {
-        "english": "The decision seemed untenable, but the reasons became clearer later.",
-        "persian": "این تصمیم غیرقابل دفاع یا ادامه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Running the farm without any irrigation was clearly untenable during the drought.",
+        "persian": "ادامه‌ی کشاورزی بدون هیچ آبیاری در طول آن خشکسالی، به‌وضوح غیرقابل‌ادامه بود."
       },
       {
-        "english": "A untenable attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش غیرقابل دفاع یا ادامه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The theory became untenable once new fossil evidence contradicted its basic assumptions.",
+        "persian": "آن نظریه پس از آنکه شواهد فسیلی جدید مفروضات اصلی‌اش را نقض کرد، غیرقابل دفاع شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “untenable” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Untenable describes a position, argument, or situation that can no longer be defended or sustained, usually because new evidence or circumstances have undermined it. The word is common in politics, academia, and business when a once-viable stance collapses under pressure. Reaching an untenable position often forces resignation, retraction, or fundamental change."
   },
   {
     "courseId": "upgrade",
@@ -390,19 +390,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to usurp the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را غصب کردن."
+        "english": "The general used the chaos of the war to usurp the throne from the rightful heir.",
+        "persian": "آن ژنرال از هرج‌ومرج جنگ استفاده کرد تا تاج‌وتخت را از وارث قانونی غصب کند."
       },
       {
-        "english": "Experienced people know how to usurp difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را غصب کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Critics accused the committee of trying to usurp powers that belonged to the elected council.",
+        "persian": "منتقدان آن کمیته را متهم کردند که در پی غصب اختیاراتی است که به شورای منتخب تعلق دارد."
       },
       {
-        "english": "He chose to usurp the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت غصب کردن."
+        "english": "A sudden boardroom coup allowed the investor to usurp control of the company.",
+        "persian": "یک کودتای ناگهانی در هیئت‌مدیره به آن سرمایه‌گذار اجازه داد کنترل شرکت را غصب کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “usurp” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To usurp something, usually power, a throne, or authority, is to seize it illegitimately, often through force or deception rather than legal right. The word carries a strong sense of wrongful taking, implying the usurper has no genuine claim to what they've seized. It appears in both historical accounts of overthrown rulers and modern stories of corporate or political power grabs."
   },
   {
     "courseId": "upgrade",
@@ -417,19 +417,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to vacillate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را مردد بودن و مدام تغییر نظر دادن."
+        "english": "The committee continued to vacillate between the two finalists for weeks.",
+        "persian": "آن کمیته هفته‌ها میان دو نامزد نهایی مردد ماند و مدام نظرش تغییر کرد."
       },
       {
-        "english": "Experienced people know how to vacillate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را مردد بودن و مدام تغییر نظر دادن بدون ایجاد درگیری غیرضروری."
+        "english": "Investors vacillate between optimism and panic every time the market dips.",
+        "persian": "سرمایه‌گذاران هر بار که بازار سقوط می‌کند، میان امیدواری و وحشت مدام نوسان می‌کنند."
       },
       {
-        "english": "He chose to vacillate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت مردد بودن و مدام تغییر نظر دادن."
+        "english": "You cannot vacillate on a decision this important when so many jobs depend on it.",
+        "persian": "وقتی شغل بسیاری از افراد به این تصمیم بستگی دارد، نمی‌توانید در آن مردد بمانید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vacillate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To vacillate is to waver repeatedly between two or more choices, opinions, or courses of action without settling on one. The word suggests indecision that drags on, frustrating people who are waiting for a final answer. Vacillating is distinct from simply changing one's mind once — it implies a repeated back-and-forth that never quite resolves."
   },
   {
     "courseId": "upgrade",
@@ -444,19 +444,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to venerate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را با احترام بسیار ستایش کردن."
+        "english": "Local villagers still venerate the ancient oak tree as a sacred site.",
+        "persian": "روستاییان محلی هنوز آن درخت بلوط کهن را به‌عنوان مکانی مقدس با احترام بسیار می‌ستایند."
       },
       {
-        "english": "Experienced people know how to venerate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را با احترام بسیار ستایش کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Students were taught to venerate the university's founders as visionary heroes.",
+        "persian": "به دانشجویان آموزش داده می‌شد که بنیان‌گذاران دانشگاه را همچون قهرمانانی آرمان‌گرا با احترام بستایند."
       },
       {
-        "english": "He chose to venerate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت با احترام بسیار ستایش کردن."
+        "english": "Many cultures venerate their ancestors through annual ceremonies and offerings.",
+        "persian": "بسیاری از فرهنگ‌ها نیاکان خود را از طریق مراسم و نیازهای سالانه با احترام بسیار می‌ستایند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “venerate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To venerate someone or something is to regard it with profound respect, often bordering on worship, usually because of its age, sanctity, or historical significance. The word appears frequently in discussions of religion, ancestor worship, and cultural traditions where founders, elders, or sacred objects are honored. Venerated figures are typically treated as beyond ordinary criticism."
   },
   {
     "courseId": "upgrade",
@@ -471,19 +471,19 @@
     ],
     "examples": [
       {
-        "english": "His verbose approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرحرف و طولانی او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The report was so verbose that most readers gave up before reaching the conclusion.",
+        "persian": "آن گزارش آن‌قدر پرحرف و طولانی بود که بیشتر خوانندگان پیش از رسیدن به نتیجه دست کشیدند."
       },
       {
-        "english": "The decision seemed verbose, but the reasons became clearer later.",
-        "persian": "این تصمیم پرحرف و طولانی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His verbose explanations often confused students more than they clarified anything.",
+        "persian": "توضیحات پرحرف و طولانی او اغلب بیش از آنکه چیزی را روشن کند، دانش‌آموزان را گیج می‌کرد."
       },
       {
-        "english": "A verbose attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرحرف و طولانی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The editor cut the verbose introduction down to two concise sentences.",
+        "persian": "ویراستار آن مقدمه‌ی پرحرف و طولانی را به دو جمله‌ی کوتاه و موجز کاهش داد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “verbose” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Verbose describes writing or speech that uses far more words than necessary, often obscuring the point rather than clarifying it. The word is commonly applied to reports, contracts, and explanations that could say the same thing in half the length. Being verbose isn't about having more to say — it's about saying it inefficiently."
   },
   {
     "courseId": "upgrade",
@@ -498,19 +498,19 @@
     ],
     "examples": [
       {
-        "english": "His vicarious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد غیرمستقیم و از طریق دیگری تجربه‌شده او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Her parents took vicarious pride in her graduation, having never finished college themselves.",
+        "persian": "والدین او که خودشان هرگز دانشگاه را به پایان نرسانده بودند، از فارغ‌التحصیلی‌اش غرور غیرمستقیمی احساس کردند."
       },
       {
-        "english": "The decision seemed vicarious, but the reasons became clearer later.",
-        "persian": "این تصمیم غیرمستقیم و از طریق دیگری تجربه‌شده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Watching travel documentaries gives me a vicarious sense of adventure without leaving my couch.",
+        "persian": "تماشای مستندهای سفر، حسی غیرمستقیم از ماجراجویی بدون ترک کردن مبل خانه به من می‌دهد."
       },
       {
-        "english": "A vicarious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش غیرمستقیم و از طریق دیگری تجربه‌شده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Fans experience a vicarious thrill when their favorite team wins a championship.",
+        "persian": "هواداران هنگامی که تیم محبوبشان قهرمان می‌شود، یک هیجان غیرمستقیم را تجربه می‌کنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vicarious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Vicarious describes a feeling or experience gained indirectly by watching or identifying with someone else, rather than living through it firsthand. People feel vicarious pride, joy, or excitement through the achievements of children, sports teams, or even fictional characters. The word captures how deeply human emotion can be borrowed from someone else's experience."
   },
   {
     "courseId": "upgrade",
@@ -525,19 +525,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to vindicate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تبرئه یا اثبات بی‌گناهی کردن."
+        "english": "New DNA evidence finally served to vindicate the man after twenty years in prison.",
+        "persian": "شواهد جدید دی‌ان‌ای در نهایت پس از بیست سال زندان، آن مرد را تبرئه کرد."
       },
       {
-        "english": "Experienced people know how to vindicate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تبرئه یا اثبات بی‌گناهی کردن بدون ایجاد درگیری غیرضروری."
+        "english": "The team's championship win served to vindicate the coach's controversial strategy.",
+        "persian": "قهرمانی تیم، استراتژی پرحاشیه‌ی مربی را تأیید و درستی آن را اثبات کرد."
       },
       {
-        "english": "He chose to vindicate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تبرئه یا اثبات بی‌گناهی کردن."
+        "english": "History eventually vindicated the scientist whose theory had once been widely mocked.",
+        "persian": "تاریخ در نهایت درستی آن دانشمند را که نظریه‌اش زمانی به‌شدت مورد تمسخر قرار گرفته بود، اثبات کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vindicate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To vindicate someone is to prove they were right, innocent, or justified, often after a period of doubt, blame, or ridicule. The word commonly appears in legal exonerations, scientific disputes, and personal reputations restored by later events. Being vindicated feels especially satisfying because it comes after others doubted or condemned the person."
   },
   {
     "courseId": "upgrade",
@@ -552,19 +552,19 @@
     ],
     "examples": [
       {
-        "english": "His virulent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بسیار شدید و خصمانه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The virulent strain of the virus spread through the hospital within days.",
+        "persian": "آن سویه‌ی بسیار شدید ویروس ظرف چند روز در سراسر بیمارستان پراکنده شد."
       },
       {
-        "english": "The decision seemed virulent, but the reasons became clearer later.",
-        "persian": "این تصمیم بسیار شدید و خصمانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His virulent hatred of the press showed in every interview he gave.",
+        "persian": "نفرت شدید و خصمانه‌ی او نسبت به رسانه‌ها در هر مصاحبه‌ای که می‌داد مشخص بود."
       },
       {
-        "english": "A virulent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بسیار شدید و خصمانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The campaign unleashed a virulent attack on its opponent's character.",
+        "persian": "آن کمپین حمله‌ای بسیار شدید و خصمانه به شخصیت حریفش انجام داد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “virulent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Virulent describes something extremely severe and dangerous, whether a fast-spreading disease or an intensely hostile, bitter attitude. In medicine, a virulent pathogen causes serious illness quickly and spreads aggressively. In everyday language, a virulent criticism or hatred is similarly fierce and damaging, carrying the same sense of destructive intensity."
   },
   {
     "courseId": "upgrade",
@@ -579,19 +579,19 @@
     ],
     "examples": [
       {
-        "english": "His vitriolic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد تلخ و گزنده او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The review was so vitriolic that the restaurant considered legal action against the critic.",
+        "persian": "آن نقد آن‌قدر تلخ و گزنده بود که رستوران اقدام قانونی علیه منتقد را در نظر گرفت."
       },
       {
-        "english": "The decision seemed vitriolic, but the reasons became clearer later.",
-        "persian": "این تصمیم تلخ و گزنده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Social media comments turned vitriolic within minutes of the announcement.",
+        "persian": "نظرات شبکه‌های اجتماعی ظرف چند دقیقه پس از آن اطلاعیه، تلخ و گزنده شد."
       },
       {
-        "english": "A vitriolic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش تلخ و گزنده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her vitriolic response to the interview question caught everyone off guard.",
+        "persian": "پاسخ تلخ و گزنده‌ی او به آن سؤال مصاحبه، همه را غافلگیر کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vitriolic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Vitriolic describes criticism or language so bitter and harsh that it feels almost corrosive, borrowing its intensity from the literal meaning of vitriol as a corrosive acid. It's commonly used for scathing reviews, hostile online comments, and personal attacks that go far beyond ordinary disagreement. A vitriolic exchange leaves lasting damage rather than productive debate."
   },
   {
     "courseId": "upgrade",
@@ -606,19 +606,19 @@
     ],
     "examples": [
       {
-        "english": "His vociferous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرسروصدا و شدید او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "A vociferous group of protesters gathered outside the courthouse demanding justice.",
+        "persian": "گروهی پرسروصدا از معترضان بیرون از دادگاه جمع شدند و خواستار عدالت شدند."
       },
       {
-        "english": "The decision seemed vociferous, but the reasons became clearer later.",
-        "persian": "این تصمیم پرسروصدا و شدید به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "He remained the most vociferous critic of the merger throughout the shareholder meeting.",
+        "persian": "او در طول آن جلسه‌ی سهامداران، سرسخت‌ترین و پرسروصداترین منتقد آن ادغام باقی ماند."
       },
       {
-        "english": "A vociferous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرسروصدا و شدید می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Vociferous fans chanted for nearly an hour after the final whistle.",
+        "persian": "هواداران پرسروصدا نزدیک به یک ساعت پس از سوت پایان شعار دادند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “vociferous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Vociferous describes someone expressing opinions loudly, forcefully, and often persistently, making sure their voice cannot be ignored. The word is typically used for protesters, critics, and advocates who refuse to stay quiet about an issue they care about. A vociferous objection is noisy and insistent, not merely firm."
   },
   {
     "courseId": "upgrade",
@@ -633,19 +633,19 @@
     ],
     "examples": [
       {
-        "english": "His wanton approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بی‌مهار و بی‌دلیل او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The court condemned the wanton destruction of the ancient monument.",
+        "persian": "دادگاه تخریب بی‌دلیل و بی‌رحمانه‌ی آن یادمان باستانی را محکوم کرد."
       },
       {
-        "english": "The decision seemed wanton, but the reasons became clearer later.",
-        "persian": "این تصمیم بی‌مهار و بی‌دلیل به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Soldiers were accused of wanton cruelty toward civilians during the occupation.",
+        "persian": "سربازان به خشونت بی‌مهار و بی‌دلیل علیه غیرنظامیان در طول اشغال متهم شدند."
       },
       {
-        "english": "A wanton attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بی‌مهار و بی‌دلیل می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The company showed wanton disregard for environmental regulations for years.",
+        "persian": "آن شرکت سال‌ها بی‌اعتنایی بی‌مهار و عمدی نسبت به مقررات زیست‌محیطی نشان داد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wanton” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Wanton describes actions that are deliberately harmful, reckless, or destructive without any justification or provocation. The word is heavily used in legal and journalistic language to describe cruelty, destruction, or disregard for consequences that goes beyond mere carelessness. A wanton act is not accidental — it reflects a willful indifference to the harm it causes."
   },
   {
     "courseId": "upgrade",
@@ -660,19 +660,19 @@
     ],
     "examples": [
       {
-        "english": "His wary approach helped him deal with the situation calmly.",
-        "persian": "رویکرد محتاط و هوشیار او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Investors remain wary of the market after last year's sudden crash.",
+        "persian": "سرمایه‌گذاران پس از سقوط ناگهانی بازار در سال گذشته، همچنان محتاط و هوشیار باقی مانده‌اند."
       },
       {
-        "english": "The decision seemed wary, but the reasons became clearer later.",
-        "persian": "این تصمیم محتاط و هوشیار به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The dog stayed wary of strangers even months after being adopted.",
+        "persian": "آن سگ حتی ماه‌ها پس از به‌فرزندخواندگی گرفته شدن هم نسبت به غریبه‌ها محتاط بود."
       },
       {
-        "english": "A wary attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش محتاط و هوشیار می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "She grew wary of his compliments after noticing how often he asked for favors.",
+        "persian": "او پس از متوجه شدن اینکه او چقدر زیاد درخواست لطف می‌کند، نسبت به تعریف‌هایش هوشیار شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wary” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Wary describes a cautious alertness toward possible danger, deception, or disappointment, based on past experience or instinct. The word often appears with 'of,' as in wary of strangers, wary of promises, or wary of a market. Being wary isn't full-blown fear — it's a measured watchfulness that keeps someone from being caught off guard."
   },
   {
     "courseId": "upgrade",
@@ -687,19 +687,19 @@
     ],
     "examples": [
       {
-        "english": "His whimsical approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دمدمی و خیال‌پرداز او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The children's book was filled with whimsical illustrations of flying teapots and talking clocks.",
+        "persian": "آن کتاب کودک پر از تصاویر خیال‌پردازانه و بازیگوشانه از قوری‌های پرنده و ساعت‌های سخنگو بود."
       },
       {
-        "english": "The decision seemed whimsical, but the reasons became clearer later.",
-        "persian": "این تصمیم دمدمی و خیال‌پرداز به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Her whimsical sense of humor made even boring meetings bearable.",
+        "persian": "حس شوخ‌طبعی دمدمی و بازیگوشانه‌ی او حتی جلسات کسل‌کننده را قابل‌تحمل می‌کرد."
       },
       {
-        "english": "A whimsical attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دمدمی و خیال‌پرداز می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The garden's whimsical design included a maze shaped like a giant chessboard.",
+        "persian": "طراحی خیال‌پردازانه‌ی آن باغ شامل یک هزارتویی به شکل یک صفحه‌ی شطرنج غول‌پیکر بود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “whimsical” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Whimsical describes something playfully imaginative and charmingly unpredictable, often with a lighthearted or fantastical quality. The word is common in descriptions of art, design, and personality, suggesting delight in the unexpected rather than practicality. A whimsical idea doesn't need to make perfect sense — its charm comes from its playful departure from the ordinary."
   },
   {
     "courseId": "upgrade",
@@ -714,19 +714,19 @@
     ],
     "examples": [
       {
-        "english": "His wistful approach helped him deal with the situation calmly.",
-        "persian": "رویکرد حسرت‌آلود او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "She gave a wistful smile while looking through old photographs of her childhood home.",
+        "persian": "او با لبخندی حسرت‌آلود به عکس‌های قدیمی خانه‌ی دوران کودکی‌اش نگاه کرد."
       },
       {
-        "english": "The decision seemed wistful, but the reasons became clearer later.",
-        "persian": "این تصمیم حسرت‌آلود به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "There was a wistful tone in his voice as he described the town he had left behind.",
+        "persian": "لحنی حسرت‌آلود در صدای او بود، وقتی درباره‌ی شهری که ترک کرده بود صحبت می‌کرد."
       },
       {
-        "english": "A wistful attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش حسرت‌آلود می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The old sailor often fell into wistful silence whenever the ocean was mentioned.",
+        "persian": "آن ملوان پیر هر بار که از دریا صحبت می‌شد، به سکوتی حسرت‌آلود فرو می‌رفت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “wistful” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Wistful describes a gentle sadness mixed with longing, usually for something lost or a time that cannot be returned to. The word often appears in descriptions of nostalgia, regret, or quiet yearning rather than sharp grief. A wistful expression or tone suggests someone is pleasantly lost in memory, even as that memory carries a trace of sorrow."
   },
   {
     "courseId": "upgrade",
@@ -741,19 +741,19 @@
     ],
     "examples": [
       {
-        "english": "His zealous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرانرژی و مشتاق او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The zealous volunteer arrived two hours early to help set up the shelter.",
+        "persian": "آن داوطلب پرانرژی و مشتاق، دو ساعت زودتر برای کمک به راه‌اندازی پناهگاه رسید."
       },
       {
-        "english": "The decision seemed zealous, but the reasons became clearer later.",
-        "persian": "این تصمیم پرانرژی و مشتاق به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "A zealous new employee reorganized the entire filing system in her first week.",
+        "persian": "یک کارمند جدید و پرشور، کل سیستم بایگانی را در هفته‌ی اول کارش بازسازی کرد."
       },
       {
-        "english": "A zealous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرانرژی و مشتاق می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The zealous crowd cheered for nearly an hour before the concert even started.",
+        "persian": "آن جمعیت پرشور پیش از شروع کنسرت، نزدیک به یک ساعت تشویق کردند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zealous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Zealous describes intense enthusiasm and eagerness for a cause, task, or belief, often shown through tireless energy and dedication. The word can describe anyone from an overeager new employee to a passionate activist, as long as their commitment is visibly energetic. Zealous behavior is admirable in moderation but can tip into overzealousness when it ignores boundaries or balance."
   },
   {
     "courseId": "upgrade",
@@ -768,19 +768,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a zealotry that required careful judgment.",
-        "persian": "این موقعیت به یک تعصب شدید تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "Religious zealotry drove the group to reject any form of compromise.",
+        "persian": "تعصب شدید دینی آن گروه را به رد هرگونه سازش سوق داد."
       },
       {
-        "english": "Her explanation helped everyone understand the zealotry more clearly.",
-        "persian": "توضیح او به همه کمک کرد تعصب شدید را بهتر درک کنند."
+        "english": "The historian traced how political zealotry had torn the movement apart from within.",
+        "persian": "آن تاریخ‌نگار نشان داد که چگونه تعصب شدید سیاسی حرکت را از درون متلاشی کرده بود."
       },
       {
-        "english": "The discussion revealed an important zealotry that had been overlooked.",
-        "persian": "بحث یک تعصب شدید مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "His zealotry about diet and exercise alienated most of his old friends.",
+        "persian": "تعصب شدید او درباره‌ی رژیم غذایی و ورزش، بیشتر دوستان قدیمی‌اش را از او دور کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zealotry” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Zealotry is an excessive, uncompromising devotion to a cause, belief, or ideology that leaves no room for moderation or dissent. The word is almost always critical, describing fanaticism rather than ordinary passion or commitment. It frequently appears in discussions of religious extremism, political polarization, and even obsessive personal habits taken to an unreasonable extreme."
   },
   {
     "courseId": "upgrade",
@@ -795,18 +795,18 @@
     ],
     "examples": [
       {
-        "english": "The situation became a zenith that required careful judgment.",
-        "persian": "این موقعیت به یک اوج تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "The empire reached its zenith in the second century before a slow decline began.",
+        "persian": "آن امپراتوری در قرن دوم به اوج خود رسید، پیش از آنکه زوالی تدریجی آغاز شود."
       },
       {
-        "english": "Her explanation helped everyone understand the zenith more clearly.",
-        "persian": "توضیح او به همه کمک کرد اوج را بهتر درک کنند."
+        "english": "Her acting career hit its zenith with an Academy Award at just twenty-five.",
+        "persian": "اوج دوران بازیگری او با دریافت جایزه‌ی اسکار در تنها بیست‌وپنج‌سالگی رقم خورد."
       },
       {
-        "english": "The discussion revealed an important zenith that had been overlooked.",
-        "persian": "بحث یک اوج مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The sun reached its zenith directly overhead at noon on the equator.",
+        "persian": "خورشید در ظهر، دقیقاً بالای سر، به اوج خود در خط استوا رسید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “zenith” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Zenith refers to the highest point of success, achievement, or position something can reach, often implying that a decline follows afterward. The word is borrowed from astronomy, where it originally described the point directly overhead in the sky. Whether describing an empire, a career, or the sun's path, reaching one's zenith marks a peak moment of significance."
   }
 ]

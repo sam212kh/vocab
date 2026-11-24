@@ -201,11 +201,10 @@ describe('shipped content', () => {
         }
     })
 
-    it('finds the known templated courses and not the Oxford ones', () => {
+    it('no course is flagged as templated (hard, hard-v2, 504 and upgrade were rewritten; Oxford was always clean)', () => {
         const flagged = report.repetition.filter(row => row.templatedContexts).map(row => row.course)
 
-        expect(flagged).toEqual(expect.arrayContaining(['hard', 'hard-v2', '504']))
-        expect(flagged.some(id => id.startsWith('oxford'))).toBe(false)
+        expect(flagged).toEqual([])
     })
 })
 

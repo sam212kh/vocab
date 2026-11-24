@@ -3,975 +3,975 @@
     "word": "allocate",
     "meaning": "اختصاص دادن؛ تخصیص دادن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "assign",
       "distribute"
     ],
     "examples": [
       [
-        "The team discussed allocate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The manager will allocate extra staff to the weekend shift.",
+        "مدیر کارکنان بیشتری را به شیفت آخر هفته اختصاص خواهد داد."
       ],
       [
-        "I can explain allocate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "We need to allocate enough time for testing before the launch.",
+        "باید زمان کافی را برای آزمایش قبل از راه‌اندازی اختصاص دهیم."
       ],
       [
-        "In a backend project, allocate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The city allocated a new budget for public parks this year.",
+        "شهر امسال بودجه‌ی جدیدی را برای پارک‌های عمومی اختصاص داد."
       ]
     ],
-    "miniContext": "At the beginning of the quarter, the engineering manager had to allocate time between feature development, bug fixes, and infrastructure work. The team initially wanted to spend almost all of its capacity on new features because several customers were waiting for them. After reviewing recent incidents, however, the manager allocated a fixed portion of the sprint to reliability work as well. This did not make every request disappear, but it created a more realistic plan. By making the allocation visible, the team could explain why some tasks were scheduled later instead of constantly changing priorities whenever a new request arrived."
+    "miniContext": "Every semester, the student council has to **allocate** a limited budget among dozens of clubs asking for funding. Some clubs want money for events, others for equipment, and there is rarely enough to satisfy everyone. The council usually starts by looking at how each club used its funds the previous year. Clubs that spent wisely tend to receive a larger share the next time around, which encourages more careful planning across campus."
   },
   {
     "word": "approximate",
     "meaning": "تقریبی؛ حدودی",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "rough",
       "estimated"
     ],
     "examples": [
       [
-        "The team discussed approximate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Can you give me an approximate price for the repair?",
+        "می‌توانی یک قیمت تقریبی برای تعمیر به من بدهی؟"
       ],
       [
-        "I can explain approximate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The approximate distance between the two cities is three hundred kilometers.",
+        "فاصله‌ی تقریبی بین دو شهر سیصد کیلومتر است."
       ],
       [
-        "In a backend project, approximate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Her approximate age was hard to guess from the old photograph.",
+        "سن تقریبی او از روی عکس قدیمی به سختی قابل تشخیص بود."
       ]
     ],
-    "miniContext": "The finance team did not yet have final numbers for the next quarter, so the manager prepared an approximate budget. The figures were based on current contracts, expected infrastructure usage, and several assumptions about sales. Nobody treated the numbers as final. They were useful because they gave the team a starting point for planning and showed where the largest costs might appear. As new information arrived, the estimates were updated. An approximate number can be valuable when a decision cannot wait for perfect information, provided that everyone understands its level of uncertainty and knows which assumptions may change later."
+    "miniContext": "When Lina was packing for her trip, she didn't know the exact weight of her suitcase, so she gave an **approximate** number to the airline website. The tool only needed a rough estimate to calculate the baggage fee, not an exact figure. Later, at the airport, the scale showed a weight close to what she had guessed. Her approximate guess turned out to be good enough to avoid any extra charges."
   },
   {
     "word": "coincide",
     "meaning": "همزمان شدن؛ مطابقت داشتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "overlap",
       "correspond"
     ],
     "examples": [
       [
-        "The team discussed coincide before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "My vacation will coincide with my sister's wedding next month.",
+        "تعطیلات من با عروسی خواهرم ماه آینده همزمان خواهد شد."
       ],
       [
-        "I can explain coincide more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The two meetings coincide, so I can only attend one of them.",
+        "این دو جلسه با هم همزمان هستند، پس فقط می‌توانم در یکی از آن‌ها شرکت کنم."
       ],
       [
-        "In a backend project, coincide can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Their opinions on the project coincided almost perfectly.",
+        "نظرات آن‌ها درباره‌ی پروژه تقریباً کاملاً با هم مطابقت داشت."
       ]
     ],
-    "miniContext": "The support manager noticed that a sudden increase in customer complaints seemed to coincide with a software deployment. That timing did not prove that the deployment had caused the problem, but it gave the engineers a useful direction for investigation. They compared logs from before and after the release and found that one configuration value had changed. A rollback reduced the errors immediately. Later testing confirmed the connection. The team recorded the incident carefully because events that coincide in time are not necessarily related. Good troubleshooting requires evidence that separates a meaningful relationship from a simple coincidence."
+    "miniContext": "Maya realized that her college graduation would **coincide** with her brother's wedding in another city. For weeks, she tried to find a way to attend both events, but the dates simply overlapped. In the end, she had to choose the wedding, since it couldn't be rescheduled. Her parents promised to record the graduation ceremony so she wouldn't miss watching it entirely."
   },
   {
     "word": "comprehensive",
     "meaning": "جامع؛ کامل",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "thorough",
       "complete"
     ],
     "examples": [
       [
-        "The team discussed comprehensive before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The doctor recommended a comprehensive checkup before the surgery.",
+        "دکتر قبل از عمل جراحی یک معاینه‌ی جامع را توصیه کرد."
       ],
       [
-        "I can explain comprehensive more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "This textbook offers a comprehensive overview of world history.",
+        "این کتاب درسی یک نگاه جامع به تاریخ جهان ارائه می‌دهد."
       ],
       [
-        "In a backend project, comprehensive can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Our insurance plan includes comprehensive coverage for accidents.",
+        "بیمه‌ی ما پوشش جامعی برای تصادفات شامل می‌شود."
       ]
     ],
-    "miniContext": "Before replacing the old authentication service, the team performed a comprehensive review of every application that depended on it. They listed API calls, scheduled jobs, administrative tools, and less obvious internal integrations. The review took several days because some dependencies were documented poorly. Once the list was complete, the migration plan became much clearer. The team could decide which applications needed changes and which could continue working without modification. A comprehensive review does not mean collecting information without purpose. It means covering the important parts of a system so that a major change is not based on an incomplete picture."
+    "miniContext": "Before launching the new product, the marketing team put together a **comprehensive** plan that covered pricing, advertising, distribution, and customer support. Nothing was left out, since a partial plan had caused problems during the last launch. Every department reviewed the document and added details from their own area. By the time the plan was approved, everyone understood exactly how the launch would unfold."
   },
   {
     "word": "conceive",
     "meaning": "تصور کردن؛ طراحی کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "imagine",
       "formulate"
     ],
     "examples": [
       [
-        "The team discussed conceive before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "I can't conceive of living without my phone for a week.",
+        "نمی‌توانم تصور کنم که یک هفته بدون گوشی‌ام زندگی کنم."
       ],
       [
-        "I can explain conceive more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The architects conceived a building shaped like a wave.",
+        "معماران ساختمانی را طراحی کردند که شکل یک موج داشت."
       ],
       [
-        "In a backend project, conceive can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "She conceived the idea for her novel during a long train ride.",
+        "او ایده‌ی رمانش را در طول یک سفر طولانی با قطار در ذهن پروراند."
       ]
     ],
-    "miniContext": "The original idea for the reporting feature was simple: customers would choose a date range and download a file. As the requirements grew, the team had to conceive a design that could handle large datasets without making the browser wait. They decided to generate reports in the background and notify users when files were ready. The concept changed significantly from the first version, but the underlying customer need remained the same. Good design often begins with a clear understanding of the problem and then evolves as engineers discover practical constraints. A useful solution does not have to match the first idea exactly."
+    "miniContext": "The sculptor said she could **conceive** an entire statue in her mind long before touching any clay. She would walk around the empty studio, picturing the shape from different angles until the idea felt complete. Only then would she begin sketching rough outlines on paper. Friends often asked how she could imagine something so detailed, and she simply said that the hardest part was turning the idea into stone."
   },
   {
     "word": "conform",
     "meaning": "مطابقت داشتن؛ پیروی کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "comply",
       "adhere"
     ],
     "examples": [
       [
-        "The team discussed conform before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "New employees are expected to conform to the company's dress code.",
+        "از کارمندان جدید انتظار می‌رود که از قانون پوشش شرکت پیروی کنند."
       ],
       [
-        "I can explain conform more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The building's wiring must conform to safety regulations.",
+        "سیم‌کشی ساختمان باید با مقررات ایمنی مطابقت داشته باشد."
       ],
       [
-        "In a backend project, conform can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "He refused to conform to the group's expectations.",
+        "او از پیروی از انتظارات گروه خودداری کرد."
       ]
     ],
-    "miniContext": "The payment integration had to conform to the provider's required request format. A small difference in a field name was enough to cause validation errors, even though the rest of the payload looked correct. The developer compared the application's request with the provider's documented example and found the mismatch. After correcting it, the integration worked normally. The team then added an automated test to ensure future changes would continue to conform to the external contract. When software communicates with another system, following the agreed format is often just as important as writing correct internal logic."
+    "miniContext": "New interns at the law firm quickly learn that they must **conform** to strict rules about formal dress and polite language. A few interns found the expectations old-fashioned, but most adjusted within the first week. Partners at the firm believe that following these shared standards builds trust with clients. Over time, even the most informal interns start to conform without really noticing it."
   },
   {
     "word": "consecutive",
     "meaning": "متوالی؛ پشت سر هم",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "successive",
       "continuous"
     ],
     "examples": [
       [
-        "The team discussed consecutive before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "She won the tennis tournament for three consecutive years.",
+        "او قهرمان مسابقات تنیس برای سه سال متوالی شد."
       ],
       [
-        "I can explain consecutive more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The team lost five consecutive games before finally winning.",
+        "تیم پنج بازی متوالی را باخت پیش از آن‌که سرانجام برنده شود."
       ],
       [
-        "In a backend project, consecutive can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Please number the pages in consecutive order.",
+        "لطفاً صفحات را به ترتیب متوالی شماره‌گذاری کن."
       ]
     ],
-    "miniContext": "During a busy afternoon, the monitoring system detected three consecutive timeouts from the same internal service. The first timeout was ignored because the service recovered quickly. When the next two occurred within a short period, the alert threshold was reached. An engineer checked the dependency and found that its connection pool was nearly exhausted. The team increased the appropriate limit and monitored the service carefully afterward. The repeated failures were more informative than a single isolated error. Looking at consecutive events can reveal a pattern that is invisible when each event is considered separately."
+    "miniContext": "The small bakery had sold out of croissants for seven **consecutive** mornings, surprising even the owner. Customers began lining up earlier each day, hoping to catch a fresh batch before it disappeared. On the eighth morning, the owner finally doubled the recipe. That one change ended the streak of empty shelves and kept regular customers happy again."
   },
   {
     "word": "contrary",
     "meaning": "مخالف؛ برخلاف",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "opposite",
       "adverse"
     ],
     "examples": [
       [
-        "The team discussed contrary before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Contrary to what he said, the store was actually open.",
+        "برخلاف چیزی که او گفت، مغازه در واقع باز بود."
       ],
       [
-        "I can explain contrary more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Her calm reaction was contrary to everyone's expectations.",
+        "واکنش آرام او برخلاف انتظار همه بود."
       ],
       [
-        "In a backend project, contrary can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "On the contrary, I think the plan will work perfectly.",
+        "برعکس، من فکر می‌کنم این نقشه کاملاً موفق خواهد بود."
       ]
     ],
-    "miniContext": "Contrary to the team's initial expectation, the database optimization did not improve the slowest customer requests. The average response time became slightly better, but a smaller group of requests remained extremely slow. Further investigation showed that those requests were waiting on an external API rather than the database. The result was useful because it prevented the team from continuing to optimize the wrong component. Technical work often produces evidence that challenges an initial assumption. When the evidence points in a contrary direction, changing the investigation is usually more productive than trying to force the original explanation to fit."
+    "miniContext": "Everyone expected the quiet new employee to struggle during her first presentation, but the result was **contrary** to those expectations. She spoke confidently and answered every question without hesitation. Her manager admitted later that first impressions can be misleading. From that day on, nobody assumed they could predict how she would perform."
   },
   {
     "word": "convey",
     "meaning": "منتقل کردن؛ رساندن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "communicate",
       "express"
     ],
     "examples": [
       [
-        "The team discussed convey before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "A smile can convey warmth even without words.",
+        "یک لبخند می‌تواند حتی بدون کلمه گرمی را منتقل کند."
       ],
       [
-        "I can explain convey more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "I want to convey my sincere thanks for your help.",
+        "می‌خواهم تشکر صمیمانه‌ام را برای کمک شما ابراز کنم."
       ],
       [
-        "In a backend project, convey can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The letter conveyed the news gently.",
+        "آن نامه خبر را به آرامی رساند."
       ]
     ],
-    "miniContext": "The incident report needed to convey what happened without overwhelming readers with every technical detail. The engineer began with the customer impact, then described the timeline, the immediate mitigation, and the remaining follow-up work. Detailed logs were attached separately for people who needed them. This structure made the report useful to both technical and non-technical readers. Good communication is not simply about providing more information. It is about conveying the important information in a form that the intended audience can understand and act on. The same incident can require different levels of technical detail for different groups."
+    "miniContext": "A good children's book illustrator can **convey** an entire mood through color alone, without using any words. In one story, soft blue and yellow tones convey a feeling of calm morning light. In another, dark red backgrounds convey tension before a storm arrives. Readers often remember these feelings long after they forget the actual plot."
   },
   {
     "word": "correspond",
     "meaning": "مطابقت داشتن؛ مکاتبه کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "match",
       "align"
     ],
     "examples": [
       [
-        "The team discussed correspond before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The colors on the map correspond to different climate zones.",
+        "رنگ‌های روی نقشه با مناطق آب و هوایی مختلف مطابقت دارند."
       ],
       [
-        "I can explain correspond more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "We used to correspond by letter before email existed.",
+        "قبل از وجود ایمیل، ما با نامه مکاتبه می‌کردیم."
       ],
       [
-        "In a backend project, correspond can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Her account of the accident corresponded with the witness's story.",
+        "روایت او از تصادف با داستان شاهد مطابقت داشت."
       ]
     ],
-    "miniContext": "The order shown in the customer portal did not correspond to the record displayed by the internal administration panel. Both systems used the same order ID, but one showed an outdated status. Developers compared timestamps and discovered that an event-processing job had stopped temporarily. Once the worker restarted, new orders began to correspond correctly across both interfaces. The team also added monitoring for delayed events so the problem would be visible sooner next time. When two representations of the same business object do not correspond, checking the data flow between them can be more useful than inspecting only the user interface."
+    "miniContext": "While researching her family tree, Sara found old letters showing that her great-grandparents used to **correspond** regularly with relatives who had moved abroad. The handwriting styles and dates on the envelopes corresponded closely with the stories her grandmother used to tell. Reading through decades of letters, Sara realized how much effort people once put into staying connected across long distances. It made the occasional text message feel almost too easy by comparison."
   },
   {
     "word": "deviate",
     "meaning": "منحرف شدن؛ فاصله گرفتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "diverge",
       "depart"
     ],
     "examples": [
       [
-        "The team discussed deviate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Drivers should not deviate from the marked route during the race.",
+        "رانندگان نباید در طول مسابقه از مسیر مشخص‌شده منحرف شوند."
       ],
       [
-        "I can explain deviate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The plane had to deviate from its flight path to avoid the storm.",
+        "هواپیما مجبور شد برای اجتناب از طوفان از مسیر پروازی خود منحرف شود."
       ],
       [
-        "In a backend project, deviate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "His speech deviated from the original topic within minutes.",
+        "سخنرانی او ظرف چند دقیقه از موضوع اصلی منحرف شد."
       ]
     ],
-    "miniContext": "The deployment procedure was designed to be followed step by step, but one engineer deviated from it during an emergency. He manually changed a production setting because the automated process was temporarily unavailable. The change solved the immediate issue, but it also created uncertainty about the server's final configuration. After the incident, the team documented the manual action and added a safer recovery procedure. Deviating from a standard process is sometimes necessary, especially during an outage, but the deviation should be recorded and reviewed afterward. Otherwise, temporary fixes can quietly become permanent sources of inconsistency."
+    "miniContext": "During the hiking trip, the guide warned everyone not to **deviate** from the marked trail because of loose rocks nearby. One hiker wandered off briefly to take a photo of a waterfall and quickly realized how uneven the ground became. After that, the whole group stayed close together and followed the path exactly as planned. The trip ended safely, with the guide reminding everyone that small decisions to deviate can lead to bigger problems."
   },
   {
     "word": "discrete",
     "meaning": "جدا و مستقل",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "separate",
       "distinct"
     ],
     "examples": [
       [
-        "The team discussed discrete before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The course is divided into five discrete modules.",
+        "این دوره به پنج بخش جدا و مستقل تقسیم شده است."
       ],
       [
-        "I can explain discrete more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Each department operates as a discrete unit with its own budget.",
+        "هر بخش به عنوان یک واحد جدا و مستقل با بودجه‌ی خاص خود عمل می‌کند."
       ],
       [
-        "In a backend project, discrete can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The data was stored in discrete files rather than one large database.",
+        "داده‌ها به جای یک پایگاه داده‌ی بزرگ، در فایل‌های جدا و مستقل ذخیره شدند."
       ]
     ],
-    "miniContext": "The analytics service processes events as discrete records rather than as one large stream of mutable data. Each record contains a timestamp, an event type, and the information needed for later analysis. This structure makes it easier to retry failed processing because an individual event can be handled again without rebuilding the entire dataset. The team still groups events when generating reports, but the underlying records remain separate. Designing data as discrete units can simplify processing and debugging when individual operations need to be tracked, retried, or audited independently."
+    "miniContext": "The chemistry teacher explained that the course would be broken into several **discrete** units, each ending with its own short test. Students appreciated that the units were separate, since finishing one topic didn't depend on remembering everything from the last. If someone struggled with a single discrete section, they could catch up without falling behind in the rest of the course. This structure made the subject feel much less overwhelming overall."
   },
   {
     "word": "dynamic",
     "meaning": "پویا؛ متغیر",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "changing",
       "fluid"
     ],
     "examples": [
       [
-        "The team discussed dynamic before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "She has a dynamic personality that energizes the whole room.",
+        "او شخصیتی پویا دارد که کل اتاق را پرانرژی می‌کند."
       ],
       [
-        "I can explain dynamic more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The market for electric cars is extremely dynamic right now.",
+        "بازار خودروهای برقی در حال حاضر بسیار پویا و متغیر است."
       ],
       [
-        "In a backend project, dynamic can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Prices on the website change based on a dynamic pricing system.",
+        "قیمت‌ها در وب‌سایت بر اساس یک سیستم قیمت‌گذاری پویا تغییر می‌کنند."
       ]
     ],
-    "miniContext": "The pricing rules were dynamic because different customers could receive different discounts depending on their contract and usage. Instead of hard-coding every possibility into the checkout controller, the developers created a small rules component that could evaluate the customer's current conditions. Product managers could then update approved rules without changing unrelated parts of the application. The system still had strict limits around what could be changed safely. Dynamic behavior does not mean uncontrolled behavior. It means the system can respond to changing inputs while keeping important boundaries and validation in place."
+    "miniContext": "The new manager brought a **dynamic** energy to meetings that had become routine and quiet. She encouraged people to interrupt politely with new ideas instead of waiting until the end. Within a month, the team's discussions felt far more dynamic, with more disagreement but also more creativity. Several employees said they looked forward to meetings for the first time in years."
   },
   {
     "word": "explicitly",
     "meaning": "به‌طور صریح؛ آشکارا",
     "level": "504",
-    "pos": "",
+    "pos": "adverb",
     "synonyms": [
       "clearly",
       "directly"
     ],
     "examples": [
       [
-        "The team discussed explicitly before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The teacher explicitly told the students not to use calculators.",
+        "معلم به‌طور صریح به دانش‌آموزان گفت که از ماشین‌حساب استفاده نکنند."
       ],
       [
-        "I can explain explicitly more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The contract explicitly states that late payments will incur a fee.",
+        "قرارداد به‌طور صریح بیان می‌کند که پرداخت‌های تأخیری جریمه خواهند داشت."
       ],
       [
-        "In a backend project, explicitly can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "She explicitly asked him not to tell anyone about the surprise party.",
+        "او به‌طور صریح از او خواست که درباره‌ی مهمانی غافلگیری به کسی نگوید."
       ]
     ],
-    "miniContext": "The API documentation explicitly stated which fields were required when creating an invoice. A developer had assumed that one of those fields was optional because older examples did not include it. The first request failed validation, and the documentation was checked again. The team realized that the newer endpoint had stricter requirements than the old version. They updated their internal examples and added a validation test. When an API contract is explicitly documented, developers should be able to rely on that information rather than guessing from incomplete examples or previous behavior."
+    "miniContext": "The babysitter had been **explicitly** told not to let the children watch television after dinner. When the kids asked, she repeated the rule clearly so there would be no confusion. Later, the parents thanked her for following their instructions so exactly. They said many previous sitters had ignored rules that weren't explicitly repeated in person."
   },
   {
     "word": "facilitate",
     "meaning": "تسهیل کردن؛ آسان‌تر کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "ease",
       "enable"
     ],
     "examples": [
       [
-        "The team discussed facilitate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "A good moderator can facilitate discussion without dominating it.",
+        "یک مجری خوب می‌تواند بحث را تسهیل کند بدون آن‌که بر آن مسلط شود."
       ],
       [
-        "I can explain facilitate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The new bridge will facilitate trade between the two regions.",
+        "پل جدید تجارت بین دو منطقه را تسهیل خواهد کرد."
       ],
       [
-        "In a backend project, facilitate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The app facilitates communication between remote team members.",
+        "این اپلیکیشن ارتباط بین اعضای تیم دوردست را تسهیل می‌کند."
       ]
     ],
-    "miniContext": "The operations team introduced a small command-line tool to facilitate common deployment tasks. Previously, engineers had to remember several commands and check multiple configuration files manually. The new tool performed the routine checks first and then displayed the exact actions it was about to take. It did not remove human approval from production deployments, but it made the process more consistent and easier to review. A good internal tool does not need to automate everything. Sometimes its main value is facilitating a repetitive task so that engineers can spend their attention on decisions that actually require judgment."
+    "miniContext": "A skilled interpreter can **facilitate** communication between two groups that don't share a common language. During the negotiation, the interpreter didn't take sides but simply made sure both parties understood each other correctly. Without someone to facilitate the conversation, small misunderstandings could easily have turned into serious disagreements. By the end of the meeting, both sides thanked the interpreter for making the discussion possible at all."
   },
   {
     "word": "fluctuate",
     "meaning": "نوسان داشتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "vary",
       "shift"
     ],
     "examples": [
       [
-        "The team discussed fluctuate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Gas prices tend to fluctuate throughout the year.",
+        "قیمت بنزین معمولاً در طول سال نوسان دارد."
       ],
       [
-        "I can explain fluctuate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Her mood can fluctuate quickly depending on how tired she is.",
+        "خلق‌وخوی او می‌تواند به سرعت و بسته به میزان خستگی‌اش نوسان داشته باشد."
       ],
       [
-        "In a backend project, fluctuate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The temperature in the desert fluctuates dramatically between day and night.",
+        "دما در بیابان بین روز و شب به شدت نوسان دارد."
       ]
     ],
-    "miniContext": "Server traffic tends to fluctuate throughout the day. During quiet hours, the application may receive only a small number of requests, while a marketing campaign can produce a sudden increase within minutes. The infrastructure team therefore avoided sizing the system only for the average load. They monitored peak traffic and configured automatic scaling within reasonable limits. Capacity planning based on one fixed number would have been misleading. When an important metric fluctuates, engineers need to understand both its normal range and the conditions that cause unusual changes."
+    "miniContext": "Farmers in the valley know that vegetable prices **fluctuate** depending on the weather each season. A dry summer can cause prices to rise sharply, while a good harvest brings them back down just as quickly. Because the market fluctuates so much, many farmers sign fixed contracts with local restaurants instead of relying on daily prices. This gives them a more predictable income despite the unpredictable weather."
   },
   {
     "word": "formulate",
     "meaning": "صورت‌بندی کردن؛ تدوین کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "develop",
       "frame"
     ],
     "examples": [
       [
-        "The team discussed formulate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The committee will formulate a new policy on remote work.",
+        "کمیته یک سیاست جدید درباره‌ی کار از راه دور تدوین خواهد کرد."
       ],
       [
-        "I can explain formulate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Scientists formulated a theory to explain the strange results.",
+        "دانشمندان یک نظریه برای توضیح نتایج عجیب تدوین کردند."
       ],
       [
-        "In a backend project, formulate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "She carefully formulated her answer before speaking.",
+        "او پاسخش را با دقت صورت‌بندی کرد پیش از آن‌که صحبت کند."
       ]
     ],
-    "miniContext": "After collecting feedback from customers and support agents, the product team formulated a clearer definition of the problem. Instead of saying that users wanted a “faster dashboard,” they identified three specific issues: slow initial loading, delayed data updates, and confusing filters. This formulation made the engineering work easier to estimate because each issue could be measured separately. A problem statement does not need to be complicated. It needs to describe the situation precisely enough that different people can agree on what should be improved and how progress will be recognized."
+    "miniContext": "Before presenting to investors, the founders spent two weeks trying to **formulate** a clear explanation of how their app made money. Early drafts were too technical, and later ones sounded too vague. Eventually, they formulated a simple one-sentence summary that anyone could understand. Investors later said that clear sentence was the reason they remembered the pitch at all."
   },
   {
     "word": "incentivize",
     "meaning": "ایجاد انگیزه کردن؛ تشویق کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "encourage",
       "motivate"
     ],
     "examples": [
       [
-        "The team discussed incentivize before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The company wants to incentivize employees to use public transportation.",
+        "شرکت می‌خواهد کارمندان را برای استفاده از حمل‌ونقل عمومی تشویق کند."
       ],
       [
-        "I can explain incentivize more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Offering discounts can incentivize customers to buy in bulk.",
+        "ارائه‌ی تخفیف می‌تواند مشتریان را برای خرید عمده تشویق کند."
       ],
       [
-        "In a backend project, incentivize can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The school incentivized reading by giving prizes for finished books.",
+        "مدرسه با دادن جایزه برای کتاب‌های خوانده‌شده، مطالعه را تشویق کرد."
       ]
     ],
-    "miniContext": "The company wanted customers to complete their profile information, so the product team tested a small reward to incentivize completion. Users who finished the required fields received access to an additional reporting feature. The team compared completion rates before and after the change and also watched for unwanted behavior, such as people entering meaningless information just to receive the reward. The experiment produced a useful increase, but it also showed that incentives can change how people behave in unexpected ways. Any reward should therefore be measured not only by participation but also by the quality of the resulting behavior."
+    "miniContext": "The gym wanted to **incentivize** members who exercised regularly, so it introduced a point system with small rewards. Members who motivated themselves with personal goals, like a new pair of running shoes, often stuck with the program longer. After six months, attendance had noticeably increased across all age groups. The owner credited the simple rewards for helping incentivize people during the slower winter months."
   },
   {
     "word": "infrastructure",
     "meaning": "زیرساخت",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [
       "foundation",
       "platform"
     ],
     "examples": [
       [
-        "The team discussed infrastructure before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The city needs to invest more in public transport infrastructure.",
+        "شهر باید سرمایه‌گذاری بیشتری در زیرساخت حمل‌ونقل عمومی انجام دهد."
       ],
       [
-        "I can explain infrastructure more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "After the earthquake, much of the region's infrastructure was damaged.",
+        "پس از زلزله، بخش زیادی از زیرساخت منطقه آسیب دید."
       ],
       [
-        "In a backend project, infrastructure can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Reliable internet infrastructure is essential for remote schools.",
+        "زیرساخت اینترنت قابل‌اعتماد برای مدارس دورکار ضروری است."
       ]
     ],
-    "miniContext": "The application had grown from a small internal tool into a service used by many customers, but its infrastructure had not changed at the same pace. Several components still ran on one server, backups were mostly manual, and monitoring covered only the main application. The engineering team gradually improved the foundation by separating critical services, automating backups, and adding alerts for resource problems. Infrastructure work was not visible to most customers, yet it reduced the risk of serious outages. As a product grows, reliable infrastructure becomes part of the service itself rather than an optional technical detail."
+    "miniContext": "After years of heavy traffic complaints, the city finally invested in upgrading its road **infrastructure**. New bridges, wider lanes, and better drainage systems were built over two years. Residents noticed fewer traffic jams almost immediately after the infrastructure improvements were finished. Local officials said the project would also reduce flooding during the rainy season."
   },
   {
     "word": "integrity",
     "meaning": "یکپارچگی؛ صحت",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [
       "wholeness",
       "honesty"
     ],
     "examples": [
       [
-        "The team discussed integrity before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Employees are expected to act with honesty and integrity.",
+        "از کارمندان انتظار می‌رود با صداقت و درستی عمل کنند."
       ],
       [
-        "I can explain integrity more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The engineer checked the structural integrity of the old bridge.",
+        "مهندس یکپارچگی ساختاری پل قدیمی را بررسی کرد."
       ],
       [
-        "In a backend project, integrity can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "A backup copy protects the integrity of your data.",
+        "یک نسخه‌ی پشتیبان از صحت داده‌های شما محافظت می‌کند."
       ]
     ],
-    "miniContext": "The import process needed to protect the integrity of customer records when data arrived from several external sources. A failed import could not leave half of a customer's information updated while the rest remained unchanged. The developers used transactions where appropriate and stored failed records separately for review. They also added checks for duplicate identifiers and invalid relationships. These safeguards made the process more predictable when something went wrong. Data integrity is not only about preventing obvious corruption. It is about maintaining trustworthy relationships and states even when systems experience partial failures."
+    "miniContext": "The journalist was known throughout her career for refusing to publish a story unless she had verified its **integrity**. Editors sometimes pressured her to rush articles, but she insisted on checking every fact first. Readers trusted her work because they knew her integrity mattered more to her than speed. That reputation eventually earned her a position at one of the country's most respected newspapers."
   },
   {
     "word": "interpret",
     "meaning": "تفسیر کردن؛ برداشت کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "understand",
       "explain"
     ],
     "examples": [
       [
-        "The team discussed interpret before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "It can be hard to interpret his jokes if you don't know him well.",
+        "اگر او را خوب نشناسی، تفسیر کردن شوخی‌هایش سخت است."
       ],
       [
-        "I can explain interpret more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The judge had to interpret the law in an unusual case.",
+        "قاضی مجبور شد قانون را در یک پرونده‌ی غیرمعمول تفسیر کند."
       ],
       [
-        "In a backend project, interpret can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "She interpreted his silence as a sign of disagreement.",
+        "او سکوت او را نشانه‌ای از مخالفت تفسیر کرد."
       ]
     ],
-    "miniContext": "The dashboard showed a sharp increase in failed requests, but the number alone was difficult to interpret. An engineer compared the percentage of failures with total traffic and discovered that the increase was caused mainly by a temporary spike in requests. The absolute number looked alarming, while the error rate remained within the expected range. The team added both values to the dashboard so future incidents would be easier to understand. Metrics rarely speak for themselves. Engineers need enough context to interpret a change correctly and distinguish a meaningful signal from a change caused simply by a larger volume of activity."
+    "miniContext": "Art teachers often remind students that two people can **interpret** the same painting in completely different ways. One student might see sadness in the dark colors, while another finds calmness in the same shades. There is rarely a single correct way to interpret a piece of art. Teachers encourage students to explain their reasoning rather than guess what the right answer might be."
   },
   {
     "word": "justify",
     "meaning": "توجیه کردن؛ دلیل آوردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "defend",
       "support"
     ],
     "examples": [
       [
-        "The team discussed justify before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "You don't need to justify your decision to everyone.",
+        "لازم نیست تصمیمت را برای همه توجیه کنی."
       ],
       [
-        "I can explain justify more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The manager tried to justify the sudden price increase.",
+        "مدیر تلاش کرد افزایش ناگهانی قیمت را توجیه کند."
       ],
       [
-        "In a backend project, justify can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Her excellent results justified the extra hours of practice.",
+        "نتایج عالی او ساعت‌های اضافی تمرین را توجیه کرد."
       ]
     ],
-    "miniContext": "The architect proposed splitting one part of the application into a separate service, but the team asked him to justify the additional operational cost. He explained that the component had a different scaling pattern and needed an independent deployment cycle. He also described the new monitoring and deployment work that the split would introduce. After comparing both options, the team decided that the separation was useful for this particular component but unnecessary elsewhere. A technical decision becomes easier to evaluate when its benefits and costs are stated clearly rather than presented as a matter of personal preference."
+    "miniContext": "The city council had to **justify** its decision to close the old library before building a new one. Residents demanded clear reasons, since the old building held decades of memories. Officials explained that repair costs alone would justify the move, pointing to a damaged roof and outdated wiring. After a public meeting, most residents accepted the explanation, even if they still felt nostalgic."
   },
   {
     "word": "marginal",
     "meaning": "جزئی؛ حاشیه‌ای",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "minor",
       "slight"
     ],
     "examples": [
       [
-        "The team discussed marginal before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The new update brought only a marginal improvement in speed.",
+        "به‌روزرسانی جدید تنها بهبود جزئی در سرعت ایجاد کرد."
       ],
       [
-        "I can explain marginal more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "There was a marginal difference between the two test scores.",
+        "تفاوت جزئی بین دو نمره‌ی آزمون وجود داشت."
       ],
       [
-        "In a backend project, marginal can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "His role in the project was marginal compared to the others.",
+        "نقش او در پروژه در مقایسه با دیگران حاشیه‌ای بود."
       ]
     ],
-    "miniContext": "The first optimization produced only a marginal improvement in response time. The team reduced a few milliseconds from an operation that was already fast, but the main customer complaint remained unchanged. Instead of spending another week on similar micro-optimizations, the engineers examined the complete request path and found a much slower external call. That change produced a noticeable improvement. Small optimizations can still be worthwhile, especially in high-volume systems, but their value should be considered in context. A marginal gain in one component may not matter if another part of the workflow dominates the total time."
+    "miniContext": "After months of training, the runner noticed only a **marginal** improvement in her race time. Her coach reminded her that marginal gains eventually add up over a full season. Instead of chasing one big breakthrough, she focused on small, marginal changes to her diet, sleep, and stretching routine. By the end of the year, those tiny improvements combined into a personal best."
   },
   {
     "word": "notwithstanding",
     "meaning": "با وجود؛ علی‌رغم",
     "level": "504",
-    "pos": "",
+    "pos": "preposition",
     "synonyms": [
       "despite",
       "regardless"
     ],
     "examples": [
       [
-        "The team discussed notwithstanding before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Notwithstanding the heavy rain, the match continued as planned.",
+        "علی‌رغم باران شدید، مسابقه طبق برنامه ادامه یافت."
       ],
       [
-        "I can explain notwithstanding more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The risks notwithstanding, she decided to take the job abroad.",
+        "با وجود خطرات، او تصمیم گرفت آن شغل را در خارج از کشور قبول کند."
       ],
       [
-        "In a backend project, notwithstanding can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "His objections notwithstanding, the board approved the new budget.",
+        "با وجود مخالفت‌های او، هیئت‌مدیره بودجه‌ی جدید را تصویب کرد."
       ]
     ],
-    "miniContext": "Notwithstanding the successful test results, the team decided not to deploy the new payment service immediately. The tests covered the expected traffic and several failure scenarios, but the production environment had a few integrations that were difficult to reproduce accurately. The engineers planned a gradual rollout so they could observe real behavior with a small percentage of customers first. The decision was not a rejection of the test results. Rather, the team recognized that successful testing and production confidence are related but not identical. Good rollout plans take both available evidence and remaining uncertainty into account."
+    "miniContext": "The festival organizers decided to proceed with the outdoor concert, heavy rain **notwithstanding**. Ticket refunds notwithstanding, almost nobody asked for their money back once the music started. The mud and the cold notwithstanding, fans stayed until the very last song. Organizers later said that, all the difficulties notwithstanding, it became one of the festival's most memorable nights."
   },
   {
     "word": "parameter",
     "meaning": "پارامتر؛ معیار ورودی",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [
       "variable",
       "setting"
     ],
     "examples": [
       [
-        "The team discussed parameter before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "You can change the parameter to control how fast the animation plays.",
+        "می‌توانی پارامتر را تغییر دهی تا سرعت پخش انیمیشن را کنترل کنی."
       ],
       [
-        "I can explain parameter more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The experiment had one key parameter: the amount of sunlight.",
+        "آزمایش یک پارامتر کلیدی داشت: مقدار نور خورشید."
       ],
       [
-        "In a backend project, parameter can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Budget and deadline are the two main parameters of this project.",
+        "بودجه و مهلت زمانی دو پارامتر اصلی این پروژه هستند."
       ]
     ],
-    "miniContext": "The image-processing service accepts several parameters that control how an uploaded picture is handled. One parameter determines the maximum output size, while another controls the quality level. During testing, the team discovered that a very high quality setting increased processing time without noticeably improving the final image for most users. They adjusted the default while keeping the parameter available for special cases. Clearly defined parameters make a system easier to configure, but too many options can make behavior difficult to understand. Each parameter should have a meaningful purpose and a documented range."
+    "miniContext": "In the cooking class, the instructor explained that temperature was the most important **parameter** when baking bread. Changing just this one parameter could turn a loaf from perfectly golden to badly burnt. Students experimented by holding every other variable constant and adjusting only the oven's temperature. By testing one parameter at a time, they finally understood why their first loaves kept failing."
   },
   {
     "word": "preliminary",
     "meaning": "مقدماتی؛ اولیه",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "initial",
       "provisional"
     ],
     "examples": [
       [
-        "The team discussed preliminary before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The preliminary results of the study look promising.",
+        "نتایج مقدماتی این مطالعه امیدوارکننده به نظر می‌رسند."
       ],
       [
-        "I can explain preliminary more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Before the main interview, candidates must pass a preliminary test.",
+        "قبل از مصاحبه‌ی اصلی، داوطلبان باید در یک آزمون مقدماتی قبول شوند."
       ],
       [
-        "In a backend project, preliminary can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "A preliminary sketch helped the architect plan the final design.",
+        "یک طرح مقدماتی به معمار کمک کرد تا طراحی نهایی را برنامه‌ریزی کند."
       ]
     ],
-    "miniContext": "The engineering team shared a preliminary estimate for the migration after reviewing the current database size and application dependencies. The estimate suggested that the main work could be completed during a weekend, but it was explicitly marked as provisional because several old integrations had not yet been tested. Over the next few days, the team discovered one dependency that required additional preparation. The final plan therefore became longer than the preliminary estimate. Early estimates are useful for coordination, but they should be updated when better evidence becomes available rather than treated as promises."
+    "miniContext": "Before the official competition began, judges reviewed each contestant's **preliminary** application to check basic eligibility. A few applicants were eliminated at this early preliminary stage for missing required documents. Those who passed moved on to interviews and live auditions. Organizers said the preliminary review saved time by filtering out incomplete entries before the busier rounds started."
   },
   {
     "word": "prohibit",
     "meaning": "ممنوع کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "ban",
       "forbid"
     ],
     "examples": [
       [
-        "The team discussed prohibit before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The rules prohibit smoking inside the building.",
+        "قوانین سیگار کشیدن در داخل ساختمان را ممنوع می‌کنند."
       ],
       [
-        "I can explain prohibit more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Local law prohibits parking on this street after 6 p.m.",
+        "قانون محلی پارک کردن در این خیابان بعد از ساعت شش عصر را ممنوع می‌کند."
       ],
       [
-        "In a backend project, prohibit can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Doctors prohibited her from lifting heavy objects after the surgery.",
+        "پزشکان او را از بلند کردن اجسام سنگین پس از عمل جراحی منع کردند."
       ]
     ],
-    "miniContext": "The security policy prohibits storing production passwords in application source code. During a review, an engineer found an old configuration file that contained a credential from a previous environment. The credential was immediately rotated, and the file was removed from the repository history using the company's approved process. The team also added a secret-scanning check to prevent similar mistakes. A policy is more effective when technical controls support it. Simply prohibiting an unsafe practice does not guarantee that people will avoid it, especially in a large codebase with many contributors."
+    "miniContext": "The new building rules **prohibit** residents from keeping large pets in apartments without a balcony. Several tenants complained that the rule felt unfair to families with gentle, well-behaved dogs. Management explained that the rule was meant to prevent noise complaints, not to prohibit pets entirely. After negotiations, the building agreed to allow smaller pets under a certain weight."
   },
   {
     "word": "proportionate",
     "meaning": "متناسب",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "commensurate",
       "balanced"
     ],
     "examples": [
       [
-        "The team discussed proportionate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The punishment should be proportionate to the crime.",
+        "تنبیه باید متناسب با جرم باشد."
       ],
       [
-        "I can explain proportionate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Her salary increase was proportionate to her years of experience.",
+        "افزایش حقوق او متناسب با سال‌های تجربه‌اش بود."
       ],
       [
-        "In a backend project, proportionate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The company's response was proportionate to the size of the complaint.",
+        "واکنش شرکت متناسب با اندازه‌ی شکایت بود."
       ]
     ],
-    "miniContext": "The response to a minor incident should be proportionate to its actual impact. When a test environment became temporarily unavailable, the team restored it quickly but did not stop every production activity or start a large investigation. A separate production outage, by contrast, required a much deeper review because customers had been affected. Treating every event as equally serious can waste time and make important incidents harder to notice. A proportionate response considers the scope, duration, risk, and customer impact before deciding how much attention and effort are appropriate."
+    "miniContext": "The teacher believed that homework should be **proportionate** to how much material was covered in class that week. During exam weeks, she assigned a proportionate amount of extra review instead of piling on new topics. Students appreciated that the workload matched the difficulty of each unit. Parents also noticed that a proportionate approach reduced stress compared to previous years."
   },
   {
     "word": "retrieve",
     "meaning": "بازیابی کردن؛ دریافت کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "recover",
       "fetch"
     ],
     "examples": [
       [
-        "The team discussed retrieve before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Can you retrieve the file I deleted yesterday?",
+        "می‌توانی فایلی که دیروز حذف کردم را بازیابی کنی؟"
       ],
       [
-        "I can explain retrieve more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The dog ran into the lake to retrieve the ball.",
+        "سگ برای بازیابی توپ به داخل دریاچه دوید."
       ],
       [
-        "In a backend project, retrieve can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "She retrieved her passport from the hotel safe before checkout.",
+        "او گذرنامه‌اش را قبل از تخلیه از گاوصندوق هتل بازیابی کرد."
       ]
     ],
-    "miniContext": "The application needs to retrieve customer preferences before generating a personalized report. Because the preferences are requested frequently, the service first checks a short-lived cache and queries the database only when the information is not available there. If the database request fails, the system returns a controlled error rather than silently using incomplete data. The team also measures how often the cache is used so they can understand whether the optimization is effective. Retrieving data sounds simple, but in a production system the source, latency, failure behavior, and freshness of that data all matter."
+    "miniContext": "After the flood, volunteers worked for days to **retrieve** important documents from the damaged basement. Some papers were too wet to save, but many were carefully dried and retrieved in time. Families were relieved to get back photographs and certificates they thought were lost forever. The experience convinced several residents to store copies of important documents somewhere safer in the future."
   },
   {
     "word": "substitute",
     "meaning": "جایگزین کردن؛ جایگزین",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "replace",
       "alternative"
     ],
     "examples": [
       [
-        "The team discussed substitute before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "You can substitute honey for sugar in this recipe.",
+        "می‌توانی در این دستور پخت عسل را جایگزین شکر کنی."
       ],
       [
-        "I can explain substitute more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The coach decided to substitute the injured player in the second half.",
+        "مربی تصمیم گرفت بازیکن مصدوم را در نیمه‌ی دوم جایگزین کند."
       ],
       [
-        "In a backend project, substitute can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "No app can fully substitute for a face-to-face conversation.",
+        "هیچ اپلیکیشنی نمی‌تواند به طور کامل جایگزین یک گفتگوی رودررو شود."
       ]
     ],
-    "miniContext": "During testing, the team needed to simulate an unavailable external payment provider. They used a local substitute that returned realistic success, failure, and timeout responses. This allowed developers to test difficult scenarios without repeatedly contacting the real provider. The substitute was not intended to reproduce every detail of the external service; it only needed to model the behaviors relevant to the application. Using a controlled alternative made the tests faster and more predictable. A useful substitute should match the important characteristics of the original component while remaining simple enough to operate reliably in the test environment."
+    "miniContext": "When the lead singer lost her voice right before the concert, the band had to find a **substitute** within hours. A backup singer who already knew most of the songs agreed to substitute for the night. Fans noticed the change but stayed supportive once they heard how well she performed. The band later said that having a reliable substitute ready had saved the entire show."
   },
   {
     "word": "sufficient",
     "meaning": "کافی؛ بسنده",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "adequate",
       "enough"
     ],
     "examples": [
       [
-        "The team discussed sufficient before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "We don't have sufficient evidence to reach a conclusion yet.",
+        "ما هنوز شواهد کافی برای رسیدن به یک نتیجه نداریم."
       ],
       [
-        "I can explain sufficient more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "A few hours of sleep were not sufficient for her to feel rested.",
+        "چند ساعت خواب برای احساس استراحت او کافی نبود."
       ],
       [
-        "In a backend project, sufficient can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Is one bottle of water sufficient for the whole hike?",
+        "آیا یک بطری آب برای تمام مسیر پیاده‌روی کافی است؟"
       ]
     ],
-    "miniContext": "The server had sufficient memory for normal traffic, but the team noticed that large background jobs could consume much more than expected. Instead of immediately buying a larger machine, they measured actual memory usage and changed the jobs to process smaller batches. After the change, the existing server had sufficient capacity even during the busiest test. This was a useful reminder that capacity problems are not always solved by adding hardware. Sometimes the application can use existing resources more efficiently. The right question is whether available capacity is sufficient for the real workload, including reasonable peaks and failure scenarios."
+    "miniContext": "The hikers debated whether they had packed **sufficient** water for the long desert trail. Their guide insisted that two liters per person would not be sufficient in such heat. After refilling their bottles at the last station, they finally felt confident they had enough. The decision to double-check turned out to be more than sufficient to get everyone through safely."
   },
   {
     "word": "subsequent",
     "meaning": "بعدی؛ متعاقب",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "following",
       "ensuing"
     ],
     "examples": [
       [
-        "The team discussed subsequent before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The first meeting went well, and subsequent meetings were even better.",
+        "جلسه‌ی اول خوب پیش رفت و جلسات بعدی حتی بهتر بودند."
       ],
       [
-        "I can explain subsequent more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Subsequent research confirmed the results of the original study.",
+        "تحقیقات بعدی نتایج مطالعه‌ی اصلی را تأیید کرد."
       ],
       [
-        "In a backend project, subsequent can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "He apologized, and his subsequent behavior showed real change.",
+        "او عذرخواهی کرد و رفتار بعدی‌اش تغییر واقعی را نشان داد."
       ]
     ],
-    "miniContext": "The first version of the migration script failed when it encountered a malformed record. In the subsequent version, the developers added validation before processing and moved invalid records into a separate review file. This allowed the migration to continue instead of stopping completely. The team also recorded the number of rejected records so that data quality could be assessed afterward. The later version was not simply a rewrite of the original. It incorporated what the first attempt had revealed about real data. Subsequent improvements are often most valuable when they are based on evidence from actual use."
+    "miniContext": "The first draft of the report was rejected, but each **subsequent** version improved based on feedback. By the third subsequent revision, the editor had almost nothing left to criticize. The writer later said that early rejection taught her more than any of the praise that came in subsequent rounds. That pattern of failing first and improving later became her usual process for every project."
   },
   {
     "word": "terminate",
     "meaning": "خاتمه دادن؛ متوقف کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "end",
       "stop"
     ],
     "examples": [
       [
-        "The team discussed terminate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The company can terminate the contract with thirty days' notice.",
+        "شرکت می‌تواند قرارداد را با سی روز اطلاع قبلی خاتمه دهد."
       ],
       [
-        "I can explain terminate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "You need to terminate the process before restarting the computer.",
+        "باید فرایند را قبل از راه‌اندازی مجدد کامپیوتر متوقف کنی."
       ],
       [
-        "In a backend project, terminate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Her employment was terminated after the company downsized.",
+        "استخدام او پس از کوچک‌سازی شرکت خاتمه یافت."
       ]
     ],
-    "miniContext": "The scheduler can terminate a background job when it exceeds its maximum allowed execution time. This prevents a broken process from running indefinitely and consuming resources needed by other jobs. Termination alone is not enough, however. The system records why the job stopped and makes the failed work available for retry or investigation. During testing, the team intentionally created a long-running task and verified that the scheduler terminated it as expected. A controlled stop is an important part of reliable background processing, especially when individual jobs can encounter unexpected conditions."
+    "miniContext": "The landlord warned that he would **terminate** the lease if the noise complaints continued. After one more loud party, he sent a formal letter to end the agreement within thirty days. The tenants tried to negotiate, but the landlord's decision to terminate the lease stood firm. They ended up finding a new apartment just before the deadline."
   },
   {
     "word": "underestimate",
     "meaning": "دست‌کم گرفتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "undervalue",
       "misjudge"
     ],
     "examples": [
       [
-        "The team discussed underestimate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Never underestimate how much preparation a marathon requires.",
+        "هرگز میزان آمادگی لازم برای یک ماراتن را دست‌کم نگیر."
       ],
       [
-        "I can explain underestimate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "I think we underestimate the importance of a good night's sleep.",
+        "فکر می‌کنم ما اهمیت یک خواب شبانه‌ی خوب را دست‌کم می‌گیریم."
       ],
       [
-        "In a backend project, underestimate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "He underestimated his opponent and lost the match.",
+        "او حریفش را دست‌کم گرفت و بازی را باخت."
       ]
     ],
-    "miniContext": "The team initially underestimated the effort required to migrate the reporting system. The database conversion itself was straightforward, but the old application contained undocumented queries and exports that several departments still depended on. Once those dependencies were discovered, the migration plan became much larger. The experience changed how the team estimated similar projects. They began including time for discovery, testing, documentation, and communication rather than focusing only on the coding work. Underestimating a project does not necessarily come from poor technical ability; incomplete information at the beginning can make even experienced teams produce overly optimistic estimates."
+    "miniContext": "Many new runners **underestimate** how much recovery time their bodies need between long races. Coaches often repeat that you should never underestimate the importance of rest days. One athlete who ignored this advice ended up injured halfway through the season. After recovering, she admitted that failing to respect her body's limits had cost her months of training."
   },
   {
     "word": "utilize",
     "meaning": "استفاده کردن؛ به کار گرفتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "use",
       "employ"
     ],
     "examples": [
       [
-        "The team discussed utilize before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The school plans to utilize the empty classroom as a library.",
+        "مدرسه قصد دارد از کلاس خالی به عنوان کتابخانه استفاده کند."
       ],
       [
-        "I can explain utilize more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "We should utilize renewable energy sources whenever possible.",
+        "ما باید هر وقت ممکن است از منابع انرژی تجدیدپذیر استفاده کنیم."
       ],
       [
-        "In a backend project, utilize can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The chef utilized leftover vegetables to make a hearty soup.",
+        "سرآشپز از سبزیجات باقی‌مانده برای درست کردن یک سوپ پرمحتوا استفاده کرد."
       ]
     ],
-    "miniContext": "The analytics service was already collecting useful event data, but the product team was not doing much with it. They began to utilize those records to identify which parts of the onboarding process caused users to leave. The analysis revealed that a particular verification step had a much higher drop-off rate than expected. The team simplified that step and then measured the result. Collecting information has limited value if nobody uses it. Data becomes useful when a team can turn it into a practical decision, while still considering whether the information is accurate and relevant to the question being asked."
+    "miniContext": "The small nonprofit learned to **utilize** volunteer skills instead of hiring expensive consultants for every project. A retired accountant offered to manage the organization's finances for free, putting his decades of experience to use. Other volunteers brought skills in design, writing, and event planning. By utilizing talent already within the community, the nonprofit saved enough money to fund two new programs."
   },
   {
     "word": "validate",
     "meaning": "اعتبارسنجی کردن؛ تأیید کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [
       "verify",
       "confirm"
     ],
     "examples": [
       [
-        "The team discussed validate before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "You need to validate your ticket before boarding the train.",
+        "باید بلیطت را قبل از سوار شدن به قطار اعتبارسنجی کنی."
       ],
       [
-        "I can explain validate more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "The survey results validate what we suspected about customer habits.",
+        "نتایج نظرسنجی آنچه که درباره‌ی عادات مشتریان گمان می‌کردیم را تأیید می‌کند."
       ],
       [
-        "In a backend project, validate can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Her mentor's praise validated years of hard work.",
+        "تحسین مربی‌اش سال‌ها کار سخت او را تأیید کرد."
       ]
     ],
-    "miniContext": "Before accepting an uploaded file, the server validates its type, size, and required metadata. The application does not rely only on the file extension because a filename can be changed easily. It checks the content using the approved validation process and rejects files that do not meet the expected rules. The team also logs validation failures so repeated problems can be investigated. Validation is a basic boundary between untrusted input and application logic. It should happen close to the point where data enters the system and should reflect the actual assumptions made by the code that uses it."
+    "miniContext": "Before publishing the survey results, the research team wanted to **validate** their findings with a second, independent study. The second study helped validate the original numbers, showing nearly identical patterns. Without that extra step, reviewers might have questioned whether the first results were reliable. Validating data this way takes longer, but it builds far more trust in the final report."
   },
   {
     "word": "versatile",
     "meaning": "چندمنظوره؛ همه‌کاره",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "adaptable",
       "flexible"
     ],
     "examples": [
       [
-        "The team discussed versatile before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "Olive oil is a versatile ingredient used in many dishes.",
+        "روغن زیتون یک ماده‌ی چندمنظوره است که در بسیاری از غذاها استفاده می‌شود."
       ],
       [
-        "I can explain versatile more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "She is a versatile actress who can play both comedy and drama.",
+        "او بازیگری همه‌کاره است که می‌تواند هم کمدی و هم درام بازی کند."
       ],
       [
-        "In a backend project, versatile can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "This small apartment has a versatile layout that suits different needs.",
+        "این آپارتمان کوچک طرحی چندمنظوره دارد که با نیازهای مختلف سازگار است."
       ]
     ],
-    "miniContext": "The engineer chose a versatile queue system because several parts of the application could benefit from the same infrastructure. One service used it for email delivery, another for image processing, and a third for scheduled reports. The team defined clear conventions for retries, failure handling, and monitoring so that each use case remained understandable. The technology was useful because it supported different workloads without requiring a completely separate platform for each one. A versatile component can reduce duplication, but flexibility should not become an excuse for using one tool everywhere when a simpler specialized solution would be more appropriate."
+    "miniContext": "The small kitchen tool turned out to be remarkably **versatile**, useful for chopping, grating, and even juicing. Reviewers praised how versatile the device felt compared to owning five separate gadgets. One customer wrote that a single versatile tool had finally freed up space in her crowded drawer. The company later released an ad highlighting just how many different tasks the gadget could handle."
   },
   {
     "word": "consistent",
     "meaning": "سازگار؛ یکدست؛ ثابت",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "uniform",
       "steady"
     ],
     "examples": [
       [
-        "The team discussed consistent before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "It's important to stay consistent with your workout schedule.",
+        "مهم است که با برنامه‌ی تمرینی خود ثابت و پیگیر بمانی."
       ],
       [
-        "I can explain consistent more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "Her story was not consistent with what the witnesses said.",
+        "داستان او با چیزی که شاهدان گفتند سازگار نبود."
       ],
       [
-        "In a backend project, consistent can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "The bakery is known for its consistent quality every day.",
+        "این نانوایی به کیفیت یکدست خود در هر روز شناخته شده است."
       ]
     ],
-    "miniContext": "The API returned different date formats depending on which endpoint was called, which made the frontend code unnecessarily complicated. The team decided that the responses should be consistent across the service. They documented one standard format, updated the affected endpoints, and added tests for the most important responses. The change was small, but it removed several conditional branches from the client application. Consistent behavior is especially useful when many developers or services depend on the same interface. It reduces the number of assumptions people have to remember and makes future changes easier to review."
+    "miniContext": "The coach told the young swimmer that **consistent** training mattered more than occasional bursts of effort. Swimming hard for one week and skipping the next would never be as effective as staying consistent all season. Over time, her times improved steadily instead of in sudden jumps. The coach reminded her that consistent habits, not single great days, built champions."
   },
   {
     "word": "substantial",
     "meaning": "قابل توجه؛ اساسی؛ زیاد",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [
       "considerable",
       "significant"
     ],
     "examples": [
       [
-        "The team discussed substantial before making the final decision.",
-        "تیم قبل از تصمیم نهایی درباره این موضوع صحبت کرد."
+        "The company made a substantial profit this quarter.",
+        "شرکت در این فصل سود قابل توجهی کسب کرد."
       ],
       [
-        "I can explain substantial more clearly when I connect it to a real situation.",
-        "وقتی این مفهوم را به یک موقعیت واقعی ربط می‌دهم، می‌توانم آن را به شکل واضح‌تری توضیح دهم."
+        "There is a substantial difference between the two offers.",
+        "تفاوت قابل توجهی بین دو پیشنهاد وجود دارد."
       ],
       [
-        "In a backend project, substantial can affect how the system behaves in production.",
-        "در یک پروژه بک‌اند، این موضوع می‌تواند بر نحوه عملکرد سیستم در محیط واقعی اثر بگذارد."
+        "Renovating the old house required a substantial amount of money.",
+        "بازسازی خانه‌ی قدیمی مقدار زیادی پول نیاز داشت."
       ]
     ],
-    "miniContext": "The team expected the database cleanup to produce a substantial reduction in storage usage, but the first test showed only a small difference. They investigated the result and discovered that most of the space was being consumed by a different table. Instead of continuing with the original plan, they measured the storage distribution and changed the cleanup strategy. The final operation removed a substantial amount of unnecessary data and also improved several queries. The experience showed that a large expected benefit should still be verified with measurements. Assumptions about scale can be surprisingly inaccurate when they are not supported by actual data."
+    "miniContext": "The company reported a **substantial** increase in sales after switching to online ordering. Executives had expected a modest bump, but the substantial growth surprised even the most optimistic forecasts. Customers said the new website made ordering far easier than before. The substantial success convinced management to invest even more in the online platform next year."
   }
 ]

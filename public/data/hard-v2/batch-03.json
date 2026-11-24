@@ -12,19 +12,19 @@
     ],
     "examples": [
       {
-        "english": "His dubious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد مشکوک و نامطمئن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Many scientists remain dubious about the study's small sample size.",
+        "persian": "بسیاری از دانشمندان به دلیل حجم کم نمونه، همچنان نسبت به این مطالعه مشکوک و نامطمئن هستند."
       },
       {
-        "english": "The decision seemed dubious, but the reasons became clearer later.",
-        "persian": "این تصمیم مشکوک و نامطمئن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "She gave him a dubious look when he explained why he was three hours late.",
+        "persian": "وقتی او توضیح داد که چرا سه ساعت دیر کرده است، نگاهی مشکوک و تردیدآمیز به او انداخت."
       },
       {
-        "english": "A dubious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش مشکوک و نامطمئن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The claims made in the advertisement are dubious at best, and no peer-reviewed study supports them.",
+        "persian": "ادعاهای مطرح‌شده در این تبلیغ در بهترین حالت مشکوک هستند و هیچ مطالعه داوری‌شده‌ای از آن‌ها حمایت نمی‌کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “dubious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Journalists often describe a politician's promises as dubious when the numbers behind them don't add up. The word captures a particular kind of doubt — not outright disbelief, but a nagging suspicion that something doesn't hold up under scrutiny. A dubious claim might still turn out to be true, but it has not yet earned the benefit of the doubt. Investors, editors, and scientists alike use the word to flag exactly this kind of unproven, questionable territory."
   },
   {
     "courseId": "upgrade",
@@ -32,26 +32,26 @@
     "word": "duplicity",
     "meaning": "دو رویی و فریبکاری",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "noun",
     "synonyms": [
       "deceit",
       "deception"
     ],
     "examples": [
       {
-        "english": "His duplicity approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دو رویی و فریبکاری او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The senator's duplicity was exposed when leaked documents contradicted everything he had promised voters.",
+        "persian": "دورویی سناتور زمانی آشکار شد که اسناد افشاشده با تمام وعده‌هایی که به رأی‌دهندگان داده بود در تضاد بود."
       },
       {
-        "english": "The decision seemed duplicity, but the reasons became clearer later.",
-        "persian": "این تصمیم دو رویی و فریبکاری به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Years of duplicity finally caught up with him when both of his partners discovered each other's existence.",
+        "persian": "سال‌ها فریبکاری سرانجام گریبانش را گرفت، وقتی هر دو همسرش از وجود یکدیگر باخبر شدند."
       },
       {
-        "english": "A duplicity attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دو رویی و فریبکاری می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her duplicity surprised no one who had worked with her before.",
+        "persian": "دورویی او برای کسانی که قبلاً با او کار کرده بودند، هیچ تعجبی نداشت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “duplicity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Duplicity describes a deliberate, two-faced kind of dishonesty — saying one thing to one person and the opposite to another while pretending to be sincere with both. Spy novels and political scandals thrive on duplicity, since the drama depends on a character maintaining two contradictory faces at once. Unlike a simple lie, duplicity implies a sustained pattern of deception rather than a single slip. Discovering someone's duplicity usually destroys trust permanently, because it reveals that the relationship itself was built on a performance."
   },
   {
     "courseId": "upgrade",
@@ -66,19 +66,19 @@
     ],
     "examples": [
       {
-        "english": "His eclectic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد منتخب از منابع گوناگون او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The restaurant's eclectic menu mixes Korean, Mexican, and Italian influences in unexpected ways.",
+        "persian": "منوی متنوع این رستوران تأثیرات کره‌ای، مکزیکی و ایتالیایی را به‌شکلی غیرمنتظره ترکیب می‌کند."
       },
       {
-        "english": "The decision seemed eclectic, but the reasons became clearer later.",
-        "persian": "این تصمیم منتخب از منابع گوناگون به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Her music collection is wonderfully eclectic, ranging from baroque chamber music to underground hip-hop.",
+        "persian": "مجموعه موسیقی او به‌طرز دلپذیری گوناگون است و از موسیقی مجلسی باروک تا هیپ‌هاپ زیرزمینی را شامل می‌شود."
       },
       {
-        "english": "A eclectic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش منتخب از منابع گوناگون می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "He furnished the apartment in an eclectic style, pairing an antique desk with a bright plastic lamp.",
+        "persian": "او آپارتمان را به سبکی التقاطی و متنوع مبله کرد و میزی عتیقه را با چراغی پلاستیکی رنگارنگ ترکیب کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “eclectic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An eclectic taste draws freely from many different styles, traditions, or sources instead of sticking to just one. Critics use the word to praise artists, chefs, and designers who combine influences that wouldn't normally sit together, producing something fresh rather than chaotic. A record collection, a reading list, or even a wardrobe can be called eclectic when its variety feels deliberate rather than random. The word carries a mildly admiring tone, suggesting curiosity and broad-mindedness rather than a lack of focus."
   },
   {
     "courseId": "upgrade",
@@ -93,19 +93,19 @@
     ],
     "examples": [
       {
-        "english": "His efficacious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد موثر و کارآمد او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Clinical trials showed the new vaccine to be highly efficacious against severe illness.",
+        "persian": "آزمایش‌های بالینی نشان داد که واکسن جدید در برابر بیماری شدید بسیار مؤثر و کارآمد است."
       },
       {
-        "english": "The decision seemed efficacious, but the reasons became clearer later.",
-        "persian": "این تصمیم موثر و کارآمد به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The old remedy proved surprisingly efficacious, easing her cough within a day.",
+        "persian": "آن درمان قدیمی به‌طور شگفت‌آوری مؤثر از آب درآمد و سرفه او را در عرض یک روز تسکین داد."
       },
       {
-        "english": "A efficacious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش موثر و کارآمد می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "No one doubted the policy's good intentions, but few believed it would be efficacious in practice.",
+        "persian": "هیچ‌کس در نیت خوب این سیاست شک نداشت، اما کمتر کسی باور داشت در عمل کارآمد باشد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “efficacious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Efficacious is most at home in medical and scientific writing, where it describes a treatment or method that reliably produces the intended result. A drug can be safe without being efficacious, and regulators require solid evidence of both before approving it. The word is more formal and more narrowly tied to measurable results than a general term like \"good\" or \"helpful.\" Outside medicine, it still signals that something has been tested and shown to actually work, not just that it sounds promising."
   },
   {
     "courseId": "upgrade",
@@ -120,19 +120,19 @@
     ],
     "examples": [
       {
-        "english": "His egregious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بسیار بد و آشکار او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The report uncovered egregious violations of safety regulations at the factory.",
+        "persian": "این گزارش نقض‌های بسیار بد و آشکار مقررات ایمنی را در کارخانه فاش کرد."
       },
       {
-        "english": "The decision seemed egregious, but the reasons became clearer later.",
-        "persian": "این تصمیم بسیار بد و آشکار به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Firing her for taking a single sick day was an egregious overreaction.",
+        "persian": "اخراج او فقط به‌خاطر یک روز مرخصی استعلاجی، واکنشی بسیار بد و افراطی بود."
       },
       {
-        "english": "A egregious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بسیار بد و آشکار می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "He made an egregious error in the final calculation that cost the company millions.",
+        "persian": "او در محاسبه نهایی اشتباهی بسیار بد و آشکار مرتکب شد که میلیون‌ها دلار برای شرکت هزینه داشت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “egregious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Egregious describes something so obviously and severely wrong that it stands out even among other bad examples. Journalists reach for the word when covering scandals, errors, or abuses that go well beyond ordinary carelessness or unfairness. An egregious mistake isn't just a mistake — it's one that should have been impossible to miss. The word carries a strong note of moral judgment, implying that whoever is responsible should have known better."
   },
   {
     "courseId": "upgrade",
@@ -147,19 +147,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to elicit the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را بیرون کشیدن؛ برانگیختن."
+        "english": "The interviewer asked an open-ended question to elicit a more honest response.",
+        "persian": "مصاحبه‌گر یک سؤال باز پرسید تا پاسخی صادقانه‌تر بیرون بکشد."
       },
       {
-        "english": "Experienced people know how to elicit difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را بیرون کشیدن؛ برانگیختن بدون ایجاد درگیری غیرضروری."
+        "english": "Good teachers elicit curiosity rather than simply delivering facts.",
+        "persian": "معلمان خوب به‌جای صرفاً ارائه حقایق، کنجکاوی را در دانش‌آموزان برمی‌انگیزند."
       },
       {
-        "english": "He chose to elicit the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت بیرون کشیدن؛ برانگیختن."
+        "english": "The survey was redesigned to elicit more detailed feedback from customers.",
+        "persian": "این نظرسنجی بازطراحی شد تا بازخورد دقیق‌تری از مشتریان بیرون بکشد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “elicit” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To elicit something is to draw it out of someone, usually through careful questioning, provocation, or design, rather than receiving it freely offered. Lawyers elicit testimony from witnesses, researchers elicit responses from survey participants, and a clever remark can elicit laughter from an otherwise quiet room. The word implies a bit of skill or effort on the part of the person doing the eliciting — the information or reaction might not have come out on its own. It is commonly paired with nouns like response, reaction, information, or emotion."
   },
   {
     "courseId": "upgrade",
@@ -174,19 +174,19 @@
     ],
     "examples": [
       {
-        "english": "His elusive approach helped him deal with the situation calmly.",
-        "persian": "رویکرد گریزان و دشواریاب او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The thief remained elusive, slipping past police for months before his eventual capture.",
+        "persian": "این دزد همچنان دست‌نیافتنی ماند و برای ماه‌ها پیش از دستگیری نهایی‌اش از دست پلیس فرار کرد."
       },
       {
-        "english": "The decision seemed elusive, but the reasons became clearer later.",
-        "persian": "این تصمیم گریزان و دشواریاب به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "A cure for the disease has proven elusive despite decades of research.",
+        "persian": "با وجود دهه‌ها تحقیق، درمانی برای این بیماری همچنان دشواریاب باقی مانده است."
       },
       {
-        "english": "A elusive attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش گریزان و دشواریاب می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Happiness can feel elusive precisely when we chase it too directly.",
+        "persian": "خوشبختی دقیقاً زمانی که بیش از حد مستقیم به دنبال آن باشیم، می‌تواند گریزان به نظر برسد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “elusive” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Something elusive keeps escaping your grasp, whether that thing is a person, an answer, a feeling, or a precise definition. Scientists speak of an elusive particle that theory predicts but experiments struggle to detect, while writers speak of an elusive meaning in a poem that resists a single reading. The word suggests not just absence but active evasion — the target seems to slip away each time it's nearly reached. It's often used with a note of frustration, admiration, or both at once."
   },
   {
     "courseId": "upgrade",
@@ -201,19 +201,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to embellish the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را آراستن؛ شاخ‌وبرگ دادن."
+        "english": "He tends to embellish his stories, adding details that never actually happened.",
+        "persian": "او عادت دارد داستان‌هایش را شاخ‌وبرگ بدهد و جزئیاتی اضافه کند که هرگز اتفاق نیفتاده‌اند."
       },
       {
-        "english": "Experienced people know how to embellish difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را آراستن؛ شاخ‌وبرگ دادن بدون ایجاد درگیری غیرضروری."
+        "english": "She likes to embellish her reports with colorful anecdotes that keep readers engaged.",
+        "persian": "او دوست دارد گزارش‌هایش را با حکایت‌های رنگارنگ بیاراید تا خوانندگان را درگیر نگه دارد."
       },
       {
-        "english": "He chose to embellish the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت آراستن؛ شاخ‌وبرگ دادن."
+        "english": "Don't embellish the facts just to make the article more dramatic.",
+        "persian": "صرفاً برای دراماتیک‌تر کردن مقاله، واقعیت‌ها را شاخ‌وبرگ ندهید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “embellish” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To embellish is to add extra decorative detail to something — a story, a dress, a report — that goes beyond its plain, essential form. Sometimes this is harmless and even charming, as when a grandparent embellishes a childhood memory to make it more entertaining. Other times, embellishing facts shades into dishonesty, since the added flourishes can distort what actually happened. Editors and fact-checkers are trained to spot where a writer may have embellished an account for dramatic effect."
   },
   {
     "courseId": "upgrade",
@@ -228,19 +228,19 @@
     ],
     "examples": [
       {
-        "english": "His eminent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد برجسته و سرشناس او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The eminent physicist was invited to deliver the keynote lecture at the conference.",
+        "persian": "آن فیزیکدان برجسته و سرشناس برای ارائه سخنرانی اصلی در کنفرانس دعوت شد."
       },
       {
-        "english": "The decision seemed eminent, but the reasons became clearer later.",
-        "persian": "این تصمیم برجسته و سرشناس به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "She consulted an eminent surgeon known for pioneering the procedure.",
+        "persian": "او با جراحی برجسته و سرشناس که به‌خاطر ابداع این روش شناخته می‌شود، مشورت کرد."
       },
       {
-        "english": "A eminent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش برجسته و سرشناس می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "His eminent reputation in the field made his endorsement especially valuable.",
+        "persian": "شهرت برجسته او در این حوزه، تأییدش را به‌ویژه ارزشمند کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “eminent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Eminent describes someone who has risen to clear, widely recognized distinction within their field, usually through years of achievement rather than sudden fame. An eminent historian, judge, or surgeon is someone other experts defer to, not merely someone who is well-known to the public. The word carries a formal, almost old-fashioned respect, which is why it still appears on honorary titles and in legal contexts like \"eminent domain.\" Describing someone as eminent is a strong compliment that implies authority as much as reputation."
   },
   {
     "courseId": "upgrade",
@@ -255,19 +255,19 @@
     ],
     "examples": [
       {
-        "english": "His empirical approach helped him deal with the situation calmly.",
-        "persian": "رویکرد تجربی او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The theory lacked empirical support until the 2019 study confirmed its predictions.",
+        "persian": "این نظریه تا زمانی که مطالعه سال ۲۰۱۹ پیش‌بینی‌هایش را تأیید کرد، فاقد پشتوانه تجربی بود."
       },
       {
-        "english": "The decision seemed empirical, but the reasons became clearer later.",
-        "persian": "این تصمیم تجربی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Good scientists prefer empirical evidence over intuition or anecdote.",
+        "persian": "دانشمندان خوب شواهد تجربی را به شهود یا حکایت ترجیح می‌دهند."
       },
       {
-        "english": "A empirical attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش تجربی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The findings are based on empirical data collected from over ten thousand patients.",
+        "persian": "این یافته‌ها بر پایه داده‌های تجربی جمع‌آوری‌شده از بیش از ده هزار بیمار است."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “empirical” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Empirical knowledge comes from direct observation, measurement, or experiment rather than from pure theory, tradition, or guesswork. Scientists distinguish empirical claims — ones that can be tested and verified with data — from purely speculative ones that haven't yet been checked against reality. The scientific method is built almost entirely on empirical evidence: hypotheses are only trusted once they survive contact with real-world measurement. Even outside the lab, calling an approach empirical signals that it relies on what has actually been observed rather than on assumption."
   },
   {
     "courseId": "upgrade",
@@ -282,19 +282,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a enigma that required careful judgment.",
-        "persian": "این موقعیت به یک معما تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "The disappearance of the ship's crew remains an enigma to this day.",
+        "persian": "ناپدید شدن خدمه کشتی تا امروز همچنان یک معما باقی مانده است."
       },
       {
-        "english": "Her explanation helped everyone understand the enigma more clearly.",
-        "persian": "توضیح او به همه کمک کرد معما را بهتر درک کنند."
+        "english": "To his colleagues, the reclusive CEO was something of an enigma.",
+        "persian": "برای همکارانش، آن مدیرعامل گوشه‌گیر تا حدودی یک معما بود."
       },
       {
-        "english": "The discussion revealed an important enigma that had been overlooked.",
-        "persian": "بحث یک معما مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "Historians still debate the enigma of who really wrote the letters.",
+        "persian": "تاریخ‌دانان همچنان درباره این معما که واقعاً چه کسی آن نامه‌ها را نوشته، بحث می‌کنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “enigma” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An enigma is a person, event, or situation that resists explanation, leaving observers puzzled no matter how closely they look. The word is often used for people who deliberately reveal little about themselves, making their true motives or character impossible to pin down. Unsolved historical mysteries, from ciphers to disappearances, are frequently described as enigmas precisely because the available evidence never adds up to a complete picture. Calling something an enigma suggests not just that it's unknown, but that it may be fundamentally unknowable."
   },
   {
     "courseId": "upgrade",
@@ -309,19 +309,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a enmity that required careful judgment.",
-        "persian": "این موقعیت به یک دشمنی تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "Decades of enmity between the two families finally ended with the wedding.",
+        "persian": "دشمنی چند دهه‌ای میان آن دو خانواده سرانجام با آن ازدواج به پایان رسید."
       },
       {
-        "english": "Her explanation helped everyone understand the enmity more clearly.",
-        "persian": "توضیح او به همه کمک کرد دشمنی را بهتر درک کنند."
+        "english": "The enmity between the rival nations dates back to a border dispute in the 1960s.",
+        "persian": "دشمنی میان آن دو کشور رقیب به یک اختلاف مرزی در دهه ۱۹۶۰ برمی‌گردد."
       },
       {
-        "english": "The discussion revealed an important enmity that had been overlooked.",
-        "persian": "بحث یک دشمنی مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "Their enmity was no secret; they had refused to speak to each other for years.",
+        "persian": "دشمنی آن‌ها پوشیده نبود؛ آن‌ها سال‌ها بود از صحبت کردن با یکدیگر خودداری کرده بودند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “enmity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Enmity describes a settled, often long-running hostility between people, groups, or nations, usually with a specific history behind it. It's a stronger and more formal word than simple dislike, implying something closer to active antagonism that both sides recognize and maintain. Historians use the word to describe rivalries between states or dynasties that persist across generations, long after the original cause has been half-forgotten. Ending a state of enmity usually requires a deliberate act, like a treaty or reconciliation, rather than simply letting time pass."
   },
   {
     "courseId": "upgrade",
@@ -336,19 +336,19 @@
     ],
     "examples": [
       {
-        "english": "His ephemeral approach helped him deal with the situation calmly.",
-        "persian": "رویکرد زودگذر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Fame on social media is often ephemeral, fading within a matter of weeks.",
+        "persian": "شهرت در شبکه‌های اجتماعی اغلب زودگذر است و در عرض چند هفته کمرنگ می‌شود."
       },
       {
-        "english": "The decision seemed ephemeral, but the reasons became clearer later.",
-        "persian": "این تصمیم زودگذر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Cherry blossoms are prized partly because their beauty is so ephemeral.",
+        "persian": "شکوفه‌های گیلاس تا حدودی به این دلیل ارزشمندند که زیبایی‌شان بسیار زودگذر است."
       },
       {
-        "english": "A ephemeral attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش زودگذر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The startup's early success proved ephemeral once larger competitors entered the market.",
+        "persian": "موفقیت اولیه آن استارتاپ، با ورود رقبای بزرگ‌تر به بازار، زودگذر از آب درآمد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ephemeral” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Ephemeral describes anything that lasts only a short time by its very nature, not because of bad luck but because brevity is built into what it is. Poets and photographers are drawn to ephemeral subjects — morning dew, a sunset, a child's laughter — precisely because their beauty is tied to how briefly they last. In technology and culture, trends are often called ephemeral when they capture attention intensely for a moment before vanishing almost entirely. The word carries a gentle, sometimes wistful awareness that nothing described this way is meant to endure."
   },
   {
     "courseId": "upgrade",
@@ -356,26 +356,26 @@
     "word": "equanimity",
     "meaning": "خونسردی و آرامش",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "noun",
     "synonyms": [
       "composure",
       "calmness"
     ],
     "examples": [
       {
-        "english": "His equanimity approach helped him deal with the situation calmly.",
-        "persian": "رویکرد خونسردی و آرامش او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "She accepted the harsh verdict with remarkable equanimity.",
+        "persian": "او حکم تلخ را با خونسردی و آرامشی قابل‌توجه پذیرفت."
       },
       {
-        "english": "The decision seemed equanimity, but the reasons became clearer later.",
-        "persian": "این تصمیم خونسردی و آرامش به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "He faced the diagnosis with a quiet equanimity that surprised his doctors.",
+        "persian": "او با آن تشخیص بیماری، با خونسردی آرامی روبرو شد که پزشکانش را شگفت‌زده کرد."
       },
       {
-        "english": "A equanimity attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش خونسردی و آرامش می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Years of meditation had given her the equanimity to handle any crisis calmly.",
+        "persian": "سال‌ها تمرین مدیتیشن به او چنان خونسردی داده بود که می‌توانست هر بحرانی را آرام مدیریت کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “equanimity” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Equanimity is the mental steadiness that lets a person stay calm and balanced through difficulty, loss, or provocation, without becoming anxious or bitter. Stoic philosophers prized equanimity as the mark of wisdom, since it comes from accepting what cannot be controlled rather than suppressing emotion by force. Doctors, pilots, and surgeons are often praised for maintaining equanimity in emergencies, because panic in those moments can be far more dangerous than the crisis itself. Unlike simple indifference, equanimity still involves feeling the full weight of a situation — it's about not being thrown off balance by it."
   },
   {
     "courseId": "upgrade",
@@ -383,26 +383,26 @@
     "word": "equivocate",
     "meaning": "دوپهلو سخن گفتن",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "verb",
     "synonyms": [
       "hedge",
       "prevaricate"
     ],
     "examples": [
       {
-        "english": "His equivocate approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دوپهلو سخن گفتن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "When reporters pressed him on the allegations, the senator began to equivocate.",
+        "persian": "وقتی خبرنگاران او را درباره این اتهامات تحت فشار قرار دادند، سناتور شروع به دوپهلو سخن گفتن کرد."
       },
       {
-        "english": "The decision seemed equivocate, but the reasons became clearer later.",
-        "persian": "این تصمیم دوپهلو سخن گفتن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Rather than equivocate, the CEO admitted the product had failed outright.",
+        "persian": "مدیرعامل به‌جای دوپهلو سخن گفتن، صریحاً پذیرفت که محصول کاملاً شکست خورده است."
       },
       {
-        "english": "A equivocate attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دوپهلو سخن گفتن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Witnesses who equivocate under cross-examination often damage their own credibility.",
+        "persian": "شاهدانی که در بازجویی متقابل دوپهلو سخن می‌گویند، اغلب به اعتبار خود آسیب می‌زنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “equivocate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To equivocate is to use deliberately vague or ambiguous language so as to avoid giving a direct answer, often to dodge responsibility or commitment. Politicians equivocate when a straightforward yes or no would be politically costly, choosing instead words that can later be interpreted multiple ways. The word differs from lying outright — an equivocating speaker technically avoids saying anything false, while still managing to mislead through evasion. Journalists are trained to notice when a source equivocates, since the evasion itself is often as telling as a direct answer would be."
   },
   {
     "courseId": "upgrade",
@@ -417,19 +417,19 @@
     ],
     "examples": [
       {
-        "english": "His erudite approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دانشمند و فرهیخته او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Her erudite commentary on medieval poetry impressed even the specialists in the audience.",
+        "persian": "تفسیر فرهیخته او درباره شعر قرون وسطی، حتی متخصصان حاضر در جلسه را تحت تأثیر قرار داد."
       },
       {
-        "english": "The decision seemed erudite, but the reasons became clearer later.",
-        "persian": "این تصمیم دانشمند و فرهیخته به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The professor was known for his erudite, if occasionally impenetrable, lectures.",
+        "persian": "آن استاد به‌خاطر سخنرانی‌های فرهیخته‌اش شناخته می‌شد، هرچند گاهی نیز غیرقابل‌فهم بود."
       },
       {
-        "english": "A erudite attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دانشمند و فرهیخته می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "He peppered the essay with erudite references that few readers could fully follow.",
+        "persian": "او مقاله را با ارجاعاتی فرهیخته و دانشمندانه پر کرد که کمتر خواننده‌ای می‌توانست کاملاً آن‌ها را دنبال کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “erudite” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Erudite describes a depth of learning that comes from extensive reading and study, especially in specialized or scholarly subjects. An erudite person can discuss obscure historical details or technical nuances with an ease that reflects years of serious study, not just native intelligence. The word is sometimes used with a hint of irony, suggesting learning so deep it borders on inaccessible to ordinary readers. Book reviews often praise an erudite author while also warning that the prose may demand real effort from the audience."
   },
   {
     "courseId": "upgrade",
@@ -444,19 +444,19 @@
     ],
     "examples": [
       {
-        "english": "His esoteric approach helped him deal with the situation calmly.",
-        "persian": "رویکرد فقط برای گروهی خاص قابل فهم او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The lecture quickly became too esoteric for anyone outside the mathematics department.",
+        "persian": "این سخنرانی خیلی زود آنقدر تخصصی شد که جز اعضای گروه ریاضی کسی نمی‌توانست آن را دنبال کند."
       },
       {
-        "english": "The decision seemed esoteric, but the reasons became clearer later.",
-        "persian": "این تصمیم فقط برای گروهی خاص قابل فهم به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "He collects esoteric knowledge about medieval brewing techniques that few people find interesting.",
+        "persian": "او دانشی بسیار خاص درباره فنون آبجوسازی قرون وسطی گرد می‌آورد که برای کمتر کسی جالب است."
       },
       {
-        "english": "A esoteric attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش فقط برای گروهی خاص قابل فهم می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The journal publishes highly esoteric research that rarely reaches a general audience.",
+        "persian": "این نشریه پژوهش‌هایی به‌شدت تخصصی و خاص‌گرا منتشر می‌کند که به‌ندرت به مخاطب عام می‌رسد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “esoteric” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Esoteric knowledge is understood and valued only by a small circle of specialists, remaining largely inaccessible or uninteresting to everyone else. The word is often used for academic subfields, religious or mystical traditions, and hobbyist communities that develop their own dense vocabulary and reference points. Something esoteric isn't necessarily difficult in an absolute sense — it's difficult because it assumes a body of specialized background knowledge that outsiders simply don't have. Writers sometimes use esoteric details deliberately, to signal insider expertise or to create a sense of exclusivity around a subject."
   },
   {
     "courseId": "upgrade",
@@ -464,26 +464,26 @@
     "word": "evince",
     "meaning": "نشان دادن",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "verb",
     "synonyms": [
       "show",
       "demonstrate"
     ],
     "examples": [
       {
-        "english": "His evince approach helped him deal with the situation calmly.",
-        "persian": "رویکرد نشان دادن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Great leaders evince confidence even when the odds are against them.",
+        "persian": "رهبران بزرگ حتی زمانی که شرایط به ضررشان است، اعتمادبه‌نفس خود را نشان می‌دهند."
       },
       {
-        "english": "The decision seemed evince, but the reasons became clearer later.",
-        "persian": "این تصمیم نشان دادن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His trembling hands evinced a nervousness he tried hard to hide.",
+        "persian": "دستان لرزان او عصبیتی را نشان می‌داد که سخت می‌کوشید پنهانش کند."
       },
       {
-        "english": "A evince attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش نشان دادن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "A good report should evince a clear understanding of the underlying risks.",
+        "persian": "یک گزارش خوب باید درکی روشن از خطرهای زیربنایی را نشان دهد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “evince” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To evince a quality is to display it clearly enough that an observer can read it directly from your behavior, expression, or words. The word is more formal than simply \"show,\" and it often appears in writing that analyzes character or emotion, such as literary criticism or psychological reports. A person doesn't need to announce a feeling to evince it — trembling hands can evince fear just as plainly as a shaking voice can. Evince is almost always followed by a quality or emotion as its object, such as confidence, concern, surprise, or reluctance."
   },
   {
     "courseId": "upgrade",
@@ -498,19 +498,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to exacerbate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را بدتر کردن."
+        "english": "Stress tends to exacerbate existing health problems rather than cause new ones.",
+        "persian": "استرس معمولاً مشکلات سلامتی موجود را بدتر می‌کند تا اینکه مشکل جدیدی ایجاد کند."
       },
       {
-        "english": "Experienced people know how to exacerbate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را بدتر کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Cutting the budget further will only exacerbate the hospital's staffing crisis.",
+        "persian": "کاهش بیشتر بودجه فقط بحران کمبود نیرو در بیمارستان را بدتر خواهد کرد."
       },
       {
-        "english": "He chose to exacerbate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت بدتر کردن."
+        "english": "His sarcastic comment only exacerbated an already tense meeting.",
+        "persian": "نظر کنایه‌آمیز او فقط جلسه‌ای را که از قبل پرتنش بود، بدتر کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “exacerbate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Exacerbate means to make an already bad or difficult situation noticeably worse, usually by adding a new negative factor to existing problems. Doctors warn that certain habits can exacerbate chronic conditions, and economists note how a single policy misstep can exacerbate a recession already underway. The word implies that a problem existed beforehand — you cannot exacerbate something that wasn't already bad to begin with. It's commonly used in news coverage of crises, where one factor after another is described as exacerbating an already unstable situation."
   },
   {
     "courseId": "upgrade",
@@ -525,19 +525,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to exonerate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تبرئه کردن."
+        "english": "New DNA evidence can exonerate someone who has spent decades in prison for a crime they didn't commit.",
+        "persian": "شواهد جدید دی‌ان‌ای می‌تواند کسی را که دهه‌ها به‌خاطر جرمی که مرتکب نشده در زندان بوده، تبرئه کند."
       },
       {
-        "english": "Experienced people know how to exonerate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تبرئه کردن بدون ایجاد درگیری غیرضروری."
+        "english": "The internal investigation moved to exonerate the officer of any wrongdoing.",
+        "persian": "بازرسی داخلی در تلاش بود تا آن افسر را از هرگونه تخلف تبرئه کند."
       },
       {
-        "english": "He chose to exonerate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تبرئه کردن."
+        "english": "Nothing in the report could exonerate the company from responsibility for the spill.",
+        "persian": "هیچ‌چیز در گزارش نمی‌توانست شرکت را از مسئولیت نشت نفتی تبرئه کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “exonerate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To exonerate someone is to formally clear them of blame or guilt, usually after an accusation, trial, or investigation has already taken place. The word carries legal and institutional weight — it's not just a personal opinion that someone is innocent, but an official judgment that removes the charge entirely. New evidence, such as a confession or forensic test, is a common reason an earlier conviction is later overturned and the person exonerated. Being exonerated is different from being acquitted on a technicality; it implies the accusation itself was simply wrong."
   },
   {
     "courseId": "upgrade",
@@ -552,19 +552,19 @@
     ],
     "examples": [
       {
-        "english": "His expedient approach helped him deal with the situation calmly.",
-        "persian": "رویکرد مصلحتی و مناسب برای هدف او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Signing the treaty was politically expedient, even though many objected to its terms.",
+        "persian": "امضای آن پیمان از نظر سیاسی مصلحتی بود، هرچند بسیاری با شرایط آن مخالف بودند."
       },
       {
-        "english": "The decision seemed expedient, but the reasons became clearer later.",
-        "persian": "این تصمیم مصلحتی و مناسب برای هدف به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Firing the whole team seemed like an expedient solution, but it ignored the deeper problem.",
+        "persian": "اخراج کل تیم راه‌حلی مصلحتی به نظر می‌رسید، اما مشکل عمیق‌تر را نادیده می‌گرفت."
       },
       {
-        "english": "A expedient attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش مصلحتی و مناسب برای هدف می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Doctors sometimes choose the most expedient treatment rather than the most thorough one.",
+        "persian": "پزشکان گاهی به‌جای کامل‌ترین درمان، درمانی مصلحتی و سریع را انتخاب می‌کنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “expedient” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Expedient describes a choice made because it's quick and convenient for solving an immediate problem, not necessarily because it's the most ethical or thorough option. Politicians are frequently accused of choosing the expedient path, meaning the one that avoids short-term conflict, rather than the principled one that might cost them support. The word usually carries a slightly critical edge, implying that convenience was put ahead of what was actually right or best in the long run. Something can be both expedient and reasonable, but the word reminds the reader that expediency and genuine wisdom don't always align."
   },
   {
     "courseId": "upgrade",
@@ -579,19 +579,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to extol the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را بسیار ستودن."
+        "english": "Critics extol the film's cinematography, even when they dislike the plot.",
+        "persian": "منتقدان حتی وقتی طرح داستان را دوست ندارند، فیلم‌برداری آن را بسیار می‌ستایند."
       },
       {
-        "english": "Experienced people know how to extol difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را بسیار ستودن بدون ایجاد درگیری غیرضروری."
+        "english": "The coach never stops extolling the virtues of discipline and early mornings.",
+        "persian": "آن مربی هرگز از ستودن فضیلت‌های نظم و بیدار شدن زود صبح دست نمی‌کشد."
       },
       {
-        "english": "He chose to extol the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت بسیار ستودن."
+        "english": "In his memoir, he extols the quiet courage of ordinary soldiers.",
+        "persian": "او در خاطراتش از شجاعت آرام سربازان عادی بسیار تجلیل می‌کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “extol” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To extol something is to praise it enthusiastically and at length, often publicly, going well beyond a simple compliment. Writers extol the virtues of a new diet, a leader, or a way of life when they want to persuade others of its value, not merely note that it's good. The word suggests sustained, almost ceremonial praise — a toast at a wedding might extol the couple's devotion, while a eulogy extols a life well lived. It differs from flattery in that extolling is usually sincere, even if it can sometimes tip into exaggeration."
   },
   {
     "courseId": "upgrade",
@@ -606,19 +606,19 @@
     ],
     "examples": [
       {
-        "english": "His fallacious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد مغالطه‌آمیز و نادرست او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The argument is fallacious because it assumes the very thing it's trying to prove.",
+        "persian": "این استدلال مغالطه‌آمیز است، چون همان چیزی را که می‌خواهد ثابت کند، از پیش فرض گرفته است."
       },
       {
-        "english": "The decision seemed fallacious, but the reasons became clearer later.",
-        "persian": "این تصمیم مغالطه‌آمیز و نادرست به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Many popular diet claims turn out to be fallacious once you examine the underlying studies.",
+        "persian": "بسیاری از ادعاهای رایج درباره رژیم غذایی، وقتی مطالعات زیربنایی‌شان بررسی می‌شود، مغالطه‌آمیز از آب درمی‌آیند."
       },
       {
-        "english": "A fallacious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش مغالطه‌آمیز و نادرست می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "His fallacious reasoning convinced the jury for nearly an hour before the defense caught the flaw.",
+        "persian": "استدلال مغالطه‌آمیز او تا نزدیک به یک ساعت هیئت منصفه را قانع کرده بود، پیش از آنکه وکیل مدافع نقص آن را دریابد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “fallacious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An argument is fallacious when it relies on faulty logic rather than sound reasoning, even if its conclusion happens to sound convincing or familiar. Logicians catalog dozens of specific fallacious patterns, such as circular reasoning or false cause, because recognizing the pattern is often the only way to catch a flawed argument that feels intuitively persuasive. The word is distinct from simply being wrong about facts — a fallacious argument can use entirely true premises and still reach an unjustified conclusion through a broken chain of reasoning. Spotting fallacious reasoning is a core skill in debate, law, and science."
   },
   {
     "courseId": "upgrade",
@@ -633,19 +633,19 @@
     ],
     "examples": [
       {
-        "english": "His fastidious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بسیار دقیق و سخت‌گیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The fastidious editor rejected the manuscript over a single misplaced comma.",
+        "persian": "آن ویراستار بسیار دقیق و سخت‌گیر، نسخه را به‌خاطر یک ویرگول نادرست رد کرد."
       },
       {
-        "english": "The decision seemed fastidious, but the reasons became clearer later.",
-        "persian": "این تصمیم بسیار دقیق و سخت‌گیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "She is fastidious about keeping her workshop tools organized by size and type.",
+        "persian": "او درباره نظم چیدن ابزار کارگاهش بر اساس اندازه و نوع، بسیار دقیق و سخت‌گیر است."
       },
       {
-        "english": "A fastidious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بسیار دقیق و سخت‌گیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Guests found him fastidious to the point of discomfort, rearranging napkins before every meal.",
+        "persian": "مهمانان او را تا حد ناراحت‌کننده‌ای دقیق و سخت‌گیر یافتند، چون پیش از هر وعده غذا دستمال‌سفره‌ها را دوباره مرتب می‌چید."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “fastidious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Fastidious describes an intense, sometimes excessive attention to detail, cleanliness, or correctness that can tip over into fussiness. A fastidious cook measures every ingredient precisely, while a fastidious dresser notices a single thread out of place that most people would never register. The word can be a compliment when it signals high standards and careful craftsmanship, but it edges toward criticism when the attention to minor detail starts to seem obsessive or hard to satisfy. Either way, it implies a person who is difficult to please because their standards are unusually exacting."
   },
   {
     "courseId": "upgrade",
@@ -660,19 +660,19 @@
     ],
     "examples": [
       {
-        "english": "His fervent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرحرارت او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "She remained a fervent supporter of the reform movement until her death.",
+        "persian": "او تا زمان مرگش یک حامی پرحرارت جنبش اصلاحات باقی ماند."
       },
       {
-        "english": "The decision seemed fervent, but the reasons became clearer later.",
-        "persian": "این تصمیم پرحرارت به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His fervent prayers brought him little comfort during the long illness.",
+        "persian": "دعاهای پرحرارت او در طول آن بیماری طولانی، آرامش زیادی برایش به همراه نیاورد."
       },
       {
-        "english": "A fervent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرحرارت می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The crowd's fervent cheering could be heard from several blocks away.",
+        "persian": "تشویق پرحرارت جمعیت از چندین بلوک دورتر نیز شنیده می‌شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “fervent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Fervent describes an intensity of feeling or belief that burns hot and shows itself openly, whether in religious devotion, political conviction, or personal loyalty. A fervent admirer doesn't just like something quietly — they feel and express that enthusiasm with real heat and persistence. The word is often paired with belief, supporter, prayer, or hope, suggesting emotion that pushes toward action rather than staying private. Compared to a milder word like \"keen,\" fervent signals a passion close to the surface, one that's hard for others to miss."
   },
   {
     "courseId": "upgrade",
@@ -687,19 +687,19 @@
     ],
     "examples": [
       {
-        "english": "His flagrant approach helped him deal with the situation calmly.",
-        "persian": "رویکرد آشکارا ناپسند او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The referee called a flagrant foul after the player elbowed his opponent in full view of everyone.",
+        "persian": "داور پس از اینکه بازیکن در برابر دید همه با آرنج به حریفش زد، خطای آشکار و زشت اعلام کرد."
       },
       {
-        "english": "The decision seemed flagrant, but the reasons became clearer later.",
-        "persian": "این تصمیم آشکارا ناپسند به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "It was a flagrant violation of the ceasefire, caught on video within minutes.",
+        "persian": "این نقض آشکار و زشت آتش‌بس بود که در عرض چند دقیقه در ویدیو ثبت شد."
       },
       {
-        "english": "A flagrant attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش آشکارا ناپسند می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "His flagrant disregard for the safety rules eventually got him fired.",
+        "persian": "بی‌توجهی آشکار و زشت او به قوانین ایمنی، سرانجام باعث اخراجش شد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “flagrant” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Flagrant describes wrongdoing so blatant and obvious that it seems almost deliberately shameless, with no attempt made to hide it. Referees call a flagrant foul when a player's aggression is unmistakable and clearly beyond normal play, not merely accidental contact. News reports describe a flagrant violation of a law or agreement when the breach happens openly, in a way that makes any denial implausible. The word always implies visibility — something flagrant isn't a hidden sin but a public, undeniable one."
   },
   {
     "courseId": "upgrade",
@@ -714,19 +714,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to fluctuate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را نوسان کردن."
+        "english": "Stock prices fluctuate throughout the day based on investor sentiment.",
+        "persian": "قیمت سهام بر اساس احساسات سرمایه‌گذاران در طول روز نوسان می‌کند."
       },
       {
-        "english": "Experienced people know how to fluctuate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را نوسان کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Her mood tends to fluctuate depending on how much sleep she's gotten.",
+        "persian": "حال‌وهوای او معمولاً بسته به میزان خوابی که داشته، نوسان می‌کند."
       },
       {
-        "english": "He chose to fluctuate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت نوسان کردن."
+        "english": "Blood sugar levels can fluctuate significantly after a large meal.",
+        "persian": "سطح قند خون پس از یک وعده غذایی بزرگ می‌تواند به‌طور قابل‌توجهی نوسان کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “fluctuate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Fluctuate describes a value or state that rises and falls repeatedly and often unpredictably, rather than moving steadily in one direction. Economists track how exchange rates fluctuate from day to day, while doctors monitor patients whose vital signs fluctuate as a sign of instability. The word differs from a simple \"change\" because it implies back-and-forth movement, not a single shift from one state to another. Something that fluctuates hasn't settled — it keeps moving within a range, which is exactly why it often requires ongoing monitoring."
   },
   {
     "courseId": "upgrade",
@@ -741,19 +741,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to forbear the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را خودداری کردن."
+        "english": "Please forbear from commenting until all the facts have been verified.",
+        "persian": "لطفاً تا زمانی که همه واقعیت‌ها تأیید شود، از اظهار نظر خودداری کنید."
       },
       {
-        "english": "Experienced people know how to forbear difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را خودداری کردن بدون ایجاد درگیری غیرضروری."
+        "english": "She wanted to correct him publicly but chose to forbear for the sake of peace.",
+        "persian": "او می‌خواست او را علناً تصحیح کند، اما به‌خاطر حفظ آرامش، ترجیح داد خودداری کند."
       },
       {
-        "english": "He chose to forbear the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت خودداری کردن."
+        "english": "Even when provoked, the judge forbore from showing any visible irritation.",
+        "persian": "حتی وقتی تحریک شد، قاضی از نشان دادن هرگونه ناراحتی ظاهری خودداری کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “forbear” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To forbear is to deliberately hold yourself back from doing something you have every right or reason to do, usually out of patience, restraint, or tact. A judge might forbear from interrupting a nervous witness, and a friend might forbear from pointing out an obvious mistake in the moment. The word suggests real self-control, since forbearing usually means suppressing an impulse that would otherwise be justified. It's commonly followed by \"from\" plus a verb, as in \"forbear from judging\" or \"forbear from responding right away.\""
   },
   {
     "courseId": "upgrade",
@@ -768,19 +768,19 @@
     ],
     "examples": [
       {
-        "english": "His fortuitous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد تصادفی و خوشایند او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Their meeting on the train turned out to be remarkably fortuitous — he later became her business partner.",
+        "persian": "ملاقات آن دو در قطار به‌طرز قابل‌توجهی تصادفی و خوشایند از آب درآمد؛ او بعدها شریک تجاری‌اش شد."
       },
       {
-        "english": "The decision seemed fortuitous, but the reasons became clearer later.",
-        "persian": "این تصمیم تصادفی و خوشایند به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The delayed flight proved fortuitous, since it let her avoid the storm entirely.",
+        "persian": "تأخیر در پرواز تصادفی و خوشایند از آب درآمد، چون باعث شد او کاملاً از طوفان در امان بماند."
       },
       {
-        "english": "A fortuitous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش تصادفی و خوشایند می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "It was a fortuitous coincidence that the two researchers were working on the same problem.",
+        "persian": "این یک تصادف خوشایند بود که آن دو پژوهشگر روی یک مسئله یکسان کار می‌کردند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “fortuitous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Fortuitous describes something good that happens purely by chance, with no planning behind it, as opposed to luck that someone deliberately engineered. A fortuitous encounter might change the course of someone's career, even though neither person intended anything of the sort when they first met. The word is often confused with \"fortunate,\" but fortuitous specifically emphasizes the element of accident — the outcome is lucky precisely because nobody arranged it. Writers use it to highlight moments where chance, rather than effort, delivers an unexpectedly favorable result."
   },
   {
     "courseId": "upgrade",
@@ -795,18 +795,18 @@
     ],
     "examples": [
       {
-        "english": "His frivolous approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بیهوده و سطحی او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The judge dismissed the lawsuit as frivolous, noting it had no legal basis whatsoever.",
+        "persian": "قاضی این شکایت را بیهوده و بی‌پایه رد کرد و اشاره کرد که اساساً فاقد مبنای قانونی بود."
       },
       {
-        "english": "The decision seemed frivolous, but the reasons became clearer later.",
-        "persian": "این تصمیم بیهوده و سطحی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "She spent her bonus on frivolous purchases like a gold-plated phone case.",
+        "persian": "او پاداشش را صرف خریدهای بیهوده و سطحی مانند یک قاب تلفن روکش‌طلا کرد."
       },
       {
-        "english": "A frivolous attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بیهوده و سطحی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "It seems frivolous to argue about seating arrangements when the whole event might be cancelled.",
+        "persian": "در شرایطی که کل رویداد ممکن است لغو شود، بحث درباره چیدمان صندلی‌ها بیهوده و سطحی به نظر می‌رسد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “frivolous” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Frivolous describes something lacking in serious purpose or value, often spent on trivial pleasures or raised without real justification. In law, a frivolous lawsuit is one filed without any reasonable legal grounds, wasting the court's time and the other party's resources. In everyday use, a frivolous expense or frivolous argument is one that doesn't deserve the energy or money put into it, especially when weighed against something more urgent. The word carries a note of mild disapproval, suggesting that time, money, or attention has been misdirected toward something unworthy of it."
   }
 ]

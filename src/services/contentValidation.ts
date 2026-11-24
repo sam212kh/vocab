@@ -673,6 +673,7 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
             }
 
             const local = new Set<string>()
+            const templateSentences = new Map<string, string[]>()
 
             for (const [index, word] of words.entries()) {
                 const where = `${path}[${index}]`
@@ -684,15 +685,55 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
 
                 if (!str(word.meaning) || !PERSIAN.test(word.meaning)) add('error', 'persian-missing', where, `"${word.word}" has no Persian meaning.`)
                 if (LATIN.test(String(word.meaning ?? '')) && !PERSIAN.test(String(word.meaning ?? ''))) add('warning', 'meaning-not-persian', where, `"${word.word}" meaning is not Persian.`)
+                if (!str(word.pos)) add('warning', 'pos-missing', where, `"${word.word}" has no part of speech.`)
 
                 const examples = Array.isArray(word.examples) ? word.examples : []
 
                 if (!examples.length) add('warning', 'example-missing', where, `"${word.word}" has no example sentence.`)
 
+                /* The headword with any parenthetical sense marker stripped, exactly as ClozeView.buildQuestion derives it. */
+                const headword = String(word.word).replace(/\s*\([^)]*\)/g, '').trim()
+                const headwordPattern = headword ? new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
+                let clozeReachable = false
+
+                for (const [exampleIndex, example] of examples.entries()) {
+                    const exampleWhere = `${where}.examples[${exampleIndex}]`
+                    const english = isObj(example) ? example.english : Array.isArray(example) ? example[0] : undefined
+                    const persian = isObj(example) ? example.persian : Array.isArray(example) ? example[1] : undefined
+
+                    if (!str(english)) {
+                        add('error', 'example-sentence-empty', exampleWhere, `"${word.word}" has an empty example sentence.`)
+                        continue
+                    }
+
+                    if (!str(persian) || !PERSIAN.test(String(persian))) {
+                        add('error', 'example-persian-missing', exampleWhere, `"${word.word}" example has no Persian translation.`)
+                    } else if (headwordPattern && headwordPattern.test(String(persian))) {
+                        add('error', 'example-headword-untranslated', exampleWhere, `"${word.word}" example's Persian translation still contains the English headword instead of translating it.`)
+                    }
+
+                    if (headwordPattern?.test(String(english))) {
+                        clozeReachable = true
+
+                        /* Group by the sentence with the headword blanked out, so repeated mechanical templates surface regardless of which word fills the slot. */
+                        const shape = norm(String(english).replace(headwordPattern, '<WORD>'))
+                        const group = templateSentences.get(shape) ?? []
+
+                        group.push(exampleWhere)
+                        templateSentences.set(shape, group)
+                    }
+                }
+
+                if (examples.length && !clozeReachable) add('warning', 'cloze-unreachable', where, `"${word.word}" has no example containing the exact headword as a whole word, so it can never appear in a Cloze exercise.`)
+
                 const key = norm(word.word)
 
                 if (local.has(key)) add('warning', 'word-duplicate', where, `"${word.word}" appears twice in this lesson.`)
                 local.add(key)
+            }
+
+            for (const [shape, locations] of templateSentences) {
+                if (locations.length >= 3) add('error', 'example-template-repeated', path, `${locations.length} examples share the same recycled sentence shape ("${shape}"): ${locations.join(', ')}.`)
             }
         }
     }

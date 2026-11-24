@@ -3,264 +3,264 @@
     "word": "appoint",
     "meaning": "منصوب کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to appoint its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «منصوب کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The board decided to appoint her as the new chief executive.",
+        "هیئت‌مدیره تصمیم گرفت او را به عنوان مدیرعامل جدید منصوب کند."
       ],
       [
-        "In everyday conversation, I try to use “appoint” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «منصوب کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The judge will appoint a lawyer for anyone who cannot afford one.",
+        "قاضی برای هر کسی که نتواند وکیل استخدام کند، یک وکیل منصوب خواهد کرد."
       ],
       [
-        "During a technical project, the word “appoint” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «منصوب کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The committee appointed three new members to oversee the budget.",
+        "آن کمیته سه عضو جدید را برای نظارت بر بودجه منصوب کرد."
       ]
     ],
-    "miniContext": "The team had to appoint its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “appoint” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “appoint” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "To appoint someone means to formally choose or assign them to a position, role, or duty, usually without an election. A company's board can appoint a new executive, just as a court can appoint a lawyer to represent someone in need. The word always implies an official decision made by a person or group with the authority to decide. Once appointed, a person typically holds the position until they resign, are replaced, or their term ends."
   },
   {
     "word": "mortal",
     "meaning": "فانی",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to mortal its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «فانی» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Even kings and queens are mortal, no matter how much power they hold.",
+        "حتی پادشاهان و ملکه‌ها هم فانی هستند، هر چقدر هم که قدرت داشته باشند."
       ],
       [
-        "In everyday conversation, I try to use “mortal” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «فانی» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The soldier suffered a mortal wound and died before help could arrive.",
+        "آن سرباز زخمی مهلک برداشت و قبل از اینکه کمک برسد، جان داد."
       ],
       [
-        "During a technical project, the word “mortal” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «فانی» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Facing a mortal illness forced him to think seriously about what truly mattered.",
+        "روبه‌رو شدن با یک بیماری مهلک او را وادار کرد جدی به آنچه واقعاً اهمیت داشت فکر کند."
       ]
     ],
-    "miniContext": "The team had to mortal its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “mortal” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “mortal” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "Mortal describes anything subject to death, reminding us that every living being eventually dies, no matter their power or status. A mortal wound or mortal illness is one serious enough to cause death, often used in dramatic or literary contexts. The word also appears in phrases like \"mortal enemy,\" referring to an opponent considered dangerous enough to cause death. Thinking about being mortal often leads people to reflect more deeply on the meaning of their lives."
   },
   {
     "word": "occupant",
     "meaning": "ساکن؛ اشغال‌کننده",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to occupant its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «ساکن؛ اشغال‌کننده» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The previous occupant of the apartment left behind several boxes of old books.",
+        "ساکن قبلی آن آپارتمان چند جعبه کتاب قدیمی از خودش به جا گذاشته بود."
       ],
       [
-        "In everyday conversation, I try to use “occupant” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «ساکن؛ اشغال‌کننده» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Firefighters safely evacuated every occupant from the burning building.",
+        "آتش‌نشانان هر ساکن آن ساختمان در حال سوختن را با امنیت تخلیه کردند."
       ],
       [
-        "During a technical project, the word “occupant” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «ساکن؛ اشغال‌کننده» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Only one occupant was in the car when it was pulled over by police.",
+        "فقط یک سرنشین در آن ماشین بود وقتی پلیس آن را متوقف کرد."
       ]
     ],
-    "miniContext": "The team had to occupant its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “occupant” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “occupant” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "An occupant is a person who lives in, uses, or is present inside a particular space, such as a house, vehicle, or building. Landlords often need to know who the current occupant of a property is for legal and safety reasons. In emergencies, rescue workers focus first on getting every occupant safely out of a dangerous building. The word can also describe a passenger in a vehicle, referring to anyone inside it at a given moment."
   },
   {
     "word": "depict",
     "meaning": "به تصویر کشیدن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to depict its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «به تصویر کشیدن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Artists often depict quiet village scenes in paintings like this one.",
+        "هنرمندان اغلب صحنه‌های آرام روستایی را در نقاشی‌هایی مثل این به تصویر می‌کشند."
       ],
       [
-        "In everyday conversation, I try to use “depict” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «به تصویر کشیدن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The documentary aims to depict the daily struggles of refugees honestly.",
+        "آن فیلم مستند سعی دارد مبارزات روزانه پناهجویان را به‌طور صادقانه به تصویر بکشد."
       ],
       [
-        "During a technical project, the word “depict” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «به تصویر کشیدن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Historians argue that the film fails to depict the war accurately.",
+        "تاریخ‌نگاران استدلال می‌کنند که آن فیلم موفق نمی‌شود آن جنگ را به‌درستی به تصویر بکشد."
       ]
     ],
-    "miniContext": "The team had to depict its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “depict” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “depict” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "To depict something means to represent or show it, usually through art, writing, or film, rather than describing it directly in words. A painting can depict a peaceful landscape, while a documentary might depict the harsh realities of life in a war zone. Critics and historians often debate whether a particular depiction is accurate or fair to the people and events involved. The word applies broadly across visual and narrative art forms, wherever something is being represented rather than simply stated."
   },
   {
     "word": "site",
     "meaning": "محل",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to site its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «محل» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Archaeologists discovered an ancient burial site beneath the old farmland.",
+        "باستان‌شناسان یک محل باستانی دفن را زیر آن زمین کشاورزی قدیمی کشف کردند."
       ],
       [
-        "In everyday conversation, I try to use “site” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «محل» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Construction on the new hospital site is expected to begin next spring.",
+        "ساخت‌وساز در محل بیمارستان جدید انتظار می‌رود بهار آینده آغاز شود."
       ],
       [
-        "During a technical project, the word “site” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «محل» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The company chose a site near the river for its new factory.",
+        "آن شرکت یک محل نزدیک به رودخانه را برای کارخانه جدیدش انتخاب کرد."
       ]
     ],
-    "miniContext": "The team had to site its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “site” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “site” can describe a situation, requirement, or decision that becomes important when several people have to work together. This kind of context gives the word a small story, making it easier to retrieve later."
+    "miniContext": "A site is a specific location, especially one chosen or used for a particular purpose, such as construction, archaeology, or history. Archaeologists spend years carefully excavating a single site, uncovering clues about how people lived long ago. Developers must evaluate a potential site carefully before building anything, considering factors like access, cost, and environmental impact. The word applies to almost any place being studied, built on, or set aside for a specific activity."
   },
   {
     "word": "verse",
     "meaning": "بیت/شعر",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to verse its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «بیت/شعر» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "She memorized the first verse of the poem for her literature class.",
+        "او بیت اول آن شعر را برای کلاس ادبیاتش از حفظ کرد."
       ],
       [
-        "In everyday conversation, I try to use “verse” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «بیت/شعر» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The song's second verse tells a much sadder story than the chorus suggests.",
+        "بیت دوم آن آهنگ داستانی بسیار غم‌انگیزتر از آنچه ترانه تکرار می‌گوید، روایت می‌کند."
       ],
       [
-        "During a technical project, the word “verse” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «بیت/شعر» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "He prefers reading verse to prose because of its rhythm and sound.",
+        "او به دلیل ریتم و آهنگش، خواندن شعر را به نثر ترجیح می‌دهد."
       ]
     ],
-    "miniContext": "The team had to verse its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “verse” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “verse” can describe a situation, requirement, or decision that becomes important when several people have to work together. After reading, close the text and try to explain the situation in your own words."
+    "miniContext": "Verse refers to writing arranged with rhythm and often rhyme, typically in the form of poetry or song lyrics. A poem or song is usually divided into sections called verses, each one developing the story or feeling a little further. Students studying literature often memorize a particular verse to analyze its structure, rhythm, and meaning closely. More broadly, the word verse can also describe poetic writing in general, as distinct from ordinary prose."
   },
   {
     "word": "quarter",
     "meaning": "یک‌چهارم؛ محل اسکان",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to quarter its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «یک‌چهارم؛ محل اسکان» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "He ate a quarter of the pizza and saved the rest for later.",
+        "او یک‌چهارم آن پیتزا را خورد و بقیه را برای بعد نگه داشت."
       ],
       [
-        "In everyday conversation, I try to use “quarter” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «یک‌چهارم؛ محل اسکان» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The company's profits increased significantly during the final quarter of the year.",
+        "سود آن شرکت در سه‌ماهه پایانی سال به طور قابل‌توجهی افزایش یافت."
       ],
       [
-        "During a technical project, the word “quarter” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «یک‌چهارم؛ محل اسکان» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Soldiers were given quarters near the base for the duration of the training.",
+        "به سربازان در نزدیکی پایگاه برای مدت آن دوره آموزشی محل اسکان داده شد."
       ]
     ],
-    "miniContext": "The team had to quarter its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “quarter” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “quarter” can describe a situation, requirement, or decision that becomes important when several people have to work together. Notice the relationship between the target word and the actions, people, or decisions around it."
+    "miniContext": "Quarter has several related meanings: one-fourth of something, a three-month period of the business year, or temporary living space, usually for soldiers or workers. A company reports its earnings every quarter, giving investors a regular update on financial performance. Soldiers and workers stationed away from home are often provided with quarters, basic housing close to where they work. Despite the different contexts, each meaning of quarter relates to a defined portion, whether of time, space, or a whole object."
   },
   {
     "word": "quote",
     "meaning": "نقل قول کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to quote its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «نقل قول کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The journalist asked permission to quote the senator directly in her article.",
+        "آن خبرنگار اجازه خواست تا مستقیماً از آن سناتور در مقاله‌اش نقل قول کند."
       ],
       [
-        "In everyday conversation, I try to use “quote” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «نقل قول کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Students must quote their sources properly to avoid being accused of plagiarism.",
+        "دانش‌آموزان باید منابع خود را به‌درستی نقل قول کنند تا متهم به سرقت ادبی نشوند."
       ],
       [
-        "During a technical project, the word “quote” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «نقل قول کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "He loves to quote famous philosophers whenever he gives a speech.",
+        "او عاشق این است که هر وقت سخنرانی می‌کند، از فیلسوفان مشهور نقل قول کند."
       ]
     ],
-    "miniContext": "The team had to quote its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “quote” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “quote” can describe a situation, requirement, or decision that becomes important when several people have to work together. The goal is to remember the word as part of a meaningful situation rather than as an isolated item."
+    "miniContext": "To quote someone means to repeat their exact words, either in speech or in writing, giving credit to the original speaker or author. Journalists must be careful to quote their sources accurately, since misquoting someone can damage trust and credibility. Academic writing requires students to quote properly, using citations to show exactly where an idea or sentence came from. The word can also apply to repeating memorable lines from books, speeches, or films in everyday conversation."
   },
   {
     "word": "novel",
     "meaning": "رمان؛ نو",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to novel its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «رمان؛ نو» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The scientist proposed a novel solution that no one had considered before.",
+        "آن دانشمند راه‌حلی نو و بدیع پیشنهاد داد که هیچ‌کس قبلاً به آن فکر نکرده بود."
       ],
       [
-        "In everyday conversation, I try to use “novel” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «رمان؛ نو» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Her novel approach to teaching math made the subject far less intimidating.",
+        "رویکرد نو او در تدریس ریاضی، آن موضوع را بسیار کمتر ترسناک کرد."
       ],
       [
-        "During a technical project, the word “novel” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «رمان؛ نو» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The technology seemed novel at the time, though it is common today.",
+        "آن فناوری در آن زمان نو و بدیع به نظر می‌رسید، هرچند امروز رایج است."
       ]
     ],
-    "miniContext": "The team had to novel its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “novel” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “novel” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "Novel, as an adjective, describes something new, original, or unlike anything tried before. Scientists and inventors are praised for a novel approach that solves an old problem in an unexpected way. Teachers who find a novel method of explaining a difficult subject often make learning feel easier and more engaging. Something that feels novel today may eventually become ordinary once it is widely adopted and no longer surprises anyone."
   },
   {
     "word": "attract",
     "meaning": "جذب کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to attract its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «جذب کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Bright flowers attract bees and other pollinating insects.",
+        "گل‌های رنگارنگ زنبورها و دیگر حشرات گرده‌افشان را جذب می‌کنند."
       ],
       [
-        "In everyday conversation, I try to use “attract” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «جذب کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The museum's new exhibit is expected to attract thousands of visitors.",
+        "انتظار می‌رود نمایشگاه جدید آن موزه هزاران بازدیدکننده را جذب کند."
       ],
       [
-        "During a technical project, the word “attract” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «جذب کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Her confident personality naturally attracts people wherever she goes.",
+        "شخصیت باعتمادبه‌نفس او به طور طبیعی هر جا که می‌رود افراد را جذب می‌کند."
       ]
     ],
-    "miniContext": "The team had to attract its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “attract” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “attract” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "To attract means to draw something or someone closer through appeal, interest, or natural pull. Bright colors and sweet scents attract insects to flowers, helping plants reproduce through pollination. Businesses design advertisements specifically to attract new customers, hoping to stand out among many competitors. The word also applies to personal qualities, as when someone's charm or confidence naturally attracts friends and admirers."
   },
   {
     "word": "morality",
     "meaning": "اخلاق",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to morality its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «اخلاق» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The novel raises difficult questions about morality and personal responsibility.",
+        "آن رمان سؤالات دشواری درباره اخلاق و مسئولیت شخصی مطرح می‌کند."
       ],
       [
-        "In everyday conversation, I try to use “morality” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «اخلاق» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Different cultures sometimes disagree sharply on matters of morality.",
+        "فرهنگ‌های مختلف گاهی در مسائل مربوط به اخلاق به‌شدت اختلاف نظر دارند."
       ],
       [
-        "During a technical project, the word “morality” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «اخلاق» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "He questioned the morality of profiting from other people's suffering.",
+        "او اخلاقی بودن سودجویی از رنج دیگران را زیر سؤال برد."
       ]
     ],
-    "miniContext": "The team had to morality its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “morality” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “morality” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "Morality concerns the principles that distinguish right from wrong, shaping how people judge their own and others' behavior. Philosophers have debated questions of morality for centuries, trying to define what makes an action genuinely good or bad. Works of literature often explore morality through difficult choices faced by their characters, forcing readers to consider their own values. Because morality can vary across cultures and time periods, people frequently disagree about where exactly its boundaries lie."
   },
   {
     "word": "roam",
     "meaning": "پرسه زدن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to roam its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «پرسه زدن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Wild horses still roam freely across parts of the western plains.",
+        "اسب‌های وحشی هنوز به‌طور آزاد در بخش‌هایی از دشت‌های غربی پرسه می‌زنند."
       ],
       [
-        "In everyday conversation, I try to use “roam” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «پرسه زدن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "As a child, she loved to roam the woods behind her grandmother's house.",
+        "او در کودکی عاشق پرسه زدن در جنگل‌های پشت خانه مادربزرگش بود."
       ],
       [
-        "During a technical project, the word “roam” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «پرسه زدن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Tourists are free to roam the old city streets without a guide.",
+        "گردشگران آزادند بدون راهنما در خیابان‌های شهر قدیمی پرسه بزنند."
       ]
     ],
-    "miniContext": "The team had to roam its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “roam” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “roam” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "To roam means to wander around an area freely, without a fixed destination or purpose. Wild animals roam across large territories in search of food, while curious children often roam nearby fields and forests just to explore. Travelers sometimes prefer to roam unfamiliar cities on foot, discovering unexpected sights rather than following a strict itinerary. The word suggests a relaxed, open-ended kind of movement, driven more by curiosity than by any particular goal."
   }
 ]

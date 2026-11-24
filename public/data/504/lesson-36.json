@@ -3,264 +3,264 @@
     "word": "prompt",
     "meaning": "سریع؛ به‌موقع؛ وادار کردن",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to prompt its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «سریع؛ به‌موقع؛ وادار کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The waiter was prompt in bringing our food as soon as we ordered.",
+        "پیشخدمت در آوردن غذایمان به محض سفارش دادن، سریع و به‌موقع بود."
       ],
       [
-        "In everyday conversation, I try to use “prompt” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «سریع؛ به‌موقع؛ وادار کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A sudden noise outside prompted her to check the window.",
+        "یک صدای ناگهانی بیرون، او را وادار کرد پنجره را بررسی کند."
       ],
       [
-        "During a technical project, the word “prompt” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «سریع؛ به‌موقع؛ وادار کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Please give a prompt response so we can finalize the schedule.",
+        "لطفاً پاسخ سریع و به‌موقع بدهید تا بتوانیم برنامه را نهایی کنیم."
       ]
     ],
-    "miniContext": "The team had to prompt its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “prompt” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “prompt” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "The customer service team is known for being prompt, usually replying to emails within the hour. A gentle reminder from his sister prompted him to finally call their grandmother. Teachers appreciate prompt submissions because grading becomes much harder when assignments arrive late. Being prompt isn't just about punctuality; it shows respect for other people's time."
   },
   {
     "word": "hasty",
     "meaning": "عجولانه",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to hasty its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «عجولانه» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "He made a hasty decision to quit his job without thinking it through.",
+        "او بدون فکر کردن کافی، تصمیم عجولانه‌ای برای ترک شغلش گرفت."
       ],
       [
-        "In everyday conversation, I try to use “hasty” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «عجولانه» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Her hasty reply offended the client more than she intended.",
+        "پاسخ عجولانه او بیش از آنچه قصد داشت، مشتری را ناراحت کرد."
       ],
       [
-        "During a technical project, the word “hasty” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «عجولانه» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Investors were warned against making hasty choices during the market crash.",
+        "به سرمایه‌گذاران هشدار داده شد که در طول سقوط بازار تصمیمات عجولانه نگیرند."
       ]
     ],
-    "miniContext": "The team had to hasty its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “hasty” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “hasty” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "He regretted the hasty remark he made during the argument almost as soon as the words left his mouth. Hasty renovations before the sale ended up causing more problems for the new homeowners. The committee's hasty approval of the budget led to several unexpected costs later. Rather than making a hasty choice, she took a week to think it over carefully."
   },
   {
     "word": "scorch",
     "meaning": "سوزاندن سطحی؛ خشک کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to scorch its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «سوزاندن سطحی؛ خشک کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The intense sun can scorch unprotected skin within just a few minutes.",
+        "آفتاب شدید می‌تواند پوست بدون محافظت را تنها در چند دقیقه بسوزاند."
       ],
       [
-        "In everyday conversation, I try to use “scorch” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «سوزاندن سطحی؛ خشک کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "She accidentally let the iron scorch her favorite shirt.",
+        "او به طور ناخواسته اجازه داد اتو پیراهن مورد علاقه‌اش را بسوزاند."
       ],
       [
-        "During a technical project, the word “scorch” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «سوزاندن سطحی؛ خشک کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The drought scorched the fields, leaving the once-green hills brown and dry.",
+        "خشکسالی مزارع را سوزاند و تپه‌های سبز سابق را قهوه‌ای و خشک کرد."
       ]
     ],
-    "miniContext": "The team had to scorch its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “scorch” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “scorch” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "The afternoon sun was strong enough to scorch the grass within a single week of dry weather. He forgot the pan on the stove and let the sauce scorch at the bottom. Wildfires scorched thousands of acres of forest before firefighters finally contained the blaze. A careless touch of the curling iron can scorch hair if left in one spot too long."
   },
   {
     "word": "tempest",
     "meaning": "طوفان شدید",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to tempest its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «طوفان شدید» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The sailors feared the tempest would sink their small fishing boat.",
+        "ملوانان می‌ترسیدند طوفان شدید قایق ماهی‌گیری کوچکشان را غرق کند."
       ],
       [
-        "In everyday conversation, I try to use “tempest” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «طوفان شدید» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A political tempest erupted after the minister's comments were leaked to the press.",
+        "پس از افشای اظهارات وزیر به رسانه‌ها، یک طوفان سیاسی شدید به پا شد."
       ],
       [
-        "During a technical project, the word “tempest” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «طوفان شدید» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Shakespeare's play 'The Tempest' tells the story of a magician stranded on an island.",
+        "نمایشنامه «طوفان» اثر شکسپیر داستان جادوگری را روایت می‌کند که در جزیره‌ای گیر افتاده است."
       ]
     ],
-    "miniContext": "The team had to tempest its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “tempest” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “tempest” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "The fishing crew barely made it to shore before the tempest hit the coastline with full force. News of the scandal set off a political tempest that lasted for weeks. Sailors in the old stories often describe surviving a tempest as proof of their courage. The sudden tempest flooded streets across the city within a single afternoon."
   },
   {
     "word": "soothe",
     "meaning": "آرام کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to soothe its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «آرام کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The mother sang softly to soothe her crying baby.",
+        "مادر به آرامی آهنگ خواند تا نوزاد گریان خود را آرام کند."
       ],
       [
-        "In everyday conversation, I try to use “soothe” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «آرام کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A warm cup of tea can soothe a sore throat.",
+        "یک فنجان چای گرم می‌تواند گلودرد را آرام کند."
       ],
       [
-        "During a technical project, the word “soothe” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «آرام کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The therapist's calm voice soothed the anxious patient before surgery.",
+        "صدای آرام درمانگر، بیمار نگران را پیش از جراحی آرام کرد."
       ]
     ],
-    "miniContext": "The team had to soothe its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “soothe” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “soothe” can describe a situation, requirement, or decision that becomes important when several people have to work together. This kind of context gives the word a small story, making it easier to retrieve later."
+    "miniContext": "She lit a candle and played soft music to soothe her nerves before the interview. The lotion is designed to soothe dry, irritated skin almost instantly. Nothing could soothe the toddler's tantrum except his favorite stuffed animal. A sincere apology can sometimes soothe hurt feelings faster than any gift."
   },
   {
     "word": "sympathetic",
     "meaning": "همدل",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to sympathetic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «همدل» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The nurse was sympathetic toward the frightened patient and explained everything slowly.",
+        "پرستار نسبت به بیمار ترسیده همدل بود و همه‌چیز را به آرامی توضیح داد."
       ],
       [
-        "In everyday conversation, I try to use “sympathetic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «همدل» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Her sympathetic smile made the nervous interviewee feel more at ease.",
+        "لبخند همدلانه او باعث شد مصاحبه‌شونده مضطرب احساس آرامش بیشتری کند."
       ],
       [
-        "During a technical project, the word “sympathetic” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «همدل» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Few managers were sympathetic to the employees' request for flexible hours.",
+        "تعداد کمی از مدیران نسبت به درخواست کارمندان برای ساعات کاری منعطف همدل بودند."
       ]
     ],
-    "miniContext": "The team had to sympathetic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “sympathetic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “sympathetic” can describe a situation, requirement, or decision that becomes important when several people have to work together. After reading, close the text and try to explain the situation in your own words."
+    "miniContext": "The teacher remained sympathetic even when the student admitted to copying the homework. Readers found the flawed but sympathetic main character easy to root for despite his mistakes. A sympathetic listener doesn't need to solve your problems, just understand them. The judge showed a sympathetic attitude toward the young defendant's difficult background."
   },
   {
     "word": "redeem",
     "meaning": "جبران/بازخرید کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to redeem its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «جبران/بازخرید کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "He hopes the final match will redeem his team's disappointing season.",
+        "او امید دارد مسابقه نهایی بتواند فصل ناامیدکننده تیمش را جبران کند."
       ],
       [
-        "In everyday conversation, I try to use “redeem” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «جبران/بازخرید کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "You can redeem these points for a free coffee at any branch.",
+        "می‌توانید این امتیازها را در هر شعبه برای یک قهوه رایگان بازخرید کنید."
       ],
       [
-        "During a technical project, the word “redeem” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «جبران/بازخرید کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "She worked hard to redeem herself after missing the important deadline.",
+        "او سخت کار کرد تا پس از از دست دادن مهلت مهم، خودش را جبران کند."
       ]
     ],
-    "miniContext": "The team had to redeem its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “redeem” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “redeem” can describe a situation, requirement, or decision that becomes important when several people have to work together. Notice the relationship between the target word and the actions, people, or decisions around it."
+    "miniContext": "After a rough first half, the team redeemed itself with a dramatic comeback in the final minutes. Customers can redeem their loyalty points for discounts on future purchases. He spent years trying to redeem his reputation after the scandal. The coupon lets you redeem a free dessert with any entree purchase."
   },
   {
     "word": "resume",
     "meaning": "از سر گرفتن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to resume its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «از سر گرفتن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Classes will resume on Monday after the winter break ends.",
+        "کلاس‌ها دوشنبه پس از پایان تعطیلات زمستانی از سر گرفته خواهند شد."
       ],
       [
-        "In everyday conversation, I try to use “resume” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «از سر گرفتن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The construction crew plans to resume work once the weather improves.",
+        "گروه ساخت‌وساز قصد دارد به محض بهبود شرایط آب‌وهوایی، کار را از سر بگیرد."
       ],
       [
-        "During a technical project, the word “resume” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «از سر گرفتن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "After a short break, the orchestra resumed the symphony from the second movement.",
+        "بعد از یک وقفه کوتاه، ارکستر سمفونی را از حرکت دوم از سر گرفت."
       ]
     ],
-    "miniContext": "The team had to resume its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “resume” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “resume” can describe a situation, requirement, or decision that becomes important when several people have to work together. The goal is to remember the word as part of a meaningful situation rather than as an isolated item."
+    "miniContext": "The meeting will resume in ten minutes once everyone returns from the break. After recovering from his injury, the runner slowly resumed his training schedule. Talks between the two countries are expected to resume next month after a brief pause. She resumed painting the mural exactly where she had left off the day before."
   },
   {
     "word": "harmony",
     "meaning": "هماهنگی",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to harmony its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «هماهنگی» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The choir sang in perfect harmony, blending every voice smoothly together.",
+        "گروه کر با هماهنگی کامل خواند و همه صداها را به‌خوبی با هم ترکیب کرد."
       ],
       [
-        "In everyday conversation, I try to use “harmony” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «هماهنگی» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The village was known for the harmony between its different religious communities.",
+        "آن روستا به خاطر هماهنگی میان جامعه‌های مذهبی مختلفش شناخته می‌شد."
       ],
       [
-        "During a technical project, the word “harmony” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «هماهنگی» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Good design brings harmony between color, shape, and space.",
+        "طراحی خوب هماهنگی میان رنگ، شکل و فضا ایجاد می‌کند."
       ]
     ],
-    "miniContext": "The team had to harmony its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “harmony” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “harmony” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "The garden was designed so that every plant grows in harmony with the others. For the band to sound good, each musician's part must blend in harmony with the rest. The two neighboring countries have lived in relative harmony for over fifty years. Interior designers often aim for harmony between furniture, lighting, and wall color."
   },
   {
     "word": "refrain",
     "meaning": "خودداری کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to refrain its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «خودداری کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Passengers are asked to refrain from using their phones during takeoff.",
+        "از مسافران خواسته می‌شود در طول برخاستن هواپیما از استفاده تلفن خودداری کنند."
       ],
       [
-        "In everyday conversation, I try to use “refrain” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «خودداری کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "She tried to refrain from commenting on her coworker's messy desk.",
+        "او تلاش کرد از اظهار نظر درباره میز به‌هم‌ریخته همکارش خودداری کند."
       ],
       [
-        "During a technical project, the word “refrain” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «خودداری کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Doctors advised him to refrain from heavy exercise until his ankle healed.",
+        "پزشکان به او توصیه کردند تا بهبود کامل قوزک پایش، از ورزش سنگین خودداری کند."
       ]
     ],
-    "miniContext": "The team had to refrain its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “refrain” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “refrain” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "Signs throughout the museum ask visitors to refrain from touching the artwork. She had to refrain from laughing during the serious ceremony. Doctors recommend that patients refrain from drinking alcohol while taking the medication. He could barely refrain from smiling when he heard the surprising good news."
   },
   {
     "word": "illegal",
     "meaning": "غیرقانونی",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to illegal its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «غیرقانونی» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "It is illegal to park in front of a fire hydrant.",
+        "پارک کردن در مقابل شیر آتش‌نشانی غیرقانونی است."
       ],
       [
-        "In everyday conversation, I try to use “illegal” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «غیرقانونی» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The company was fined for dumping illegal waste into the river.",
+        "این شرکت به دلیل ریختن پسماند غیرقانونی به رودخانه جریمه شد."
       ],
       [
-        "During a technical project, the word “illegal” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «غیرقانونی» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Police arrested three people for selling illegal fireworks before the festival.",
+        "پلیس سه نفر را به دلیل فروش مواد آتش‌بازی غیرقانونی پیش از جشنواره دستگیر کرد."
       ]
     ],
-    "miniContext": "The team had to illegal its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “illegal” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “illegal” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "Hunting endangered species is illegal in nearly every country in the world. The factory was shut down after inspectors discovered illegal dumping of chemical waste nearby. It became illegal to text while driving in most states over the past decade. Police seized a shipment of illegal weapons at the border crossing."
   },
   {
     "word": "narcotic",
     "meaning": "ماده مخدر",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to narcotic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «ماده مخدر» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Doctors must follow strict rules when prescribing a narcotic for pain relief.",
+        "پزشکان هنگام تجویز یک ماده مخدر برای تسکین درد باید قوانین سختگیرانه‌ای را رعایت کنند."
       ],
       [
-        "In everyday conversation, I try to use “narcotic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «ماده مخدر» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Customs officers found several bags of narcotics hidden inside the suitcase.",
+        "افسران گمرک چند کیسه مواد مخدر پنهان‌شده داخل چمدان را پیدا کردند."
       ],
       [
-        "During a technical project, the word “narcotic” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «ماده مخدر» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The drug has a narcotic effect, making patients feel drowsy and relaxed.",
+        "این دارو اثر مخدرگونه‌ای دارد و باعث می‌شود بیماران احساس خواب‌آلودگی و آرامش کنند."
       ]
     ],
-    "miniContext": "The team had to narcotic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “narcotic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “narcotic” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "The hospital keeps all narcotic medications locked in a secure cabinet. Investigators traced the narcotic shipment back to a warehouse near the port. Some cough syrups once contained a narcotic ingredient that is now banned in many countries. Long-term use of a narcotic can lead to dependence if not carefully monitored."
   }
 ]

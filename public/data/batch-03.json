@@ -437,15 +437,15 @@
     "examples": [
       [
         "Every choice has a trade-off.",
-        "هر انتخابی یک Trade-off دارد."
+        "هر انتخابی یک بده‌بستان دارد."
       ],
       [
         "We accepted the cost-performance trade-off.",
-        "Trade-off بین هزینه و Performance را پذیرفتیم."
+        "ما بده‌بستان بین هزینه و کارایی را پذیرفتیم."
       ],
       [
         "Denormalization involves a consistency trade-off.",
-        "Denormalization شامل Trade-off در Consistency است."
+        "غیرنرمال‌سازی یک بده‌بستان در سازگاری داده‌ها به همراه دارد."
       ]
     ]
   },
@@ -505,7 +505,7 @@
       ],
       [
         "The metrics give us insight into query behavior.",
-        "Metrics درباره رفتار Query به ما Insight می‌دهند."
+        "معیارها بینشی درباره رفتار کوئری‌ها به ما می‌دهند."
       ]
     ]
   },

@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
 import { answersMatch } from '../services/textMatch'
+import { findClozeMatch } from '../services/clozeMatching'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
 import ActivityBar from '../components/practice/ActivityBar.vue'
 import ActivityPage from '../components/practice/ActivityPage.vue'
@@ -53,10 +54,6 @@ function stripSense(word: string): string {
     return word.replace(/\s*\([^)]*\)/g, '').trim()
 }
 
-function escapeRegExp(value: string): string {
-    return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-}
-
 function buildQuestion(word: Word): ClozeQuestion | null {
     const headword = stripSense(word.word)
     if (!headword) return null
@@ -64,15 +61,17 @@ function buildQuestion(word: Word): ClozeQuestion | null {
     for (const example of word.examples) {
         if (!example.english) continue
 
-        const pattern = new RegExp(`\\b${escapeRegExp(headword)}\\b`, 'i')
-        const match = pattern.exec(example.english)
+        const match = findClozeMatch(example.english, [
+            headword,
+            ...(word.clozeVariants ?? []),
+        ])
 
         if (match) {
             return {
                 word,
-                before: example.english.slice(0, match.index),
-                blank: match[0],
-                after: example.english.slice(match.index + match[0].length),
+                before: example.english.slice(0, match.start),
+                blank: match.text,
+                after: example.english.slice(match.end),
                 persian: example.persian,
             }
         }

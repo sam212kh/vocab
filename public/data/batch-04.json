@@ -28,7 +28,7 @@
         "سرویس باید بلافاصله دریافت Request را تأیید کند."
       ]
     ],
-    "miniContext": "I acknowledge that I made a mistake. The team acknowledged the customer's concern. The service should acknowledge the request immediately. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To acknowledge something is to admit it is true or to confirm that you have received or noticed it, even if doing so is uncomfortable. A good manager will acknowledge a mistake openly instead of hiding it, because employees trust leaders who own their errors. In customer support, acknowledging a complaint quickly, even before it's solved, reassures the customer that someone is listening. The word carries a tone of honesty and respect, distinct from simply agreeing; you can acknowledge a problem exists without agreeing on how to fix it."
   },
   {
     "word": "advocate",
@@ -59,7 +59,7 @@
         "بسیاری از مهندسان از Automated Testing حمایت می‌کنند."
       ]
     ],
-    "miniContext": "I strongly advocate learning through practice. She advocates a simpler workflow. Many engineers advocate automated testing. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "An advocate is someone who speaks up in support of a cause, a method, or a person, often in the face of resistance or indifference. As a verb, to advocate for something means publicly backing it, not just quietly agreeing; a senior engineer who advocates code review isn't merely following a rule but actively persuading others of its value. The word suggests visible, vocal support, which is why lawyers, who argue cases on behalf of clients, are called advocates. You might advocate for a cause at work, in politics, or within your own family."
   },
   {
     "word": "assess",
@@ -90,7 +90,7 @@
         "باید سیستم را در Peak Load ارزیابی کنیم."
       ]
     ],
-    "miniContext": "Let's assess the situation first. The manager assessed the team's progress. We need to assess the system under peak load. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To assess something is to examine it carefully in order to form a judgment or make a decision, usually before taking action. Teachers assess students through exams, doctors assess patients through tests, and engineers assess systems through monitoring and load tests. Unlike simply guessing, assessing implies gathering evidence first: you weigh the data, then reach a conclusion. The noun form, assessment, is common in professional and academic settings whenever a structured evaluation is expected."
   },
   {
     "word": "attain",
@@ -121,10 +121,11 @@
         "سرویس باید به Throughput موردنیاز برسد."
       ]
     ],
-    "miniContext": "She finally attained her goal. The company attained strong growth this year. The service must attain the required throughput. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Attain is a formal word for reaching a goal or level through sustained effort, more literary than the everyday words 'get' or 'reach'. Athletes attain peak fitness after months of training, students attain fluency after years of practice, and companies attain certain certifications only after passing strict audits. Because it implies effort and achievement rather than luck, you wouldn't say someone attained a prize in a lottery. The word fits well in resumes, mission statements, and formal writing where accomplishment needs to sound deliberate."
   },
   {
     "word": "cease",
+    "clozeVariants": ["ceased", "ceases"],
     "meaning": "متوقف کردن؛ پایان یافتن",
     "level": "Hard",
     "pos": "verb",
@@ -152,10 +153,11 @@
         "Worker وقتی Queue خالی باشد پردازش را متوقف می‌کند."
       ]
     ],
-    "miniContext": "The noise finally ceased. The company ceased operations in that region. The worker ceases processing when the queue is empty. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Cease is a formal, almost legal-sounding way of saying something stops completely, often used in official notices rather than casual speech; a company might announce it will cease trading rather than say it will stop doing business. The word works for both sudden and gradual endings: rain can cease abruptly, while a feud might cease slowly as tempers cool. In everyday conversation people usually just say 'stop,' but cease appears in contracts, laws, and technical documentation where precision matters. 'Cease and desist' is a common fixed legal phrase built on this word."
   },
   {
     "word": "contemplate",
+    "clozeVariants": ["contemplating", "contemplates"],
     "meaning": "با دقت در نظر گرفتن؛ فکر کردن به",
     "level": "Hard",
     "pos": "verb",
@@ -183,7 +185,7 @@
         "تیم در حال بررسی مهاجرت به Microservices است."
       ]
     ],
-    "miniContext": "I'm contemplating a career change. We're contemplating several options. The team is contemplating a move to microservices. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To contemplate something is to think about it slowly and seriously over time, rather than deciding on impulse. People contemplate big life decisions, such as changing careers or moving cities, precisely because the stakes are high enough to deserve unhurried reflection. The word has a quiet, reflective tone, often paired with uncertainty, since you contemplate options you haven't yet committed to. It differs from 'decide,' which marks the moment of choice; contemplation is the thinking that happens before that moment arrives."
   },
   {
     "word": "contradict",
@@ -214,7 +216,7 @@
         "Logها با رفتار گزارش‌شده تناقض دارند."
       ]
     ],
-    "miniContext": "Your two answers contradict each other. The data contradicts our original assumption. The logs contradict the reported behavior. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To contradict something is to state or show the opposite of what has already been claimed, exposing an inconsistency. Two witnesses who contradict each other in court immediately raise doubts about which one is telling the truth. In science and debugging alike, when new evidence contradicts a theory, the theory, not the evidence, is usually what needs revising. The word can describe people disagreeing directly or simply facts that don't line up, as when a document's numbers contradict its own summary."
   },
   {
     "word": "deteriorate",
@@ -245,7 +247,7 @@
         "با افزایش Traffic ممکن است Performance افت کند."
       ]
     ],
-    "miniContext": "His condition started to deteriorate. Service quality deteriorated after the change. Performance may deteriorate as traffic grows. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Deteriorate describes a gradual decline in quality or condition, rarely a sudden collapse; a patient's health, an old building, or a relationship can all deteriorate slowly over months or years. The word is common in medical and technical reports because it names a process rather than a single event, which makes it useful for tracking change over time. Saying a road surface deteriorated sounds more precise and professional than saying it simply got worse, which is part of why the word appears so often in formal assessments."
   },
   {
     "word": "diminish",
@@ -276,7 +278,7 @@
         "Compression می‌تواند Network Traffic را کاهش دهد."
       ]
     ],
-    "miniContext": "The pain gradually diminished. The update diminished the number of complaints. Compression can diminish network traffic. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Diminish means to make something smaller in size, amount, or importance, or to become smaller in that way. Grief can diminish with time, a reputation can diminish after a scandal, and a discount can diminish the final price of an order. The word often carries a sense of loss alongside the reduction; to diminish someone's achievement is not just to reduce it numerically but to make it feel less significant. This emotional shade separates diminish from the more neutral word 'decrease.'"
   },
   {
     "word": "disclose",
@@ -307,7 +309,7 @@
         "هرگز Credentialهای خصوصی را در Log فاش نکن."
       ]
     ],
-    "miniContext": "He refused to disclose the details. The company must disclose the incident. Never disclose private credentials in logs. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Disclose is the formal verb used when information that was previously hidden or private is made known, especially where rules or ethics require it. Companies must disclose financial risks to investors, doctors must disclose side effects to patients, and witnesses are sometimes compelled to disclose evidence in court. Unlike the casual word 'tell,' disclose implies that the information was being withheld and that revealing it carries consequences or obligations. Failing to disclose something important can itself be treated as a kind of wrongdoing."
   },
   {
     "word": "eliminate",
@@ -338,7 +340,7 @@
         "Fix مشکل Race Condition را برطرف کرد."
       ]
     ],
-    "miniContext": "We need to eliminate unnecessary steps. The new process eliminated several manual tasks. The fix eliminated the race condition. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To eliminate something is to remove it entirely, leaving no trace behind, which is a stronger claim than merely reducing or hiding it. A diet might eliminate sugar completely rather than just cutting back on it, and a competition eliminates contestants one round at a time until only a winner remains. In problem-solving, eliminating a possibility means ruling it out for good, which is why detectives and debuggers both talk about eliminating suspects or causes. The word's finality is its defining feature."
   },
   {
     "word": "exceed",
@@ -369,7 +371,7 @@
         "Service نباید از Rate Limit عبور کند."
       ]
     ],
-    "miniContext": "Don't exceed the speed limit. Sales exceeded our expectations. The service must not exceed the rate limit. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Exceed means to go beyond a stated limit, expectation, or amount, and it almost always implies comparison to some boundary that was set in advance. A driver exceeds the speed limit, a budget can be exceeded by unexpected costs, and a talented new hire might exceed expectations within their first month. The word stays neutral about whether going beyond the limit is good or bad: exceeding a sales target is cause for celebration, while exceeding a deadline is not."
   },
   {
     "word": "explicit",
@@ -400,7 +402,7 @@
         "API به Authorization صریح نیاز دارد."
       ]
     ],
-    "miniContext": "Please give me explicit instructions. The contract contains explicit requirements. The API requires explicit authorization. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Explicit describes something stated directly and in full detail, leaving nothing to guesswork or assumption. Explicit instructions spell out every step, and an explicit agreement is written down rather than merely understood. The word is often used in contrast to its opposite, implicit, which describes things that are implied rather than stated outright. In technical writing, being explicit about requirements, error cases, and edge conditions prevents the kind of misunderstandings that vague language invites."
   },
   {
     "word": "implicit",
@@ -431,7 +433,7 @@
         "Framework بعضی Assumptionها را به‌صورت ضمنی در نظر می‌گیرد."
       ]
     ],
-    "miniContext": "There was an implicit agreement between them. The rule is implicit rather than documented. The framework makes some assumptions implicit. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Implicit describes something that is understood or assumed without being directly stated, the opposite of explicit. An implicit rule at a workplace might never appear in any handbook, yet everyone follows it because it's understood through culture and habit. Software systems have implicit behavior too: defaults and assumptions baked into code that no one wrote down anywhere. The danger of implicit things is precisely that they stay invisible until someone violates them without realizing a rule even existed."
   },
   {
     "word": "facilitate",
@@ -462,7 +464,7 @@
         "Indexها دسترسی کارآمد به Database را آسان می‌کنند."
       ]
     ],
-    "miniContext": "Good communication facilitates teamwork. The dashboard facilitates faster decisions. Indexes facilitate efficient database access. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Facilitate means to make a process easier or smoother, usually by removing friction rather than doing the work yourself. A mediator facilitates a negotiation without making the final decision, and good documentation facilitates onboarding without replacing hands-on training. The word fits workplace and technical contexts particularly well, since it describes support roles: tools, people, or systems that help something happen more efficiently rather than being the main actor."
   },
   {
     "word": "fluctuate",
@@ -493,7 +495,7 @@
         "Latency ممکن است تحت Load متغیر نوسان داشته باشد."
       ]
     ],
-    "miniContext": "Prices fluctuate throughout the year. Traffic fluctuates during the day. Latency may fluctuate under variable load. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Fluctuate describes something that rises and falls repeatedly rather than changing in one steady direction, the opposite of a stable trend. Stock prices fluctuate hour by hour, a fever can fluctuate throughout the night, and server response times fluctuate depending on how many users are active. The word is useful precisely because it captures unpredictability: when something fluctuates, you can describe the range of its movement but not easily predict its next value."
   },
   {
     "word": "fundamental",
@@ -524,7 +526,7 @@
         "درک HTTP برای Backend Development بنیادی است."
       ]
     ],
-    "miniContext": "Trust is fundamental to a good relationship. We need to solve the fundamental problem. Understanding HTTP is fundamental to backend development. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Fundamental describes something so basic that everything else depends on it; remove it, and the whole structure built on top collapses. Trust is fundamental to any long relationship, just as understanding how memory works is fundamental to writing efficient software. Calling a problem fundamental signals that fixing a symptom won't help until the root cause is addressed. The word is stronger than 'important'; many things are important, but only the essential few are fundamental."
   },
   {
     "word": "inefficient",
@@ -555,7 +557,7 @@
         "الگوی N+1 Query در Scale بالا ناکارآمد است."
       ]
     ],
-    "miniContext": "This method is inefficient. The current workflow is inefficient. An N+1 query pattern is inefficient at scale. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Inefficient describes a process that wastes time, effort, or resources relative to the result it produces; it still works, just badly. A commute that takes two buses when one would do is inefficient, as is a factory line with unnecessary idle time between steps. In software, an inefficient algorithm might give the correct answer but take far longer or use far more memory than necessary. The word focuses on cost relative to output, not on whether the outcome itself is right or wrong."
   },
   {
     "word": "inhibit",
@@ -586,7 +588,7 @@
         "Lock Contention می‌تواند Throughput را کاهش دهد."
       ]
     ],
-    "miniContext": "Fear can inhibit creativity. Strict rules may inhibit experimentation. Lock contention can inhibit throughput. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Inhibit means to hold something back or slow it down, often an internal process rather than an external obstacle. Fear can inhibit a person from speaking up in a meeting, certain drugs inhibit specific enzymes in the body, and overly rigid processes can inhibit the kind of experimentation that leads to breakthroughs. Unlike 'block,' which suggests a complete stop, inhibit usually implies a partial suppression: the thing still happens, just less freely or less often than it otherwise would."
   },
   {
     "word": "integrity",
@@ -610,14 +612,14 @@
       ],
       [
         "The system maintains data integrity.",
-        "سیستم Data Integrity را حفظ می‌کند."
+        "سیستم صحت داده‌ها را حفظ می‌کند."
       ],
       [
         "Transactions help preserve database integrity.",
         "Transactionها به حفظ یکپارچگی Database کمک می‌کنند."
       ]
     ],
-    "miniContext": "We need to protect the integrity of the data. The system maintains data integrity. Transactions help preserve database integrity. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Integrity has two related senses worth knowing: moral soundness in a person, and structural wholeness in a system or piece of data. A person with integrity acts consistently with their stated values even when no one is watching, while a database with integrity has no corrupted or contradictory records. Both senses share the idea of something remaining whole and uncompromised; a person's integrity can be broken by dishonesty just as data integrity can be broken by a bug that lets duplicate records slip through."
   },
   {
     "word": "legitimate",
@@ -648,7 +650,7 @@
         "Server باید Traffic معتبر را از حملات تشخیص دهد."
       ]
     ],
-    "miniContext": "That's a legitimate concern. The request looks legitimate. The server must distinguish legitimate traffic from attacks. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Legitimate describes something that is valid, lawful, or justified according to accepted rules or reasonable standards. A legitimate business operates within the law, a legitimate concern deserves to be taken seriously rather than dismissed, and a security system must learn to tell legitimate users apart from attackers pretending to be one. The word often appears precisely where there's doubt to resolve; calling something legitimate is a way of settling the question of whether it deserves trust or authority."
   },
   {
     "word": "mandatory",
@@ -679,7 +681,7 @@
         "Authentication برای این Endpoint اجباری است."
       ]
     ],
-    "miniContext": "Attendance is mandatory. Security training is mandatory for new employees. Authentication is mandatory for this endpoint. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Mandatory means required by rule, law, or policy, with no option to opt out. Attendance at a mandatory meeting isn't a suggestion, and mandatory security training exists because some risks are too serious to leave to individual judgment. The word draws a sharp line against its opposite, optional; once something is mandatory, the only remaining question is how, not whether, it gets done. Systems use the same idea: a mandatory field in a form simply cannot be left blank."
   },
   {
     "word": "notwithstanding",
@@ -710,7 +712,7 @@
         "با وجود Optimization، Query همچنان کند است."
       ]
     ],
-    "miniContext": "Notwithstanding the rain, we went outside. Notwithstanding the risks, the company approved the plan. Notwithstanding the optimization, the query remains slow. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Notwithstanding is a formal word meaning 'despite' or 'in spite of,' common in legal and official writing where plainer alternatives would sound less precise. A contract clause might read 'notwithstanding section 4,' meaning that section's rules don't apply in this particular case. In ordinary speech people almost always say 'despite' or 'even though' instead, so encountering notwithstanding is itself a signal that you're reading something formal, such as a law, a policy, or a carefully worded agreement."
   },
   {
     "word": "obsolete",
@@ -741,7 +743,7 @@
         "این نسخه API منسوخ است و باید جایگزین شود."
       ]
     ],
-    "miniContext": "This software is obsolete. The old process has become obsolete. This API version is obsolete and should be replaced. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Obsolete describes something that was once useful or standard but has since been replaced by something better, making it no longer worth using. A fax machine is obsolete in most offices today, not because it's broken, but because email and file-sharing do the same job faster. In software, an obsolete API version might still technically run, yet teams are expected to migrate away from it before it's removed entirely. The word marks the gap between still working and still being worth keeping."
   },
   {
     "word": "persistent",
@@ -765,14 +767,14 @@
       ],
       [
         "We need persistent storage for this data.",
-        "برای این Data به Persistent Storage نیاز داریم."
+        "برای این داده به ذخیره‌سازی پایدار نیاز داریم."
       ],
       [
         "The queue uses persistent messages to survive restarts.",
-        "Queue از Messageهای Persistent استفاده می‌کند تا Restart را تحمل کند."
+        "صف از پیام‌های پایدار استفاده می‌کند تا پس از راه‌اندازی مجدد از بین نروند."
       ]
     ],
-    "miniContext": "She is persistent when solving problems. We need persistent storage for this data. The queue uses persistent messages to survive restarts. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Persistent describes two related things: a person who keeps trying despite setbacks, and a condition or state that keeps lasting rather than fading away. A persistent salesperson follows up again and again without giving up, while a persistent cough refuses to go away after weeks of rest. In computing, persistent storage is deliberately named for the same quality: data saved there survives a restart instead of vanishing like information held only in memory."
   },
   {
     "word": "prevalent",
@@ -803,7 +805,7 @@
         "Caching در سیستم‌های پرترافیک رایج است."
       ]
     ],
-    "miniContext": "This problem is prevalent among beginners. Remote work is prevalent in the industry. Caching is prevalent in high-traffic systems. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Prevalent describes something that is common or widespread within a particular group, place, or time period, rather than common everywhere in general. A certain misconception might be prevalent among beginners without being prevalent among experts, and a disease can be prevalent in one region while rare elsewhere. The word is often paired with 'among' or 'in,' because it's really describing a rate or frequency within a defined population, not an absolute fact about the world."
   },
   {
     "word": "profound",
@@ -834,7 +836,7 @@
         "Distributed Systems چالش‌های عمیق Design ایجاد می‌کنند."
       ]
     ],
-    "miniContext": "The experience had a profound effect on me. The change had a profound impact on the team. Distributed systems introduce profound design challenges. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Profound describes an effect, idea, or change so deep that it reaches far beyond the surface and reshapes how something is understood or felt. A single conversation can have a profound effect on how someone sees their career, and a shift in technology can bring profound challenges that ripple through an entire industry. The word is reserved for genuinely significant impact; calling something profound when it's merely interesting weakens the word, which depends on real weight to do its job."
   },
   {
     "word": "reluctance",
@@ -865,7 +867,7 @@
         "بی‌میلی Developerها می‌تواند Adoption ابزارهای جدید را کند کند."
       ]
     ],
-    "miniContext": "I understand your reluctance. There was some reluctance to change the process. Developer reluctance can slow adoption of new tools. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Reluctance names the hesitation someone feels before doing something they'd rather avoid, even when they eventually go through with it anyway. A manager's reluctance to deliver bad news is understandable but can delay a team from fixing a real problem, and developer reluctance to adopt an unfamiliar tool often fades once the first few people try it and report back. The word captures that specific in-between feeling: not refusal, just resistance that still allows for persuasion."
   },
   {
     "word": "retain",
@@ -896,7 +898,7 @@
         "Cache داده را پنج دقیقه نگه می‌دارد."
       ]
     ],
-    "miniContext": "It's difficult to retain every detail. The company wants to retain experienced employees. The cache retains data for five minutes. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Retain means to keep or hold onto something over time, often against some natural tendency for it to be lost or to leave. Companies work hard to retain skilled employees because losing them to a competitor is costly, and students use repetition to retain facts long after the exam is over. In technical systems, a cache retains data only for a limited period before discarding it, a reminder that retaining something almost always has some cost or limit attached."
   },
   {
     "word": "simultaneous",
@@ -927,7 +929,7 @@
         "Requestهای همزمان می‌توانند باعث Contention شوند."
       ]
     ],
-    "miniContext": "There were simultaneous phone calls. The teams made simultaneous changes. Simultaneous requests can cause contention. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Simultaneous describes two or more things happening at exactly the same time, rather than one after another. Two teams making simultaneous changes to the same file is exactly the kind of situation that causes conflicts, because neither change knows about the other until it's too late. The word is especially important in technical contexts, since concurrency bugs, race conditions, and scheduling problems all trace back to events that were assumed to happen one at a time but turned out to be simultaneous instead."
   },
   {
     "word": "solely",
@@ -958,7 +960,7 @@
         "فقط به Cache برای Correctness تکیه نکن."
       ]
     ],
-    "miniContext": "I didn't do it solely for money. The decision wasn't based solely on cost. Don't rely solely on cache for correctness. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Solely means based on one single thing and nothing else, used to rule out any other factor or explanation. Saying a decision wasn't made solely on cost implies other factors mattered too, while saying it was made solely on cost would close the door on any other explanation. The word is useful for precision in arguments and specifications, because it draws a hard boundary; relying solely on one signal, like a cache, means ignoring every other source of truth, which is often exactly the risk worth naming."
   },
   {
     "word": "specify",
@@ -989,7 +991,7 @@
         "API Specification فیلدهای موردنیاز را مشخص می‌کند."
       ]
     ],
-    "miniContext": "Please specify what you need. The contract specifies the delivery date. The API specification specifies the required fields. The surrounding details are there to give the word a memorable situation, not just a dictionary definition. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Specify means to state something precisely and in detail, removing room for ambiguity about what exactly is meant. A contract specifies a delivery date rather than leaving it vague, and an API specification exists precisely to specify which fields are required and which are optional. The word implies a level of exactness beyond simply mentioning something; you can mention a deadline in passing, but to specify it is to pin it down so there's no room left for misunderstanding."
   },
   {
     "word": "terminate",
@@ -1020,7 +1022,7 @@
         "Server بعد از Timeout Connectionهای Idle را می‌بندد."
       ]
     ],
-    "miniContext": "They decided to terminate the agreement. The company terminated the project. The server terminates idle connections after a timeout. The situation becomes clearer when the word is seen in a realistic setting. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Terminate is a formal word for ending something completely and often permanently, frequently used where the ending has legal, contractual, or technical weight. Employment can be terminated, agreements can be terminated, and in networking a server terminates idle connections to free up resources. The word rarely appears in casual talk about small, everyday endings, since you wouldn't say you terminated watching a movie, but it's the natural choice whenever an ending needs to sound official or deliberate."
   },
   {
     "word": "underestimate",
@@ -1051,7 +1053,7 @@
         "هیچ‌وقت Traffic Spikeها را دست‌کم نگیر."
       ]
     ],
-    "miniContext": "Don't underestimate the difficulty of the task. We underestimated the migration effort. Never underestimate traffic spikes. Read the passage once, then read it again and notice why this particular word fits the situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "To underestimate something is to judge its size, difficulty, or importance as smaller than it actually turns out to be. Teams that underestimate how long a migration will take often end up missing deadlines, not because they worked carelessly, but because the real scope only became clear once the work was already underway. The word implies a gap between expectation and reality, usually discovered too late to adjust the original plan, which is exactly why experienced planners build in buffer for the things they know they tend to underestimate."
   },
   {
     "word": "unprecedented",
@@ -1082,7 +1084,7 @@
         "سیستم Traffic بی‌سابقه‌ای دریافت کرد."
       ]
     ],
-    "miniContext": "The city experienced unprecedented growth. The company faced unprecedented demand. The system received unprecedented traffic. The goal is to remember the word as part of a meaningful situation rather than as an isolated item. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Unprecedented describes something so unusual that nothing comparable has happened before, making past experience an unreliable guide for what to expect. A city might see unprecedented growth that outpaces every previous decade's planning assumptions, or a system might face unprecedented traffic that no amount of historical data could have predicted. The word is often overused for merely large or surprising events, but it properly belongs only to situations that genuinely break from every known pattern."
   },
   {
     "word": "versatile",
@@ -1113,7 +1115,7 @@
         "یک API چندمنظوره می‌تواند چند Client را پشتیبانی کند."
       ]
     ],
-    "miniContext": "She's a versatile developer. This tool is versatile enough for many teams. A versatile API can support multiple clients. Try to imagine yourself inside the situation and say the target word aloud when you reach it. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Versatile describes someone or something capable of handling many different tasks or situations well, rather than being specialized in just one. A versatile developer can move between frontend work, backend systems, and debugging production issues without missing a beat, and a versatile tool adapts to the needs of different teams instead of forcing everyone into one workflow. The word praises range without implying mastery of any single area is sacrificed; versatility is about breadth that still holds up under real use."
   },
   {
     "word": "whereby",
@@ -1144,7 +1146,7 @@
         "Mechanism ارتباط سرویس‌ها باید امن باشد."
       ]
     ],
-    "miniContext": "They created a process whereby users can report issues. We need a system whereby approvals are tracked. The mechanism whereby services communicate must be secure. After reading, close the text and try to explain the situation in your own words. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Whereby is a formal connecting word meaning 'by which' or 'through which,' used to introduce how a particular process or mechanism works. Instead of writing two separate sentences, a formal document might say a company created a process whereby customers can report issues, linking the process directly to its purpose in one clause. The word appears almost exclusively in written, often legal or technical, English; it would sound stiff and unnatural in casual conversation, which is part of why it signals formality whenever it shows up."
   },
   {
     "word": "withstand",
@@ -1175,10 +1177,11 @@
         "Service باید Traffic Spikeهای ناگهانی را تحمل کند."
       ]
     ],
-    "miniContext": "This material can withstand high temperatures. The team withstood intense pressure. The service must withstand sudden traffic spikes. Notice how the target word connects the people, actions, decisions, or problems in this situation. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Withstand means to endure a force, pressure, or hardship without breaking or giving way, implying real strength being tested. A material that can withstand high temperatures doesn't just survive heat briefly; it holds its properties under sustained stress, and a team that withstands intense pressure keeps functioning rather than falling apart under it. The word differs from simply surviving, since withstanding something suggests active resistance against a force trying to break you down, not passive luck."
   },
   {
     "word": "yield",
+    "clozeVariants": ["yielded", "yields"],
     "meaning": "ایجاد کردن؛ بازده دادن؛ تسلیم شدن",
     "level": "Hard",
     "pos": "verb / noun",
@@ -1206,6 +1209,6 @@
         "Query بعد از Filtering رکوردهای کمتری برمی‌گرداند."
       ]
     ],
-    "miniContext": "The investment yielded a good return. The experiment yielded useful results. The query yields fewer rows after filtering. A useful way to study this passage is to read it aloud and then recall the target word without looking. Read it aloud slowly, then try to recall the target word without looking at the answer. Think about a real situation from your own work or daily life where you could use the same word. Then say the sentence again without translating every word into Persian. Finally, try to use the target word in a new sentence of your own."
+    "miniContext": "Yield most commonly describes what a process produces as its result, especially when that result comes from effort, investment, or a calculation. An investment yields a return, an experiment yields results worth analyzing, and a database query yields a smaller set of rows once filters are applied. As a noun, the yield itself is the measurable output, as in crop yield, bond yield, or query yield, all describing how much came out of a given input. The word can also mean to give way or surrender, though in technical and financial writing it almost always refers to this sense of output."
   }
 ]

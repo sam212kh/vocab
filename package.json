@@ -15,6 +15,7 @@
     "start:ai": "node ai-service/server.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "report:content": "node scripts/content-gap-report.mjs --out docs/CONTENT_GAPS.md",
+    "report:cloze": "node scripts/cloze-coverage.mjs",
     "build:objectives": "node scripts/build-objective-index.mjs",
     "check:content": "node scripts/validate-content.mjs && node scripts/build-objective-index.mjs --check"
   },

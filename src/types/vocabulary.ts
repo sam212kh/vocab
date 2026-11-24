@@ -11,6 +11,8 @@ export interface Word {
     level: string
     pos: string
     synonyms: string[]
+    /** Explicit forms that may be blanked when the headword is inflected. */
+    clozeVariants?: string[]
     examples: Example[]
     miniContext: string
     icon?: string

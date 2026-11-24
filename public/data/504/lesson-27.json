@@ -3,264 +3,264 @@
     "word": "feeble",
     "meaning": "ضعیف",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to feeble its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «ضعیف» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The feeble old man needed help climbing even a few stairs.",
+        "آن مرد پیر و ضعیف برای بالا رفتن از چند پله هم به کمک نیاز داشت."
       ],
       [
-        "In everyday conversation, I try to use “feeble” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «ضعیف» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Her feeble attempt to apologize did nothing to repair the friendship.",
+        "تلاش ضعیف او برای عذرخواهی هیچ کمکی به ترمیم آن دوستی نکرد."
       ],
       [
-        "During a technical project, the word “feeble” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «ضعیف» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The signal from the old radio grew feeble as the storm approached.",
+        "سیگنال آن رادیوی قدیمی با نزدیک شدن طوفان ضعیف‌تر می‌شد."
       ]
     ],
-    "miniContext": "The team had to feeble its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “feeble” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “feeble” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "Feeble describes something or someone lacking strength, whether physically weak or simply ineffective. An elderly or sick person may become feeble, struggling with tasks that once felt effortless. The word also applies to abstract things, like a feeble excuse that fails to convince anyone or a feeble signal that keeps cutting out. In every case, feeble suggests a weakness serious enough to be noticed and often criticized."
   },
   {
     "word": "cease",
     "meaning": "متوقف شدن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to cease its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «متوقف شدن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The factory had to cease production after the fire damaged the main building.",
+        "آن کارخانه پس از آنکه آتش‌سوزی به ساختمان اصلی آسیب زد، مجبور شد تولید را متوقف کند."
       ],
       [
-        "In everyday conversation, I try to use “cease” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «متوقف شدن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The two countries agreed to cease fighting and begin peace talks.",
+        "دو کشور توافق کردند که جنگ را متوقف کنند و مذاکرات صلح را آغاز کنند."
       ],
       [
-        "During a technical project, the word “cease” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «متوقف شدن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The noise from the construction site finally ceased late in the evening.",
+        "سرانجام صدای آن محوطه ساخت‌وساز در اواخر شب متوقف شد."
       ]
     ],
-    "miniContext": "The team had to cease its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “cease” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “cease” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "To cease means to stop happening or to bring something to an end, often used in more formal contexts than the everyday word stop. Factories cease production during strikes or emergencies, and warring nations may agree to cease fighting as a first step toward peace. The phrase \"cease and desist\" is common in legal warnings, instructing someone to stop an action immediately. Across these uses, cease marks a clear and often official end to something ongoing."
   },
   {
     "word": "rash",
     "meaning": "نسنجیده؛ عجولانه",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to rash its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «نسنجیده؛ عجولانه» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Buying the car without checking its history was a rash decision.",
+        "خرید آن ماشین بدون بررسی سابقه‌اش یک تصمیم نسنجیده و عجولانه بود."
       ],
       [
-        "In everyday conversation, I try to use “rash” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «نسنجیده؛ عجولانه» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "He's usually careful, but grief made him act in a rash and unpredictable way.",
+        "او معمولاً محتاط است، اما غم او را وادار کرد به شکلی نسنجیده و غیرقابل‌پیش‌بینی عمل کند."
       ],
       [
-        "During a technical project, the word “rash” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «نسنجیده؛ عجولانه» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Don't make any rash promises you might not be able to keep.",
+        "هیچ وعده نسنجیده‌ای ندهید که ممکن است نتوانید به آن عمل کنید."
       ]
     ],
-    "miniContext": "The team had to rash its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “rash” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “rash” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "Rash describes an action taken too quickly, without enough thought about the consequences. People often make rash decisions under stress or strong emotion, only to regret them once they calm down. Financial advisors warn against rash investments made in a panic during a market downturn. The word always carries a sense of haste overriding good judgment."
   },
   {
     "word": "exhaust",
     "meaning": "خسته کردن؛ تمام کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to exhaust its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «خسته کردن؛ تمام کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "A hike this long can exhaust even the fittest climbers.",
+        "یک پیاده‌روی به این طولانی می‌تواند حتی آماده‌ترین کوهنوردان را هم خسته کند."
       ],
       [
-        "In everyday conversation, I try to use “exhaust” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «خسته کردن؛ تمام کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "We need to exhaust every possible option before we give up on the project.",
+        "باید قبل از اینکه آن پروژه را کنار بگذاریم، هر گزینه ممکن را تا آخر بررسی کنیم."
       ],
       [
-        "During a technical project, the word “exhaust” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «خسته کردن؛ تمام کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The country's oil reserves are expected to exhaust within fifty years.",
+        "انتظار می‌رود ذخایر نفتی آن کشور طی پنجاه سال تمام شوند."
       ]
     ],
-    "miniContext": "The team had to exhaust its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “exhaust” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “exhaust” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "To exhaust something means to use it up completely, or to exhaust someone means to drain their energy entirely. A difficult climb can exhaust even experienced hikers, leaving them desperate for rest. In problem-solving, people say they want to exhaust every option before accepting defeat, meaning they try everything possible first. Natural resources like oil and fresh water can also exhaust over time if they are not managed carefully."
   },
   {
     "word": "monarch",
     "meaning": "پادشاه/فرمانروا",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to monarch its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «پادشاه/فرمانروا» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The monarch addressed the nation on television after the coronation.",
+        "آن پادشاه پس از تاجگذاری در تلویزیون خطاب به ملت سخن گفت."
       ],
       [
-        "In everyday conversation, I try to use “monarch” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «پادشاه/فرمانروا» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "For centuries, the monarch held absolute power over the entire kingdom.",
+        "برای قرن‌ها، آن پادشاه قدرت مطلق بر کل پادشاهی داشت."
       ],
       [
-        "During a technical project, the word “monarch” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «پادشاه/فرمانروا» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Today, the monarch's role is largely ceremonial rather than political.",
+        "امروزه، نقش آن پادشاه بیشتر تشریفاتی است تا سیاسی."
       ]
     ],
-    "miniContext": "The team had to monarch its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “monarch” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “monarch” can describe a situation, requirement, or decision that becomes important when several people have to work together. This kind of context gives the word a small story, making it easier to retrieve later."
+    "miniContext": "A monarch is a king, queen, or other hereditary ruler who holds the highest position in a kingdom or empire. In the past, a monarch often ruled with absolute authority, making laws and decisions without needing approval from anyone else. In modern constitutional systems, the monarch's power has become mostly symbolic, with elected officials handling actual governance. Still, the monarch remains an important symbol of national identity and continuity."
   },
   {
     "word": "disrupt",
     "meaning": "مختل کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to disrupt its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «مختل کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Heavy snowstorms can disrupt flights across an entire region.",
+        "کولاک‌های شدید می‌توانند پروازها را در سراسر یک منطقه مختل کنند."
       ],
       [
-        "In everyday conversation, I try to use “disrupt” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «مختل کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A single loud phone call can disrupt an entire classroom of focused students.",
+        "یک زنگ تلفن بلند می‌تواند تمرکز کل یک کلاس دانش‌آموز را مختل کند."
       ],
       [
-        "During a technical project, the word “disrupt” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «مختل کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "New technology often disrupts traditional industries before they can adapt.",
+        "فناوری‌های جدید اغلب صنایع سنتی را قبل از اینکه بتوانند خودشان را تطبیق دهند، مختل می‌کنند."
       ]
     ],
-    "miniContext": "The team had to disrupt its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “disrupt” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “disrupt” can describe a situation, requirement, or decision that becomes important when several people have to work together. After reading, close the text and try to explain the situation in your own words."
+    "miniContext": "To disrupt something means to interrupt its normal flow or cause a sudden, often unwelcome, change. Bad weather can disrupt travel plans, stranding thousands of passengers at airports. In business, the word has taken on a special meaning, where a disruptive new technology upends an entire industry, forcing established companies to change or fail. Whether describing weather, noise, or innovation, disrupt always implies breaking an expected pattern."
   },
   {
     "word": "thrifty",
     "meaning": "صرفه‌جو",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to thrifty its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «صرفه‌جو» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Her thrifty habits helped her save enough money to buy a house by thirty.",
+        "عادت‌های صرفه‌جویانه او به او کمک کرد تا تا سی سالگی پول کافی برای خریدن خانه پس‌انداز کند."
       ],
       [
-        "In everyday conversation, I try to use “thrifty” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «صرفه‌جو» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A thrifty shopper always compares prices before making a purchase.",
+        "یک خریدار صرفه‌جو همیشه قبل از خرید، قیمت‌ها را مقایسه می‌کند."
       ],
       [
-        "During a technical project, the word “thrifty” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «صرفه‌جو» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Growing up during hard times made him thrifty for the rest of his life.",
+        "بزرگ شدن در دوران سخت او را برای بقیه عمرش صرفه‌جو کرد."
       ]
     ],
-    "miniContext": "The team had to thrifty its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “thrifty” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “thrifty” can describe a situation, requirement, or decision that becomes important when several people have to work together. Notice the relationship between the target word and the actions, people, or decisions around it."
+    "miniContext": "Thrifty describes someone who uses money carefully, avoiding waste and saving whenever possible. A thrifty person often compares prices, repairs things instead of replacing them, and avoids unnecessary spending. The habit of being thrifty is sometimes learned during difficult financial times and can last for a lifetime, even after circumstances improve. Unlike being cheap, which can sound negative, thrifty usually carries a respectful tone, praising someone's wise use of resources."
   },
   {
     "word": "rapid",
     "meaning": "سریع",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to rapid its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «سریع» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The patient made a rapid recovery after the surgery.",
+        "بیمار پس از جراحی بهبودی سریعی پیدا کرد."
       ],
       [
-        "In everyday conversation, I try to use “rapid” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «سریع» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The company experienced rapid growth during its first two years.",
+        "آن شرکت در دو سال اول خود رشد سریعی را تجربه کرد."
       ],
       [
-        "During a technical project, the word “rapid” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «سریع» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Rapid changes in the weather made the trip more dangerous than expected.",
+        "تغییرات سریع آب‌وهوا آن سفر را خطرناک‌تر از آنچه انتظار می‌رفت کرد."
       ]
     ],
-    "miniContext": "The team had to rapid its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “rapid” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “rapid” can describe a situation, requirement, or decision that becomes important when several people have to work together. The goal is to remember the word as part of a meaningful situation rather than as an isolated item."
+    "miniContext": "Rapid describes something that happens very quickly, often faster than expected. A rapid recovery surprises doctors, while rapid growth can overwhelm a young company that isn't prepared to scale. The word also describes sudden shifts, such as rapid changes in weather, technology, or public opinion. Rapid is often paired with nouns describing change, progress, or movement, emphasizing speed above all else."
   },
   {
     "word": "severity",
     "meaning": "شدت",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to severity its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «شدت» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Doctors assessed the severity of her injuries before deciding on treatment.",
+        "پزشکان قبل از تصمیم‌گیری درباره درمان، شدت آسیب‌های او را ارزیابی کردند."
       ],
       [
-        "In everyday conversation, I try to use “severity” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «شدت» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The severity of the storm forced thousands of residents to evacuate.",
+        "شدت آن طوفان هزاران ساکن را مجبور به تخلیه کرد."
       ],
       [
-        "During a technical project, the word “severity” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «شدت» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The judge chose a punishment that matched the severity of the crime.",
+        "قاضی مجازاتی را انتخاب کرد که با شدت آن جرم متناسب بود."
       ]
     ],
-    "miniContext": "The team had to severity its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “severity” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “severity” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "Severity refers to how serious, intense, or extreme something is, whether an injury, a storm, or a punishment. Doctors must judge the severity of a condition before deciding how urgently to act. Courts also consider the severity of a crime when deciding on an appropriate sentence, aiming to match the punishment to the harm caused. The word is most often used when something needs to be measured or ranked by how bad or intense it is."
   },
   {
     "word": "unite",
     "meaning": "متحد کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to unite its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «متحد کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The coach's speech helped unite the team before the championship game.",
+        "سخنرانی مربی به متحد کردن آن تیم قبل از بازی قهرمانی کمک کرد."
       ],
       [
-        "In everyday conversation, I try to use “unite” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «متحد کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A shared tragedy can unite even the most divided communities.",
+        "یک فاجعه مشترک می‌تواند حتی جامعه‌های پرتفرقه را متحد کند."
       ],
       [
-        "During a technical project, the word “unite” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «متحد کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The two companies united to form a single, stronger corporation.",
+        "آن دو شرکت متحد شدند تا یک شرکت واحد و قوی‌تر تشکیل دهند."
       ]
     ],
-    "miniContext": "The team had to unite its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “unite” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “unite” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "To unite means to bring separate people or groups together into a single, cooperative whole. Shared goals, common enemies, or even tragedies can unite people who previously had little in common. In business, two companies might unite through a merger, combining their resources to compete more effectively. The word always implies moving from separation toward a stronger, combined unity."
   },
   {
     "word": "despite",
     "meaning": "با وجود",
     "level": "504",
-    "pos": "",
+    "pos": "preposition",
     "synonyms": [],
     "examples": [
       [
-        "The team had to despite its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «با وجود» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Despite the heavy rain, the match continued without any delay.",
+        "با وجود باران شدید، آن مسابقه بدون هیچ تأخیری ادامه یافت."
       ],
       [
-        "In everyday conversation, I try to use “despite” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «با وجود» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "She passed the exam despite having only one week to study.",
+        "او با وجود اینکه فقط یک هفته برای مطالعه داشت، در آن امتحان قبول شد."
       ],
       [
-        "During a technical project, the word “despite” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «با وجود» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Despite his doubts, he decided to accept the new job offer.",
+        "با وجود شک‌وتردیدهایش، او تصمیم گرفت آن پیشنهاد شغلی جدید را بپذیرد."
       ]
     ],
-    "miniContext": "The team had to despite its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “despite” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “despite” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "Despite is used to show that something happens even though another fact might suggest it shouldn't. A team might keep playing despite terrible weather, or a student might succeed despite very little preparation time. The word is always followed by a noun or a gerund, never a full clause with a subject and verb, which distinguishes it from although. Despite highlights a contrast between an obstacle and the outcome that happens anyway."
   },
   {
     "word": "miserly",
     "meaning": "خسیس",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to miserly its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «خسیس» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The miserly landlord refused to fix the broken heater even in winter.",
+        "آن صاحبخانه خسیس حتی در زمستان هم حاضر نشد شوفاژ خراب را تعمیر کند."
       ],
       [
-        "In everyday conversation, I try to use “miserly” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «خسیس» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Despite his wealth, he was known for his miserly treatment of his employees.",
+        "با وجود ثروتش، او به رفتار خسیسانه‌اش با کارمندانش معروف بود."
       ],
       [
-        "During a technical project, the word “miserly” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «خسیس» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "She gave a miserly tip of just a few coins to the waiter.",
+        "او فقط چند سکه انعام خسیسانه‌ای به گارسون داد."
       ]
     ],
-    "miniContext": "The team had to miserly its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “miserly” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “miserly” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "Miserly describes someone who hoards money and refuses to spend it, even when they clearly can afford to. A miserly employer might underpay workers while living comfortably, and a miserly tip can insult a server who provided good service. Unlike thrifty, which suggests wise and reasonable saving, miserly carries a negative tone, implying selfishness or excessive stinginess. The word paints a picture of someone unwilling to share even a small amount of their wealth."
   }
 ]

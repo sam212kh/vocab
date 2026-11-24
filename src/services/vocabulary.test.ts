@@ -83,6 +83,16 @@ describe('loadLesson', () => {
         expect(words[0].lessonId).toBe('lesson-1')
     })
 
+    it('preserves explicit Cloze inflection variants', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
+            { word: 'cease', clozeVariants: ['ceased'], examples: [] },
+        ])))
+
+        const words = await loadLesson(lesson)
+
+        expect(words[0].clozeVariants).toEqual(['ceased'])
+    })
+
     it('normalizes examples given as {english, persian} objects', async () => {
         vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
             {

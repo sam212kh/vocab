@@ -3,264 +3,264 @@
     "word": "idle",
     "meaning": "بیکار؛ وقت تلف کردن",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to idle its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «بیکار؛ وقت تلف کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The factory's machines stood idle for weeks after the strike began.",
+        "ماشین‌های کارخانه هفته‌ها پس از شروع اعتصاب بی‌حرکت و بیکار ماندند."
       ],
       [
-        "In everyday conversation, I try to use “idle” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «بیکار؛ وقت تلف کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "He spent an idle afternoon watching clouds drift across the sky.",
+        "او یک بعدازظهر بیکار را به تماشای عبور ابرها در آسمان گذراند."
       ],
       [
-        "During a technical project, the word “idle” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «بیکار؛ وقت تلف کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "She scolded her son for being idle instead of studying for the exam.",
+        "او پسرش را به خاطر بیکار بودن به‌جای درس خواندن برای امتحان سرزنش کرد."
       ]
     ],
-    "miniContext": "The team had to idle its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “idle” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “idle” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "During the economic slowdown, many factories reduced production, and workers often found themselves idle for days at a time. Some used the quiet hours to learn new skills, while others simply waited for orders to pick up again. Economists worry that idle capacity like this can signal deeper trouble in an industry. When machines and workers sit idle for too long, a company's profits usually suffer."
   },
   {
     "word": "dispute",
     "meaning": "اختلاف؛ مناقشه",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to dispute its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «اختلاف؛ مناقشه» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The dispute between the two neighbors lasted for months before a court settled it.",
+        "اختلاف میان آن دو همسایه ماه‌ها طول کشید تا سرانجام دادگاه آن را حل کرد."
       ],
       [
-        "In everyday conversation, I try to use “dispute” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «اختلاف؛ مناقشه» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Workers and management could not resolve the dispute over wages.",
+        "کارگران و مدیریت نتوانستند اختلاف خود را بر سر دستمزدها حل کنند."
       ],
       [
-        "During a technical project, the word “dispute” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «اختلاف؛ مناقشه» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "A border dispute between the two countries has continued for decades.",
+        "یک اختلاف مرزی میان دو کشور دهه‌ها ادامه داشته است."
       ]
     ],
-    "miniContext": "The team had to dispute its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “dispute” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “dispute” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "A dispute broke out between the two companies after one accused the other of copying its design. Lawyers on both sides spent months gathering evidence before the case went to court. Such disputes are common in competitive industries where new products are released every year. In the end, a judge ruled that the dispute should be settled through a licensing agreement rather than a lawsuit."
   },
   {
     "word": "commuter",
     "meaning": "رفت‌وآمدکننده",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to commuter its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «رفت‌وآمدکننده» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Every morning, the commuter train is packed with people heading into the city.",
+        "هر روز صبح، قطار رفت‌وآمدکنندگان پر از افرادی است که به سوی شهر می‌روند."
       ],
       [
-        "In everyday conversation, I try to use “commuter” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «رفت‌وآمدکننده» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "As a commuter, she spends almost two hours on the road every day.",
+        "او به عنوان یک رفت‌وآمدکننده، تقریباً دو ساعت از روز را در راه می‌گذراند."
       ],
       [
-        "During a technical project, the word “commuter” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «رفت‌وآمدکننده» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Many commuters prefer bicycles to avoid traffic jams during rush hour.",
+        "بسیاری از رفت‌وآمدکنندگان برای فرار از ترافیک در ساعات شلوغی، دوچرخه را ترجیح می‌دهند."
       ]
     ],
-    "miniContext": "The team had to commuter its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “commuter” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “commuter” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "Every weekday, thousands of commuters flood into the city center on crowded trains and buses. For many commuters, the daily trip can take over an hour each way, leaving little time for anything else. City planners have proposed new bike lanes to give commuters a faster, healthier alternative. Reducing commuter traffic could also help lower pollution levels downtown."
   },
   {
     "word": "valor",
     "meaning": "دلاوری",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to valor its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «دلاوری» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The soldiers were honored for their valor during the battle.",
+        "سربازان به خاطر دلاوری‌شان در نبرد تقدیر شدند."
       ],
       [
-        "In everyday conversation, I try to use “valor” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «دلاوری» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Her valor in rescuing the children from the fire amazed everyone.",
+        "دلاوری او در نجات کودکان از آتش همه را شگفت‌زده کرد."
       ],
       [
-        "During a technical project, the word “valor” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «دلاوری» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The medal was given to recognize acts of great valor.",
+        "این مدال برای قدردانی از اعمال دلاورانه‌ی بزرگ اعطا شد."
       ]
     ],
-    "miniContext": "The team had to valor its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “valor” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “valor” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "Historians often praise ancient warriors for their valor on the battlefield, even when the odds were against them. The young firefighter's valor during the rescue earned him a medal from the city council. Stories of valor are passed down through generations because they inspire courage in ordinary people. True valor, however, is not about fearlessness but about acting bravely despite fear."
   },
   {
     "word": "vein",
     "meaning": "رگ؛ رگه",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to vein its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «رگ؛ رگه» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The nurse found a vein in his arm to draw the blood sample.",
+        "پرستار رگی در بازوی او پیدا کرد تا نمونه خون بگیرد."
       ],
       [
-        "In everyday conversation, I try to use “vein” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «رگ؛ رگه» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Miners discovered a rich vein of gold deep inside the mountain.",
+        "معدن‌کاوان رگه‌ی غنی از طلا را در اعماق کوه کشف کردند."
       ],
       [
-        "During a technical project, the word “vein” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «رگ؛ رگه» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The novel continues in the same humorous vein as the author's earlier work.",
+        "این رمان با همان رگه‌ی طنزآمیز آثار پیشین نویسنده ادامه می‌یابد."
       ]
     ],
-    "miniContext": "The team had to vein its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “vein” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “vein” can describe a situation, requirement, or decision that becomes important when several people have to work together. This kind of context gives the word a small story, making it easier to retrieve later."
+    "miniContext": "The doctor gently tapped the inside of the patient's arm to find a suitable vein for the injection. In geology class, students learned how a vein of silver can form deep beneath the earth's surface over thousands of years. Writers sometimes describe a story's tone as running in a particular vein, whether comic, tragic, or romantic. Understanding where a vein lies, whether in the body or the ground, requires careful observation."
   },
   {
     "word": "uneventful",
     "meaning": "بدون حادثه خاص",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to uneventful its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «بدون حادثه خاص» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The flight was completely uneventful, and we landed right on schedule.",
+        "پرواز کاملاً بدون حادثه بود و دقیقاً طبق برنامه فرود آمدیم."
       ],
       [
-        "In everyday conversation, I try to use “uneventful” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «بدون حادثه خاص» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "After the busy holidays, we were glad to have an uneventful week at home.",
+        "بعد از تعطیلات پرمشغله، خوشحال بودیم که هفته‌ای بدون حادثه خاص در خانه داشتیم."
       ],
       [
-        "During a technical project, the word “uneventful” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «بدون حادثه خاص» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Most of her career as a clerk was quiet and uneventful.",
+        "بیشتر دوران کاری او به عنوان منشی آرام و بدون حادثه خاص بود."
       ]
     ],
-    "miniContext": "The team had to uneventful its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “uneventful” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “uneventful” can describe a situation, requirement, or decision that becomes important when several people have to work together. After reading, close the text and try to explain the situation in your own words."
+    "miniContext": "After years of dramatic headlines, the town council meeting this month was refreshingly uneventful. Nothing unusual happened during the flight, and the pilot later described the journey as completely uneventful. Some people crave excitement, but after a stressful year, many travelers were grateful for an uneventful vacation. An uneventful day at work isn't necessarily boring; sometimes it just means everything went according to plan."
   },
   {
     "word": "lunatic",
     "meaning": "دیوانه؛ فرد بسیار بی‌خرد",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to lunatic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «دیوانه؛ فرد بسیار بی‌خرد» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "He drove like a lunatic, swerving through traffic at top speed.",
+        "او مثل یک دیوانه رانندگی می‌کرد و با سرعت بالا لابه‌لای ترافیک می‌پیچید."
       ],
       [
-        "In everyday conversation, I try to use “lunatic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «دیوانه؛ فرد بسیار بی‌خرد» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Only a lunatic would jump off a bridge for fun.",
+        "فقط یک آدم دیوانه برای تفریح از روی پل می‌پرد."
       ],
       [
-        "During a technical project, the word “lunatic” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «دیوانه؛ فرد بسیار بی‌خرد» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The crowd dismissed him as a lunatic until his predictions actually came true.",
+        "جمعیت او را یک دیوانه تلقی می‌کردند تا اینکه پیش‌بینی‌هایش واقعاً درست از آب درآمد."
       ]
     ],
-    "miniContext": "The team had to lunatic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “lunatic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “lunatic” can describe a situation, requirement, or decision that becomes important when several people have to work together. Notice the relationship between the target word and the actions, people, or decisions around it."
+    "miniContext": "The old mansion on the hill was rumored to be the former home of a lunatic who talked to the walls. In casual speech, people sometimes call a reckless driver a lunatic, even though the word technically refers to mental illness. Critics called the film's villain a convincing lunatic, both terrifying and oddly sympathetic. Calling someone a lunatic is harsh, and it's rarely an accurate or kind way to describe unusual behavior."
   },
   {
     "word": "jest",
     "meaning": "شوخی",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to jest its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «شوخی» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "He meant it as a jest, but she took the comment seriously.",
+        "او آن را به عنوان یک شوخی گفته بود، اما او آن حرف را جدی گرفت."
       ],
       [
-        "In everyday conversation, I try to use “jest” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «شوخی» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "In jest, my brother told me I'd never finish the marathon.",
+        "برادرم به شوخی گفت که من هرگز ماراتن را تمام نخواهم کرد."
       ],
       [
-        "During a technical project, the word “jest” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «شوخی» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Many a truth is told in jest, as the old saying goes.",
+        "طبق ضرب‌المثل قدیمی، بسیاری از حقیقت‌ها در قالب شوخی بیان می‌شوند."
       ]
     ],
-    "miniContext": "The team had to jest its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “jest” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “jest” can describe a situation, requirement, or decision that becomes important when several people have to work together. The goal is to remember the word as part of a meaningful situation rather than as an isolated item."
+    "miniContext": "He often hides genuine criticism behind a jest, so people aren't sure whether to laugh or take him seriously. \"I was only speaking in jest,\" she explained after her joke offended a coworker. Shakespeare frequently used jest and wordplay to lighten the mood in his tragedies. A clever jest can ease tension in a room faster than any serious explanation."
   },
   {
     "word": "confine",
     "meaning": "محدود کردن",
     "level": "504",
-    "pos": "",
+    "pos": "verb",
     "synonyms": [],
     "examples": [
       [
-        "The team had to confine its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «محدود کردن» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Doctors told him to confine his activities to light walking for a month.",
+        "پزشکان به او گفتند که فعالیت‌هایش را به مدت یک ماه به پیاده‌روی سبک محدود کند."
       ],
       [
-        "In everyday conversation, I try to use “confine” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «محدود کردن» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "The prisoners were confined to a small, dark cell.",
+        "زندانیان در یک سلول کوچک و تاریک محدود و زندانی شده بودند."
       ],
       [
-        "During a technical project, the word “confine” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «محدود کردن» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "Please confine your comments to the topic we are discussing today.",
+        "لطفاً نظرات خود را به موضوعی که امروز درباره‌اش بحث می‌کنیم محدود کنید."
       ]
     ],
-    "miniContext": "The team had to confine its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “confine” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “confine” can describe a situation, requirement, or decision that becomes important when several people have to work together. The situation becomes clearer when the word is seen in a realistic setting."
+    "miniContext": "The vet asked the family to confine their dog to the backyard until its leg healed completely. During the quarantine, residents were confined to their homes for nearly two weeks. Historically, many societies used to confine women to domestic roles, denying them education and careers. Trying to confine a creative idea to a single sentence can sometimes do it a disservice."
   },
   {
     "word": "patriotic",
     "meaning": "میهن‌دوستانه",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to patriotic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «میهن‌دوستانه» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "People waved flags and sang patriotic songs during the parade.",
+        "مردم در طول رژه پرچم تکان می‌دادند و سرودهای میهن‌دوستانه می‌خواندند."
       ],
       [
-        "In everyday conversation, I try to use “patriotic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «میهن‌دوستانه» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "It felt deeply patriotic to watch the soldiers return home.",
+        "دیدن بازگشت سربازان به خانه احساس عمیق میهن‌دوستی را در او برانگیخت."
       ],
       [
-        "During a technical project, the word “patriotic” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «میهن‌دوستانه» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "The mayor gave a patriotic speech on Independence Day.",
+        "شهردار در روز استقلال سخنرانی میهن‌دوستانه‌ای ایراد کرد."
       ]
     ],
-    "miniContext": "The team had to patriotic its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “patriotic” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “patriotic” can describe a situation, requirement, or decision that becomes important when several people have to work together. Read the whole passage once, then read it again and notice how the target word fits the situation."
+    "miniContext": "On Independence Day, the entire town turns out for a patriotic parade complete with flags and marching bands. The soldier's patriotic devotion to his country never wavered, even during the hardest years of the war. Some politicians use patriotic language to rally support, even when their policies have little to do with national pride. Singing the national anthem before the game is a small but patriotic tradition that many fans look forward to."
   },
   {
     "word": "fertile",
     "meaning": "حاصلخیز",
     "level": "504",
-    "pos": "",
+    "pos": "adjective",
     "synonyms": [],
     "examples": [
       [
-        "The team had to fertile its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «حاصلخیز» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "The valley's fertile soil makes it ideal for growing wheat.",
+        "خاک حاصلخیز دره آن را برای کاشت گندم ایده‌آل می‌کند."
       ],
       [
-        "In everyday conversation, I try to use “fertile” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «حاصلخیز» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "A fertile imagination helped her write dozens of short stories.",
+        "تخیل حاصلخیز او به وی کمک کرد تا ده‌ها داستان کوتاه بنویسد."
       ],
       [
-        "During a technical project, the word “fertile” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «حاصلخیز» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "After the flood receded, the fields became remarkably fertile.",
+        "پس از فروکش کردن سیل، زمین‌های کشاورزی به طور قابل توجهی حاصلخیز شدند."
       ]
     ],
-    "miniContext": "The team had to fertile its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “fertile” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “fertile” can describe a situation, requirement, or decision that becomes important when several people have to work together. The important part is not memorizing the translation alone, but understanding why the writer chose this word here."
+    "miniContext": "The farmers chose that particular valley because its fertile soil could support several harvests a year. Nile floods once left behind fertile silt that made ancient Egypt one of the most productive farming regions in the world. A fertile mind, much like fertile land, needs the right conditions to produce its best ideas. Without fertile ground to grow in, even the best seeds will struggle to survive."
   },
   {
     "word": "idol",
     "meaning": "بت؛ فرد محبوب",
     "level": "504",
-    "pos": "",
+    "pos": "noun",
     "synonyms": [],
     "examples": [
       [
-        "The team had to idol its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully.",
-        "تیم مجبور شد درباره «بت؛ فرد محبوب» تصمیم بگیرد چون اطلاعات جدید شرایط را تغییر داده بود و همه می‌خواستند قبل از تصمیم‌گیری جزئیات را دقیق بررسی کنند."
+        "Teenagers lined up for hours to meet their pop idol.",
+        "نوجوانان ساعت‌ها در صف ایستادند تا بت پاپ خود را ملاقات کنند."
       ],
       [
-        "In everyday conversation, I try to use “idol” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember.",
-        "در مکالمه روزمره سعی می‌کنم واژه «بت؛ فرد محبوب» را در یک موقعیت واقعی به کار ببرم، نه اینکه آن را جداگانه حفظ کنم."
+        "Ancient worshippers placed a golden idol at the center of the temple.",
+        "عبادت‌کنندگان باستانی یک بت طلایی را در مرکز معبد قرار دادند."
       ],
       [
-        "During a technical project, the word “idol” can describe a situation, requirement, or decision that becomes important when several people have to work together.",
-        "در یک پروژه فنی هم «بت؛ فرد محبوب» می‌تواند برای توصیف یک وضعیت، نیازمندی یا تصمیمی به کار برود که همکاری چند نفر را تحت تأثیر قرار می‌دهد."
+        "He became an idol to young athletes after winning the gold medal.",
+        "او پس از کسب مدال طلا، به بتِ محبوب ورزشکاران جوان تبدیل شد."
       ]
     ],
-    "miniContext": "The team had to idol its plan after new information changed the situation, and nobody wanted to make the decision without checking the details carefully. In everyday conversation, I try to use “idol” naturally rather than memorizing it as an isolated vocabulary item, because context makes the meaning easier to remember. During a technical project, the word “idol” can describe a situation, requirement, or decision that becomes important when several people have to work together. Try to imagine yourself in the situation and say the target word aloud when you reach it."
+    "miniContext": "Fans screamed and cried when their favorite singer, their idol since childhood, finally walked onto the stage. Archaeologists uncovered a small stone idol buried beneath the temple ruins. Many young athletes choose an idol to look up to, hoping to copy their discipline and work ethic. Worshipping an idol, whether a statue or a celebrity, can sometimes distract people from more meaningful values."
   }
 ]

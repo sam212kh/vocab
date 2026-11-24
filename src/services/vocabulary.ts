@@ -12,6 +12,7 @@ interface RawWord {
     level?: unknown
     pos?: unknown
     synonyms?: unknown
+    clozeVariants?: unknown
     examples?: unknown
     miniContext?: unknown
     icon?: unknown
@@ -64,6 +65,12 @@ function normalizeWord(
             .filter(Boolean)
         : []
 
+    const clozeVariants = Array.isArray(raw.clozeVariants)
+        ? raw.clozeVariants
+            .map(value => String(value ?? '').trim())
+            .filter(Boolean)
+        : []
+
     return {
         courseId: lesson.courseId ?? '',
         lessonId: lesson.id,
@@ -72,6 +79,7 @@ function normalizeWord(
         level: String(raw.level ?? '').trim(),
         pos: String(raw.pos ?? '').trim(),
         synonyms,
+        clozeVariants,
         examples,
         miniContext: String(raw.miniContext ?? '').trim(),
         icon: typeof raw.icon === 'string' && raw.icon

@@ -9,19 +9,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed lending during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «lending» صحبت کرد."
+        "english": "Responsible lending means checking that a borrower can actually repay the loan.",
+        "persian": "اعطای وام مسئولانه به این معناست که بررسی شود وام‌گیرنده واقعاً می‌تواند وام را بازپرداخت کند."
       },
       {
-        "english": "Understanding lending is useful for senior backend engineers.",
-        "persian": "درک مفهوم «lending» برای مهندسان ارشد backend مفید است."
+        "english": "The bank tightened its lending standards after the economic downturn.",
+        "persian": "بانک پس از رکود اقتصادی استانداردهای اعطای وام خود را سخت‌تر کرد."
       },
       {
-        "english": "We need to consider lending before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «lending» را در نظر بگیریم."
+        "english": "Peer-to-peer lending lets individuals lend money directly to other people online.",
+        "persian": "وام‌دهی فرد به فرد به افراد اجازه می‌دهد مستقیماً و به صورت آنلاین به افراد دیگر وام بدهند."
       }
     ],
-    "miniContext": "In a professional backend environment, lending is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When Noor started her microfinance nonprofit, she focused on responsible **lending** to small shop owners who had no access to traditional banks. Instead of charging extremely high interest like informal lenders, her organization set fair rates tied to how quickly a business could realistically grow. Over five years, this kind of lending helped dozens of shopkeepers expand without falling into unmanageable debt. Noor often says that good lending is less about the money and more about understanding a borrower's real situation."
   },
   {
     "courseId": "upgrade",
@@ -33,19 +33,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed loan during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «loan» صحبت کرد."
+        "english": "She took out a loan to cover her university tuition.",
+        "persian": "او برای پرداخت شهریه دانشگاهش یک وام گرفت."
       },
       {
-        "english": "Understanding loan is useful for senior backend engineers.",
-        "persian": "درک مفهوم «loan» برای مهندسان ارشد backend مفید است."
+        "english": "The bank approved his loan after reviewing his credit history.",
+        "persian": "بانک پس از بررسی سابقه اعتباری او وامش را تصویب کرد."
       },
       {
-        "english": "We need to consider loan before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «loan» را در نظر بگیریم."
+        "english": "Paying off the loan early saved them hundreds of dollars in interest.",
+        "persian": "بازپرداخت زودهنگام وام، صدها دلار در هزینه بهره برای آن‌ها صرفه‌جویی کرد."
       }
     ],
-    "miniContext": "In a professional backend environment, loan is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After months of saving, Daniel still couldn't afford a car outright, so he applied for a **loan** at his local credit union. The loan officer explained the interest rate, the monthly payment, and what would happen if he missed a payment. Daniel compared this loan to an offer from the dealership and found the credit union's terms far better. Three years later, he made his final payment and finally owned the car outright."
   },
   {
     "courseId": "upgrade",
@@ -57,19 +57,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed credit during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «credit» صحبت کرد."
+        "english": "Good credit makes it much easier to rent an apartment.",
+        "persian": "اعتبار مالی خوب اجاره کردن یک آپارتمان را بسیار آسان‌تر می‌کند."
       },
       {
-        "english": "Understanding credit is useful for senior backend engineers.",
-        "persian": "درک مفهوم «credit» برای مهندسان ارشد backend مفید است."
+        "english": "The store offers credit to regular customers who pay at the end of the month.",
+        "persian": "فروشگاه به مشتریان ثابتی که در پایان ماه پرداخت می‌کنند اعتبار می‌دهد."
       },
       {
-        "english": "We need to consider credit before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «credit» را در نظر بگیریم."
+        "english": "His credit score dropped after he missed two payments.",
+        "persian": "امتیاز اعتباری او پس از از دست دادن دو پرداخت کاهش یافت."
       }
     ],
-    "miniContext": "In a professional backend environment, credit is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When Priya moved to a new country, she quickly discovered that she had no **credit** history at all, which made renting an apartment surprisingly difficult. A bank finally agreed to issue her a small line of credit after she showed proof of steady income. She used it carefully and paid the full balance every month to build a solid credit record. Within two years, her credit was strong enough to qualify for a mortgage."
   },
   {
     "courseId": "upgrade",
@@ -81,19 +81,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed finance during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «finance» صحبت کرد."
+        "english": "She studied finance before starting her career at an investment bank.",
+        "persian": "او قبل از شروع حرفه‌اش در یک بانک سرمایه‌گذاری، امور مالی خوانده بود."
       },
       {
-        "english": "Understanding finance is useful for senior backend engineers.",
-        "persian": "درک مفهوم «finance» برای مهندسان ارشد backend مفید است."
+        "english": "The finance department reviews every expense before approving a budget.",
+        "persian": "بخش امور مالی هر هزینه را قبل از تصویب بودجه بررسی می‌کند."
       },
       {
-        "english": "We need to consider finance before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «finance» را در نظر بگیریم."
+        "english": "Personal finance apps help people track their spending habits.",
+        "persian": "اپلیکیشن‌های امور مالی شخصی به افراد کمک می‌کنند عادات خرج کردن خود را پیگیری کنند."
       }
     ],
-    "miniContext": "In a professional backend environment, finance is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Omar never enjoyed math in school, but once he started managing his own bakery, he had no choice but to learn basic **finance**. He taught himself how to read a profit-and-loss statement and track cash flow week by week. Understanding finance helped him realize that his busiest month wasn't actually his most profitable one. That discovery changed how he priced his pastries from then on."
   },
   {
     "courseId": "upgrade",
@@ -105,19 +105,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed financial system during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «financial system» صحبت کرد."
+        "english": "A stable financial system depends on banks lending responsibly.",
+        "persian": "یک سیستم مالی پایدار به وام‌دهی مسئولانه بانک‌ها بستگی دارد."
       },
       {
-        "english": "Understanding financial system is useful for senior backend engineers.",
-        "persian": "درک مفهوم «financial system» برای مهندسان ارشد backend مفید است."
+        "english": "The global financial system was shaken by the 2008 crisis.",
+        "persian": "سیستم مالی جهانی توسط بحران سال ۲۰۰۸ تکان خورد."
       },
       {
-        "english": "We need to consider financial system before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «financial system» را در نظر بگیریم."
+        "english": "Regulators monitor the financial system to prevent fraud and collapse.",
+        "persian": "نهادهای نظارتی سیستم مالی را برای پیشگیری از تقلب و فروپاشی رصد می‌کنند."
       }
     ],
-    "miniContext": "In a professional backend environment, financial system is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After the regional bank collapsed, economists spent months explaining to the public how fragile the local **financial system** had become. A single bank's failure had spread quickly because so many smaller institutions depended on it for short-term loans. Lawmakers eventually passed new rules requiring banks to hold larger reserves to protect the financial system from a similar shock. Years later, the region's financial system was considered one of the most stable in the country."
   },
   {
     "courseId": "upgrade",
@@ -129,19 +129,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed financial workflow during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «financial workflow» صحبت کرد."
+        "english": "The accountant redesigned the company's financial workflow to reduce errors.",
+        "persian": "حسابدار گردش‌کار مالی شرکت را برای کاهش خطاها بازطراحی کرد."
       },
       {
-        "english": "Understanding financial workflow is useful for senior backend engineers.",
-        "persian": "درک مفهوم «financial workflow» برای مهندسان ارشد backend مفید است."
+        "english": "Automating the financial workflow cut invoice processing time in half.",
+        "persian": "خودکارسازی گردش‌کار مالی زمان پردازش فاکتورها را به نصف کاهش داد."
       },
       {
-        "english": "We need to consider financial workflow before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «financial workflow» را در نظر بگیریم."
+        "english": "Every financial workflow at the firm now requires a manager's approval.",
+        "persian": "هر گردش‌کار مالی در این شرکت اکنون به تأیید یک مدیر نیاز دارد."
       }
     ],
-    "miniContext": "In a professional backend environment, financial workflow is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When the clinic switched from paper invoices to a digital system, the office manager had to redesign the entire **financial workflow** from scratch. Staff were used to handwriting receipts and carrying folders of paperwork between departments. The new financial workflow automatically matched payments to patient records, cutting billing errors dramatically. Within a year, the clinic processed claims nearly twice as fast as before."
   },
   {
     "courseId": "upgrade",
@@ -153,19 +153,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed accounting during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «accounting» صحبت کرد."
+        "english": "She studied accounting so she could manage her own small business.",
+        "persian": "او حسابداری خواند تا بتواند کسب‌وکار کوچک خودش را مدیریت کند."
       },
       {
-        "english": "Understanding accounting is useful for senior backend engineers.",
-        "persian": "درک مفهوم «accounting» برای مهندسان ارشد backend مفید است."
+        "english": "The accounting team closes the books at the end of every month.",
+        "persian": "تیم حسابداری در پایان هر ماه حساب‌ها را می‌بندد."
       },
       {
-        "english": "We need to consider accounting before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «accounting» را در نظر بگیریم."
+        "english": "Mistakes in accounting can lead to serious tax problems later.",
+        "persian": "اشتباهات در حسابداری می‌تواند بعداً به مشکلات مالیاتی جدی منجر شود."
       }
     ],
-    "miniContext": "In a professional backend environment, accounting is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Teresa decided to study **accounting** after watching her parents struggle to keep track of their small restaurant's finances. During her first job, she learned that accounting wasn't just about numbers but about telling the true story of a business's health. She later helped her parents set up a simple accounting system that finally showed them which dishes were actually profitable. Her parents joked that accounting had saved their restaurant more than any new recipe ever had."
   },
   {
     "courseId": "upgrade",
@@ -177,19 +177,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed accounts payable during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «accounts payable» صحبت کرد."
+        "english": "The accounts payable team pays suppliers within thirty days of receiving an invoice.",
+        "persian": "تیم حساب‌های پرداختنی تأمین‌کنندگان را ظرف سی روز پس از دریافت فاکتور پرداخت می‌کند."
       },
       {
-        "english": "Understanding accounts payable is useful for senior backend engineers.",
-        "persian": "درک مفهوم «accounts payable» برای مهندسان ارشد backend مفید است."
+        "english": "Unpaid accounts payable can damage a company's relationship with its vendors.",
+        "persian": "حساب‌های پرداختنی پرداخت‌نشده می‌تواند به رابطه‌ی شرکت با تأمین‌کنندگانش آسیب بزند."
       },
       {
-        "english": "We need to consider accounts payable before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «accounts payable» را در نظر بگیریم."
+        "english": "She works in accounts payable, matching invoices to purchase orders.",
+        "persian": "او در بخش حساب‌های پرداختنی کار می‌کند و فاکتورها را با سفارش‌های خرید تطبیق می‌دهد."
       }
     ],
-    "miniContext": "In a professional backend environment, accounts payable is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "In her new role managing **accounts payable**, Fatima was responsible for making sure every supplier got paid on time. Late payments in accounts payable had previously damaged the company's relationship with a key fabric supplier. By setting up automatic reminders, she made sure accounts payable never fell behind again. Suppliers noticed the change and began offering the company better prices for prompt payment."
   },
   {
     "courseId": "upgrade",
@@ -201,19 +201,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed accounts receivable during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «accounts receivable» صحبت کرد."
+        "english": "The accounts receivable team follows up with clients who haven't paid their invoices.",
+        "persian": "تیم حساب‌های دریافتنی با مشتریانی که فاکتورهای خود را پرداخت نکرده‌اند پیگیری می‌کند."
       },
       {
-        "english": "Understanding accounts receivable is useful for senior backend engineers.",
-        "persian": "درک مفهوم «accounts receivable» برای مهندسان ارشد backend مفید است."
+        "english": "High accounts receivable can be a problem if customers pay too slowly.",
+        "persian": "حساب‌های دریافتنی بالا می‌تواند مشکل‌ساز باشد اگر مشتریان با تأخیر پرداخت کنند."
       },
       {
-        "english": "We need to consider accounts receivable before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «accounts receivable» را در نظر بگیریم."
+        "english": "The company reduced its accounts receivable by offering early-payment discounts.",
+        "persian": "شرکت با ارائه تخفیف پرداخت زودهنگام، حساب‌های دریافتنی خود را کاهش داد."
       }
     ],
-    "miniContext": "In a professional backend environment, accounts receivable is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The small design agency struggled for years with slow **accounts receivable**, since many clients paid their invoices months late. A new finance hire introduced a policy requiring a deposit before any project began, which immediately improved accounts receivable. Within six months, the average time to collect payment dropped from ninety days to thirty. The owner admitted that fixing accounts receivable had done more for cash flow than winning new clients."
   },
   {
     "courseId": "upgrade",
@@ -225,19 +225,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed billing during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «billing» صحبت کرد."
+        "english": "Customers can update their billing information directly from the app.",
+        "persian": "مشتریان می‌توانند اطلاعات صورتحساب خود را مستقیماً از طریق اپلیکیشن به‌روزرسانی کنند."
       },
       {
-        "english": "Understanding billing is useful for senior backend engineers.",
-        "persian": "درک مفهوم «billing» برای مهندسان ارشد backend مفید است."
+        "english": "A billing error charged her twice for the same subscription.",
+        "persian": "یک خطای صورتحساب باعث شد دو بار برای همان اشتراک از او هزینه گرفته شود."
       },
       {
-        "english": "We need to consider billing before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «billing» را در نظر بگیریم."
+        "english": "The company switched to monthly billing instead of annual payments.",
+        "persian": "شرکت به صورتحساب ماهانه به جای پرداخت سالانه تغییر کرد."
       }
     ],
-    "miniContext": "In a professional backend environment, billing is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After customers complained about confusing charges, the telecom company completely redesigned its **billing** system. The old billing format listed fees in technical language that most customers didn't understand. The new, simplified billing clearly separated the base plan, taxes, and any extra charges. Customer complaints about billing dropped sharply within the first month of the redesign."
   },
   {
     "courseId": "upgrade",
@@ -249,19 +249,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed payment gateway during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «payment gateway» صحبت کرد."
+        "english": "The online store added a new payment gateway to accept more card types.",
+        "persian": "فروشگاه آنلاین یک درگاه پرداخت جدید اضافه کرد تا انواع بیشتری از کارت‌ها را بپذیرد."
       },
       {
-        "english": "Understanding payment gateway is useful for senior backend engineers.",
-        "persian": "درک مفهوم «payment gateway» برای مهندسان ارشد backend مفید است."
+        "english": "If the payment gateway goes down, customers can't complete their purchases.",
+        "persian": "اگر درگاه پرداخت از کار بیفتد، مشتریان نمی‌توانند خریدشان را نهایی کنند."
       },
       {
-        "english": "We need to consider payment gateway before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «payment gateway» را در نظر بگیریم."
+        "english": "Choosing a reliable payment gateway matters for any e-commerce business.",
+        "persian": "انتخاب یک درگاه پرداخت قابل‌اعتماد برای هر کسب‌وکار تجارت الکترونیک اهمیت دارد."
       }
     ],
-    "miniContext": "In a professional backend environment, payment gateway is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When the online bookstore expanded internationally, its old **payment gateway** couldn't handle foreign currencies properly. Customers in other countries kept abandoning their carts because the payment gateway only accepted one type of card. After switching to a more flexible payment gateway, international sales grew by nearly forty percent. The store's founder said upgrading the payment gateway was the single best investment that year."
   },
   {
     "courseId": "upgrade",
@@ -273,19 +273,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed payout during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «payout» صحبت کرد."
+        "english": "The insurance company processed the payout within two weeks of the claim.",
+        "persian": "شرکت بیمه پرداخت به ذی‌نفع را ظرف دو هفته پس از ادعای خسارت انجام داد."
       },
       {
-        "english": "Understanding payout is useful for senior backend engineers.",
-        "persian": "درک مفهوم «payout» برای مهندسان ارشد backend مفید است."
+        "english": "Winning the lottery jackpot meant a payout of several million dollars.",
+        "persian": "برنده شدن در جکپات لاتاری به معنای پرداختی چند میلیون دلاری بود."
       },
       {
-        "english": "We need to consider payout before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «payout» را در نظر بگیریم."
+        "english": "Freelancers on the platform can request a payout once a week.",
+        "persian": "فریلنسرها در این پلتفرم می‌توانند هفته‌ای یک بار درخواست پرداخت کنند."
       }
     ],
-    "miniContext": "In a professional backend environment, payout is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After the flight was cancelled, passengers waited weeks for their **payout** from the airline's insurance policy. The payout covered the cost of the missed hotel reservation but not the extra flight they had to book. Some passengers complained that the payout process took far longer than promised. Eventually, the airline agreed to speed up future payout requests after public pressure."
   },
   {
     "courseId": "upgrade",
@@ -297,19 +297,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed transaction during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «transaction» صحبت کرد."
+        "english": "Every transaction on the app is recorded with a timestamp.",
+        "persian": "هر تراکنش در اپلیکیشن با یک برچسب زمانی ثبت می‌شود."
       },
       {
-        "english": "Understanding transaction is useful for senior backend engineers.",
-        "persian": "درک مفهوم «transaction» برای مهندسان ارشد backend مفید است."
+        "english": "She noticed a suspicious transaction on her bank statement.",
+        "persian": "او یک تراکنش مشکوک را در صورتحساب بانکی خود مشاهده کرد."
       },
       {
-        "english": "We need to consider transaction before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «transaction» را در نظر بگیریم."
+        "english": "The real estate transaction took almost three months to complete.",
+        "persian": "تراکنش ملکی تقریباً سه ماه طول کشید تا تکمیل شود."
       }
     ],
-    "miniContext": "In a professional backend environment, transaction is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "During the audit, the accountant found one unusual **transaction** that didn't match any invoice in the system. Tracing the transaction took several days, since it had passed through three different accounts. It turned out to be an honest mistake rather than fraud, but the transaction still had to be corrected in the books. After that, the company required a second signature for any transaction above a certain amount."
   },
   {
     "courseId": "upgrade",
@@ -321,19 +321,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed ledger during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «ledger» صحبت کرد."
+        "english": "The bookkeeper recorded every sale in the company's ledger.",
+        "persian": "حسابدار هر فروش را در دفتر کل مالی شرکت ثبت کرد."
       },
       {
-        "english": "Understanding ledger is useful for senior backend engineers.",
-        "persian": "درک مفهوم «ledger» برای مهندسان ارشد backend مفید است."
+        "english": "An outdated ledger made it hard to find last year's expenses.",
+        "persian": "یک دفتر کل مالی قدیمی باعث شد پیدا کردن هزینه‌های سال گذشته سخت باشد."
       },
       {
-        "english": "We need to consider ledger before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «ledger» را در نظر بگیریم."
+        "english": "Blockchain technology relies on a shared digital ledger.",
+        "persian": "فناوری بلاک‌چین به یک دفتر کل مالی دیجیتال مشترک متکی است."
       }
     ],
-    "miniContext": "In a professional backend environment, ledger is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Before computers, the shopkeeper recorded every sale by hand in a thick paper **ledger**. Each page of the ledger listed the date, the customer's name, and the amount owed. When his grandson digitized the old ledger decades later, he found entries dating back to the 1950s. The family kept the original ledger as a kind of history of the shop itself."
   },
   {
     "courseId": "upgrade",
@@ -345,19 +345,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed balance during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «balance» صحبت کرد."
+        "english": "Please check your account balance before making a large purchase.",
+        "persian": "لطفاً قبل از خرید بزرگ، مانده حساب خود را بررسی کنید."
       },
       {
-        "english": "Understanding balance is useful for senior backend engineers.",
-        "persian": "درک مفهوم «balance» برای مهندسان ارشد backend مفید است."
+        "english": "Her credit card balance grew quickly after the holiday shopping.",
+        "persian": "مانده حساب کارت اعتباری او پس از خریدهای تعطیلات به سرعت افزایش یافت."
       },
       {
-        "english": "We need to consider balance before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «balance» را در نظر بگیریم."
+        "english": "The bank sent a text whenever his balance fell below a hundred dollars.",
+        "persian": "بانک هر زمان که مانده حساب او کمتر از صد دلار می‌شد، یک پیام متنی ارسال می‌کرد."
       }
     ],
-    "miniContext": "In a professional backend environment, balance is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Every Sunday night, Renata checked her account **balance** before planning the week's groceries. One week, her balance was lower than expected because of an automatic subscription she had forgotten about. After cancelling the subscription, she watched her balance grow steadily for the first time in months. She now treats checking her balance as a simple weekly habit rather than something stressful."
   },
   {
     "courseId": "upgrade",
@@ -369,19 +369,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed principal during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «principal» صحبت کرد."
+        "english": "Each monthly payment covers both interest and part of the principal.",
+        "persian": "هر پرداخت ماهانه هم بهره و هم بخشی از اصل مبلغ وام را پوشش می‌دهد."
       },
       {
-        "english": "Understanding principal is useful for senior backend engineers.",
-        "persian": "درک مفهوم «principal» برای مهندسان ارشد backend مفید است."
+        "english": "Paying extra toward the principal shortens the life of the loan.",
+        "persian": "پرداخت مبلغ اضافی به اصل مبلغ وام، مدت زمان وام را کوتاه‌تر می‌کند."
       },
       {
-        "english": "We need to consider principal before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «principal» را در نظر بگیریم."
+        "english": "After ten years, most of her payment finally reduced the principal instead of just the interest.",
+        "persian": "پس از ده سال، بیشتر پرداخت او سرانجام اصل مبلغ وام را کاهش داد و نه فقط بهره را."
       }
     ],
-    "miniContext": "In a professional backend environment, principal is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "In the early years of a mortgage, most of each payment goes toward interest rather than the **principal**. Frustrated by how slowly their principal was shrinking, the couple decided to make extra payments whenever they could. After five extra years of overpayments, they had reduced the principal enough to pay off the house a decade early. Their mortgage advisor said few homeowners manage to attack their principal so aggressively."
   },
   {
     "courseId": "upgrade",
@@ -393,19 +393,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed interest during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «interest» صحبت کرد."
+        "english": "The savings account pays a small amount of interest every month.",
+        "persian": "حساب پس‌انداز هر ماه مقدار کمی بهره پرداخت می‌کند."
       },
       {
-        "english": "Understanding interest is useful for senior backend engineers.",
-        "persian": "درک مفهوم «interest» برای مهندسان ارشد backend مفید است."
+        "english": "Credit card interest can add up quickly if you only pay the minimum.",
+        "persian": "بهره کارت اعتباری می‌تواند به سرعت زیاد شود اگر فقط حداقل مبلغ را پرداخت کنید."
       },
       {
-        "english": "We need to consider interest before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «interest» را در نظر بگیریم."
+        "english": "He compared two loans to see which one charged lower interest.",
+        "persian": "او دو وام را مقایسه کرد تا ببیند کدام‌یک بهره کمتری دریافت می‌کند."
       }
     ],
-    "miniContext": "In a professional backend environment, interest is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The credit card statement showed that most of her payment had gone toward **interest**, not the amount she originally borrowed. Shocked by how much interest had accumulated, she decided to pay far more than the minimum each month. Within a year, the interest charges dropped significantly as her balance shrank. She now warns younger coworkers about how quickly interest can grow if ignored."
   },
   {
     "courseId": "upgrade",
@@ -417,19 +417,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed fee during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «fee» صحبت کرد."
+        "english": "The bank charges a small fee for international transfers.",
+        "persian": "بانک برای انتقال‌های بین‌المللی کارمزد کمی دریافت می‌کند."
       },
       {
-        "english": "Understanding fee is useful for senior backend engineers.",
-        "persian": "درک مفهوم «fee» برای مهندسان ارشد backend مفید است."
+        "english": "She was annoyed by the hidden fee added at checkout.",
+        "persian": "او از کارمزد پنهانی که در هنگام پرداخت اضافه شد ناراحت شد."
       },
       {
-        "english": "We need to consider fee before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «fee» را در نظر بگیریم."
+        "english": "Most gyms charge an annual fee in addition to the monthly membership.",
+        "persian": "اکثر سالن‌های ورزشی علاوه بر عضویت ماهانه، یک کارمزد سالانه دریافت می‌کنند."
       }
     ],
-    "miniContext": "In a professional backend environment, fee is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Marco was surprised to see an extra **fee** on his phone bill that he didn't recognize. After calling customer service, he learned the fee was for a service he had never actually activated. The company apologized and removed the fee immediately. From then on, Marco reviewed every bill carefully to catch hidden fees before they added up."
   },
   {
     "courseId": "upgrade",
@@ -441,19 +441,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed pricing model during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «pricing model» صحبت کرد."
+        "english": "The startup switched from a flat fee to a usage-based pricing model.",
+        "persian": "استارتاپ از یک کارمزد ثابت به یک مدل قیمت‌گذاری مبتنی بر میزان استفاده تغییر کرد."
       },
       {
-        "english": "Understanding pricing model is useful for senior backend engineers.",
-        "persian": "درک مفهوم «pricing model» برای مهندسان ارشد backend مفید است."
+        "english": "Customers complained that the new pricing model was harder to understand.",
+        "persian": "مشتریان شکایت کردند که مدل قیمت‌گذاری جدید سخت‌تر قابل فهم است."
       },
       {
-        "english": "We need to consider pricing model before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «pricing model» را در نظر بگیریم."
+        "english": "A subscription pricing model gives the company more predictable revenue.",
+        "persian": "یک مدل قیمت‌گذاری اشتراکی به شرکت درآمد قابل پیش‌بینی‌تری می‌دهد."
       }
     ],
-    "miniContext": "In a professional backend environment, pricing model is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The software company's original **pricing model** charged every customer the same flat rate, regardless of how much they used the product. Smaller customers complained that the pricing model was unfair, since they used far fewer resources than large enterprises. After switching to a usage-based pricing model, smaller customers paid less while heavy users paid more. Revenue actually increased because more small businesses were willing to sign up under the new pricing model."
   },
   {
     "courseId": "upgrade",
@@ -465,19 +465,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed financial data during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «financial data» صحبت کرد."
+        "english": "The app encrypts all financial data before storing it on the server.",
+        "persian": "اپلیکیشن تمام داده مالی را قبل از ذخیره در سرور رمزگذاری می‌کند."
       },
       {
-        "english": "Understanding financial data is useful for senior backend engineers.",
-        "persian": "درک مفهوم «financial data» برای مهندسان ارشد backend مفید است."
+        "english": "Analysts reviewed years of financial data before recommending the investment.",
+        "persian": "تحلیلگران سال‌ها داده مالی را بررسی کردند پیش از توصیه آن سرمایه‌گذاری."
       },
       {
-        "english": "We need to consider financial data before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «financial data» را در نظر بگیریم."
+        "english": "Leaking customer financial data could seriously damage the bank's reputation.",
+        "persian": "افشای داده مالی مشتریان می‌تواند به شدت به اعتبار بانک آسیب بزند."
       }
     ],
-    "miniContext": "In a professional backend environment, financial data is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After a security breach at a competitor, the fintech startup reviewed how it protected customers' **financial data**. Engineers discovered that some old financial data had never been properly encrypted. The company spent the next quarter rebuilding its systems so that all financial data was encrypted both in transit and at rest. Customers were reassured when the startup published a detailed report on how their financial data was now protected."
   },
   {
     "courseId": "upgrade",
@@ -489,19 +489,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed settlement during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «settlement» صحبت کرد."
+        "english": "The settlement of the trade usually takes two business days.",
+        "persian": "تسویه معامله معمولاً دو روز کاری طول می‌کشد."
       },
       {
-        "english": "Understanding settlement is useful for senior backend engineers.",
-        "persian": "درک مفهوم «settlement» برای مهندسان ارشد backend مفید است."
+        "english": "Both companies reached a settlement after months of negotiation.",
+        "persian": "هر دو شرکت پس از ماه‌ها مذاکره به یک تسویه رسیدند."
       },
       {
-        "english": "We need to consider settlement before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «settlement» را در نظر بگیریم."
+        "english": "Faster settlement times have made online trading much more convenient.",
+        "persian": "زمان‌های تسویه سریع‌تر معاملات آنلاین را بسیار راحت‌تر کرده است."
       }
     ],
-    "miniContext": "In a professional backend environment, settlement is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "International wire transfers used to take days because **settlement** between banks in different countries was slow and manual. A new system allowed settlement to happen within minutes instead of days. Businesses that relied on fast settlement to pay overseas suppliers welcomed the change immediately. The bank advertised the faster settlement as one of its biggest improvements of the year."
   },
   {
     "courseId": "upgrade",
@@ -513,19 +513,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed invoice during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «invoice» صحبت کرد."
+        "english": "The supplier sent an invoice for last month's delivery.",
+        "persian": "تأمین‌کننده یک فاکتور برای تحویل ماه گذشته ارسال کرد."
       },
       {
-        "english": "Understanding invoice is useful for senior backend engineers.",
-        "persian": "درک مفهوم «invoice» برای مهندسان ارشد backend مفید است."
+        "english": "She forgot to attach the invoice to her expense report.",
+        "persian": "او فراموش کرد فاکتور را به گزارش هزینه‌اش پیوست کند."
       },
       {
-        "english": "We need to consider invoice before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «invoice» را در نظر بگیریم."
+        "english": "Each invoice includes a due date and payment instructions.",
+        "persian": "هر فاکتور شامل یک تاریخ سررسید و دستورالعمل پرداخت است."
       }
     ],
-    "miniContext": "In a professional backend environment, invoice is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The freelance photographer always sent an **invoice** within a day of finishing a job, since late invoices often meant late payments. One client lost her invoice and asked for a copy three months later. After that, she started saving every invoice as a PDF with the client's name and date. Clients began commenting that her clear, prompt invoices made working with her easier than with other photographers."
   },
   {
     "courseId": "upgrade",
@@ -537,19 +537,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed revenue during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «revenue» صحبت کرد."
+        "english": "The company's revenue grew by twenty percent last year.",
+        "persian": "درآمد شرکت سال گذشته بیست درصد افزایش یافت."
       },
       {
-        "english": "Understanding revenue is useful for senior backend engineers.",
-        "persian": "درک مفهوم «revenue» برای مهندسان ارشد backend مفید است."
+        "english": "Ticket sales are the theater's main source of revenue.",
+        "persian": "فروش بلیط منبع اصلی درآمد تئاتر است."
       },
       {
-        "english": "We need to consider revenue before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «revenue» را در نظر بگیریم."
+        "english": "A sudden drop in revenue forced the company to cut costs.",
+        "persian": "کاهش ناگهانی درآمد شرکت را مجبور به کاهش هزینه‌ها کرد."
       }
     ],
-    "miniContext": "In a professional backend environment, revenue is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The coffee shop's **revenue** dipped sharply during the renovation, since the shop had to close for two weeks. Once it reopened with a larger seating area, revenue recovered and then grew beyond pre-renovation levels. The owner tracked daily revenue closely to see which new menu items were actually popular. By the end of the year, revenue had grown enough to justify opening a second location."
   },
   {
     "courseId": "upgrade",
@@ -561,19 +561,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed expense during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «expense» صحبت کرد."
+        "english": "Rent is usually the largest expense in a monthly budget.",
+        "persian": "اجاره معمولاً بزرگ‌ترین هزینه در بودجه ماهانه است."
       },
       {
-        "english": "Understanding expense is useful for senior backend engineers.",
-        "persian": "درک مفهوم «expense» برای مهندسان ارشد backend مفید است."
+        "english": "He kept every receipt to track his business expenses.",
+        "persian": "او هر رسیدی را نگه داشت تا هزینه‌های کاری خود را پیگیری کند."
       },
       {
-        "english": "We need to consider expense before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «expense» را در نظر بگیریم."
+        "english": "The company reimburses travel expenses for employees on business trips.",
+        "persian": "شرکت هزینه‌های سفر کارمندان در سفرهای کاری را بازپرداخت می‌کند."
       }
     ],
-    "miniContext": "In a professional backend environment, expense is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Jun recorded every single **expense** in a notebook for an entire year just to understand where his money actually went. He was shocked to discover that small daily expenses, like coffee and snacks, added up to more than his monthly rent. After cutting a few unnecessary expenses, he managed to save enough for a trip he had wanted to take for years. He still keeps a simple expense log, though now he uses an app instead of a notebook."
   },
   {
     "courseId": "upgrade",
@@ -585,19 +585,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed funding during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «funding» صحبت کرد."
+        "english": "The startup secured funding from three venture capital firms.",
+        "persian": "استارتاپ تأمین مالی را از سه شرکت سرمایه‌گذاری خطرپذیر دریافت کرد."
       },
       {
-        "english": "Understanding funding is useful for senior backend engineers.",
-        "persian": "درک مفهوم «funding» برای مهندسان ارشد backend مفید است."
+        "english": "Without additional funding, the project would have been cancelled.",
+        "persian": "بدون تأمین مالی بیشتر، پروژه لغو می‌شد."
       },
       {
-        "english": "We need to consider funding before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «funding» را در نظر بگیریم."
+        "english": "The nonprofit relies on public funding to run its programs.",
+        "persian": "این سازمان غیرانتفاعی برای اجرای برنامه‌هایش به تأمین مالی عمومی متکی است."
       }
     ],
-    "miniContext": "In a professional backend environment, funding is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The young filmmaker spent two years searching for **funding** before anyone agreed to support her first feature film. A small arts grant eventually provided the funding she needed to start filming. Without that initial funding, the project likely would have stayed an idea on paper forever. The film's later success helped her secure much larger funding for her second project."
   },
   {
     "courseId": "upgrade",
@@ -609,19 +609,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed investment during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «investment» صحبت کرد."
+        "english": "Buying the rental property turned out to be a smart investment.",
+        "persian": "خریدن آن ملک اجاره‌ای یک سرمایه‌گذاری هوشمندانه از آب درآمد."
       },
       {
-        "english": "Understanding investment is useful for senior backend engineers.",
-        "persian": "درک مفهوم «investment» برای مهندسان ارشد backend مفید است."
+        "english": "She diversified her investment across stocks, bonds, and real estate.",
+        "persian": "او سرمایه‌گذاری خود را بین سهام، اوراق قرضه و املاک متنوع کرد."
       },
       {
-        "english": "We need to consider investment before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «investment» را در نظر بگیریم."
+        "english": "The company's investment in new equipment paid off within two years.",
+        "persian": "سرمایه‌گذاری شرکت در تجهیزات جدید ظرف دو سال نتیجه داد."
       }
     ],
-    "miniContext": "In a professional backend environment, investment is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Grandfather always said that buying the family farm decades ago was the best **investment** he ever made. At the time, relatives thought the investment was risky, since land prices were falling across the region. Decades later, that same investment had multiplied in value many times over. He often reminded his grandchildren that a good investment sometimes looks foolish to everyone else at first."
   },
   {
     "courseId": "upgrade",
@@ -633,19 +633,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed wealth during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «wealth» صحبت کرد."
+        "english": "He built his wealth slowly through decades of careful saving.",
+        "persian": "او ثروتش را به آرامی و طی دهه‌ها پس‌انداز دقیق ساخت."
       },
       {
-        "english": "Understanding wealth is useful for senior backend engineers.",
-        "persian": "درک مفهوم «wealth» برای مهندسان ارشد backend مفید است."
+        "english": "The country's natural resources created enormous wealth for a few families.",
+        "persian": "منابع طبیعی کشور ثروت فراوانی برای چند خانواده ایجاد کرد."
       },
       {
-        "english": "We need to consider wealth before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «wealth» را در نظر بگیریم."
+        "english": "True wealth, she said, was having time to spend with her family.",
+        "persian": "او گفت ثروت واقعی، داشتن زمان برای گذراندن با خانواده است."
       }
     ],
-    "miniContext": "In a professional backend environment, wealth is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The documentary explored how quickly **wealth** could disappear across generations if it wasn't managed carefully. One family in the film had inherited significant wealth, only to lose most of it within twenty years through poor decisions. Financial advisors interviewed in the documentary argued that preserving wealth requires as much skill as creating it. By the end, the film suggested that true wealth includes financial education, not just money itself."
   },
   {
     "courseId": "upgrade",
@@ -657,19 +657,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed customer journey during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «customer journey» صحبت کرد."
+        "english": "The design team mapped out the entire customer journey from first click to final purchase.",
+        "persian": "تیم طراحی کل مسیر تعامل مشتری را از اولین کلیک تا خرید نهایی ترسیم کرد."
       },
       {
-        "english": "Understanding customer journey is useful for senior backend engineers.",
-        "persian": "درک مفهوم «customer journey» برای مهندسان ارشد backend مفید است."
+        "english": "A confusing checkout page can ruin an otherwise smooth customer journey.",
+        "persian": "یک صفحه پرداخت گیج‌کننده می‌تواند یک مسیر تعامل مشتری در غیر این صورت روان را خراب کند."
       },
       {
-        "english": "We need to consider customer journey before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «customer journey» را در نظر بگیریم."
+        "english": "Every touchpoint in the customer journey was redesigned to feel more personal.",
+        "persian": "هر نقطه تماس در مسیر تعامل مشتری برای احساس شخصی‌تر بازطراحی شد."
       }
     ],
-    "miniContext": "In a professional backend environment, customer journey is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The airline hired a design consultant to study the entire **customer journey**, from booking a flight to collecting lost luggage. Interviews revealed that one confusing step in the customer journey, the seat selection page, frustrated almost every traveler. After redesigning that single step, complaints about the customer journey dropped noticeably. The consultant said that small frustrations, repeated across a long customer journey, often matter more than any single big mistake."
   },
   {
     "courseId": "upgrade",
@@ -681,19 +681,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed consumer finance during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «consumer finance» صحبت کرد."
+        "english": "The company expanded into consumer finance by offering small personal loans.",
+        "persian": "شرکت با ارائه وام‌های شخصی کوچک، وارد حوزه خدمات مالی مصرف‌کننده شد."
       },
       {
-        "english": "Understanding consumer finance is useful for senior backend engineers.",
-        "persian": "درک مفهوم «consumer finance» برای مهندسان ارشد backend مفید است."
+        "english": "New regulations on consumer finance aim to protect borrowers from hidden fees.",
+        "persian": "مقررات جدید در حوزه خدمات مالی مصرف‌کننده با هدف محافظت از وام‌گیرندگان در برابر کارمزدهای پنهان وضع شده‌اند."
       },
       {
-        "english": "We need to consider consumer finance before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «consumer finance» را در نظر بگیریم."
+        "english": "She works in consumer finance, helping families choose the right credit card.",
+        "persian": "او در حوزه خدمات مالی مصرف‌کننده کار می‌کند و به خانواده‌ها در انتخاب کارت اعتباری مناسب کمک می‌کند."
       }
     ],
-    "miniContext": "In a professional backend environment, consumer finance is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After the 2008 crisis, regulators introduced stricter rules for **consumer finance** to protect ordinary borrowers from predatory lending. Companies in consumer finance had to disclose interest rates and fees far more clearly than before. A new agency was created specifically to monitor consumer finance products like credit cards and personal loans. Supporters argued that cleaner rules in consumer finance ultimately helped build more trust between banks and their customers."
   },
   {
     "courseId": "upgrade",
@@ -705,19 +705,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed credit card during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «credit card» صحبت کرد."
+        "english": "He paid for the groceries with his credit card.",
+        "persian": "او هزینه خواربار را با کارت اعتباری خود پرداخت کرد."
       },
       {
-        "english": "Understanding credit card is useful for senior backend engineers.",
-        "persian": "درک مفهوم «credit card» برای مهندسان ارشد backend مفید است."
+        "english": "Carrying a balance on a credit card can lead to high interest charges.",
+        "persian": "نگه داشتن مانده بدهی روی کارت اعتباری می‌تواند به هزینه‌های بهره بالا منجر شود."
       },
       {
-        "english": "We need to consider credit card before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «credit card» را در نظر بگیریم."
+        "english": "Her first credit card taught her the importance of paying on time.",
+        "persian": "اولین کارت اعتباری او اهمیت پرداخت به‌موقع را به او آموخت."
       }
     ],
-    "miniContext": "In a professional backend environment, credit card is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "Years ago, Haruto applied for his first **credit card** mainly to build a credit history for future loans. He set a strict rule for himself: never charge more to the credit card than he could pay off that same month. That discipline meant his credit card never cost him a cent in interest. When he later applied for a mortgage, the bank praised how responsibly he had used his credit card for nearly a decade."
   },
   {
     "courseId": "upgrade",
@@ -729,19 +729,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed car finance during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «car finance» صحبت کرد."
+        "english": "Most dealerships offer car finance options for buyers who can't pay in full.",
+        "persian": "اکثر نمایندگی‌های خودرو گزینه‌های تأمین مالی خودرو را برای خریدارانی که نمی‌توانند به صورت کامل پرداخت کنند ارائه می‌دهند."
       },
       {
-        "english": "Understanding car finance is useful for senior backend engineers.",
-        "persian": "درک مفهوم «car finance» برای مهندسان ارشد backend مفید است."
+        "english": "She compared several car finance plans before choosing the one with the lowest interest.",
+        "persian": "او چند طرح تأمین مالی خودرو را مقایسه کرد پیش از انتخاب طرحی با کمترین بهره."
       },
       {
-        "english": "We need to consider car finance before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «car finance» را در نظر بگیریم."
+        "english": "Car finance usually requires a down payment and monthly installments.",
+        "persian": "تأمین مالی خودرو معمولاً به پیش‌پرداخت و اقساط ماهانه نیاز دارد."
       }
     ],
-    "miniContext": "In a professional backend environment, car finance is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When Elena decided to buy her first car, the dealer offered several **car finance** options with very different interest rates. She almost signed the dealer's car finance deal until a friend suggested checking with her own bank first. The bank's car finance offer turned out to have a noticeably lower rate and no hidden fees. Elena later told her coworkers that comparing car finance options, rather than accepting the first offer, saved her hundreds of dollars."
   },
   {
     "courseId": "upgrade",
@@ -753,19 +753,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed transactional during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «transactional» صحبت کرد."
+        "english": "The app sends a transactional email every time a payment is completed.",
+        "persian": "اپلیکیشن هر بار که پرداختی تکمیل می‌شود یک ایمیل تراکنشی ارسال می‌کند."
       },
       {
-        "english": "Understanding transactional is useful for senior backend engineers.",
-        "persian": "درک مفهوم «transactional» برای مهندسان ارشد backend مفید است."
+        "english": "Their relationship with suppliers felt purely transactional, with no real trust.",
+        "persian": "رابطه آن‌ها با تأمین‌کنندگان کاملاً تراکنشی به نظر می‌رسید، بدون هیچ اعتماد واقعی."
       },
       {
-        "english": "We need to consider transactional before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «transactional» را در نظر بگیریم."
+        "english": "Transactional data is stored separately from the company's marketing data.",
+        "persian": "داده‌های تراکنشی به صورت جدا از داده‌های بازاریابی شرکت ذخیره می‌شوند."
       }
     ],
-    "miniContext": "In a professional backend environment, transactional is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The customer support team noticed that most complaints came after purely **transactional** emails, like receipts and shipping updates, sounded cold and robotic. They rewrote these transactional messages to include a bit more warmth and a clear way to ask for help. Customers responded well, since even a short transactional email felt less like talking to a machine. The company later applied the same friendlier tone to every other transactional message in the system."
   },
   {
     "courseId": "upgrade",
@@ -777,19 +777,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed monetary during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «monetary» صحبت کرد."
+        "english": "The central bank adjusted its monetary policy to control inflation.",
+        "persian": "بانک مرکزی سیاست پولی خود را برای کنترل تورم تنظیم کرد."
       },
       {
-        "english": "Understanding monetary is useful for senior backend engineers.",
-        "persian": "درک مفهوم «monetary» برای مهندسان ارشد backend مفید است."
+        "english": "Her contribution to the project wasn't monetary, but it was still valuable.",
+        "persian": "کمک او به پروژه مالی نبود، اما همچنان ارزشمند بود."
       },
       {
-        "english": "We need to consider monetary before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «monetary» را در نظر بگیریم."
+        "english": "The prize came with both recognition and a modest monetary reward.",
+        "persian": "جایزه هم شامل تقدیر و هم یک پاداش مالی نسبتاً کم بود."
       }
     ],
-    "miniContext": "In a professional backend environment, monetary is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "The central bank's committee meets regularly to decide on **monetary** policy, adjusting interest rates to keep inflation under control. When prices rose too quickly last year, the committee raised rates to cool down monetary growth across the economy. Not every decision about monetary policy pleases everyone, since higher rates make borrowing more expensive for families and businesses. Economists still debate whether the committee's monetary choices that year were too aggressive or just right."
   },
   {
     "courseId": "upgrade",
@@ -801,19 +801,19 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed financially during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «financially» صحبت کرد."
+        "english": "After the promotion, she felt financially secure for the first time.",
+        "persian": "پس از ترفیع، او برای اولین بار از نظر مالی احساس امنیت کرد."
       },
       {
-        "english": "Understanding financially is useful for senior backend engineers.",
-        "persian": "درک مفهوم «financially» برای مهندسان ارشد backend مفید است."
+        "english": "The new business struggled financially during its first winter.",
+        "persian": "کسب‌وکار جدید در اولین زمستانش از نظر مالی با مشکل مواجه بود."
       },
       {
-        "english": "We need to consider financially before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «financially» را در نظر بگیریم."
+        "english": "Living with roommates helped him stay financially stable while studying.",
+        "persian": "زندگی با هم‌خانه‌ای‌ها به او کمک کرد تا در طول تحصیل از نظر مالی پایدار بماند."
       }
     ],
-    "miniContext": "In a professional backend environment, financially is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "After losing his job unexpectedly, Tomás realized how unprepared he had been **financially** for an emergency. He had no savings set aside and had been living paycheck to paycheck for years. Determined to change, he built a small emergency fund so he would never again feel so financially vulnerable. Two years later, he felt financially secure enough to take a short break between jobs without panic."
   },
   {
     "courseId": "upgrade",
@@ -825,18 +825,18 @@
     "synonyms": [],
     "examples": [
       {
-        "english": "The team discussed revenue-generating during the backend design review.",
-        "persian": "تیم در جلسه بررسی طراحی backend درباره «revenue-generating» صحبت کرد."
+        "english": "The company shut down three products that were not revenue-generating.",
+        "persian": "شرکت سه محصول را که درآمدزا نبودند تعطیل کرد."
       },
       {
-        "english": "Understanding revenue-generating is useful for senior backend engineers.",
-        "persian": "درک مفهوم «revenue-generating» برای مهندسان ارشد backend مفید است."
+        "english": "Investors wanted to see a clear, revenue-generating plan before funding the idea.",
+        "persian": "سرمایه‌گذاران می‌خواستند قبل از تأمین مالی ایده، یک برنامه واضح و درآمدزا ببینند."
       },
       {
-        "english": "We need to consider revenue-generating before making the final decision.",
-        "persian": "قبل از تصمیم نهایی باید «revenue-generating» را در نظر بگیریم."
+        "english": "The app's premium subscription became its most revenue-generating feature.",
+        "persian": "اشتراک ویژه اپلیکیشن به درآمدزاترین ویژگی آن تبدیل شد."
       }
     ],
-    "miniContext": "In a professional backend environment, revenue-generating is part of the language engineers use when discussing real systems, requirements, implementation, and production concerns. Senior engineers are expected to explain the concept clearly, connect it to practical engineering decisions, and discuss its consequences with both technical and non-technical colleagues. Understanding this vocabulary makes technical meetings, documentation, and job interviews easier to follow and easier to communicate."
+    "miniContext": "When the magazine's print subscriptions declined, editors scrambled to find a new **revenue-generating** idea to replace the lost income. Their first attempt, a members-only newsletter, turned out to be genuinely revenue-generating within just a few months. Encouraged by that success, the team launched a second revenue-generating product: an online course based on their most popular articles. By the following year, these revenue-generating experiments had replaced nearly all the income lost from print."
   }
 ]

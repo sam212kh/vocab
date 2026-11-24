@@ -12,19 +12,19 @@
     ],
     "examples": [
       {
-        "english": "His abstemious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرهیزکار در خوردن و نوشیدن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "He remained abstemious throughout the holiday season, skipping both dessert and wine.",
+        "persian": "او در طول فصل تعطیلات، هم از دسر و هم از شراب پرهیز کرد و پرهیزکار باقی ماند."
       },
       {
-        "english": "The decision seemed abstemious, but the reasons became clearer later.",
-        "persian": "این تصمیم پرهیزکار در خوردن و نوشیدن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Her abstemious habits seemed unusual at a table full of enthusiastic eaters.",
+        "persian": "عادات پرهیزکارانه‌ی او در کنار میزی پر از خوش‌خورها غیرعادی به نظر می‌رسید."
       },
       {
-        "english": "A abstemious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرهیزکار در خوردن و نوشیدن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Monks in the monastery lived an abstemious life of simple meals and no alcohol.",
+        "persian": "راهبان آن صومعه زندگی پرهیزکارانه‌ای با غذاهای ساده و بدون الکل داشتند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “abstemious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Abstemious describes a person who eats and drinks only sparingly, deliberately avoiding excess even when indulgence is readily available. The word is often used to contrast someone's restraint against the overconsumption of those around them, whether at a holiday feast or in daily life. Abstemious habits are usually a matter of discipline or principle, not simply a lack of appetite."
   },
   {
     "courseId": "upgrade",
@@ -39,19 +39,19 @@
     ],
     "examples": [
       {
-        "english": "His adroit approach helped him deal with the situation calmly.",
-        "persian": "رویکرد ماهر و چابک او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The surgeon's adroit hands completed the delicate procedure in under an hour.",
+        "persian": "دست‌های ماهر و چابک آن جراح، آن عمل حساس را در کمتر از یک ساعت به پایان رساند."
       },
       {
-        "english": "The decision seemed adroit, but the reasons became clearer later.",
-        "persian": "این تصمیم ماهر و چابک به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Her adroit handling of the hostile reporter defused what could have been a disaster.",
+        "persian": "مدیریت ماهرانه‌ی او در برابر آن خبرنگار خصمانه، آنچه می‌توانست فاجعه باشد را خاموش کرد."
       },
       {
-        "english": "A adroit attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش ماهر و چابک می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The chess champion made an adroit move that trapped his opponent within three turns.",
+        "persian": "قهرمان شطرنج حرکتی ماهرانه زد که ظرف سه نوبت حریفش را به دام انداخت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “adroit” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Adroit describes skillful cleverness in action, whether physical dexterity, verbal quick-thinking, or social finesse under pressure. The word often highlights someone handling a difficult or delicate situation with impressive ease, from a surgeon's steady hands to a diplomat's careful wording. Being adroit implies both skill and adaptability in the moment."
   },
   {
     "courseId": "upgrade",
@@ -59,26 +59,26 @@
     "word": "affront",
     "meaning": "توهین کردن؛ توهین",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "noun",
     "synonyms": [
       "insult",
       "offend"
     ],
     "examples": [
       {
-        "english": "His affront approach helped him deal with the situation calmly.",
-        "persian": "رویکرد توهین کردن؛ توهین او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Being seated at the back of the hall felt like a deliberate affront to the retiring professor.",
+        "persian": "نشاندن آن استاد بازنشسته در انتهای سالن، توهینی عمدی به او احساس می‌شد."
       },
       {
-        "english": "The decision seemed affront, but the reasons became clearer later.",
-        "persian": "این تصمیم توهین کردن؛ توهین به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The ambassador treated the comment as a personal affront and demanded an apology.",
+        "persian": "سفیر آن اظهار نظر را توهینی شخصی تلقی کرد و عذرخواهی خواست."
       },
       {
-        "english": "A affront attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش توهین کردن؛ توهین می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Cutting funding for the memorial was seen as an affront to the veterans it honored.",
+        "persian": "قطع بودجه‌ی آن یادبود، توهینی به جان‌بازانی تلقی شد که آن یادبود برای تکریم آن‌ها بود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “affront” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An affront is an action or remark that deliberately insults someone's dignity or pride, often provoking offense even if unintended by the speaker. The word usually appears with 'to,' as in an affront to tradition, dignity, or memory, emphasizing exactly what has been disrespected. Treating something as an affront signals that the offense is taken seriously, not brushed off."
   },
   {
     "courseId": "upgrade",
@@ -93,19 +93,19 @@
     ],
     "examples": [
       {
-        "english": "His altruistic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد نوع‌دوستانه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Her altruistic decision to donate a kidney to a stranger surprised even her closest friends.",
+        "persian": "تصمیم نوع‌دوستانه‌ی او برای اهدای کلیه به یک غریبه، حتی نزدیک‌ترین دوستانش را هم شگفت‌زده کرد."
       },
       {
-        "english": "The decision seemed altruistic, but the reasons became clearer later.",
-        "persian": "این تصمیم نوع‌دوستانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Behind every altruistic act, some researchers argue, lies a trace of self-interest.",
+        "persian": "برخی پژوهشگران استدلال می‌کنند که پشت هر عمل نوع‌دوستانه، ردی از نفع شخصی نیز نهفته است."
       },
       {
-        "english": "A altruistic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش نوع‌دوستانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The charity relies entirely on altruistic volunteers who ask for nothing in return.",
+        "persian": "آن خیریه کاملاً به داوطلبانی نوع‌دوست وابسته است که در ازای کارشان چیزی نمی‌خواهند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “altruistic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Altruistic describes behavior motivated by genuine concern for others' wellbeing rather than personal gain or recognition. The word is central to debates in psychology and philosophy about whether truly selfless action exists, or whether some benefit to the self is always involved. Altruistic acts, from organ donation to anonymous charity, are usually admired precisely because they appear to ask for nothing back."
   },
   {
     "courseId": "upgrade",
@@ -113,26 +113,26 @@
     "word": "ameliorate",
     "meaning": "بهبود بخشیدن",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "verb",
     "synonyms": [
       "improve",
       "alleviate"
     ],
     "examples": [
       {
-        "english": "His ameliorate approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بهبود بخشیدن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The new drainage system helped ameliorate flooding in the lower part of town.",
+        "persian": "سیستم جدید زهکشی به بهبود وضعیت سیل در بخش پایین‌دست شهر کمک کرد."
       },
       {
-        "english": "The decision seemed ameliorate, but the reasons became clearer later.",
-        "persian": "این تصمیم بهبود بخشیدن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Nothing the committee proposed could ameliorate the growing distrust between the two departments.",
+        "persian": "هیچ‌چیز از آنچه کمیته پیشنهاد داد نتوانست بی‌اعتمادی رو‌به‌رشد میان آن دو بخش را بهبود بخشد."
       },
       {
-        "english": "A ameliorate attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بهبود بخشیدن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Doctors prescribed physical therapy to ameliorate the chronic pain in her lower back.",
+        "persian": "پزشکان فیزیوتراپی تجویز کردند تا درد مزمن کمر او را بهبود بخشند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ameliorate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To ameliorate a problem is to make it less severe or more bearable, even if it cannot be fully solved. The word commonly appears in discussions of policy, medicine, and social issues, where complete solutions are rare but meaningful improvement is still possible. Ameliorating a situation is a modest but real victory, distinct from fully resolving it."
   },
   {
     "courseId": "upgrade",
@@ -147,19 +147,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a anachronism that required careful judgment.",
-        "persian": "این موقعیت به یک چیزی نابجا از نظر زمانی تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "The wristwatch in the historical film was a glaring anachronism, since the story was set in 1600.",
+        "persian": "آن ساعت مچی در فیلم تاریخی یک خطای زمانی آشکار بود، چون داستان در سال ۱۶۰۰ روایت می‌شد."
       },
       {
-        "english": "Her explanation helped everyone understand the anachronism more clearly.",
-        "persian": "توضیح او به همه کمک کرد چیزی نابجا از نظر زمانی را بهتر درک کنند."
+        "english": "Some critics call the monarchy itself an anachronism in a modern democratic society.",
+        "persian": "برخی منتقدان خود نهاد سلطنت را در یک جامعه‌ی دموکراتیک مدرن، چیزی نابجا از نظر زمانی می‌دانند."
       },
       {
-        "english": "The discussion revealed an important anachronism that had been overlooked.",
-        "persian": "بحث یک چیزی نابجا از نظر زمانی مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The telegraph office still operating downtown feels like a charming anachronism today.",
+        "persian": "آن دفتر تلگراف که هنوز در مرکز شهر کار می‌کند، امروز مانند چیزی دوست‌داشتنی و نابجا از نظر زمانی به نظر می‌رسد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “anachronism” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "An anachronism is something that appears out of place in time, either because it belongs to a different era than the one it's placed in, or because it has simply outlived its original context. Film critics often spot anachronisms as errors, like a modern object in a period drama, while writers sometimes use the word more broadly for outdated institutions or ideas. Calling something an anachronism points out a mismatch between an object and its moment in history."
   },
   {
     "courseId": "upgrade",
@@ -174,19 +174,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a antithesis that required careful judgment.",
-        "persian": "این موقعیت به یک نقطه مقابل و تضاد تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "Her calm, measured leadership style is the antithesis of her predecessor's chaotic management.",
+        "persian": "سبک رهبری آرام و سنجیده‌ی او کاملاً نقطه مقابل مدیریت پرآشوب رئیس پیشین است."
       },
       {
-        "english": "Her explanation helped everyone understand the antithesis more clearly.",
-        "persian": "توضیح او به همه کمک کرد نقطه مقابل و تضاد را بهتر درک کنند."
+        "english": "The quiet village seemed like the antithesis of the crowded capital he had just left.",
+        "persian": "آن روستای آرام، نقطه مقابل پایتخت پرازدحامی به نظر می‌رسید که او تازه ترکش کرده بود."
       },
       {
-        "english": "The discussion revealed an important antithesis that had been overlooked.",
-        "persian": "بحث یک نقطه مقابل و تضاد مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "Honesty in advertising would be the antithesis of everything the industry currently rewards.",
+        "persian": "صداقت در تبلیغات، کاملاً نقطه مقابل چیزی است که صنعت تبلیغات در حال حاضر پاداش می‌دهد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “antithesis” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Antithesis describes something that stands in complete, direct contrast to something else, highlighting opposition rather than mere difference. The word is often used in comparisons that sharpen a point, as in describing one leader's style as the antithesis of another's. In rhetoric, it also refers specifically to a technique pairing contrasting ideas in balanced phrasing."
   },
   {
     "courseId": "upgrade",
@@ -201,19 +201,19 @@
     ],
     "examples": [
       {
-        "english": "His apocryphal approach helped him deal with the situation calmly.",
-        "persian": "رویکرد مشکوک و غیرقابل اثبات او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The story about the founder sleeping in his office for a year is probably apocryphal.",
+        "persian": "داستان خوابیدن آن بنیان‌گذار در دفترش برای یک سال، احتمالاً مشکوک و غیرقابل اثبات است."
       },
       {
-        "english": "The decision seemed apocryphal, but the reasons became clearer later.",
-        "persian": "این تصمیم مشکوک و غیرقابل اثبات به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Historians consider the tale of the emperor's last words largely apocryphal.",
+        "persian": "تاریخ‌نگاران داستان آخرین سخنان آن امپراتور را تا حد زیادی مشکوک و بی‌پایه می‌دانند."
       },
       {
-        "english": "A apocryphal attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش مشکوک و غیرقابل اثبات می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The company's apocryphal founding myth has been repeated so often that employees believe it is true.",
+        "persian": "افسانه‌ی بنیان‌گذاری مشکوک آن شرکت آن‌قدر تکرار شده که کارمندان آن را واقعی می‌دانند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “apocryphal” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Apocryphal describes a story that is widely told and believed, yet almost certainly untrue or unverifiable, often because it is simply too neat to be real history. The word is common for company legends, celebrity anecdotes, and historical tales that circulate despite lacking solid evidence. Calling a story apocryphal doesn't deny its popularity, only its reliability."
   },
   {
     "courseId": "upgrade",
@@ -228,19 +228,19 @@
     ],
     "examples": [
       {
-        "english": "His archetypal approach helped him deal with the situation calmly.",
-        "persian": "رویکرد نمونه اولیه و الگو او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The lone cowboy riding into the sunset is an archetypal image of the American West.",
+        "persian": "تصویر گاوچران تنها که به سوی غروب خورشید می‌راند، یک تصویر الگو و نمونه‌ی غرب آمریکاست."
       },
       {
-        "english": "The decision seemed archetypal, but the reasons became clearer later.",
-        "persian": "این تصمیم نمونه اولیه و الگو به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Cinderella is often described as the archetypal rags-to-riches fairy tale.",
+        "persian": "سیندرلا اغلب به‌عنوان نمونه‌ی الگوی داستان تبدیل فقر به ثروت توصیف می‌شود."
       },
       {
-        "english": "A archetypal attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش نمونه اولیه و الگو می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "His rise from a small workshop to a global brand follows the archetypal entrepreneur's journey.",
+        "persian": "سیر صعودی او از یک کارگاه کوچک تا یک برند جهانی، از الگوی کلاسیک سفر یک کارآفرین پیروی می‌کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “archetypal” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Archetypal describes something that perfectly embodies a familiar type or pattern, serving as the model everything similar is compared against. The word is common in literary and film criticism, where certain characters or plots are identified as archetypal examples repeated across cultures. Calling a story or character archetypal suggests it taps into something universally recognizable, not just personally memorable."
   },
   {
     "courseId": "upgrade",
@@ -255,19 +255,19 @@
     ],
     "examples": [
       {
-        "english": "His ascetic approach helped him deal with the situation calmly.",
-        "persian": "رویکرد زاهدانه و ریاضت‌کشانه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The monk lived an ascetic life, sleeping on a wooden plank and eating only rice.",
+        "persian": "آن راهب زندگی زاهدانه‌ای داشت؛ روی یک تخته‌ی چوبی می‌خوابید و فقط برنج می‌خورد."
       },
       {
-        "english": "The decision seemed ascetic, but the reasons became clearer later.",
-        "persian": "این تصمیم زاهدانه و ریاضت‌کشانه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "She adopted an ascetic routine during the retreat, giving up both coffee and her phone.",
+        "persian": "او در طول آن اقامتگاه مذهبی، روالی زاهدانه در پیش گرفت و هم قهوه و هم گوشی‌اش را کنار گذاشت."
       },
       {
-        "english": "A ascetic attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش زاهدانه و ریاضت‌کشانه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "His ascetic apartment contained nothing but a bed, a desk, and a single lamp.",
+        "persian": "آپارتمان زاهدانه‌ی او چیزی جز یک تخت، یک میز و یک چراغ نداشت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “ascetic” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Ascetic describes a lifestyle of severe self-discipline and deliberate avoidance of comfort or pleasure, often for spiritual, religious, or philosophical reasons. The word applies to monks, hermits, and anyone who strips away material indulgence in favor of simplicity. An ascetic existence is defined as much by what it refuses as by what it contains."
   },
   {
     "courseId": "upgrade",
@@ -282,19 +282,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to assuage the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تسکین دادن."
+        "english": "A warm cup of tea did little to assuage her nervousness before the interview.",
+        "persian": "یک فنجان چای گرم کمکی به تسکین اضطراب او پیش از آن مصاحبه نکرد."
       },
       {
-        "english": "Experienced people know how to assuage difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تسکین دادن بدون ایجاد درگیری غیرضروری."
+        "english": "The company issued a statement to assuage investors' fears about the upcoming layoffs.",
+        "persian": "آن شرکت بیانیه‌ای صادر کرد تا نگرانی‌های سرمایه‌گذاران درباره‌ی اخراج‌های پیش‌رو را تسکین دهد."
       },
       {
-        "english": "He chose to assuage the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تسکین دادن."
+        "english": "Nothing could assuage his guilt after the accident, no matter how many people forgave him.",
+        "persian": "هیچ‌چیز نتوانست احساس گناه او را پس از آن تصادف تسکین دهد، هرقدر هم که دیگران او را می‌بخشیدند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “assuage” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To assuage a difficult feeling, such as fear, guilt, or grief, is to ease its intensity, even if it cannot be eliminated entirely. The word often appears with emotions rather than physical pain, describing attempts to calm anxiety or soothe doubt through reassurance or action. Assuaging a feeling is rarely a permanent fix — it offers relief, not resolution."
   },
   {
     "courseId": "upgrade",
@@ -309,19 +309,19 @@
     ],
     "examples": [
       {
-        "english": "His auspicious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد نویدبخش و خوش‌یمن او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The company chose an auspicious date for its launch, according to the founder's astrologer.",
+        "persian": "آن شرکت بر اساس توصیه‌ی طالع‌بین بنیان‌گذارش، تاریخی خوش‌یمن برای راه‌اندازی خود انتخاب کرد."
       },
       {
-        "english": "The decision seemed auspicious, but the reasons became clearer later.",
-        "persian": "این تصمیم نویدبخش و خوش‌یمن به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Record ticket sales marked an auspicious beginning for the theater's new season.",
+        "persian": "فروش بی‌سابقه‌ی بلیت، آغازی نویدبخش برای فصل جدید آن تئاتر رقم زد."
       },
       {
-        "english": "A auspicious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش نویدبخش و خوش‌یمن می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "It was not an auspicious start to the marriage when the rings went missing at the ceremony.",
+        "persian": "گم شدن حلقه‌ها در آن مراسم، آغاز خوش‌یمنی برای آن ازدواج نبود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “auspicious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Auspicious describes circumstances that seem to favor success, often carrying a sense of good fortune or a promising sign for what's to come. The word is used both literally, for astrologically favorable timing, and more loosely, for any encouraging start to a venture. An auspicious beginning doesn't guarantee success, but it suggests the odds look good."
   },
   {
     "courseId": "upgrade",
@@ -336,19 +336,19 @@
     ],
     "examples": [
       {
-        "english": "His avaricious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد حریص و طماع او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The avaricious landlord raised rents every year regardless of the tenants' circumstances.",
+        "persian": "آن صاحب‌خانه‌ی حریص هر سال، بدون توجه به شرایط مستأجران، اجاره‌بها را افزایش می‌داد."
       },
       {
-        "english": "The decision seemed avaricious, but the reasons became clearer later.",
-        "persian": "این تصمیم حریص و طماع به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Critics portrayed the tycoon as an avaricious figure who valued profit over people.",
+        "persian": "منتقدان آن سرمایه‌دار را فردی حریص و طماع نشان دادند که سود را بر انسان‌ها ترجیح می‌داد."
       },
       {
-        "english": "A avaricious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش حریص و طماع می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "An avaricious appetite for more territory eventually led the kingdom into a ruinous war.",
+        "persian": "میل حریصانه برای کسب سرزمین بیشتر، در نهایت آن پادشاهی را به جنگی فاجعه‌بار کشاند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “avaricious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Avaricious describes an intense, often morally condemned greed for money or possessions, beyond what any reasonable need would require. The word appears frequently in criticism of landlords, businesspeople, and rulers accused of prioritizing wealth above fairness or human welfare. Avarice implies not just wanting more, but a corrosive hunger that disregards the cost to others."
   },
   {
     "courseId": "upgrade",
@@ -363,19 +363,19 @@
     ],
     "examples": [
       {
-        "english": "His circumspect approach helped him deal with the situation calmly.",
-        "persian": "رویکرد محتاط و سنجیده او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Lawyers advised her to remain circumspect about the case until the trial concluded.",
+        "persian": "وکلا به او توصیه کردند تا پایان محاکمه درباره‌ی آن پرونده محتاط و سنجیده باشد."
       },
       {
-        "english": "The decision seemed circumspect, but the reasons became clearer later.",
-        "persian": "این تصمیم محتاط و سنجیده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The new manager was circumspect in his first few meetings, observing more than speaking.",
+        "persian": "آن مدیر جدید در چند جلسه‌ی اول خود محتاط بود و بیشتر مشاهده می‌کرد تا صحبت."
       },
       {
-        "english": "A circumspect attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش محتاط و سنجیده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "A circumspect approach to the merger allowed both companies to avoid costly mistakes.",
+        "persian": "رویکرد محتاط و سنجیده به آن ادغام، به هر دو شرکت اجازه داد از اشتباهات پرهزینه دوری کنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “circumspect” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Circumspect describes careful, wary behavior that considers all possible consequences before acting or speaking, especially in uncertain or risky situations. The word is often used for people navigating sensitive legal, professional, or political matters where a careless word could cause real damage. Being circumspect is less about secrecy and more about deliberate, measured caution."
   },
   {
     "courseId": "upgrade",
@@ -390,19 +390,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to circumvent the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را دور زدن و خنثی کردن."
+        "english": "The company found a legal loophole to circumvent the new import tariffs.",
+        "persian": "آن شرکت یک خلأ قانونی پیدا کرد تا تعرفه‌های جدید واردات را دور بزند."
       },
       {
-        "english": "Experienced people know how to circumvent difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را دور زدن و خنثی کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Hackers tried to circumvent the bank's security system using a fake login page.",
+        "persian": "هکرها سعی کردند با استفاده از یک صفحه‌ی ورود جعلی، سیستم امنیتی بانک را دور بزنند."
       },
       {
-        "english": "He chose to circumvent the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت دور زدن و خنثی کردن."
+        "english": "Students should not try to circumvent the citation rules just to save time.",
+        "persian": "دانشجویان نباید فقط برای صرفه‌جویی در وقت، سعی کنند قوانین ارجاع‌دهی را دور بزنند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “circumvent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To circumvent an obstacle, rule, or restriction is to find a clever way around it rather than confronting or complying with it directly. The word often carries a slightly negative tone, implying the method used to get around the rule may be questionable, even if not strictly illegal. Circumventing security, regulations, or procedures is a common theme in stories about hackers, smugglers, and corner-cutting companies."
   },
   {
     "courseId": "upgrade",
@@ -417,19 +417,19 @@
     ],
     "examples": [
       {
-        "english": "His commensurate approach helped him deal with the situation calmly.",
-        "persian": "رویکرد متناسب و هم‌اندازه او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Her salary should be commensurate with her ten years of specialized experience.",
+        "persian": "حقوق او باید متناسب با ده سال تجربه‌ی تخصصی‌اش باشد."
       },
       {
-        "english": "The decision seemed commensurate, but the reasons became clearer later.",
-        "persian": "این تصمیم متناسب و هم‌اندازه به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The punishment seemed far from commensurate with the severity of the crime.",
+        "persian": "آن مجازات به‌هیچ‌وجه با شدت آن جرم متناسب به نظر نمی‌رسید."
       },
       {
-        "english": "A commensurate attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش متناسب و هم‌اندازه می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Funding for the program was never commensurate with the scale of the problem it addressed.",
+        "persian": "بودجه‌ی آن برنامه هیچ‌گاه با ابعاد مشکلی که قرار بود حل کند، متناسب نبود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “commensurate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Commensurate describes something that matches in size, degree, or proportion to something else, usually implying a fair or logical correspondence between the two. The word frequently appears in discussions of salary, punishment, and funding, where the central question is whether one thing adequately matches another in scale. Something that is not commensurate feels unbalanced, either too much or too little for what it is meant to match."
   },
   {
     "courseId": "upgrade",
@@ -437,26 +437,26 @@
     "word": "conundrum",
     "meaning": "معمای دشوار",
     "level": "Advanced",
-    "pos": "adjective",
+    "pos": "noun",
     "synonyms": [
       "puzzle",
       "dilemma"
     ],
     "examples": [
       {
-        "english": "His conundrum approach helped him deal with the situation calmly.",
-        "persian": "رویکرد معمای دشوار او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Deciding which child to favor in the inheritance presented the old man with a painful conundrum.",
+        "persian": "تصمیم‌گیری درباره‌ی اینکه کدام فرزند را در ارث ترجیح دهد، معمایی دشوار و دردناک برای آن پیرمرد بود."
       },
       {
-        "english": "The decision seemed conundrum, but the reasons became clearer later.",
-        "persian": "این تصمیم معمای دشوار به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Economists face a conundrum when inflation and unemployment rise at the same time.",
+        "persian": "اقتصاددانان هنگامی که تورم و بیکاری هم‌زمان افزایش می‌یابند، با یک معمای دشوار روبه‌رو می‌شوند."
       },
       {
-        "english": "A conundrum attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش معمای دشوار می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The locked-room mystery presented readers with a clever conundrum until the final chapter.",
+        "persian": "آن معمای اتاق قفل‌شده تا فصل آخر، معمایی دشوار و هوشمندانه برای خوانندگان بود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “conundrum” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "A conundrum is a problem so confusing or difficult that finding a clear solution feels almost impossible, often because every option carries its own drawback. The word is used for everything from personal dilemmas to economic paradoxes and clever fictional puzzles. Calling something a conundrum suggests there may be no perfect answer, only trade-offs."
   },
   {
     "courseId": "upgrade",
@@ -471,19 +471,19 @@
     ],
     "examples": [
       {
-        "english": "His convivial approach helped him deal with the situation calmly.",
-        "persian": "رویکرد شاد و معاشرتی او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The dinner party had a convivial atmosphere, full of laughter and easy conversation.",
+        "persian": "آن مهمانی شام فضایی شاد و معاشرتی داشت، پر از خنده و گفتگوی راحت."
       },
       {
-        "english": "The decision seemed convivial, but the reasons became clearer later.",
-        "persian": "این تصمیم شاد و معاشرتی به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Despite their rivalry, the two coaches shared a surprisingly convivial handshake after the match.",
+        "persian": "با وجود رقابتشان، آن دو مربی پس از بازی دست دادنی شگفت‌آور گرم و دوستانه داشتند."
       },
       {
-        "english": "A convivial attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش شاد و معاشرتی می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The small pub was known for its convivial regulars who treated every newcomer like family.",
+        "persian": "آن میخانه‌ی کوچک به‌خاطر مشتریان شاد و معاشرتی‌اش شناخته می‌شد که با هر تازه‌واردی مثل یکی از اعضای خانواده رفتار می‌کردند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “convivial” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Convivial describes a warm, friendly, and sociable atmosphere where people enjoy each other's company, typically involving food, drink, or relaxed conversation. The word is often used for gatherings, dinners, and pubs where the mood feels welcoming rather than tense or formal. A convivial host makes sure everyone feels included in the enjoyment."
   },
   {
     "courseId": "upgrade",
@@ -498,19 +498,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a dearth that required careful judgment.",
-        "persian": "این موقعیت به یک کمبود تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "There was a dearth of affordable housing in the city center by the early 2020s.",
+        "persian": "تا اوایل دهه‌ی ۲۰۲۰، کمبود مسکن ارزان‌قیمت در مرکز شهر وجود داشت."
       },
       {
-        "english": "Her explanation helped everyone understand the dearth more clearly.",
-        "persian": "توضیح او به همه کمک کرد کمبود را بهتر درک کنند."
+        "english": "The committee noted a dearth of qualified candidates applying for the rural teaching positions.",
+        "persian": "آن کمیته به کمبود داوطلبان واجد شرایط برای موقعیت‌های تدریس در مناطق روستایی اشاره کرد."
       },
       {
-        "english": "The discussion revealed an important dearth that had been overlooked.",
-        "persian": "بحث یک کمبود مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "Despite the dearth of rainfall that year, the farmers managed a modest harvest.",
+        "persian": "با وجود کمبود باران در آن سال، کشاورزان توانستند برداشت متوسطی داشته باشند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “dearth” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Dearth refers to a serious scarcity or lack of something needed or wanted, often used for resources, opportunities, or qualified people. The word is common in reports on housing, employment, and agriculture, highlighting a gap between what is needed and what is actually available. A dearth is more severe than a minor shortfall — it implies the lack is significant enough to cause real difficulty."
   },
   {
     "courseId": "upgrade",
@@ -525,19 +525,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to denigrate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را تحقیر کردن."
+        "english": "He tends to denigrate his own achievements whenever someone compliments him.",
+        "persian": "او هر بار که کسی از او تعریف می‌کند، تمایل دارد موفقیت‌های خودش را تحقیر کند."
       },
       {
-        "english": "Experienced people know how to denigrate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را تحقیر کردن بدون ایجاد درگیری غیرضروری."
+        "english": "The editorial was accused of trying to denigrate the entire profession based on one incident.",
+        "persian": "آن سرمقاله متهم شد که بر اساس یک حادثه، تمام آن حرفه را تحقیر می‌کند."
       },
       {
-        "english": "He chose to denigrate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت تحقیر کردن."
+        "english": "She refused to denigrate her former business partner, even after their bitter split.",
+        "persian": "او حتی پس از جدایی تلخشان، حاضر نشد شریک تجاری سابقش را تحقیر کند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “denigrate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To denigrate someone or something is to unfairly criticize or belittle it, often to make it seem less worthy of respect than it deserves. The word is commonly used when criticism feels disproportionate or motivated by bias rather than genuine evaluation. Denigrating comments can target a person, a profession, or even one's own accomplishments."
   },
   {
     "courseId": "upgrade",
@@ -552,19 +552,19 @@
     ],
     "examples": [
       {
-        "english": "The situation became a dichotomy that required careful judgment.",
-        "persian": "این موقعیت به یک دوگانگی تبدیل شد که به قضاوت دقیق نیاز داشت."
+        "english": "The film explores the dichotomy between the character's public confidence and private insecurity.",
+        "persian": "آن فیلم دوگانگی میان اعتمادبه‌نفس عمومی آن شخصیت و ناامنی خصوصی‌اش را بررسی می‌کند."
       },
       {
-        "english": "Her explanation helped everyone understand the dichotomy more clearly.",
-        "persian": "توضیح او به همه کمک کرد دوگانگی را بهتر درک کنند."
+        "english": "Economists often point to a dichotomy between short-term growth and long-term sustainability.",
+        "persian": "اقتصاددانان اغلب به دوگانگی میان رشد کوتاه‌مدت و پایداری بلندمدت اشاره می‌کنند."
       },
       {
-        "english": "The discussion revealed an important dichotomy that had been overlooked.",
-        "persian": "بحث یک دوگانگی مهم را آشکار کرد که نادیده گرفته شده بود."
+        "english": "The simple dichotomy of heroes and villains rarely captures the complexity of real history.",
+        "persian": "دوگانگی ساده‌ی قهرمانان و شروران به‌ندرت پیچیدگی تاریخ واقعی را بازتاب می‌دهد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “dichotomy” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "A dichotomy is a division of something into two parts that are sharply contrasted or seemingly opposed, such as public versus private, or short-term versus long-term. The word is frequently used in analysis to question whether a supposed divide is really as clear-cut as it appears. Pointing out a false dichotomy suggests that reality is more complicated than a simple either-or choice."
   },
   {
     "courseId": "upgrade",
@@ -579,19 +579,19 @@
     ],
     "examples": [
       {
-        "english": "His diffuse approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پراکنده کردن؛ گسترده او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The room was lit by a soft, diffuse light coming through the frosted glass.",
+        "persian": "آن اتاق با نوری نرم و پراکنده که از شیشه‌ی مات می‌تابید، روشن شده بود."
       },
       {
-        "english": "The decision seemed diffuse, but the reasons became clearer later.",
-        "persian": "این تصمیم پراکنده کردن؛ گسترده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His argument felt diffuse, touching on a dozen topics without settling on one.",
+        "persian": "استدلال او پراکنده به نظر می‌رسید و به ده‌ها موضوع اشاره می‌کرد بدون آنکه روی یکی تمرکز کند."
       },
       {
-        "english": "A diffuse attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پراکنده کردن؛ گسترده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Anxiety in modern cities often feels diffuse, attached to no single clear cause.",
+        "persian": "اضطراب در شهرهای مدرن اغلب پراکنده و بدون دلیل مشخصی احساس می‌شود."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “diffuse” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Diffuse describes something spread out widely rather than concentrated in one place, whether that's soft light filling a room or an argument that wanders without a clear focus. The word often carries a slightly negative tone when applied to writing or thinking, suggesting a lack of sharpness or direction. A diffuse feeling, like generalized anxiety, is harder to address than one tied to a specific cause."
   },
   {
     "courseId": "upgrade",
@@ -606,19 +606,19 @@
     ],
     "examples": [
       {
-        "english": "His disparate approach helped him deal with the situation calmly.",
-        "persian": "رویکرد کاملاً متفاوت او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The committee had to merge several disparate departments into a single new division.",
+        "persian": "آن کمیته باید چند بخش کاملاً متفاوت را در یک واحد جدید واحد ادغام می‌کرد."
       },
       {
-        "english": "The decision seemed disparate, but the reasons became clearer later.",
-        "persian": "این تصمیم کاملاً متفاوت به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The exhibit brought together disparate artworks from five centuries under one unifying theme.",
+        "persian": "آن نمایشگاه آثار هنری کاملاً متفاوتی از پنج قرن را تحت یک مضمون واحد گرد هم آورد."
       },
       {
-        "english": "A disparate attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش کاملاً متفاوت می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Scientists from disparate fields collaborated to tackle the unprecedented public health crisis.",
+        "persian": "دانشمندانی از رشته‌های کاملاً متفاوت برای مقابله با آن بحران بی‌سابقه‌ی سلامت همگانی همکاری کردند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “disparate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Disparate describes things that are so different from one another that grouping them together seems unusual or requires some unifying effort. The word often appears when combining elements from unrelated fields, cultures, or categories, emphasizing how distinct each piece originally was. Bringing disparate elements together successfully, whether in art, policy, or science, is often seen as a notable achievement precisely because the starting points were so far apart."
   },
   {
     "courseId": "upgrade",
@@ -633,19 +633,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to dissipate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را پراکنده یا هدر دادن."
+        "english": "The morning fog began to dissipate as the sun rose higher over the valley.",
+        "persian": "مه صبحگاهی با بالا آمدن خورشید بر فراز دره، به‌تدریج پراکنده و ناپدید شد."
       },
       {
-        "english": "Experienced people know how to dissipate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را پراکنده یا هدر دادن بدون ایجاد درگیری غیرضروری."
+        "english": "His anger slowly began to dissipate once he understood what had really happened.",
+        "persian": "خشم او به‌تدریج فروکش کرد، وقتی فهمید واقعاً چه اتفاقی افتاده است."
       },
       {
-        "english": "He chose to dissipate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت پراکنده یا هدر دادن."
+        "english": "The heir managed to dissipate the entire family fortune within just a decade.",
+        "persian": "وارث توانست کل ثروت خانوادگی را فقط ظرف یک دهه به هدر دهد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “dissipate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To dissipate is to gradually scatter and disappear, whether describing fog clearing from a valley, anger cooling down, or energy fading away over time. The word can also mean to waste something valuable, such as money or resources, until nothing meaningful remains. Both senses share the same underlying image: something once concentrated or substantial breaking apart and vanishing."
   },
   {
     "courseId": "upgrade",
@@ -660,19 +660,19 @@
     ],
     "examples": [
       {
-        "english": "She decided to enervate the issue before taking further action.",
-        "persian": "او تصمیم گرفت پیش از اقدام بیشتر، موضوع را ضعیف و بی‌حال کردن."
+        "english": "The oppressive heat seemed to enervate everyone who stepped outside that afternoon.",
+        "persian": "آن گرمای خفه‌کننده به نظر می‌رسید همه‌ی کسانی را که آن بعدازظهر بیرون می‌رفتند، بی‌حال و ضعیف می‌کرد."
       },
       {
-        "english": "Experienced people know how to enervate difficult situations without creating unnecessary conflict.",
-        "persian": "افراد باتجربه می‌دانند چگونه موقعیت‌های دشوار را ضعیف و بی‌حال کردن بدون ایجاد درگیری غیرضروری."
+        "english": "Years of chronic illness had slowly enervated her once-boundless energy.",
+        "persian": "سال‌ها بیماری مزمن، به‌آرامی انرژی بی‌پایان سابق او را تضعیف کرده بود."
       },
       {
-        "english": "He chose to enervate the matter carefully after hearing both sides.",
-        "persian": "او پس از شنیدن نظر هر دو طرف، تصمیم گرفت موضوع را با دقت ضعیف و بی‌حال کردن."
+        "english": "A diet lacking in iron can enervate the body and make even simple tasks exhausting.",
+        "persian": "رژیم غذایی کم‌آهن می‌تواند بدن را ضعیف و بی‌حال کند و حتی کارهای ساده را خسته‌کننده سازد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “enervate” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "To enervate someone or something is to drain it of energy and strength, leaving it weakened and sluggish. The word is often used for oppressive heat, chronic illness, or prolonged stress that gradually wears down a person's vitality. Despite sounding similar to 'energize,' enervate means precisely the opposite — a draining rather than a boost."
   },
   {
     "courseId": "upgrade",
@@ -687,19 +687,19 @@
     ],
     "examples": [
       {
-        "english": "His equivocal approach helped him deal with the situation calmly.",
-        "persian": "رویکرد دوپهلو و مبهم او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "His equivocal answer left the committee unsure whether he supported the plan or not.",
+        "persian": "پاسخ دوپهلو و مبهم او، کمیته را درباره‌ی حمایت یا عدم حمایتش از آن طرح نامطمئن گذاشت."
       },
       {
-        "english": "The decision seemed equivocal, but the reasons became clearer later.",
-        "persian": "این تصمیم دوپهلو و مبهم به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The report's equivocal wording allowed both sides to claim it supported their position.",
+        "persian": "عبارات دوپهلوی آن گزارش به هر دو طرف اجازه داد مدعی شوند که از موقف آن‌ها حمایت می‌کند."
       },
       {
-        "english": "A equivocal attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش دوپهلو و مبهم می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Voters grew frustrated with the candidate's equivocal stance on the tax reform.",
+        "persian": "رأی‌دهندگان از موقعیت دوپهلو و مبهم آن نامزد درباره‌ی اصلاحات مالیاتی ناامید شدند."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “equivocal” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Equivocal describes language or a position deliberately open to more than one interpretation, often to avoid committing clearly to a single stance. The word is common in politics and diplomacy, where an equivocal statement lets a speaker avoid taking sides directly. Unlike simple vagueness, equivocal wording often suggests the ambiguity is intentional rather than accidental."
   },
   {
     "courseId": "upgrade",
@@ -714,19 +714,19 @@
     ],
     "examples": [
       {
-        "english": "His exorbitant approach helped him deal with the situation calmly.",
-        "persian": "رویکرد بیش از حد و گزاف او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The hotel charged an exorbitant fee just to connect to the wifi.",
+        "persian": "آن هتل برای اتصال به وای‌فای، هزینه‌ی بیش از حد و گزافی دریافت کرد."
       },
       {
-        "english": "The decision seemed exorbitant, but the reasons became clearer later.",
-        "persian": "این تصمیم بیش از حد و گزاف به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Tenants protested the landlord's exorbitant rent increase of nearly forty percent.",
+        "persian": "مستأجران علیه افزایش اجاره‌ی گزاف نزدیک به چهل‌درصدی صاحب‌خانه اعتراض کردند."
       },
       {
-        "english": "A exorbitant attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش بیش از حد و گزاف می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The lawyer's exorbitant fees made the lawsuit financially impossible for the small business.",
+        "persian": "هزینه‌های گزاف وکیل، آن دعوای حقوقی را از نظر مالی برای آن کسب‌وکار کوچک غیرممکن کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “exorbitant” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Exorbitant describes a price, fee, or demand so far beyond what is reasonable that it feels almost shocking or exploitative. The word is commonly used for complaints about hotel charges, rent increases, and legal fees that strain ordinary budgets. Calling a cost exorbitant signals outrage at the gap between what is being charged and what seems fair."
   },
   {
     "courseId": "upgrade",
@@ -741,19 +741,19 @@
     ],
     "examples": [
       {
-        "english": "His intransigent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد سازش‌ناپذیر او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "Both sides blamed the other's intransigent negotiators for the failed peace talks.",
+        "persian": "هر دو طرف، مذاکره‌کنندگان سازش‌ناپذیر طرف مقابل را مسئول شکست مذاکرات صلح دانستند."
       },
       {
-        "english": "The decision seemed intransigent, but the reasons became clearer later.",
-        "persian": "این تصمیم سازش‌ناپذیر به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "The union remained intransigent on the issue of mandatory overtime, refusing every compromise offered.",
+        "persian": "اتحادیه در موضوع اضافه‌کاری اجباری سازش‌ناپذیر باقی ماند و هر پیشنهاد میانه‌ای را رد کرد."
       },
       {
-        "english": "A intransigent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش سازش‌ناپذیر می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "Her intransigent stance on the budget eventually cost her the support of her own party.",
+        "persian": "موقعیت سازش‌ناپذیر او درباره‌ی بودجه، در نهایت حمایت حزب خودش را از او گرفت."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “intransigent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Intransigent describes a stubborn refusal to compromise or change one's position, even when flexibility would clearly benefit everyone involved. The word is heavily used in politics, labor disputes, and diplomacy to criticize parties who block progress by refusing to budge. Intransigence implies the standoff could be resolved, if only one side were willing to give ground."
   },
   {
     "courseId": "upgrade",
@@ -768,19 +768,19 @@
     ],
     "examples": [
       {
-        "english": "His lugubrious approach helped him deal with the situation calmly.",
-        "persian": "رویکرد غم‌انگیز و ماتم‌زده او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The funeral director spoke in a lugubrious tone that somehow made everyone feel worse.",
+        "persian": "مدیر تشریفات ختم با لحنی غم‌انگیز و ماتم‌زده صحبت می‌کرد که به‌نوعی حال همه را بدتر می‌کرد."
       },
       {
-        "english": "The decision seemed lugubrious, but the reasons became clearer later.",
-        "persian": "این تصمیم غم‌انگیز و ماتم‌زده به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "His lugubrious poetry rarely mentioned anything but loss, decay, and regret.",
+        "persian": "شعر غم‌انگیز و ماتم‌زده‌ی او به‌ندرت از چیزی غیر از فقدان، زوال و پشیمانی سخن می‌گفت."
       },
       {
-        "english": "A lugubrious attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش غم‌انگیز و ماتم‌زده می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "The lugubrious violin melody filled the empty theater after the final performance.",
+        "persian": "نوای غم‌انگیز ویولن، آن تئاتر خالی را پس از آخرین اجرا پر کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “lugubrious” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Lugubrious describes an exaggerated, almost theatrical sadness or gloominess, whether in a person's tone of voice, a piece of music, or a somber piece of writing. The word often carries a hint of excess, suggesting the sorrow on display is a bit heavier or more dramatic than the situation strictly requires. Lugubrious funerals, poems, and melodies share a drawn-out, mournful quality that lingers rather than passes quickly."
   },
   {
     "courseId": "upgrade",
@@ -795,18 +795,18 @@
     ],
     "examples": [
       {
-        "english": "His magniloquent approach helped him deal with the situation calmly.",
-        "persian": "رویکرد پرطمطراق و پرزرق‌وبرق در بیان او کمک کرد موقعیت را با آرامش مدیریت کند."
+        "english": "The politician's magniloquent speech was long on grand phrases but short on actual policy.",
+        "persian": "سخنرانی پرطمطراق آن سیاستمدار پر از عبارات پرزرق‌وبرق بود اما از سیاست واقعی خبری نبود."
       },
       {
-        "english": "The decision seemed magniloquent, but the reasons became clearer later.",
-        "persian": "این تصمیم پرطمطراق و پرزرق‌وبرق در بیان به نظر می‌رسید، اما دلایل آن بعداً روشن‌تر شد."
+        "english": "Reviewers mocked the novel's magniloquent prose, calling it exhausting rather than impressive.",
+        "persian": "منتقدان نثر پرطمطراق آن رمان را به باد انتقاد گرفتند و آن را خسته‌کننده بیشتر از تحسین‌برانگیز خواندند."
       },
       {
-        "english": "A magniloquent attitude can strongly influence how people respond to a difficult situation.",
-        "persian": "نگرش پرطمطراق و پرزرق‌وبرق در بیان می‌تواند به‌شدت بر واکنش افراد به یک موقعیت دشوار اثر بگذارد."
+        "english": "He had a magniloquent way of describing even the most ordinary events.",
+        "persian": "او حتی ساده‌ترین اتفاقات را با شیوه‌ای پرطمطراق و پرزرق‌وبرق توصیف می‌کرد."
       }
     ],
-    "miniContext": "In advanced English, precise vocabulary helps you express complex ideas without relying on simple repeated words. The word “magniloquent” is useful when a conversation requires a more exact description of a person, action, attitude, or situation. You may encounter vocabulary like this in serious discussions, interviews, books, articles, and formal writing. Learning the word together with its meaning and examples makes it easier to recognize naturally and use it with confidence when the context requires a more sophisticated expression."
+    "miniContext": "Magniloquent describes speech or writing that uses grand, elaborate language, often to the point of sounding pompous or overblown relative to its actual content. The word is typically critical, suggesting that the fancy wording is covering up a lack of real substance underneath. A magniloquent speaker favors impressive-sounding phrases over clear, direct communication."
   }
 ]

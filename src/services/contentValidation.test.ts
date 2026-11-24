@@ -15,7 +15,7 @@ function valid(): RepoContent {
     return {
         json: {
             'manifest.json': { version: 1, courses: [{ id: 'c', lessons: [{ id: 'l1', file: './l1.json' }] }] },
-            'l1.json': [{ word: 'help', meaning: 'کمک', examples: [{ english: 'Help me.', persian: 'کمکم کن.' }] }],
+            'l1.json': [{ word: 'help', meaning: 'کمک', pos: 'verb', examples: [{ english: 'Help me.', persian: 'کمکم کن.' }] }],
             'grammar/manifest.json': emptyManifest('topics'),
             'listening/manifest.json': emptyManifest('activities'),
             'reading/manifest.json': emptyManifest('passages'),
@@ -189,6 +189,44 @@ describe('Persian, examples and duplicates in teaching content', () => {
         })
 
         expect(codes(content, 'warning')).toContain('expression-duplicate-across')
+    })
+})
+
+describe('vocabulary and Cloze content quality', () => {
+    it('an example whose Persian still contains the English headword is an error', () => {
+        const content = mutate(json => (json['l1.json'][0].examples = [{ english: 'Help me.', persian: 'لطفاً به من help کن.' }]))
+
+        expect(codes(content, 'error')).toContain('example-headword-untranslated')
+    })
+
+    it('an example with no Persian translation is an error', () => {
+        const content = mutate(json => (json['l1.json'][0].examples = [{ english: 'Help me.', persian: '' }]))
+
+        expect(codes(content, 'error')).toContain('example-persian-missing')
+    })
+
+    it('an example whose sentence never contains the headword leaves the word unreachable by Cloze', () => {
+        const content = mutate(json => (json['l1.json'][0].examples = [{ english: 'Could you assist me?', persian: 'می‌توانی به من کمک کنی؟' }]))
+
+        expect(codes(content, 'warning')).toContain('cloze-unreachable')
+    })
+
+    it('a word with no part of speech is a warning', () => {
+        const content = mutate(json => delete json['l1.json'][0].pos)
+
+        expect(codes(content, 'warning')).toContain('pos-missing')
+    })
+
+    it('the same recycled sentence shape reused across three or more words is an error', () => {
+        const content = mutate(json => {
+            json['l1.json'] = [
+                { word: 'help', meaning: 'کمک', pos: 'verb', examples: [{ english: 'The team discussed help before deciding what to do next.', persian: 'تیم درباره کمک تصمیم گرفت.' }] },
+                { word: 'trust', meaning: 'اعتماد', pos: 'verb', examples: [{ english: 'The team discussed trust before deciding what to do next.', persian: 'تیم درباره اعتماد تصمیم گرفت.' }] },
+                { word: 'budget', meaning: 'بودجه', pos: 'noun', examples: [{ english: 'The team discussed budget before deciding what to do next.', persian: 'تیم درباره بودجه تصمیم گرفت.' }] },
+            ]
+        })
+
+        expect(codes(content, 'error')).toContain('example-template-repeated')
     })
 })
 
