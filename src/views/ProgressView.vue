@@ -20,14 +20,17 @@ import { RETENTION_HORIZONS } from '../services/retention'
 import { loadTransferPatterns } from '../services/transferContent'
 import { attemptsFromLedger, patternProgress } from '../services/transfer'
 import { vocabularyMastery } from '../services/vocabularyMastery'
+import { COMMUNICATION_METRICS } from '../services/communicationProgress'
 
 import type { TransferPattern } from '../types/transfer'
 import type { GapDimension } from '../types/skillGap'
+import { useLocale } from '../services/locale'
 
 const ledger = useLearningEvidenceStore()
 const performanceStore = usePerformanceStore()
 const journeyStore = useJourneyStore()
 const wordProgressStore = useWordProgressStore()
+const { locale } = useLocale()
 
 const patterns = ref<TransferPattern[]>([])
 const now = Date.now()
@@ -91,6 +94,24 @@ const metrics = computed(() => [
     { label: 'Independent production', hint: 'Words used in your own sentences', data: retention.value.metrics.independentProduction },
     { label: 'Contextual transfer', hint: 'Patterns used in new situations', data: retention.value.metrics.contextualTransfer },
 ])
+
+const communicationMetrics = computed(() => COMMUNICATION_METRICS.map(metric => ({
+    ...metric,
+    result: dimension(metric.dimension),
+})))
+
+function communicationStatus(classification: ReturnType<typeof dimension>['classification']): string {
+    if (locale.value === 'fa') {
+        return {
+            insufficient: 'نیازمند شواهد بیشتر',
+            strength: 'نقطه قوت',
+            developing: 'در حال پیشرفت',
+            weakness: 'نیازمند تمرین',
+        }[classification]
+    }
+
+    return classification === 'insufficient' ? 'Needs evidence' : classification
+}
 </script>
 
 <template>
@@ -175,6 +196,51 @@ const metrics = computed(() => [
             <ul class="mt-3 divide-y divide-gray-100">
                 <DimensionRow v-for="result in intelligence.gaps.dimensions" :key="result.dimension" :result="result" />
             </ul>
+        </section>
+
+        <!-- Communication -->
+        <section class="surface p-5 sm:p-6" aria-labelledby="communication-title">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <div>
+                    <h2 id="communication-title" class="label">Communication evidence</h2>
+                    <p class="fa-text mt-1 text-xs text-gray-400" lang="fa">شواهد ارتباطی</p>
+                </div>
+                <span class="text-xs text-gray-400">Observed evidence, not a fluency score</span>
+            </div>
+
+            <div class="mt-4 grid gap-3 sm:grid-cols-2">
+                <article
+                    v-for="metric in communicationMetrics"
+                    :key="metric.id"
+                    class="rounded-2xl border border-gray-100 bg-gray-50 p-4"
+                    :data-communication-metric="metric.id"
+                >
+                    <div class="flex items-start justify-between gap-3">
+                        <div>
+                            <h3 class="font-semibold text-gray-900">{{ metric.label }}</h3>
+                            <p class="fa-text text-xs text-gray-400" lang="fa">{{ metric.labelPersian }}</p>
+                        </div>
+                        <span class="rounded-full bg-white px-2 py-1 text-xs font-medium text-gray-500">
+                            {{ communicationStatus(metric.result.classification) }}
+                        </span>
+                    </div>
+
+                    <p class="mt-3 text-xs leading-relaxed text-gray-500">{{ locale === 'fa' ? metric.notePersian : metric.note }}</p>
+                    <p v-if="metric.result.estimate !== null" class="mt-2 text-sm font-semibold text-gray-800">
+                        {{ metric.result.estimate }}% · {{ metric.result.observations }} independent observations
+                    </p>
+                    <p v-else class="mt-2 text-xs text-gray-400">
+                        {{ metric.result.observations }} / 8 observations · no claim yet
+                    </p>
+                    <RouterLink
+                        v-if="metric.result.recommendation"
+                        :to="metric.result.recommendation.to"
+                        class="mt-2 inline-flex min-h-11 items-center text-sm font-semibold text-accent-ink hover:underline"
+                    >
+                        {{ metric.result.recommendation.label }} <AppIcon name="chevron-right" :size="15" />
+                    </RouterLink>
+                </article>
+            </div>
         </section>
 
         <!-- Vocabulary -->

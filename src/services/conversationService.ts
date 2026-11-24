@@ -7,6 +7,7 @@ import {
 import { useAISettingsStore } from '../stores/aiSettings'
 import { useLearnerProfileStore } from '../stores/learnerProfile'
 import { useMistakesStore } from '../stores/mistakes'
+import { buildLearnerContext, serializeLearnerContext } from './learnerContext'
 
 import type { ChatPayload } from './aiClient'
 import type {
@@ -167,6 +168,21 @@ export async function requestAssist(
         kind,
         text,
         explanationLanguage: resolveExplanationLanguage(),
+        provider: settings.provider,
+        model: settings.model || undefined,
+        allowFallback: settings.allowFallback,
+    })
+
+    return response.reply
+}
+
+export async function requestCoachAnswer(question: string): Promise<string> {
+    const settings = useAISettingsStore().settings
+    const response = await assistWithMessage({
+        kind: 'coach',
+        text: question,
+        explanationLanguage: resolveExplanationLanguage(),
+        learnerContext: serializeLearnerContext(buildLearnerContext()),
         provider: settings.provider,
         model: settings.model || undefined,
         allowFallback: settings.allowFallback,

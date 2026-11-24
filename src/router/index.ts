@@ -27,6 +27,7 @@ const ListeningView = () => import('../views/ListeningView.vue')
 const GuidedSpeakingView = () => import('../views/GuidedSpeakingView.vue')
 const AISettingsView = () => import('../views/AISettingsView.vue')
 const ConversationView = () => import('../views/ConversationView.vue')
+const CoachView = () => import('../views/CoachView.vue')
 const RealLifeView = () => import('../views/RealLifeView.vue')
 const CareerView = () => import('../views/CareerView.vue')
 const JourneyView = () => import('../views/JourneyView.vue')
@@ -187,6 +188,11 @@ const router = createRouter({
             path: '/conversation',
             name: 'conversation',
             component: ConversationView,
+        },
+        {
+            path: '/coach',
+            name: 'coach',
+            component: CoachView,
         },
         {
             path: '/real-life',

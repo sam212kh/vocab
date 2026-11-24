@@ -97,6 +97,7 @@ const menuSections: NavSection[] = [
         titleKey: 'nav.speakWrite',
         items: [
             { labelKey: 'nav.conversation', icon: 'chat', route: '/conversation' },
+            { labelKey: 'nav.coach', icon: 'sparkle', route: '/coach' },
             { labelKey: 'nav.guidedSpeaking', icon: 'mic', route: '/guided-speaking' },
             { labelKey: 'nav.speakingPractice', icon: 'volume', route: '/speaking-practice' },
             { labelKey: 'nav.writing', icon: 'pen', route: '/writing' },

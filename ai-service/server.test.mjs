@@ -461,6 +461,15 @@ test('assist validates kind and text and returns a reply', async () => {
   assert.equal(ok.status, 200)
   assert.ok(body.reply.length > 0)
 
+  const coach = await post('/api/ai/assist', {
+    kind: 'coach',
+    text: 'What should I practise today?',
+    learnerContext: JSON.stringify({ level: { value: 'B1', source: 'self-reported' }, recurringMistakes: [] }),
+  })
+  const coachBody = await coach.json()
+  assert.equal(coach.status, 200)
+  assert.ok(coachBody.reply.length > 0)
+
   const badKind = await post('/api/ai/assist', { kind: 'summon', text: 'hello' })
   assert.equal(badKind.status, 400)
 

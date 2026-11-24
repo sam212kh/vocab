@@ -24,6 +24,7 @@ const TITLES: Record<string, string> = {
     'guided-speaking': 'Guided Speaking',
     'ai-settings': 'AI Settings',
     conversation: 'Conversation',
+    coach: 'AI Coach',
     'real-life': 'Real-Life English',
     'career-english': 'Career English',
     'not-found': 'Page not found',

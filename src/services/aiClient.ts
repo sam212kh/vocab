@@ -212,9 +212,10 @@ export function summarizeConversation(
 }
 
 export function assistWithMessage(payload: {
-    kind: 'translate' | 'explain' | 'simplify' | 'correct'
+    kind: 'translate' | 'explain' | 'simplify' | 'correct' | 'coach'
     text: string
     explanationLanguage: 'english' | 'persian' | 'bilingual'
+    learnerContext?: string
     provider?: 'ollama' | 'cloud'
     model?: string
     allowFallback: boolean

@@ -619,7 +619,7 @@ export function validateExpressResponse(raw) {
   }
 }
 
-const ASSIST_KINDS = ['translate', 'explain', 'simplify', 'correct']
+const ASSIST_KINDS = ['translate', 'explain', 'simplify', 'correct', 'coach']
 
 export function validateAssistRequest(body) {
   if (!body || typeof body !== 'object') {
@@ -646,6 +646,7 @@ export function validateAssistRequest(body) {
       explanationLanguage: ['english', 'persian', 'bilingual'].includes(body.explanationLanguage)
         ? body.explanationLanguage
         : 'bilingual',
+      learnerContext: typeof body.learnerContext === 'string' ? body.learnerContext.slice(0, 9000) : '',
       provider: body.provider,
       model: typeof body.model === 'string' && body.model.length <= 100 ? body.model : undefined,
     },
