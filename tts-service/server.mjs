@@ -75,7 +75,7 @@ function cacheKey(text, lang, voice, format, rate) {
 }
 function ssmlEscape(text) { return text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;') }
 
-async function generate(text, voice, format, rate) {
+async function generate(text, lang, voice, format, rate) {
   if (process.env.NODE_ENV === 'test') {
     const delay = Number(process.env.TTS_TEST_GENERATION_DELAY_MS ?? 80)
     if (process.env.TTS_TEST_PROVIDER_FAILURE === '1') throw new Error('Test provider failure')
@@ -86,14 +86,14 @@ async function generate(text, voice, format, rate) {
     return Buffer.from(`test-audio:${voice}:${rate}:${text}`)
   }
   if (config.provider === 'piper') return generateWithPiper(text, voice, format, rate)
-  if (config.provider === 'google') return generateWithGoogle(text, rate)
+  if (config.provider === 'google') return generateWithGoogle(text, lang, rate)
   if (!config.azureKey || !config.azureRegion) throw new Error('Azure Neural TTS is not configured')
   const started = Date.now()
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), config.timeoutMs)
   try {
     const endpoint = `https://${config.azureRegion}.tts.speech.microsoft.com/cognitiveservices/v1`
-    const ssml = `<speak version="1.0" xml:lang="en-US"><voice name="${voice}"><prosody rate="${Math.round((rate - 1) * 100)}%">${ssmlEscape(text)}</prosody></voice></speak>`
+    const ssml = `<speak version="1.0" xml:lang="${lang}"><voice name="${voice}"><prosody rate="${Math.round((rate - 1) * 100)}%">${ssmlEscape(text)}</prosody></voice></speak>`
     const response = await fetch(endpoint, { method: 'POST', signal: controller.signal, headers: { 'Ocp-Apim-Subscription-Key': config.azureKey, 'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': format.azure, 'User-Agent': 'EnglishUpgradeTTS/1.0' }, body: ssml })
     if (!response.ok) throw new Error(`TTS provider returned ${response.status}`)
     const audio = Buffer.from(await response.arrayBuffer())
@@ -154,8 +154,8 @@ function splitForGoogleTranslateTts(text, maxLen = 200) {
   if (current) chunks.push(current)
   return chunks
 }
-async function fetchGoogleTranslateTtsChunk(chunk, signal) {
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(chunk)}&tl=${encodeURIComponent(config.googleLang)}&client=tw-ob`
+async function fetchGoogleTranslateTtsChunk(chunk, tl, signal) {
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(chunk)}&tl=${encodeURIComponent(tl)}&client=tw-ob`
   const response = await fetch(url, {
     signal,
     headers: {
@@ -168,12 +168,13 @@ async function fetchGoogleTranslateTtsChunk(chunk, signal) {
   if (!buffer.length) throw new Error('Google TTS returned empty audio')
   return buffer
 }
-async function generateWithGoogle(text, rate) {
+async function generateWithGoogle(text, lang, rate) {
+  const tl = lang === 'fa-IR' ? 'fa' : config.googleLang
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), config.timeoutMs)
   try {
     const parts = []
-    for (const chunk of splitForGoogleTranslateTts(text)) parts.push(await fetchGoogleTranslateTtsChunk(chunk, controller.signal))
+    for (const chunk of splitForGoogleTranslateTts(text)) parts.push(await fetchGoogleTranslateTtsChunk(chunk, tl, controller.signal))
     const mp3 = Buffer.concat(parts)
     if (rate === 1) return mp3
     return runProcess(config.ffmpegBin, ['-hide_banner', '-loglevel', 'error', '-i', 'pipe:0', '-filter:a', `atempo=${rate}`, '-f', 'mp3', 'pipe:1'], mp3, config.timeoutMs)
@@ -181,7 +182,7 @@ async function generateWithGoogle(text, rate) {
     clearTimeout(timeout)
   }
 }
-async function cachedAudio(key, text, voice, format, rate) {
+async function cachedAudio(key, text, lang, voice, format, rate) {
   const path = join(config.cacheDir, `${key}.mp3`)
   try {
     const info = await stat(path)
@@ -191,7 +192,7 @@ async function cachedAudio(key, text, voice, format, rate) {
   metrics.misses++
   if (inFlight.has(key)) return inFlight.get(key)
   const pending = (async () => {
-    const bytes = await generate(text, voice, format, rate)
+    const bytes = await generate(text, lang, voice, format, rate)
     const tempPath = join(config.cacheDir, `.${key}.${process.pid}.${Date.now()}.tmp`)
     await writeFile(tempPath, bytes, { mode: 0o640, flag: 'wx' })
     await rename(tempPath, path)
@@ -236,7 +237,10 @@ const server = createServer(async (req, res) => {
     const body = JSON.parse(raw)
     const text = normalizeText(body.text)
     const lang = body.lang === 'fa-IR' ? 'fa-IR' : 'en-US'
-    const voice = typeof body.voice === 'string' ? body.voice : lang === 'fa-IR' ? 'fa_IR-mana-medium' : 'en-US-AriaNeural'
+    const defaultVoice = lang === 'fa-IR'
+      ? (config.provider === 'azure' ? 'fa-IR-DilaraNeural' : config.provider === 'piper' ? 'fa_IR-mana-medium' : 'fa')
+      : (config.provider === 'azure' ? 'en-US-AriaNeural' : config.provider === 'piper' ? 'en_US-lessac-medium' : 'en-US')
+    const voice = typeof body.voice === 'string' ? body.voice : defaultVoice
     const formatName = body.format ?? 'mp3'
     const format = formats.get(formatName)
     const rate = Number(body.rate ?? 0.9)
@@ -248,7 +252,7 @@ const server = createServer(async (req, res) => {
     res.setHeader('ETag', etag)
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
     if (req.headers['if-none-match'] === etag) { res.writeHead(304); return res.end() }
-    const audio = await cachedAudio(key, text, voice, format, rate)
+    const audio = await cachedAudio(key, text, lang, voice, format, rate)
     res.writeHead(200, { 'Content-Type': format.mime, 'Content-Length': audio.length, 'X-Content-Type-Options': 'nosniff' })
     res.end(audio)
   } catch (error) {

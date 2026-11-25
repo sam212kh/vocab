@@ -339,6 +339,7 @@ function finishAndGoToDashboard() {
                         type="button"
                         class="choice w-full"
                         :class="choiceIndex === index ? 'choice-selected' : ''"
+                        :aria-pressed="choiceIndex === index"
                         :disabled="!!revealed"
                         @click="choiceIndex = index"
                     >

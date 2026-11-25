@@ -85,11 +85,11 @@ function bandsOf(label: string | undefined): string[] {
 
             <div class="mt-4 space-y-3">
                 <div v-for="course in oxfordCourses" :key="course.id" class="flex items-center justify-between gap-3 rounded-xl border border-gray-100 p-3">
-                    <div>
-                        <p class="font-medium text-gray-900">{{ course.title }}</p>
+                    <div class="min-w-0 flex-1">
+                        <p class="truncate font-medium text-gray-900">{{ course.title }}</p>
                         <p class="text-xs text-gray-400">{{ course.lessons.length }} lessons</p>
                     </div>
-                    <div class="flex gap-1">
+                    <div class="flex shrink-0 gap-1">
                         <span
                             v-for="band in CEFR_BANDS"
                             :key="band"

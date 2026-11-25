@@ -104,10 +104,8 @@ function selfReport(skill: SkillName, level: CefrLevel) {
                             v-for="level in CEFR_LEVELS"
                             :key="level"
                             type="button"
-                            class="rounded-full border px-2.5 py-1 text-xs transition"
-                            :class="skillProfileStore.profile.skills[skill].current?.level === level
-                                ? 'border-accent bg-accent text-white'
-                                : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                            class="chip !min-h-11 !px-3 !text-xs"
+                            :aria-pressed="skillProfileStore.profile.skills[skill].current?.level === level"
                             @click="selfReport(skill, level)"
                         >
                             {{ level }}

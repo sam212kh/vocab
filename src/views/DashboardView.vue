@@ -25,7 +25,7 @@ import { useLocale } from '../services/locale'
 import { computeStreak } from '../services/streak'
 import { computeXp } from '../services/xp'
 import { MILESTONES, evaluateMilestones } from '../services/milestones'
-import { buildRoadmap } from '../services/roadmap'
+import { buildRoadmap, currentRoadmapStage } from '../services/roadmap'
 import { useToastStore } from '../stores/toast'
 
 const wordProgressStore = useWordProgressStore()
@@ -96,15 +96,16 @@ const distinctIndependentlyKnownCount = computed(() =>
     ).length
 )
 
-const firstRoadmapStageCompleted = computed(() => {
-    const stages = buildRoadmap({
+const roadmap = computed(() =>
+    buildRoadmap({
         evidence: journeyStore.evidence,
         completedJourneys: journeyStore.completedJourneyCount,
         availableSources: ['vocabulary', 'grammar', 'real-life', 'career', 'conversation'],
     })
+)
 
-    return stages[0]?.state === 'completed'
-})
+const roadmapStage = computed(() => currentRoadmapStage(roadmap.value))
+const firstRoadmapStageCompleted = computed(() => roadmap.value[0]?.state === 'completed')
 
 const earnedMilestoneIds = computed(() =>
     evaluateMilestones({
@@ -194,6 +195,19 @@ const QUICK = [
                 <AppIcon name="bolt" :size="16" /> {{ currentStreak }} day{{ currentStreak === 1 ? '' : 's' }} in a row
             </span>
         </PageHeader>
+
+        <RouterLink
+            v-if="roadmapStage"
+            to="/learning-path"
+            class="surface flex items-center gap-3 p-4 transition hover:border-accent/40"
+        >
+            <AppIcon name="compass" :size="18" class="shrink-0 text-accent" />
+            <span class="min-w-0 flex-1">
+                <span class="block text-xs font-semibold uppercase tracking-[0.08em] text-gray-400">Your learning path</span>
+                <span class="block truncate text-sm font-medium text-gray-900">{{ roadmapStage.title }} — {{ roadmapStage.description }}</span>
+            </span>
+            <AppIcon name="chevron-right" :size="16" class="shrink-0 text-gray-300" />
+        </RouterLink>
 
         <!-- Today: the journey (primary) + spaced review -->
         <section class="grid gap-5 lg:grid-cols-[minmax(0,1.65fr)_minmax(0,1fr)]" aria-label="Today">

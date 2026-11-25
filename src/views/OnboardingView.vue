@@ -125,6 +125,7 @@ function skipPlacement() {
                         type="button"
                         class="choice w-full"
                         :class="selectedLevel === option.level ? 'choice-selected' : ''"
+                        :aria-pressed="selectedLevel === option.level"
                         @click="selectedLevel = option.level"
                     >
                         <span class="flex flex-col items-start">
