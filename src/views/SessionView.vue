@@ -439,7 +439,7 @@ onMounted(() => {
 
                     <div class="mt-10">
                         <p class="text-lg text-gray-600">{{ currentWord.meaning }}</p>
-                        <SpeechButton :text="currentWord.word" lang="fa-IR" />
+                        <SpeechButton :text="currentWord.meaning" lang="fa-IR" />
                     </div>
 
                     <form v-if="!recallRevealed" class="mt-8" @submit.prevent="submitRecall">

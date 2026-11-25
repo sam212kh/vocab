@@ -141,6 +141,21 @@ const currentWord = computed(() => {
 |
 */
 
+/**
+ * Previously: one lesson file fetched at a time, strictly sequentially,
+ * across every lesson in every course (372 files) no matter how few hard
+ * words were actually saved — fast enough on a local dev server to look
+ * fine, but ~372 round-trips in series over a real network is the reported
+ * production bug ("Hard words not loading" — it wasn't broken, it was
+ * timing out / appearing to hang under real latency).
+ *
+ * Fixed by: skipping the scan entirely when there's nothing to find,
+ * fetching lessons concurrently in bounded batches instead of one at a
+ * time, and stopping as soon as every saved hard word has actually been
+ * found instead of always walking the full library.
+ */
+const LESSON_FETCH_CONCURRENCY = 16
+
 async function loadAllHardWords() {
     /*
      * Already loaded?
@@ -151,61 +166,51 @@ async function loadAllHardWords() {
         return
     }
 
+    if (!hardWordsStore.hardWords.length) {
+        allHardWords.value = []
+        hardWordsLoaded.value = true
+        reset()
+        return
+    }
+
     loading.value = true
     error.value = ''
 
     try {
-        const collectedWords: Word[] = []
+        const uniqueWords = new Map<string, Word>()
+        const targetCount = hardWordsStore.hardWords.length
 
-        for (const course of courses.value) {
-            for (const lessonItem of course.lessons) {
-                try {
-                    const words = await loadLesson(
-                        lessonItem
-                    )
+        const allLessons = courses.value.flatMap(course => course.lessons)
 
-                    const hardWords = words.filter(word =>
-                        hardWordsStore.isHardWord(
-                            word.word
-                        )
-                    )
+        for (let start = 0; start < allLessons.length; start += LESSON_FETCH_CONCURRENCY) {
+            const batch = allLessons.slice(start, start + LESSON_FETCH_CONCURRENCY)
 
-                    collectedWords.push(
-                        ...hardWords
-                    )
-                } catch (err) {
-                    console.error(
-                        `Failed to load ${lessonItem.id}:`,
-                        err
-                    )
+            const results = await Promise.all(
+                batch.map(async lessonItem => {
+                    try {
+                        return await loadLesson(lessonItem)
+                    } catch (err) {
+                        console.error(`Failed to load ${lessonItem.id}:`, err)
+                        return []
+                    }
+                })
+            )
+
+            for (const words of results) {
+                for (const word of words) {
+                    if (!hardWordsStore.isHardWord(word.word)) continue
+
+                    const key = word.word.trim().toLowerCase()
+
+                    if (!uniqueWords.has(key)) uniqueWords.set(key, word)
                 }
             }
+
+            /* Every saved hard word has been matched — no need to keep scanning the rest of the library. */
+            if (uniqueWords.size >= targetCount) break
         }
 
-        /*
-         * Remove duplicates by actual word.
-         */
-        const uniqueWords = new Map<
-            string,
-            Word
-        >()
-
-        for (const word of collectedWords) {
-            const key = word.word
-                .trim()
-                .toLowerCase()
-
-            if (!uniqueWords.has(key)) {
-                uniqueWords.set(
-                    key,
-                    word
-                )
-            }
-        }
-
-        allHardWords.value = Array.from(
-            uniqueWords.values()
-        )
+        allHardWords.value = Array.from(uniqueWords.values())
 
         hardWordsLoaded.value = true
 

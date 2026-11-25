@@ -70,7 +70,7 @@ watch(() => props.item.id, () => { showAllExamples.value = false })
 
             <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1">
                 <AudioPlayer :text="item.text" size="lg" slow label="Listen" />
-                <AudioPlayer v-if="persianAudio" :text="item.text" lang="fa-IR" pill label="Persian" />
+                <AudioPlayer v-if="persianAudio" :text="item.meaning" lang="fa-IR" pill label="Persian" />
             </div>
 
             <p v-if="item.synonyms.length" class="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-sm text-ink-soft">
