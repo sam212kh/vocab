@@ -49,7 +49,7 @@ const GOAL_DESCRIPTIONS: Record<LearningGoalType, string> = {
 }
 
 const SKILL_ACTIVITY: Record<SkillName, { type: LearningActivity['type']; label: string; route: string }> = {
-    vocabulary: { type: 'daily-session', label: 'Daily Session', route: '/session' },
+    vocabulary: { type: 'daily-session', label: 'Review Due Words', route: '/session' },
     grammar: { type: 'grammar-new', label: 'Grammar', route: '/grammar' },
     listening: { type: 'listening-practice', label: 'Listening', route: '/listening' },
     speaking: { type: 'guided-speaking', label: 'Guided Speaking', route: '/guided-speaking' },
@@ -99,7 +99,7 @@ export function buildDailyRecommendation(
 
         push({
             type: 'daily-session',
-            label: 'Daily Session',
+            label: 'Review Due Words',
             route: '/session',
             estimatedMinutes: sessionMinutes,
             skill: 'vocabulary',

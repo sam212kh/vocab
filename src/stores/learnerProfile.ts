@@ -23,7 +23,7 @@ const STORAGE_KEY = 'english-upgrade-learner-profile'
 
 const STORAGE_VERSION = 1
 
-const VALID_DURATIONS: StudyDurationMinutes[] = [15, 30, 45, 60]
+const VALID_DURATIONS: StudyDurationMinutes[] = [5, 10, 15, 20, 30, 45, 60]
 
 const VALID_STUDY_DAYS: StudyDay[] = [
     'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun',
@@ -59,7 +59,13 @@ export const useLearnerProfileStore = defineStore(
 
         const profile = ref<LearnerProfile>(initialProfile)
 
-        function update(patch: Partial<Omit<LearnerProfile, 'createdAt'>>) {
+        /**
+         * `silent` skips the toast — for multi-step flows (onboarding) that
+         * call update() several times in a row, where a toast per step would
+         * stack up rather than inform. Everyday single-shot callers (the
+         * Profile form's one Save button) keep the default toast.
+         */
+        function update(patch: Partial<Omit<LearnerProfile, 'createdAt'>>, options: { silent?: boolean } = {}) {
             profile.value = {
                 ...profile.value,
                 ...patch,
@@ -68,7 +74,7 @@ export const useLearnerProfileStore = defineStore(
 
             save()
 
-            useToastStore().push('Profile saved.', 'success')
+            if (!options.silent) useToastStore().push('Profile saved.', 'success')
         }
 
         function resetToDefaults() {
@@ -138,6 +144,11 @@ function migrateStoredProfile(
 
         selectedProgramId:
             typeof value.selectedProgramId === 'string' ? value.selectedProgramId : null,
+
+        onboardingCompletedAt:
+            typeof value.onboardingCompletedAt === 'number' && Number.isFinite(value.onboardingCompletedAt)
+                ? value.onboardingCompletedAt
+                : null,
 
         createdAt:
             typeof value.createdAt === 'number' && Number.isFinite(value.createdAt)

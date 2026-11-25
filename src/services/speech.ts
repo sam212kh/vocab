@@ -36,6 +36,7 @@ const VOICE_KEY = 'english-upgrade-tts-voice'
 const API_BASE_URL = (import.meta.env.VITE_TTS_API_BASE_URL ?? '').replace(/\/$/, '')
 const API_URL = `${API_BASE_URL}/api/tts`
 const DEFAULT_VOICE = import.meta.env.VITE_TTS_VOICE ?? 'en_US-lessac-high'
+const DEFAULT_PERSIAN_VOICE = import.meta.env.VITE_TTS_PERSIAN_VOICE ?? 'fa_IR-mana-medium'
 const configuredVoiceIds = (import.meta.env.VITE_TTS_VOICES ?? DEFAULT_VOICE)
     .split(',').map((voice: string) => voice.trim()).filter(Boolean)
 const PRELOAD_COUNT = Math.max(0, Math.min(5, Number(import.meta.env.VITE_TTS_PRELOAD_COUNT ?? 2)))
@@ -252,14 +253,16 @@ async function neuralSpeak(text: string, options: SpeechOptions = {}): Promise<b
     activeRequest = controller
     const abort = () => controller.abort()
     options.signal?.addEventListener('abort', abort, { once: true })
-    const cacheKey = `${text}\u0000${options.voice ?? speechVoice}\u0000${options.rate ?? 0.9}`
+    const lang = options.lang ?? 'en-US'
+    const voice = options.voice ?? (lang.toLowerCase().startsWith('fa') ? DEFAULT_PERSIAN_VOICE : speechVoice)
+    const cacheKey = `${lang}\u0000${text}\u0000${voice}\u0000${options.rate ?? 0.9}`
     let objectUrl = audioCache.get(cacheKey)
     try {
         if (!objectUrl) {
             const response = await fetch(API_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ text, voice: options.voice ?? speechVoice, format: 'mp3', rate: options.rate ?? 0.9 }),
+                body: JSON.stringify({ text, lang, voice, format: 'mp3', rate: options.rate ?? 0.9 }),
                 signal: controller.signal,
             })
             if (!response.ok) {
@@ -315,7 +318,7 @@ const systemVoiceProvider: SpeechEngine = {
 
 const neuralVoiceProvider: SpeechEngine = {
     name: 'neural',
-    supports: lang => lang.toLowerCase().startsWith('en') && typeof Audio !== 'undefined',
+    supports: lang => lang.length > 0 && typeof Audio !== 'undefined',
     speak: neuralSpeak,
 }
 
@@ -324,14 +327,13 @@ export async function speakAsync(text: string, lang = 'en-US', options: Omit<Spe
     if (!cleanText) return false
     lastSpeechError = ''
     const settings = { rate: speechRate, ...options, lang }
-    if (!lang.toLowerCase().startsWith('en')) return systemVoiceProvider.speak(cleanText, settings)
     const provider = settings.provider ?? preference
 
     // Mobile browsers reject HTMLAudioElement.play() when it happens after an
     // awaited network request. Prefer the browser's speech engine for the
     // automatic mode on touch devices; it is allowed to speak from the user
     // gesture that started the session and still has neural as a fallback.
-    if (provider === 'automatic' && prefersSystemSpeechOnTouchDevice()) {
+    if (provider === 'automatic' && lang.toLowerCase().startsWith('en') && prefersSystemSpeechOnTouchDevice()) {
         const spoken = await systemVoiceProvider.speak(cleanText, settings)
         if (spoken) return true
     }
@@ -360,10 +362,12 @@ export async function preload(texts: string[], options: Omit<SpeechOptions, 'sig
     const controller = new AbortController()
     preloadRequest = controller
     await Promise.all(texts.slice(0, PRELOAD_COUNT).map(async text => {
-        const key = `${text}\u0000${options.voice ?? speechVoice}\u0000${options.rate ?? 0.9}`
+        const lang = 'en-US'
+        const voice = options.voice ?? speechVoice
+        const key = `${lang}\u0000${text}\u0000${voice}\u0000${options.rate ?? 0.9}`
         if (audioCache.has(key)) return
         try {
-            const response = await fetch(API_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text, voice: options.voice ?? speechVoice, format: 'mp3', rate: options.rate ?? 0.9 }), signal: controller.signal })
+            const response = await fetch(API_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text, lang, voice, format: 'mp3', rate: options.rate ?? 0.9 }), signal: controller.signal })
             if (response.ok) cacheAudio(key, URL.createObjectURL(await response.blob()))
         } catch { /* preloading must never affect interaction */ }
     }))

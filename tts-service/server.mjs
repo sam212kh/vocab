@@ -23,9 +23,13 @@ const config = {
   piperBin: process.env.PIPER_BIN ?? 'piper',
   ffmpegBin: process.env.FFMPEG_BIN ?? process.env.PIPER_FFMPEG_BIN ?? 'ffmpeg',
   piperVoices: process.env.TTS_PIPER_VOICES ?? 'en_US-lessac-medium=/opt/piper/voices/en_US-lessac-medium.onnx',
+  piperPersianVoices: process.env.TTS_PIPER_FA_VOICES ?? '',
   googleLang: process.env.TTS_GOOGLE_LANG ?? 'en',
 }
-const piperVoicePaths = new Map(config.piperVoices.split(',').map(item => item.split('=').map(value => value.trim())).filter(([name, path]) => name && path))
+function parseVoicePaths(value) {
+  return new Map(value.split(',').map(item => item.split('=').map(part => part.trim())).filter(([name, path]) => name && path))
+}
+const piperVoicePaths = new Map([...parseVoicePaths(config.piperVoices), ...parseVoicePaths(config.piperPersianVoices)])
 const voices = new Set((process.env.TTS_VOICES ?? (config.provider === 'piper' ? [...piperVoicePaths.keys()].join(',') : config.provider === 'google' ? 'en-US' : 'en-US-AriaNeural,en-US-JennyNeural,en-US-GuyNeural')).split(',').map(v => v.trim()).filter(Boolean))
 const formats = new Map([['mp3', { mime: 'audio/mpeg', azure: 'audio-24khz-48kbitrate-mono-mp3' }]])
 const inFlight = new Map()
@@ -66,8 +70,8 @@ function normalizeText(input) {
   if ([...text].length > config.maxChars) throw new Error(`Text exceeds ${config.maxChars} characters`)
   return text
 }
-function cacheKey(text, voice, format, rate) {
-  return createHash('sha256').update(JSON.stringify({ v: 2, provider: config.provider, text, voice, format, rate })).digest('hex')
+function cacheKey(text, lang, voice, format, rate) {
+  return createHash('sha256').update(JSON.stringify({ v: 3, provider: config.provider, lang, text, voice, format, rate })).digest('hex')
 }
 function ssmlEscape(text) { return text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;') }
 
@@ -231,14 +235,15 @@ const server = createServer(async (req, res) => {
     for await (const chunk of req) { raw += chunk; if (Buffer.byteLength(raw) > 16384) return reply(res, 413, { error: 'Request body is too large' }) }
     const body = JSON.parse(raw)
     const text = normalizeText(body.text)
-    const voice = typeof body.voice === 'string' ? body.voice : 'en-US-AriaNeural'
+    const lang = body.lang === 'fa-IR' ? 'fa-IR' : 'en-US'
+    const voice = typeof body.voice === 'string' ? body.voice : lang === 'fa-IR' ? 'fa_IR-mana-medium' : 'en-US-AriaNeural'
     const formatName = body.format ?? 'mp3'
     const format = formats.get(formatName)
     const rate = Number(body.rate ?? 0.9)
     if (config.provider !== 'google' && !voices.has(voice)) return reply(res, 400, { error: 'Unsupported voice' })
     if (!format) return reply(res, 400, { error: 'Unsupported audio format' })
     if (!Number.isFinite(rate) || rate < 0.5 || rate > 1.5) return reply(res, 400, { error: 'Rate must be between 0.5 and 1.5' })
-    const key = cacheKey(text, voice, formatName, rate)
+    const key = cacheKey(text, lang, voice, formatName, rate)
     const etag = `"${key}"`
     res.setHeader('ETag', etag)
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')

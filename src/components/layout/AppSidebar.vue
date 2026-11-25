@@ -72,7 +72,9 @@ const menuSections: NavSection[] = [
         titleKey: 'nav.learn',
         items: [
             { labelKey: 'nav.lessons', icon: 'book', route: '/lessons', also: ['/courses'] },
+            { labelKey: 'nav.learningPath', icon: 'compass', route: '/learning-path' },
             { labelKey: 'nav.realLife', icon: 'sun', route: '/real-life' },
+            { labelKey: 'nav.immersive', icon: 'compass', route: '/immersive' },
         ],
     },
     {

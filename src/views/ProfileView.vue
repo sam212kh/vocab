@@ -1,39 +1,25 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
+import { useRouter } from 'vue-router'
 
 import { useLearnerProfileStore } from '../stores/learnerProfile'
+import { useSkillProfileStore } from '../stores/skillProfile'
 import { CEFR_LEVELS } from '../types/cefr'
 import type { CefrLevel } from '../types/cefr'
-import type {
-    ExplanationLanguage,
-    LearningGoalType,
-    StudyDay,
-    StudyDurationMinutes,
-} from '../types/learnerProfile'
+import { DAY_LABELS, DAY_ORDER, DURATIONS, GOAL_LABELS, GOAL_ORDER } from '../services/learnerProfileLabels'
+import type { ExplanationLanguage, LearningGoalType, StudyDay } from '../types/learnerProfile'
 
 const profileStore = useLearnerProfileStore()
+const skillProfileStore = useSkillProfileStore()
+const router = useRouter()
 
-const GOAL_LABELS: Record<LearningGoalType, string> = {
-    speaking: 'Speaking',
-    listening: 'Listening',
-    reading: 'Reading',
-    writing: 'Writing',
-    vocabulary: 'Vocabulary',
-    grammar: 'Grammar',
-    'professional-english': 'Professional English',
-    'travel-english': 'Travel English',
-    'exam-preparation': 'Exam preparation',
-}
-
-const GOAL_ORDER = Object.keys(GOAL_LABELS) as LearningGoalType[]
-
-const DAY_LABELS: Record<StudyDay, string> = {
-    mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri', sat: 'Sat', sun: 'Sun',
-}
-
-const DAY_ORDER = Object.keys(DAY_LABELS) as StudyDay[]
-
-const DURATIONS: StudyDurationMinutes[] = [15, 30, 45, 60]
+const verifiedSkills = computed(() =>
+    (['vocabulary', 'grammar'] as const)
+        .map(skill => ({ skill, estimate: skillProfileStore.profile.skills[skill].current }))
+        .filter((row): row is { skill: typeof row.skill; estimate: NonNullable<typeof row.estimate> } =>
+            row.estimate !== null && row.estimate.source === 'verified'
+        )
+)
 
 function cloneFromProfile() {
     const source = profileStore.profile
@@ -158,10 +144,8 @@ function reset() {
                         v-for="goal in GOAL_ORDER"
                         :key="goal"
                         type="button"
-                        class="rounded-full border px-3 py-1.5 text-sm transition"
-                        :class="form.selectedGoals.includes(goal)
-                            ? 'border-accent bg-accent text-white'
-                            : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                        class="chip"
+                        :aria-pressed="form.selectedGoals.includes(goal)"
                         @click="toggleGoal(goal)"
                     >
                         {{ GOAL_LABELS[goal] }}
@@ -188,10 +172,8 @@ function reset() {
                             v-for="day in DAY_ORDER"
                             :key="day"
                             type="button"
-                            class="rounded-full border px-3 py-1.5 text-sm transition"
-                            :class="form.selectedDays.includes(day)
-                                ? 'border-accent bg-accent text-white'
-                                : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                            class="chip"
+                            :aria-pressed="form.selectedDays.includes(day)"
                             @click="toggleDay(day)"
                         >
                             {{ DAY_LABELS[day] }}
@@ -224,22 +206,40 @@ function reset() {
                         v-for="level in CEFR_LEVELS"
                         :key="level"
                         type="button"
-                        class="rounded-full border px-3 py-1.5 text-sm transition"
-                        :class="form.selfReportedLevel === level
-                            ? 'border-accent bg-accent text-white'
-                            : 'border-gray-200 text-gray-600 hover:bg-gray-100'"
+                        class="chip"
+                        :aria-pressed="form.selfReportedLevel === level"
                         @click="form.selfReportedLevel = level"
                     >
                         {{ level }}
                     </button>
                     <button
                         type="button"
-                        class="rounded-full border border-gray-200 px-3 py-1.5 text-sm text-gray-500 hover:bg-gray-100"
+                        class="chip"
+                        :aria-pressed="form.selfReportedLevel === null"
                         @click="form.selfReportedLevel = null"
                     >
                         Not sure
                     </button>
                 </div>
+            </section>
+
+            <section class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                <h2 class="text-lg font-semibold text-gray-900">Placement test</h2>
+                <p class="mt-1 text-sm text-gray-500">
+                    A short adaptive test for a verified vocabulary and grammar level
+                    (the two skills we currently have placement content for).
+                </p>
+
+                <div v-if="verifiedSkills.length" class="mt-4 flex flex-wrap gap-2">
+                    <span v-for="row in verifiedSkills" :key="row.skill" class="chip" aria-pressed="true">
+                        {{ row.skill }}: {{ row.estimate.level }}
+                    </span>
+                </div>
+                <p v-else class="mt-3 text-sm text-gray-400">Not taken yet.</p>
+
+                <button type="button" class="btn-secondary mt-4" @click="router.push('/placement')">
+                    {{ verifiedSkills.length ? 'Retake placement test' : 'Take placement test' }}
+                </button>
             </section>
 
             <section class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">

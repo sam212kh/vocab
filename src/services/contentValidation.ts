@@ -1,6 +1,6 @@
 /**
- * Educational content validation (Phase 10.7). Pure and self-contained (no runtime imports) so
- * `scripts/validate-content.mjs` can load it directly.
+ * Educational content validation (Phase 10.7). Pure and self-contained (no runtime/DOM imports, only
+ * sibling pure modules) so `scripts/validate-content.mjs` can load it directly.
  *
  * Input is the parsed JSON of everything under `public/data`, keyed by path relative to that folder.
  * Output is a list of issues. `error` = a learner would hit a broken or misleading screen, or a
@@ -9,6 +9,8 @@
  * Nothing here judges language quality (grammar, naturalness): that needs a human or an AI reviewer,
  * whose output would only ever be a suggestion. These checks are structural and deterministic.
  */
+
+import { findClozeMatch } from './clozeMatching.ts'
 
 export interface RepoContent {
     /** Parsed JSON by path relative to public/data, e.g. `real-life/manifest.json`. */
@@ -691,9 +693,29 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
 
                 if (!examples.length) add('warning', 'example-missing', where, `"${word.word}" has no example sentence.`)
 
+                /* A word's own 3 examples should each show a different use, not repeat one sentence. */
+                const ownSentences = new Set<string>()
+
+                for (const example of examples) {
+                    const english = isObj(example) ? example.english : Array.isArray(example) ? example[0] : undefined
+
+                    if (!str(english)) continue
+
+                    const key = norm(String(english))
+
+                    if (ownSentences.has(key)) add('warning', 'example-duplicate-within-word', where, `"${word.word}" repeats the same example sentence more than once.`)
+                    ownSentences.add(key)
+                }
+
                 /* The headword with any parenthetical sense marker stripped, exactly as ClozeView.buildQuestion derives it. */
                 const headword = String(word.word).replace(/\s*\([^)]*\)/g, '').trim()
                 const headwordPattern = headword ? new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
+                const clozeVariants = Array.isArray(word.clozeVariants) ? word.clozeVariants.filter(str) : []
+                const clozeCandidates = headword ? [headword, ...clozeVariants] : []
+                /* A headword that is itself a learner placeholder ("do sth", "tell sb/sth") or a slash
+                   alternative ("borrow/lend") is never meant to be found verbatim in a sentence — the app's
+                   own Cloze builder will always skip it, by design, so it's not a content gap to flag. */
+                const isPlaceholderHeadword = /\b(?:sth|sb|sbs|someone|something)\b|\/|\betc\.?$/iu.test(headword)
                 let clozeReachable = false
 
                 for (const [exampleIndex, example] of examples.entries()) {
@@ -712,11 +734,16 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
                         add('error', 'example-headword-untranslated', exampleWhere, `"${word.word}" example's Persian translation still contains the English headword instead of translating it.`)
                     }
 
-                    if (headwordPattern?.test(String(english))) {
+                    /* Matches the app's real Cloze logic (src/services/clozeMatching.ts): Unicode-aware,
+                       whitespace/apostrophe/hyphen-normalized, and aware of authored clozeVariants. */
+                    const clozeMatch = clozeCandidates.length ? findClozeMatch(String(english), clozeCandidates) : null
+
+                    if (clozeMatch) {
                         clozeReachable = true
 
-                        /* Group by the sentence with the headword blanked out, so repeated mechanical templates surface regardless of which word fills the slot. */
-                        const shape = norm(String(english).replace(headwordPattern, '<WORD>'))
+                        /* Group by the sentence with the matched phrase blanked out, so repeated mechanical
+                           templates surface regardless of which word fills the slot. */
+                        const shape = norm(`${String(english).slice(0, clozeMatch.start)}<WORD>${String(english).slice(clozeMatch.end)}`)
                         const group = templateSentences.get(shape) ?? []
 
                         group.push(exampleWhere)
@@ -724,7 +751,7 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
                     }
                 }
 
-                if (examples.length && !clozeReachable) add('warning', 'cloze-unreachable', where, `"${word.word}" has no example containing the exact headword as a whole word, so it can never appear in a Cloze exercise.`)
+                if (examples.length && !clozeReachable && !isPlaceholderHeadword) add('warning', 'cloze-unreachable', where, `"${word.word}" has no example containing the headword (or an authored clozeVariant) as a whole word/phrase, so it can never appear in a Cloze exercise.`)
 
                 const key = norm(word.word)
 

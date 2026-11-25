@@ -98,6 +98,15 @@ test('ETag conditional request returns not modified', async () => {
   assert.equal(second.status, 304)
 })
 
+test('language is part of the cache identity', async () => {
+  const text = `same text ${Date.now()}`
+  const before = (await (await fetch(`${baseUrl}/metrics`)).json()).generated
+  assert.equal((await synthesize({ text, lang: 'en-US', voice: 'en-US-AriaNeural' })).status, 200)
+  assert.equal((await synthesize({ text, lang: 'fa-IR', voice: 'en-US-AriaNeural' })).status, 200)
+  const after = (await (await fetch(`${baseUrl}/metrics`)).json()).generated
+  assert.equal(after, before + 2)
+})
+
 test('provider failures and timeouts return useful gateway errors without caching audio', async () => {
   process.env.TTS_TEST_PROVIDER_FAILURE = '1'
   const failure = await synthesize({ text: `failure ${Date.now()}`, voice: 'en-US-AriaNeural' })

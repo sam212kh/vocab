@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import AppIcon from '../components/ui/AppIcon.vue'
@@ -15,10 +15,18 @@ import { usePerformanceStore } from '../stores/performance'
 import { useMistakesStore } from '../stores/mistakes'
 import { useJourneyStore } from '../stores/journey'
 import { useLearningPositionStore } from '../stores/learningPosition'
+import { useLearningEvidenceStore } from '../stores/learningEvidence'
+import { useConversationsStore } from '../stores/conversations'
+import { useGamificationStore } from '../stores/gamification'
 
 import { buildDailyRecommendation } from '../services/learningRecommendation'
 import { recentActivity, relativeTime } from '../services/recentActivity'
 import { useLocale } from '../services/locale'
+import { computeStreak } from '../services/streak'
+import { computeXp } from '../services/xp'
+import { MILESTONES, evaluateMilestones } from '../services/milestones'
+import { buildRoadmap } from '../services/roadmap'
+import { useToastStore } from '../stores/toast'
 
 const wordProgressStore = useWordProgressStore()
 const hardWordsStore = useHardWordsStore()
@@ -28,6 +36,9 @@ const performanceStore = usePerformanceStore()
 const mistakesStore = useMistakesStore()
 const journeyStore = useJourneyStore()
 const positionStore = useLearningPositionStore()
+const learningEvidenceStore = useLearningEvidenceStore()
+const conversationsStore = useConversationsStore()
+const gamificationStore = useGamificationStore()
 const { locale } = useLocale()
 
 const recommendation = computed(() =>
@@ -62,28 +73,60 @@ const totalAnswers = computed(() => totalCorrect.value + progress.value.reduce((
 const accuracy = computed(() => (totalAnswers.value ? Math.round((totalCorrect.value / totalAnswers.value) * 100) : 0))
 const masteryPercent = computed(() => (totalWords.value ? Math.round((count('mastered') / totalWords.value) * 100) : 0))
 
-function dateKey(date: Date): string {
-    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-}
+/*
+ * Every source of real activity, not just word reviews — a learner who
+ * only did a Daily Journey or a grammar review yesterday still kept their
+ * streak. computeStreak() also doesn't reset to 0 the instant a new day
+ * starts before you've studied yet (Phase 11.6: streaks shouldn't punish,
+ * and "today has nothing yet" isn't the same as "the streak broke").
+ */
+const currentStreak = computed(() =>
+    computeStreak([
+        ...progress.value.map(item => item.lastReviewedAt).filter((ts): ts is number => ts !== null),
+        ...grammarProgressStore.progress.map(item => item.lastPracticedAt).filter((ts): ts is number => ts !== null),
+        ...journeyStore.sessions.map(session => session.completedAt).filter((ts): ts is number => ts !== null),
+    ])
+)
 
-const currentStreak = computed(() => {
-    const days = new Set<string>()
+const xp = computed(() => computeXp(learningEvidenceStore.items, journeyStore.completedJourneyCount))
 
-    for (const item of progress.value) {
-        if (item.lastReviewedAt) days.add(dateKey(new Date(item.lastReviewedAt)))
+const distinctIndependentlyKnownCount = computed(() =>
+    Object.values(learningEvidenceStore.items).filter(
+        item => item.counts.recall.independentSuccess > 0 || item.counts.production.independentSuccess > 0
+    ).length
+)
+
+const firstRoadmapStageCompleted = computed(() => {
+    const stages = buildRoadmap({
+        evidence: journeyStore.evidence,
+        completedJourneys: journeyStore.completedJourneyCount,
+        availableSources: ['vocabulary', 'grammar', 'real-life', 'career', 'conversation'],
+    })
+
+    return stages[0]?.state === 'completed'
+})
+
+const earnedMilestoneIds = computed(() =>
+    evaluateMilestones({
+        completedJourneyCount: journeyStore.completedJourneyCount,
+        distinctIndependentlyKnownCount: distinctIndependentlyKnownCount.value,
+        streakDays: currentStreak.value,
+        hasHadConversation: conversationsStore.endedSessions.length > 0,
+        hasCompletedFirstRoadmapStage: firstRoadmapStageCompleted.value,
+    })
+)
+
+const milestoneRows = computed(() => MILESTONES.map(def => ({ ...def, earned: earnedMilestoneIds.value.includes(def.id) })))
+
+onMounted(() => {
+    /* Celebrate anything earned since the learner was last here — once per milestone, ever. */
+    for (const id of earnedMilestoneIds.value) {
+        if (gamificationStore.isSeen(id)) continue
+
+        gamificationStore.markSeen(id)
+        const def = MILESTONES.find(item => item.id === id)
+        if (def) useToastStore().push(`🎉 ${def.title}`, 'success')
     }
-
-    let streak = 0
-    const cursor = new Date()
-
-    cursor.setHours(0, 0, 0, 0)
-
-    while (days.has(dateKey(cursor))) {
-        streak++
-        cursor.setDate(cursor.getDate() - 1)
-    }
-
-    return streak
 })
 
 /* Daily Journey: resume an interrupted one, otherwise offer a fresh start. */
@@ -256,6 +299,36 @@ const QUICK = [
                     </li>
                 </ul>
             </div>
+        </section>
+
+        <!-- Streak, XP and milestones -->
+        <section class="surface flex flex-wrap items-center gap-x-8 gap-y-4 p-5 sm:p-6" aria-label="Streak and milestones">
+            <div class="flex items-center gap-2.5">
+                <AppIcon name="bolt" :size="22" class="text-amber-500" />
+                <div>
+                    <p class="font-display text-2xl font-semibold tabular-nums text-gray-900">{{ currentStreak }}</p>
+                    <p class="text-xs text-gray-400">day streak</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2.5">
+                <AppIcon name="star" :size="22" class="text-accent" />
+                <div>
+                    <p class="font-display text-2xl font-semibold tabular-nums text-gray-900">{{ xp.total }}</p>
+                    <p class="text-xs text-gray-400">XP earned</p>
+                </div>
+            </div>
+            <ul class="flex flex-wrap gap-2" aria-label="Milestones">
+                <li
+                    v-for="milestone in milestoneRows"
+                    :key="milestone.id"
+                    class="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium"
+                    :class="milestone.earned ? 'bg-accent-soft text-accent-ink' : 'bg-gray-100 text-gray-400'"
+                    :title="milestone.description"
+                >
+                    <AppIcon :name="milestone.earned ? 'sparkle' : 'lock'" :size="13" />
+                    {{ milestone.title }}
+                </li>
+            </ul>
         </section>
 
         <!-- Progress + recent activity -->

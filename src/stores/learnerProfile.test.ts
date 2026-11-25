@@ -21,6 +21,7 @@ describe('learnerProfile store', () => {
         ])
         expect(store.profile.selfReportedLevel).toBe('B1')
         expect(store.profile.selectedProgramId).toBeNull()
+        expect(store.profile.onboardingCompletedAt).toBeNull()
     })
 
     it('update() merges a partial patch and bumps updatedAt', () => {
@@ -52,7 +53,7 @@ describe('learnerProfile store', () => {
                 __version: 1,
                 data: {
                     nativeLanguage: 'French',
-                    studyDurationMinutes: 999, // invalid, not one of 15/30/45/60
+                    studyDurationMinutes: 999, // invalid, not one of 5/10/15/20/30/45/60
                     goals: [{ type: 'not-a-real-goal', priority: 1 }],
                 },
             })
@@ -63,6 +64,29 @@ describe('learnerProfile store', () => {
         expect(store.profile.nativeLanguage).toBe('French')
         expect(store.profile.studyDurationMinutes).toBe(45)
         expect(store.profile.goals.length).toBeGreaterThan(0)
+        expect(store.profile.onboardingCompletedAt).toBeNull()
+    })
+
+    it('accepts every duration in the expanded onboarding range (5-60 min)', () => {
+        for (const minutes of [5, 10, 15, 20, 30, 45, 60] as const) {
+            setActivePinia(createPinia())
+            localStorage.clear()
+
+            const store = useLearnerProfileStore()
+            store.update({ studyDurationMinutes: minutes })
+
+            expect(store.profile.studyDurationMinutes).toBe(minutes)
+        }
+    })
+
+    it('completing onboarding sets onboardingCompletedAt and it survives reload', () => {
+        const first = useLearnerProfileStore()
+        first.update({ onboardingCompletedAt: Date.now() })
+
+        setActivePinia(createPinia())
+        const second = useLearnerProfileStore()
+
+        expect(second.profile.onboardingCompletedAt).not.toBeNull()
     })
 
     it('resetToDefaults() restores the default profile', () => {

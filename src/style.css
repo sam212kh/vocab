@@ -168,7 +168,7 @@
 
 /* Selectable pill (difficulty, mode, filters). aria-pressed drives the state. */
 @utility chip {
-  @apply inline-flex min-h-10 items-center justify-center rounded-full border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition hover:border-gray-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30;
+  @apply inline-flex min-h-11 items-center justify-center rounded-full border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 transition hover:border-gray-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30;
   &[aria-pressed="true"] { @apply border-transparent bg-accent text-white; }
 }
 @utility chip-active { @apply border-transparent bg-accent text-white; }

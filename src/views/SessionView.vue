@@ -364,7 +364,7 @@ onMounted(() => {
     <div>
         <div class="mb-8 flex flex-wrap items-start justify-between gap-4">
             <div>
-                <h1>Daily Session</h1>
+                <h1>Review Due Words</h1>
                 <p class="mt-2 text-gray-500">
                     Due reviews mixed with a few new words — interleaved, not blocked.
                 </p>

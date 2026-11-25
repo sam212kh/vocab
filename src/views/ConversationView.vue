@@ -660,7 +660,7 @@ onMounted(async () => {
                 </div>
 
                 <p v-if="!speakingEnabled" class="mt-1 text-xs text-gray-400">
-                    Voice input is off (Speaking disabled in Daily Session settings). Text chat works normally.
+                    Voice input is off (Speaking disabled in Review Due Words settings). Text chat works normally.
                 </p>
             </div>
         </template>

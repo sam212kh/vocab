@@ -211,10 +211,38 @@ describe('vocabulary and Cloze content quality', () => {
         expect(codes(content, 'warning')).toContain('cloze-unreachable')
     })
 
+    it('a word that repeats the same example sentence twice is a warning', () => {
+        const content = mutate(json => (json['l1.json'][0].examples = [
+            { english: 'Help me.', persian: 'کمکم کن.' },
+            { english: 'Help me.', persian: 'کمکم کن.' },
+        ]))
+
+        expect(codes(content, 'warning')).toContain('example-duplicate-within-word')
+    })
+
     it('a word with no part of speech is a warning', () => {
         const content = mutate(json => delete json['l1.json'][0].pos)
 
         expect(codes(content, 'warning')).toContain('pos-missing')
+    })
+
+    it('an authored clozeVariant that matches the example avoids a false cloze-unreachable warning', () => {
+        const content = mutate(json => {
+            json['l1.json'][0].word = 'defer'
+            json['l1.json'][0].clozeVariants = ['deferred']
+            json['l1.json'][0].examples = [{ english: 'The decision was deferred until next week.', persian: 'تصمیم تا هفته آینده به تعویق افتاد.' }]
+        })
+
+        expect(codes(content, 'warning')).not.toContain('cloze-unreachable')
+    })
+
+    it('a placeholder headword (sth/sb/slash alternatives) is never flagged as cloze-unreachable', () => {
+        const content = mutate(json => {
+            json['l1.json'][0].word = 'tell sb sth'
+            json['l1.json'][0].examples = [{ english: 'She told him the news gently.', persian: 'او خبر را با ملایمت به او گفت.' }]
+        })
+
+        expect(codes(content, 'warning')).not.toContain('cloze-unreachable')
     })
 
     it('the same recycled sentence shape reused across three or more words is an error', () => {

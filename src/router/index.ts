@@ -28,9 +28,13 @@ const GuidedSpeakingView = () => import('../views/GuidedSpeakingView.vue')
 const AISettingsView = () => import('../views/AISettingsView.vue')
 const ConversationView = () => import('../views/ConversationView.vue')
 const CoachView = () => import('../views/CoachView.vue')
+const ImmersiveView = () => import('../views/ImmersiveView.vue')
 const RealLifeView = () => import('../views/RealLifeView.vue')
 const CareerView = () => import('../views/CareerView.vue')
 const JourneyView = () => import('../views/JourneyView.vue')
+const OnboardingView = () => import('../views/OnboardingView.vue')
+const PlacementView = () => import('../views/PlacementView.vue')
+const LearningPathView = () => import('../views/LearningPathView.vue')
 
 /*
  * Lists load asynchronously, so on Back the saved position may be taller than
@@ -195,6 +199,11 @@ const router = createRouter({
             component: CoachView,
         },
         {
+            path: '/immersive',
+            name: 'immersive',
+            component: ImmersiveView,
+        },
+        {
             path: '/real-life',
             name: 'real-life',
             component: RealLifeView,
@@ -210,6 +219,23 @@ const router = createRouter({
             component: JourneyView,
         },
         {
+            path: '/onboarding',
+            name: 'onboarding',
+            component: OnboardingView,
+            meta: { focusLayout: true },
+        },
+        {
+            path: '/placement',
+            name: 'placement',
+            component: PlacementView,
+            meta: { focusLayout: true },
+        },
+        {
+            path: '/learning-path',
+            name: 'learning-path',
+            component: LearningPathView,
+        },
+        {
             path: '/progress',
             name: 'progress',
             component: ProgressView,
@@ -221,6 +247,38 @@ const router = createRouter({
         },
     ]
 })
+/*
+ * Offer onboarding only to a genuinely new learner: nobody who already has
+ * word-progress or journey history gets redirected, so an existing learner
+ * (this app currently has at least one in real use) never loses their place
+ * or gets interrupted. Checked on every navigation, but it's a handful of
+ * cheap store reads and naturally stops mattering once onboardingCompletedAt
+ * is set.
+ */
+router.beforeEach(async to => {
+    if (to.name === 'onboarding' || to.name === 'not-found') return true
+
+    const [{ useLearnerProfileStore }, { useWordProgressStore }, { useJourneyStore }] = await Promise.all([
+        import('../stores/learnerProfile'),
+        import('../stores/wordProgress'),
+        import('../stores/journey'),
+    ])
+
+    const profile = useLearnerProfileStore()
+
+    if (profile.profile.onboardingCompletedAt !== null) return true
+
+    const hasExistingHistory = useWordProgressStore().progress.length > 0 || useJourneyStore().sessions.length > 0
+
+    if (hasExistingHistory) {
+        /* Treat an existing learner as implicitly onboarded rather than ever interrupting them. */
+        profile.update({ onboardingCompletedAt: Date.now() })
+        return true
+    }
+
+    return { name: 'onboarding' }
+})
+
 router.afterEach(to => {
     document.title = titleForRoute(to.name)
 })

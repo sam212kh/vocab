@@ -4,7 +4,7 @@ import { defineStore } from 'pinia'
 import { createVersionedRepository } from '../persistence/versionedStorage'
 
 export interface SessionSettings {
-    /** When off, the Daily Session skips the speaking step after recall. */
+    /** When off, Review Due Words skips the speaking step after recall. */
     speakingEnabled: boolean
 }
 

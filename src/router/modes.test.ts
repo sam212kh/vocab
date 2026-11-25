@@ -9,6 +9,7 @@ describe('modeForPath', () => {
         ['/practice', 'practice'], ['/quiz', 'practice'], ['/cloze', 'practice'], ['/matching', 'practice'], ['/listening', 'practice'],
         ['/grammar', 'practice'], ['/reading', 'practice'], ['/conversation', 'practice'], ['/session', 'practice'], ['/writing', 'practice'],
         ['/career-english', 'career'],
+        ['/onboarding', 'overview'], ['/placement', 'practice'], ['/learning-path', 'learn'],
     ])('%s → %s', (path, mode) => {
         expect(modeForPath(path)).toBe(mode)
     })

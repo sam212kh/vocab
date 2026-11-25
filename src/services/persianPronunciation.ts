@@ -1,24 +1,11 @@
-import { speakAsync } from './speech'
+import { speakAsync, stop } from './speech'
 
-const AUDIO_BASE_PATH = '/audio/fa'
-
-let currentAudio: HTMLAudioElement | null = null
 let unlocked = false
-let resolveCurrentAudio: (() => void) | null = null
-
-function normalizeWord(word: string): string {
-    return word
-        .trim()
-        .toLowerCase()
-        .replace(/\s+/g, '-')
-}
 
 export function getPersianAudioUrl(
     word: string
 ): string {
-    const filename = normalizeWord(word)
-
-    return `${AUDIO_BASE_PATH}/${encodeURIComponent(filename)}.mp3`
+    return `/api/tts?lang=fa-IR&text=${encodeURIComponent(word.trim())}`
 }
 
 /**
@@ -28,103 +15,21 @@ export function getPersianAudioUrl(
  * before any asynchronous speech starts.
  */
 export async function unlockPersianAudio(
-    word: string
+    _word: string
 ): Promise<void> {
-    if (unlocked) {
-        return
-    }
-
-    const audio = new Audio(
-        getPersianAudioUrl(word)
-    )
-
-    audio.preload = 'auto'
-    audio.muted = true
-
-    try {
-        await audio.play()
-
-        audio.pause()
-        audio.currentTime = 0
-        audio.muted = false
-
-        unlocked = true
-
-        console.log(
-            '[PersianAudio] Audio unlocked'
-        )
-    } catch (error) {
-        console.error(
-            '[PersianAudio] Failed to unlock audio:',
-            error
-        )
-
-        throw error
-    }
+    unlocked = true
 }
 
+export function isPersianAudioUnlocked(): boolean { return unlocked }
+
 export function stopPersianPronunciation(): void {
-    if (!currentAudio) {
-        return
-    }
-
-    currentAudio.pause()
-    currentAudio.currentTime = 0
-
-    currentAudio = null
-    resolveCurrentAudio?.()
-    resolveCurrentAudio = null
+    stop()
 }
 
 export function playPersianPronunciation(
     word: string
 ): Promise<void> {
-    stopPersianPronunciation()
-
-
-    return new Promise((resolve, reject) => {
-        const url = getPersianAudioUrl(word)
-
-
-        const audio = new Audio(url)
-
-        currentAudio = audio
-        resolveCurrentAudio = resolve
-
-        audio.preload = 'auto'
-
-        audio.onended = () => {
-            if (currentAudio === audio) {
-                currentAudio = null
-                resolveCurrentAudio = null
-            }
-
-            resolve()
-        }
-
-        audio.onerror = () => {
-            if (currentAudio === audio) {
-                currentAudio = null
-                resolveCurrentAudio = null
-            }
-
-            // Pre-recorded files are preferred, but a missing/corrupt asset
-            // must not make Persian pronunciation unavailable. Fall back to
-            // the browser/system Persian voice for that word.
-            void speakAsync(word, 'fa-IR').then(ok => {
-                if (ok) resolve()
-                else reject(new Error(`Persian audio not found: ${url}`))
-            })
-        }
-
-        audio.play().catch(error => {
-            if (currentAudio === audio) {
-                currentAudio = null
-                resolveCurrentAudio = null
-            }
-
-
-            reject(error)
-        })
+    return speakAsync(word, 'fa-IR').then(ok => {
+        if (!ok) throw new Error('Persian Piper audio is unavailable.')
     })
 }

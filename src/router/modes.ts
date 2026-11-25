@@ -8,10 +8,10 @@ export type SectionMode = 'overview' | 'learn' | 'practice' | 'career'
 const PRACTICE_PATHS = [
     '/practice', '/session', '/quiz', '/cloze', '/matching', '/listening', '/listen-guess',
     '/listen-repeat', '/grammar', '/reading', '/hard-words', '/review', '/speaking-practice',
-    '/guided-speaking', '/writing', '/conversation',
+    '/guided-speaking', '/writing', '/conversation', '/placement',
 ]
 
-const LEARN_PATHS = ['/lessons', '/courses', '/real-life', '/learn']
+const LEARN_PATHS = ['/lessons', '/courses', '/real-life', '/learn', '/learning-path']
 
 function startsWithPath(path: string, base: string): boolean {
     return path === base || path.startsWith(`${base}/`)

@@ -1,7 +1,7 @@
 const TITLES: Record<string, string> = {
     dashboard: 'Dashboard',
     'daily-journey': 'Daily Journey',
-    session: 'Daily Session',
+    session: 'Review Due Words',
     lessons: 'Courses',
     course: 'Course',
     lesson: 'Lesson',
@@ -25,8 +25,12 @@ const TITLES: Record<string, string> = {
     'ai-settings': 'AI Settings',
     conversation: 'Conversation',
     coach: 'AI Coach',
+    immersive: 'Immersive Scenarios',
     'real-life': 'Real-Life English',
     'career-english': 'Career English',
+    onboarding: 'Welcome',
+    placement: 'Placement Test',
+    'learning-path': 'Learning Path',
     'not-found': 'Page not found',
 }
 

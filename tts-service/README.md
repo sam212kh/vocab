@@ -72,6 +72,7 @@ TTS_ALLOWED_ORIGINS=https://vocabulary.example.com
 PIPER_BIN=/opt/piper/venv/bin/piper
 FFMPEG_BIN=/usr/bin/ffmpeg
 TTS_PIPER_VOICES=en_US-lessac-high=/opt/piper/voices/en_US-lessac-high.onnx,en_US-ryan-high=/opt/piper/voices/en_US-ryan-high.onnx
+TTS_PIPER_FA_VOICES=fa_IR-mana-medium=/home/sam/.persian-speech/models/fa_IR-mana-medium.onnx
 
 TTS_CACHE_DIR=/var/cache/english-upgrade-tts
 TTS_CACHE_TTL_DAYS=180
@@ -86,6 +87,13 @@ TTS_RATE_LIMIT_PER_MINUTE=30
 ```env
 TTS_PIPER_VOICES=en_US-lessac-medium=/opt/piper/voices/en_US-lessac-medium.onnx,en_US-ryan-high=/opt/piper/voices/en_US-ryan-high.onnx
 ```
+
+Persian uses the same Piper executable and service but has an independent voice
+map. Set `TTS_PIPER_FA_VOICES` to the existing Persian ONNX model path (on this
+development environment the discovered models are `fa_IR-mana-medium`,
+`fa_IR-amir-medium`, and `fa_IR-gyro-medium` under `/home/sam/.persian-speech/models`).
+The frontend sends `lang: fa-IR`; the service includes language, text, voice,
+provider, format, and rate in its disk-cache identity.
 
 The frontend loads configured voices from `GET /api/tts/voices`, remembers the selected voice, and uses it for normal playback, Listen & Repeat, and preload. The frontend defaults to `en_US-lessac-medium`; set `VITE_TTS_VOICES` only when the service endpoint is not available during development.
 

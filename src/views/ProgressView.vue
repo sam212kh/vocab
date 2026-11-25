@@ -10,6 +10,7 @@ import { useJourneyStore } from '../stores/journey'
 import { useLearningEvidenceStore } from '../stores/learningEvidence'
 import { usePerformanceStore } from '../stores/performance'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useImmersiveProgressStore } from '../stores/immersiveProgress'
 
 import { lexKey } from '../services/evidenceBridge'
 import { generateInsights } from '../services/insights'
@@ -30,6 +31,7 @@ const ledger = useLearningEvidenceStore()
 const performanceStore = usePerformanceStore()
 const journeyStore = useJourneyStore()
 const wordProgressStore = useWordProgressStore()
+const immersiveProgressStore = useImmersiveProgressStore()
 const { locale } = useLocale()
 
 const patterns = ref<TransferPattern[]>([])
@@ -99,6 +101,11 @@ const communicationMetrics = computed(() => COMMUNICATION_METRICS.map(metric => 
     ...metric,
     result: dimension(metric.dimension),
 })))
+
+const immersiveSummary = computed(() => ({
+    completed: immersiveProgressStore.records.reduce((sum, item) => sum + item.completed, 0),
+    scenarios: immersiveProgressStore.records.filter(item => item.completed > 0).length,
+}))
 
 function communicationStatus(classification: ReturnType<typeof dimension>['classification']): string {
     if (locale.value === 'fa') {
@@ -241,6 +248,18 @@ function communicationStatus(classification: ReturnType<typeof dimension>['class
                     </RouterLink>
                 </article>
             </div>
+        </section>
+
+        <!-- Immersive scenarios -->
+        <section class="surface p-5 sm:p-6" aria-labelledby="immersive-title">
+            <div class="flex flex-wrap items-baseline justify-between gap-3">
+                <div>
+                    <h2 id="immersive-title" class="label">Immersive scenarios</h2>
+                    <p class="fa-text mt-1 text-xs text-gray-400" lang="fa">سناریوهای تعاملی</p>
+                </div>
+                <RouterLink to="/immersive" class="text-sm font-semibold text-accent-ink hover:underline">Practice a scenario →</RouterLink>
+            </div>
+            <p class="mt-3 text-sm text-gray-600">{{ immersiveSummary.completed }} completed attempt(s) across {{ immersiveSummary.scenarios }} scenario(s). Choice-based actions are assisted; independent responses are recorded through the existing conversation evidence.</p>
         </section>
 
         <!-- Vocabulary -->

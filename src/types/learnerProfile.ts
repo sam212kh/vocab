@@ -26,7 +26,7 @@ export type StudyDay =
     | 'sat'
     | 'sun'
 
-export type StudyDurationMinutes = 15 | 30 | 45 | 60
+export type StudyDurationMinutes = 5 | 10 | 15 | 20 | 30 | 45 | 60
 
 export type ExplanationLanguage = 'persian' | 'english' | 'bilingual'
 
@@ -46,6 +46,8 @@ export interface LearnerProfile {
     selfReportedLevel: CefrLevel | null
     /** Learning program selected from Phase 2+ program management (not implemented yet). */
     selectedProgramId: string | null
+    /** Set once the Phase 11 onboarding flow is finished or explicitly skipped. null = never shown/completed. */
+    onboardingCompletedAt: number | null
     createdAt: number
     updatedAt: number
 }
@@ -71,6 +73,7 @@ export function createDefaultLearnerProfile(now = Date.now()): LearnerProfile {
          */
         selfReportedLevel: 'B1',
         selectedProgramId: null,
+        onboardingCompletedAt: null,
         createdAt: now,
         updatedAt: now,
     }

@@ -44,10 +44,10 @@ export const useSkillProfileStore = defineStore(
          * "verified" automatically. Skills are independent: calling this for
          * "speaking" has no effect on any other skill's level.
          */
-        function selfReportLevel(skill: SkillName, level: CefrLevel) {
+        function selfReportLevel(skill: SkillName, level: CefrLevel, options: { silent?: boolean } = {}) {
             recordEstimate(skill, level, 'self-reported', SELF_REPORTED_CONFIDENCE)
 
-            useToastStore().push(`${skill} updated to ${level} (self-reported).`, 'success')
+            if (!options.silent) useToastStore().push(`${skill} updated to ${level} (self-reported).`, 'success')
         }
 
         /**
