@@ -1,4 +1,4 @@
-import type { Word } from '../types/vocabulary'
+import type { SynonymSense, Word } from '../types/vocabulary'
 import type { RealLifeExpression } from '../types/realLife'
 
 /**
@@ -29,7 +29,7 @@ export interface LearnItem {
     examples: LearnExample[]
     /** Short in-context passage, when the content has one. */
     context?: string
-    synonyms: string[]
+    synonyms: SynonymSense[]
     /** Natural-usage explanation — only when the content genuinely has one. */
     usage?: string
     /** Common mistakes — only when the content genuinely has them. */

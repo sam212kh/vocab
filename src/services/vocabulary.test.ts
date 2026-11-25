@@ -88,6 +88,34 @@ describe('loadLesson', () => {
         expect(words[0].lessonId).toBe('lesson-1')
     })
 
+    it('SRS does not silently discard a synonym\'s Persian gloss (the multi-meaning root cause)', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
+            {
+                word: 'obtain',
+                meaning: 'به دست آوردن',
+                examples: [],
+                synonyms: [['acquire', 'کسب کردن'], ['get', 'گرفتن']],
+            },
+        ])))
+
+        const words = await loadLesson(lesson)
+
+        expect(words[0].synonyms).toEqual([
+            { word: 'acquire', meaning: 'کسب کردن' },
+            { word: 'get', meaning: 'گرفتن' },
+        ])
+    })
+
+    it('a legacy plain-string synonym (no gloss) normalizes to an empty meaning, not a crash or a guess', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
+            { word: 'abundant', meaning: 'فراوان', examples: [], synonyms: ['plentiful'] },
+        ])))
+
+        const words = await loadLesson(lesson)
+
+        expect(words[0].synonyms).toEqual([{ word: 'plentiful', meaning: '' }])
+    })
+
     it('preserves explicit Cloze inflection variants', async () => {
         vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
             { word: 'cease', clozeVariants: ['ceased'], examples: [] },

@@ -3,6 +3,7 @@ import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useSessionSettingsStore } from '../stores/sessionSettings'
 
 import {
     checkPronunciation,
@@ -27,10 +28,14 @@ import type {
     Word,
 } from '../types/vocabulary'
 
-import SpeechButton from '../components/ui/SpeechButton.vue'
+import WordRecallPrompt from '../components/learn/WordRecallPrompt.vue'
+import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 
 const wordProgressStore =
     useWordProgressStore()
+
+const sessionSettingsStore =
+    useSessionSettingsStore()
 
 const {
     isSupported,
@@ -332,7 +337,10 @@ function proceedToSpeak() {
         return
     }
 
-    phase.value = 'speak'
+    /* Speaking step can be disabled — go straight to the result, matching Review Due Words. */
+    phase.value = sessionSettingsStore.settings.speakingEnabled
+        ? 'speak'
+        : 'result'
 }
 
 async function practiceCurrentWord() {
@@ -549,14 +557,34 @@ onMounted(() => {
                     </p>
                 </div>
 
-                <button
-                    type="button"
-                    class="rounded-lg border px-4 py-2 text-sm hover:bg-gray-50 disabled:opacity-50"
-                    :disabled="loading"
-                    @click="refresh"
-                >
-                    ↻ Refresh
-                </button>
+                <div class="flex items-center gap-2">
+                    <button
+                        type="button"
+                        role="switch"
+                        :aria-checked="sessionSettingsStore.settings.speakingEnabled"
+                        aria-label="Speaking practice"
+                        class="flex min-h-11 items-center gap-2 rounded-xl border px-4 text-sm transition"
+                        :class="sessionSettingsStore.settings.speakingEnabled
+                            ? 'border-accent bg-accent text-white hover:bg-accent-strong'
+                            : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
+                        :title="sessionSettingsStore.settings.speakingEnabled
+                            ? 'Speaking step is on — click to skip it in this review'
+                            : 'Speaking step is off — click to include it again'"
+                        @click="sessionSettingsStore.toggleSpeaking"
+                    >
+                        <AppIcon name="mic" :size="16" />
+                        <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="min-h-11 rounded-lg border px-4 text-sm hover:bg-gray-50 disabled:opacity-50"
+                        :disabled="loading"
+                        @click="refresh"
+                    >
+                        ↻ Refresh
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -684,20 +712,10 @@ onMounted(() => {
                     </h2>
 
                     <div
+                        v-if="!recallRevealed"
                         class="mt-10"
                     >
-                        <p
-                            class="text-lg text-gray-600"
-                        >
-                            {{ currentWord.meaning }}
-                        </p>
-
-                        <SpeechButton
-                            :text="
-                                currentWord.word
-                            "
-                            lang="fa-IR"
-                        />
+                        <WordRecallPrompt :word="currentWord" :pool="words" />
                     </div>
 
                     <form
@@ -725,22 +743,13 @@ onMounted(() => {
                         v-else
                         class="mt-8"
                     >
-                        <div
-                            class="flex items-center justify-center gap-3"
-                        >
-                            <h3
-                                class="text-4xl font-bold"
-                            >
-                                {{ currentWord.word }}
-                            </h3>
-
-                            <SpeechButton
-                                :text="
-                                    currentWord.word
-                                "
-                                lang="en-US"
-                            />
-                        </div>
+                        <WordMeaningsBlock
+                            :word="currentWord.word"
+                            :meaning="currentWord.meaning"
+                            :pos="currentWord.pos"
+                            :synonyms="currentWord.synonyms"
+                            :examples="currentWord.examples"
+                        />
 
                         <p
                             class="mt-4 text-lg font-semibold"

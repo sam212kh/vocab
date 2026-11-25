@@ -3,6 +3,7 @@ import type {
     Example,
     LessonManifest,
     Manifest,
+    SynonymSense,
     Word,
 } from '../types/vocabulary'
 
@@ -45,12 +46,21 @@ function normalizeExample(value: unknown): Example {
     }
 }
 
-function normalizeSynonym(value: unknown): string {
+/**
+ * Root cause of the "missing second meaning" bug: this used to return only
+ * `value[0]`, silently discarding each synonym's Persian gloss (`value[1]`)
+ * — real data the content authors provided, dropped at the parser before
+ * anything downstream ever saw it.
+ */
+function normalizeSynonym(value: unknown): SynonymSense {
     if (Array.isArray(value)) {
-        return String(value[0] ?? '').trim()
+        return {
+            word: String(value[0] ?? '').trim(),
+            meaning: String(value[1] ?? '').trim(),
+        }
     }
 
-    return String(value ?? '').trim()
+    return { word: String(value ?? '').trim(), meaning: '' }
 }
 
 function normalizeWord(
@@ -66,7 +76,7 @@ function normalizeWord(
     const synonyms = Array.isArray(raw.synonyms)
         ? raw.synonyms
             .map(normalizeSynonym)
-            .filter(Boolean)
+            .filter(entry => entry.word)
         : []
 
     const clozeVariants = Array.isArray(raw.clozeVariants)

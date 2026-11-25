@@ -73,9 +73,11 @@ watch(() => props.item.id, () => { showAllExamples.value = false })
                 <AudioPlayer v-if="persianAudio" :text="item.text" lang="fa-IR" pill label="Persian" />
             </div>
 
-            <p v-if="item.synonyms.length" class="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-sm text-ink-soft" dir="ltr">
-                <span class="text-xs uppercase tracking-[0.08em] text-ink-faint">Also</span>
-                <span v-for="synonym in item.synonyms" :key="synonym" class="rounded-full border border-learn-200/70 bg-white/70 px-2.5 py-0.5">{{ synonym }}</span>
+            <p v-if="item.synonyms.length" class="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-sm text-ink-soft">
+                <span class="text-xs uppercase tracking-[0.08em] text-ink-faint" dir="ltr">Also</span>
+                <span v-for="synonym in item.synonyms" :key="synonym.word" class="rounded-full border border-learn-200/70 bg-white/70 px-2.5 py-0.5" dir="ltr">
+                    <span lang="en">{{ synonym.word }}</span><template v-if="synonym.meaning"> · <span class="fa-text" lang="fa">{{ synonym.meaning }}</span></template>
+                </span>
             </p>
         </header>
 

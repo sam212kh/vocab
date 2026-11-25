@@ -3,6 +3,16 @@ export interface Example {
     persian: string
 }
 
+/**
+ * An English synonym with its own Persian gloss, when the content provides
+ * one (`["acquire", "کسب کردن"]` in the raw JSON). `meaning` is '' for the
+ * legacy plain-string form (`"acquire"`, no gloss) — never invented.
+ */
+export interface SynonymSense {
+    word: string
+    meaning: string
+}
+
 export interface Word {
     courseId: string
     lessonId: string
@@ -10,7 +20,7 @@ export interface Word {
     meaning: string
     level: string
     pos: string
-    synonyms: string[]
+    synonyms: SynonymSense[]
     /** Explicit forms that may be blanked when the headword is inflected. */
     clozeVariants?: string[]
     examples: Example[]

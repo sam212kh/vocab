@@ -372,7 +372,10 @@ onMounted(() => {
 
             <button
                 type="button"
-                class="flex items-center gap-2 rounded-xl border px-4 py-2 text-sm transition"
+                role="switch"
+                :aria-checked="sessionSettingsStore.settings.speakingEnabled"
+                aria-label="Speaking practice"
+                class="flex min-h-11 items-center gap-2 rounded-xl border px-4 text-sm transition"
                 :class="sessionSettingsStore.settings.speakingEnabled
                     ? 'border-accent bg-accent text-white hover:bg-accent-strong'
                     : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
@@ -381,6 +384,7 @@ onMounted(() => {
                     : 'Speaking step is off — click to include it again'"
                 @click="sessionSettingsStore.toggleSpeaking"
             >
+                <AppIcon name="mic" :size="16" />
                 <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
             </button>
         </div>

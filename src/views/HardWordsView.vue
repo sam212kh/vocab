@@ -4,6 +4,7 @@ import { computed, ref } from 'vue'
 
 import { useHardWordsStore } from '../stores/hardWords'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useSessionSettingsStore } from '../stores/sessionSettings'
 
 import {
     checkPronunciation,
@@ -20,6 +21,9 @@ const hardWordsStore =
 
 const wordProgressStore =
     useWordProgressStore()
+
+const sessionSettingsStore =
+    useSessionSettingsStore()
 
 const {
     isSupported,
@@ -102,13 +106,17 @@ function startThinking() {
 function startSpeaking() {
     resetPracticeState()
 
-    phase.value = 'speak'
+    /* Speaking can be turned off globally — go straight to the result, matching Review Due Words / Review Words. */
+    phase.value = sessionSettingsStore.settings.speakingEnabled
+        ? 'speak'
+        : 'result'
 }
 
 async function practiceWord() {
     if (
         !currentWord.value ||
-        isListening.value
+        isListening.value ||
+        !sessionSettingsStore.settings.speakingEnabled
     ) {
         return
     }
@@ -163,7 +171,9 @@ async function practiceWord() {
 function tryAgain() {
     resetPracticeState()
 
-    phase.value = 'speak'
+    phase.value = sessionSettingsStore.settings.speakingEnabled
+        ? 'speak'
+        : 'result'
 }
 
 function markKnown() {
@@ -213,6 +223,12 @@ function markDifficult() {
             progress.courseId,
             progress.lessonId
         )
+    }
+
+    /* Normally practice saying it again right away; with speaking off there is nothing to retry, so move on. */
+    if (!sessionSettingsStore.settings.speakingEnabled) {
+        nextWord()
+        return
     }
 
     resetPracticeState()
@@ -293,18 +309,38 @@ function removeCurrentWord() {
 <template>
     <div>
         <!-- Header -->
-        <div class="mb-8">
-            <h1
-            >
-                Hard Words Practice
-            </h1>
+        <div class="mb-8 flex flex-wrap items-start justify-between gap-4">
+            <div>
+                <h1
+                >
+                    Hard Words Practice
+                </h1>
 
-            <p
-                class="mt-2 text-gray-500"
+                <p
+                    class="mt-2 text-gray-500"
+                >
+                    Practice the words you find
+                    difficult.
+                </p>
+            </div>
+
+            <button
+                type="button"
+                role="switch"
+                :aria-checked="sessionSettingsStore.settings.speakingEnabled"
+                aria-label="Speaking practice"
+                class="flex min-h-11 items-center gap-2 rounded-xl border px-4 text-sm transition"
+                :class="sessionSettingsStore.settings.speakingEnabled
+                    ? 'border-accent bg-accent text-white hover:bg-accent-strong'
+                    : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
+                :title="sessionSettingsStore.settings.speakingEnabled
+                    ? 'Speaking step is on — click to skip it in this review'
+                    : 'Speaking step is off — click to include it again'"
+                @click="sessionSettingsStore.toggleSpeaking"
             >
-                Practice the words you find
-                difficult.
-            </p>
+                <AppIcon name="mic" :size="16" />
+                <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
+            </button>
         </div>
 
         <!-- Empty -->
@@ -465,6 +501,7 @@ function removeCurrentWord() {
                     </div>
 
                     <p
+                        v-if="sessionSettingsStore.settings.speakingEnabled"
                         class="mt-6 text-sm text-gray-500"
                     >
                         Try to remember the
@@ -479,7 +516,7 @@ function removeCurrentWord() {
                             startSpeaking
                         "
                     >
-                        Speak →
+                        {{ sessionSettingsStore.settings.speakingEnabled ? 'Speak →' : 'Continue →' }}
                     </button>
                 </div>
 
@@ -637,6 +674,7 @@ function removeCurrentWord() {
                     >
                         <button
                             v-if="
+                                sessionSettingsStore.settings.speakingEnabled &&
                                 !pronunciationCorrect
                             "
                             type="button"

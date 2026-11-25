@@ -13,7 +13,7 @@ import type { Word } from '../types/vocabulary'
 
 const WORD: Word = {
     courseId: 'c', lessonId: 'l', word: 'achieve', meaning: 'به دست آوردن', level: 'B1', pos: 'verb',
-    synonyms: ['accomplish'], examples: [{ english: 'She will achieve her goal.', persian: 'او به هدفش می‌رسد.' }],
+    synonyms: [{ word: 'accomplish', meaning: '' }], examples: [{ english: 'She will achieve her goal.', persian: 'او به هدفش می‌رسد.' }],
     miniContext: 'To achieve more, plan.',
 }
 
@@ -21,7 +21,7 @@ describe('adapters', () => {
     it('word → item keeps every field and invents nothing', () => {
         const item = itemFromWord(WORD)
 
-        expect(item).toMatchObject({ id: 'achieve', text: 'achieve', meaning: WORD.meaning, pos: 'verb', level: 'B1', synonyms: ['accomplish'] })
+        expect(item).toMatchObject({ id: 'achieve', text: 'achieve', meaning: WORD.meaning, pos: 'verb', level: 'B1', synonyms: [{ word: 'accomplish', meaning: '' }] })
         expect(item.examples).toEqual(WORD.examples)
         expect(item.usage).toBeUndefined()
         expect(item.mistakes).toEqual([])

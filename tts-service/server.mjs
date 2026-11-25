@@ -238,7 +238,7 @@ const server = createServer(async (req, res) => {
     const text = normalizeText(body.text)
     const lang = body.lang === 'fa-IR' ? 'fa-IR' : 'en-US'
     const defaultVoice = lang === 'fa-IR'
-      ? (config.provider === 'azure' ? 'fa-IR-DilaraNeural' : config.provider === 'piper' ? 'fa_IR-mana-medium' : 'fa')
+      ? (config.provider === 'azure' ? 'fa-IR-DilaraNeural' : config.provider === 'piper' ? 'fa_IR-gyro-medium' : 'fa')
       : (config.provider === 'azure' ? 'en-US-AriaNeural' : config.provider === 'piper' ? 'en_US-lessac-medium' : 'en-US')
     const voice = typeof body.voice === 'string' ? body.voice : defaultVoice
     const formatName = body.format ?? 'mp3'
