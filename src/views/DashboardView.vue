@@ -209,8 +209,8 @@ const QUICK = [
             <AppIcon name="chevron-right" :size="16" class="shrink-0 text-gray-300" />
         </RouterLink>
 
-        <!-- Today: the journey (primary) + spaced review -->
-        <section class="grid gap-5 lg:grid-cols-[minmax(0,1.65fr)_minmax(0,1fr)]" aria-label="Today">
+        <!-- Today's goal: ONE primary next action, not a row of equal-weight cards -->
+        <section aria-label="Today's goal">
             <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-6 text-white shadow-md sm:p-8">
                 <div class="pointer-events-none absolute inset-0" aria-hidden="true">
                     <div class="absolute -right-16 -top-20 h-72 w-72 rounded-full bg-white/[0.06]" />
@@ -220,7 +220,7 @@ const QUICK = [
                 </div>
 
                 <div class="relative max-w-md">
-                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">{{ activeJourney ? 'In progress' : "Today's journey" }}</p>
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">{{ activeJourney ? 'In progress' : "Today's goal" }}</p>
                     <h2 class="font-display mt-2 text-[1.75rem] font-semibold leading-tight sm:text-4xl">
                         {{ activeJourney ? 'Pick up where you left off' : 'Learn it, recall it, then use it' }}
                     </h2>
@@ -242,81 +242,67 @@ const QUICK = [
                     </RouterLink>
                 </div>
             </div>
-
-            <div class="surface flex flex-col p-6">
-                <p class="label">Spaced review</p>
-                <p class="font-display mt-2 text-6xl font-semibold leading-none tabular-nums text-gray-900">{{ dueWords }}</p>
-                <p class="mt-2 text-sm text-gray-500">
-                    {{ dueWords ? `word${dueWords === 1 ? '' : 's'} ready for review. Short reviews keep them in memory.` : 'Nothing due — your reviews are up to date.' }}
-                </p>
-                <div class="mt-auto pt-5">
-                    <RouterLink v-if="dueWords" to="/session" class="btn-primary btn-lg w-full">Review now</RouterLink>
-                    <RouterLink v-else to="/lessons" class="btn-secondary btn-lg w-full">Learn new words</RouterLink>
-                </div>
-            </div>
         </section>
 
-        <!-- Continue + recommended -->
-        <section class="grid gap-5 lg:grid-cols-2" aria-label="Next steps">
-            <div class="surface flex flex-col p-5 sm:p-6">
-                <p class="label">Continue learning</p>
+        <!-- Or continue with: due reviews, an in-progress lesson, one recommended activity -- secondary to the hero above, never competing with it for attention -->
+        <section class="surface p-5 sm:p-6" aria-label="Other things to do today">
+            <p class="label">Or continue with</p>
 
-                <RouterLink v-if="lastLesson" :to="lastLessonLink" class="group mt-3 flex items-center gap-4 rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30">
-                    <div class="h-16 w-24 shrink-0 overflow-hidden rounded-xl border border-gray-200/80" aria-hidden="true">
-                        <LearningIllustration :seed="`${lastLesson.courseId}/${lastLesson.lessonId}`" />
-                    </div>
-                    <div class="min-w-0 flex-1">
-                        <p class="wrap-anywhere font-display text-lg font-semibold leading-snug text-gray-900 group-hover:text-learn-700">{{ lastLesson.title }}</p>
-                        <p class="mt-0.5 text-sm text-gray-500">Expression {{ lastLesson.index + 1 }} of {{ lastLesson.total }}</p>
-                        <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
-                            <div class="h-full rounded-full bg-learn-500" :style="{ width: `${Math.round(((lastLesson.index + 1) / lastLesson.total) * 100)}%` }" />
+            <ul class="mt-3 divide-y divide-gray-100">
+                <li>
+                    <RouterLink :to="dueWords ? '/session' : '/lessons'" class="group flex min-h-14 items-center gap-3.5 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg">
+                        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-gray-500 group-hover:bg-accent-soft group-hover:text-accent-ink"><AppIcon name="repeat" /></span>
+                        <span class="min-w-0 flex-1">
+                            <span class="block font-semibold text-gray-900">{{ dueWords ? `Review ${dueWords} due word${dueWords === 1 ? '' : 's'}` : 'Reviews are up to date' }}</span>
+                            <span class="mt-0.5 block text-sm leading-snug text-gray-500">{{ dueWords ? 'Short reviews keep them in memory.' : 'Learn new words instead.' }}</span>
+                        </span>
+                        <AppIcon name="chevron-right" :size="16" class="shrink-0 text-gray-300 group-hover:text-accent" />
+                    </RouterLink>
+                </li>
+
+                <li v-if="lastLesson">
+                    <RouterLink :to="lastLessonLink" class="group flex min-h-14 items-center gap-3.5 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg">
+                        <div class="h-10 w-14 shrink-0 overflow-hidden rounded-lg border border-gray-200/80" aria-hidden="true">
+                            <LearningIllustration :seed="`${lastLesson.courseId}/${lastLesson.lessonId}`" />
                         </div>
-                    </div>
-                    <AppIcon name="chevron-right" class="text-gray-300 group-hover:text-learn-600" />
-                </RouterLink>
+                        <span class="min-w-0 flex-1">
+                            <span class="wrap-anywhere block font-semibold text-gray-900 group-hover:text-learn-700">{{ lastLesson.title }}</span>
+                            <span class="mt-0.5 block text-sm text-gray-500">Continue · expression {{ lastLesson.index + 1 }} of {{ lastLesson.total }}</span>
+                        </span>
+                        <AppIcon name="chevron-right" :size="16" class="shrink-0 text-gray-300 group-hover:text-learn-600" />
+                    </RouterLink>
+                </li>
 
-                <div v-else class="mt-3">
-                    <p class="text-sm text-gray-500">No lesson in progress. Open one to start building your vocabulary.</p>
-                </div>
+                <li v-if="nextAction">
+                    <RouterLink :to="nextAction.route" class="group flex min-h-14 items-center gap-3.5 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg">
+                        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-gray-500 group-hover:bg-accent-soft group-hover:text-accent-ink"><AppIcon :name="iconForRoute(nextAction.route)" /></span>
+                        <span class="min-w-0 flex-1">
+                            <span class="block font-semibold text-gray-900">{{ nextAction.label }}</span>
+                            <span class="mt-0.5 block text-sm leading-snug text-gray-500">{{ nextAction.reason }}</span>
+                        </span>
+                        <span class="shrink-0 text-xs text-gray-400">~{{ nextAction.estimatedMinutes }} min</span>
+                    </RouterLink>
+                </li>
 
-                <RouterLink to="/lessons" class="mt-auto inline-flex min-h-11 items-center gap-1.5 pt-4 text-sm font-semibold text-learn-700 hover:text-learn-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
-                    {{ lastLesson ? 'Browse all lessons' : 'Browse lessons' }} <AppIcon name="chevron-right" :size="16" />
-                </RouterLink>
-            </div>
+                <li v-for="item in otherActions" :key="item.type">
+                    <RouterLink :to="item.route" class="flex min-h-12 items-center gap-3 rounded-lg px-1 text-sm text-gray-700 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+                        <AppIcon :name="iconForRoute(item.route)" :size="17" class="text-gray-400" />
+                        <span class="flex-1 truncate">{{ item.label }}</span>
+                        <span class="text-xs text-gray-400">~{{ item.estimatedMinutes }} min</span>
+                    </RouterLink>
+                </li>
+            </ul>
 
-            <div class="surface p-5 sm:p-6">
-                <div class="flex items-baseline justify-between">
-                    <p class="label">Recommended for you</p>
-                    <span class="text-xs text-gray-400">~{{ recommendation.totalEstimatedMinutes }} min</span>
-                </div>
-
-                <RouterLink
-                    v-if="nextAction"
-                    :to="nextAction.route"
-                    class="group mt-3 flex items-start gap-3.5 rounded-2xl bg-accent-soft p-3.5 transition hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30"
-                >
-                    <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-accent-ink shadow-sm"><AppIcon :name="iconForRoute(nextAction.route)" /></span>
-                    <span class="min-w-0 flex-1">
-                        <span class="block font-semibold text-gray-900">{{ nextAction.label }}</span>
-                        <span class="mt-0.5 block text-sm leading-snug text-gray-500">{{ nextAction.reason }}</span>
-                    </span>
-                    <span class="shrink-0 text-xs text-gray-400">~{{ nextAction.estimatedMinutes }} min</span>
-                </RouterLink>
-
-                <ul v-if="otherActions.length" class="mt-2 divide-y divide-gray-100">
-                    <li v-for="item in otherActions" :key="item.type">
-                        <RouterLink :to="item.route" class="flex min-h-12 items-center gap-3 rounded-lg px-1 text-sm text-gray-700 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
-                            <AppIcon :name="iconForRoute(item.route)" :size="17" class="text-gray-400" />
-                            <span class="flex-1 truncate">{{ item.label }}</span>
-                            <span class="text-xs text-gray-400">~{{ item.estimatedMinutes }} min</span>
-                        </RouterLink>
-                    </li>
-                </ul>
-            </div>
+            <RouterLink v-if="!lastLesson" to="/lessons" class="mt-3 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-learn-700 hover:text-learn-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40">
+                Browse lessons <AppIcon name="chevron-right" :size="16" />
+            </RouterLink>
         </section>
 
-        <!-- Streak, XP and milestones -->
-        <section class="surface flex flex-wrap items-center gap-x-8 gap-y-4 p-5 sm:p-6" aria-label="Streak and milestones">
+        <!-- Daily progress: streak, XP and milestones -->
+        <section class="surface p-5 sm:p-6" aria-label="Daily progress">
+            <p class="label">Daily progress</p>
+
+            <div class="mt-3 flex flex-wrap items-center gap-x-8 gap-y-4">
             <div class="flex items-center gap-2.5">
                 <AppIcon name="bolt" :size="22" class="text-amber-500" />
                 <div>
@@ -343,10 +329,11 @@ const QUICK = [
                     {{ milestone.title }}
                 </li>
             </ul>
+            </div>
         </section>
 
-        <!-- Progress + recent activity -->
-        <section class="grid gap-5 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]" aria-label="Progress">
+        <!-- Skill progress + recent activity -->
+        <section class="grid gap-5 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]" aria-label="Skill progress">
             <div class="surface p-5 sm:p-6">
                 <p class="label">Vocabulary</p>
 

@@ -30,6 +30,13 @@ const staticTranslations: Record<string, string> = {
     'No words due for review yet — this session will introduce new vocabulary.': 'هنوز واژه‌ای برای مرور نیست — این جلسه واژه‌های جدید معرفی می‌کند.',
     'Next steps': 'گام‌های بعدی',
     'Continue learning': 'ادامه یادگیری',
+    "Today's goal": 'هدف امروز',
+    'Or continue with': 'یا ادامه دهید با',
+    'Reviews are up to date': 'مرورها به‌روز است',
+    'Learn new words instead.': 'در عوض واژه‌های جدید یاد بگیرید.',
+    'Short reviews keep them in memory.': 'مرورهای کوتاه آن‌ها را در حافظه نگه می‌دارند.',
+    'Daily progress': 'پیشرفت روزانه',
+    'Your learning path': 'مسیر یادگیری شما',
     'Expression': 'عبارت',
     'of': 'از',
     'Browse all lessons': 'مشاهده همه درس‌ها',
@@ -586,6 +593,12 @@ export function translateText(text: string, value: AppLocale = locale.value): st
 
         const hardWordsNonePlayable = text.match(/^(\d+) hard words? saved — none have audio here$/)
         if (hardWordsNonePlayable) return `${hardWordsNonePlayable[1]} واژه دشوار ذخیره شده — هیچ‌کدام در اینجا صدا ندارند`
+
+        const reviewDueWords = text.match(/^Review (\d+) due words?$/)
+        if (reviewDueWords) return `مرور ${reviewDueWords[1]} واژه سررسیده`
+
+        const continueExpression = text.match(/^Continue · expression (\d+) of (\d+)$/)
+        if (continueExpression) return `ادامه · عبارت ${continueExpression[1]} از ${continueExpression[2]}`
 
         return Object.entries(staticTranslations)
             // Never translate isolated words inside learner/content data. Exact
