@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import AudioPlayer from './AudioPlayer.vue'
 import { getMeanings } from '../../services/vocabularyMeanings'
 import type { Example, SynonymSense } from '../../types/vocabulary'
@@ -25,7 +26,8 @@ const props = withDefaults(defineProps<{
     showAudio: true,
 })
 
-const meanings = getMeanings({ meaning: props.meaning, synonyms: props.synonyms })
+/* Reactive — props.meaning/synonyms change when the caller advances to the next word while this component instance stays mounted (e.g. Hard Words "Next →"). A plain non-reactive const here would silently keep showing the previous word's meanings. */
+const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: props.synonyms }))
 </script>
 
 <template>

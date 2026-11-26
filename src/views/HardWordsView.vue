@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AppIcon from '../components/ui/AppIcon.vue'
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 
 import { useHardWordsStore } from '../stores/hardWords'
 import { useWordProgressStore } from '../stores/wordProgress'
@@ -14,7 +14,12 @@ import {
     useSpeakingPractice,
 } from '../composables/useSpeakingPractice'
 
+import { loadManifest } from '../services/vocabulary'
+import { resolveFullHardWords } from '../services/hardWordsLookup'
+import type { Word } from '../types/vocabulary'
+
 import SpeechButton from '../components/ui/SpeechButton.vue'
+import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 
 const hardWordsStore =
     useHardWordsStore()
@@ -62,6 +67,52 @@ const currentWord = computed(() => {
             currentIndex.value
             ] ?? null
     )
+})
+
+/*
+|--------------------------------------------------------------------------
+| Full Vocabulary Enrichment
+|--------------------------------------------------------------------------
+|
+| hardWordsStore only keeps {word, meaning, addedAt} — enough to display a
+| single meaning, but not pos/examples/synonyms. For words that also exist
+| in the vocabulary library we fetch the full Word via the one shared
+| lookup (services/hardWordsLookup.ts, same source ListenRepeatView uses)
+| so multi-meaning + examples can be shown here too. Words saved from
+| content outside the vocabulary library (e.g. a reading passage) stay
+| unmatched and keep falling back to the lightweight {word, meaning} line —
+| nothing is fabricated for them.
+|
+*/
+const enrichedWords = ref<Map<string, Word>>(new Map())
+
+onMounted(async () => {
+    if (!hardWordsStore.hardWords.length) {
+        return
+    }
+
+    try {
+        const manifest = await loadManifest()
+
+        const { found } = await resolveFullHardWords(
+            hardWordsStore.hardWords.map(entry => entry.word),
+            manifest
+        )
+
+        enrichedWords.value = new Map(
+            found.map(word => [word.word.trim().toLowerCase(), word])
+        )
+    } catch (err) {
+        console.error('Failed to enrich hard words:', err)
+    }
+})
+
+const currentEnrichedWord = computed<Word | null>(() => {
+    if (!currentWord.value) {
+        return null
+    }
+
+    return enrichedWords.value.get(currentWord.value.word.trim().toLowerCase()) ?? null
 })
 
 const currentProgress = computed(() => {
@@ -420,35 +471,47 @@ function removeCurrentWord() {
                         Listen
                     </h2>
 
-                    <div
-                        class="mt-10 flex items-center justify-center gap-3"
-                    >
-                        <h3
-                            class="text-4xl font-bold"
-                        >
-                            {{ currentWord.word }}
-                        </h3>
-
-                        <SpeechButton
-                            :text="
-                                currentWord.word
-                            "
-                            lang="en-US"
+                    <div v-if="currentEnrichedWord" class="mt-10 text-left">
+                        <WordMeaningsBlock
+                            :word="currentEnrichedWord.word"
+                            :meaning="currentEnrichedWord.meaning"
+                            :pos="currentEnrichedWord.pos"
+                            :synonyms="currentEnrichedWord.synonyms"
+                            :examples="currentEnrichedWord.examples"
                         />
                     </div>
 
-                    <p
-                        class="mt-5 text-lg text-gray-600"
-                    >
-                        {{ currentWord.meaning }}
-                    </p>
+                    <template v-else>
+                        <div
+                            class="mt-10 flex items-center justify-center gap-3"
+                        >
+                            <h3
+                                class="text-4xl font-bold"
+                            >
+                                {{ currentWord.word }}
+                            </h3>
 
-                    <SpeechButton
-                        :text="
-                            currentWord.meaning
-                        "
-                        lang="fa-IR"
-                    />
+                            <SpeechButton
+                                :text="
+                                    currentWord.word
+                                "
+                                lang="en-US"
+                            />
+                        </div>
+
+                        <p
+                            class="mt-5 text-lg text-gray-600"
+                        >
+                            {{ currentWord.meaning }}
+                        </p>
+
+                        <SpeechButton
+                            :text="
+                                currentWord.meaning
+                            "
+                            lang="fa-IR"
+                        />
+                    </template>
 
                     <div
                         class="mt-10 flex justify-center"
@@ -487,17 +550,28 @@ function removeCurrentWord() {
                     <div
                         class="mt-10 rounded-xl bg-gray-50 p-8"
                     >
-                        <p
-                            class="text-4xl font-bold"
-                        >
-                            {{ currentWord.word }}
-                        </p>
+                        <WordMeaningsBlock
+                            v-if="currentEnrichedWord"
+                            :word="currentEnrichedWord.word"
+                            :meaning="currentEnrichedWord.meaning"
+                            :pos="currentEnrichedWord.pos"
+                            :synonyms="currentEnrichedWord.synonyms"
+                            :examples="currentEnrichedWord.examples"
+                        />
 
-                        <p
-                            class="mt-5 text-lg text-gray-600"
-                        >
-                            {{ currentWord.meaning }}
-                        </p>
+                        <template v-else>
+                            <p
+                                class="text-4xl font-bold"
+                            >
+                                {{ currentWord.word }}
+                            </p>
+
+                            <p
+                                class="mt-5 text-lg text-gray-600"
+                            >
+                                {{ currentWord.meaning }}
+                            </p>
+                        </template>
                     </div>
 
                     <p

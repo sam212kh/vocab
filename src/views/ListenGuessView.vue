@@ -5,6 +5,7 @@ import { loadLesson, loadManifest } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
 import { answersMatch } from '../services/textMatch'
 import { speakAsync, getSpeechRate } from '../services/speech'
+import { getMeanings } from '../services/vocabularyMeanings'
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
 import ActivityBar from '../components/practice/ActivityBar.vue'
 import ActivityPage from '../components/practice/ActivityPage.vue'
@@ -41,6 +42,13 @@ const selectedLesson = computed<LessonManifest | null>(() =>
 const availableLessons = computed(() => selectedCourse.value?.lessons ?? [])
 
 const currentWord = computed(() => words.value[index.value] ?? null)
+
+/* Every verified Persian meaning for the current word — never just the first, never fabricated. */
+const currentMeanings = computed(() => {
+    if (!currentWord.value) return []
+
+    return getMeanings({ meaning: currentWord.value.meaning, synonyms: currentWord.value.synonyms })
+})
 const finished = computed(() => started.value && index.value >= words.value.length)
 
 function stripSense(word: string): string {
@@ -204,7 +212,25 @@ onMounted(async () => {
                 />
 
                 <AnswerFeedback v-if="revealed" class="mt-4" :correct="result === 'correct'" :answer="currentWord.word">
-                    <span class="fa-text" lang="fa">{{ currentWord.meaning }}</span>
+                    <p v-if="currentMeanings.length <= 1" class="fa-text" lang="fa">
+                        {{ currentMeanings[0]?.text ?? currentWord.meaning }}
+                    </p>
+                    <ol v-else class="fa-text list-inside list-decimal space-y-0.5" lang="fa">
+                        <li v-for="entry in currentMeanings" :key="entry.text">{{ entry.text }}</li>
+                    </ol>
+
+                    <details v-if="currentWord.examples?.length" class="mt-2 group">
+                        <summary class="inline-flex min-h-11 cursor-pointer items-center gap-1 text-sm font-medium text-accent-ink select-none">
+                            <span class="transition group-open:rotate-90">›</span>
+                            <span>Examples</span>
+                        </summary>
+                        <ul class="mt-2 space-y-2 border-t border-gray-200 pt-2">
+                            <li v-for="(example, exIndex) in currentWord.examples" :key="exIndex">
+                                <p class="wrap-anywhere text-sm text-gray-800" dir="ltr" lang="en">{{ example.english }}</p>
+                                <p class="fa-text wrap-anywhere mt-0.5 text-sm text-gray-500" lang="fa">{{ example.persian }}</p>
+                            </li>
+                        </ul>
+                    </details>
                 </AnswerFeedback>
 
                 <div class="mt-5 flex gap-3">

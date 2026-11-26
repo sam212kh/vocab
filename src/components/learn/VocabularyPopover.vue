@@ -2,6 +2,7 @@
 import AudioPlayer from './AudioPlayer.vue'
 import AppIcon from '../ui/AppIcon.vue'
 import BottomSheet from '../ui/BottomSheet.vue'
+import WordMeaningsBlock from './WordMeaningsBlock.vue'
 
 import type { LearnItem } from '../../services/learnItems'
 
@@ -19,8 +20,16 @@ const emit = defineEmits<{ close: []; open: []; save: [] }>()
 <template>
     <BottomSheet :open="!!item" :title="item?.text ?? ''" @close="emit('close')">
         <template v-if="item">
-            <p v-if="item.pos" class="-mt-1 text-xs uppercase tracking-[0.08em] text-ink-faint">{{ item.pos }}</p>
-            <p class="fa-text mt-2 text-xl text-ink" lang="fa">{{ item.meaning }}</p>
+            <div class="mt-2">
+                <WordMeaningsBlock
+                    :word="item.text"
+                    :meaning="item.meaning"
+                    :pos="item.pos"
+                    :synonyms="item.synonyms"
+                    :examples="item.examples"
+                    :show-audio="false"
+                />
+            </div>
 
             <div class="mt-3 flex flex-wrap items-center gap-2">
                 <AudioPlayer :text="item.text" size="md" slow :label="item.text" />

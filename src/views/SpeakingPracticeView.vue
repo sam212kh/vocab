@@ -21,6 +21,7 @@ import type {
 } from '../types/vocabulary'
 
 import SpeechButton from '../components/ui/SpeechButton.vue'
+import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 
@@ -401,23 +402,25 @@ const practiceWords = computed(() => {
                     {{ lesson?.title }}
                 </p>
 
-                <div
-                    class="mt-6 flex items-center justify-center gap-3"
-                >
-                    <h2 class="text-4xl font-bold">
-                        {{ currentWord.word }}
-                    </h2>
-
-                    <SpeechButton
-                        :text="currentWord.word"
-                        lang="en-US"
-                        label=""
+                <div class="mt-6 text-left">
+                    <WordMeaningsBlock
+                        :word="currentWord.word"
+                        :meaning="currentWord.meaning"
+                        :pos="currentWord.pos"
+                        :synonyms="currentWord.synonyms"
+                        :examples="currentWord.examples"
+                        :show-audio="false"
                     />
                 </div>
 
-                <p class="mt-4 text-lg text-gray-600">
-                    {{ currentWord.meaning }}
-                </p>
+                <div
+                    class="mt-4 flex items-center justify-center gap-3"
+                >
+                    <SpeechButton
+                        :text="currentWord.word"
+                        lang="en-US"
+                    />
+                </div>
 
                 <!-- Word Progress -->
 

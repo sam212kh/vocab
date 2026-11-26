@@ -27,6 +27,8 @@ import type {
 } from '../types/vocabulary'
 
 import SpeechButton from '../components/ui/SpeechButton.vue'
+import WordRecallPrompt from '../components/learn/WordRecallPrompt.vue'
+import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 
 /*
  * One daily session mixes words that are due for
@@ -438,7 +440,7 @@ onMounted(() => {
                     <h2 class="mt-2 text-2xl font-bold">What's the word?</h2>
 
                     <div class="mt-10">
-                        <p class="text-lg text-gray-600">{{ currentWord.meaning }}</p>
+                        <WordRecallPrompt :word="currentWord" :pool="words" />
                         <SpeechButton :text="currentWord.meaning" lang="fa-IR" />
                     </div>
 
@@ -458,11 +460,14 @@ onMounted(() => {
                         </button>
                     </form>
 
-                    <div v-else class="mt-8">
-                        <div class="flex items-center justify-center gap-3">
-                            <h3 class="text-4xl font-bold">{{ currentWord.word }}</h3>
-                            <SpeechButton :text="currentWord.word" lang="en-US" />
-                        </div>
+                    <div v-else class="mt-8 text-left">
+                        <WordMeaningsBlock
+                            :word="currentWord.word"
+                            :meaning="currentWord.meaning"
+                            :pos="currentWord.pos"
+                            :synonyms="currentWord.synonyms"
+                            :examples="currentWord.examples"
+                        />
 
                         <p
                             class="mt-4 text-lg font-semibold"

@@ -5,6 +5,8 @@ import { useRoute } from 'vue-router'
 import AppIcon from '../components/ui/AppIcon.vue'
 import AudioPlayer from '../components/learn/AudioPlayer.vue'
 import PracticeProgress from '../components/practice/PracticeProgress.vue'
+import WordRecallPrompt from '../components/learn/WordRecallPrompt.vue'
+import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { answersMatch } from '../services/textMatch'
@@ -250,9 +252,11 @@ onMounted(async () => {
                     </p>
 
                     <p class="mt-5 text-center text-sm text-ink-soft">How do you say this in English?</p>
-                    <h2 class="fa-text wrap-anywhere mt-2 text-center text-[1.9rem] font-semibold leading-snug text-ink sm:text-4xl" lang="fa">
-                        {{ currentWord.meaning }}
-                    </h2>
+                    <WordRecallPrompt
+                        :word="currentWord"
+                        :pool="words"
+                        class="fa-text wrap-anywhere mt-2 text-center text-[1.9rem] font-semibold leading-snug text-ink sm:text-4xl"
+                    />
 
                     <form class="mt-8" @submit.prevent="revealed ? next() : answer.trim() && checkAnswer()">
                         <input
@@ -291,12 +295,25 @@ onMounted(async () => {
                             <AppIcon :name="result === 'correct' ? 'check' : 'close'" :size="18" />
                             {{ result === 'correct' ? 'Correct' : 'Not quite' }}
                         </p>
-                        <div v-if="result === 'wrong'" class="mt-2 flex items-center justify-between gap-3">
-                            <div class="min-w-0">
-                                <p class="text-xs text-ink-faint">Correct answer</p>
-                                <p class="wrap-anywhere text-lg font-semibold text-ink" dir="ltr">{{ currentWord.word }}</p>
+                        <div v-if="result === 'wrong'" class="mt-2">
+                            <div class="flex items-center justify-between gap-3">
+                                <div class="min-w-0">
+                                    <p class="text-xs text-ink-faint">Correct answer</p>
+                                    <p class="wrap-anywhere text-lg font-semibold text-ink" dir="ltr">{{ currentWord.word }}</p>
+                                </div>
+                                <AudioPlayer :text="currentWord.word" size="md" tone="practice" slow :label="currentWord.word" />
                             </div>
-                            <AudioPlayer :text="currentWord.word" size="md" tone="practice" slow :label="currentWord.word" />
+
+                            <div class="mt-3 border-t border-bad-600/15 pt-3">
+                                <WordMeaningsBlock
+                                    :word="currentWord.word"
+                                    :meaning="currentWord.meaning"
+                                    :pos="currentWord.pos"
+                                    :synonyms="currentWord.synonyms"
+                                    :examples="currentWord.examples"
+                                    :show-audio="false"
+                                />
+                            </div>
                         </div>
                     </div>
 

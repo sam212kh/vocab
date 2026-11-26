@@ -7,6 +7,9 @@ import {
     loadManifest,
 } from '../services/vocabulary'
 
+import { resolveFullHardWords } from '../services/hardWordsLookup'
+import { getMeanings } from '../services/vocabularyMeanings'
+
 import type {
     CourseManifest,
     LessonManifest,
@@ -128,6 +131,13 @@ const currentWord = computed(() => {
     return playableWords.value[currentIndex.value] ?? null
 })
 
+/* Every verified Persian meaning for the current word — never just the first, never fabricated. */
+const currentMeanings = computed(() => {
+    if (!currentWord.value) return []
+
+    return getMeanings({ meaning: currentWord.value.meaning, synonyms: currentWord.value.synonyms })
+})
+
 /*
 |--------------------------------------------------------------------------
 | Load All Hard Words
@@ -149,13 +159,12 @@ const currentWord = computed(() => {
  * production bug ("Hard words not loading" — it wasn't broken, it was
  * timing out / appearing to hang under real latency).
  *
- * Fixed by: skipping the scan entirely when there's nothing to find,
- * fetching lessons concurrently in bounded batches instead of one at a
- * time, and stopping as soon as every saved hard word has actually been
- * found instead of always walking the full library.
+ * Fixed by: delegating to the shared `resolveFullHardWords` lookup
+ * (services/hardWordsLookup.ts) — the same authoritative source
+ * HardWordsView.vue uses — instead of an inline duplicate scan. It fetches
+ * lessons concurrently in bounded batches and stops as soon as every saved
+ * hard word has actually been matched.
  */
-const LESSON_FETCH_CONCURRENCY = 16
-
 async function loadAllHardWords() {
     /*
      * Already loaded?
@@ -177,40 +186,12 @@ async function loadAllHardWords() {
     error.value = ''
 
     try {
-        const uniqueWords = new Map<string, Word>()
-        const targetCount = hardWordsStore.hardWords.length
+        const { found } = await resolveFullHardWords(
+            hardWordsStore.hardWords.map(entry => entry.word),
+            { version: 1, courses: courses.value }
+        )
 
-        const allLessons = courses.value.flatMap(course => course.lessons)
-
-        for (let start = 0; start < allLessons.length; start += LESSON_FETCH_CONCURRENCY) {
-            const batch = allLessons.slice(start, start + LESSON_FETCH_CONCURRENCY)
-
-            const results = await Promise.all(
-                batch.map(async lessonItem => {
-                    try {
-                        return await loadLesson(lessonItem)
-                    } catch (err) {
-                        console.error(`Failed to load ${lessonItem.id}:`, err)
-                        return []
-                    }
-                })
-            )
-
-            for (const words of results) {
-                for (const word of words) {
-                    if (!hardWordsStore.isHardWord(word.word)) continue
-
-                    const key = word.word.trim().toLowerCase()
-
-                    if (!uniqueWords.has(key)) uniqueWords.set(key, word)
-                }
-            }
-
-            /* Every saved hard word has been matched — no need to keep scanning the rest of the library. */
-            if (uniqueWords.size >= targetCount) break
-        }
-
-        allHardWords.value = Array.from(uniqueWords.values())
+        allHardWords.value = found
 
         hardWordsLoaded.value = true
 
@@ -575,7 +556,7 @@ onMounted(async () => {
                     <div
                         class="text-2xl font-bold text-yellow-700"
                     >
-                        {{ allHardWords.length }}
+                        {{ hardWordsStore.hardWords.length }}
                     </div>
 
                     <div
@@ -585,6 +566,15 @@ onMounted(async () => {
                     </div>
                 </div>
             </div>
+
+            <p
+                v-if="hardWordsLoaded && allHardWords.length < hardWordsStore.hardWords.length"
+                class="mt-3 border-t border-yellow-200 pt-3 text-sm text-yellow-700"
+            >
+                {{ allHardWords.length }} of {{ hardWordsStore.hardWords.length }} have audio and examples available to repeat here — the rest were saved from content that isn't in the vocabulary library (e.g. a reading or listening passage), so there's nothing to play for them on this screen. They're still saved — see
+                <RouterLink to="/hard-words" class="font-semibold underline">Hard Words Practice</RouterLink>
+                for the complete list.
+            </p>
         </div>
 
         <!-- =========================================================
@@ -718,10 +708,32 @@ onMounted(async () => {
                 <!-- Meaning -->
 
                 <p
+                    v-if="currentMeanings.length <= 1"
                     class="mt-3 text-lg text-gray-600"
                 >
-                    {{ currentWord.meaning }}
+                    {{ currentMeanings[0]?.text ?? currentWord.meaning }}
                 </p>
+
+                <ol
+                    v-else
+                    class="fa-text mt-3 list-inside list-decimal space-y-0.5 text-lg text-gray-600"
+                    lang="fa"
+                >
+                    <li v-for="entry in currentMeanings" :key="entry.text">{{ entry.text }}</li>
+                </ol>
+
+                <details v-if="currentWord.examples?.length" class="mt-4 text-left group">
+                    <summary class="inline-flex min-h-11 cursor-pointer items-center gap-1 text-sm font-medium text-accent-ink select-none">
+                        <span class="transition group-open:rotate-90">›</span>
+                        <span>Examples</span>
+                    </summary>
+                    <ul class="mt-2 space-y-3 border-t border-gray-100 pt-3">
+                        <li v-for="(example, index) in currentWord.examples" :key="index">
+                            <p class="wrap-anywhere text-sm text-gray-800" dir="ltr" lang="en">{{ example.english }}</p>
+                            <p class="fa-text wrap-anywhere mt-0.5 text-sm text-gray-500" lang="fa">{{ example.persian }}</p>
+                        </li>
+                    </ul>
+                </details>
 
                 <!-- Playback status -->
 
@@ -837,7 +849,8 @@ onMounted(async () => {
         <div
             v-else-if="
                 !loading &&
-                mode === 'hard'
+                mode === 'hard' &&
+                !hardWordsStore.hardWords.length
             "
             class="surface px-6 py-12 text-center text-gray-500"
         >
@@ -868,6 +881,35 @@ onMounted(async () => {
             >
                 Back to Lesson Words
             </button>
+        </div>
+
+        <!-- =========================================================
+             HARD WORDS SAVED, BUT NONE PLAYABLE HERE
+        ========================================================== -->
+
+        <div
+            v-else-if="
+                !loading &&
+                mode === 'hard' &&
+                hardWordsStore.hardWords.length > 0
+            "
+            class="surface px-6 py-12 text-center text-gray-500"
+        >
+            <div class="text-5xl">
+                ⭐
+            </div>
+
+            <h2 class="mt-4 text-lg font-semibold text-gray-700">
+                {{ hardWordsStore.hardWords.length }} hard word{{ hardWordsStore.hardWords.length === 1 ? '' : 's' }} saved — none have audio here
+            </h2>
+
+            <p class="mx-auto mt-2 max-w-md text-sm text-gray-500">
+                They were saved from content that isn't part of the vocabulary library (for example a reading or listening passage), so this screen has no example sentence or audio to repeat for them. Nothing was lost — see them all in Hard Words Practice.
+            </p>
+
+            <RouterLink to="/hard-words" class="btn-primary mt-6 inline-block">
+                Open Hard Words Practice
+            </RouterLink>
         </div>
 
         <!-- =========================================================
