@@ -8,11 +8,22 @@ import type {
  * Grammar content loader — same runtime pattern as services/vocabulary.ts:
  * everything is fetched from /data/ (public/data/ on disk), content never
  * lives inside components.
+ *
+ * In-memory, per-session caching (same fix as vocabulary.ts's
+ * loadManifest/loadLesson): Daily Journey planning (journeyContent.ts) loads
+ * every grammar topic to build each day's plan, so without caching every
+ * Journey rebuild re-fetched the entire grammar library from scratch.
  */
-export async function loadGrammarManifest(): Promise<GrammarManifest> {
-    const response = await fetch('/data/grammar/manifest.json', {
-        cache: 'no-store',
-    })
+let grammarManifestPromise: Promise<GrammarManifest> | null = null
+const grammarTopicCache = new Map<string, Promise<GrammarTopic>>()
+
+export function clearGrammarContentCache(): void {
+    grammarManifestPromise = null
+    grammarTopicCache.clear()
+}
+
+async function fetchGrammarManifest(): Promise<GrammarManifest> {
+    const response = await fetch('/data/grammar/manifest.json')
 
     if (!response.ok) {
         throw new Error(`Could not load grammar manifest (${response.status})`)
@@ -27,11 +38,21 @@ export async function loadGrammarManifest(): Promise<GrammarManifest> {
     return manifest
 }
 
-export async function loadGrammarTopic(
-    topic: GrammarTopicManifest
-): Promise<GrammarTopic> {
-    const file = topic.file.replace(/^\.\//, '').replace(/^\//, '')
+export function loadGrammarManifest(): Promise<GrammarManifest> {
+    if (!grammarManifestPromise) {
+        grammarManifestPromise = fetchGrammarManifest().catch(error => {
+            grammarManifestPromise = null
+            throw error
+        })
+    }
 
+    return grammarManifestPromise
+}
+
+async function fetchGrammarTopic(
+    topic: GrammarTopicManifest,
+    file: string
+): Promise<GrammarTopic> {
     const response = await fetch(`/data/grammar/${file}`)
 
     if (!response.ok) {
@@ -52,4 +73,21 @@ export async function loadGrammarTopic(
         examples: Array.isArray(raw.examples) ? raw.examples : [],
         exercises: raw.exercises,
     }
+}
+
+export function loadGrammarTopic(
+    topic: GrammarTopicManifest
+): Promise<GrammarTopic> {
+    const file = topic.file.replace(/^\.\//, '').replace(/^\//, '')
+
+    const cached = grammarTopicCache.get(file)
+    if (cached) return cached
+
+    const pending = fetchGrammarTopic(topic, file).catch(error => {
+        grammarTopicCache.delete(file)
+        throw error
+    })
+
+    grammarTopicCache.set(file, pending)
+    return pending
 }

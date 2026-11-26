@@ -23,6 +23,27 @@ interface RawWord {
 // Lesson JSON is static and otherwise can remain cached by a production CDN.
 let contentVersion = '1'
 
+/**
+ * Previously both fetches below forced `cache: 'no-store'` and were called
+ * fresh by every view's `onMounted` with no memoization — so navigating
+ * between any two of Practice/Cloze/Listen & Repeat/Hard Words/etc. re-fetched
+ * the whole manifest (116KB raw) and re-fetched every lesson file again, even
+ * for content that cannot have changed within the session. That's the root
+ * cause behind "the app feels slow everywhere" and Hard Words Practice/Repeat
+ * Mode re-scanning every lesson on every single visit. In-memory, per-session
+ * caching here (the versioned `?v=` query string already invalidates it
+ * correctly when content changes) fixes both at once without adding a second
+ * data store.
+ */
+let manifestPromise: Promise<Manifest> | null = null
+const lessonCache = new Map<string, Promise<Word[]>>()
+
+/** Clears the in-memory manifest/lesson cache. Exposed for tests that need each case to hit a fresh fetch mock. */
+export function clearVocabularyCache(): void {
+    manifestPromise = null
+    lessonCache.clear()
+}
+
 function normalizeExample(value: unknown): Example {
     if (Array.isArray(value)) {
         return {
@@ -102,10 +123,8 @@ function normalizeWord(
     }
 }
 
-export async function loadManifest(): Promise<Manifest> {
-    const response = await fetch('/data/manifest.json', {
-        cache: 'no-store',
-    })
+async function fetchManifest(): Promise<Manifest> {
+    const response = await fetch('/data/manifest.json')
 
     if (!response.ok) {
         throw new Error(
@@ -142,17 +161,22 @@ export async function loadManifest(): Promise<Manifest> {
     }
 }
 
-export async function loadLesson(
-    lesson: LessonManifest
-): Promise<Word[]> {
-    const file = lesson.file
-        .replace(/^\.\//, '')
-        .replace(/^\//, '')
+export function loadManifest(): Promise<Manifest> {
+    if (!manifestPromise) {
+        manifestPromise = fetchManifest().catch(error => {
+            manifestPromise = null
+            throw error
+        })
+    }
 
-    const response = await fetch(
-        `/data/${file}?v=${encodeURIComponent(contentVersion)}`,
-        { cache: 'no-store' },
-    )
+    return manifestPromise
+}
+
+async function fetchLesson(
+    lesson: LessonManifest,
+    url: string
+): Promise<Word[]> {
+    const response = await fetch(url)
 
     if (!response.ok) {
         throw new Error(
@@ -177,4 +201,25 @@ export async function loadLesson(
             )
         )
         .filter(item => item.word)
+}
+
+export function loadLesson(
+    lesson: LessonManifest
+): Promise<Word[]> {
+    const file = lesson.file
+        .replace(/^\.\//, '')
+        .replace(/^\//, '')
+
+    const url = `/data/${file}?v=${encodeURIComponent(contentVersion)}`
+
+    const cached = lessonCache.get(url)
+    if (cached) return cached
+
+    const pending = fetchLesson(lesson, url).catch(error => {
+        lessonCache.delete(url)
+        throw error
+    })
+
+    lessonCache.set(url, pending)
+    return pending
 }

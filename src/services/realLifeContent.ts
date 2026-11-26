@@ -4,8 +4,17 @@ import type {
     RealLifeScenarioManifest,
 } from '../types/realLife'
 
-export async function loadRealLifeManifest(): Promise<RealLifeScenarioManifest[]> {
-    const response = await fetch('/data/real-life/manifest.json', { cache: 'no-store' })
+/** In-memory, per-session cache — see grammarContent.ts for why (Daily Journey loads every scenario on each rebuild). */
+let realLifeManifestPromise: Promise<RealLifeScenarioManifest[]> | null = null
+const realLifeScenarioCache = new Map<string, Promise<RealLifeScenario>>()
+
+export function clearRealLifeContentCache(): void {
+    realLifeManifestPromise = null
+    realLifeScenarioCache.clear()
+}
+
+async function fetchRealLifeManifest(): Promise<RealLifeScenarioManifest[]> {
+    const response = await fetch('/data/real-life/manifest.json')
 
     if (!response.ok) {
         throw new Error(`Could not load Real-Life scenarios (${response.status})`)
@@ -20,11 +29,21 @@ export async function loadRealLifeManifest(): Promise<RealLifeScenarioManifest[]
     return manifest.scenarios
 }
 
-export async function loadRealLifeScenario(
-    manifest: RealLifeScenarioManifest
-): Promise<RealLifeScenario> {
-    const file = manifest.file.replace(/^\.\//, '').replace(/^\//, '')
+export function loadRealLifeManifest(): Promise<RealLifeScenarioManifest[]> {
+    if (!realLifeManifestPromise) {
+        realLifeManifestPromise = fetchRealLifeManifest().catch(error => {
+            realLifeManifestPromise = null
+            throw error
+        })
+    }
 
+    return realLifeManifestPromise
+}
+
+async function fetchRealLifeScenario(
+    manifest: RealLifeScenarioManifest,
+    file: string
+): Promise<RealLifeScenario> {
     const response = await fetch(`/data/real-life/${file}`)
 
     if (!response.ok) {
@@ -38,4 +57,21 @@ export async function loadRealLifeScenario(
     }
 
     return raw
+}
+
+export function loadRealLifeScenario(
+    manifest: RealLifeScenarioManifest
+): Promise<RealLifeScenario> {
+    const file = manifest.file.replace(/^\.\//, '').replace(/^\//, '')
+
+    const cached = realLifeScenarioCache.get(file)
+    if (cached) return cached
+
+    const pending = fetchRealLifeScenario(manifest, file).catch(error => {
+        realLifeScenarioCache.delete(file)
+        throw error
+    })
+
+    realLifeScenarioCache.set(file, pending)
+    return pending
 }

@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { loadLesson, loadManifest } from './vocabulary'
+import { clearVocabularyCache, loadLesson, loadManifest } from './vocabulary'
 
 import type { LessonManifest, Manifest } from '../types/vocabulary'
 
@@ -14,6 +14,7 @@ function jsonResponse(body: unknown, ok = true, status = 200): Response {
 
 afterEach(() => {
     vi.unstubAllGlobals()
+    clearVocabularyCache()
 })
 
 describe('loadManifest', () => {
@@ -36,7 +37,7 @@ describe('loadManifest', () => {
 
         const result = await loadManifest()
 
-        expect(fetchMock).toHaveBeenCalledWith('/data/manifest.json', expect.any(Object))
+        expect(fetchMock).toHaveBeenCalledWith('/data/manifest.json')
         expect(result.courses[0].lessons[0].courseId).toBe('course-a')
     })
 
@@ -75,10 +76,7 @@ describe('loadLesson', () => {
 
         const words = await loadLesson(lesson)
 
-        expect(fetchMock).toHaveBeenCalledWith(
-            '/data/lesson-1.json?v=1',
-            { cache: 'no-store' },
-        )
+        expect(fetchMock).toHaveBeenCalledWith('/data/lesson-1.json?v=1')
         expect(words).toHaveLength(1)
         expect(words[0].examples[0]).toEqual({
             english: 'There is abundant evidence.',

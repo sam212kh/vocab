@@ -861,7 +861,7 @@ onMounted(async () => {
             <h2
                 class="mt-4 text-lg font-semibold text-gray-700"
             >
-                No Hard Words
+                No hard words
             </h2>
 
             <p

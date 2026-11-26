@@ -135,23 +135,29 @@ export async function loadContentSnapshot(
     if (grammarManifest?.topics.length) {
         available.add('grammar')
 
-        for (const topic of grammarManifest.topics) {
-            const loaded = await safe(() => loadGrammarTopic(topic), null)
+        const loadedTopics = await Promise.all(
+            grammarManifest.topics.map(topic => safe(() => loadGrammarTopic(topic), null))
+        )
 
-            for (const exercise of loaded?.exercises ?? []) {
+        grammarManifest.topics.forEach((topic, index) => {
+            for (const exercise of loadedTopics[index]?.exercises ?? []) {
                 grammarExercises.push({ topicId: topic.id, exercise })
             }
-        }
+        })
     }
 
     /* ---- real-life scenarios = daily themes ---- */
     const realLifeManifest = await safe(loadRealLifeManifest, [])
     const themes: ThemeCandidate[] = []
 
-    for (const entry of realLifeManifest) {
-        const scenario = await safe(() => loadRealLifeScenario(entry), null)
+    const loadedScenarios = await Promise.all(
+        realLifeManifest.map(entry => safe(() => loadRealLifeScenario(entry), null))
+    )
 
-        if (!scenario) continue
+    realLifeManifest.forEach((entry, index) => {
+        const scenario = loadedScenarios[index]
+
+        if (!scenario) return
 
         themes.push({
             id: entry.id,
@@ -173,7 +179,7 @@ export async function loadContentSnapshot(
                 scenario.speakingTask.modelSentences
             ),
         })
-    }
+    })
 
     if (themes.length) available.add('real-life')
 
@@ -181,9 +187,11 @@ export async function loadContentSnapshot(
     const listeningManifest = await safe(loadListeningManifest, null)
     const dictationExercises: Exercise[] = []
 
-    for (const entry of listeningManifest?.activities ?? []) {
-        const activity = await safe(() => loadListeningActivity(entry), null)
+    const loadedActivities = await Promise.all(
+        (listeningManifest?.activities ?? []).map(entry => safe(() => loadListeningActivity(entry), null))
+    )
 
+    for (const activity of loadedActivities) {
         for (const exercise of activity?.exercises ?? []) {
             if (exercise.type === 'dictation') dictationExercises.push(exercise)
         }

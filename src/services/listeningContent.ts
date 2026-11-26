@@ -4,10 +4,17 @@ import type {
     ListeningManifest,
 } from '../types/listening'
 
-export async function loadListeningManifest(): Promise<ListeningManifest> {
-    const response = await fetch('/data/listening/manifest.json', {
-        cache: 'no-store',
-    })
+/** In-memory, per-session cache — see grammarContent.ts for why (Daily Journey loads every activity on each rebuild). */
+let listeningManifestPromise: Promise<ListeningManifest> | null = null
+const listeningActivityCache = new Map<string, Promise<ListeningActivity>>()
+
+export function clearListeningContentCache(): void {
+    listeningManifestPromise = null
+    listeningActivityCache.clear()
+}
+
+async function fetchListeningManifest(): Promise<ListeningManifest> {
+    const response = await fetch('/data/listening/manifest.json')
 
     if (!response.ok) {
         throw new Error(`Could not load listening manifest (${response.status})`)
@@ -22,11 +29,21 @@ export async function loadListeningManifest(): Promise<ListeningManifest> {
     return manifest
 }
 
-export async function loadListeningActivity(
-    activity: ListeningActivityManifest
-): Promise<ListeningActivity> {
-    const file = activity.file.replace(/^\.\//, '').replace(/^\//, '')
+export function loadListeningManifest(): Promise<ListeningManifest> {
+    if (!listeningManifestPromise) {
+        listeningManifestPromise = fetchListeningManifest().catch(error => {
+            listeningManifestPromise = null
+            throw error
+        })
+    }
 
+    return listeningManifestPromise
+}
+
+async function fetchListeningActivity(
+    activity: ListeningActivityManifest,
+    file: string
+): Promise<ListeningActivity> {
     const response = await fetch(`/data/listening/${file}`)
 
     if (!response.ok) {
@@ -48,4 +65,21 @@ export async function loadListeningActivity(
         exercises: Array.isArray(raw.exercises) ? raw.exercises : [],
         learningObjectives: raw.learningObjectives,
     }
+}
+
+export function loadListeningActivity(
+    activity: ListeningActivityManifest
+): Promise<ListeningActivity> {
+    const file = activity.file.replace(/^\.\//, '').replace(/^\//, '')
+
+    const cached = listeningActivityCache.get(file)
+    if (cached) return cached
+
+    const pending = fetchListeningActivity(activity, file).catch(error => {
+        listeningActivityCache.delete(file)
+        throw error
+    })
+
+    listeningActivityCache.set(file, pending)
+    return pending
 }

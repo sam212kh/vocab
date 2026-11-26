@@ -249,6 +249,15 @@ const staticTranslations: Record<string, string> = {
     'Practice the words you find difficult.': 'واژه‌هایی را که دشوار می‌دانید تمرین کنید.',
     'No hard words': 'واژه دشواری وجود ندارد',
     'Add difficult words from your vocabulary lessons.': 'واژه‌های دشوار را از درس‌های واژگان خود اضافه کنید.',
+    "You don't have any hard words yet. Click the button next to a word to add it to your Hard Words.": 'هنوز هیچ واژه دشواری ندارید. برای افزودن یک واژه به واژه‌های دشوار خود، روی دکمه کنار آن کلیک کنید.',
+    'Back to Lesson Words': 'بازگشت به واژه‌های درس',
+    'Repeating all your hard words from all courses and lessons.': 'تکرار همه واژه‌های دشوار شما از همه دوره‌ها و درس‌ها.',
+    'Loading all your hard words...': 'در حال بارگذاری همه واژه‌های دشوار شما...',
+    'Hard Words Practice': 'تمرین واژه‌های دشوار',
+    'for the complete list.': 'برای فهرست کامل.',
+    "They were saved from content that isn't part of the vocabulary library (for example a reading or listening passage), so this screen has no example sentence or audio to repeat for them. Nothing was lost — see them all in Hard Words Practice.":
+        'آن‌ها از محتوایی ذخیره شده‌اند که بخشی از کتابخانه واژگان نیست (برای مثال یک متن خواندنی یا شنیداری)، بنابراین این صفحه برای آن‌ها جمله نمونه یا صدایی ندارد. چیزی از دست نرفته — همه آن‌ها را در تمرین واژه‌های دشوار ببینید.',
+    'Open Hard Words Practice': 'باز کردن تمرین واژه‌های دشوار',
     'Listen and practice pronunciation.': 'گوش دهید و تلفظ را تمرین کنید.',
     'Review Words': 'مرور واژه‌ها',
     'Review words that are due for practice.': 'واژه‌هایی را که موعد تمرینشان رسیده مرور کنید.',
@@ -571,6 +580,12 @@ export function translateText(text: string, value: AppLocale = locale.value): st
 
         const hardWords = text.match(/^(\d+) words? marked hard are waiting, and there's time left in today's budget\.$/)
         if (hardWords) return `${hardWords[1]} واژه دشوار در انتظار مرور است و هنوز از زمان امروز باقی مانده است.`
+
+        const hardWordsAudioCoverage = text.match(/^(\d+) of (\d+) have audio and examples available to repeat here — the rest were saved from content that isn't in the vocabulary library \(e\.g\. a reading or listening passage\), so there's nothing to play for them on this screen\. They're still saved — see$/)
+        if (hardWordsAudioCoverage) return `${hardWordsAudioCoverage[1]} واژه از ${hardWordsAudioCoverage[2]} واژه دشوار در این صفحه صدا و مثال دارند — باقی از محتوایی ذخیره شده‌اند که بخشی از کتابخانه واژگان نیست (مثلاً یک متن خواندنی یا شنیداری)، بنابراین چیزی برای پخش در این صفحه ندارند. آن‌ها همچنان ذخیره شده‌اند — مشاهده کنید`
+
+        const hardWordsNonePlayable = text.match(/^(\d+) hard words? saved — none have audio here$/)
+        if (hardWordsNonePlayable) return `${hardWordsNonePlayable[1]} واژه دشوار ذخیره شده — هیچ‌کدام در اینجا صدا ندارند`
 
         return Object.entries(staticTranslations)
             // Never translate isolated words inside learner/content data. Exact

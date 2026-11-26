@@ -1,7 +1,13 @@
 import type { TransferManifest, TransferPattern } from '../types/transfer'
 
-/** Loads the transfer pattern library. Optional content: callers treat failure as "no transfer tasks". */
-export async function loadTransferPatterns(): Promise<TransferPattern[]> {
+/** In-memory, per-session cache — Daily Journey loads this on every rebuild (see grammarContent.ts). */
+let transferPatternsPromise: Promise<TransferPattern[]> | null = null
+
+export function clearTransferContentCache(): void {
+    transferPatternsPromise = null
+}
+
+async function fetchTransferPatterns(): Promise<TransferPattern[]> {
     const response = await fetch('/data/transfer/patterns.json')
 
     if (!response.ok) throw new Error(`Could not load transfer patterns (${response.status})`)
@@ -11,4 +17,16 @@ export async function loadTransferPatterns(): Promise<TransferPattern[]> {
     if (!manifest || !Array.isArray(manifest.patterns)) throw new Error('Invalid transfer pattern format')
 
     return manifest.patterns
+}
+
+/** Loads the transfer pattern library. Optional content: callers treat failure as "no transfer tasks". */
+export function loadTransferPatterns(): Promise<TransferPattern[]> {
+    if (!transferPatternsPromise) {
+        transferPatternsPromise = fetchTransferPatterns().catch(error => {
+            transferPatternsPromise = null
+            throw error
+        })
+    }
+
+    return transferPatternsPromise
 }
