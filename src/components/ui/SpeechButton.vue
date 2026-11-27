@@ -13,6 +13,7 @@ import {
 import {
     playPersianPronunciation,
 } from '../../services/persianPronunciation'
+import { useLocale } from '../../services/locale'
 
 const props = withDefaults(
     defineProps<{
@@ -27,6 +28,7 @@ const props = withDefaults(
 
 const playing = ref(false)
 const error = ref(false)
+const { t } = useLocale()
 
 async function handleClick() {
     if (!props.text.trim()) {
@@ -77,7 +79,7 @@ async function handleClick() {
         <button
             type="button"
             class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-accent-ink transition hover:bg-accent-soft focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 disabled:cursor-not-allowed disabled:opacity-60"
-            :aria-label="label && !/^[^\w]+$/.test(label) ? `Play: ${label}` : 'Play audio'"
+            :aria-label="label && !/^[^\w]+$/.test(label) ? t('audio.playLabel', { label }) : t('audio.play')"
             :disabled="playing"
             @click="handleClick"
         >
@@ -87,7 +89,7 @@ async function handleClick() {
         </button>
 
         <span v-if="error" class="text-xs text-red-600" role="status">
-            {{ getSpeechError() || 'Pronunciation audio is unavailable.' }}
+            {{ t('audio.unavailable') }}
         </span>
     </span>
 </template>

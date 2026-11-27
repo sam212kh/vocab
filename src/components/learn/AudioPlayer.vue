@@ -3,8 +3,9 @@ import { onBeforeUnmount, ref } from 'vue'
 
 import AppIcon from '../ui/AppIcon.vue'
 
-import { getSpeechError, getSpeechRate, isLanguageSupported, speakAsync, stop } from '../../services/speech'
+import { getSpeechRate, isLanguageSupported, speakAsync, stop } from '../../services/speech'
 import { playPersianPronunciation } from '../../services/persianPronunciation'
+import { useLocale } from '../../services/locale'
 
 /**
  * One calm audio control. Uses the app's existing speech settings and
@@ -28,6 +29,7 @@ const props = withDefaults(defineProps<{
 
 const playing = ref<'normal' | 'slow' | null>(null)
 const failed = ref('')
+const { t } = useLocale()
 
 const SLOW_RATE = 0.6
 
@@ -51,15 +53,15 @@ async function play(mode: 'normal' | 'slow') {
         }
 
         if (!isLanguageSupported(props.lang)) {
-            failed.value = 'Audio is not available in this browser.'
+            failed.value = t('audio.unavailable')
             return
         }
 
         const ok = await speakAsync(props.text, props.lang, { rate: mode === 'slow' ? SLOW_RATE : getSpeechRate() })
 
-        if (!ok && playing.value === mode) failed.value = getSpeechError() || 'Audio is unavailable right now.'
+        if (!ok && playing.value === mode) failed.value = t('audio.unavailable')
     } catch {
-        failed.value = 'Audio is unavailable right now.'
+        failed.value = t('audio.unavailable')
     } finally {
         if (playing.value === mode) playing.value = null
     }
@@ -83,7 +85,7 @@ const accent = {
             type="button"
             class="motion-safe-only inline-flex min-h-11 items-center text-sm font-medium text-ink-soft transition hover:text-ink focus-visible:outline-none focus-visible:ring-4"
             :class="accent.ring"
-            :aria-label="playing === 'normal' ? 'Stop audio' : `Play audio${label ? `: ${label}` : ''}`"
+            :aria-label="playing === 'normal' ? t('audio.stop') : (label ? t('audio.playLabel', { label }) : t('audio.play'))"
             :aria-pressed="playing === 'normal'"
             @click="play('normal')"
         >
@@ -109,7 +111,7 @@ const accent = {
 
             class="group inline-flex min-h-11 min-w-11 items-center justify-center gap-3 rounded-full focus-visible:outline-none"
             :class="size === 'lg' || showLabel ? 'pr-3' : ''"
-            :aria-label="playing === 'normal' ? 'Stop audio' : `Play audio${label ? `: ${label}` : ''}`"
+            :aria-label="playing === 'normal' ? t('audio.stop') : (label ? t('audio.playLabel', { label }) : t('audio.play'))"
             :aria-pressed="playing === 'normal'"
             @click="play('normal')"
         >
@@ -124,7 +126,7 @@ const accent = {
                 <AppIcon :name="playing === 'normal' ? 'stop' : 'volume'" :size="size === 'lg' ? 22 : size === 'md' ? 19 : 16" />
             </span>
             <span v-if="size === 'lg' || showLabel" class="text-sm font-medium text-ink-soft max-[399px]:sr-only">
-                {{ playing === 'normal' ? 'Playing…' : (label ?? 'Listen') }}
+                {{ playing === 'normal' ? t('audio.playing') : (label ?? t('audio.listen')) }}
             </span>
         </button>
 
@@ -133,11 +135,11 @@ const accent = {
             type="button"
             class="motion-safe-only inline-flex min-h-11 items-center rounded-full px-1 text-sm font-medium text-ink-soft transition hover:text-ink focus-visible:outline-none focus-visible:ring-4"
             :class="[accent.ring, playing === 'slow' ? 'text-ink' : '']"
-            :aria-label="playing === 'slow' ? 'Stop slow audio' : 'Play audio slowly'"
+            :aria-label="playing === 'slow' ? t('audio.stopSlow') : t('audio.playSlowly')"
             @click="play('slow')"
         >
             <span class="rounded-full border border-line bg-white px-3 py-1.5" :class="playing === 'slow' ? 'border-learn-500 text-learn-700' : ''">
-                {{ playing === 'slow' ? 'Playing slowly…' : 'Slow' }}
+                {{ playing === 'slow' ? t('audio.playingSlowly') : t('audio.playSlowly') }}
             </span>
         </button>
 

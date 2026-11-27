@@ -40,6 +40,9 @@ export interface WritingSubmission {
     /** Result of deterministic constraint checks only. */
     constraintsPassed: boolean
     constraintIssues: string[]
+    /** Assistance used before submission; never treated as independent mastery. */
+    assistanceUsed: boolean
+    assistanceLevels: ('vocabulary' | 'grammar' | 'structure' | 'example')[]
     /**
      * AI evaluations of this submission, oldest first. A retry appends a new
      * entry — previous evaluations are never overwritten. Empty until the

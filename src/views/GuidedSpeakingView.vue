@@ -4,6 +4,7 @@ import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import { loadSpeakingManifest } from '../services/speakingContent'
+import { buildSpeakingCurriculum } from '../services/speakingCurriculum'
 import { checkPronunciation, SPEAKING_PASS_SCORE } from '../services/pronunciation'
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
 import { usePerformanceStore } from '../stores/performance'
@@ -24,12 +25,15 @@ const stepIndex = ref(0)
 interface StepRecord {
     step: SpeakingStep
     transcript: string
+    inputMethod: 'voice' | 'text'
     /** Only set for repeat steps (transcript match score, not phoneme-level). */
     score: number | null
 }
 
 const records = ref<StepRecord[]>([])
 const finished = ref(false)
+const responseDraft = ref('')
+const responseInputMethod = ref<'voice' | 'text'>('text')
 
 const {
     isSupported,
@@ -46,15 +50,19 @@ const currentRecord = computed(() =>
     records.value.length > stepIndex.value ? records.value[stepIndex.value] : null
 )
 
+const curriculumTopics = computed(() => buildSpeakingCurriculum(topics.value))
+
 function openTopic(topic: SpeakingTopic) {
     activeTopic.value = topic
     stepIndex.value = 0
     records.value = []
     finished.value = false
+    responseDraft.value = ''
+    responseInputMethod.value = 'text'
     reset()
 }
 
-async function speakNow() {
+async function recordVoice() {
     const step = currentStep.value
 
     if (!step || isListening.value) return
@@ -65,23 +73,35 @@ async function speakNow() {
 
     if (!transcript.value) return
 
-    const score =
-        step.kind === 'repeat'
-            ? checkPronunciation(step.prompt, transcript.value).score
-            : null
+    if (transcript.value) {
+        responseDraft.value = transcript.value
+        responseInputMethod.value = 'voice'
+    }
+}
+
+function submitResponse() {
+    const step = currentStep.value
+    const answer = responseDraft.value.trim()
+
+    if (!step || !answer) return
+
+    const score = step.kind === 'repeat'
+        ? checkPronunciation(step.prompt, answer).score
+        : null
 
     records.value[stepIndex.value] = {
         step,
-        transcript: transcript.value,
+        transcript: answer,
+        inputMethod: responseInputMethod.value,
         score,
     }
 
     /*
-     * Only repeat steps have an objective pass/fail (transcript match).
-     * Open answers are recorded as completed activity without a correctness
-     * claim — we must not grade free speech without a real evaluator.
+     * Only repeat steps have an objective transcript comparison. Open
+     * responses remain independent production attempts without an automatic
+     * correctness claim. Typed answers never become speaking evidence.
      */
-    if (step.kind === 'repeat' && score !== null) {
+    if (step.kind === 'repeat' && responseInputMethod.value === 'voice' && score !== null) {
         performanceStore.record({
             skill: 'speaking',
             activityId: `${activeTopic.value?.id}-step-${stepIndex.value}`,
@@ -91,10 +111,15 @@ async function speakNow() {
             confidence: score / 100,
         })
     }
+
+    responseDraft.value = ''
+    reset()
 }
 
 function retry() {
     records.value.splice(stepIndex.value, 1)
+    responseDraft.value = ''
+    responseInputMethod.value = 'text'
     reset()
 }
 
@@ -116,6 +141,7 @@ function backToList() {
     records.value = []
     stepIndex.value = 0
     finished.value = false
+    responseDraft.value = ''
     reset()
 }
 
@@ -158,7 +184,7 @@ onMounted(async () => {
 
             <div class="grid gap-3">
                 <button
-                    v-for="topic in topics"
+                v-for="topic in curriculumTopics"
                     :key="topic.id"
                     type="button"
                     class="rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
@@ -244,19 +270,41 @@ onMounted(async () => {
 
                 <!-- Record -->
                 <div v-if="!currentRecord" class="mt-8">
-                    <button
-                        v-if="!isListening"
-                        type="button"
-                        class="rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
-                        :disabled="!isSupported"
-                        @click="speakNow"
-                    >
-                        Speak
-                    </button>
-                    <div v-else class="rounded-lg bg-gray-100 px-8 py-4 text-gray-600">
-                        Listening...
+                    <textarea
+                        v-model="responseDraft"
+                        rows="3"
+                        class="field w-full text-left"
+                        :placeholder="currentStep.kind === 'repeat' ? 'Type the sentence if you prefer…' : 'Prepare your answer here…'"
+                        aria-label="Your speaking response"
+                        @input="responseInputMethod = 'text'"
+                    />
+
+                    <div class="mt-3 flex flex-wrap justify-center gap-2">
+                        <button
+                            v-if="!isListening"
+                            type="button"
+                            class="rounded-full border px-5 py-3 text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-50"
+                            :disabled="!isSupported"
+                            @click="recordVoice"
+                        >
+                            Record voice
+                        </button>
+                        <div v-else class="rounded-lg bg-gray-100 px-5 py-3 text-sm text-gray-600">
+                            Listening…
+                        </div>
+                        <button
+                            type="button"
+                            class="btn-primary rounded-full px-6 py-3 text-sm disabled:opacity-50"
+                            :disabled="!responseDraft.trim() || isListening"
+                            @click="submitResponse"
+                        >
+                            Save response
+                        </button>
                     </div>
 
+                    <p class="mt-3 text-xs text-gray-400">
+                        Voice responses use the transcript for comparison. This is not phoneme-level pronunciation analysis.
+                    </p>
                     <p v-if="speechError" class="mt-3 text-sm text-red-500">{{ speechError }}</p>
 
                     <button
@@ -271,7 +319,7 @@ onMounted(async () => {
                 <!-- Result -->
                 <div v-else class="mt-8">
                     <div class="rounded-xl bg-gray-50 p-4 text-left">
-                        <p class="text-xs text-gray-500">You said:</p>
+                        <p class="text-xs text-gray-500">Your {{ currentRecord.inputMethod }} response:</p>
                         <p class="mt-1 font-medium text-gray-900">{{ currentRecord.transcript }}</p>
                     </div>
 
@@ -280,6 +328,9 @@ onMounted(async () => {
                         <span class="block text-xs text-gray-400">
                             (how closely the speech recognizer's transcript matches the model sentence — not phoneme-level pronunciation scoring)
                         </span>
+                    </p>
+                    <p v-else class="mt-3 text-sm text-gray-600">
+                        Response captured. Open answers are practice attempts; use Conversation Tutor for contextual language feedback.
                     </p>
 
                     <div class="mt-6 flex justify-center gap-3">

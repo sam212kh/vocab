@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 
 import AppIcon from '../ui/AppIcon.vue'
 import AudioPlayer from './AudioPlayer.vue'
 import ContextualExample from './ContextualExample.vue'
 import UsageNote from './UsageNote.vue'
+import { getMeanings } from '../../services/vocabularyMeanings'
 
 import type { LearnItem, LexiconEntry } from '../../services/learnItems'
 
@@ -28,6 +29,8 @@ const props = defineProps<{
 const emit = defineEmits<{ save: []; lookup: [entry: LexiconEntry] }>()
 
 const showAllExamples = ref(false)
+
+const meanings = computed(() => getMeanings({ meaning: props.item.meaning, synonyms: props.item.synonyms }))
 
 watch(() => props.item.id, () => { showAllExamples.value = false })
 </script>
@@ -64,9 +67,12 @@ watch(() => props.item.id, () => { showAllExamples.value = false })
                 {{ item.text }}
             </h2>
 
-            <p class="fa-text wrap-anywhere mt-3 text-[1.35rem] text-ink sm:text-2xl" lang="fa">
-                {{ item.meaning }}
+            <p v-if="meanings.length <= 1" class="fa-text wrap-anywhere mt-3 text-[1.35rem] text-ink sm:text-2xl" lang="fa">
+                {{ meanings[0]?.text ?? item.meaning }}
             </p>
+            <ol v-else class="fa-text mt-3 list-inside list-decimal space-y-1 text-[1.25rem] text-ink sm:text-2xl" lang="fa">
+                <li v-for="entry in meanings" :key="entry.text">{{ entry.text }}</li>
+            </ol>
 
             <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1">
                 <AudioPlayer :text="item.text" size="lg" slow label="Listen" />

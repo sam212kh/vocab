@@ -1,4 +1,4 @@
-import { speakAsync, stop } from './speech'
+import { getPersianSpeechVoice, speakAsync, stop } from './speech'
 
 let unlocked = false
 
@@ -29,7 +29,7 @@ export function stopPersianPronunciation(): void {
 export function playPersianPronunciation(
     word: string
 ): Promise<void> {
-    return speakAsync(word, 'fa-IR').then(ok => {
+    return speakAsync(word, 'fa-IR', { provider: 'neural', voice: getPersianSpeechVoice() }).then(ok => {
         if (!ok) throw new Error('Persian Piper audio is unavailable.')
     })
 }

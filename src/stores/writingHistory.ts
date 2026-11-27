@@ -33,7 +33,8 @@ export const useWritingHistoryStore = defineStore('writingHistory', () => {
         promptId: string,
         text: string,
         constraintsPassed: boolean,
-        constraintIssues: string[]
+        constraintIssues: string[],
+        assistanceLevels: WritingSubmission['assistanceLevels'] = []
     ): WritingSubmission {
         const submission: WritingSubmission = {
             id: `${promptId}-${Date.now()}`,
@@ -43,6 +44,8 @@ export const useWritingHistoryStore = defineStore('writingHistory', () => {
             submittedAt: Date.now(),
             constraintsPassed,
             constraintIssues,
+            assistanceUsed: assistanceLevels.length > 0,
+            assistanceLevels,
             evaluations: [],
         }
 
@@ -120,6 +123,11 @@ function migrateStored(raw: unknown, _storedVersion: number | null): WritingSubm
             constraintsPassed: item.constraintsPassed === true,
             constraintIssues: Array.isArray(item.constraintIssues)
                 ? item.constraintIssues.filter((issue): issue is string => typeof issue === 'string')
+                : [],
+            assistanceUsed: item.assistanceUsed === true,
+            assistanceLevels: Array.isArray(item.assistanceLevels)
+                ? item.assistanceLevels.filter((level): level is WritingSubmission['assistanceLevels'][number] =>
+                    level === 'vocabulary' || level === 'grammar' || level === 'structure' || level === 'example')
                 : [],
             /* v1 had `evaluation: null` (never populated) — becomes []. */
             evaluations: Array.isArray(item.evaluations)

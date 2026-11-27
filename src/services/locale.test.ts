@@ -49,4 +49,20 @@ describe('locale', () => {
         expect(translateText('My Daily progress lesson', 'fa')).toBe('My Daily progress lesson')
         expect(translateText('Daily progress', 'fa')).toBe('پیشرفت روزانه')
     })
+
+    it('provides localized shared audio and Hard Words labels', () => {
+        const { t, setLocale: change } = useLocale()
+
+        change('fa')
+
+        expect(t('audio.play')).toBe('پخش صدا')
+        expect(t('audio.playLabel', { label: 'approach' })).toBe('پخش صدای approach')
+        expect(t('hardWords.saveTo')).toBe('ذخیره واژه در واژه‌های دشوار')
+    })
+
+    it('translates only anchored UI progress patterns', () => {
+        expect(translateText('Step 2 / 4', 'fa')).toBe('گام 2 از 4')
+        expect(translateText('Expression 1 of 5', 'fa')).toBe('عبارت 1 از 5')
+        expect(translateText('weekday', 'fa')).toBe('weekday')
+    })
 })

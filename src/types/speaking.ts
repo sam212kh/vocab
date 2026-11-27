@@ -13,6 +13,8 @@ export interface SpeakingStep {
     promptPersian?: string
     /** For open steps: phrases the learner can lean on. */
     usefulPhrases?: string[]
+    /** Optional learner-facing objective; absent content keeps the existing prompt-only contract. */
+    objective?: string
 }
 
 export interface SpeakingTopic extends ContentMetadata {

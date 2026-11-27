@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import AudioPlayer from './AudioPlayer.vue'
+import HardWordButton from '../vocabulary/HardWordButton.vue'
 import { getMeanings } from '../../services/vocabularyMeanings'
 import type { Example, SynonymSense } from '../../types/vocabulary'
+import type { HardWordSource } from '../../stores/hardWords'
 
 /**
  * The shared "what this word actually means" block — English word, part of
@@ -20,6 +22,8 @@ const props = withDefaults(defineProps<{
     collocations?: string[]
     relatedExpressions?: string[]
     usage?: string
+    showSave?: boolean
+    source?: HardWordSource
     /** Word audio is optional — some callers (e.g. a prompt-only context) already show it elsewhere. */
     showAudio?: boolean
 }>(), {
@@ -29,6 +33,7 @@ const props = withDefaults(defineProps<{
     collocations: () => [],
     relatedExpressions: () => [],
     usage: '',
+    showSave: true,
     showAudio: true,
 })
 
@@ -42,6 +47,7 @@ const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: 
             <h3 class="wrap-anywhere text-2xl font-bold text-gray-900" dir="ltr" lang="en">{{ word }}</h3>
             <span v-if="pos" class="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">{{ pos }}</span>
             <AudioPlayer v-if="showAudio" :text="word" size="sm" :label="word" />
+            <HardWordButton v-if="showSave" :word-id="word" :meaning="meaning" :source="source" />
         </div>
 
         <p v-if="meanings.length <= 1" class="fa-text text-lg text-gray-900" lang="fa">

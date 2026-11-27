@@ -122,6 +122,9 @@ export function setSpeechRate(rate: SpeechRate): void {
 
 export function getSpeechVoice(): string { return speechVoice }
 
+/** Persian always uses the configured self-hosted voice, independent of the English voice setting. */
+export function getPersianSpeechVoice(): string { return DEFAULT_PERSIAN_VOICE }
+
 export function getSpeechVoices(): SpeechVoice[] { return [...speechVoices] }
 
 export function setSpeechVoice(voice: string): void {

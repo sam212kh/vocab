@@ -12,6 +12,12 @@ vi.mock('../services/speech', () => ({
     stop: vi.fn(),
 }))
 
+vi.mock('../services/persianPronunciation', () => ({
+    playPersianPronunciation: (text: string) => speakAsyncMock(text, 'fa-IR'),
+    stopPersianPronunciation: vi.fn(),
+    unlockPersianAudio: vi.fn().mockResolvedValue(undefined),
+}))
+
 afterEach(() => {
     speakAsyncMock.mockClear()
     vi.useRealTimers()

@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 
 import { loadWritingManifest } from '../services/writingContent'
+import { buildWritingCurriculum, writingStagesFor, type WritingStage } from '../services/writingCurriculum'
 import { countWords, validateAnswer } from '../services/exerciseEngine'
 import {
     createAIWritingEvaluator,
@@ -16,7 +17,7 @@ import { useToastStore } from '../stores/toast'
 
 import WritingFeedback from '../components/writing/WritingFeedback.vue'
 
-import type { WritingEvaluation, WritingPrompt } from '../types/writing'
+import type { WritingEvaluation, WritingPrompt, WritingSubmission } from '../types/writing'
 import type { WritingResponseExercise } from '../types/exercise'
 
 const writingHistoryStore = useWritingHistoryStore()
@@ -36,6 +37,13 @@ const draft = ref('')
 const submitted = ref(false)
 const constraintIssues = ref<string[]>([])
 const showExample = ref(false)
+const assistanceLevels = ref<WritingSubmission['assistanceLevels']>([])
+
+function addAssistance(level: WritingSubmission['assistanceLevels'][number]) {
+    if (!assistanceLevels.value.includes(level)) {
+        assistanceLevels.value = [...assistanceLevels.value, level]
+    }
+}
 
 /* AI evaluation state — the learner's text is never touched by any of it. */
 const currentSubmissionId = ref<string | null>(null)
@@ -51,12 +59,35 @@ const history = computed(() =>
         : []
 )
 
+const curriculumPrompts = computed(() => buildWritingCurriculum(prompts.value))
+const currentStages = computed(() => activePrompt.value ? writingStagesFor(activePrompt.value.promptType) : [])
+
+const stageLabels: Record<WritingStage, string> = {
+    understand: 'Understand the task',
+    vocabulary: 'Prepare vocabulary',
+    structure: 'Plan the structure',
+    guided: 'Build with guidance',
+    independent: 'Write independently',
+    transfer: 'Reuse in a new context',
+}
+
+const structureHint = computed(() => {
+    const type = activePrompt.value?.promptType
+    if (!type) return ''
+    if (type === 'email' || type === 'professional') return 'Plan an opening, the main message, and a clear closing.'
+    if (type === 'opinion' || type === 'essay') return 'State your position, give reasons or examples, then close your idea.'
+    if (type === 'summary') return 'Start with the main idea, then include only the most important supporting points.'
+    if (type === 'paragraph' || type === 'journal') return 'Use a clear first sentence, connected details, and a closing sentence.'
+    return 'Check the subject, verb, and order of the main parts of the sentence.'
+})
+
 function openPrompt(prompt: WritingPrompt) {
     activePrompt.value = prompt
     draft.value = ''
     submitted.value = false
     constraintIssues.value = []
     showExample.value = false
+    assistanceLevels.value = []
     resetEvaluationState()
 }
 
@@ -98,7 +129,8 @@ function submit() {
         prompt.id,
         draft.value,
         result.correct,
-        constraintIssues.value
+        constraintIssues.value,
+        assistanceLevels.value
     )
 
     currentSubmissionId.value = submission.id
@@ -119,6 +151,7 @@ function writeAgain() {
     submitted.value = false
     constraintIssues.value = []
     showExample.value = false
+    assistanceLevels.value = []
     resetEvaluationState()
 }
 
@@ -207,9 +240,8 @@ onMounted(async () => {
             <div class="mb-8">
                 <h1>Writing</h1>
                 <p class="mt-2 text-gray-500">
-                    Regular writing practice with saved history. Automated feedback is limited to
-                    objective checks (length, required elements) — intelligent correction arrives
-                    with the AI tutor in a later phase.
+                    Build from understanding and structure to independent writing. Your original
+                    text is preserved, and AI feedback is optional teaching feedback—not a certified score.
                 </p>
             </div>
 
@@ -217,7 +249,7 @@ onMounted(async () => {
 
             <div class="grid gap-3 sm:grid-cols-2">
                 <button
-                    v-for="prompt in prompts"
+                v-for="prompt in curriculumPrompts"
                     :key="prompt.id"
                     type="button"
                     class="rounded-2xl border border-gray-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
@@ -266,6 +298,59 @@ onMounted(async () => {
                 </p>
             </div>
 
+            <div class="mt-4 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">Writing path</p>
+                <ol class="mt-3 grid gap-2 sm:grid-cols-3">
+                    <li
+                        v-for="(stage, index) in currentStages"
+                        :key="stage"
+                        class="rounded-lg bg-gray-50 px-3 py-2 text-sm text-gray-700"
+                    >
+                        <span class="mr-1 text-xs text-gray-400">{{ index + 1 }}</span>{{ stageLabels[stage] }}
+                    </li>
+                </ol>
+            </div>
+
+            <div class="mt-4 rounded-2xl border border-blue-100 bg-blue-50 p-5">
+                <p class="text-sm font-semibold text-blue-900">Need a hint?</p>
+                <div class="mt-3 flex flex-wrap gap-2">
+                    <button
+                        v-if="activePrompt.requiredElements?.length"
+                        type="button"
+                        class="rounded-lg border border-blue-200 bg-white px-3 py-2 text-sm text-blue-800"
+                        @click="addAssistance('vocabulary')"
+                    >
+                        Vocabulary hint
+                    </button>
+                    <button
+                        type="button"
+                        class="rounded-lg border border-blue-200 bg-white px-3 py-2 text-sm text-blue-800"
+                        @click="addAssistance('grammar')"
+                    >
+                        Grammar hint
+                    </button>
+                    <button
+                        type="button"
+                        class="rounded-lg border border-blue-200 bg-white px-3 py-2 text-sm text-blue-800"
+                        @click="addAssistance('structure')"
+                    >
+                        Structure hint
+                    </button>
+                </div>
+                <p v-if="assistanceLevels.includes('vocabulary') && activePrompt.requiredElements?.length" class="mt-3 text-sm text-blue-900">
+                    Try to use: {{ activePrompt.requiredElements.join(', ') }}
+                </p>
+                <p v-if="assistanceLevels.includes('grammar')" class="mt-3 text-sm text-blue-900">
+                    Grammar target: {{ activePrompt.instructions }}
+                </p>
+                <p v-if="assistanceLevels.includes('structure')" class="mt-3 text-sm text-blue-900">
+                    {{ structureHint }}
+                </p>
+                <p v-if="assistanceLevels.length" class="mt-3 text-xs text-blue-700">
+                    Assistance is recorded and is not treated as independent mastery.
+                </p>
+            </div>
+
             <div v-if="!submitted" class="mt-4">
                 <textarea
                     v-model="draft"
@@ -302,7 +387,10 @@ onMounted(async () => {
                     </p>
                     <p class="mt-2 text-xs text-gray-500">
                         These are objective checks only. Grammar and naturalness feedback will come
-                        from the AI tutor in a later phase — nothing here pretends to be that.
+                        from the optional WritingEvaluator — nothing here pretends to be a certified assessment.
+                    </p>
+                    <p v-if="assistanceLevels.length" class="mt-2 text-xs text-blue-700">
+                        Hints used: {{ assistanceLevels.join(', ') }}. This attempt remains saved, but it is not independent evidence.
                     </p>
                 </div>
 

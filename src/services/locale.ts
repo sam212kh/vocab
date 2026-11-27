@@ -80,7 +80,6 @@ const staticTranslations: Record<string, string> = {
     'Vocabulary': 'واژگان',
     'By dimension': 'بر اساس مهارت',
     'Focus next on': 'تمرکز بعدی روی',
-    'Practice complete.': 'تمرین کامل شد.',
     'Course': 'دوره',
     'Lesson': 'درس',
     'Select a lesson': 'یک درس انتخاب کنید',
@@ -367,10 +366,33 @@ const staticTranslations: Record<string, string> = {
     'Interests': 'علاقه‌مندی‌ها',
     'Starting level (unverified)': 'سطح شروع (تأییدنشده)',
     'Learning program': 'برنامه یادگیری',
-    'Loading...': 'در حال بارگذاری…',
-    'Loading prompts...': 'در حال بارگذاری تمرین‌ها…',
     'All courses': 'همه دوره‌ها',
     'Go to the Dashboard': 'رفتن به داشبورد',
+    'Common collocations': 'هم‌آیی‌های رایج',
+    'Related expressions': 'عبارت‌های مرتبط',
+    'Saved': 'ذخیره شد',
+    'Finish': 'پایان',
+    'Review from the start': 'مرور از ابتدا',
+    'Continue': 'ادامه',
+    'Start exercises': 'شروع تمرین‌ها',
+    'AI Settings': 'تنظیمات هوش مصنوعی',
+    'Conversation': 'مکالمه',
+    'Career English': 'انگلیسی شغلی',
+    'Speaking Practice': 'تمرین گفتار',
+    'Start speaking': 'شروع گفتار',
+    'Speak your message': 'پیام خود را بگویید',
+    'Practice complete.': 'تمرین کامل شد.',
+    'Scenario complete': 'سناریو کامل شد',
+    'Try another scenario': 'سناریوی دیگری را امتحان کنید',
+    'Useful language': 'عبارت‌های کاربردی',
+    'Your objective': 'هدف شما',
+    'Practice your mistakes': 'تمرین اشتباه‌ها',
+    'Previous attempts': 'تلاش‌های قبلی',
+    'Write here...': 'اینجا بنویسید…',
+    'Submit': 'ارسال',
+    'Write another': 'نوشتن دوباره',
+    'All prompts': 'همه تمرین‌ها',
+    'Get AI feedback on this text': 'دریافت بازخورد هوش مصنوعی برای این متن',
 }
 
 const messages: Record<AppLocale, Record<string, string>> = {
@@ -383,6 +405,22 @@ const messages: Record<AppLocale, Record<string, string>> = {
         'app.sections': 'Sections',
         'app.skipToContent': 'Skip to content',
         'app.backToTop': 'Back to top',
+        'audio.play': 'Play audio',
+        'audio.playLabel': 'Play audio: {label}',
+        'audio.stop': 'Stop audio',
+        'audio.playSlowly': 'Play audio slowly',
+        'audio.stopSlow': 'Stop slow audio',
+        'audio.listen': 'Listen',
+        'audio.playing': 'Playing…',
+        'audio.playingSlowly': 'Playing slowly…',
+        'audio.unavailable': 'Audio is unavailable right now.',
+        'audio.persian': 'Persian',
+        'hardWords.save': 'Save word',
+        'hardWords.saved': 'Saved',
+        'hardWords.remove': 'Remove word from Hard Words',
+        'hardWords.saveTo': 'Save word to Hard Words',
+        'hardWords.removeShort': 'Remove from Hard Words',
+        'hardWords.addShort': 'Add to Hard Words',
         'language.label': 'Language',
         'language.english': 'English',
         'language.persian': 'فارسی',
@@ -583,6 +621,22 @@ const messages: Record<AppLocale, Record<string, string>> = {
         'app.sections': 'بخش‌ها',
         'app.skipToContent': 'رفتن به محتوای اصلی',
         'app.backToTop': 'بازگشت به بالای صفحه',
+        'audio.play': 'پخش صدا',
+        'audio.playLabel': 'پخش صدای {label}',
+        'audio.stop': 'توقف صدا',
+        'audio.playSlowly': 'پخش آهسته صدا',
+        'audio.stopSlow': 'توقف پخش آهسته',
+        'audio.listen': 'گوش دادن',
+        'audio.playing': 'در حال پخش…',
+        'audio.playingSlowly': 'در حال پخش آهسته…',
+        'audio.unavailable': 'صدا در حال حاضر در دسترس نیست.',
+        'audio.persian': 'فارسی',
+        'hardWords.save': 'ذخیره واژه',
+        'hardWords.saved': 'ذخیره شد',
+        'hardWords.remove': 'حذف واژه از واژه‌های دشوار',
+        'hardWords.saveTo': 'ذخیره واژه در واژه‌های دشوار',
+        'hardWords.removeShort': 'حذف از واژه‌های دشوار',
+        'hardWords.addShort': 'افزودن به واژه‌های دشوار',
         'language.label': 'زبان',
         'language.english': 'English',
         'language.persian': 'فارسی',
@@ -847,6 +901,27 @@ export function translateText(text: string, value: AppLocale = locale.value): st
 
         const continueExpression = text.match(/^Continue · expression (\d+) of (\d+)$/)
         if (continueExpression) return `ادامه · عبارت ${continueExpression[1]} از ${continueExpression[2]}`
+
+        const expressionProgress = text.match(/^Expression (\d+) of (\d+)$/)
+        if (expressionProgress) return `عبارت ${expressionProgress[1]} از ${expressionProgress[2]}`
+
+        const stepProgress = text.match(/^Step (\d+) \/ (\d+)$/)
+        if (stepProgress) return `گام ${stepProgress[1]} از ${stepProgress[2]}`
+
+        const wordProgress = text.match(/^Word (\d+) of (\d+)$/)
+        if (wordProgress) return `واژه ${wordProgress[1]} از ${wordProgress[2]}`
+
+        const moreExamples = text.match(/^(\d+) more example(s?)$/)
+        if (moreExamples) return `${moreExamples[1]} مثال دیگر`
+
+        const messageCount = text.match(/^(\d+) messages?$/)
+        if (messageCount) return `${messageCount[1]} پیام`
+
+        const wordsWritten = text.match(/^(\d+) words?$/)
+        if (wordsWritten) return `${wordsWritten[1]} واژه`
+
+        const minutes = text.match(/^about (\d+) min$/)
+        if (minutes) return `حدود ${minutes[1]} دقیقه`
 
         // Deliberately do not translate fragments inside arbitrary text. The
         // legacy DOM bridge sees lesson titles, vocabulary and user content;

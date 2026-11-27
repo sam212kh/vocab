@@ -23,6 +23,15 @@ describe('writingHistory store', () => {
         expect(submission.evaluations).toEqual([])
     })
 
+    it('records assistance separately from the learner text', () => {
+        const store = useWritingHistoryStore()
+        const submission = store.addSubmission('about-yourself', 'I am Sam.', true, [], ['grammar', 'structure'])
+
+        expect(submission.text).toBe('I am Sam.')
+        expect(submission.assistanceUsed).toBe(true)
+        expect(submission.assistanceLevels).toEqual(['grammar', 'structure'])
+    })
+
     it('returns submissions for a prompt newest-first', () => {
         const store = useWritingHistoryStore()
 
