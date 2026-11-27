@@ -48,13 +48,13 @@ const GOAL_DESCRIPTIONS: Record<LearningGoalType, string> = {
     'exam-preparation': 'Build the vocabulary and skills needed for exam performance.',
 }
 
-const SKILL_ACTIVITY: Record<SkillName, { type: LearningActivity['type']; label: string; route: string }> = {
-    vocabulary: { type: 'daily-session', label: 'Review Due Words', route: '/session' },
-    grammar: { type: 'grammar-new', label: 'Grammar', route: '/grammar' },
-    listening: { type: 'listening-practice', label: 'Listening', route: '/listening' },
-    speaking: { type: 'guided-speaking', label: 'Guided Speaking', route: '/guided-speaking' },
-    reading: { type: 'reading-practice', label: 'Reading', route: '/reading' },
-    writing: { type: 'writing-practice', label: 'Writing', route: '/writing' },
+const SKILL_ACTIVITY: Record<SkillName, { type: LearningActivity['type']; label: string; labelKey: string; route: string }> = {
+    vocabulary: { type: 'daily-session', label: 'Review Due Words', labelKey: 'dashboard.activity.reviewDueWords', route: '/session' },
+    grammar: { type: 'grammar-new', label: 'Grammar', labelKey: 'dashboard.activity.grammar', route: '/grammar' },
+    listening: { type: 'listening-practice', label: 'Listening', labelKey: 'dashboard.activity.listening', route: '/listening' },
+    speaking: { type: 'guided-speaking', label: 'Guided Speaking', labelKey: 'dashboard.activity.guidedSpeaking', route: '/guided-speaking' },
+    reading: { type: 'reading-practice', label: 'Reading', labelKey: 'dashboard.activity.reading', route: '/reading' },
+    writing: { type: 'writing-practice', label: 'Writing', labelKey: 'dashboard.activity.writing', route: '/writing' },
 }
 
 /** Minimum observed events before a skill's accuracy is treated as meaningful. */
@@ -100,12 +100,15 @@ export function buildDailyRecommendation(
         push({
             type: 'daily-session',
             label: 'Review Due Words',
+            labelKey: 'dashboard.activity.reviewDueWords',
             route: '/session',
             estimatedMinutes: sessionMinutes,
             skill: 'vocabulary',
             reason: input.dueWordsCount > 0
                 ? `${input.dueWordsCount} word${input.dueWordsCount === 1 ? '' : 's'} due for spaced-repetition review, mixed with a few new words.`
                 : 'No words due for review yet — this session will introduce new vocabulary.',
+            reasonKey: input.dueWordsCount > 0 ? 'dashboard.activity.reason.dueWords' : 'dashboard.activity.reason.noDueWords',
+            reasonParams: { count: String(input.dueWordsCount) },
         })
     }
 
@@ -114,10 +117,13 @@ export function buildDailyRecommendation(
         push({
             type: 'grammar-review',
             label: 'Grammar Review',
+            labelKey: 'dashboard.activity.grammarReview',
             route: '/grammar',
             estimatedMinutes: Math.min(remaining, 10),
             skill: 'grammar',
             reason: `${input.dueGrammarTopics.length} grammar topic${input.dueGrammarTopics.length === 1 ? '' : 's'} due for spaced review (${input.dueGrammarTopics.slice(0, 3).join(', ')}).`,
+            reasonKey: 'dashboard.activity.reason.grammarDue',
+            reasonParams: { count: String(input.dueGrammarTopics.length), topics: input.dueGrammarTopics.slice(0, 3).join(', ') },
         })
     }
 
@@ -128,10 +134,13 @@ export function buildDailyRecommendation(
         push({
             type: 'writing-practice',
             label: 'Writing',
+            labelKey: 'dashboard.activity.writing',
             route: '/writing',
             estimatedMinutes: Math.min(remaining, 15),
             skill: 'writing',
             reason: `Recent AI feedback found recurring ${categories} errors in your writing and conversations — targeted practice recommended.`,
+            reasonKey: 'dashboard.activity.reason.writingErrors',
+            reasonParams: { categories },
         })
     }
 
@@ -151,6 +160,8 @@ export function buildDailyRecommendation(
             estimatedMinutes: Math.min(remaining, 10),
             skill: summary.skill,
             reason: `${summary.repeatedMistakes.length} ${summary.skill} exercise${summary.repeatedMistakes.length === 1 ? '' : 's'} answered wrong more than once — worth another look.`,
+            reasonKey: 'dashboard.activity.reason.repeatedMistakes',
+            reasonParams: { count: String(summary.repeatedMistakes.length), skill: summary.skill },
         })
     }
 
@@ -174,6 +185,8 @@ export function buildDailyRecommendation(
             estimatedMinutes: Math.min(remaining, 10),
             skill: summary.skill,
             reason: `Observed accuracy in ${summary.skill} is ${summary.accuracy}% over ${summary.totalEvents} exercises — extra practice recommended.`,
+            reasonKey: 'dashboard.activity.reason.weakSkill',
+            reasonParams: { skill: summary.skill, accuracy: String(summary.accuracy), total: String(summary.totalEvents) },
         })
     }
 
@@ -192,6 +205,8 @@ export function buildDailyRecommendation(
             estimatedMinutes: Math.min(remaining, 15),
             skill,
             reason: `${capitalize(goal.replace(/-/g, ' '))} is one of your stated learning goals.`,
+            reasonKey: 'dashboard.activity.reason.goal',
+            reasonParams: { goal: capitalize(goal.replace(/-/g, ' ')) },
         })
     }
 
@@ -200,10 +215,13 @@ export function buildDailyRecommendation(
         push({
             type: 'hard-words-review',
             label: 'Hard Words',
+            labelKey: 'dashboard.activity.hardWords',
             route: '/hard-words',
             estimatedMinutes: remaining,
             skill: 'vocabulary',
             reason: `${input.hardWordsCount} word${input.hardWordsCount === 1 ? '' : 's'} marked hard are waiting, and there's time left in today's budget.`,
+            reasonKey: 'dashboard.activity.reason.hardWords',
+            reasonParams: { count: String(input.hardWordsCount) },
         })
     }
 

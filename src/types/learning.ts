@@ -19,11 +19,15 @@ export interface LearningObjective {
 export interface LearningActivity {
     type: LearningActivityType
     label: string
+    /** Stable presentation keys for localized surfaces such as the Dashboard. */
+    labelKey?: string
     route: string
     estimatedMinutes: number
     skill: SkillName
     /** Why this was picked — the whole point of "deterministic and explainable". */
     reason: string
+    reasonKey?: string
+    reasonParams?: Record<string, string>
 }
 
 export interface LearningRecommendation {

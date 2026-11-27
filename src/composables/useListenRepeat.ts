@@ -11,10 +11,13 @@ import {
     speakAsync,
     stop as stopSpeech,
 } from '../services/speech'
+import { getMeanings } from '../services/vocabularyMeanings'
+import type { SynonymSense } from '../types/vocabulary'
 
 export interface ListenRepeatItem {
     word: string
     meaning: string
+    synonyms?: SynonymSense[]
 }
 
 export function useListenRepeat(
@@ -103,22 +106,28 @@ export function useListenRepeat(
             return
         }
 
-        // Persian meaning × 1
+        // Persian meanings — every verified sense, not just the first, and
+        // never the English word itself (that was the bug here: this used to
+        // call playPersianPronunciation(currentWord.word), sending the
+        // ENGLISH text to the Persian voice instead of any meaning at all).
         playbackStep.value = 'meaning'
 
-        try {
-            await playPersianPronunciation(currentWord.word)
-        } catch {
-            // Some words do not have a Persian recording. English practice
-            // must still finish instead of leaving the session stuck playing.
+        const meanings = getMeanings({ meaning: currentWord.meaning, synonyms: currentWord.synonyms ?? [] })
+
+        for (const entry of meanings) {
+            if (!isPlaying.value) return
+
+            try {
+                await playPersianPronunciation(entry.text)
+            } catch {
+                // Some meanings may not have a Persian recording available.
+                // Move on to the next meaning instead of stalling the session.
+            }
+
+            if (!isPlaying.value) return
+
+            await delay(400)
         }
-
-
-
-        // await speakAsync(
-        //     currentWord.meaning,
-        //     'fa-IR'
-        // )
 
         if (!isPlaying.value) {
             return
