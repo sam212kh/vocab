@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
 import LearnStage from '../components/learn/LearnStage.vue'
+import AppIcon from '../components/ui/AppIcon.vue'
 
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { calculateLessonProgress } from '../services/lessonProgress'
@@ -13,6 +14,8 @@ import { useHardWordsStore } from '../stores/hardWords'
 import { useLearningPositionStore } from '../stores/learningPosition'
 import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useLearningEvidenceStore } from '../stores/learningEvidence'
+import { guidedStepStatuses, lessonComplete, nextGuidedStep } from '../services/guidedLearning'
 
 import type { LessonManifest, Word } from '../types/vocabulary'
 
@@ -23,21 +26,38 @@ const hardWordsStore = useHardWordsStore()
 const wordProgressStore = useWordProgressStore()
 const positionStore = useLearningPositionStore()
 const evidenceRecorder = useEvidenceRecorder()
+const evidenceStore = useLearningEvidenceStore()
 
 function onView(item: LearnItem) {
     evidenceRecorder.expose(item.id, 'word', `${courseId.value}/${lessonId.value}`)
 }
 
 const lesson = ref<LessonManifest | null>(null)
+const courseLessons = ref<LessonManifest[]>([])
 const words = ref<Word[]>([])
 const loading = ref(true)
 const error = ref('')
+const courseId = computed(() => String(route.params.courseId))
+const lessonId = computed(() => String(route.params.lessonId))
 
 const items = computed<LearnItem[]>(() => words.value.map(itemFromWord))
 
 const startIndex = ref(0)
 
 const lessonProgress = computed(() => calculateLessonProgress(words.value, wordProgressStore.progress))
+
+const guidedStatuses = computed(() => guidedStepStatuses(
+    words.value,
+    wordProgressStore.progress.filter(item => item.courseId === courseId.value && item.lessonId === lessonId.value),
+    key => evidenceStore.summaryFor(key),
+))
+const nextGuided = computed(() => nextGuidedStep(guidedStatuses.value))
+const guidedComplete = computed(() => lessonComplete(guidedStatuses.value))
+const currentGuided = computed(() => nextGuided.value ?? guidedStatuses.value.at(-1) ?? null)
+const nextLesson = computed(() => {
+    const index = courseLessons.value.findIndex(item => item.id === lessonId.value)
+    return index >= 0 ? courseLessons.value[index + 1] ?? null : null
+})
 
 const stats = computed(() => ({
     studied: lessonProgress.value.studiedWords,
@@ -50,14 +70,18 @@ const meta = computed(() => [
     `${words.value.length} expressions`,
 ].filter((value): value is string => !!value))
 
-const courseId = computed(() => String(route.params.courseId))
-const lessonId = computed(() => String(route.params.lessonId))
-
 const actions = computed(() => {
     const query = `courseId=${courseId.value}&lessonId=${lessonId.value}`
 
+    const continueAction = nextGuided.value
+        ? { key: nextGuided.value.id, label: nextGuided.value.id === 'practice' ? 'Continue to practice' : 'Continue to Meaning Recall', to: nextGuided.value.route(courseId.value, lessonId.value), primary: true }
+        : nextLesson.value
+            ? { key: 'next-lesson', label: 'Continue to the next lesson', to: `/courses/${courseId.value}/lessons/${nextLesson.value.id}`, primary: true }
+            : { key: 'complete', label: 'Learning complete', to: '/learning-path', primary: true }
+
     return [
-        { key: 'practice', label: 'Start practice', to: `/practice?${query}`, primary: true },
+        continueAction,
+        { key: 'practice', label: 'Review practice', to: `/practice?${query}` },
         { key: 'cloze', label: 'Fill in the blank', to: `/cloze?${query}` },
         { key: 'matching', label: 'Match pairs', to: `/matching?${query}` },
         { key: 'quiz', label: 'Quiz', to: `/quiz?${query}` },
@@ -91,7 +115,9 @@ function syncPosition(index: number) {
 }
 
 function onComplete() {
-    positionStore.clearIfLesson(courseId.value, lessonId.value)
+    /* Keep the bookmark at this lesson until the guided sequence moves to the
+     * next lesson. Dashboard can therefore reopen the unfinished Practice or
+     * Meaning Recall step after a refresh. */
 }
 
 onMounted(async () => {
@@ -102,6 +128,7 @@ onMounted(async () => {
         if (!course) throw new Error('Course not found')
 
         lesson.value = course.lessons.find(item => item.id === lessonId.value) ?? null
+        courseLessons.value = course.lessons
 
         if (!lesson.value) throw new Error('Lesson not found')
 
@@ -156,6 +183,26 @@ onMounted(async () => {
                 @complete="onComplete"
                 @view="onView"
             />
+
+            <section v-if="lesson && items.length" class="mx-auto mt-5 max-w-6xl rounded-2xl border border-line bg-white p-4 shadow-soft sm:p-5" aria-label="Guided lesson sequence">
+                <div class="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.1em] text-accent-ink">Guided lesson</p>
+                        <h2 class="mt-1 text-lg font-semibold text-ink">{{ currentGuided?.title }}</h2>
+                        <p class="mt-1 text-sm text-ink-soft">{{ currentGuided?.objective }}</p>
+                    </div>
+                    <span class="rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold text-accent-ink">
+                        {{ guidedStatuses.filter(step => step.completed || !step.eligible).length }} / {{ guidedStatuses.filter(step => step.eligible).length }} steps
+                    </span>
+                </div>
+                <ol class="mt-4 grid gap-2 sm:grid-cols-3">
+                    <li v-for="step in guidedStatuses" :key="step.id" class="flex items-center gap-2 rounded-xl border px-3 py-2 text-sm" :class="step.completed ? 'border-good-600/30 bg-good-50 text-good-700' : step === currentGuided ? 'border-accent/40 bg-accent-soft text-accent-ink' : 'border-line text-ink-soft'">
+                        <AppIcon :name="step.completed ? 'check' : 'circle'" :size="15" />
+                        <span class="min-w-0 truncate">{{ step.title }}</span>
+                    </li>
+                </ol>
+                <p v-if="guidedComplete" class="mt-3 text-sm font-medium text-good-700">This lesson is complete. Continue to the next lesson when you are ready.</p>
+            </section>
         </div>
     </div>
 </template>

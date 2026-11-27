@@ -51,6 +51,7 @@ const currentStage = computed(() => currentRoadmapStage(roadmap.value))
 const CEFR_BANDS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const
 
 const oxfordCourses = computed(() => courses.value.filter(course => course.id.startsWith('oxford-')))
+const guidedCourse = computed(() => courses.value.find(course => course.id === 'oxford-elementary') ?? courses.value[0] ?? null)
 
 function bandsOf(label: string | undefined): string[] {
     if (!label) return []
@@ -68,11 +69,21 @@ function bandsOf(label: string | undefined): string[] {
             description="A path based on what you've actually demonstrated — not elapsed time, and nothing here blocks you from any module."
             serif
         >
-            <button type="button" class="btn-secondary" @click="router.push('/daily-journey')">Start today's journey</button>
+            <div class="flex flex-wrap gap-2">
+                <button type="button" class="btn-primary" @click="router.push(guidedCourse ? `/courses/${guidedCourse.id}/lessons/${guidedCourse.lessons[0]?.id}` : '/lessons')">Continue learning</button>
+                <button type="button" class="btn-secondary" @click="router.push('/daily-journey')">Start today's journey</button>
+            </div>
         </PageHeader>
 
         <section aria-label="Thematic roadmap">
             <RoadmapTimeline :roadmap="roadmap" :current-stage="currentStage" />
+        </section>
+
+        <section v-if="guidedCourse" class="surface p-5 sm:p-6" aria-label="Guided curriculum">
+            <p class="label">Guided curriculum</p>
+            <h2 class="mt-1 text-lg font-semibold text-gray-900">{{ guidedCourse.title }}</h2>
+            <p class="mt-1 text-sm text-gray-500">Work through each lesson in order. Learn first, practise next, then continue to the next unfinished step.</p>
+            <RouterLink :to="`/courses/${guidedCourse.id}`" class="btn-secondary mt-4">Open guided lessons</RouterLink>
         </section>
 
         <section class="surface p-5 sm:p-6" aria-label="CEFR view">
