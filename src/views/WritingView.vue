@@ -10,6 +10,7 @@ import {
 } from '../services/writingEvaluation'
 import { AIClientError } from '../services/aiClient'
 import { useWritingHistoryStore } from '../stores/writingHistory'
+import { useLearningEvidenceStore } from '../stores/learningEvidence'
 import { usePerformanceStore } from '../stores/performance'
 import { useAISettingsStore } from '../stores/aiSettings'
 import { useMistakesStore } from '../stores/mistakes'
@@ -19,8 +20,10 @@ import WritingFeedback from '../components/writing/WritingFeedback.vue'
 
 import type { WritingEvaluation, WritingPrompt, WritingSubmission } from '../types/writing'
 import type { WritingResponseExercise } from '../types/exercise'
+import { writingEvidenceInput } from '../services/writingEvidence'
 
 const writingHistoryStore = useWritingHistoryStore()
+const learningEvidenceStore = useLearningEvidenceStore()
 const performanceStore = usePerformanceStore()
 const aiSettingsStore = useAISettingsStore()
 const mistakesStore = useMistakesStore()
@@ -135,6 +138,14 @@ function submit() {
 
     currentSubmissionId.value = submission.id
 
+    /* Deterministic constraints are preserved as unverified evidence. */
+    learningEvidenceStore.record(writingEvidenceInput(
+        prompt.id,
+        result.correct,
+        assistanceLevels.value,
+        'deterministic',
+    ))
+
     performanceStore.record({
         skill: 'writing',
         activityId: prompt.id,
@@ -174,6 +185,14 @@ async function requestEvaluation() {
         mistakesStore.recordFromEvaluation(submissionId, result.sentences)
 
         const errorCategories = performanceCategoriesFromEvaluation(result)
+
+        learningEvidenceStore.record(writingEvidenceInput(
+            prompt.id,
+            errorCategories.length === 0,
+            assistanceLevels.value,
+            'ai-verified',
+            result.evaluatedAt,
+        ))
 
         performanceStore.record({
             skill: 'writing',
