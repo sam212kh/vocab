@@ -3,6 +3,8 @@ import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 import { computed, onMounted, ref } from 'vue'
 
 import { loadGrammarManifest, loadGrammarTopic } from '../services/grammarContent'
+import { buildGrammarCurriculum, curriculumEntry } from '../services/grammarCurriculum'
+import { useLocale } from '../services/locale'
 import { useGrammarProgressStore } from '../stores/grammarProgress'
 import { usePerformanceStore } from '../stores/performance'
 
@@ -21,13 +23,16 @@ const PASS_THRESHOLD = 0.7
 
 const grammarProgressStore = useGrammarProgressStore()
 const performanceStore = usePerformanceStore()
+const { t, isPersian } = useLocale()
 
 const topics = ref<GrammarTopicManifest[]>([])
+const curriculum = ref<ReturnType<typeof buildGrammarCurriculum>>([])
 const loading = ref(false)
 const error = ref('')
 
 /* learn flow */
 const activeTopic = ref<GrammarTopic | null>(null)
+const activeManifest = ref<GrammarTopicManifest | null>(null)
 const phase = ref<'list' | 'explanation' | 'exercises' | 'summary'>('list')
 const exerciseIndex = ref(0)
 const sessionResults = ref<ExerciseResult[]>([])
@@ -56,6 +61,10 @@ const currentAnswered = computed(() =>
     sessionResults.value.length > exerciseIndex.value
 )
 
+const activeCurriculum = computed(() =>
+    activeTopic.value ? curriculumEntry(curriculum.value, activeTopic.value.id) : undefined,
+)
+
 const correctCount = computed(
     () => sessionResults.value.filter(result => result.correct).length
 )
@@ -74,6 +83,20 @@ function statusLabel(topicId: string): string {
     return item.status
 }
 
+function localizedObjective(objective: NonNullable<GrammarTopicManifest['learningObjectives']>[number]): string {
+    if (typeof objective === 'string') return objective
+    return isPersian.value ? objective.textPersian ?? objective.text : objective.text
+}
+
+function objectiveLabels(topic: GrammarTopicManifest): string[] {
+    return (topic.learningObjectives ?? []).map(localizedObjective)
+}
+
+function topicStatus(topicId: string): string {
+    const status = statusLabel(topicId)
+    return status ? t(`dashboard.status.${status}`) : ''
+}
+
 function isDue(topicId: string): boolean {
     return grammarProgressStore
         .getDueTopics()
@@ -85,12 +108,13 @@ async function openTopic(manifest: GrammarTopicManifest) {
     error.value = ''
 
     try {
+        activeManifest.value = manifest
         activeTopic.value = await loadGrammarTopic(manifest)
         phase.value = 'explanation'
         exerciseIndex.value = 0
         sessionResults.value = []
     } catch (err) {
-        error.value = err instanceof Error ? err.message : 'Failed to load topic'
+        error.value = err instanceof Error ? err.message : t('grammar.loadError')
     } finally {
         loading.value = false
     }
@@ -162,9 +186,11 @@ onMounted(async () => {
     loading.value = true
 
     try {
-        topics.value = (await loadGrammarManifest()).topics
+        const manifest = await loadGrammarManifest()
+        topics.value = manifest.topics
+        curriculum.value = buildGrammarCurriculum(manifest)
     } catch (err) {
-        error.value = err instanceof Error ? err.message : 'Failed to load grammar topics'
+        error.value = err instanceof Error ? err.message : t('grammar.loadError')
     } finally {
         loading.value = false
     }
@@ -172,12 +198,12 @@ onMounted(async () => {
 </script>
 
 <template>
-    <ActivityPage eyebrow="Grammar" title="Grammar" description="Short, practical topics: learn the pattern, then use it in exercises." wide>
+    <ActivityPage :eyebrow="t('grammar.eyebrow')" :title="t('grammar.title')" :description="t('grammar.description')" wide>
         <StateBlock v-if="error" kind="error" :text="error" />
 
         <!-- TOPIC LIST -->
         <template v-if="phase === 'list'">
-            <StateBlock v-if="loading" kind="loading" title="Loading topics" :rows="4" />
+            <StateBlock v-if="loading" kind="loading" :title="t('grammar.loading')" :rows="4" />
 
             <ItemList
                 v-for="group in groupedTopics"
@@ -187,8 +213,8 @@ onMounted(async () => {
                     id: topic.id,
                     title: topic.title,
                     subtitlePersian: topic.titlePersian,
-                    badge: isDue(topic.id) ? { text: 'due', tone: 'warn' } : statusLabel(topic.id) ? { text: String(statusLabel(topic.id)), tone: 'neutral' } : null,
-                    meta: topic.category + (topic.estimatedDuration ? ` · ~${topic.estimatedDuration} min` : ''),
+                    badge: isDue(topic.id) ? { text: t('grammar.due'), tone: 'warn' } : topicStatus(topic.id) ? { text: topicStatus(topic.id), tone: 'neutral' } : null,
+                    meta: `${curriculumEntry(curriculum, topic.id)?.sequence ?? ''} · ${topic.category ?? t('grammar.foundations')}${topic.estimatedDuration ? ` · ~${topic.estimatedDuration} min` : ''}`,
                 }))"
                 @open="id => openTopic(topics.find(topic => topic.id === id)!)"
             />
@@ -196,16 +222,35 @@ onMounted(async () => {
 
         <!-- EXPLANATION + EXAMPLES -->
         <div v-else-if="phase === 'explanation' && activeTopic" class="space-y-5">
-            <button type="button" class="btn-ghost -ml-3" @click="backToList"><AppIcon name="arrow-left" :size="16" /> All topics</button>
+            <button type="button" class="btn-ghost -ml-3" @click="backToList"><AppIcon name="arrow-left" :size="16" /> {{ t('grammar.allTopics') }}</button>
 
             <article class="surface p-5 sm:p-7">
                 <h2 class="font-display text-2xl font-semibold text-gray-900 sm:text-3xl">{{ activeTopic.title }}</h2>
                 <p class="mt-4 text-[1.05rem] leading-8 text-gray-800" dir="ltr" lang="en">{{ activeTopic.explanation }}</p>
                 <p v-if="activeTopic.explanationPersian" class="fa-text mt-4 rounded-2xl bg-gray-50 p-4 text-gray-700" lang="fa">{{ activeTopic.explanationPersian }}</p>
+                <div v-if="activeManifest?.learningObjectives?.length" class="mt-5 rounded-2xl border border-accent/20 bg-accent-soft p-4">
+                    <p class="label">{{ t('grammar.communicationGoal') }}</p>
+                    <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-gray-700">
+                        <li v-for="objective in objectiveLabels(activeManifest)" :key="objective">{{ objective }}</li>
+                    </ul>
+                </div>
             </article>
 
+            <section class="surface p-5 sm:p-7">
+                <p class="label">{{ t('grammar.lessonSequence') }}</p>
+                <ol class="mt-3 grid gap-2 text-sm text-gray-700 sm:grid-cols-2">
+                    <li v-for="(stage, index) in activeCurriculum?.stages ?? []" :key="stage" class="flex gap-2">
+                        <span class="font-semibold text-accent">{{ index + 1 }}.</span>
+                        <span>{{ t(`grammar.stage.${stage}`) }}</span>
+                    </li>
+                </ol>
+                <p v-if="activeCurriculum?.prerequisiteIds.length" class="mt-4 text-xs text-gray-500">
+                    {{ t('grammar.prerequisite') }}: {{ activeCurriculum.prerequisiteIds.join(', ') }}
+                </p>
+            </section>
+
             <section v-if="activeTopic.examples.length" class="surface divide-y divide-gray-100">
-                <h3 class="label px-5 pb-1 pt-4">Examples</h3>
+                <h3 class="label px-5 pb-1 pt-4">{{ t('grammar.examples') }}</h3>
                 <div v-for="(example, index) in activeTopic.examples" :key="index" class="flex items-start gap-3 px-5 py-3.5">
                     <div class="min-w-0 flex-1">
                         <p class="wrap-anywhere text-[1.02rem] text-gray-900" dir="ltr" lang="en">{{ example.english }}</p>
@@ -216,7 +261,7 @@ onMounted(async () => {
                 </div>
             </section>
 
-            <button type="button" class="btn-primary btn-lg w-full" @click="startExercises">Start exercises ({{ activeTopic.exercises.length }})</button>
+            <button type="button" class="btn-primary btn-lg w-full" @click="startExercises">{{ t('grammar.startExercises', { count: String(activeTopic.exercises.length) }) }}</button>
         </div>
 
         <!-- EXERCISES -->
@@ -234,15 +279,15 @@ onMounted(async () => {
         <!-- SUMMARY -->
         <ActivityResult
             v-else-if="phase === 'summary' && activeTopic"
-            :title="sessionPassed ? 'Session passed' : 'Keep going'"
+            :title="sessionPassed ? t('grammar.sessionPassed') : t('grammar.keepGoing')"
             :score="correctCount"
             :total="sessionResults.length"
-            :message="sessionPassed ? 'This topic is scheduled for spaced review.' : 'Below the pass mark. The topic will come back soon for another try.'"
-            action-label="All topics"
+            :message="sessionPassed ? t('grammar.reviewScheduled') : t('grammar.belowPassMark')"
+            :action-label="t('grammar.allTopics')"
             @action="backToList"
         >
             <template #secondary>
-                <button type="button" class="btn-secondary btn-lg" @click="openTopic(topics.find(topic => topic.id === activeTopic!.id)!)">Practice again</button>
+                <button type="button" class="btn-secondary btn-lg" @click="openTopic(topics.find(topic => topic.id === activeTopic!.id)!)">{{ t('grammar.practiceAgain') }}</button>
             </template>
         </ActivityResult>
     </ActivityPage>
