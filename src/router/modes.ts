@@ -6,7 +6,7 @@ export type SectionMode = 'overview' | 'learn' | 'practice' | 'career'
  * has to decide its own colours.
  */
 const PRACTICE_PATHS = [
-    '/practice', '/session', '/quiz', '/cloze', '/matching', '/listening', '/listen-guess',
+    '/practice', '/meaning-recall', '/session', '/quiz', '/cloze', '/matching', '/listening', '/listen-guess',
     '/listen-repeat', '/grammar', '/reading', '/hard-words', '/review', '/speaking-practice',
     '/guided-speaking', '/writing', '/conversation', '/placement',
 ]

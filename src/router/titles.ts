@@ -6,6 +6,7 @@ const TITLES: Record<string, string> = {
     course: 'Course',
     lesson: 'Lesson',
     practice: 'Practice',
+    'meaning-recall': 'Meaning Recall',
     quiz: 'Quiz',
     cloze: 'Cloze',
     matching: 'Matching',

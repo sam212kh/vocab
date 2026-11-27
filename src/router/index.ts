@@ -6,6 +6,7 @@ const DashboardView = () => import('../views/DashboardView.vue')
 const NotFoundView = () => import('../views/NotFoundView.vue')
 const ProgressView = () => import('../views/ProgressView.vue')
 const PracticeView = () => import('../views/PracticeView.vue')
+const MeaningRecallView = () => import('../views/MeaningRecallView.vue')
 const ClozeView = () => import('../views/ClozeView.vue')
 const ListenGuessView = () => import('../views/ListenGuessView.vue')
 const MatchingView = () => import('../views/MatchingView.vue')
@@ -101,6 +102,12 @@ const router = createRouter({
             path: '/practice',
             name: 'practice',
             component: PracticeView,
+            meta: { focusLayout: true },
+        },
+        {
+            path: '/meaning-recall',
+            name: 'meaning-recall',
+            component: MeaningRecallView,
             meta: { focusLayout: true },
         },
         {

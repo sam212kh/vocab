@@ -82,6 +82,7 @@ const menuSections: NavSection[] = [
         titleKey: 'nav.practice',
         items: [
             { labelKey: 'nav.practicePage', icon: 'pen', route: '/practice' },
+            { labelKey: 'nav.meaningRecall', icon: 'pen', route: '/meaning-recall' },
             { labelKey: 'nav.cloze', icon: 'blank', route: '/cloze' },
             { labelKey: 'nav.matching', icon: 'link', route: '/matching' },
             { labelKey: 'nav.quiz', icon: 'help', route: '/quiz' },
