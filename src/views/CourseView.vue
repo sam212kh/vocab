@@ -2,7 +2,10 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { loadManifest } from '../services/vocabulary'
+import { loadLesson } from '../services/vocabulary'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useLearningEvidenceStore } from '../stores/learningEvidence'
+import { guidedStepStatuses, lessonComplete } from '../services/guidedLearning'
 import AppIcon from '../components/ui/AppIcon.vue'
 import PageHeader from '../components/ui/PageHeader.vue'
 import StateBlock from '../components/ui/StateBlock.vue'
@@ -24,6 +27,15 @@ onMounted(async () => {
 
       if( !course.value ) {
           error.value = 'Course not found'
+      } else {
+          const entries = await Promise.all(course.value.lessons.map(async lesson => {
+              try {
+                  return [lesson.id, await loadLesson(lesson)] as const
+              } catch {
+                  return [lesson.id, []] as const
+              }
+          }))
+          lessonWords.value = Object.fromEntries(entries)
       }
 
     } catch (e) {
@@ -35,7 +47,9 @@ onMounted(async () => {
 })
 
 const wordProgressStore = useWordProgressStore()
+const evidenceStore = useLearningEvidenceStore()
 const filter = ref('')
+const lessonWords = ref<Record<string, import('../types/vocabulary').Word[]>>({})
 
 /* Words practised per lesson in this course (existing progress store). */
 const practicedByLesson = computed(() => {
@@ -60,6 +74,30 @@ const visibleLessons = computed(() => {
         .map((lesson, index) => ({ lesson, number: index + 1 }))
         .filter(({ lesson }) => `${lesson.title} ${lesson.subtitle ?? ''}`.toLowerCase().includes(query))
 })
+
+const lessonCompletion = computed(() => new Map(
+    (course.value?.lessons ?? []).map(lesson => {
+        const words = lessonWords.value[lesson.id] ?? []
+        const statuses = guidedStepStatuses(words, wordProgressStore.progress.filter(item => item.courseId === course.value?.id && item.lessonId === lesson.id), key => evidenceStore.summaryFor(key))
+        return [lesson.id, words.length > 0 && lessonComplete(statuses)] as const
+    }),
+))
+
+const firstIncompleteIndex = computed(() => {
+    const lessons = course.value?.lessons ?? []
+    const index = lessons.findIndex(lesson => lessonWords.value[lesson.id]?.length && !lessonCompletion.value.get(lesson.id))
+    return index < 0 ? lessons.length : index
+})
+
+function isUnlocked(index: number): boolean {
+    return index <= firstIncompleteIndex.value
+}
+
+function lessonProgress(lessonId: string): string {
+    const words = lessonWords.value[lessonId]
+    if (!words?.length) return ''
+    return lessonCompletion.value.get(lessonId) ? 'completed' : 'in progress'
+}
 </script>
 <template>
     <div class="mx-auto max-w-3xl space-y-6">
