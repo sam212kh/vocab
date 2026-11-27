@@ -11,10 +11,12 @@ import WordMeaningsBlock from '../components/learn/WordMeaningsBlock.vue'
 import { loadLesson, loadManifest } from '../services/vocabulary'
 import { answersMatch } from '../services/textMatch'
 import { useWordProgressStore } from '../stores/wordProgress'
+import { useEvidenceRecorder } from '../composables/useEvidenceRecorder'
 
 import type { CourseManifest, LessonManifest, Word } from '../types/vocabulary'
 
 const progressStore = useWordProgressStore()
+const evidenceRecorder = useEvidenceRecorder()
 const route = useRoute()
 
 const courses = ref<CourseManifest[]>([])
@@ -95,6 +97,7 @@ async function checkAnswer() {
         progressStore.recordWrong(word.word, word.courseId, word.lessonId, { mode: 'recall', ctx: 'practice' })
         missed.value.push({ word, answer: answer.value.trim() })
     }
+    evidenceRecorder.recordVocabularyRecall(word.word, result.value === 'correct', 'practice')
 
     await nextTick()
     continueButton.value?.focus({ preventScroll: true })
@@ -231,12 +234,12 @@ onMounted(async () => {
                 </div>
 
                 <div class="mt-6 flex flex-col gap-2">
-                    <button type="button" class="min-h-12 rounded-2xl bg-practice-600 px-5 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40" @click="startPractice">
+                    <RouterLink :to="lessonLink" class="flex min-h-12 items-center justify-center rounded-2xl bg-practice-600 px-5 font-semibold text-white hover:bg-practice-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/40">
+                        Continue the lesson
+                    </RouterLink>
+                    <button type="button" class="min-h-12 rounded-2xl border border-work-line bg-white px-5 font-medium text-ink-soft hover:text-ink focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/30" @click="startPractice">
                         Practice this lesson again
                     </button>
-                    <RouterLink :to="lessonLink" class="flex min-h-12 items-center justify-center rounded-2xl border border-work-line bg-white px-5 font-medium text-ink-soft hover:text-ink focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-practice-500/30">
-                        Back to the lesson
-                    </RouterLink>
                     <button type="button" class="min-h-11 text-sm font-medium text-practice-700 hover:text-practice-600" @click="chooseAnotherLesson">
                         Choose another lesson
                     </button>

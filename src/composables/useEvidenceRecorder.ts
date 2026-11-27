@@ -24,6 +24,11 @@ export function useEvidenceRecorder() {
             ledger.expose(lexKey(text), kind, ctx)
         },
 
+        /** Vocabulary retrieval completed in a named lesson activity. */
+        recordVocabularyRecall(text: string, correct: boolean, ctx: 'practice' | 'meaning-recall') {
+            ledger.record({ key: lexKey(text), kind: 'word', mode: 'recall', ok: correct, independent: true, verified: true, ctx, skill: 'vocabulary' })
+        },
+
         /** Grammar topic exercises. Choice items are recognition; typed ones are recall. */
         recordGrammar(topicId: string, exerciseType: string, correct: boolean, independent = true) {
             const choice = ['multiple-choice', 'matching', 'sentence-ordering', 'reading-comprehension', 'listening-comprehension']
