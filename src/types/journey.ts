@@ -276,4 +276,6 @@ export interface RoadmapStageStatus {
     progress: number
     /** Plain explanation of what unlocks/completes this stage. */
     requirement: string
+    /** Structured thresholds for localized rendering; derived from the same roadmap definition. */
+    thresholds?: { recall: number; production: number; journeys: number; fluency: number }
 }

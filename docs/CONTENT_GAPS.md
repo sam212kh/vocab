@@ -22,12 +22,12 @@ Exercise types: translation 146, fill-blank 121, multiple-choice 101, short-answ
 
 ## 2. Automated validation
 
-`npm run validate:content`: **8 error(s), 1400 warning(s).** Errors fail the check; warnings are quality gaps.
+`npm run validate:content`: **8 error(s), 893 warning(s).** Errors fail the check; warnings are quality gaps.
 
 | Severity | Count | Rule |
 | --- | --- | --- |
 | error | 8 | example-template-repeated |
-| warning | 1399 | cloze-unreachable |
+| warning | 892 | cloze-unreachable |
 | warning | 1 | cefr-inconsistent |
 
 ## 3. Topics by CEFR band

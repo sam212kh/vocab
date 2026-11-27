@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppIcon from '../ui/AppIcon.vue'
 import type { RoadmapStageStatus } from '../../types/journey'
+import { useLocale } from '../../services/locale'
 
 /**
  * The learning-path timeline: connected nodes, state-colored, "you are
@@ -12,6 +13,28 @@ defineProps<{
     roadmap: RoadmapStageStatus[]
     currentStage: RoadmapStageStatus | null
 }>()
+
+const { t } = useLocale()
+
+function title(stage: RoadmapStageStatus): string {
+    return t(`roadmap.stage.${stage.id}.title`)
+}
+
+function description(stage: RoadmapStageStatus): string {
+    return t(`roadmap.stage.${stage.id}.description`)
+}
+
+function requirement(stage: RoadmapStageStatus): string {
+    const thresholds = stage.thresholds
+    if (!thresholds) return stage.requirement
+
+    return [
+        thresholds.recall ? t('roadmap.requirement.recalls', { count: String(thresholds.recall) }) : '',
+        thresholds.production ? t('roadmap.requirement.sentences', { count: String(thresholds.production) }) : '',
+        thresholds.fluency ? t('roadmap.requirement.spoken', { count: String(thresholds.fluency) }) : '',
+        t('roadmap.requirement.journeys', { count: String(thresholds.journeys) }),
+    ].filter(Boolean).join(' · ')
+}
 </script>
 
 <template>
@@ -36,15 +59,15 @@ defineProps<{
 
             <div class="min-w-0 flex-1 pt-0.5">
                 <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-                    <p class="font-semibold text-gray-900" :class="stage.state === 'locked' ? 'text-gray-500' : ''">{{ stage.title }}</p>
-                    <span v-if="stage.id === currentStage?.id" class="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent-ink">you are here</span>
-                    <span v-else-if="stage.state === 'content-pending'" class="rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700">content coming</span>
+                    <p class="font-semibold text-gray-900" :class="stage.state === 'locked' ? 'text-gray-500' : ''">{{ title(stage) }}</p>
+                    <span v-if="stage.id === currentStage?.id" class="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent-ink">{{ t('roadmap.youAreHere') }}</span>
+                    <span v-else-if="stage.state === 'content-pending'" class="rounded-full bg-amber-100 px-2 py-0.5 text-xs text-amber-700">{{ t('roadmap.contentComing') }}</span>
                 </div>
-                <p class="text-sm text-gray-500">{{ stage.description }}</p>
+                <p class="text-sm text-gray-500">{{ description(stage) }}</p>
                 <div v-if="stage.progress > 0" class="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
                     <div class="h-full rounded-full bg-accent motion-safe-only transition-all" :style="{ width: `${Math.round(stage.progress * 100)}%` }" />
                 </div>
-                <p class="mt-1 text-xs text-gray-400">{{ stage.requirement }}</p>
+                <p class="mt-1 text-xs text-gray-400">{{ requirement(stage) }}</p>
             </div>
         </li>
     </ol>

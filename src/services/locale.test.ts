@@ -50,6 +50,12 @@ describe('locale', () => {
         expect(translateText('Daily progress', 'fa')).toBe('پیشرفت روزانه')
     })
 
+    it('translates complete legacy UI labels without substring collisions', () => {
+        expect(translateText('Your journey', 'fa')).toBe('مسیر شما')
+        expect(translateText('Guided lesson', 'fa')).toBe('درس هدایت‌شده')
+        expect(translateText('My guided lesson title', 'fa')).toBe('My guided lesson title')
+    })
+
     it('provides localized shared audio and Hard Words labels', () => {
         const { t, setLocale: change } = useLocale()
 
@@ -58,6 +64,20 @@ describe('locale', () => {
         expect(t('audio.play')).toBe('پخش صدا')
         expect(t('audio.playLabel', { label: 'approach' })).toBe('پخش صدای approach')
         expect(t('hardWords.saveTo')).toBe('ذخیره واژه در واژه‌های دشوار')
+    })
+
+    it('provides Persian values for the learning-path UI and dynamic requirements', () => {
+        const { t, setLocale: change } = useLocale()
+        const keys = translationKeys('roadmap.')
+
+        change('fa')
+
+        for (const key of keys) {
+            expect(t(key), key).not.toBe(key)
+        }
+
+        expect(t('roadmap.requirement.recalls', { count: '25' })).toBe('25 یادآوری مستقل')
+        expect(t('roadmap.stage.everyday-foundations.description')).toContain('واژه‌ها')
     })
 
     it('translates only anchored UI progress patterns', () => {

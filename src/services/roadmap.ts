@@ -118,6 +118,7 @@ export function buildRoadmap(input: RoadmapInput): RoadmapStageStatus[] {
             state,
             progress,
             requirement,
+            thresholds: { ...t },
         })
 
         /* A content-pending stage does not block the roadmap view for later

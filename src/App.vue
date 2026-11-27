@@ -7,6 +7,7 @@ import { useEvidenceRecorder } from './composables/useEvidenceRecorder'
 import AppSidebar from './components/layout/AppSidebar.vue'
 import AppToast from './components/ui/AppToast.vue'
 import AppIcon from './components/ui/AppIcon.vue'
+import GlobalVocabularyLookup from './components/vocabulary/GlobalVocabularyLookup.vue'
 import { installLocaleDomBridge, useLocale } from './services/locale'
 
 const route = useRoute()
@@ -78,6 +79,7 @@ onUnmounted(() => {
     <div class="min-h-screen bg-surface text-gray-900" :data-mode="mode" :dir="isPersian ? 'rtl' : 'ltr'">
         <a href="#main" class="sr-only z-50 rounded-xl bg-white px-4 py-2 font-semibold text-gray-900 shadow-md focus:not-sr-only focus:fixed focus:start-3 focus:top-3" @click.prevent="mainEl?.focus()">{{ t('app.skipToContent') }}</a>
         <AppToast />
+        <GlobalVocabularyLookup />
 
         <!-- Mobile header: a real sticky bar that OWNS layout space, so page
              titles can never scroll underneath a floating button. -->

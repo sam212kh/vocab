@@ -5,6 +5,7 @@ import BottomSheet from '../ui/BottomSheet.vue'
 import WordMeaningsBlock from './WordMeaningsBlock.vue'
 
 import type { LearnItem } from '../../services/learnItems'
+import { useLocale } from '../../services/locale'
 
 /** Word meaning on demand, on the shared sheet (bottom sheet on phones, card on larger screens). */
 defineProps<{
@@ -15,6 +16,7 @@ defineProps<{
 }>()
 
 const emit = defineEmits<{ close: []; open: []; save: [] }>()
+const { t } = useLocale()
 </script>
 
 <template>
@@ -36,7 +38,7 @@ const emit = defineEmits<{ close: []; open: []; save: [] }>()
             </div>
 
             <div class="mt-4 flex gap-2">
-                <button v-if="canOpen" type="button" class="btn-primary flex-1" @click="emit('open')">Open this expression</button>
+                <button v-if="canOpen" type="button" class="btn-primary flex-1" @click="emit('open')">{{ t('vocabulary.openExpression') }}</button>
                 <button
                     type="button"
                     class="btn-secondary"
@@ -45,7 +47,7 @@ const emit = defineEmits<{ close: []; open: []; save: [] }>()
                     @click="emit('save')"
                 >
                     <AppIcon :name="saved ? 'bookmark-fill' : 'bookmark'" :size="17" />
-                    {{ saved ? 'Saved' : 'Save' }}
+                    {{ saved ? t('hardWords.saved') : t('hardWords.save') }}
                 </button>
             </div>
         </template>

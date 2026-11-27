@@ -10,10 +10,12 @@ import type { CourseManifest } from '../types/vocabulary'
 import { useJourneyStore } from '../stores/journey'
 import { useSkillProfileStore } from '../stores/skillProfile'
 import { PLACEMENT_SKILLS } from '../services/placementSummary'
+import { useLocale } from '../services/locale'
 
 const router = useRouter()
 const journeyStore = useJourneyStore()
 const skillProfileStore = useSkillProfileStore()
+const { t } = useLocale()
 
 const courses = ref<CourseManifest[]>([])
 
@@ -64,41 +66,39 @@ function bandsOf(label: string | undefined): string[] {
 <template>
     <div class="mx-auto max-w-3xl space-y-8">
         <PageHeader
-            eyebrow="Your journey"
-            title="Learning Path"
-            description="A path based on what you've actually demonstrated — not elapsed time, and nothing here blocks you from any module."
+            :eyebrow="t('roadmap.eyebrow')"
+            :title="t('roadmap.title')"
+            :description="t('roadmap.description')"
             serif
         >
             <div class="flex flex-wrap gap-2">
-                <button type="button" class="btn-primary" @click="router.push(guidedCourse ? `/courses/${guidedCourse.id}/lessons/${guidedCourse.lessons[0]?.id}` : '/lessons')">Continue learning</button>
-                <button type="button" class="btn-secondary" @click="router.push('/daily-journey')">Start today's journey</button>
+                <button type="button" class="btn-primary" @click="router.push(guidedCourse ? `/courses/${guidedCourse.id}/lessons/${guidedCourse.lessons[0]?.id}` : '/lessons')">{{ t('roadmap.continueLearning') }}</button>
+                <button type="button" class="btn-secondary" @click="router.push('/daily-journey')">{{ t('roadmap.startJourney') }}</button>
             </div>
         </PageHeader>
 
-        <section aria-label="Thematic roadmap">
+        <section :aria-label="t('roadmap.thematic')">
             <RoadmapTimeline :roadmap="roadmap" :current-stage="currentStage" />
         </section>
 
-        <section v-if="guidedCourse" class="surface p-5 sm:p-6" aria-label="Guided curriculum">
-            <p class="label">Guided curriculum</p>
+        <section v-if="guidedCourse" class="surface p-5 sm:p-6" :aria-label="t('roadmap.guidedCurriculum')">
+            <p class="label">{{ t('roadmap.guidedCurriculum') }}</p>
             <h2 class="mt-1 text-lg font-semibold text-gray-900">{{ guidedCourse.title }}</h2>
-            <p class="mt-1 text-sm text-gray-500">Work through each lesson in order. Learn first, practise next, then continue to the next unfinished step.</p>
-            <RouterLink :to="`/courses/${guidedCourse.id}`" class="btn-secondary mt-4">Open guided lessons</RouterLink>
+            <p class="mt-1 text-sm text-gray-500">{{ t('roadmap.guidedDescription') }}</p>
+            <RouterLink :to="`/courses/${guidedCourse.id}`" class="btn-secondary mt-4">{{ t('roadmap.openLessons') }}</RouterLink>
         </section>
 
-        <section class="surface p-5 sm:p-6" aria-label="CEFR view">
-            <h2 class="text-lg font-semibold text-gray-900">CEFR level view</h2>
+        <section class="surface p-5 sm:p-6" :aria-label="t('roadmap.cefrView')">
+            <h2 class="text-lg font-semibold text-gray-900">{{ t('roadmap.cefrView') }}</h2>
             <p class="mt-1 text-sm text-gray-500">
-                A rough A1–B2 cross-section of the content that actually carries CEFR tags today.
-                No C1/C2 content exists yet. Vocabulary courses outside the Oxford set have no
-                per-lesson CEFR tag, so they're shown by their own course label instead of guessed.
+                {{ t('roadmap.cefrDescription') }}
             </p>
 
             <div class="mt-4 space-y-3">
                 <div v-for="course in oxfordCourses" :key="course.id" class="flex items-center justify-between gap-3 rounded-xl border border-gray-100 p-3">
                     <div class="min-w-0 flex-1">
                         <p class="truncate font-medium text-gray-900">{{ course.title }}</p>
-                        <p class="text-xs text-gray-400">{{ course.lessons.length }} lessons</p>
+                        <p class="text-xs text-gray-400">{{ t('roadmap.lessons', { count: String(course.lessons.length) }) }}</p>
                     </div>
                     <div class="flex shrink-0 gap-1">
                         <span
@@ -112,10 +112,10 @@ function bandsOf(label: string | undefined): string[] {
             </div>
 
             <div class="mt-4 border-t border-gray-100 pt-4">
-                <p class="label">Your verified levels</p>
+                <p class="label">{{ t('roadmap.verifiedLevels') }}</p>
                 <div class="mt-2 flex flex-wrap gap-2">
                     <span v-for="skill in PLACEMENT_SKILLS" :key="skill" class="chip" aria-pressed="true">
-                        {{ skill }}: {{ skillProfileStore.profile.skills[skill].current?.level ?? 'not assessed' }}
+                        {{ t(`roadmap.skill.${skill}`) }}: {{ skillProfileStore.profile.skills[skill].current?.level ?? t('roadmap.notAssessed') }}
                     </span>
                 </div>
                 <button
@@ -124,7 +124,7 @@ function bandsOf(label: string | undefined): string[] {
                     class="btn-secondary mt-3"
                     @click="router.push('/placement')"
                 >
-                    Take the placement test
+                    {{ t('roadmap.placement') }}
                 </button>
             </div>
         </section>

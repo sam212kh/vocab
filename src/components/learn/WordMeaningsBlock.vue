@@ -5,6 +5,7 @@ import HardWordButton from '../vocabulary/HardWordButton.vue'
 import { getMeanings } from '../../services/vocabularyMeanings'
 import type { Example, SynonymSense } from '../../types/vocabulary'
 import type { HardWordSource } from '../../stores/hardWords'
+import { useLocale } from '../../services/locale'
 
 /**
  * The shared "what this word actually means" block — English word, part of
@@ -39,6 +40,7 @@ const props = withDefaults(defineProps<{
 
 /* Reactive — props.meaning/synonyms change when the caller advances to the next word while this component instance stays mounted (e.g. Hard Words "Next →"). A plain non-reactive const here would silently keep showing the previous word's meanings. */
 const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: props.synonyms }))
+const { t } = useLocale()
 </script>
 
 <template>
@@ -62,14 +64,14 @@ const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: 
         </p>
 
         <div v-if="collocations.length" class="space-y-1">
-            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">Common collocations</p>
+            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">{{ t('vocabulary.commonCollocations') }}</p>
             <div class="flex flex-wrap gap-2">
                 <span v-for="item in collocations" :key="item" class="rounded-full bg-gray-100 px-2.5 py-1 text-sm text-gray-700">{{ item }}</span>
             </div>
         </div>
 
         <div v-if="relatedExpressions.length" class="space-y-1">
-            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">Related expressions</p>
+            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">{{ t('vocabulary.relatedExpressions') }}</p>
             <div class="flex flex-wrap gap-2">
                 <span v-for="item in relatedExpressions" :key="item" class="rounded-full bg-gray-100 px-2.5 py-1 text-sm text-gray-700">{{ item }}</span>
             </div>
@@ -78,7 +80,7 @@ const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: 
         <details v-if="examples.length" class="group">
             <summary class="inline-flex min-h-11 cursor-pointer items-center gap-1 text-sm font-medium text-accent-ink select-none">
                 <span class="transition group-open:rotate-90">›</span>
-                <span>Examples</span>
+                <span>{{ t('vocabulary.examples') }}</span>
             </summary>
             <ul class="mt-2 space-y-3 border-t border-gray-100 pt-3">
                 <li v-for="(example, index) in examples" :key="index">
