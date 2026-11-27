@@ -4,6 +4,10 @@ import { loadListeningActivity, loadListeningManifest } from './listeningContent
 import { loadRealLifeManifest, loadRealLifeScenario } from './realLifeContent'
 import { loadCareerManifest, loadCareerSection } from './careerContent'
 import { loadTransferPatterns } from './transferContent'
+import { loadReadingManifest } from './readingContent'
+import { loadSpeakingManifest } from './speakingContent'
+import { loadWritingManifest } from './writingContent'
+import { buildIntegratedUnits, type IntegratedManifestItem } from './integratedCurriculum'
 import type { TransferPattern } from '../types/transfer'
 
 import type { ContentSource } from './roadmap'
@@ -32,6 +36,7 @@ export interface ContentSnapshot {
     availableSources: ContentSource[]
     /** Optional: transfer patterns (empty when the content is not deployed). */
     transferPatterns: TransferPattern[]
+    integratedUnits: import('../types/integrated').IntegratedUnit[]
     /** word → retrieval item, used to turn due SRS records into prompts. */
     wordIndex: Map<string, RetrievalItem>
 }
@@ -216,6 +221,34 @@ export async function loadContentSnapshot(
 
     const transferPatterns = await safe(loadTransferPatterns, [] as TransferPattern[])
 
+    /* ---- cross-skill topic map: manifests only, no duplicate content ---- */
+    const [readingManifest, speakingManifest, writingManifest] = await Promise.all([
+        safe(loadReadingManifest, { version: 1, passages: [] }),
+        safe(loadSpeakingManifest, { version: 1, topics: [] }),
+        safe(loadWritingManifest, { version: 1, prompts: [] }),
+    ])
+
+    const metadata = (items: Array<{ id: string; title: string; titlePersian?: string; cefrLevel?: string; category?: string; domainTags?: string[]; learningObjectives?: unknown[] }>): IntegratedManifestItem[] => items.map(item => ({
+        id: item.id,
+        title: item.title,
+        titlePersian: item.titlePersian,
+        cefrLevel: item.cefrLevel,
+        category: item.category,
+        domainTags: item.domainTags,
+        learningObjectives: (item.learningObjectives ?? []).map(objective =>
+            typeof objective === 'string' ? { text: objective } : objective as { text: string; textPersian?: string },
+        ),
+    }))
+
+    const integratedUnits = buildIntegratedUnits({
+        realLife: metadata(realLifeManifest),
+        grammar: metadata(grammarManifest?.topics ?? []),
+        listening: metadata(listeningManifest?.activities ?? []),
+        reading: metadata(readingManifest.passages),
+        speaking: metadata(speakingManifest.topics),
+        writing: metadata(writingManifest.prompts),
+    })
+
     return {
         newWords,
         grammarExercises,
@@ -224,6 +257,7 @@ export async function loadContentSnapshot(
         careerQuestions,
         availableSources: [...available],
         transferPatterns,
+        integratedUnits,
         wordIndex,
     }
 }

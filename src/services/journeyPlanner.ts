@@ -111,6 +111,9 @@ export function planJourney(input: PlannerInput): JourneyPlan {
 
     /* ---- R2: theme selection ---- */
     const theme = chooseTheme(input.themes, input.dueWords, recent)
+    const integratedUnit = theme
+        ? input.integratedUnits?.find(unit => unit.id === theme.id) ?? null
+        : null
 
     if (!input.themes.length) {
         notes.push('No Real-Life scenarios are available — session is built from vocabulary and grammar.')
@@ -455,6 +458,7 @@ export function planJourney(input: PlannerInput): JourneyPlan {
         length: input.length,
         objective: buildObjective(theme, dueItems.length, input, ev ? [...weak] : []),
         theme: theme ? { id: theme.id, title: theme.title, titlePersian: theme.titlePersian } : null,
+        integratedUnit,
         activities,
         totalEstimatedMinutes: minutesUsed,
         notes,

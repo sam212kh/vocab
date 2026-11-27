@@ -185,6 +185,7 @@ function buildPlannerInput(chosen: JourneyLength): PlannerInput {
             patterns: content.transferPatterns,
             recentContextIds: recentTransferContexts(),
         }).plannerEvidence,
+        integratedUnits: content.integratedUnits,
     }
 }
 
@@ -735,6 +736,11 @@ const FLOW = [
                 </ol>
 
                 <p class="mt-3 text-sm text-gray-500"><span class="font-semibold text-gray-700">Today:</span> {{ session.plan.objective }}</p>
+                <div v-if="session.plan.integratedUnit" class="mt-3 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3">
+                    <p class="text-xs font-semibold uppercase tracking-wide text-accent-ink">Integrated practice</p>
+                    <p class="mt-1 text-sm text-gray-700">{{ session.plan.integratedUnit.objective }}</p>
+                    <p class="mt-1 text-xs text-gray-500">{{ session.plan.integratedUnit.skills.join(' · ') }}</p>
+                </div>
             </header>
 
             <div class="surface p-5 sm:p-7">

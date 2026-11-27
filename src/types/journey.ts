@@ -1,6 +1,7 @@
 import type { Exercise } from './exercise'
 import type { SkillName } from './skillProfile'
 import type { TransferLearn } from './transfer'
+import type { IntegratedUnit } from './integrated'
 
 /**
  * Daily Learning Journey domain types.
@@ -105,6 +106,8 @@ export interface JourneyPlan {
     totalEstimatedMinutes: number
     /** Planner notes: degraded sources, empty content, etc. */
     notes: string[]
+    /** Topic-level connections assembled from existing authored manifests. */
+    integratedUnit?: IntegratedUnit | null
 }
 
 /* ---------- Planner input (snapshot of everything it may read) ---------- */
@@ -172,6 +175,8 @@ export interface PlannerInput {
     speakingEnabled: boolean
     /** Stage mastery so far, to balance recognition vs production. */
     stageCounts: Record<LearningStage, number>
+    /** Optional cross-skill map; absent for older callers and tests. */
+    integratedUnits?: IntegratedUnit[]
 }
 
 /* ---------- Session lifecycle + evidence ---------- */
