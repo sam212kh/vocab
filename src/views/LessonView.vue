@@ -94,7 +94,12 @@ function isSaved(item: LearnItem): boolean {
 }
 
 function toggleSave(item: LearnItem) {
-    hardWordsStore.toggleWord(item.id, item.meaning)
+    hardWordsStore.toggleWord(item.id, item.meaning, {
+        context: item.context ?? item.examples[0]?.english,
+        module: 'vocabulary-lesson',
+        courseId: courseId.value,
+        lessonId: lessonId.value,
+    })
 }
 
 /* Keep the position in the URL (?w=3) so refresh and shared links resume — optional, additive. */

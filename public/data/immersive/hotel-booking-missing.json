@@ -1,0 +1,27 @@
+{
+  "id": "hotel-booking-missing",
+  "title": "The Hotel Cannot Find Your Booking",
+  "titlePersian": "هتل رزرو شما را پیدا نمی‌کند",
+  "category": "travel",
+  "cefrLevel": "B1",
+  "difficulty": 3,
+  "estimatedDuration": 15,
+  "situation": "You arrive at a hotel late at night, but the receptionist cannot find your booking.",
+  "situationPersian": "آخر شب به هتل می‌رسی، اما پذیرش رزروت را پیدا نمی‌کند.",
+  "aiRole": "a hotel receptionist following hotel policy",
+  "learnerRole": "a tired traveller with a booking confirmation",
+  "objective": "Explain the booking, request assistance and recover from a misunderstanding politely.",
+  "vocabulary": ["booking confirmation", "reservation number", "under the name of", "Could I speak to the manager?"],
+  "usefulExpressions": [
+    {"english":"I booked a room for tonight.","persian":"برای امشب اتاق رزرو کرده‌ام."},
+    {"english":"Could you look it up by the reservation number?","persian":"می‌توانید با شماره رزرو آن را جست‌وجو کنید؟"},
+    {"english":"What are my options?","persian":"چه گزینه‌هایی دارم؟"}
+  ],
+  "stages": [
+    {"id":"check-in","prompt":"The receptionist says: 'I'm sorry, but I can't find that booking.' Explain what you booked.","promptPersian":"پذیرش می‌گوید: «متأسفم، اما این رزرو را پیدا نمی‌کنم.» توضیح بده چه چیزی رزرو کرده‌ای."},
+    {"id":"evidence","prompt":"The receptionist asks for more information. Give the reservation number or the name on the booking.","promptPersian":"پذیرش اطلاعات بیشتری می‌خواهد. شماره رزرو یا نام ثبت‌شده را بگو.","choices":[{"id":"number","label":"Give the reservation number","labelPersian":"شماره رزرو را بگو","response":"The reservation number is 48271. Could you look it up?","nextStage":"escalate"},{"id":"manager","label":"Ask for the manager","labelPersian":"مدیر را بخواه","response":"Could I speak to the manager, please? I need help with this booking.","nextStage":"escalate"}]},
+    {"id":"escalate","prompt":"The receptionist offers to investigate, but asks you to wait. Respond clearly and politely.","promptPersian":"پذیرش می‌گوید بررسی می‌کند، اما باید صبر کنی. روشن و مؤدبانه پاسخ بده."}
+  ],
+  "opening": "Good evening. Welcome to the hotel. Do you have a reservation?",
+  "completionCriteria": "The learner explains the booking, provides identifying information and requests a reasonable solution."
+}

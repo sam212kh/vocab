@@ -79,6 +79,20 @@ watch(() => props.item.id, () => { showAllExamples.value = false })
                     <span lang="en">{{ synonym.word }}</span><template v-if="synonym.meaning"> · <span class="fa-text" lang="fa">{{ synonym.meaning }}</span></template>
                 </span>
             </p>
+
+            <div v-if="item.collocations?.length" class="mt-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.08em] text-ink-faint">Common collocations</p>
+                <div class="mt-1.5 flex flex-wrap gap-1.5">
+                    <span v-for="collocation in item.collocations" :key="collocation" class="rounded-full border border-learn-200/70 bg-white/70 px-2.5 py-0.5 text-sm" dir="ltr">{{ collocation }}</span>
+                </div>
+            </div>
+
+            <div v-if="item.relatedExpressions?.length" class="mt-3">
+                <p class="text-xs font-semibold uppercase tracking-[0.08em] text-ink-faint">Related expressions</p>
+                <div class="mt-1.5 flex flex-wrap gap-1.5">
+                    <span v-for="expression in item.relatedExpressions" :key="expression" class="rounded-full border border-line px-2.5 py-0.5 text-sm" dir="ltr">{{ expression }}</span>
+                </div>
+            </div>
         </header>
 
         <!-- Body: language in use -->

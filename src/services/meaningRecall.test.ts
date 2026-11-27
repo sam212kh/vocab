@@ -41,6 +41,16 @@ describe('meaningRecallTarget', () => {
         expect(target.expectedCount).toBe(1)
     })
 
+    it('accepts every authored meaning instead of truncating after an arbitrary count', () => {
+        const target = meaningRecallTarget({
+            meaning: 'اول؛ دوم؛ سوم؛ چهارم',
+            synonyms: [{ word: 'other', meaning: 'پنجم' }],
+        })
+
+        expect(target.expectedCount).toBe(5)
+        expect(target.accepted).toEqual(['اول', 'دوم', 'سوم', 'چهارم', 'پنجم'])
+    })
+
     it('never counts a duplicate synonym gloss as a second meaning', () => {
         const target = meaningRecallTarget({
             meaning: 'کافی',

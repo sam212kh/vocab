@@ -35,14 +35,14 @@ describe('splitPrimarySenses', () => {
 })
 
 describe('getMeanings — a word with three meanings displays all three', () => {
-    it('combines a two-sense primary meaning with one synonym gloss, capped at 3', () => {
+    it('combines every distinct primary sense and synonym gloss without an arbitrary cap', () => {
         const entries = getMeanings(word({
             meaning: 'به دست آوردن؛ کسب کردن',
             synonyms: [{ word: 'get', meaning: 'گرفتن' }, { word: 'acquire', meaning: 'تحصیل کردن' }],
         }))
 
-        expect(entries.map(entry => entry.text)).toEqual(['به دست آوردن', 'کسب کردن', 'گرفتن'])
-        expect(entries).toHaveLength(3)
+        expect(entries.map(entry => entry.text)).toEqual(['به دست آوردن', 'کسب کردن', 'گرفتن', 'تحصیل کردن'])
+        expect(entries).toHaveLength(4)
     })
 })
 
@@ -72,6 +72,12 @@ describe('getMeanings — a word with one verified meaning does not show fabrica
 
     it('a synonym gloss identical to the primary sense is not duplicated', () => {
         const entries = getMeanings(word({ meaning: 'کافی', synonyms: [{ word: 'sufficient', meaning: 'کافی' }] }))
+
+        expect(entries).toEqual([{ text: 'کافی', source: 'primary' }])
+    })
+
+    it('dedupes harmless Persian/Arabic keyboard variants without changing display text', () => {
+        const entries = getMeanings(word({ meaning: 'کافی', synonyms: [{ word: 'enough', meaning: 'كافی' }] }))
 
         expect(entries).toEqual([{ text: 'کافی', source: 'primary' }])
     })

@@ -11,10 +11,18 @@ const STORAGE_KEY = 'english-upgrade-hard-words'
 
 const STORAGE_VERSION = 1
 
-interface HardWord {
+export interface HardWordSource {
+    context?: string
+    module?: string
+    courseId?: string
+    lessonId?: string
+}
+
+export interface HardWord {
     word: string
     meaning: string
     addedAt: number
+    source?: HardWordSource
 }
 
 const repository = createVersionedRepository<HardWord[]>({
@@ -59,7 +67,7 @@ export const useHardWordsStore = defineStore(
             )
         }
 
-        function addWord(word: string, meaning: string) {
+        function addWord(word: string, meaning: string, source?: HardWordSource) {
             const normalized = normalizeWord(word)
 
             if (isHardWord(normalized)) {
@@ -70,6 +78,7 @@ export const useHardWordsStore = defineStore(
                 word: normalized,
                 meaning,
                 addedAt: Date.now(),
+                ...(source ? { source } : {}),
             })
 
             save()
@@ -89,12 +98,13 @@ export const useHardWordsStore = defineStore(
 
         function toggleWord(
             word: string,
-            meaning: string
+            meaning: string,
+            source?: HardWordSource,
         ) {
             if (isHardWord(word)) {
                 removeWord(word)
             } else {
-                addWord(word, meaning)
+                addWord(word, meaning, source)
             }
         }
 
@@ -138,6 +148,14 @@ function migrateStoredHardWords(
             word: String(item.word).trim().toLowerCase(),
             meaning: typeof item.meaning === 'string' ? item.meaning : '',
             addedAt: Number(item.addedAt) || Date.now(),
+            ...(item.source && typeof item.source === 'object' ? {
+                source: {
+                    ...(typeof (item.source as Record<string, unknown>).context === 'string' ? { context: (item.source as Record<string, unknown>).context as string } : {}),
+                    ...(typeof (item.source as Record<string, unknown>).module === 'string' ? { module: (item.source as Record<string, unknown>).module as string } : {}),
+                    ...(typeof (item.source as Record<string, unknown>).courseId === 'string' ? { courseId: (item.source as Record<string, unknown>).courseId as string } : {}),
+                    ...(typeof (item.source as Record<string, unknown>).lessonId === 'string' ? { lessonId: (item.source as Record<string, unknown>).lessonId as string } : {}),
+                },
+            } : {}),
         }))
         .filter(item => item.word)
 }

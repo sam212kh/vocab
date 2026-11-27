@@ -17,12 +17,18 @@ const props = withDefaults(defineProps<{
     pos?: string
     synonyms?: SynonymSense[]
     examples?: Example[]
+    collocations?: string[]
+    relatedExpressions?: string[]
+    usage?: string
     /** Word audio is optional — some callers (e.g. a prompt-only context) already show it elsewhere. */
     showAudio?: boolean
 }>(), {
     pos: '',
     synonyms: () => [],
     examples: () => [],
+    collocations: () => [],
+    relatedExpressions: () => [],
+    usage: '',
     showAudio: true,
 })
 
@@ -44,6 +50,24 @@ const meanings = computed(() => getMeanings({ meaning: props.meaning, synonyms: 
         <ol v-else class="fa-text list-inside list-decimal space-y-0.5 text-lg text-gray-900" lang="fa">
             <li v-for="entry in meanings" :key="entry.text">{{ entry.text }}</li>
         </ol>
+
+        <p v-if="usage" class="fa-text rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900" lang="fa">
+            {{ usage }}
+        </p>
+
+        <div v-if="collocations.length" class="space-y-1">
+            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">Common collocations</p>
+            <div class="flex flex-wrap gap-2">
+                <span v-for="item in collocations" :key="item" class="rounded-full bg-gray-100 px-2.5 py-1 text-sm text-gray-700">{{ item }}</span>
+            </div>
+        </div>
+
+        <div v-if="relatedExpressions.length" class="space-y-1">
+            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400">Related expressions</p>
+            <div class="flex flex-wrap gap-2">
+                <span v-for="item in relatedExpressions" :key="item" class="rounded-full bg-gray-100 px-2.5 py-1 text-sm text-gray-700">{{ item }}</span>
+            </div>
+        </div>
 
         <details v-if="examples.length" class="group">
             <summary class="inline-flex min-h-11 cursor-pointer items-center gap-1 text-sm font-medium text-accent-ink select-none">

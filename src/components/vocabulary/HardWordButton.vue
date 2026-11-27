@@ -2,10 +2,12 @@
 import { computed } from 'vue'
 import AppIcon from '../ui/AppIcon.vue'
 import { useHardWordsStore } from '../../stores/hardWords'
+import type { HardWordSource } from '../../stores/hardWords'
 
 const props = defineProps<{
     wordId: string
     meaning: string
+    source?: HardWordSource
 }>()
 
 const hardWordsStore = useHardWordsStore()
@@ -15,7 +17,8 @@ const hard = computed(() => hardWordsStore.isHardWord(props.wordId))
 function handleToggle() {
     hardWordsStore.toggleWord(
         props.wordId,
-        props.meaning
+        props.meaning,
+        props.source,
     )
 }
 </script>

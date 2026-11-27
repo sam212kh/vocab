@@ -21,6 +21,35 @@ export interface VocabularyMastery {
     practisedEarlier: number
 }
 
+export type VocabularyMasteryStage =
+    | 'new'
+    | 'introduced'
+    | 'recognized'
+    | 'recalled-independently'
+    | 'used-in-sentence'
+    | 'applied-in-new-context'
+    | 'due-for-review'
+    | 'consistently-retained'
+
+/**
+ * One authoritative, display-neutral stage for a lexical item. Due status is
+ * an SRS overlay and intentionally wins over the underlying stage; retention
+ * is only reported when the evidence engine has delayed independent recall.
+ */
+export function vocabularyMasteryStage(summary: ItemSummary | null, due: boolean): VocabularyMasteryStage {
+    if (due) return 'due-for-review'
+    if (!summary || summary.ladderStage === null) return 'new'
+    if (summary.stage === 'retained') return 'consistently-retained'
+
+    switch (summary.ladderStage) {
+        case 'exposed': return 'introduced'
+        case 'recognized': return 'recognized'
+        case 'recalled': return 'recalled-independently'
+        case 'produced': return 'used-in-sentence'
+        case 'applied': return 'applied-in-new-context'
+    }
+}
+
 export function vocabularyMastery(summaries: ItemSummary[], dueKeys: Set<string>, legacyOnly: Set<string> = new Set()): VocabularyMastery {
     const result: VocabularyMastery = {
         total: 0, newlyIntroduced: 0, currentlyLearning: 0, independentlyRecalled: 0, independentlyProduced: 0,

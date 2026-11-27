@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "scenarios": [
+    {"id":"restaurant-reservation-problem","title":"A Problem With Your Reservation","titlePersian":"مشکل در رزرو رستوران","category":"everyday","cefrLevel":"A2","difficulty":2,"estimatedDuration":12},
+    {"id":"hotel-booking-missing","title":"The Hotel Cannot Find Your Booking","titlePersian":"هتل رزرو شما را پیدا نمی‌کند","category":"travel","cefrLevel":"B1","difficulty":3,"estimatedDuration":15}
+  ]
+}

@@ -6,7 +6,7 @@ import { buildProgressOverview } from './progressOverview'
 import { analyzeSkillGaps } from './skillGap'
 import { buildRetentionReport } from './retention'
 import { summarizeItem } from './evidenceEngine'
-import { vocabularyMastery } from './vocabularyMastery'
+import { vocabularyMastery, vocabularyMasteryStage } from './vocabularyMastery'
 
 import type { EvidenceEntry, EvidenceMode, ItemEvidence } from '../types/evidence'
 import type { JourneySession } from '../types/journey'
@@ -51,6 +51,14 @@ describe('vocabulary mastery categories', () => {
 
     it('SRS "mastered" never moves an item up: only evidence does', () => {
         expect(vocabularyMastery([summarizeItem(item('lex:srs-mastered', [e(1, 'view', null)]), NOW)], new Set()).independentlyRecalled).toBe(0)
+    })
+
+    it('maps evidence to honest learner-facing stages with due as an overlay', () => {
+        expect(vocabularyMasteryStage(null, false)).toBe('new')
+        expect(vocabularyMasteryStage(summaries[0], false)).toBe('introduced')
+        expect(vocabularyMasteryStage(summaries[2], false)).toBe('recalled-independently')
+        expect(vocabularyMasteryStage(summaries[2], true)).toBe('due-for-review')
+        expect(vocabularyMasteryStage(summaries[4], false)).toBe('consistently-retained')
     })
 })
 

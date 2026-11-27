@@ -837,6 +837,12 @@ onMounted(async () => {
                         :meaning="
                             currentWord.meaning
                         "
+                        :source="{
+                            context: currentWord.examples?.[0]?.english,
+                            module: 'listen-repeat',
+                            courseId: currentWord.courseId,
+                            lessonId: currentWord.lessonId,
+                        }"
                     />
                 </div>
             </div>

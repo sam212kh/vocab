@@ -32,7 +32,7 @@ export interface MeaningRecallTarget {
 
 /** The one place that decides how many meanings a recall question should ask for, and what counts as correct — always derived from the word's own data (never guessed, never padded). */
 export function meaningRecallTarget(word: Pick<Word, 'meaning' | 'synonyms'>): MeaningRecallTarget {
-    const accepted = getMeanings(word, 10).map(entry => entry.text)
+    const accepted = getMeanings(word).map(entry => entry.text)
 
     return { expectedCount: accepted.length, accepted }
 }

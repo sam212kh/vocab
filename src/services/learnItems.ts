@@ -34,6 +34,8 @@ export interface LearnItem {
     usage?: string
     /** Common mistakes — only when the content genuinely has them. */
     mistakes: LearnMistake[]
+    collocations?: string[]
+    relatedExpressions?: string[]
 }
 
 export function itemFromWord(word: Word): LearnItem {
@@ -47,6 +49,9 @@ export function itemFromWord(word: Word): LearnItem {
         context: word.miniContext || undefined,
         synonyms: word.synonyms,
         mistakes: [],
+        collocations: word.collocations,
+        relatedExpressions: word.relatedExpressions,
+        usage: word.usage,
     }
 }
 

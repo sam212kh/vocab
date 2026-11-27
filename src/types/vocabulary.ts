@@ -25,6 +25,12 @@ export interface Word {
     clozeVariants?: string[]
     examples: Example[]
     miniContext: string
+    /** Author-provided collocations; absent when the source content has none. */
+    collocations?: string[]
+    /** Author-provided related expressions; never generated at runtime. */
+    relatedExpressions?: string[]
+    /** Author-provided usage guidance, when available. */
+    usage?: string
     icon?: string
 }
 

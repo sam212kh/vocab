@@ -44,24 +44,37 @@ export interface MeaningEntry {
     source: 'primary' | 'synonym'
 }
 
-const DEFAULT_MAX_MEANINGS = 3
+/** Persian-aware identity for duplicate glosses; display text remains untouched. */
+function meaningKey(value: string): string {
+    return value
+        .normalize('NFC')
+        .replace(/[يى]/g, 'ی')
+        .replace(/ك/g, 'ک')
+        .replace(/[\u064B-\u065F\u0670]/g, '')
+        .replace(/\u200C/g, ' ')
+        .replace(/[؛،؟!.,]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase()
+}
 
 /**
- * The 1-3 most useful Persian meanings for a word: every distinct sense in
- * `meaning`, then any synonym glosses not already covered, capped at `max`.
+ * Every distinct authored Persian meaning for a word: every distinct sense in
+ * `meaning`, then any synonym glosses not already covered. There is no
+ * arbitrary default cap: a word's verified data is the source of truth.
  * Order is preserved (primary senses first, in their original order; then
  * synonyms, in their original order) — never reordered by "usefulness",
  * since there's no real signal for that beyond authoring order.
  */
 export function getMeanings(
     word: Pick<Word, 'meaning' | 'synonyms'>,
-    max = DEFAULT_MAX_MEANINGS
+    max = Number.POSITIVE_INFINITY
 ): MeaningEntry[] {
     const seen = new Set<string>()
     const entries: MeaningEntry[] = []
 
     for (const sense of splitPrimarySenses(word.meaning)) {
-        const key = sense.toLowerCase()
+        const key = meaningKey(sense)
 
         if (seen.has(key)) continue
         seen.add(key)
@@ -75,7 +88,7 @@ export function getMeanings(
 
         if (!sense) continue
 
-        const key = sense.toLowerCase()
+        const key = meaningKey(sense)
 
         if (seen.has(key)) continue
         seen.add(key)

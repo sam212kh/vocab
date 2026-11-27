@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AppIcon from '../components/ui/AppIcon.vue'
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 
 import { useHardWordsStore } from '../stores/hardWords'
 import { useWordProgressStore } from '../stores/wordProgress'
@@ -39,11 +39,23 @@ const {
     reset,
 } = useSpeakingPractice()
 
+const search = ref('')
+
 const words = computed(() => {
-    return hardWordsStore.hardWords
+    const query = search.value.trim().toLowerCase()
+    if (!query) return hardWordsStore.hardWords
+    return hardWordsStore.hardWords.filter(entry =>
+        `${entry.word} ${entry.meaning} ${entry.source?.context ?? ''}`.toLowerCase().includes(query)
+    )
 })
 
 const currentIndex = ref(0)
+
+watch(search, () => {
+    currentIndex.value = 0
+    resetPracticeState()
+    phase.value = 'listen'
+})
 
 const phase = ref<
     'listen' |
@@ -394,6 +406,17 @@ function removeCurrentWord() {
             </button>
         </div>
 
+        <div v-if="hardWordsStore.hardWords.length" class="mb-6">
+            <label for="hard-word-search" class="sr-only">Search saved words</label>
+            <input
+                id="hard-word-search"
+                v-model="search"
+                type="search"
+                placeholder="Search saved words"
+                class="min-h-11 w-full rounded-xl border border-gray-200 bg-white px-4 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
+            />
+        </div>
+
         <!-- Empty -->
         <div
             v-if="!currentWord"
@@ -410,8 +433,7 @@ function removeCurrentWord() {
             <p
                 class="mt-2 text-gray-500"
             >
-                Add difficult words from your
-                vocabulary lessons.
+                {{ search ? 'No saved words match your search.' : 'Add difficult words from your vocabulary lessons.' }}
             </p>
         </div>
 
@@ -478,6 +500,9 @@ function removeCurrentWord() {
                             :pos="currentEnrichedWord.pos"
                             :synonyms="currentEnrichedWord.synonyms"
                             :examples="currentEnrichedWord.examples"
+                            :collocations="currentEnrichedWord.collocations"
+                            :related-expressions="currentEnrichedWord.relatedExpressions"
+                            :usage="currentEnrichedWord.usage"
                         />
                     </div>
 
@@ -526,6 +551,10 @@ function removeCurrentWord() {
                             I know this word →
                         </button>
                     </div>
+
+                    <p v-if="currentWord?.source?.context" class="fa-text mt-4 text-sm text-gray-500" lang="fa">
+                        Saved from: {{ currentWord.source.context }}
+                    </p>
                 </div>
 
                 <!-- THINK -->
@@ -557,6 +586,9 @@ function removeCurrentWord() {
                             :pos="currentEnrichedWord.pos"
                             :synonyms="currentEnrichedWord.synonyms"
                             :examples="currentEnrichedWord.examples"
+                            :collocations="currentEnrichedWord.collocations"
+                            :related-expressions="currentEnrichedWord.relatedExpressions"
+                            :usage="currentEnrichedWord.usage"
                         />
 
                         <template v-else>

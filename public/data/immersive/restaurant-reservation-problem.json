@@ -1,0 +1,27 @@
+{
+  "id": "restaurant-reservation-problem",
+  "title": "A Problem With Your Reservation",
+  "titlePersian": "مشکل در رزرو رستوران",
+  "category": "everyday",
+  "cefrLevel": "A2",
+  "difficulty": 2,
+  "estimatedDuration": 12,
+  "situation": "You arrive at a restaurant, but the host cannot immediately find your reservation.",
+  "situationPersian": "به رستوران می‌رسی، اما مسئول پذیرش در ابتدا رزروت را پیدا نمی‌کند.",
+  "aiRole": "a busy but helpful restaurant host",
+  "learnerRole": "a guest with a reservation",
+  "objective": "Explain the reservation clearly and ask for a practical solution.",
+  "vocabulary": ["reservation", "under the name of", "available table", "Could you check again?"],
+  "usefulExpressions": [
+    {"english":"I have a reservation under the name of…","persian":"به نام ... رزرو دارم."},
+    {"english":"Could you check again, please?","persian":"لطفاً می‌توانید دوباره بررسی کنید؟"},
+    {"english":"Is there another table available?","persian":"میز دیگری خالی هست؟"}
+  ],
+  "stages": [
+    {"id":"arrive","prompt":"The host says: 'I can't see your reservation. What name is it under?'","promptPersian":"مسئول پذیرش می‌گوید: «رزرو شما را نمی‌بینم. به چه نامی است؟»"},
+    {"id":"clarify","prompt":"The host still cannot find it. Explain when you booked and ask them to check again.","promptPersian":"مسئول هنوز رزرو را پیدا نکرده است. بگو چه زمانی رزرو کردی و بخواه دوباره بررسی کند.","choices":[{"id":"show-confirmation","label":"Show the confirmation email","labelPersian":"ایمیل تأیید را نشان بده","response":"I have the confirmation email here. Could you check again, please?","nextStage":"solution"},{"id":"ask-table","label":"Ask for another table","labelPersian":"میز دیگری بخواه","response":"Could you put us at another table if one is available?","nextStage":"solution"}]},
+    {"id":"solution","prompt":"The host offers a table in twenty minutes. Respond politely and decide what to do.","promptPersian":"مسئول می‌گوید بیست دقیقه دیگر میز آماده می‌شود. مؤدبانه پاسخ بده و تصمیم بگیر چه کار می‌کنی."}
+  ],
+  "opening": "Good evening. Welcome. How can I help you?",
+  "completionCriteria": "The learner explains the reservation and makes or accepts a practical request."
+}

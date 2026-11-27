@@ -30,6 +30,14 @@ describe('hardWords store', () => {
         expect(store.hardWords).toHaveLength(1)
     })
 
+    it('preserves source context when a word is saved', () => {
+        const store = useHardWordsStore()
+
+        store.addWord('approach', 'رویکرد', { module: 'vocabulary-lesson', courseId: 'upgrade', lessonId: 'batch-01', context: 'Her approach was careful.' })
+
+        expect(store.hardWords[0].source).toEqual({ module: 'vocabulary-lesson', courseId: 'upgrade', lessonId: 'batch-01', context: 'Her approach was careful.' })
+    })
+
     it('persists across store instances sharing the same localStorage key (single source of truth)', () => {
         const first = useHardWordsStore()
         first.addWord('consolidated', 'یکپارچه')
