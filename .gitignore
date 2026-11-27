@@ -34,3 +34,4 @@ ai-service/.assessment-state/
 
 # Test-runner reporter output
 .vitest/
+/.qa-screenshots/
