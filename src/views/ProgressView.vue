@@ -22,6 +22,7 @@ import { loadTransferPatterns } from '../services/transferContent'
 import { attemptsFromLedger, patternProgress } from '../services/transfer'
 import { vocabularyMastery } from '../services/vocabularyMastery'
 import { COMMUNICATION_METRICS } from '../services/communicationProgress'
+import { buildSkillMeasurements } from '../services/progressMeasurement'
 
 import type { TransferPattern } from '../types/transfer'
 import type { GapDimension } from '../types/skillGap'
@@ -32,7 +33,7 @@ const performanceStore = usePerformanceStore()
 const journeyStore = useJourneyStore()
 const wordProgressStore = useWordProgressStore()
 const immersiveProgressStore = useImmersiveProgressStore()
-const { locale } = useLocale()
+const { locale, t } = useLocale()
 
 const patterns = ref<TransferPattern[]>([])
 const now = Date.now()
@@ -101,6 +102,13 @@ const communicationMetrics = computed(() => COMMUNICATION_METRICS.map(metric => 
     ...metric,
     result: dimension(metric.dimension),
 })))
+
+const skillMeasurements = computed(() => buildSkillMeasurements(intelligence.value.gaps, intelligence.value.summaries))
+
+const skillLabel = (skill: string) => t(`progress.skill.${skill}`)
+
+const measurementStatus = (classification: ReturnType<typeof dimension>['classification']) =>
+    t(`progress.${classification}`)
 
 const immersiveSummary = computed(() => ({
     completed: immersiveProgressStore.records.reduce((sum, item) => sum + item.completed, 0),
@@ -202,6 +210,28 @@ function communicationStatus(classification: ReturnType<typeof dimension>['class
 
             <ul class="mt-3 divide-y divide-gray-100">
                 <DimensionRow v-for="result in intelligence.gaps.dimensions" :key="result.dimension" :result="result" />
+            </ul>
+        </section>
+
+        <!-- Evidence model -->
+        <section class="surface p-5 sm:p-6" aria-labelledby="evidence-title" data-testid="skill-evidence">
+            <h2 id="evidence-title" class="label">{{ t('progress.evidenceTitle') }}</h2>
+            <p class="mt-1 text-xs text-gray-400">{{ t('progress.evidenceDescription') }}</p>
+
+            <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+                <li v-for="measurement in skillMeasurements" :key="measurement.skill" class="rounded-2xl border border-gray-100 bg-gray-50 p-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <h3 class="font-semibold text-gray-900">{{ skillLabel(measurement.skill) }}</h3>
+                        <span class="rounded-full bg-white px-2 py-1 text-xs font-medium text-gray-500">{{ measurementStatus(measurement.classification) }}</span>
+                    </div>
+                    <p v-if="measurement.estimate !== null" class="mt-3 text-sm font-semibold text-gray-800">
+                        {{ measurement.estimate }}% · {{ measurement.observed }} {{ t('progress.independentObservations') }}
+                    </p>
+                    <p v-else class="mt-3 text-sm text-gray-500">{{ t('progress.noEvidence') }}</p>
+                    <p v-if="measurement.assistedSuccesses !== null && measurement.assistedSuccesses > 0" class="mt-1 text-xs text-gray-400">
+                        {{ measurement.assistedSuccesses }} {{ t('progress.assistedSuccesses') }} — {{ t('progress.evidenceDescription') }}
+                    </p>
+                </li>
             </ul>
         </section>
 
