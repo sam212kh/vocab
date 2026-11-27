@@ -119,19 +119,28 @@ function lessonProgress(lessonId: string): string {
             <ol v-else class="surface divide-y divide-gray-100 overflow-hidden">
                 <li v-for="{ lesson, number } in visibleLessons" :key="lesson.id">
                     <RouterLink
+                        v-if="isUnlocked(number - 1)"
                         :to="`/courses/${course.id}/lessons/${lesson.id}`"
                         class="group flex min-h-16 items-center gap-4 px-4 py-3 transition hover:bg-accent-soft focus-visible:bg-accent-soft focus-visible:outline-none sm:px-5"
                     >
-                        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent-soft text-sm font-semibold tabular-nums text-accent-ink">{{ number }}</span>
+                        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-semibold tabular-nums" :class="lessonCompletion.get(lesson.id) ? 'bg-green-100 text-green-700' : 'bg-accent-soft text-accent-ink'">
+                            <AppIcon v-if="lessonCompletion.get(lesson.id)" name="check" :size="15" />
+                            <template v-else>{{ number }}</template>
+                        </span>
                         <span class="min-w-0 flex-1">
                             <span class="wrap-anywhere block font-semibold text-gray-900">{{ lesson.title }}</span>
                             <span v-if="lesson.subtitle" class="block truncate text-sm text-gray-500">{{ lesson.subtitle }}</span>
                         </span>
-                        <span v-if="practicedByLesson.get(lesson.id)" class="hidden shrink-0 items-center gap-1 rounded-full bg-green-50 px-2.5 py-1 text-xs font-medium text-green-700 sm:inline-flex">
-                            <AppIcon name="check" :size="12" /> {{ practicedByLesson.get(lesson.id) }} practised
-                        </span>
+                        <span v-if="lessonProgress(lesson.id)" class="hidden shrink-0 rounded-full bg-green-50 px-2.5 py-1 text-xs font-medium text-green-700 sm:inline-flex">{{ lessonProgress(lesson.id) }}</span>
                         <AppIcon name="chevron-right" :size="18" class="shrink-0 text-gray-300 transition group-hover:translate-x-0.5 group-hover:text-accent" />
                     </RouterLink>
+                    <div v-else class="flex min-h-16 items-center gap-4 px-4 py-3 opacity-60 sm:px-5" aria-disabled="true">
+                        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-400"><AppIcon name="lock" :size="14" /></span>
+                        <span class="min-w-0 flex-1">
+                            <span class="wrap-anywhere block font-semibold text-gray-500">{{ lesson.title }}</span>
+                            <span class="block text-sm text-gray-400">Complete the previous lesson to unlock this one.</span>
+                        </span>
+                    </div>
                 </li>
             </ol>
         </template>

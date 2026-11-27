@@ -36,3 +36,4 @@ ai-service/.assessment-state/
 .vitest/
 /.qa-screenshots/
 .*
+tests
