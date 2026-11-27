@@ -181,6 +181,15 @@ const activeJourney = computed(() => {
 
 const lastLesson = computed(() => positionStore.last)
 
+/* One primary curriculum action. The existing bookmark resumes the exact
+ * expression; a new learner starts at the first real A1 lesson. */
+const continueLearningRoute = computed(() => {
+    const lesson = lastLesson.value
+    return lesson
+        ? `/courses/${lesson.courseId}/lessons/${lesson.lessonId}?w=${lesson.index + 1}`
+        : '/courses/oxford-elementary/lessons/oxford-elementary-01'
+})
+
 const lastLessonLink = computed(() => {
     const lesson = lastLesson.value
 
@@ -271,10 +280,10 @@ const QUICK = [
                     </div>
 
                     <RouterLink
-                        to="/daily-journey"
+                        :to="continueLearningRoute"
                         class="btn btn-lg mt-6 bg-white !text-[#243350] shadow-sm hover:bg-gray-100"
                     >
-                        {{ activeJourney ? t('dashboard.resumeJourney') : t('dashboard.startJourney') }}
+                        {{ lastLesson ? t('dashboard.continueLearning') : t('dashboard.startFirstLesson') }}
                         <AppIcon name="chevron-right" :size="18" />
                     </RouterLink>
                 </div>
