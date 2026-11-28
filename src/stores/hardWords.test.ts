@@ -38,6 +38,20 @@ describe('hardWords store', () => {
         expect(store.hardWords[0].source).toEqual({ module: 'vocabulary-lesson', courseId: 'upgrade', lessonId: 'batch-01', context: 'Her approach was careful.' })
     })
 
+    it('merges contexts when the same canonical word is encountered again', () => {
+        const store = useHardWordsStore()
+
+        store.addWord('attendance', 'حضور؛ غیبت', { module: 'reading', context: 'The attendance policy changed.' })
+        store.addWord('ATTENDANCE', 'حضور؛ غیبت', { module: 'conversation', context: 'Attendance matters here.' })
+
+        expect(store.hardWords).toHaveLength(1)
+        expect(store.hardWords[0].meaning).toBe('حضور؛ غیبت')
+        expect(store.hardWords[0].source?.contexts).toEqual([
+            'The attendance policy changed.',
+            'Attendance matters here.',
+        ])
+    })
+
     it('persists across store instances sharing the same localStorage key (single source of truth)', () => {
         const first = useHardWordsStore()
         first.addWord('consolidated', 'یکپارچه')

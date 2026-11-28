@@ -56,8 +56,15 @@ export async function resolveFullHardWords(
         for (const words of results) {
             for (const word of words) {
                 const key = word.word.trim().toLowerCase()
+                const expressions = [
+                    ...(word.collocations ?? []),
+                    ...(word.relatedExpressions ?? []),
+                ].map(value => value.trim().toLowerCase())
 
                 if (targets.has(key) && !foundByKey.has(key)) foundByKey.set(key, word)
+                for (const target of targets) {
+                    if (expressions.includes(target) && !foundByKey.has(target)) foundByKey.set(target, word)
+                }
             }
         }
 

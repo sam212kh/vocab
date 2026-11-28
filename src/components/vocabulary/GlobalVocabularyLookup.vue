@@ -32,24 +32,39 @@ function cleanSelection(value: string): string {
 function selectionFromEditable(target: Node | null): boolean {
     const element = target instanceof Element ? target : target?.parentElement
 
-    return !!element?.closest('input, textarea, select, [contenteditable="true"]')
+    return !!element?.closest('button, a, input, textarea, select, summary, [role="button"], [contenteditable="true"]')
+}
+
+function textBeforeRange(root: Node, range: Range): string {
+    const prefix = document.createRange()
+    prefix.selectNodeContents(root)
+    prefix.setEnd(range.startContainer, range.startOffset)
+    return prefix.toString()
 }
 
 function sourceContext(range: Range): string {
     const parent = range.commonAncestorContainer instanceof Element
         ? range.commonAncestorContainer
         : range.commonAncestorContainer.parentElement
+    const root = parent?.closest('p, li, article, [data-lookup-context]') ?? parent
+    const fullText = (root?.textContent ?? selected.value).replace(/\s+/gu, ' ').trim()
+    const before = root ? textBeforeRange(root, range).replace(/\s+/gu, ' ') : ''
+    const selectedText = cleanSelection(window.getSelection()?.toString() ?? selected.value)
+    const selectedIndex = Math.max(0, fullText.toLowerCase().indexOf(selectedText.toLowerCase(), before.length - selectedText.length))
+    const sentenceStart = Math.max(0, ...[...fullText.slice(0, selectedIndex).matchAll(/[.!?。！？](?:\s+|$)/gu)].map(match => (match.index ?? 0) + match[0].length))
+    const endMatch = /[.!?。！？](?:\s+|$)/gu.exec(fullText.slice(selectedIndex + selectedText.length))
+    const sentenceEnd = endMatch ? selectedIndex + selectedText.length + endMatch.index + endMatch[0].length : fullText.length
 
-    return (parent?.textContent ?? selected.value).replace(/\s+/gu, ' ').trim().slice(0, 500)
+    return fullText.slice(sentenceStart, sentenceEnd).trim().slice(0, 500)
 }
 
-async function inspectSelection() {
+async function inspectSelection(target?: EventTarget | null) {
     const browserSelection = window.getSelection()
 
     if (!browserSelection || browserSelection.rangeCount === 0 || browserSelection.isCollapsed) return
 
     const range = browserSelection.getRangeAt(0)
-    if (selectionFromEditable(range.commonAncestorContainer)) return
+    if (selectionFromEditable(range.commonAncestorContainer) || selectionFromEditable(target as Node | null)) return
 
     const text = cleanSelection(browserSelection.toString())
     if (!text || text.length > 80 || !/[A-Za-z]/u.test(text)) return
@@ -62,9 +77,15 @@ async function inspectSelection() {
     loading.value = true
 
     const rect = range.getBoundingClientRect()
+    const viewport = window.visualViewport
+    const viewportWidth = viewport?.width ?? window.innerWidth
+    const viewportHeight = viewport?.height ?? window.innerHeight
+    const popupWidth = Math.min(352, viewportWidth - 16)
+    const preferredTop = rect.bottom + 8
+    const top = preferredTop + 280 <= viewportHeight ? preferredTop : Math.max(8, rect.top - 288)
     position.value = {
-        top: Math.min(Math.max(rect.bottom + 8, 8), window.innerHeight - 260),
-        left: Math.min(Math.max(rect.left, 8), window.innerWidth - 360),
+        top,
+        left: Math.min(Math.max(rect.left, 8), viewportWidth - popupWidth - 8),
     }
 
     const key = text.toLowerCase()
@@ -103,12 +124,17 @@ function handleViewportChange() {
     if (open.value) close()
 }
 
-const handleMouseup = () => void nextTick(inspectSelection)
-const handleTouchend = () => void nextTick(inspectSelection)
+function handlePointerDown(event: PointerEvent) {
+    if (open.value && !(event.target instanceof Element && event.target.closest('[data-global-lookup]'))) close()
+}
+
+const handleMouseup = (event: MouseEvent) => void nextTick(() => inspectSelection(event.target))
+const handleTouchend = (event: TouchEvent) => void nextTick(() => inspectSelection(event.target))
 
 onMounted(() => {
     document.addEventListener('mouseup', handleMouseup)
     document.addEventListener('touchend', handleTouchend, { passive: true })
+    document.addEventListener('pointerdown', handlePointerDown)
     window.addEventListener('keydown', handleKeydown)
     window.addEventListener('resize', handleViewportChange)
     window.addEventListener('scroll', handleViewportChange, { passive: true })
@@ -117,6 +143,7 @@ onMounted(() => {
 onUnmounted(() => {
     document.removeEventListener('mouseup', handleMouseup)
     document.removeEventListener('touchend', handleTouchend)
+    document.removeEventListener('pointerdown', handlePointerDown)
     window.removeEventListener('keydown', handleKeydown)
     window.removeEventListener('resize', handleViewportChange)
     window.removeEventListener('scroll', handleViewportChange)
@@ -126,12 +153,14 @@ onUnmounted(() => {
 <template>
     <div
         v-if="open"
-        class="fixed z-[70] w-[min(22rem,calc(100vw-1rem))] rounded-2xl border border-gray-200 bg-white p-4 shadow-2xl"
+        data-global-lookup
+        class="fixed z-[70] max-h-[calc(100dvh-1rem)] w-[min(22rem,calc(100vw-1rem))] overflow-y-auto overscroll-contain rounded-2xl border border-gray-200 bg-white p-4 shadow-2xl"
         :style="{ top: `${position.top}px`, left: `${position.left}px` }"
         role="dialog"
         :aria-label="t('vocabulary.lookup')"
         @mouseup.stop
         @touchend.stop
+        @pointerdown.stop
     >
         <div class="flex items-start justify-between gap-3">
             <p class="wrap-anywhere text-xs text-gray-500" dir="ltr" lang="en">{{ selected }}</p>
@@ -153,6 +182,9 @@ onUnmounted(() => {
                     :source="{ context, module: 'global-lookup', courseId: word.courseId, lessonId: word.lessonId }"
                 />
             </div>
+            <p v-if="context" class="mt-3 border-t border-gray-100 pt-3 text-xs leading-5 text-gray-500" dir="ltr" lang="en">
+                {{ context }}
+            </p>
         </template>
         <template v-else>
             <p class="mt-3 text-sm text-gray-600">{{ t('vocabulary.lookupNotFound') }}</p>

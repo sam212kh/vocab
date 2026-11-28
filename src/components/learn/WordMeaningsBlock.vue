@@ -49,7 +49,7 @@ const { t } = useLocale()
             <h3 class="wrap-anywhere text-2xl font-bold text-gray-900" dir="ltr" lang="en">{{ word }}</h3>
             <span v-if="pos" class="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">{{ pos }}</span>
             <AudioPlayer v-if="showAudio" :text="word" size="sm" :label="word" />
-            <HardWordButton v-if="showSave" :word-id="word" :meaning="meaning" :source="source" />
+            <HardWordButton v-if="showSave" :word-id="word" :meaning="meaning" :meanings="meanings.map(entry => entry.text)" :source="source" />
         </div>
 
         <p class="fa-text text-lg text-gray-900" lang="fa">

@@ -8,6 +8,7 @@ import { useLocale } from '../../services/locale'
 const props = defineProps<{
     wordId: string
     meaning: string
+    meanings?: string[]
     source?: HardWordSource
 }>()
 
@@ -19,7 +20,7 @@ const hard = computed(() => hardWordsStore.isHardWord(props.wordId))
 function handleToggle() {
     hardWordsStore.toggleWord(
         props.wordId,
-        props.meaning,
+        props.meanings?.length ? props.meanings.join('؛ ') : props.meaning,
         props.source,
     )
 }

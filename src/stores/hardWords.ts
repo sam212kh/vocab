@@ -13,6 +13,7 @@ const STORAGE_VERSION = 1
 
 export interface HardWordSource {
     context?: string
+    contexts?: string[]
     module?: string
     courseId?: string
     lessonId?: string
@@ -71,6 +72,12 @@ export const useHardWordsStore = defineStore(
             const normalized = normalizeWord(word)
 
             if (isHardWord(normalized)) {
+                const existing = hardWords.value.find(item => normalizeWord(item.word) === normalized)
+                if (existing && source) {
+                    existing.source = mergeSources(existing.source, source)
+                    if (!existing.meaning && meaning) existing.meaning = meaning
+                    save()
+                }
                 return
             }
 
@@ -129,6 +136,21 @@ export const useHardWordsStore = defineStore(
     }
 )
 
+function mergeSources(existing: HardWordSource | undefined, incoming: HardWordSource): HardWordSource {
+    const contexts = [...new Set([
+        ...(existing?.contexts ?? []),
+        ...(existing?.context ? [existing.context] : []),
+        ...(incoming.contexts ?? []),
+        ...(incoming.context ? [incoming.context] : []),
+    ].map(value => value.trim()).filter(Boolean))]
+
+    return {
+        ...(existing ?? {}),
+        ...incoming,
+        ...(contexts.length ? { context: contexts[0], contexts } : {}),
+    }
+}
+
 function migrateStoredHardWords(
     raw: unknown,
     _storedVersion: number | null
@@ -151,6 +173,7 @@ function migrateStoredHardWords(
             ...(item.source && typeof item.source === 'object' ? {
                 source: {
                     ...(typeof (item.source as Record<string, unknown>).context === 'string' ? { context: (item.source as Record<string, unknown>).context as string } : {}),
+                    ...(Array.isArray((item.source as Record<string, unknown>).contexts) ? { contexts: ((item.source as Record<string, unknown>).contexts as unknown[]).filter((value): value is string => typeof value === 'string') } : {}),
                     ...(typeof (item.source as Record<string, unknown>).module === 'string' ? { module: (item.source as Record<string, unknown>).module as string } : {}),
                     ...(typeof (item.source as Record<string, unknown>).courseId === 'string' ? { courseId: (item.source as Record<string, unknown>).courseId as string } : {}),
                     ...(typeof (item.source as Record<string, unknown>).lessonId === 'string' ? { lessonId: (item.source as Record<string, unknown>).lessonId as string } : {}),
