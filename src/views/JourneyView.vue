@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-import { loadContentSnapshot } from '../services/journeyContent'
+import { loadContentSnapshot, loadEssentialContentSnapshot } from '../services/journeyContent'
 import type { ContentSnapshot } from '../services/journeyContent'
 import { planJourney } from '../services/journeyPlanner'
 import {
@@ -39,6 +39,7 @@ import type { JourneyExtras } from '../services/evidenceBridge'
 import { useLearnerProfileStore } from '../stores/learnerProfile'
 
 import { useSpeakingPractice } from '../composables/useSpeakingPractice'
+import { useLocale } from '../services/locale'
 
 import ExercisePlayer from '../components/exercise/ExercisePlayer.vue'
 import SpeechButton from '../components/ui/SpeechButton.vue'
@@ -72,6 +73,7 @@ const aiSettingsStore = useAISettingsStore()
 const evidenceRecorder = useEvidenceRecorder()
 const ledgerStore = useLearningEvidenceStore()
 const learnerProfileStore = useLearnerProfileStore()
+const { t, isPersian } = useLocale()
 
 const {
     isSupported: voiceSupported,
@@ -84,6 +86,8 @@ const {
 
 const loading = ref(false)
 const loadError = ref('')
+const backgroundPreparing = ref(false)
+const backgroundError = ref('')
 const snapshot = ref<ContentSnapshot | null>(null)
 const length = ref<JourneyLength>('standard')
 

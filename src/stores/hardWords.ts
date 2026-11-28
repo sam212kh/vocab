@@ -73,9 +73,9 @@ export const useHardWordsStore = defineStore(
 
             if (isHardWord(normalized)) {
                 const existing = hardWords.value.find(item => normalizeWord(item.word) === normalized)
-                if (existing && source) {
-                    existing.source = mergeSources(existing.source, source)
-                    if (!existing.meaning && meaning) existing.meaning = meaning
+                if (existing && (source || meaning)) {
+                    if (source) existing.source = mergeSources(existing.source, source)
+                    existing.meaning = mergeMeanings(existing.meaning, meaning)
                     save()
                 }
                 return
@@ -149,6 +149,19 @@ function mergeSources(existing: HardWordSource | undefined, incoming: HardWordSo
         ...incoming,
         ...(contexts.length ? { context: contexts[0], contexts } : {}),
     }
+}
+
+function mergeMeanings(existing: string, incoming: string): string {
+    const values = [...existing.split(/[؛;]/u), ...incoming.split(/[؛;]/u)]
+        .map(value => value.trim())
+        .filter(Boolean)
+    const seen = new Set<string>()
+    return values.filter(value => {
+        const key = value.normalize('NFC').toLowerCase()
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+    }).join('؛ ')
 }
 
 function migrateStoredHardWords(

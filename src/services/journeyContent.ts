@@ -67,6 +67,73 @@ function constructionFor(
     }
 }
 
+function emptySnapshot(): ContentSnapshot {
+    return {
+        newWords: [],
+        grammarExercises: [],
+        themes: [],
+        dictationExercises: [],
+        careerQuestions: [],
+        availableSources: [],
+        transferPatterns: [],
+        integratedUnits: [],
+        wordIndex: new Map(),
+    }
+}
+
+/**
+ * Loads only the content needed to produce a valid first activity. Optional
+ * cross-skill sources are deliberately left for loadContentSnapshot(), which
+ * can run after the learner has started.
+ */
+export async function loadEssentialContentSnapshot(
+    studiedWordIds: Set<string>,
+    dueProgress: WordProgress[]
+): Promise<ContentSnapshot> {
+    const snapshot = emptySnapshot()
+    const vocabManifest = await safe(loadManifest, null)
+
+    if (!vocabManifest?.courses.length) return snapshot
+
+    snapshot.availableSources = ['vocabulary']
+
+    const needed = new Map<string, { courseId: string; lessonId: string }>()
+
+    for (const item of dueProgress) {
+        if (item.courseId && item.lessonId) {
+            needed.set(`${item.courseId}:${item.lessonId}`, { courseId: item.courseId, lessonId: item.lessonId })
+        }
+    }
+
+    const dueLessons = [...needed.values()]
+        .map(({ courseId, lessonId }) => vocabManifest.courses.find(course => course.id === courseId)?.lessons.find(lesson => lesson.id === lessonId))
+        .filter((lesson): lesson is NonNullable<typeof lesson> => !!lesson)
+
+    const candidateLessons = vocabManifest.courses
+        .slice(0, 2)
+        .flatMap(course => course.lessons.slice(0, 3))
+    const lessons = [...new Map([...dueLessons, ...candidateLessons].map(lesson => [lesson.file, lesson])).values()]
+    const loaded = await Promise.all(lessons.map(lesson => safe(() => loadLesson(lesson), [])))
+
+    for (const words of loaded) {
+        for (const word of words) {
+            const key = word.word.trim().toLowerCase()
+            const retrieval: RetrievalItem = {
+                english: word.word,
+                persian: word.meaning,
+                courseId: word.courseId,
+                lessonId: word.lessonId,
+                due: needed.has(`${word.courseId}:${word.lessonId}`),
+            }
+
+            if (retrieval.due) snapshot.wordIndex.set(key, retrieval)
+            if (snapshot.newWords.length < 8 && !retrieval.due && !studiedWordIds.has(key)) snapshot.newWords.push(retrieval)
+        }
+    }
+
+    return snapshot
+}
+
 export async function loadContentSnapshot(
     studiedWordIds: Set<string>,
     dueProgress: WordProgress[]
@@ -90,15 +157,14 @@ export async function loadContentSnapshot(
             }
         }
 
-        for (const { courseId, lessonId } of needed.values()) {
-            const lesson = vocabManifest.courses
+        const dueLessons = [...needed.values()]
+            .map(({ courseId, lessonId }) => vocabManifest.courses
                 .find(course => course.id === courseId)
-                ?.lessons.find(item => item.id === lessonId)
+                ?.lessons.find(item => item.id === lessonId))
+            .filter((lesson): lesson is NonNullable<typeof lesson> => !!lesson)
+        const dueWords = await Promise.all(dueLessons.map(lesson => safe(() => loadLesson(lesson), [])))
 
-            if (!lesson) continue
-
-            const words = await safe(() => loadLesson(lesson), [])
-
+        for (const words of dueWords) {
             for (const word of words) {
                 wordIndex.set(word.word.trim().toLowerCase(), {
                     english: word.word,
@@ -111,25 +177,23 @@ export async function loadContentSnapshot(
         }
 
         /* New words: first lessons in manifest order with unstudied words. */
-        for (const course of vocabManifest.courses.slice(0, 2)) {
-            for (const lesson of course.lessons.slice(0, 3)) {
+        const candidateLessons = vocabManifest.courses.slice(0, 2).flatMap(course => course.lessons.slice(0, 3))
+        const candidateWords = await Promise.all(candidateLessons.map(lesson => safe(() => loadLesson(lesson), [])))
+
+        for (const words of candidateWords) {
+            for (const word of words) {
                 if (newWords.length >= 8) break
+                if (studiedWordIds.has(word.word.trim().toLowerCase())) continue
 
-                const words = await safe(() => loadLesson(lesson), [])
-
-                for (const word of words) {
-                    if (newWords.length >= 8) break
-                    if (studiedWordIds.has(word.word.trim().toLowerCase())) continue
-
-                    newWords.push({
-                        english: word.word,
-                        persian: word.meaning,
-                        courseId: word.courseId,
-                        lessonId: word.lessonId,
-                        due: false,
-                    })
-                }
+                newWords.push({
+                    english: word.word,
+                    persian: word.meaning,
+                    courseId: word.courseId,
+                    lessonId: word.lessonId,
+                    due: false,
+                })
             }
+            if (newWords.length >= 8) break
         }
     }
 
@@ -206,8 +270,13 @@ export async function loadContentSnapshot(
     const careerManifest = await safe(loadCareerManifest, [])
     const careerQuestions: PlannerInput['careerQuestions'] = []
 
-    for (const section of careerManifest.filter(item => item.id === 'general' || item.id === 'remote')) {
-        const content = await safe(() => loadCareerSection(section), null)
+    const careerSections = await Promise.all(
+        careerManifest
+            .filter(item => item.id === 'general' || item.id === 'remote')
+            .map(section => safe(() => loadCareerSection(section), null))
+    )
+
+    for (const content of careerSections) {
 
         for (const question of content?.questions ?? []) {
             careerQuestions.push({ id: question.id, question: question.question })

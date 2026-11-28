@@ -52,6 +52,15 @@ describe('hardWords store', () => {
         ])
     })
 
+    it('keeps newly verified meanings when an existing word is saved again', () => {
+        const store = useHardWordsStore()
+
+        store.addWord('approach', 'رویکرد', { context: 'An approach to the problem.' })
+        store.addWord('approach', 'نزدیک شدن', { context: 'The train will approach.' })
+
+        expect(store.hardWords[0].meaning).toBe('رویکرد؛ نزدیک شدن')
+    })
+
     it('persists across store instances sharing the same localStorage key (single source of truth)', () => {
         const first = useHardWordsStore()
         first.addWord('consolidated', 'یکپارچه')

@@ -136,6 +136,29 @@ export const useJourneyStore = defineStore('journey', () => {
         save()
     }
 
+    /** Append background-planned activities without changing the learner's current step. */
+    function extendSession(sessionId: string, plan: JourneyPlan) {
+        const session = sessions.value.find(item => item.id === sessionId)
+
+        if (!session || session.completedAt !== null) return
+
+        const existing = new Set(session.plan.activities.map(activity => activity.id))
+        const additions = plan.activities.filter(activity => !existing.has(activity.id))
+
+        for (const activity of additions) session.statuses[activity.id] = 'pending'
+
+        session.plan = {
+            ...session.plan,
+            theme: session.plan.theme ?? plan.theme,
+            integratedUnit: session.plan.integratedUnit ?? plan.integratedUnit,
+            notes: [...new Set([...session.plan.notes, ...plan.notes])],
+            activities: [...session.plan.activities, ...additions],
+            totalEstimatedMinutes: session.plan.totalEstimatedMinutes + additions.reduce((total, activity) => total + activity.estimatedMinutes, 0),
+        }
+
+        save()
+    }
+
     function finishSession(sessionId: string) {
         const session = sessions.value.find(item => item.id === sessionId)
 
@@ -207,6 +230,7 @@ export const useJourneyStore = defineStore('journey', () => {
         startSession,
         addEvidence,
         completeActivity,
+        extendSession,
         finishSession,
         evidenceForSession,
         recentlyCompletedSourceIds,
