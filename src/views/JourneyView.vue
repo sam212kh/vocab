@@ -126,24 +126,84 @@ const roadmap = computed(() =>
 
 const currentStage = computed(() => currentRoadmapStage(roadmap.value))
 
+function activityTitle(activity: JourneyActivity): string {
+    return isPersian.value ? t(`journey.activity.${activity.kind}`) : activity.title
+}
+
+function activityReason(activity: JourneyActivity): string {
+    if (!isPersian.value) return activity.reason
+
+    return t(`journey.activity.${activity.kind}`)
+}
+
+function objectiveText(objective: string): string {
+    return isPersian.value ? t('journey.objective') : objective
+}
+
+function stageLabel(stage: string): string {
+    return isPersian.value ? t(`journey.stage.${stage}`) : stage
+}
+
 /* ---------- planning ---------- */
+
+let essentialSnapshotPromise: Promise<void> | null = null
+let backgroundSnapshotPromise: Promise<void> | null = null
 
 async function ensureSnapshot() {
     if (snapshot.value) return
 
+    if (essentialSnapshotPromise) return essentialSnapshotPromise
+
     loading.value = true
     loadError.value = ''
 
-    try {
-        const studied = new Set(wordProgressStore.progress.map(item => item.wordId))
-        const due = wordProgressStore.getDueWords()
+    essentialSnapshotPromise = (async () => {
+        try {
+            const studied = new Set(wordProgressStore.progress.map(item => item.wordId))
+            const due = wordProgressStore.getDueWords()
 
-        snapshot.value = await loadContentSnapshot(studied, due)
-    } catch (err) {
-        loadError.value = err instanceof Error ? err.message : 'Failed to load content'
-    } finally {
-        loading.value = false
-    }
+            snapshot.value = await loadEssentialContentSnapshot(studied, due)
+            console.debug('[DEBUG-JOURNEY] essential resolved')
+        } catch (err) {
+            console.debug('[DEBUG-JOURNEY] essential failed', err)
+            loadError.value = err instanceof Error ? err.message : 'Failed to load essential content'
+        } finally {
+            loading.value = false
+            console.debug('[DEBUG-JOURNEY] loading false')
+            essentialSnapshotPromise = null
+        }
+    })()
+
+    return essentialSnapshotPromise
+}
+
+async function hydrateSnapshot(sessionId?: string) {
+    if (backgroundSnapshotPromise) return backgroundSnapshotPromise
+
+    backgroundPreparing.value = true
+    backgroundError.value = ''
+
+    backgroundSnapshotPromise = (async () => {
+        try {
+            const studied = new Set(wordProgressStore.progress.map(item => item.wordId))
+            const due = wordProgressStore.getDueWords()
+            const full = await loadContentSnapshot(studied, due)
+            snapshot.value = full
+
+            if (sessionId && journeyStore.activeSession?.id === sessionId) {
+                const fullPlan = planJourney(buildPlannerInput(length.value))
+                journeyStore.extendSession(sessionId, fullPlan)
+            }
+        } catch {
+            /* Essential vocabulary is already usable; optional sources degrade silently in the plan. */
+            backgroundError.value = 'Optional activities are temporarily unavailable.'
+        } finally {
+            backgroundPreparing.value = false
+            backgroundSnapshotPromise = null
+        }
+    })()
+
+    return backgroundSnapshotPromise
 }
 
 /** Transfer situations used in the last journeys (no-repeat). */
@@ -209,6 +269,7 @@ async function startJourney() {
     wrongKeys.value = []
     phase.value = 'running'
     resetActivityState()
+    void hydrateSnapshot(journeyStore.activeSession?.id)
 }
 
 function resumeJourney() {
@@ -406,7 +467,9 @@ function showConstructionHint() {
     const first = currentActivity.value?.construction?.modelSentences[0] ?? ''
     const start = first.split(/\s+/).slice(0, 2).join(' ')
 
-    constructionHint.value = start ? `Starts like: "${start}…"` : 'Think of the target expressions above.'
+    constructionHint.value = start
+        ? t('journey.startsLike', { start })
+        : t('journey.thinkTargets')
 }
 
 /** Deterministic check — length + target use only. Never presented as a grammar evaluation. */
@@ -597,13 +660,15 @@ function backHome() {
 
 const speakingEnabled = computed(() => sessionSettingsStore.settings.speakingEnabled)
 
-onMounted(async () => {
-    await ensureSnapshot()
-
+onMounted(() => {
     if (journeyStore.activeSession) {
         /* Interrupted journey: offer resume (do not silently continue). */
         phase.value = 'home'
+        return
     }
+
+    /* Essential readiness starts immediately, but never blocks the route shell. */
+    void ensureSnapshot()
 })
 /* ---------- presentation helpers (no learning logic) ---------- */
 
@@ -644,23 +709,22 @@ const FLOW = [
         <!-- ================= HOME ================= -->
         <div v-if="phase === 'home'" class="space-y-6" data-mode="overview">
             <PageHeader
-                eyebrow="Daily Journey"
-                title="Your journey for today"
+                :eyebrow="t('journey.eyebrow')"
+                :title="t('journey.title')"
                 serif
-                description="Built around what you need: recognize it, recall it, then use real English."
-                description-persian="تمرین امروز، متناسب با نیاز تو."
+                :description="t('journey.description')"
             />
 
             <div v-if="session" class="surface flex flex-col gap-4 border-amber-200 bg-amber-50 p-5 sm:flex-row sm:items-center">
                 <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-amber-700 shadow-sm"><AppIcon name="clock" /></span>
                 <div class="min-w-0 flex-1">
-                    <p class="font-semibold text-amber-800">You have an unfinished journey</p>
+                    <p class="font-semibold text-amber-800">{{ t('journey.resume') }}</p>
                     <p class="text-sm text-amber-700">{{ session.plan.objective }} · {{ doneCount }} of {{ session.plan.activities.length }} done</p>
                 </div>
-                <button type="button" class="btn bg-amber-600 text-white hover:bg-amber-700" @click="resumeJourney">Continue where you stopped</button>
+                <button type="button" class="btn bg-amber-600 text-white hover:bg-amber-700" @click="resumeJourney">{{ t('journey.resumeAction') }}</button>
             </div>
 
-            <StateBlock v-if="loadError" kind="error" :text="loadError" />
+            <StateBlock v-if="loadError" kind="error" :text="t('journey.loadError')" />
 
             <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-5 text-white shadow-md sm:p-8" aria-label="Start a journey">
                 <div class="pointer-events-none absolute inset-0" aria-hidden="true">
@@ -669,7 +733,7 @@ const FLOW = [
                 </div>
 
                 <div class="relative">
-                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">How long today?</p>
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">{{ t('journey.length') }}</p>
 
                     <div class="mt-3 grid grid-cols-3 gap-2" role="radiogroup" aria-label="Journey length">
                         <button
@@ -682,8 +746,8 @@ const FLOW = [
                             :class="length === option ? 'border-white bg-white text-[#243350] shadow-sm' : 'border-white/20 bg-white/5 text-white hover:bg-white/10'"
                             @click="length = option"
                         >
-                            <span class="block font-semibold">{{ LENGTH_LABEL[option] }}</span>
-                            <span class="block text-xs" :class="length === option ? 'text-[#243350]/70' : 'text-white/60'">about {{ JOURNEY_LENGTH_MINUTES[option] }} min</span>
+                            <span class="block font-semibold">{{ t(`journey.${option}`) }}</span>
+                            <span class="block text-xs" :class="length === option ? 'text-[#243350]/70' : 'text-white/60'">{{ t('journey.aboutMinutes', { minutes: String(JOURNEY_LENGTH_MINUTES[option]) }) }}</span>
                         </button>
                     </div>
 
@@ -699,20 +763,21 @@ const FLOW = [
                     </ol>
 
                     <button type="button" class="btn btn-lg mt-7 w-full bg-white !text-[#243350] shadow-sm hover:bg-gray-100" :disabled="loading" @click="startJourney">
-                        {{ loading ? 'Preparing your journey…' : "Start today's journey" }}
+                        {{ loading ? t('journey.loadingEssential') : t('journey.start') }}
                         <AppIcon v-if="!loading" name="chevron-right" :size="18" />
                     </button>
-                    <p v-if="session" class="mt-2 text-center text-xs text-white/60">Starting a new journey replaces the unfinished one.</p>
+                    <p v-if="loading" class="mt-2 text-center text-xs text-white/70" role="status">{{ t('journey.loadingEssential') }}</p>
+                    <p v-if="session" class="mt-2 text-center text-xs text-white/60">{{ t('journey.replacesUnfinished') }}</p>
                 </div>
             </section>
 
             <!-- Roadmap: a path, not a pile of cards -->
             <section aria-label="Your roadmap">
                 <div class="flex items-baseline justify-between gap-2">
-                    <h2 class="label">Your roadmap</h2>
-                    <RouterLink to="/learning-path" class="text-xs font-medium text-accent-ink hover:underline">View full learning path</RouterLink>
+                    <h2 class="label">{{ t('journey.roadmap') }}</h2>
+                    <RouterLink to="/learning-path" class="text-xs font-medium text-accent-ink hover:underline">{{ t('journey.viewPath') }}</RouterLink>
                 </div>
-                <p class="mb-3 mt-1 text-xs text-gray-400">Milestones based on what you have demonstrated, not certified CEFR levels. Nothing is locked out: every module stays open.</p>
+                    <p class="mb-3 mt-1 text-xs text-gray-400">{{ t('journey.roadmapDescription') }}</p>
 
                 <RoadmapTimeline :roadmap="roadmap" :current-stage="currentStage" />
             </section>
@@ -720,11 +785,13 @@ const FLOW = [
 
         <!-- ================= RUNNING ================= -->
         <div v-else-if="phase === 'running' && session && currentActivity" data-mode="practice">
+            <p v-if="backgroundPreparing" class="mb-3 rounded-xl bg-accent-soft px-3 py-2 text-xs text-accent-ink" role="status">{{ t('journey.preparingRemaining') }}</p>
+            <p v-else-if="backgroundError" class="mb-3 rounded-xl bg-amber-50 px-3 py-2 text-xs text-amber-800" role="status">{{ t('journey.optionalUnavailable') }}</p>
             <header class="mb-4">
                 <div class="flex items-center justify-between gap-3">
-                    <p class="eyebrow">Activity {{ Math.min(doneCount + 1, session.plan.activities.length) }} of {{ session.plan.activities.length }}</p>
+                    <p class="eyebrow">{{ t('journey.activity', { current: String(Math.min(doneCount + 1, session.plan.activities.length)), total: String(session.plan.activities.length) }) }}</p>
                     <span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold" :class="STAGE_TONE[currentActivity.stage]">
-                        <span class="capitalize">{{ KIND_LABEL[currentActivity.kind] ?? currentActivity.stage }}</span> <span class="font-normal opacity-70">· ~{{ currentActivity.estimatedMinutes }} min</span>
+                        <span class="capitalize">{{ isPersian ? activityTitle(currentActivity) : (KIND_LABEL[currentActivity.kind] ?? currentActivity.stage) }}</span> <span class="font-normal opacity-70">· {{ t('journey.aboutMinutes', { minutes: String(currentActivity.estimatedMinutes) }) }}</span>
                     </span>
                 </div>
 
@@ -739,21 +806,21 @@ const FLOW = [
                     />
                 </ol>
 
-                <p class="mt-3 text-sm text-gray-500"><span class="font-semibold text-gray-700">Today:</span> {{ session.plan.objective }}</p>
+                <p class="mt-3 text-sm text-gray-500"><span class="font-semibold text-gray-700">{{ t('journey.today') }}</span> {{ objectiveText(session.plan.objective) }}</p>
                 <div v-if="session.plan.integratedUnit" class="mt-3 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3">
-                    <p class="text-xs font-semibold uppercase tracking-wide text-accent-ink">Integrated practice</p>
+                    <p class="text-xs font-semibold uppercase tracking-wide text-accent-ink">{{ t('journey.integrated') }}</p>
                     <p class="mt-1 text-sm text-gray-700">{{ session.plan.integratedUnit.objective }}</p>
                     <p class="mt-1 text-xs text-gray-500">{{ session.plan.integratedUnit.skills.join(' · ') }}</p>
                 </div>
             </header>
 
             <div class="surface p-5 sm:p-7">
-                <h2 class="text-xl font-bold tracking-tight text-gray-900">{{ currentActivity.title }}</h2>
-                <p class="mt-1 text-sm text-gray-400">{{ currentActivity.reason }}</p>
+                <h2 class="text-xl font-bold tracking-tight text-gray-900">{{ activityTitle(currentActivity) }}</h2>
+                <p class="mt-1 text-sm text-gray-400">{{ activityReason(currentActivity) }}</p>
 
                 <!-- NEW MATERIAL: introduction only (exposure — nothing is tested or scored) -->
                 <div v-if="currentActivity.kind === 'new-material-intro' && currentActivity.introItems" class="mt-5" data-testid="intro">
-                    <p class="text-sm text-gray-500">Look and listen. Nothing is tested yet — recall comes after you have seen these.</p>
+                    <p class="text-sm text-gray-500">{{ t('journey.introInstruction') }}</p>
 
                     <ul class="mt-4 space-y-3">
                         <li v-for="intro in currentActivity.introItems" :key="intro.english" class="rounded-2xl bg-gray-50 p-4">
@@ -769,7 +836,7 @@ const FLOW = [
                         </li>
                     </ul>
 
-                    <button type="button" class="btn-primary btn-lg mt-5 w-full" data-testid="intro-done" @click="completeIntro">I've looked at these</button>
+                    <button type="button" class="btn-primary btn-lg mt-5 w-full" data-testid="intro-done" @click="completeIntro">{{ t('journey.introDone') }}</button>
                 </div>
 
                 <!-- RETRIEVAL (typed recall) -->
@@ -787,23 +854,23 @@ const FLOW = [
                         />
                         <p v-if="hintShown" class="mt-2 text-sm text-gray-500">Starts with: <b>{{ currentItem.english.slice(0, 2) }}…</b></p>
                         <div class="mt-4 flex gap-2">
-                            <button type="button" class="rounded-xl border px-4 py-3 text-sm text-gray-500 hover:bg-gray-50" @click="hint">Hint</button>
-                            <button type="submit" class="btn-primary btn-lg flex-1">Check</button>
+                            <button type="button" class="rounded-xl border px-4 py-3 text-sm text-gray-500 hover:bg-gray-50" @click="hint">{{ t('journey.hint') }}</button>
+                            <button type="submit" class="btn-primary btn-lg flex-1">{{ t('journey.check') }}</button>
                         </div>
                     </form>
 
                     <div v-else class="mt-6">
                         <p class="text-sm" :class="lastCorrect ? 'text-green-600' : 'text-red-600'">
-                            {{ lastCorrect ? (hintShown ? '✓ Correct (with a hint — it will come back sooner)' : '✓ Recalled!') : 'Not quite' }}
+                            {{ lastCorrect ? (hintShown ? t('journey.correctWithHint') : t('journey.recalled')) : t('journey.notQuite') }}
                         </p>
                         <div class="mt-2 rounded-xl bg-gray-50 p-3 text-left text-sm">
-                            <p class="text-xs text-gray-500">Your answer</p>
-                            <p class="font-medium text-gray-800">{{ answer || '(nothing)' }}</p>
-                            <p class="mt-2 text-xs text-gray-500">Correct answer</p>
+                            <p class="text-xs text-gray-500">{{ t('journey.yourAnswer') }}</p>
+                            <p class="font-medium text-gray-800">{{ answer || t('journey.nothing') }}</p>
+                            <p class="mt-2 text-xs text-gray-500">{{ t('journey.correctAnswer') }}</p>
                             <p class="font-medium text-gray-800">{{ currentItem.english }} <SpeechButton :text="currentItem.english" lang="en-US" /></p>
                         </div>
                         <button type="button" class="btn-primary btn-lg mt-4 w-full" @click="nextRetrieval">
-                            Next
+                            {{ t('journey.next') }}
                         </button>
                     </div>
                 </div>
@@ -818,7 +885,7 @@ const FLOW = [
                         class="btn-primary btn-lg mt-5 w-full"
                         @click="nextExercise"
                     >
-                        Next
+                        {{ t('journey.next') }}
                     </button>
                 </div>
 
@@ -829,7 +896,7 @@ const FLOW = [
                     <p v-if="currentActivity.transfer" class="mt-3 rounded-xl bg-accent-soft p-3 text-sm text-accent-ink" data-testid="transfer-note">
                         New situation. You already know “{{ currentActivity.transfer.anchorExpression }}” — use the same kind of language here, in your own words.
                     </p>
-                    <p class="mt-3 text-xs text-gray-500">Try to use: <b>{{ currentActivity.construction.targetExpressions.join(', ') }}</b></p>
+                    <p class="mt-3 text-xs text-gray-500">{{ t('journey.tryToUse') }}: <b>{{ currentActivity.construction.targetExpressions.join(', ') }}</b></p>
 
                     <textarea
                         v-model="answer"
@@ -844,27 +911,27 @@ const FLOW = [
                     <p v-if="constructionAttempt > 1 && constructionPhase === 'writing'" class="mt-2 text-xs text-gray-500">
                         Attempt {{ constructionAttempt }} — edit your sentence and try again. Retries count as practice, not as independent production.
                     </p>
-                    <p v-if="constructionHint" class="mt-2 text-xs text-amber-700">{{ constructionHint }} <span class="text-gray-400">(hint — this answer won't count as independent)</span></p>
+                    <p v-if="constructionHint" class="mt-2 text-xs text-amber-700">{{ constructionHint }} <span class="text-gray-400">({{ t('journey.hintNotIndependent') }})</span></p>
 
                     <!-- writing -->
                     <template v-if="constructionPhase === 'writing'">
                         <button type="button" class="btn-primary btn-lg mt-3 w-full" data-testid="construction-submit" :disabled="!answer.trim()" @click="submitConstruction">
-                            {{ aiSettingsStore.settings.enabled ? 'Check my sentence' : 'Submit' }}
+                            {{ aiSettingsStore.settings.enabled ? t('journey.checkSentence') : t('journey.submit') }}
                         </button>
                         <button v-if="!constructionHint && constructionAttempt === 1" type="button" class="mt-1 inline-flex min-h-11 w-full items-center justify-center text-sm text-gray-500 hover:text-gray-800" @click="showConstructionHint">
                             Need a hint?
                         </button>
-                        <p v-if="!aiSettingsStore.settings.enabled" class="mt-2 text-xs text-gray-400">AI feedback is off in AI Settings — this will be a basic check (length and expression use only).</p>
+                    <p v-if="!aiSettingsStore.settings.enabled" class="mt-2 text-xs text-gray-400">{{ t('journey.aiOff') }}</p>
                     </template>
 
                     <!-- evaluating -->
-                    <p v-else-if="constructionPhase === 'evaluating'" class="mt-3 text-center text-sm text-gray-500" data-testid="evaluating">Checking your sentence…</p>
+                    <p v-else-if="constructionPhase === 'evaluating'" class="mt-3 text-center text-sm text-gray-500" data-testid="evaluating">{{ t('journey.checkingSentence') }}</p>
 
                     <!-- provider unavailable: answer preserved, nothing fabricated -->
                     <div v-else-if="constructionPhase === 'unavailable'" class="mt-3 space-y-2 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm" data-testid="eval-unavailable">
                         <p class="text-amber-800">{{ evaluationUnavailable }}</p>
                         <p class="text-xs text-amber-700">Your answer is saved here. No feedback or score was recorded.</p>
-                        <button type="button" class="btn-primary btn-lg w-full" data-testid="eval-retry" @click="submitConstruction">Retry AI feedback</button>
+                        <button type="button" class="btn-primary btn-lg w-full" data-testid="eval-retry" @click="submitConstruction">{{ t('journey.retryFeedback') }}</button>
                         <button type="button" class="w-full rounded-xl border bg-white px-4 py-2.5 text-gray-700 hover:bg-gray-50" data-testid="basic-check" @click="recordBasicCheck">
                             Continue with a basic check (length + expression use only)
                         </button>
@@ -884,22 +951,22 @@ const FLOW = [
                             @retry="retryConstruction"
                         />
                         <TransferInsight v-if="currentActivity.transfer?.learn" :learn="currentActivity.transfer.learn" />
-                        <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="btn-primary btn-lg mt-4 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
-                        <button v-else type="button" class="mt-3 w-full text-xs text-gray-400 hover:text-gray-700" @click="finishActivity()">Move on without retrying</button>
+                        <button v-if="evaluation.passed || !canRetryConstruction" type="button" class="btn-primary btn-lg mt-4 w-full" data-testid="construction-next" @click="finishActivity()">{{ t('journey.next') }}</button>
+                        <button v-else type="button" class="mt-3 w-full text-xs text-gray-400 hover:text-gray-700" @click="finishActivity()">{{ t('journey.moveOn') }}</button>
                     </template>
 
                     <!-- basic (deterministic) check -->
                     <div v-else-if="constructionPhase === 'basic-done'" class="mt-4 space-y-2 text-sm" data-testid="basic-result">
-                        <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">Basic check — not a grammar evaluation</p>
+                        <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ t('journey.basicCheck') }}</p>
                         <p :class="constructionUsed.length ? 'text-green-600' : 'text-amber-600'">
-                            {{ constructionUsed.length ? `✓ You used: ${constructionUsed.join(', ')}` : 'Try to include one of the target expressions next time.' }}
+                            {{ constructionUsed.length ? t('journey.usedTargets', { targets: constructionUsed.join(', ') }) : t('journey.tryTargetsNextTime') }}
                         </p>
-                        <p class="text-xs text-gray-400">This checks length and expression use only — it can't judge your grammar or meaning. Compare with these model sentences:</p>
+                        <p class="text-xs text-gray-400">{{ t('journey.basicCheckDescription') }}</p>
                         <p v-for="model in currentActivity.construction.modelSentences" :key="model" class="rounded-lg bg-gray-50 p-2 text-gray-700">
                             {{ model }} <SpeechButton :text="model" lang="en-US" />
                         </p>
                         <TransferInsight v-if="currentActivity.transfer?.learn" :learn="currentActivity.transfer.learn" />
-                        <button type="button" class="btn-primary btn-lg mt-2 w-full" data-testid="construction-next" @click="finishActivity()">Next</button>
+                        <button type="button" class="btn-primary btn-lg mt-2 w-full" data-testid="construction-next" @click="finishActivity()">{{ t('journey.next') }}</button>
                     </div>
                 </div>
 
@@ -912,40 +979,40 @@ const FLOW = [
                     </p>
 
                     <div v-if="!speakingEnabled || !voiceSupported" class="mt-4 rounded-xl bg-gray-50 p-3 text-sm text-gray-500">
-                        {{ speakingEnabled ? 'Speech recognition is not supported in this browser.' : 'Speaking is turned off in your settings.' }}
+                        {{ speakingEnabled ? t('journey.speechUnsupported') : t('journey.speakingOff') }}
                         Read it aloud on your own — no speaking evidence is recorded.
                     </div>
                     <template v-else>
-                        <button v-if="!isListening && !speakResult" type="button" class="mt-5 rounded-full bg-accent px-8 py-3 text-white hover:bg-accent-strong" @click="speakCurrent">Speak</button>
-                        <p v-else-if="isListening" class="mt-5 text-gray-500">Listening…</p>
+                        <button v-if="!isListening && !speakResult" type="button" class="mt-5 rounded-full bg-accent px-8 py-3 text-white hover:bg-accent-strong" @click="speakCurrent">{{ t('journey.speak') }}</button>
+                        <p v-else-if="isListening" class="mt-5 text-gray-500">{{ t('journey.listening') }}</p>
                         <p v-if="voiceError" class="mt-2 text-xs text-red-500">{{ voiceError }}</p>
                         <div v-if="speakResult" class="mt-4 rounded-xl bg-gray-50 p-3 text-left text-sm">
-                            <p class="text-xs text-gray-500">You said</p>
+                            <p class="text-xs text-gray-500">{{ t('journey.youSaid') }}</p>
                             <p class="font-medium text-gray-800">{{ speakResult.transcript }}</p>
                             <p class="mt-1 text-xs text-gray-400">Transcript match {{ speakResult.score }}% — recognition similarity, not pronunciation scoring.</p>
                         </div>
                     </template>
 
                     <button type="button" class="btn-primary btn-lg mt-5 w-full" @click="nextSpeak">
-                        {{ speakIndex === currentActivity.speakingSentences.length - 1 ? 'Finish' : 'Next' }}
+                        {{ speakIndex === currentActivity.speakingSentences.length - 1 ? t('journey.finish') : t('journey.next') }}
                     </button>
                 </div>
 
                 <!-- HAND-OFF (roleplay / career live in their own modules) -->
                 <div v-else-if="currentActivity.route" class="mt-5 text-center">
-                    <p class="text-sm text-gray-600">This activity runs in its own module so you get the full experience.</p>
+                    <p class="text-sm text-gray-600">{{ t('journey.handoffDescription') }}</p>
                     <button type="button" class="btn-primary btn-lg mt-4 w-full" @click="openHandoff">
-                        Open it →
+                        {{ t('journey.open') }} →
                     </button>
                     <button type="button" class="mt-2 w-full rounded-xl border px-4 py-3 text-gray-600 hover:bg-gray-50" @click="confirmHandoffDone">
-                        I've done it — mark complete
+                        {{ t('journey.markComplete') }}
                     </button>
                 </div>
             </div>
 
             <div class="mt-3 flex justify-between text-sm text-gray-400">
-                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="skipActivity">Skip this activity</button>
-                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="endEarly">End journey</button>
+                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="skipActivity">{{ t('journey.skip') }}</button>
+                <button type="button" class="inline-flex min-h-11 items-center rounded-lg px-1 hover:text-gray-700" @click="endEarly">{{ t('journey.end') }}</button>
             </div>
         </div>
 
@@ -953,28 +1020,28 @@ const FLOW = [
         <div v-else-if="phase === 'summary' && summary" class="space-y-5" data-mode="overview">
             <header class="pt-2 text-center">
                 <span class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="30" /></span>
-                <h1 class="font-display mt-4 font-semibold">Journey complete</h1>
+                <h1 class="font-display mt-4 font-semibold">{{ t('journey.complete') }}</h1>
                 <p class="mt-1 text-sm text-gray-500">{{ summary.activitiesCompleted }} of {{ summary.activitiesTotal }} activities completed</p>
             </header>
 
             <div class="grid grid-cols-2 gap-3">
                 <div class="surface p-4">
-                    <p class="text-xs text-gray-400">Expressions met</p>
+                    <p class="text-xs text-gray-400">{{ t('journey.expressions') }}</p>
                     <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.expressionsEncountered }}</p>
                 </div>
                 <div class="surface p-4">
-                    <p class="text-xs text-gray-400">Recalled independently</p>
+                    <p class="text-xs text-gray-400">{{ t('journey.independent') }}</p>
                     <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.expressionsRecalledIndependently }}</p>
                 </div>
                 <div class="surface p-4">
-                    <p class="text-xs text-gray-400">Sentences you built</p>
+                    <p class="text-xs text-gray-400">{{ t('journey.sentences') }}</p>
                     <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.productiveAttempts }}</p>
                     <p v-if="summary.productiveAttempts" class="mt-1 text-xs text-gray-400" data-testid="production-breakdown">
                         {{ summary.production.independent }} unaided<template v-if="summary.production.hintAssisted"> · {{ summary.production.hintAssisted }} with hint</template><template v-if="summary.production.afterFeedback"> · {{ summary.production.afterFeedback }} retried after feedback</template><template v-if="summary.production.basicCheckOnly"> · {{ summary.production.basicCheckOnly }} basic check only</template>
                     </p>
                 </div>
                 <div class="surface p-4">
-                    <p class="text-xs text-gray-400">Practice effort</p>
+                    <p class="text-xs text-gray-400">{{ t('journey.effort') }}</p>
                     <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.effortScore }}</p>
                 </div>
             </div>
@@ -983,27 +1050,27 @@ const FLOW = [
                 <h2 class="label">By learning stage</h2>
                 <div v-for="(stats, stage) in summary.stageBreakdown" :key="stage" class="mt-3">
                     <div class="flex items-center justify-between text-sm">
-                        <span class="capitalize text-gray-700">{{ stage }}</span>
-                        <span class="tabular-nums text-gray-400">{{ stats.attempts ? `${stats.correct} of ${stats.attempts}` : 'not practiced' }}</span>
+                        <span class="capitalize text-gray-700">{{ stageLabel(stage) }}</span>
+                        <span class="tabular-nums text-gray-400">{{ stats.attempts ? t('journey.correctOf', { correct: String(stats.correct), total: String(stats.attempts) }) : t('journey.notPracticed') }}</span>
                     </div>
                     <div class="mt-1 h-1.5 overflow-hidden rounded-full bg-gray-100">
                         <div class="h-full rounded-full" :class="STAGE_BAR[stage]" :style="{ width: stats.attempts ? `${Math.round((stats.correct / stats.attempts) * 100)}%` : '0%' }" />
                     </div>
                 </div>
-                <p class="mt-4 text-xs text-gray-400">Recognition (choosing) and recall or production (you retrieving or writing) are tracked separately on purpose.</p>
+                <p class="mt-4 text-xs text-gray-400">{{ t('journey.stageDescription') }}</p>
             </section>
 
-            <p v-if="summary.skillsPracticed.length" class="text-sm text-gray-600">Skills practiced: <b>{{ summary.skillsPracticed.join(', ') }}</b></p>
+            <p v-if="summary.skillsPracticed.length" class="text-sm text-gray-600">{{ t('journey.skills') }}: <b>{{ summary.skillsPracticed.join(', ') }}</b></p>
 
             <section v-if="summary.mistakesWorthReviewing.length" class="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm">
-                <p class="font-semibold text-amber-800">Worth reviewing</p>
+                <p class="font-semibold text-amber-800">{{ t('journey.worthReviewing') }}</p>
                 <p class="mt-1 text-gray-700">{{ summary.mistakesWorthReviewing.join(' · ') }}</p>
-                <p class="mt-1 text-xs text-gray-500">Missed words are already rescheduled by spaced repetition.</p>
+                <p class="mt-1 text-xs text-gray-500">{{ t('journey.missedRescheduled') }}</p>
             </section>
 
-            <p class="rounded-2xl bg-accent-soft p-4 text-sm leading-relaxed text-accent-ink"><b>Next:</b> {{ summary.nextSuggestion }}</p>
+            <p class="rounded-2xl bg-accent-soft p-4 text-sm leading-relaxed text-accent-ink"><b>{{ t('journey.nextLabel') }}</b> {{ isPersian ? t('journey.nextSuggestion') : summary.nextSuggestion }}</p>
 
-            <button type="button" class="btn-primary btn-lg w-full" @click="backHome">Done</button>
+            <button type="button" class="btn-primary btn-lg w-full" @click="backHome">{{ t('journey.done') }}</button>
         </div>
     </div>
 </template>
