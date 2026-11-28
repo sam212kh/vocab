@@ -11,6 +11,7 @@
  */
 
 import { findClozeMatch } from './clozeMatching.ts'
+import { canonicalWord } from './vocabulary.ts'
 
 export interface RepoContent {
     /** Parsed JSON by path relative to public/data, e.g. `real-life/manifest.json`. */
@@ -707,8 +708,8 @@ function validateVocabulary(content: RepoContent, issues: Issue[]) {
                     ownSentences.add(key)
                 }
 
-                /* The headword with any parenthetical sense marker stripped, exactly as ClozeView.buildQuestion derives it. */
-                const headword = String(word.word).replace(/\s*\([^)]*\)/g, '').trim()
+                /* The headword with any parenthetical sense marker stripped — the same canonicalWord() the app's normalizeWord applies, so this validator sees exactly the headword the app will actually compare answers against. */
+                const headword = canonicalWord(String(word.word))
                 const headwordPattern = headword ? new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
                 const clozeVariants = Array.isArray(word.clozeVariants) ? word.clozeVariants.filter(str) : []
                 const clozeCandidates = headword ? [headword, ...clozeVariants] : []

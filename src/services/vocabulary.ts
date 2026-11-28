@@ -47,6 +47,25 @@ export function clearVocabularyCache(): void {
     lessonCache.clear()
 }
 
+/**
+ * Root cause of the "notice (n)" validation bug: a handful of content files
+ * bake a grammatical part-of-speech label straight into the `word` field
+ * (`"word": "notice (n)"`) instead of using the already-separate `pos`
+ * field, so the canonical answer silently became "notice (n)" everywhere —
+ * display, TTS, and answer comparison all read the same contaminated
+ * string. Two views (ClozeView, ListenGuessView) had independently patched
+ * this with their own local `stripSense()`; the other three recall screens
+ * (Practice, Session, Review) had not, which is why the bug only reproduced
+ * there. Stripping it once here, at the point every `Word` is built, means
+ * every consumer — comparison and display alike — gets the clean headword
+ * with no per-view patching, and the separate `pos` field (already
+ * rendered as its own badge wherever part of speech is shown) still
+ * carries the grammatical label for display.
+ */
+export function canonicalWord(value: string): string {
+    return value.replace(/\s*\([^)]*\)/g, '').trim()
+}
+
 function normalizeExample(value: unknown): Example {
     if (Array.isArray(value)) {
         return {
@@ -115,7 +134,7 @@ function normalizeWord(
     return {
         courseId: lesson.courseId ?? '',
         lessonId: lesson.id,
-        word: String(raw.word ?? '').trim(),
+        word: canonicalWord(String(raw.word ?? '')),
         meaning: String(raw.meaning ?? '').trim(),
         level: String(raw.level ?? '').trim(),
         pos: String(raw.pos ?? '').trim(),

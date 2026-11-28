@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { clearVocabularyCache, loadLesson, loadManifest } from './vocabulary'
+import { canonicalWord, clearVocabularyCache, loadLesson, loadManifest } from './vocabulary'
+import { answersMatch } from './textMatch'
 
 import type { LessonManifest, Manifest } from '../types/vocabulary'
 
@@ -124,6 +125,17 @@ describe('loadLesson', () => {
         expect(words[0].clozeVariants).toEqual(['ceased'])
     })
 
+    it('strips a part-of-speech label baked into the word field, without touching the separate pos field (the "notice (n)" bug)', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
+            { word: 'notice (n)', pos: 'noun', meaning: 'اعلامیه، اطلاعیه', examples: [] },
+        ])))
+
+        const words = await loadLesson(lesson)
+
+        expect(words[0].word).toBe('notice')
+        expect(words[0].pos).toBe('noun')
+    })
+
     it('normalizes examples given as {english, persian} objects', async () => {
         vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse([
             {
@@ -154,5 +166,53 @@ describe('loadLesson', () => {
         vi.stubGlobal('fetch', vi.fn().mockResolvedValue(jsonResponse({ not: 'an array' })))
 
         await expect(loadLesson(lesson)).rejects.toThrow('Invalid lesson format')
+    })
+})
+
+describe('canonicalWord', () => {
+    it('strips a trailing part-of-speech label in parentheses', () => {
+        expect(canonicalWord('notice (n)')).toBe('notice')
+        expect(canonicalWord('clarify (v)')).toBe('clarify')
+        expect(canonicalWord('clarity (n)')).toBe('clarity')
+        expect(canonicalWord('clear (adj)')).toBe('clear')
+        expect(canonicalWord('clearly (adv)')).toBe('clearly')
+    })
+
+    it('leaves an already-clean word untouched', () => {
+        expect(canonicalWord('notice')).toBe('notice')
+    })
+
+    it('trims surrounding whitespace', () => {
+        expect(canonicalWord('  notice (n)  ')).toBe('notice')
+    })
+})
+
+describe('"notice (n)" regression — the canonical answer must be accepted regardless of the display label', () => {
+    it('accepts the bare word when the expected display was "notice (n)"', () => {
+        expect(answersMatch(canonicalWord('notice (n)'), 'notice')).toBe(true)
+    })
+
+    it('accepts "clarify" when the expected display was "clarify (v)"', () => {
+        expect(answersMatch(canonicalWord('clarify (v)'), 'clarify')).toBe(true)
+    })
+
+    it('accepts "clarity" when the expected display was "clarity (n)"', () => {
+        expect(answersMatch(canonicalWord('clarity (n)'), 'clarity')).toBe(true)
+    })
+
+    it('is case-insensitive', () => {
+        expect(answersMatch(canonicalWord('notice (n)'), 'NOTICE')).toBe(true)
+    })
+
+    it('tolerates stray whitespace in the learner answer', () => {
+        expect(answersMatch(canonicalWord('notice (n)'), '  notice  ')).toBe(true)
+    })
+
+    it('still rejects a genuinely wrong, unrelated answer', () => {
+        expect(answersMatch(canonicalWord('notice (n)'), 'banana')).toBe(false)
+    })
+
+    it('does not blur distinct grammatical forms into each other', () => {
+        expect(answersMatch(canonicalWord('decide (v)'), 'decision')).toBe(false)
     })
 })

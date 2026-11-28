@@ -51,15 +51,12 @@ const currentMeanings = computed(() => {
 })
 const finished = computed(() => started.value && index.value >= words.value.length)
 
-function stripSense(word: string): string {
-    return word.replace(/\s*\([^)]*\)/g, '').trim()
-}
-
 async function playCurrent() {
     if (!currentWord.value) return
     playing.value = true
     try {
-        await speakAsync(stripSense(currentWord.value.word), 'en-US', { rate: getSpeechRate() })
+        /* currentWord.value.word is already the clean canonical headword — vocabulary.ts's normalizeWord strips any "(pos)" annotation at the source. */
+        await speakAsync(currentWord.value.word, 'en-US', { rate: getSpeechRate() })
     } finally {
         playing.value = false
     }
@@ -92,7 +89,7 @@ function checkAnswer() {
     if (!currentWord.value || revealed.value) return
 
     revealed.value = true
-    result.value = answersMatch(stripSense(currentWord.value.word), answer.value) ? 'correct' : 'wrong'
+    result.value = answersMatch(currentWord.value.word, answer.value) ? 'correct' : 'wrong'
 
     if (result.value === 'correct') {
         score.value++

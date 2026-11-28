@@ -52,12 +52,9 @@ const { t } = useLocale()
             <HardWordButton v-if="showSave" :word-id="word" :meaning="meaning" :source="source" />
         </div>
 
-        <p v-if="meanings.length <= 1" class="fa-text text-lg text-gray-900" lang="fa">
-            {{ meanings[0]?.text ?? meaning }}
+        <p class="fa-text text-lg text-gray-900" lang="fa">
+            {{ meanings.length ? meanings.map(entry => entry.text).join(' - ') : meaning }}
         </p>
-        <ol v-else class="fa-text list-inside list-decimal space-y-0.5 text-lg text-gray-900" lang="fa">
-            <li v-for="entry in meanings" :key="entry.text">{{ entry.text }}</li>
-        </ol>
 
         <p v-if="usage" class="fa-text rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900" lang="fa">
             {{ usage }}
@@ -84,7 +81,10 @@ const { t } = useLocale()
             </summary>
             <ul class="mt-2 space-y-3 border-t border-gray-100 pt-3">
                 <li v-for="(example, index) in examples" :key="index">
-                    <p class="wrap-anywhere text-sm text-gray-800" dir="ltr" lang="en">{{ example.english }}</p>
+                    <div class="flex items-start gap-2">
+                        <p class="wrap-anywhere flex-1 text-sm text-gray-800" dir="ltr" lang="en">{{ example.english }}</p>
+                        <AudioPlayer :text="example.english" size="sm" :label="example.english" />
+                    </div>
                     <p class="fa-text wrap-anywhere mt-0.5 text-sm text-gray-500" lang="fa">{{ example.persian }}</p>
                 </li>
             </ul>

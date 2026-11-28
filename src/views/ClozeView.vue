@@ -50,12 +50,9 @@ const availableLessons = computed(() => selectedCourse.value?.lessons ?? [])
 const current = computed(() => questions.value[index.value] ?? null)
 const finished = computed(() => started.value && index.value >= questions.value.length)
 
-function stripSense(word: string): string {
-    return word.replace(/\s*\([^)]*\)/g, '').trim()
-}
-
 function buildQuestion(word: Word): ClozeQuestion | null {
-    const headword = stripSense(word.word)
+    /* word.word is already the clean canonical headword — vocabulary.ts's normalizeWord strips any "(pos)" annotation at the source. */
+    const headword = word.word
     if (!headword) return null
 
     for (const example of word.examples) {
