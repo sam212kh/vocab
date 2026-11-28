@@ -108,6 +108,8 @@ export function primaryMeaning(word: Pick<Word, 'meaning'>): string {
 export interface ReviewPrompt {
     /** The Persian text to show as the main prompt. */
     text: string
+    /** Every authored Persian meaning available for this word, in source order. */
+    meanings: string[]
     /** True when another word in the pool shares the exact same primary meaning. */
     isAmbiguous: boolean
     /** A real example from this word's own data, shown as a smaller supporting line only when ambiguous. */
@@ -124,6 +126,7 @@ export interface ReviewPrompt {
  */
 export function pickReviewPrompt(word: Word, pool: readonly Word[]): ReviewPrompt {
     const text = primaryMeaning(word)
+    const meanings = getMeanings(word).map(entry => entry.text)
     const normalizedSelf = word.word.trim().toLowerCase()
     const key = text.toLowerCase()
 
@@ -133,7 +136,7 @@ export function pickReviewPrompt(word: Word, pool: readonly Word[]): ReviewPromp
 
     const contextExample = isAmbiguous ? (word.examples.find(example => example.english && example.persian) ?? null) : null
 
-    return { text, isAmbiguous, contextExample }
+    return { text, meanings, isAmbiguous, contextExample }
 }
 
 /** Distinct English synonyms with a real Persian gloss — used where only "also known as" chips make sense (not a full meanings list). */

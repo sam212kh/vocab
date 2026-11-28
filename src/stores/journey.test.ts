@@ -43,6 +43,19 @@ describe('journey store', () => {
         expect(Object.values(session.statuses).every(status => status === 'pending')).toBe(true)
     })
 
+    it('extends an active session without changing the current activity or duplicating ids', () => {
+        const store = useJourneyStore()
+        const initial = store.startSession(plan())
+        const currentId = initial.plan.activities[0].id
+        const extra = plan([theme('second-theme')])
+
+        store.extendSession(initial.id, extra)
+
+        expect(store.activeSession?.currentIndex).toBe(0)
+        expect(store.activeSession?.plan.activities[0].id).toBe(currentId)
+        expect(new Set(store.activeSession!.plan.activities.map(activity => activity.id)).size).toBe(store.activeSession!.plan.activities.length)
+    })
+
     it('advances through activities and completes the session after the last one', () => {
         const store = useJourneyStore()
         const session = store.startSession(plan())

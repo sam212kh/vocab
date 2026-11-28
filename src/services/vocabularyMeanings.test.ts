@@ -90,6 +90,15 @@ describe('primaryMeaning', () => {
 })
 
 describe('pickReviewPrompt — contextual prompts disambiguate similar words', () => {
+    it('exposes every verified meaning for the recall prompt', () => {
+        const item = word({
+            meaning: 'به دست آوردن؛ کسب کردن',
+            synonyms: [{ word: 'get', meaning: 'گرفتن' }],
+        })
+
+        expect(pickReviewPrompt(item, [item]).meanings).toEqual(['به دست آوردن', 'کسب کردن', 'گرفتن'])
+    })
+
     it('two words sharing the same primary meaning are both flagged ambiguous, with a real example as context', () => {
         const obtain = word({
             word: 'obtain',
@@ -106,10 +115,12 @@ describe('pickReviewPrompt — contextual prompts disambiguate similar words', (
 
         const obtainPrompt = pickReviewPrompt(obtain, pool)
         expect(obtainPrompt.isAmbiguous).toBe(true)
+        expect(obtainPrompt.meanings).toEqual(['به دست آوردن'])
         expect(obtainPrompt.contextExample).toEqual(obtain.examples[0])
 
         const achievePrompt = pickReviewPrompt(achieve, pool)
         expect(achievePrompt.isAmbiguous).toBe(true)
+        expect(achievePrompt.meanings).toEqual(['به دست آوردن'])
         expect(achievePrompt.contextExample).toEqual(achieve.examples[0])
     })
 

@@ -22,7 +22,7 @@ const prompt = computed(() => pickReviewPrompt(props.word, props.pool))
 
 <template>
     <div>
-        <p class="fa-text wrap-anywhere text-lg text-gray-900" lang="fa">{{ prompt.text }}</p>
+        <p class="fa-text wrap-anywhere text-lg text-gray-900" lang="fa">{{ prompt.meanings.join(' - ') }}</p>
         <p v-if="prompt.isAmbiguous && prompt.contextExample" class="fa-text mt-1.5 text-sm text-gray-400" lang="fa">
             {{ prompt.contextExample.persian }}
         </p>

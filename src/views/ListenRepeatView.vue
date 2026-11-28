@@ -714,13 +714,13 @@ onMounted(async () => {
                     {{ currentMeanings[0]?.text ?? currentWord.meaning }}
                 </p>
 
-                <ol
+                <div
                     v-else
-                    class="fa-text mt-3 list-inside list-decimal space-y-0.5 text-lg text-gray-600"
+                    class="fa-text mt-3 space-y-1 text-lg text-gray-600"
                     lang="fa"
                 >
-                    <li v-for="entry in currentMeanings" :key="entry.text">{{ entry.text }}</li>
-                </ol>
+                    <p v-for="entry in currentMeanings" :key="entry.text">{{ entry.text }}</p>
+                </div>
 
                 <details v-if="currentWord.examples?.length" class="mt-4 text-left group">
                     <summary class="inline-flex min-h-11 cursor-pointer items-center gap-1 text-sm font-medium text-accent-ink select-none">

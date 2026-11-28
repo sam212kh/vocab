@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppIcon from '../components/ui/AppIcon.vue'
 import { computed, onMounted, ref } from 'vue'
+import { useLocale } from '../services/locale'
 
 import { useWordProgressStore } from '../stores/wordProgress'
 import { useSessionSettingsStore } from '../stores/sessionSettings'
@@ -47,6 +48,7 @@ const wordProgressStore =
     useWordProgressStore()
 
 const sessionSettingsStore = useSessionSettingsStore()
+const { t, isPersian } = useLocale()
 
 const {
     isSupported,
@@ -363,206 +365,47 @@ onMounted(() => {
 </script>
 
 <template>
-    <div>
-        <div class="mb-8 flex flex-wrap items-start justify-between gap-4">
-            <div>
-                <h1>Review Due Words</h1>
-                <p class="mt-2 text-gray-500">
-                    Due reviews mixed with a few new words — interleaved, not blocked.
-                </p>
+    <div class="session-page mx-auto max-w-5xl" :dir="isPersian ? 'rtl' : 'ltr'">
+        <header class="rounded-[1.75rem] border border-gray-200/80 bg-white/90 p-5 shadow-[0_12px_36px_rgba(31,45,61,0.06)] sm:p-6">
+            <div class="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                    <p class="eyebrow text-accent-ink">{{ t('session.eyebrow') }}</p>
+                    <h1 class="mt-2 font-display text-3xl font-semibold tracking-tight text-gray-950 sm:text-4xl">{{ t('session.title') }}</h1>
+                    <p class="mt-2 max-w-2xl text-sm leading-6 text-gray-500">{{ t('session.description') }}</p>
+                </div>
+                <button type="button" role="switch" :aria-checked="sessionSettingsStore.settings.speakingEnabled" :aria-label="t('session.speakingToggle')" class="inline-flex min-h-11 items-center gap-2 self-start rounded-xl border px-4 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/25" :class="sessionSettingsStore.settings.speakingEnabled ? 'border-accent bg-accent text-white hover:bg-accent-strong' : 'border-gray-200 bg-white text-gray-600 hover:bg-gray-50'" :title="sessionSettingsStore.settings.speakingEnabled ? t('session.speakingOnTitle') : t('session.speakingOffTitle')" @click="sessionSettingsStore.toggleSpeaking"><AppIcon name="mic" :size="16" /><span>{{ sessionSettingsStore.settings.speakingEnabled ? t('session.speakingOn') : t('session.speakingOff') }}</span></button>
             </div>
+        </header>
 
-            <button
-                type="button"
-                role="switch"
-                :aria-checked="sessionSettingsStore.settings.speakingEnabled"
-                aria-label="Speaking practice"
-                class="flex min-h-11 items-center gap-2 rounded-xl border px-4 text-sm transition"
-                :class="sessionSettingsStore.settings.speakingEnabled
-                    ? 'border-accent bg-accent text-white hover:bg-accent-strong'
-                    : 'border-gray-200 text-gray-500 hover:bg-gray-100'"
-                :title="sessionSettingsStore.settings.speakingEnabled
-                    ? 'Speaking step is on — click to skip it in this session'
-                    : 'Speaking step is off — click to include it again'"
-                @click="sessionSettingsStore.toggleSpeaking"
-            >
-                <AppIcon name="mic" :size="16" />
-                <span>{{ sessionSettingsStore.settings.speakingEnabled ? 'Speaking on' : 'Speaking off' }}</span>
-            </button>
-        </div>
+        <div v-if="error" class="mt-4 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800" role="alert">{{ t('session.loadError') }}</div>
+        <div v-if="loading" class="mt-5 rounded-[1.75rem] border border-gray-200 bg-white px-6 py-16 text-center" role="status"><span class="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-accent-soft text-accent-ink"><AppIcon name="refresh" :size="22" /></span><p class="mt-4 font-semibold text-gray-800">{{ t('session.loading') }}</p></div>
 
-        <div v-if="error" class="mb-6 rounded-lg bg-red-50 p-4 text-red-600">
-            {{ error }}
-        </div>
+        <div v-else-if="isCompleted" class="mx-auto mt-5 max-w-2xl rounded-[1.75rem] border border-gray-200 bg-white px-6 py-16 text-center shadow-[0_12px_36px_rgba(31,45,61,0.06)]"><span class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700"><AppIcon name="check" :size="30" /></span><p class="eyebrow mt-6 text-emerald-700">{{ t('session.completeTitle') }}</p><p class="mt-3 text-sm text-gray-500">{{ t('session.completeDescription', { due: String(dueCount), fresh: String(newCount) }) }}</p><button type="button" class="btn-primary btn-lg mt-8" @click="restart">{{ t('session.startAnother') }}</button></div>
 
-        <div v-if="loading" class="py-12 text-center text-gray-500">
-            Building your session...
-        </div>
+        <main v-else-if="currentWord" class="mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_16rem] lg:items-start">
+            <section class="min-w-0">
+                <div class="mb-4 rounded-2xl border border-gray-200/80 bg-white/80 px-4 py-3 sm:px-5"><div class="flex items-center justify-between gap-4 text-sm"><div><p class="font-semibold text-gray-900">{{ t('session.position', { current: String(currentIndex + 1), total: String(words.length) }) }}</p><p class="mt-0.5 text-xs text-gray-500">{{ dueCount }} {{ t('session.dueShort') }} · {{ newCount }} {{ t('session.newShort') }}</p></div><span class="rounded-full bg-accent-soft px-3 py-1 text-xs font-bold text-accent-ink">{{ progressPercent }}%</span></div><div class="mt-3 h-2 overflow-hidden rounded-full bg-gray-100" role="progressbar" :aria-label="t('session.progressAria')" :aria-valuenow="progressPercent" aria-valuemin="0" aria-valuemax="100"><div class="h-full rounded-full bg-accent transition-[width] duration-300" :style="{ width: `${progressPercent}%` }" /></div></div>
 
-        <div
-            v-else-if="isCompleted"
-            class="mx-auto max-w-2xl rounded-2xl border bg-white p-12 text-center shadow-sm"
-        >
-            <span class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="26" /></span>
-            <h2 class="mt-6 text-2xl font-bold">Session Complete</h2>
-            <p class="mt-3 text-gray-500">
-                {{ dueCount }} due + {{ newCount }} new words covered.
-            </p>
-            <button
-                type="button"
-                class="btn-primary btn-lg mt-8"
-                @click="restart"
-            >
-                Start another session
-            </button>
-        </div>
-
-        <div v-else-if="currentWord" class="mx-auto max-w-2xl">
-            <div class="mb-6">
-                <div class="mb-2 flex justify-between text-sm text-gray-500">
-                    <span>Word {{ currentIndex + 1 }} of {{ words.length }}</span>
-                    <span>{{ progressPercent }}%</span>
-                </div>
-                <div class="h-2 overflow-hidden rounded-full bg-gray-200">
-                    <div
-                        class="h-full rounded-full bg-accent transition-all duration-300"
-                        :style="{ width: `${progressPercent}%` }"
-                    />
-                </div>
-            </div>
-
-            <div class="rounded-2xl border bg-white p-8 text-center shadow-sm">
-                <!-- RECALL -->
-                <div v-if="phase === 'recall'">
-                    <p class="text-sm font-medium uppercase tracking-wide text-gray-400">
-                        Recall
-                    </p>
-                    <h2 class="mt-2 text-2xl font-bold">What's the word?</h2>
-
-                    <div class="mt-10">
-                        <WordRecallPrompt :word="currentWord" :pool="words" />
-                        <SpeechButton :text="currentWord.meaning" lang="fa-IR" />
+                <article class="overflow-hidden rounded-[1.75rem] border border-gray-200 bg-white shadow-[0_18px_50px_rgba(31,45,61,0.08)]">
+                    <div class="flex items-center justify-between border-b border-gray-100 px-5 py-4 sm:px-7"><div><p class="eyebrow text-accent-ink">{{ phase === 'recall' ? t('session.recallLabel') : phase === 'speak' ? t('session.speakLabel') : t('session.resultLabel') }}</p><p class="mt-1 text-xs text-gray-400">{{ currentWord.pos }}</p></div><SpeechButton :text="currentWord.word" lang="en-US" :label="t('session.playEnglish')" /></div>
+                    <div class="p-5 sm:p-8">
+                        <div v-if="phase === 'recall'">
+                            <h2 class="font-display text-3xl font-semibold tracking-tight text-gray-950 sm:text-4xl">{{ t('session.recallTitle') }}</h2><p class="mt-2 text-sm leading-6 text-gray-500">{{ t('session.recallInstruction') }}</p>
+                            <div class="mt-7 rounded-2xl bg-[#f6f7f3] px-5 py-7 text-center sm:px-8"><p class="eyebrow text-gray-500">{{ t('session.meaningLabel') }}</p><div class="mt-4"><WordRecallPrompt :word="currentWord" :pool="words" /></div><SpeechButton :text="currentWord.meaning" lang="fa-IR" :label="t('session.playPersian')" /></div>
+                            <form v-if="!recallRevealed" class="mt-5" @submit.prevent="submitRecall"><label for="session-answer" class="sr-only">{{ t('session.answerLabel') }}</label><input id="session-answer" v-model="recallAnswer" autofocus autocomplete="off" :placeholder="t('session.answerPlaceholder')" class="field min-h-14 w-full text-center text-xl" /><button type="submit" class="btn-primary btn-lg mt-4 w-full">{{ t('session.check') }}</button></form>
+                            <div v-else class="mt-6"><div class="rounded-2xl border border-gray-100 bg-gray-50/80 p-5"><WordMeaningsBlock :word="currentWord.word" :meaning="currentWord.meaning" :pos="currentWord.pos" :synonyms="currentWord.synonyms" :examples="currentWord.examples" show-save /></div><div class="mt-4 flex items-start gap-3 rounded-2xl bg-amber-50 px-4 py-3 text-amber-900" role="status"><AppIcon :name="recallCorrect ? 'check' : 'help'" :size="19" /><p class="text-sm font-semibold">{{ recallCorrect ? t('session.correct') : t('session.said', { answer: recallAnswer || t('session.noAnswer') }) }}</p></div><button type="button" class="btn-primary btn-lg mt-5 w-full" @click="proceedToSpeak">{{ sessionSettingsStore.settings.speakingEnabled ? t('session.continueSpeaking') : t('session.continue') }}</button></div>
+                        </div>
+                        <div v-else-if="phase === 'speak'">
+                            <div class="text-center"><p class="eyebrow text-accent-ink">{{ t('session.speakLabel') }}</p><h2 class="mt-3 font-display text-4xl font-semibold tracking-tight text-gray-950" dir="ltr" lang="en">{{ currentWord.word }}</h2><p class="mt-2 text-sm text-gray-500">{{ t('session.speakingInstruction') }}</p></div>
+                            <div class="mt-7 rounded-[1.5rem] border border-gray-200 bg-[#f8faf8] p-6 text-center"><div class="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-accent-soft text-accent-ink"><AppIcon name="mic" :size="34" /></div><p class="mt-4 font-semibold text-gray-900">{{ isListening ? t('session.listening') : t('session.readyToSpeak') }}</p><button v-if="!isListening" type="button" class="btn-primary btn-lg mt-5 min-w-48" :disabled="!isSupported" @click="practiceCurrentWord"><AppIcon name="mic" :size="18" />{{ t('session.startSpeaking') }}</button><div v-else class="mt-5 font-semibold text-accent-ink">{{ t('session.listening') }}</div><p v-if="!isSupported" class="mt-3 text-sm text-red-700" role="alert">{{ t('session.speechUnsupported') }}</p><p v-else-if="speechError" class="mt-3 text-sm text-amber-800" role="status">{{ t('session.speechError') }}</p></div><button type="button" class="mt-5 w-full rounded-xl py-3 text-sm font-semibold text-gray-500 hover:bg-gray-50" @click="skipSpeaking">{{ t('session.skipSpeaking') }}</button>
+                        </div>
+                        <div v-else>
+                            <div class="flex items-start gap-3 rounded-2xl p-4" :class="pronunciationCorrect ? 'bg-emerald-50 text-emerald-900' : 'bg-amber-50 text-amber-950'" role="status"><span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl" :class="pronunciationCorrect ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'"><AppIcon :name="pronunciationCorrect ? 'check' : 'help'" :size="20" /></span><div><p class="font-semibold">{{ pronunciationCorrect ? t('session.pronunciationGood') : t('session.keepPracticing') }}</p><p v-if="pronunciationScore !== null" class="mt-1 text-sm opacity-80">{{ t('session.score', { score: String(pronunciationScore) }) }}</p></div></div><div class="mt-5 rounded-2xl border border-gray-100 bg-gray-50/80 p-5"><WordMeaningsBlock :word="currentWord.word" :meaning="currentWord.meaning" :pos="currentWord.pos" :synonyms="currentWord.synonyms" :examples="currentWord.examples" show-save /></div><div v-if="transcript" class="mt-4 rounded-2xl border border-gray-200 bg-white px-4 py-3" dir="auto"><p class="text-xs font-semibold uppercase tracking-wide text-gray-400">{{ t('session.youSaid') }}</p><p class="mt-1 text-lg font-semibold text-gray-900">{{ transcript }}</p></div><button type="button" class="btn-primary btn-lg mt-5 w-full" @click="nextWord">{{ currentIndex === words.length - 1 ? t('session.finish') : t('session.next') }}</button>
+                        </div>
                     </div>
-
-                    <form v-if="!recallRevealed" class="mt-8" @submit.prevent="submitRecall">
-                        <input
-                            v-model="recallAnswer"
-                            autofocus
-                            autocomplete="off"
-                            placeholder="Type the English word..."
-                            class="field w-full text-center text-xl"
-                        />
-                        <button
-                            type="submit"
-                            class="btn-primary btn-lg mt-5 w-full"
-                        >
-                            Check
-                        </button>
-                    </form>
-
-                    <div v-else class="mt-8 text-left">
-                        <WordMeaningsBlock
-                            :word="currentWord.word"
-                            :meaning="currentWord.meaning"
-                            :pos="currentWord.pos"
-                            :synonyms="currentWord.synonyms"
-                            :examples="currentWord.examples"
-                        />
-
-                        <p
-                            class="mt-4 text-lg font-semibold"
-                            :class="recallCorrect ? 'text-green-600' : 'text-red-600'"
-                        >
-                            {{
-                                recallCorrect
-                                    ? 'Correct!'
-                                    : `You said: ${recallAnswer || '(nothing)'}`
-                            }}
-                        </p>
-
-                        <button
-                            type="button"
-                            class="btn-primary btn-lg mt-8"
-                            @click="proceedToSpeak"
-                        >
-                            {{ sessionSettingsStore.settings.speakingEnabled
-                                ? 'Continue to speaking →'
-                                : 'Continue →' }}
-                        </button>
-                    </div>
-                </div>
-
-                <!-- SPEAK -->
-                <div v-else-if="phase === 'speak'">
-                    <p class="text-sm font-medium uppercase tracking-wide text-gray-400">
-                        Speak
-                    </p>
-                    <h2 class="mt-2 text-2xl font-bold">Say the word</h2>
-
-                    <p class="mt-10 text-4xl font-bold">{{ currentWord.word }}</p>
-
-                    <button
-                        v-if="!isListening"
-                        type="button"
-                        class="mt-10 rounded-full bg-accent px-8 py-4 text-lg text-white hover:bg-accent-strong disabled:opacity-50"
-                        :disabled="!isSupported"
-                        @click="practiceCurrentWord"
-                    >
-                        Start Speaking
-                    </button>
-
-                    <div v-else class="mt-10 rounded-lg bg-gray-100 px-8 py-4 text-gray-600">
-                        Listening...
-                    </div>
-
-                    <p v-if="!isSupported" class="mt-4 text-sm text-red-500">
-                        Speech recognition is not supported in this browser.
-                    </p>
-                    <p v-if="speechError" class="mt-4 text-sm text-red-500">
-                        {{ speechError }}
-                    </p>
-
-                    <div class="mt-8">
-                        <button type="button" class="text-sm text-gray-500 hover:text-black" @click="skipSpeaking">
-                            Skip speaking →
-                        </button>
-                    </div>
-                </div>
-
-                <!-- RESULT -->
-                <div v-else-if="phase === 'result'">
-                    <p class="text-sm font-medium uppercase tracking-wide text-gray-400">
-                        Result
-                    </p>
-                    <h2 class="mt-2 text-2xl font-bold">{{ currentWord.word }}</h2>
-
-                    <div v-if="pronunciationScore !== null" class="mt-8">
-                        <div class="text-5xl font-bold">{{ pronunciationScore }}%</div>
-                        <p
-                            v-if="pronunciationCorrect"
-                            class="mt-3 text-lg font-semibold text-green-600"
-                        >
-                            Pronunciation good
-                        </p>
-                        <p v-else class="mt-3 text-lg font-semibold text-red-600">
-                            Keep practicing pronunciation
-                        </p>
-                    </div>
-
-                    <div v-if="transcript" class="mt-6 rounded-xl bg-gray-50 p-4">
-                        <p class="text-sm text-gray-500">You said:</p>
-                        <p class="mt-1 font-medium">{{ transcript }}</p>
-                    </div>
-
-                    <button
-                        type="button"
-                        class="btn-primary btn-lg mt-8 w-full"
-                        @click="nextWord"
-                    >
-                        {{ currentIndex === words.length - 1 ? 'Finish session' : 'Next word' }}
-                    </button>
-                </div>
-            </div>
-        </div>
+                </article>
+            </section>
+            <aside class="hidden rounded-[1.5rem] border border-gray-200/80 bg-white/75 p-5 lg:block"><p class="eyebrow text-gray-400">{{ t('session.sessionInfo') }}</p><p class="mt-3 font-display text-4xl font-semibold tabular-nums text-gray-950">{{ words.length - currentIndex }}</p><p class="mt-1 text-sm text-gray-500">{{ t('session.wordsRemaining') }}</p><div class="my-5 h-px bg-gray-100" /><p class="text-xs font-semibold uppercase tracking-wide text-gray-400">{{ t('session.learningPath') }}</p><p class="mt-2 text-sm leading-6 text-gray-700">{{ phase === 'recall' ? t('session.recallStep') : phase === 'speak' ? t('session.speakingStep') : t('session.feedbackStep') }}</p></aside>
+        </main>
     </div>
 </template>

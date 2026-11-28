@@ -163,18 +163,21 @@ async function ensureSnapshot() {
             const due = wordProgressStore.getDueWords()
 
             snapshot.value = await loadEssentialContentSnapshot(studied, due)
-            console.debug('[DEBUG-JOURNEY] essential resolved')
         } catch (err) {
-            console.debug('[DEBUG-JOURNEY] essential failed', err)
             loadError.value = err instanceof Error ? err.message : 'Failed to load essential content'
         } finally {
             loading.value = false
-            console.debug('[DEBUG-JOURNEY] loading false')
             essentialSnapshotPromise = null
         }
     })()
 
     return essentialSnapshotPromise
+}
+
+function retryEssentialSnapshot() {
+    snapshot.value = null
+    loadError.value = ''
+    void ensureSnapshot()
 }
 
 async function hydrateSnapshot(sessionId?: string) {
@@ -658,6 +661,27 @@ function backHome() {
     phase.value = 'home'
 }
 
+function skillLabel(skill: string): string {
+    return isPersian.value ? t(`journey.skill.${skill}`) : skill
+}
+
+function skillList(skills: string[]): string {
+    return skills.map(skillLabel).join(isPersian.value ? ' · ' : ' · ')
+}
+
+function productionBreakdown(): string {
+    if (!summary.value) return ''
+
+    const parts = [
+        summary.value.production.independent ? t('journey.unaided', { count: String(summary.value.production.independent) }) : '',
+        summary.value.production.hintAssisted ? t('journey.withHint', { count: String(summary.value.production.hintAssisted) }) : '',
+        summary.value.production.afterFeedback ? t('journey.afterFeedback', { count: String(summary.value.production.afterFeedback) }) : '',
+        summary.value.production.basicCheckOnly ? t('journey.basicCheckOnly', { count: String(summary.value.production.basicCheckOnly) }) : '',
+    ].filter(Boolean)
+
+    return parts.join(' · ')
+}
+
 const speakingEnabled = computed(() => sessionSettingsStore.settings.speakingEnabled)
 
 onMounted(() => {
@@ -693,13 +717,11 @@ const STAGE_BAR: Record<string, string> = {
     fluency: 'bg-amber-600/80',
 }
 
-const LENGTH_LABEL: Record<JourneyLength, string> = { quick: 'Quick', standard: 'Standard', extended: 'Extended' }
-
 const FLOW = [
-    { label: 'Recognize', icon: 'target' },
-    { label: 'Recall', icon: 'repeat' },
-    { label: 'Produce', icon: 'pen' },
-    { label: 'Speak', icon: 'mic' },
+    { key: 'recognize', icon: 'target' },
+    { key: 'recall', icon: 'repeat' },
+    { key: 'produce', icon: 'pen' },
+    { key: 'speak', icon: 'mic' },
 ]
 
 </script>
@@ -719,14 +741,14 @@ const FLOW = [
                 <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-amber-700 shadow-sm"><AppIcon name="clock" /></span>
                 <div class="min-w-0 flex-1">
                     <p class="font-semibold text-amber-800">{{ t('journey.resume') }}</p>
-                    <p class="text-sm text-amber-700">{{ session.plan.objective }} · {{ doneCount }} of {{ session.plan.activities.length }} done</p>
+                <p class="text-sm text-amber-700">{{ objectiveText(session.plan.objective) }} · {{ t('journey.doneCount', { done: String(doneCount), total: String(session.plan.activities.length) }) }}</p>
                 </div>
                 <button type="button" class="btn bg-amber-600 text-white hover:bg-amber-700" @click="resumeJourney">{{ t('journey.resumeAction') }}</button>
             </div>
 
-            <StateBlock v-if="loadError" kind="error" :text="t('journey.loadError')" />
+            <StateBlock v-if="loadError" kind="error" :title="t('journey.loadError')" :text="t('journey.checkConnection')" :action-label="t('journey.retry')" @action="retryEssentialSnapshot" />
 
-            <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-5 text-white shadow-md sm:p-8" aria-label="Start a journey">
+            <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2c3f66] via-[#243350] to-[#19243b] p-5 text-white shadow-md sm:p-8" :aria-label="t('journey.startAria')">
                 <div class="pointer-events-none absolute inset-0" aria-hidden="true">
                     <div class="absolute -right-16 -top-24 h-72 w-72 rounded-full bg-white/[0.06]" />
                     <div class="absolute -bottom-28 left-1/3 h-64 w-64 rounded-full bg-learn-500/15" />
@@ -735,7 +757,7 @@ const FLOW = [
                 <div class="relative">
                     <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/60">{{ t('journey.length') }}</p>
 
-                    <div class="mt-3 grid grid-cols-3 gap-2" role="radiogroup" aria-label="Journey length">
+                    <div class="mt-3 grid grid-cols-3 gap-2" role="radiogroup" :aria-label="t('journey.lengthAria')">
                         <button
                             v-for="option in (['quick', 'standard', 'extended'] as JourneyLength[])"
                             :key="option"
@@ -752,11 +774,11 @@ const FLOW = [
                     </div>
 
                     <!-- What a journey is made of -->
-                    <ol class="mt-6 flex items-center" aria-label="What a journey contains">
-                        <template v-for="(step, index) in FLOW" :key="step.label">
+                    <ol class="mt-6 flex items-center" :aria-label="t('journey.containsAria')">
+                        <template v-for="(step, index) in FLOW" :key="step.key">
                             <li class="flex flex-col items-center gap-1.5 text-center">
                                 <span class="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white ring-1 ring-white/20"><AppIcon :name="step.icon" :size="18" /></span>
-                                <span class="text-[0.7rem] font-medium text-white/75 sm:text-xs">{{ step.label }}</span>
+                                <span class="text-[0.7rem] font-medium text-white/75 sm:text-xs">{{ t(`journey.flow.${step.key}`) }}</span>
                             </li>
                             <li v-if="index < FLOW.length - 1" class="mb-5 h-px flex-1 bg-white/20" aria-hidden="true" />
                         </template>
@@ -772,7 +794,7 @@ const FLOW = [
             </section>
 
             <!-- Roadmap: a path, not a pile of cards -->
-            <section aria-label="Your roadmap">
+            <section :aria-label="t('journey.roadmapAria')">
                 <div class="flex items-baseline justify-between gap-2">
                     <h2 class="label">{{ t('journey.roadmap') }}</h2>
                     <RouterLink to="/learning-path" class="text-xs font-medium text-accent-ink hover:underline">{{ t('journey.viewPath') }}</RouterLink>
@@ -795,7 +817,7 @@ const FLOW = [
                     </span>
                 </div>
 
-                <ol class="mt-3 flex gap-1.5" aria-label="Journey progress">
+                <ol class="mt-3 flex gap-1.5" :aria-label="t('journey.progressAria')">
                     <li
                         v-for="(activity, i) in session.plan.activities"
                         :key="activity.id"
@@ -810,7 +832,7 @@ const FLOW = [
                 <div v-if="session.plan.integratedUnit" class="mt-3 rounded-2xl border border-accent/20 bg-accent-soft px-4 py-3">
                     <p class="text-xs font-semibold uppercase tracking-wide text-accent-ink">{{ t('journey.integrated') }}</p>
                     <p class="mt-1 text-sm text-gray-700">{{ session.plan.integratedUnit.objective }}</p>
-                    <p class="mt-1 text-xs text-gray-500">{{ session.plan.integratedUnit.skills.join(' · ') }}</p>
+                    <p class="mt-1 text-xs text-gray-500">{{ skillList(session.plan.integratedUnit.skills) }}</p>
                 </div>
             </header>
 
@@ -841,7 +863,7 @@ const FLOW = [
 
                 <!-- RETRIEVAL (typed recall) -->
                 <div v-else-if="currentActivity.kind === 'vocab-retrieval' && currentItem" class="mt-6 text-center">
-                    <p class="text-xs text-gray-400">{{ itemIndex + 1 }} / {{ currentActivity.retrievalItems!.length }} — type the English</p>
+                    <p class="text-xs text-gray-400">{{ itemIndex + 1 }} / {{ currentActivity.retrievalItems!.length }} — {{ t('journey.typeEnglishShort') }}</p>
                     <p class="mt-3 break-words text-2xl font-semibold text-gray-900" dir="rtl">{{ currentItem.persian }}</p>
 
                     <form v-if="!revealed" class="mt-6" @submit.prevent="submitRetrieval">
@@ -849,10 +871,10 @@ const FLOW = [
                             v-model="answer"
                             autocomplete="off"
                             autocapitalize="off"
-                            placeholder="Type the English…"
+                            :placeholder="t('journey.typeEnglish')"
                             class="field w-full text-center text-lg"
                         />
-                        <p v-if="hintShown" class="mt-2 text-sm text-gray-500">Starts with: <b>{{ currentItem.english.slice(0, 2) }}…</b></p>
+                        <p v-if="hintShown" class="mt-2 text-sm text-gray-500">{{ t('journey.startsWith') }} <b>{{ currentItem.english.slice(0, 2) }}…</b></p>
                         <div class="mt-4 flex gap-2">
                             <button type="button" class="rounded-xl border px-4 py-3 text-sm text-gray-500 hover:bg-gray-50" @click="hint">{{ t('journey.hint') }}</button>
                             <button type="submit" class="btn-primary btn-lg flex-1">{{ t('journey.check') }}</button>
@@ -904,7 +926,7 @@ const FLOW = [
                         dir="auto"
                         data-testid="construction-input"
                         :disabled="constructionPhase === 'evaluating' || constructionPhase === 'feedback' || constructionPhase === 'basic-done'"
-                        placeholder="Write your own sentence(s) in English…"
+                        :placeholder="t('journey.writeSentence')"
                         class="field mt-3 w-full"
                     />
 
@@ -930,7 +952,7 @@ const FLOW = [
                     <!-- provider unavailable: answer preserved, nothing fabricated -->
                     <div v-else-if="constructionPhase === 'unavailable'" class="mt-3 space-y-2 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm" data-testid="eval-unavailable">
                         <p class="text-amber-800">{{ evaluationUnavailable }}</p>
-                        <p class="text-xs text-amber-700">Your answer is saved here. No feedback or score was recorded.</p>
+                        <p class="text-xs text-amber-700">{{ t('journey.answerSaved') }}</p>
                         <button type="button" class="btn-primary btn-lg w-full" data-testid="eval-retry" @click="submitConstruction">{{ t('journey.retryFeedback') }}</button>
                         <button type="button" class="w-full rounded-xl border bg-white px-4 py-2.5 text-gray-700 hover:bg-gray-50" data-testid="basic-check" @click="recordBasicCheck">
                             Continue with a basic check (length + expression use only)
@@ -972,7 +994,7 @@ const FLOW = [
 
                 <!-- SPEAKING (voice only) -->
                 <div v-else-if="currentActivity.kind === 'speaking' && currentActivity.speakingSentences" class="mt-5 text-center">
-                    <p class="text-xs text-gray-400">{{ speakIndex + 1 }} / {{ currentActivity.speakingSentences.length }} — say it aloud</p>
+                    <p class="text-xs text-gray-400">{{ speakIndex + 1 }} / {{ currentActivity.speakingSentences.length }} — {{ t('journey.sayAloud') }}</p>
                     <p class="mt-3 text-xl font-semibold text-gray-900">
                         {{ currentActivity.speakingSentences[speakIndex] }}
                         <SpeechButton :text="currentActivity.speakingSentences[speakIndex]" lang="en-US" />
@@ -1021,7 +1043,7 @@ const FLOW = [
             <header class="pt-2 text-center">
                 <span class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent-soft text-accent-ink"><AppIcon name="check" :size="30" /></span>
                 <h1 class="font-display mt-4 font-semibold">{{ t('journey.complete') }}</h1>
-                <p class="mt-1 text-sm text-gray-500">{{ summary.activitiesCompleted }} of {{ summary.activitiesTotal }} activities completed</p>
+                <p class="mt-1 text-sm text-gray-500">{{ t('journey.activitiesCompleted', { completed: String(summary.activitiesCompleted), total: String(summary.activitiesTotal) }) }}</p>
             </header>
 
             <div class="grid grid-cols-2 gap-3">
@@ -1036,9 +1058,7 @@ const FLOW = [
                 <div class="surface p-4">
                     <p class="text-xs text-gray-400">{{ t('journey.sentences') }}</p>
                     <p class="font-display mt-1 text-3xl font-semibold tabular-nums text-gray-900">{{ summary.productiveAttempts }}</p>
-                    <p v-if="summary.productiveAttempts" class="mt-1 text-xs text-gray-400" data-testid="production-breakdown">
-                        {{ summary.production.independent }} unaided<template v-if="summary.production.hintAssisted"> · {{ summary.production.hintAssisted }} with hint</template><template v-if="summary.production.afterFeedback"> · {{ summary.production.afterFeedback }} retried after feedback</template><template v-if="summary.production.basicCheckOnly"> · {{ summary.production.basicCheckOnly }} basic check only</template>
-                    </p>
+                    <p v-if="summary.productiveAttempts" class="mt-1 text-xs text-gray-400" data-testid="production-breakdown">{{ productionBreakdown() }}</p>
                 </div>
                 <div class="surface p-4">
                     <p class="text-xs text-gray-400">{{ t('journey.effort') }}</p>
@@ -1047,7 +1067,7 @@ const FLOW = [
             </div>
 
             <section class="surface p-5">
-                <h2 class="label">By learning stage</h2>
+                <h2 class="label">{{ t('journey.byStage') }}</h2>
                 <div v-for="(stats, stage) in summary.stageBreakdown" :key="stage" class="mt-3">
                     <div class="flex items-center justify-between text-sm">
                         <span class="capitalize text-gray-700">{{ stageLabel(stage) }}</span>
@@ -1060,7 +1080,7 @@ const FLOW = [
                 <p class="mt-4 text-xs text-gray-400">{{ t('journey.stageDescription') }}</p>
             </section>
 
-            <p v-if="summary.skillsPracticed.length" class="text-sm text-gray-600">{{ t('journey.skills') }}: <b>{{ summary.skillsPracticed.join(', ') }}</b></p>
+            <p v-if="summary.skillsPracticed.length" class="text-sm text-gray-600">{{ t('journey.skills') }}: <b>{{ summary.skillsPracticed.map(skillLabel).join(isPersian ? '، ' : ', ') }}</b></p>
 
             <section v-if="summary.mistakesWorthReviewing.length" class="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm">
                 <p class="font-semibold text-amber-800">{{ t('journey.worthReviewing') }}</p>
